@@ -4,10 +4,11 @@ import React from 'react';
 import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import Button from './Button';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useSitePathname } from '@/app/_hooks/useSitePathname';
 
 export default function Footer() {
-    const pathname = usePathname();
+    const pathname = useSitePathname();
+    // const pathname = usePathname();  ## use this if it was a standalone project
 
     const navItems = [
         { name: 'Home', href: '/' },

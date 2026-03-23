@@ -2,11 +2,12 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useSitePathname } from '@/app/_hooks/useSitePathname';
 import { Phone, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
-    const pathname = usePathname();
+    const pathname = useSitePathname();
+    // const pathname = usePathname();  ## use this if it was a standalone project
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navItems = [

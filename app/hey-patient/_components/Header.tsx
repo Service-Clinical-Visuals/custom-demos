@@ -2,14 +2,15 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { Activity, Menu, X, Globe } from "lucide-react";
 import { Button } from "./Button";
+import { useSitePathname } from "@/app/_hooks/useSitePathname";
 
 export const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const pathname = usePathname();
+    const pathname = useSitePathname();
+    // const pathname = usePathname();  ## use this if it was a standalone project
 
     const isVisualPage = pathname === "/heyPatient-visuals";
 

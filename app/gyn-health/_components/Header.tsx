@@ -3,7 +3,7 @@ import { ChevronsRight, Menu, X } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useSitePathname } from '@/app/_hooks/useSitePathname';
 
 
 const topNav = [
@@ -25,7 +25,8 @@ const subNav = [
 ];
 
 export default function Header() {
-    const pathname = usePathname();
+    const pathname = useSitePathname();
+    // const pathname = usePathname();  ## use this if it was a standalone project
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
 
