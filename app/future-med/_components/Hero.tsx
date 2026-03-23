@@ -12,19 +12,36 @@ export default function Hero() {
   ];
 
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [nextVideoIndex, setNextVideoIndex] = useState(1);
+  const [fade, setFade] = useState(false);
 
   const handleVideoEnd = () => {
-    setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
+    setFade(true); // Trigger fade out of top video
+    setTimeout(() => {
+      // Move to next indices after fade
+      const newActive = nextVideoIndex;
+      const newNext = (nextVideoIndex + 1) % bannerVideos.length;
+      setCurrentVideoIndex(newActive);
+      setNextVideoIndex(newNext);
+      setFade(false); // Reset fade for next cycle
+    }, 500); // Match transition duration
   };
 
   return (
     <section className="relative w-full h-screen bg-slate-800 flex items-end justify-center overflow-hidden pb-16">
       {/* Background Video Layer */}
       <div className="absolute inset-0 z-0">
-        {/* Placeholder styling to show where video will go before user replaces URL */}
-        <div className="absolute inset-0 flex items-center justify-center z-[-1]">
-          Video Space
-        </div>
+        {/* Underlay Video (the next one) */}
+        <video
+          src={bannerVideos[nextVideoIndex]}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        ></video>
+
+        {/* Overlay Video (the current one) */}
         <video
           key={currentVideoIndex}
           src={bannerVideos[currentVideoIndex]}
@@ -32,7 +49,7 @@ export default function Hero() {
           muted
           playsInline
           onEnded={handleVideoEnd}
-          className="w-full h-full object-cover"
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${fade ? 'opacity-0' : 'opacity-100'}`}
         ></video>
       </div>
 
