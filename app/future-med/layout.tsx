@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${urbanist.className} antialiased flex flex-col min-h-screen`}
       >
         <AOSInit />
-        <Topbar />
+        {/* <Topbar />*/}
         <Header />
         <main className="flex-1 w-full flex flex-col items-center">
           {children}

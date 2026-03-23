@@ -100,7 +100,7 @@ export default function AboutSection() {
             <img
               src={`/invotec/assets/Group 79.png`}
               alt="Medical Team"
-              className="w-full h-auto object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
 

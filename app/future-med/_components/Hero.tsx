@@ -4,8 +4,11 @@ import React, { useState } from 'react';
 
 export default function Hero() {
   const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/sleepnet/landingpage/sleepnet_01.webm",
-    "https://cdn.clinicalvisuals.com/medical/sleepnet/landingpage/sleepnet_02.webm",
+    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_1.webm",
+    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_2.webm",
+    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_3.webm",
+    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_4.webm",
+    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_5.webm",
   ];
 
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);

@@ -36,7 +36,7 @@ export default function InfoBlocks() {
           <div className="w-full lg:w-1/2" data-aos="fade-left">
             <div className="w-full aspect-4/3 bg-gray-100 rounded-lg overflow-hidden shadow-lg">
               <video
-                src="https://cdn.clinicalvisuals.com/medical/sleepnet/landingpage/sleepnet_01.webm"
+                src="https://cdn.clinicalvisuals.com/medical/futuremeds/short_clips/ecostand_clips_01.webm"
                 className="w-full h-full object-cover"
                 autoPlay
                 muted
@@ -80,7 +80,7 @@ export default function InfoBlocks() {
           <div className="w-full lg:w-1/2" data-aos="fade-right">
             <div className="w-full aspect-4/3 bg-gray-100 rounded-lg overflow-hidden shadow-lg">
               <video
-                src="https://cdn.clinicalvisuals.com/medical/sleepnet/landingpage/sleepnet_02.webm"
+                src="https://cdn.clinicalvisuals.com/medical/futuremeds/short_clips/ecostand_clips_03.webm"
                 className="w-full h-full object-cover"
                 autoPlay
                 muted
