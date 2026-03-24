@@ -18,7 +18,7 @@ export default function Insight() {
       <div className="container mx-auto px-4 max-w-[1200px] -mt-32 mb-24 relative z-10">
         <div className="w-full aspect-[16/9] rounded-2xl bg-[#E2EAF4] shadow-[0_20px_50px_rgba(0,0,0,0.4)] overflow-hidden" data-aos="zoom-in" data-aos-delay="200">
           <video
-            src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm"
+            src="https://cdn.clinicalvisuals.com/medical/medStorm/360/medstrom-aria_flex%20mattress_360.webm"
             autoPlay
             muted
             loop

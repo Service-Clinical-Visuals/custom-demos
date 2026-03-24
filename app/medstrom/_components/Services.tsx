@@ -71,7 +71,7 @@ const servicesCards = [
 
 export default function Services() {
   return (
-    <section className="py-24 overflow-hidden" id="services">
+    <section className="py-20 overflow-hidden" id="services">
       <div className="container mx-auto px-4">
         {/* ── Section header ─────────────────────────────── */}
         <div className="grid grid-cols-1 md:grid-cols-12 mb-8 items-end gap-6">
@@ -133,37 +133,37 @@ export default function Services() {
               1024: { slidesPerView: 3, spaceBetween: 0, centeredSlides: false },
             }}
           >
-          {servicesCards.map((card) => (
-            <SwiperSlide key={card.id} className="!h-auto group/slide border-r border-[#DDDDDD] sm:border-l-0">
-              <div className="flex flex-col h-full bg-transparent px-6 lg:px-10 py-12 transition-all duration-500">
-                {/* Header: Icon + Title */}
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-[64px] h-[64px] bg-white rounded-lg flex items-center justify-center shadow-sm shrink-0 p-3">
-                    <img src={icons[card.icon]} alt={card.title} className="w-full h-full object-contain" />
+            {servicesCards.map((card) => (
+              <SwiperSlide key={card.id} className="!h-auto group/slide border-r border-[#DDDDDD] sm:border-l-0">
+                <div className="flex flex-col h-full bg-transparent px-6 lg:px-10 py-12 transition-all duration-500">
+                  {/* Header: Icon + Title */}
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-[64px] h-[64px] bg-white rounded-lg flex items-center justify-center shadow-sm shrink-0 p-3">
+                      <img src={icons[card.icon]} alt={card.title} className="w-full h-full object-contain" />
+                    </div>
+                    <h3 className="text-[18px] font-bold text-[#1C2D4A] leading-tight">
+                      {card.title}
+                    </h3>
                   </div>
-                  <h3 className="text-[18px] font-bold text-[#1C2D4A] leading-tight">
-                    {card.title}
-                  </h3>
-                </div>
 
-                {/* Description */}
-                <p className="text-[13px] text-[#555] leading-relaxed mb-8 flex-1">
-                  {card.description}
-                </p>
+                  {/* Description */}
+                  <p className="text-[13px] text-[#555] leading-relaxed mb-8 flex-1">
+                    {card.description}
+                  </p>
 
-                {/* Link */}
-                <div className="mt-auto">
-                  <Link
-                    href="#"
-                    className="relative inline-block font-bold text-[14px] text-[#4BCBF5] transition-colors group/link"
-                  >
-                    View Services
-                    <span className="absolute left-0 bottom-[-4px] w-[10%] h-[2px] bg-[#2A317A] transition-all duration-500 ease-in-out group-hover/link:w-full"></span>
-                  </Link>
+                  {/* Link */}
+                  <div className="mt-auto">
+                    <Link
+                      href="#"
+                      className="relative inline-block font-bold text-[14px] text-[#4BCBF5] transition-colors group/link"
+                    >
+                      View Services
+                      <span className="absolute left-0 bottom-[-4px] w-[10%] h-[2px] bg-[#2A317A] transition-all duration-500 ease-in-out group-hover/link:w-full"></span>
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          ))}
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
