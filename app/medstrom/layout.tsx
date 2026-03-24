@@ -9,7 +9,7 @@ const nunitoSans = Nunito_Sans({
   display: "swap",
 });
 
-// Commit to main brach
+// Commit to main brach with video CDN and product images
 export const metadata: Metadata = {
   icons: {
     icon: "/medstrom/images/icon.png",
