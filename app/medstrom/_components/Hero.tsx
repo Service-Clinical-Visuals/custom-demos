@@ -54,7 +54,7 @@ export default function Hero() {
                     className="absolute inset-0 w-full h-full object-cover z-0 bg-black"
                 ></video>
                 {/* Optional dark overlay to ensure text legibility */}
-                <div className="absolute inset-0 bg-[#1C2D4A]/40 z-[1] mix-blend-multiply"></div>
+                {/* <div className="absolute inset-0 bg-[#1C2D4A]/40 z-[1] mix-blend-multiply"></div> */}
             </div>
 
             {/* Hero Swiper */}
