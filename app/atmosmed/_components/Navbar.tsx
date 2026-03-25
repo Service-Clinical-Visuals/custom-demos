@@ -55,7 +55,7 @@ export default function Navbar() {
           {navLinks.map((link) => (
             <a
               key={link.label}
-              className={link.active ? "text-blue-600" : "hover:text-blue-400"}
+              className={link.active ? "text-[#16679b] font-semibold" : "hover:text-[#16679b]"}
             >
               {link.label}
             </a>

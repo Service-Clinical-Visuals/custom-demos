@@ -1,35 +1,33 @@
 "use client";
 
-import Image from "next/image";
-
 export default function WhyChooseUs() {
   const features = [
     {
       title: "Innovative Medical Technology",
       desc: "Advanced medical devices designed to improve clinical precision and patient care.",
-      icon: "/assets/brain.png"
+      icon: "/atmosmed/assets/brain.png"
     },
     {
       title: "Complete Medical Solutions",
       desc: "End-to-end services from procurement and installation to modernization and maintenance.",
-      icon: "/assets/think.png"
+      icon: "/atmosmed//assets/think.png"
     },
     {
       title: "Complete Medical Supply",
       desc: "Lorem ipsum or lipsum as it is sometimes known",
-      icon: "/assets/care.png"
+      icon: "/atmosmed/assets/care.png"
     },
   ];
 
   return (
     <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6">
-
+        
         <div className="grid md:grid-cols-2 gap-12 items-center">
-
+          
           {/* LEFT CONTENT */}
           <div>
-
+            
             {/* Label */}
             <p
               data-aos="fade-up"
@@ -53,10 +51,7 @@ export default function WhyChooseUs() {
               data-aos-delay="200"
               className="text-gray-600 text-base leading-relaxed mb-8"
             >
-              ATMOS offers medical professionals all over the world not only
-              first-class medical technology devices and products, but also
-              complete service relating to procurement, modernization, and
-              maintenance.
+              We as ATMOS are always on the move and have been since our start in a pharmacy in Berlin. As a major manufacturer of medical solutions from the Black Forest in Germany, we value our roots.
             </p>
 
             {/* FEATURES */}
@@ -66,12 +61,12 @@ export default function WhyChooseUs() {
                   key={index}
                   data-aos="fade-up"
                   data-aos-delay={300 + index * 100}
-                  className="flex items-start gap-4"
+                  className="flex items-start gap-3"
                 >
-
+                  
                   {/* Circle Icon */}
                   <div className="flex justify-center items-center w-12 h-12 rounded-full  shrink-0 shadow-gray-300 shadow-2xl border-b-2 border-gray-300">
-                    <img src={`/atmosmed${item.icon}`} alt="icon" className="w-8 h-8 object-cover" />
+                    <img src={item.icon} alt="icon" className="w-8 h-8 object-cover" />
                   </div>
 
                   {/* Text */}

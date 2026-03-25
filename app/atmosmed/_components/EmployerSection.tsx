@@ -14,39 +14,39 @@ export default function EmployerSection() {
     {
       name: "Evgeny Shabash, Area Sales Manager",
       desc: "I like what I do, because ultimately the world is getting better thanks to the distribution of our products and our innovations.",
-      img: "/assets/emp_1_atmos.jpg",
+      img: "/atmosmed/assets/emp_1_atmos.jpg",
     },
     {
       name: "Britta-Andrea Jurecka, Director HR & Legal",
       desc: "At ATMOS, I can reach my full potential personally and professionally as part of a great, global team and make my concepts of good HR work and corporate culture come true.",
-      img: "/assets/emp_2_atmos.jpg",
+      img: "/atmosmed/assets/emp_2_atmos.jpg",
     },
     {
       name: "Sabrina Hogg, Director Marketing & Communications",
       desc: "Right from my first day at ATMOS, I had the freedom and trust to transform what had been a purely operational advertising department into strategic marketing.",
-      img: "/assets/emp_3_atmos.jpg",
+      img: "/atmosmed/assets/emp_3_atmos.jpg",
     },
     {
       name: "Ohannes Jaschke, Industrial Mechanic and Trainer in the Metal Center Division",
       desc: "When I do the programming for turned and milled parts, I contribute to the development of new products and thus to the best solution of the highest quality for doctors and medical professionals.",
-      img: "/assets/emp_4_atmos.jpg",
+      img: "/atmosmed/assets/emp_4_atmos.jpg",
     },
-    {
-      name: "Britta-Andrea Jurecka, Director HR & Legal",
-      desc: "At ATMOS, I can reach my full potential personally and professionally as part of a great, global team and make my concepts of good HR work and corporate culture come true.",
-      img: "/assets/emp_2_atmos.jpg",
-    },
-    {
-      name: "Sabrina Hogg, Director Marketing & Communications",
-      desc: "Right from my first day at ATMOS, I had the freedom and trust to transform what had been a purely operational advertising department into strategic marketing.",
-      img: "/assets/emp_3_atmos.jpg",
-    },
+    // {
+    //   name: "Britta-Andrea Jurecka, Director HR & Legal",
+    //   desc: "At ATMOS, I can reach my full potential personally and professionally as part of a great, global team and make my concepts of good HR work and corporate culture come true.",
+    //   img: "/assets/emp_2_atmos.jpg",
+    // },
+    // {
+    //   name: "Sabrina Hogg, Director Marketing & Communications",
+    //   desc: "Right from my first day at ATMOS, I had the freedom and trust to transform what had been a purely operational advertising department into strategic marketing.",
+    //   img: "/assets/emp_3_atmos.jpg",
+    // },
   ];
 
   return (
-    <section className="bg-white py-20">
+  <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6 text-center">
-
+        
         {/* Label */}
         <p
           data-aos="fade-up"
@@ -82,7 +82,7 @@ export default function EmployerSection() {
                     <div className="flex justify-start mb-4">
                       <div className="w-40 h-40 rounded-lg overflow-hidden shadow">
                         <img
-                          src={`/atmosmed${person.img}`}
+                          src={person.img}
                           alt={person.name}
                           className="w-full h-full object-cover"
                         />
@@ -115,8 +115,9 @@ export default function EmployerSection() {
             <div
               key={i}
               onClick={() => setPage(i)}
-              className={`h-2 rounded cursor-pointer transition-all duration-300 ${page === i ? "w-10 bg-[#16679b]" : "w-6 bg-gray-300"
-                }`}
+              className={`h-2 rounded cursor-pointer transition-all duration-300 ${
+                page === i ? "w-10 bg-[#16679b]" : "w-6 bg-gray-300"
+              }`}
             />
           ))}
         </div>
