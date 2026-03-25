@@ -1,13 +1,8 @@
 "use client";
 
-import { Check, CheckCircle, Circle } from "lucide-react";
-import { useEffect } from "react";
-import AOS from "aos";
+import { Check } from "lucide-react";
 
 export default function FeaturedProducts() {
-  useEffect(() => {
-    AOS.init({ duration: 900, once: true });
-  }, []);
 
   const points = [
     "A microprocessor and specialized electronics continuously monitor the output, adjusting it to remain at the ideal level for smooth, char-free cutting.",
@@ -20,15 +15,9 @@ export default function FeaturedProducts() {
       <div className="max-w-400 mx-auto">
 
         {/* TITLE */}
-        {/* <h2
-          className="text-center text-[30px] md:text-[24px] font-semibold text-gray-800 mb-12"
-          data-aos="fade-up"
-        >
-          Featured Products
-        </h2> */}
 
         <h2 className="text-[20px] md:text-[30px] text-center font-semibold text-gray-800 mb-20">
-                      Featured Products
+            Featured Products
         </h2>
 
         {/* MAIN GRID */}

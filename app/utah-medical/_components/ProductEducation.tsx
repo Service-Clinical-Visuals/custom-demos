@@ -1,8 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
-
 const items = [
   { id: 1, text: "Blood Pressure monitoring and blood management" },
   { id: 2, text: "Electrosurgery" },
@@ -20,7 +17,7 @@ export default function ProductEducation() {
 
         {/* LEFT IMAGE */}
         <div
-          className="w-full h-56 sm:h-72 md:h-full md:min-h-[400px] rounded-md bg-gray-200 grid grid-cols-10 gap-1 p-2"
+          className="w-full h-56 sm:h-72 md:h-full md:min-h-100 rounded-md bg-gray-200 grid grid-cols-10 gap-1 p-2"
           data-aos="fade-right"
         >
           {Array.from({ length: 100 }).map((_, i) => (

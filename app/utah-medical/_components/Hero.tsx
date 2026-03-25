@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import AOS from "aos";
 
 const bannerVideos = [
   "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",

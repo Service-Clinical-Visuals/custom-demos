@@ -1,7 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
-import AOS from "aos";
+import { useState, useRef } from "react";
 
 const products = [
   {
@@ -42,10 +41,6 @@ export default function Products() {
   const [page, setPage] = useState(0);
   const [fading, setFading] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    AOS.init({ duration: 900, once: true });
-  }, []);
 
   const goToPage = (i: number) => {
     if (i === page) return;

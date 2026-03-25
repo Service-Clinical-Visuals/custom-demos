@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
-
 
 
 const PAGE_SIZE = 3;
@@ -31,16 +29,6 @@ export default function EmployerSection() {
       desc: "When I do the programming for turned and milled parts, I contribute to the development of new products and thus to the best solution of the highest quality for doctors and medical professionals.",
       img: "/atmosmed/assets/emp_4_atmos.jpg",
     },
-    // {
-    //   name: "Britta-Andrea Jurecka, Director HR & Legal",
-    //   desc: "At ATMOS, I can reach my full potential personally and professionally as part of a great, global team and make my concepts of good HR work and corporate culture come true.",
-    //   img: "/assets/emp_2_atmos.jpg",
-    // },
-    // {
-    //   name: "Sabrina Hogg, Director Marketing & Communications",
-    //   desc: "Right from my first day at ATMOS, I had the freedom and trust to transform what had been a purely operational advertising department into strategic marketing.",
-    //   img: "/assets/emp_3_atmos.jpg",
-    // },
   ];
 
   return (

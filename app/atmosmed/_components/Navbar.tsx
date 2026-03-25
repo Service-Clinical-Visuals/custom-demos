@@ -1,7 +1,7 @@
 "use client";
 
 import { Facebook, Instagram, Linkedin, Youtube, Menu, X } from "lucide-react";
-import Image from "next/image";
+
 import { useEffect, useState } from "react";
 
 const navLinks = [

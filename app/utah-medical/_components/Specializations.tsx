@@ -1,8 +1,7 @@
 "use client";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useEffect, useState } from "react";
-import AOS from "aos";
+import { useState } from "react";
 
 const items = [
   {
@@ -42,10 +41,6 @@ const totalPages = Math.ceil(items.length / PAGE_SIZE);
 
 export default function Specializations() {
   const [page, setPage] = useState(0);
-
-  useEffect(() => {
-    AOS.init({ duration: 900, once: true });
-  }, []);
 
   const visible = items.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
 

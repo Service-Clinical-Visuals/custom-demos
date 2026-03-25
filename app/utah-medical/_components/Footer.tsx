@@ -1,8 +1,6 @@
 "use client";
 
 import { Phone, Mail } from "lucide-react";
-import { useEffect } from "react";
-import AOS from "aos";
 
 export default function Footer() {
   return (

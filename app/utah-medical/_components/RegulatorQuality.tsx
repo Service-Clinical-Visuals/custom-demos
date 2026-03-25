@@ -1,13 +1,9 @@
 "use client";
 
 import { Check } from "lucide-react";
-import { useEffect } from "react";
-import AOS from "aos";
+
 
 export default function RegulatoryQuality() {
-  useEffect(() => {
-    AOS.init({ duration: 900, once: true });
-  }, []);
 
   const points = [
     "Continuously improving all aspects of our business.",

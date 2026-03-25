@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 export default function TeamSection() {
   return (
     <section className="bg-white pb-20">
