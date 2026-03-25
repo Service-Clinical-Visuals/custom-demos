@@ -79,7 +79,7 @@ export default function Products() {
         <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 transition-opacity duration-300 ${fading ? "opacity-0" : "opacity-100"}`}>
           {visibleProducts.map((item, i) => (
             <div
-              key={i}
+              key={page * ITEMS_PER_PAGE + i}
               className="bg-[#f3f4f6] text-gray-800 rounded-2xl p-4 md:p-5"
               data-aos="fade-up"
               data-aos-delay={i * 150}
@@ -109,13 +109,20 @@ export default function Products() {
 
         {/* Pagination */}
         <div className="flex justify-center items-center mt-8 md:mt-10 gap-2">
-          {Array.from({ length: totalPages }).map((_, i) => (
+
+                    <svg onClick={() => setPage(0)} className="cursor-pointer transition-opacity hover:opacity-80" width="65" height="10" viewBox="0 0 65 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0H64.562L58.7884 9.88989H0V0Z" fill={page === 0 ? "white" : "#C2C2C2"} />
+          </svg>
+          <svg onClick={() => setPage(1)} className="cursor-pointer transition-opacity hover:opacity-80" width="69" height="10" viewBox="0 0 69 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.80488 0H68.3668L61.8144 9.88989H-2.89592e-05L3.80488 0Z" fill={page === 1 ? "white" : "#C2C2C2"} />
+          </svg>
+          {/* {Array.from({ length: totalPages }).map((_, i) => (
             <button
               key={i}
               onClick={() => goToPage(i)}
               className={`h-2 rounded-full transition-all cursor-pointer ${i === page ? "w-8 bg-white" : "w-8 bg-white/40"}`}
             />
-          ))}
+          ))} */}
         </div>
 
       </div>

@@ -40,6 +40,9 @@ const PAGE_SIZE = 3;
 const totalPages = Math.ceil(items.length / PAGE_SIZE);
 
 export default function Specializations() {
+  const rect1 = "/utah-medical/assets/utah-rect1.svg";
+  const rect2 = "/utah-medical/assets/utah-rect2.svg";
+
   const [page, setPage] = useState(0);
 
   const visible = items.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
@@ -87,13 +90,21 @@ export default function Specializations() {
 
         {/* Pagination dots */}
         <div className="flex justify-center mt-8 md:mt-10 gap-2">
-          {Array.from({ length: totalPages }).map((_, i) => (
+          <svg onClick={() => setPage(0)} className="cursor-pointer transition-opacity hover:opacity-80" width="65" height="10" viewBox="0 0 65 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0H64.562L58.7884 9.88989H0V0Z" fill={page === 0 ? "white" : "#C2C2C2"} />
+          </svg>
+          <svg onClick={() => setPage(1)} className="cursor-pointer transition-opacity hover:opacity-80" width="69" height="10" viewBox="0 0 69 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.80488 0H68.3668L61.8144 9.88989H-2.89592e-05L3.80488 0Z" fill={page === 1 ? "white" : "#C2C2C2"} />
+          </svg>
+
+
+          {/* {Array.from({ length: totalPages }).map((_, i) => (
             <button
               key={i}
               onClick={() => setPage(i)}
               className={`w-8 h-2 rounded-br-full transition-all cursor-pointer ${i === page ? "bg-white" : "bg-white/40"}`}
             />
-          ))}
+          ))} */}
         </div>
         <div className="hidden lg:block">
 
