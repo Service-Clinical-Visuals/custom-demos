@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Utah Medical",
   description: "Utah Medical",
   icons: {
-    icon: "/atmosmed/assets/atmos_logo 1.png",
+    icon: "/utah-medical/assets/utah-favicon.png",
   },
 };
 
