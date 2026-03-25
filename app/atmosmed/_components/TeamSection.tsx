@@ -1,18 +1,16 @@
 "use client";
 
-import Image from "next/image";
-
 export default function TeamSection() {
   return (
     <section className="bg-white pb-20">
-
+      
       {/* TOP IMAGE */}
       <div
         data-aos="fade-in"
         className="w-full h-65 md:h-80 xl:h-96 bg-gray-300"
       >
         {/* Background image will be added here */}
-        <img src={`/atmosmed/assets/teams_atmos.png`} alt="teams" className="w-full h-full object-cover" />
+        <img src={"/atmosmed/assets/teams_atmos.png"} alt="teams" className="w-full h-full object-cover" />
       </div>
 
       {/* OVERLAP CONTENT */}

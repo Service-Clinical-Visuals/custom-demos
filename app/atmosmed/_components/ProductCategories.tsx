@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 
 export default function ProductCategories() {
@@ -7,24 +6,24 @@ export default function ProductCategories() {
     {
       title: "Medical Suction Systems",
       desc: "Together with our customers in hospitals and the homecare sector, we have been developing medical suction systems for daily use on patients for over 130 years.",
-      img: "/assets/medical_atmos.png",
+      img: "/atmosmed/assets/medical_atmos.png",
     },
     {
       title: "ENT",
       desc: "We develop our solutions based on the application and together with medical professionals. Intuitive operation, safety, infection control, and efficiency are top priorities.",
-      img: "/assets/ent_atmos.jpg",
+      img: "/atmosmed/assets/ent_atmos.jpg",
     },
     {
       title: "Gynecology",
       desc: "More than 130 years of expertise in the development of medical technology devices, products, and solutions along with the worldwide service.",
-      img: "/assets/gynec_atmos.png",
+      img: "/atmosmed/assets/gynec_atmos.png",
     },
   ];
 
   return (
     <section className="bg-[#f5f7fa] py-20">
       <div className="max-w-7xl mx-auto px-6 text-center">
-
+        
         {/* Top Label */}
         <p
           data-aos="fade-up"
@@ -52,22 +51,22 @@ export default function ProductCategories() {
               data-aos-delay={200 + index * 100}
               className="bg-[#16679b] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition flex flex-col"
             >
-
+              
               {/* Image */}
               <div className="h-48 lg:h-80 w-full p-3">
                 <img
-                  src={`/atmosmed${card.img}`}
+                  src={card.img}
                   alt={card.title}
                   className="w-full h-full object-cover rounded-md"
                 />
               </div>
 
               {/* Divider */}
-              <div className="border-t border-dashed border-white/40"></div>
+              {/* <div className="border-t border-dashed border-white/40"></div> */}
 
               {/* Content */}
-              <div className="p-6 text-white flex flex-col justify-between flex-1">
-
+              <div className="p-5 text-white flex flex-col justify-between flex-1">
+                
                 <h3 className="font-semibold text-xl mb-3">
                   {card.title}
                 </h3>
@@ -91,8 +90,8 @@ export default function ProductCategories() {
           data-aos-delay="500"
           className="xs:hidden lg:flex flex justify-center items-center gap-2 mt-10"
         >
-          <div className="w-10 h-1 bg-[#16679b] rounded"></div>
-          <div className="w-6 h-1 bg-gray-300 rounded"></div>
+          <div className="w-10 h-1.5 bg-[#16679b] rounded-tl-md rounded-br-md cursor-pointer"></div>
+          <div className="w-6 h-1.5 bg-gray-300 rounded-tl-md rounded-br-md cursor-pointer"></div>
         </div>
 
       </div>
