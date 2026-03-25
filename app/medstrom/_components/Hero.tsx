@@ -10,10 +10,10 @@ import "swiper/css/effect-fade";
 import { motion } from "framer-motion";
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_03.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_04.webm",
+    "https://cdn.clinicalvisuals.com/medical/medStorm/landing_page/medstrom-aria_flex_mattress_1.webm",
+    "https://cdn.clinicalvisuals.com/medical/medStorm/landing_page/medstrom-aria_flex_mattress_2.webm",
+    "https://cdn.clinicalvisuals.com/medical/medStorm/landing_page/medstrom-aria_flex_mattress_3.webm",
+    "https://cdn.clinicalvisuals.com/medical/medStorm/landing_page/medstrom-aria_flex_mattress_4.webm",
 ];
 
 const slides = [
@@ -54,7 +54,7 @@ export default function Hero() {
                     className="absolute inset-0 w-full h-full object-cover z-0 bg-black"
                 ></video>
                 {/* Optional dark overlay to ensure text legibility */}
-                <div className="absolute inset-0 bg-[#1C2D4A]/40 z-[1] mix-blend-multiply"></div>
+                {/* <div className="absolute inset-0 bg-[#1C2D4A]/40 z-[1] mix-blend-multiply"></div> */}
             </div>
 
             {/* Hero Swiper */}

@@ -1,6 +1,20 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
+
+const bannerVideos = [
+  "https://cdn.clinicalvisuals.com/medical/medStorm/short_clips/medstrom-aria_flex_mattress_1.webm",
+  "https://cdn.clinicalvisuals.com/medical/medStorm/short_clips/medstrom-aria_flex_mattress_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/medStorm/short_clips/medstrom-aria_flex_mattress_3.webm",
+];
 
 export default function History() {
+
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
+  };
+
   return (
     <section className="py-24 bg-white overflow-hidden" id="history">
       <div className="container mx-auto px-4">
@@ -29,14 +43,23 @@ export default function History() {
           {/* Video Block Placeholder */}
           <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#F2F4F7] relative shadow-lg" data-aos="fade-left" data-aos-delay="200">
             {/* Note: Video pulled directly from Hero banner WebM list */}
-            <video
-              src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm"
+            {/* <video
+              src="https://cdn.clinicalvisuals.com/medical/medStorm/short_clips/medstrom-aria_flex_mattress_1.webm"
               autoPlay
               muted
               loop
               playsInline
               className="absolute inset-0 w-full h-full object-cover"
-            />
+            /> */}
+            <video
+              key={currentVideoIndex}
+              src={bannerVideos[currentVideoIndex]}
+              autoPlay
+              muted
+              playsInline
+              onEnded={handleVideoEnd}
+              className="absolute inset-0 w-full h-full object-cover"
+            ></video>
           </div>
 
         </div>
