@@ -50,7 +50,7 @@ export default function FeaturedProducts() {
             </div>
 
             {/* BUTTON */}
-            <button className="bg-[#2F6A9F] text-white px-5 py-2 rounded-md text-sm hover:bg-[#2F6A9F] transition">
+            <button className="bg-[#2F6A9F] cursor-pointer text-white px-5 py-2 rounded-md text-sm hover:bg-[#2F6A9F] transition">
               View Details
             </button>
           </div>
