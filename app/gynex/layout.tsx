@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: "Providers of high-quality OB/GYN instruments and equipment to customers worldwide.",
 };
 
+// Merge with the root layout
 export default function Layout({
   children,
 }: Readonly<{
