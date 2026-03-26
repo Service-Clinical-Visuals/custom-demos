@@ -34,14 +34,14 @@ export default function PopularProducts() {
     return (
         <section className="py-24 bg-white">
             <div className="container mx-auto px-6 md:px-12">
-                <div className="text-center mb-16">
+                <div className="text-center mb-16" data-aos="fade-down">
                     <h2 className="text-3xl font-bold text-[#1a1a1a]">Most Popular Products</h2>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-                    {popularProducts.map((product) => (
-                        <div key={product.id} className="group cursor-pointer">
-                            <div className="relative aspect-square bg-[#F1F1F1] rounded-[4px] overflow-hidden mb-5 flex items-center justify-center p-8">
+                    {popularProducts.map((product, index) => (
+                        <div key={product.id} className="group cursor-pointer" data-aos="fade-up" data-aos-delay={index * 100}>
+                            <div className="relative aspect-square bg-[#E6E6E6] rounded-[4px] overflow-hidden mb-5 flex items-center justify-center p-8">
                                 <img
                                     src={product.image}
                                     alt={product.name}
@@ -60,7 +60,7 @@ export default function PopularProducts() {
                     ))}
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center" data-aos="fade-up">
                     <Button>
                         Shop All Products
                     </Button>

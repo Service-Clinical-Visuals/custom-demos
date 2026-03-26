@@ -10,9 +10,9 @@ export default function Newsletter() {
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left side: Need help? */}
-                    <div className="flex flex-col gap-6 md:gap-10">
-                        <h2 className="text-2xl font-bold tracking-tight">
-                            Need help?
+                    <div className="flex flex-col gap-6 md:gap-10" data-aos="fade-right">
+                        <h2 className="text-xl sm:text-[30px] font-bold tracking-tight flex items-center gap-3">
+                            <span>Need help?</span>
                             <span className="text-[#7C2B83] font-extrabold border-b-2 border-[#7C2B83]">(888-486-4644)</span>
                         </h2>
                         <div className="flex gap-4">
@@ -25,7 +25,7 @@ export default function Newsletter() {
                     </div>
 
                     {/* Right side: Subscribe Form */}
-                    <div className="w-full">
+                    <div className="w-full" data-aos="fade-left">
                         <h3 className="text-xl lg:text-3xl !font-bold mb-4">Get our emails for info on new items, sales and more!</h3>
                         <form className="flex flex-col sm:flex-row gap-3">
                             <input

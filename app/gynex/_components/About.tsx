@@ -9,14 +9,14 @@ export default function About() {
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-12 lg:gap-16">
                     {/* Left Side: Image Placeholder */}
-                    <div className="lg:col-span-6">
-                        <div className="bg-[#F1F1F1] rounded-[30px] overflow-hidden">
-                            <img src="/gynex/images/abt.png" alt="about" className="w-full h-auto" />
+                    <div className="lg:col-span-6" data-aos="fade-right">
+                        <div className="bg-[#F1F1F1] rounded-[30px] overflow-hidden flex justify-center">
+                            <img src="/gynex/images/abt.png" alt="about" className="max-w-[600px] h-auto" />
                         </div>
                     </div>
 
                     {/* Right Side: Content */}
-                    <div className="lg:col-span-6">
+                    <div className="lg:col-span-6" data-aos="fade-left">
                         <h2 className="text-[28px] md:text-[32px] font-bold mb-5 tracking-tight">
                             ABOUT US
                         </h2>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AosInit from "./_components/AosInit";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function Layout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-white font-sans antialiased overflow-x-hidden">
+        <AosInit />
         {children}
       </body>
     </html>

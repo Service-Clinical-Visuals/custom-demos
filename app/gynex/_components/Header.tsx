@@ -2,12 +2,14 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Search, User, Heart, ShoppingBag, Phone, Instagram, Linkedin, Facebook, MapPin, Menu, X, Twitter } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -35,25 +37,25 @@ export default function Header() {
         <header className="relative w-full z-50">
             {/* Top Bar - Initially relative, stays at top */}
             <div className="bg-[#7C2B83] text-white">
-                <div className="container mx-auto px-4 md:px-12 py-2 flex items-center justify-between text-sm font-medium">
+                <div className="container mx-auto px-4 md:px-12 py-2 flex items-center justify-between font-medium">
                     <div className="flex items-center gap-6">
-                        <a href="tel:888-485-4644" className="flex items-center gap-2 hover:text-white/80 transition-colors">
-                            <Phone size={14} strokeWidth={2} />
-                            <span className="hidden sm:inline">888-485-4644</span>
+                        <a href="tel:888-485-4644" className="flex items-center gap-2 hover:text-white/80 transition-colors text-[14px] lg:text-[16px]">
+                            <Phone size={16} strokeWidth={2} />
+                            <span className="">888-485-4644</span>
                         </a>
                     </div>
                     <div className="flex items-center gap-3">
                         <div className="h-8 w-8 bg-white flex items-center justify-center rounded-full">
-                            <Facebook size={18} className="cursor-pointer text-[#7C2B83] hover:text-white/80 transition-colors hidden sm:block" />
+                            <Facebook size={18} className="cursor-pointer text-[#7C2B83] hover:opacity-80 transition-opacity" />
                         </div>
                         <div className="h-8 w-8 bg-white flex items-center justify-center rounded-full">
-                            <Linkedin size={18} className="cursor-pointer text-[#7C2B83] hover:text-white/80 transition-colors hidden sm:block" />
+                            <Linkedin size={18} className="cursor-pointer text-[#7C2B83] hover:opacity-80 transition-opacity" />
                         </div>
                         <div className="h-8 w-8 bg-white flex items-center justify-center rounded-full">
-                            <Instagram size={18} className="cursor-pointer text-[#7C2B83] hover:text-white/80 transition-colors hidden sm:block" />
+                            <Instagram size={18} className="cursor-pointer text-[#7C2B83] hover:opacity-80 transition-opacity" />
                         </div>
                         <div className="h-8 w-8 bg-white flex items-center justify-center rounded-full">
-                            <Twitter size={18} className="cursor-pointer text-[#7C2B83] hover:text-white/80 transition-colors hidden sm:block" />
+                            <Twitter size={18} className="cursor-pointer text-[#7C2B83] hover:opacity-80 transition-opacity" />
                         </div>
                     </div>
                 </div>
@@ -68,21 +70,24 @@ export default function Header() {
                     <div className="container mx-auto px-4 md:px-12 h-[70px] md:h-[80px] flex items-center justify-between">
                         {/* Logo */}
                         <Link href="/gynex" className="flex items-center gap-2 group shrink-0">
-                            <img src="/gynex/images/gynex-logo.png" alt="Gynex Logo" className="w-50" />
+                            <img src="/gynex/images/g-logo.png" alt="Gynex Logo" className="w-40 lg:w-50" />
                         </Link>
 
                         {/* Desktop Menu */}
                         <div className="hidden lg:flex items-center gap-10 font-bold text-[16px] tracking-wider">
-                            {navLinks.map((link) => (
-                                <Link
-                                    key={link.name}
-                                    href={link.href}
-                                    className="text-[#333333] hover:text-[#7C2B83] transition-colors relative group py-2"
-                                >
-                                    {link.name}
-                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#7C2B83] transition-all duration-300 group-hover:w-full"></span>
-                                </Link>
-                            ))}
+                            {navLinks.map((link) => {
+                                const isActive = link.href === "/gynex" ? pathname === "/gynex" : pathname?.startsWith(link.href);
+                                return (
+                                    <Link
+                                        key={link.name}
+                                        href={link.href}
+                                        className={`relative group py-2 transition-colors ${isActive ? "text-[#7C2B83]" : "text-[#333333] hover:text-[#7C2B83]"}`}
+                                    >
+                                        {link.name}
+                                        <span className={`absolute -bottom-1 left-0 h-0.5 bg-[#7C2B83] transition-all duration-300 ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}></span>
+                                    </Link>
+                                );
+                            })}
                         </div>
 
                         {/* Right Icons */}
@@ -121,16 +126,19 @@ export default function Header() {
                                 className="lg:hidden bg-white border-t border-gray-100 overflow-hidden shadow-xl"
                             >
                                 <div className="flex flex-col p-6 gap-4 font-bold uppercase tracking-wider text-sm">
-                                    {navLinks.map((link) => (
-                                        <Link
-                                            key={link.name}
-                                            href={link.href}
-                                            className="text-[#333] hover:text-[#7C2B83] py-2 border-b border-gray-50 last:border-0"
-                                            onClick={() => setMobileOpen(false)}
-                                        >
-                                            {link.name}
-                                        </Link>
-                                    ))}
+                                    {navLinks.map((link) => {
+                                        const isActive = link.href === "/gynex" ? pathname === "/gynex" : pathname?.startsWith(link.href);
+                                        return (
+                                            <Link
+                                                key={link.name}
+                                                href={link.href}
+                                                className={`py-2 border-b border-gray-50 last:border-0 ${isActive ? "text-[#7C2B83]" : "text-[#333] hover:text-[#7C2B83]"}`}
+                                                onClick={() => setMobileOpen(false)}
+                                            >
+                                                {link.name}
+                                            </Link>
+                                        );
+                                    })}
                                     <div className="flex gap-6 pt-4 border-t border-gray-100 mt-2">
                                         <Search size={20} className="text-[#7C2B83]" />
                                         <Heart size={20} className="text-[#7C2B83]" />

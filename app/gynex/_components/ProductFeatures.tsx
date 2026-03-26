@@ -15,7 +15,7 @@ interface FeatureProps {
 
 const FeatureRow = ({ title, subtitle, description, points, image, video, reverse }: FeatureProps) => (
     <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center  ${reverse ? 'lg:flex-row-reverse pb-20' : 'py-20'}`}>
-        <div className={`${reverse ? 'lg:order-last' : ''}`}>
+        <div className={`${reverse ? 'lg:order-last' : ''}`} data-aos={reverse ? "fade-left" : "fade-right"}>
             <div className="relative rounded-[20px] overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 opacity-[0.03]"
                     style={{ backgroundImage: `radial-gradient(#000 1px, transparent 1px)`, backgroundSize: '20px 20px' }}>
@@ -24,7 +24,7 @@ const FeatureRow = ({ title, subtitle, description, points, image, video, revers
                 {video && <video src={video} className="w-full h-full object-cover" autoPlay muted playsInline loop />}
             </div>
         </div>
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center" data-aos={reverse ? "fade-right" : "fade-left"}>
             <h2 className="text-2xl md:text-3xl font-bold mb-3 tracking-tight">{title}</h2>
             {subtitle && <p className="!text-xl !font-semibold mb-4">{subtitle}</p>}
             <p className="leading-relaxed mb-6 text-justify">

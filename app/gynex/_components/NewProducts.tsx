@@ -48,7 +48,7 @@ export default function NewProducts() {
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                     {/* Left side content */}
-                    <div className="lg:col-span-3">
+                    <div className="lg:col-span-3" data-aos="fade-right">
                         <h2 className="text-[32px] font-bold text-[#1a1a1a] mb-5">New Products</h2>
                         <p className=" leading-[1.6] mb-10">
                             Here is your chance to upgrade your wardrobe with a variation of styles and fits that are both.
@@ -59,7 +59,7 @@ export default function NewProducts() {
                     </div>
 
                     {/* Right side carousel */}
-                    <div className="lg:col-span-9 relative">
+                    <div className="lg:col-span-9 relative" data-aos="fade-left">
                         <Swiper
                             modules={[Navigation, Pagination, Autoplay]}
                             spaceBetween={30}
@@ -79,7 +79,7 @@ export default function NewProducts() {
                             {products.map((product) => (
                                 <SwiperSlide key={product.id}>
                                     <div className="group cursor-pointer">
-                                        <div className="relative aspect-square bg-[#F1F1F1] rounded-[4px] overflow-hidden">
+                                        <div className="relative aspect-square bg-[#E6E6E6] rounded-[4px] overflow-hidden">
                                             <img
                                                 src={product.image}
                                                 alt={product.name}

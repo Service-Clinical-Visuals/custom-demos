@@ -8,7 +8,7 @@ export default function VideoSection() {
         <section className="w-full">
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 {/* Left Content - Purple Background */}
-                <div className="bg-[#7C2B83] text-white p-10 md:p-16 lg:p-24 flex flex-col justify-center">
+                <div className="bg-[#7C2B83] text-white p-10 md:p-16 lg:p-24 flex flex-col justify-center" data-aos="fade-right">
                     <h2 className="text-2xl md:text-3xl font-bold mb-6 leading-tight !text-white">
                         Providers of high-quality OB/GYN instruments and equipment to customers worldwide.
                     </h2>
@@ -17,17 +17,21 @@ export default function VideoSection() {
                     </p>
 
                     <ul className="space-y-4">
-                        {[1, 2, 3].map((_, index) => (
+                        {[
+                            "Precision-Engineered Instruments for Reliable Performance",
+                            "Trusted by Healthcare Professionals Worldwide",
+                            "Comprehensive OB/GYN Solutions from Diagnosis to Surgery"
+                        ].map((item, index) => (
                             <li key={index} className="flex items-center gap-3">
                                 <CheckCircle2 size={18} className="text-white shrink-0" />
-                                <span className="text-[16px] font-medium">Precision-Engineered Instruments for Reliable Performance</span>
+                                <span className="text-[16px] font-medium">{item}</span>
                             </li>
                         ))}
                     </ul>
                 </div>
 
                 {/* Right Content - 360 Video Placeholder */}
-                <div className="bg-[#F4F4F4] min-h-[400px] flex items-center justify-center relative overflow-hidden">
+                <div className="bg-[#F4F4F4] min-h-[400px] flex items-center justify-center relative overflow-hidden" data-aos="fade-left">
                     <video
                         src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm"
                         autoPlay
