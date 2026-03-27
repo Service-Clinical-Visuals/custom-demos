@@ -1,0 +1,93 @@
+"use client";
+
+const products = [
+  {
+    title: "Urology",
+    desc: "All functions including supply chain, value chain, project scheduling, manufacturing, services and spares, technology, R&D, etc. are integrated to give a complete solutions package.",
+    image: "/product1.jpg",
+  },
+  {
+    title: "Care & More",
+    desc: "Artificial feeding techniques, their applications in pediatrics, and the use of rectal tubes are essential components in managing various medical conditions.",
+    image: "/product2.jpg",
+  },
+  {
+    title: "Airway",
+    desc: "Airway management includes techniques and tools to keep a patient's airway open. This involves artificial respiration methods and accessories to aid breathing.",
+    image: "/product3.jpg",
+  },
+];
+
+export default function ProductMedico() {
+
+
+  return (
+    <section className="bg-[#e6d2b3] py-20">
+      <div className="max-w-380 mx-auto px-6 text-center">
+        
+        {/* Header */}
+        <h2
+          data-aos="fade-up"
+          className="text-2xl md:text-3xl font-semibold text-gray-800"
+        >
+          Our Latest Products
+        </h2>
+
+        {/* Underline */}
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          className="w-20 h-[2px] bg-[#F29100] mx-auto mt-3"
+        ></div>
+
+        {/* Subtitle */}
+        <p
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="text-gray-600 text-base mt-4 max-w-xl mx-auto"
+        >
+          High-quality medical products designed for safe, reliable, and efficient
+          patient care across multiple clinical needs.
+        </p>
+
+        {/* Cards */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-10 lg:gap-10 mt-16 ">
+
+          {products.map((item, index) => (
+            <div
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 150}
+              className="relative flex flex-col"
+            >
+
+              {/* Floating Orange Box (Replace with image later) */}
+              <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#F29100] rounded-md flex items-center justify-center">
+                {/* Replace with image */}
+                {/* <img src={item.image} /> */}
+              </div>
+
+              {/* Card */}
+              <div className="bg-white rounded-xl pt-16 pb-8 px-6 flex flex-col flex-1">
+
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {item.title}
+                </h3>
+
+                <p className="text-base text-gray-600 mt-3 leading-relaxed flex-1">
+                  {item.desc}
+                </p>
+
+                <button className="mt-6 cursor-pointer bg-[#F29100] hover:bg-[#F27100] text-white text-base font-medium px-5 py-2 rounded-md">
+                  View Products
+                </button>
+              </div>
+
+            </div>
+          ))}
+
+        </div>
+      </div>
+    </section>
+  );
+}
