@@ -21,7 +21,7 @@ const services = [
 export default function ServiceMedico() {
 
   return (
-    <section className="bg-[#e6d2b3] py-28 relative overflow-hidden">
+    <section className="bg-[#eddabf] py-28 relative overflow-hidden">
       
       <div className="max-w-380 mx-auto px-6 text-center">
         
@@ -37,14 +37,14 @@ export default function ServiceMedico() {
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="w-16 h-1 bg-[#F29100] mx-auto mt-3"
+          className="w-28 h-1 bg-[#F29100] mx-auto mt-3"
         ></div>
 
         {/* Subtitle */}
         <p
           data-aos="fade-up"
           data-aos-delay="200"
-          className="text-[#484848] text-base mt-4 max-w-xl mx-auto"
+          className="text-[#484848] text-base py-5 max-w-xl mx-auto"
         >
           Steeler industrial high end manufacturing services are a perfect complement
           to today’s high tech industries.
@@ -71,7 +71,7 @@ export default function ServiceMedico() {
               </div>
 
               {/* Card */}
-              <div className="bg-[#ffffff] pt-20 pb-8 px-6 text-center flex flex-col flex-1">
+              <div className="bg-[#ffffff] pt-24 pb-8 px-6 text-center flex flex-col flex-1">
 
                 <h3 className="text-lg font-medium text-gray-800">
                   {item.title}

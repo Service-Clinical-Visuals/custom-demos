@@ -20,7 +20,7 @@ export default function ChooseMedico() {
       <div className="max-w-380 mx-auto px-6 space-y-12 md:space-y-20 lg:space-y-28">
 
         {/* ROW 1 */}
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
 
           {/* VIDEO LEFT */}
           <div
@@ -74,7 +74,7 @@ export default function ChooseMedico() {
         </div>
 
         {/* ROW 2 */}
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
           
           {/* CONTENT LEFT */}
           <div data-aos="fade-right">

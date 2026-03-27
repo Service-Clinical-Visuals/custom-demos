@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowDown, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export const NavbarMedico = () => {
@@ -29,7 +30,11 @@ export const NavbarMedico = () => {
           <a href="#" className="hover:text-black">Home</a>
           <a href="#" className="hover:text-black">About Us</a>
           <a href="#" className="hover:text-black">Products</a>
-          <a href="#" className="hover:text-black">Catalog ▾</a>
+          <a href="#" className="hover:text-black flex items-center">Catalog 
+            <span className="mt-0.5 hover:text-gray-700">
+              <ChevronDown className="size-5 text-gray-600 hover:text-gray-900"/>
+              </span> 
+              </a>
           <a href="#" className="hover:text-black">Download/IFU</a>
         </nav>
 
@@ -45,7 +50,7 @@ export const NavbarMedico = () => {
           </div>
 
           {/* CTA */}
-          <button className="bg-[#F29100] hover:bg-[#F29100] text-white text-[14px] px-8 py-2 font-bold cursor-pointer">
+          <button className="bg-[#F29100] hover:bg-[#F29100] text-white text-[14px] px-8 py-3 font-bold cursor-pointer">
             CONTACT US
           </button>
         </div>
