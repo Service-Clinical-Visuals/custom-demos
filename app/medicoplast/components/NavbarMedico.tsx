@@ -15,7 +15,7 @@ export const NavbarMedico = () => {
 
   return (
     <header className={`fixed top-0 left-0 w-full z-50 bg-[#F9F9F9] backdrop-blur-md border-b border-gray-200 transition-all duration-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"}`}>
-      <div className="max-w-380 mx-auto flex items-center justify-between px-6 py-5">
+      <div className="max-w-380 mx-auto flex items-center justify-between px-4 sm:px-6 py-5">
 
         {/* Logo */}
         <div className="flex items-center gap-2 -mt-4.5 cursor-pointer">
@@ -69,7 +69,7 @@ export const NavbarMedico = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <nav className="lg:hidden bg-[#F9F9F9] border-t border-gray-200 px-6 py-4 flex flex-col gap-1 text-base text-gray-700">
+        <nav className="lg:hidden bg-[#F9F9F9] border-t border-gray-200 px-4 sm:px-6 py-4 flex flex-col gap-1 text-base text-gray-700">
           <a href="#" className="hover:text-black py-3 border-b border-gray-100">Home</a>
           <a href="#" className="hover:text-black py-3 border-b border-gray-100">About Us</a>
           <a href="#" className="hover:text-black py-3 border-b border-gray-100">Products</a>

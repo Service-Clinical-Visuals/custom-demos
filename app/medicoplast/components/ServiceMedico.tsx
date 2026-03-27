@@ -21,9 +21,9 @@ const services = [
 export default function ServiceMedico() {
 
   return (
-    <section className="bg-[#eddabf] py-28 relative overflow-hidden">
+    <section className="w-full bg-[#eddabf] py-28 relative overflow-hidden">
       
-      <div className="max-w-380 mx-auto px-6 text-center">
+      <div className="max-w-380 mx-auto px-4 sm:px-6 text-center">
         
         {/* Header */}
         <h2
@@ -51,7 +51,7 @@ export default function ServiceMedico() {
         </p>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-10 lg:gap-y-10 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-6 lg:gap-y-10 mt-16">
 
           {services.map((item, index) => (
             <div
