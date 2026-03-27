@@ -96,7 +96,7 @@ export default function WhyChooseUs() {
                 loop
                 playsInline
               >
-                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
+                <source src="https://cdn.clinicalvisuals.com/medical/atmos/short_clips/atmos_fiber_endoscope_short_clip_1.webm" type="video/webm" />
               </video>
           </div>
 
