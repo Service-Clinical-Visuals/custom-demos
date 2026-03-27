@@ -75,6 +75,7 @@ export default function FeaturedProducts() {
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
+                loop
                 playsInline
               >
                 <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-3.webm" type="video/webm" />
