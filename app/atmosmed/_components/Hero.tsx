@@ -48,24 +48,20 @@ export default function Hero() {
 
   const slides = [
     {
-      video: "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
-      title: "The Treatment Unit for\nFunctionality and Visualization",
+      video: "https://cdn.clinicalvisuals.com/medical/atmos/landind_page/atmos_fiber_endoscope_01.webm",
+      title: "",
     },
     {
-      video: "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
-      title: "Advanced Medical Imaging\nfor Precise Diagnostics",
+      video: "https://cdn.clinicalvisuals.com/medical/atmos/landind_page/atmos_fiber_endoscope_02.webm",
+      title: "",
     },
     {
-      video: "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
-      title: "Innovative Solutions\nfor Modern Healthcare",
+      video: "https://cdn.clinicalvisuals.com/medical/atmos/landind_page/atmos_fiber_endoscope_03.webm",
+      title: "",
     },
     {
-      video: "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-      title: "Empowering Clinicians\nwith Cutting-Edge Technology",
-    },
-    {
-      video: "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_1.webm",
-      title: "Redefining Patient Care\nthrough Smart Medical Devices",
+      video: "https://cdn.clinicalvisuals.com/medical/atmos/landind_page/atmos_fiber_endoscope_04.webm",
+      title: "",
     },
   ];
 
