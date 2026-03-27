@@ -13,9 +13,9 @@ export default function FooterMedico() {
   }, []);
 
   return (
-    <footer className="bg-[#f5f5f5] pt-12">
+    <footer className="w-full bg-[#f5f5f5] pt-12">
       
-      <div className="max-w-380 mx-auto px-6 grid md:grid-cols-5 gap-10">
+      <div className="max-w-380 mx-auto px-4 sm:px-6 grid md:grid-cols-5 gap-6 md:gap-10">
         
         {/* LEFT SECTION */}
         <div className="md:col-span-2" data-aos="fade-up">
@@ -46,7 +46,7 @@ export default function FooterMedico() {
         </div>
 
         {/* RIGHT SECTION */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:col-span-3 text-base text-gray-600">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 md:col-span-3 text-base text-gray-600">
           
           {/* Company */}
           <div data-aos="fade-up" data-aos-delay="100">
@@ -99,7 +99,7 @@ export default function FooterMedico() {
       <div className="border-t border-gray-300 mt-12"></div>
 
       {/* Bottom Bar */}
-      <div className="cursor-pointer max-w-380 mx-auto px-6 py-4 flex flex-wrap gap-6 text-base text-gray-600">
+      <div className="cursor-pointer max-w-380 mx-auto px-4 sm:px-6 py-4 flex flex-wrap gap-4 text-base text-gray-600">
         <span className="hover:text-gray-900">Contact</span>
         <span className="hover:text-gray-900">General terms and conditions</span>
         <span className="hover:text-gray-900">Data Protection</span>

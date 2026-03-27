@@ -3,8 +3,8 @@
 export default function AboutMedico() {
 
   return (
-    <section className="bg-[#f5f5f5] py-28">
-      <div className="max-w-380 mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <section className="w-full bg-[#f5f5f5] py-28">
+      <div className="max-w-380 mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* LEFT CONTENT */}
         <div>

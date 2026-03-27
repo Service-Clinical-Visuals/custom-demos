@@ -22,8 +22,8 @@ export default function ProductMedico() {
 
 
   return (
-    <section className="bg-[#faf8f5] py-20 bg-[url('/medicoplast/assets/medico-bg.png')] bg-cover bg-center">
-      <div className="max-w-380 mx-auto px-6 text-center">
+    <section className="w-full bg-[#faf8f5] py-20 bg-[url('/medicoplast/assets/medico-bg.png')] bg-cover bg-center">
+      <div className="max-w-380 mx-auto px-4 sm:px-6 text-center">
         
         {/* Header */}
         <h2
@@ -51,7 +51,7 @@ export default function ProductMedico() {
         </p>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-10 lg:gap-10 mt-16 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-6 lg:gap-10 mt-16">
 
           {products.map((item, index) => (
             <div
