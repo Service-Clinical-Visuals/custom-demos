@@ -1,5 +1,14 @@
 "use client";
 
+import { useState } from "react";
+
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
+];
+
 const items = [
   { id: 1, text: "Blood Pressure monitoring and blood management" },
   { id: 2, text: "Electrosurgery" },
@@ -10,6 +19,11 @@ const items = [
 ];
 
 export default function ProductEducation() {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
 
   return (
     <section className="bg-white py-10 md:py-20 px-4 md:px-10 lg:px-4">

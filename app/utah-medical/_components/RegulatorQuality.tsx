@@ -1,9 +1,21 @@
 "use client";
 
+import { useState } from "react";
 import { Check } from "lucide-react";
 
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
+];
 
 export default function RegulatoryQuality() {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
 
   const points = [
     "Continuously improving all aspects of our business.",

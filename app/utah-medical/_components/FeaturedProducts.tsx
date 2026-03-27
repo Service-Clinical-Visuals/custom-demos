@@ -1,8 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import { Check } from "lucide-react";
 
+
+
 export default function FeaturedProducts() {
+  // const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  // const handleVideoEnd = () => {
+  //   setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  // };
 
   const points = [
     "A microprocessor and specialized electronics continuously monitor the output, adjusting it to remain at the ideal level for smooth, char-free cutting.",
@@ -67,7 +75,6 @@ export default function FeaturedProducts() {
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
-                loop
                 playsInline
               >
                 <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-3.webm" type="video/webm" />
