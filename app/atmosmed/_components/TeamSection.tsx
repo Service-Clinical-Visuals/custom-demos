@@ -21,9 +21,17 @@ export default function TeamSection() {
           {/* FLOATING CARD */}
           <div
             data-aos="zoom-in"
-            className="w-full h-56 sm:h-72 xl:h-96 bg-gray-200 rounded-2xl shadow-lg"
+            className="w-full h-56 sm:h-72 xl:h-96 bg-gray-200 rounded-2xl shadow-lg overflow-hidden"
           >
-            {/* Placeholder for image */}
+                          <video
+                className="absolute inset-0 w-full h-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+              >
+                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
+              </video>
           </div>
 
           {/* RIGHT CONTENT */}

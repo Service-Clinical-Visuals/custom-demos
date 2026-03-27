@@ -87,9 +87,17 @@ export default function WhyChooseUs() {
           {/* RIGHT MEDIA BOX */}
           <div
             data-aos="fade-left"
-            className="w-full h-75 md:h-full bg-gray-200 rounded-xl"
+            className="w-full h-75 md:h-full bg-gray-200 rounded-xl overflow-hidden"
           >
-            {/* Image goes here later */}
+              <video
+                className="absolute inset-0 w-full h-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+              >
+                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
+              </video>
           </div>
 
         </div>
