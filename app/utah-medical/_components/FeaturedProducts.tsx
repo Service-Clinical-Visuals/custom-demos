@@ -62,7 +62,7 @@ export default function FeaturedProducts() {
             <div className="absolute right-0 bottom-0 w-[42%] h-full rounded-2xl bg-[#3366a0]" />
 
             {/* VIDEO BOX — on top, offset top-left */}
-            <div className="absolute right-8 top-6.5 w-[86%] h-[89%] rounded-xl z-10 overflow-hidden flex items-center justify-center bg-[repeating-conic-gradient(#d1d5db_0%_25%,#f3f4f6_0%_50%)] bg-[length:24px_24px]">
+            <div className="absolute right-8 top-6.5 w-[86%] h-[89%] rounded-xl z-10 overflow-hidden flex items-center justify-center">
               <video
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
@@ -70,11 +70,8 @@ export default function FeaturedProducts() {
                 loop
                 playsInline
               >
-                <source src="/utah-medical/assets/utah-360.mp4" type="video/mp4" />
+                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
               </video>
-              <span className="relative z-10 text-gray-600 font-medium pointer-events-none select-none mix-blend-multiply">
-                360 deg Video
-              </span>
             </div>
 
           </div>

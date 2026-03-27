@@ -28,11 +28,11 @@ export default function ChooseMedico() {
             className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
           >
             {/* Replace with video */}
-            <span className="text-gray-600 font-medium">
+            {/* <span className="text-gray-600 font-medium">
               Video Clip 01
-            </span>
+            </span> */}
 
-            {/* Future:
+            {/* Future: */}
             <video
               className="w-full h-full object-cover rounded-lg"
               autoPlay
@@ -40,9 +40,9 @@ export default function ChooseMedico() {
               loop
               playsInline
             >
-              <source src="/video1.mp4" />
+              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
             </video>
-            */}
+           
           </div>
 
           {/* CONTENT RIGHT */}
@@ -111,10 +111,15 @@ export default function ChooseMedico() {
             data-aos="fade-left"
             className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
           >
-            <span className="text-gray-600 font-medium">
-              360 deg video
-            </span>
-
+                        <video
+              className="w-full h-full object-cover rounded-lg"
+              autoPlay
+              muted
+              loop
+              playsInline
+            >
+              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
+            </video>
             {/* Future video */}
           </div>
 

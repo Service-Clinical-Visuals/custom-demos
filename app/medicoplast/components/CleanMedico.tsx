@@ -32,22 +32,20 @@ export default function CleanMedico() {
           className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
         >
           {/* Placeholder */}
-          <span className="text-gray-600 font-medium">
+          {/* <span className="text-gray-600 font-medium">
             Video Clip 02
-          </span>
+          </span> */}
 
           {/* Future Video */}
-          {/*
-          <video
-            className="w-full h-full object-cover rounded-lg"
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src="/video2.mp4" type="video/mp4" />
-          </video>
-          */}
+            <video
+              className="w-full h-full object-cover rounded-lg"
+              autoPlay
+              muted
+              loop
+              playsInline
+            >
+              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
+            </video>
         </div>
 
       </div>

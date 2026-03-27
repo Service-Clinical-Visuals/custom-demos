@@ -17,17 +17,18 @@ export default function ProductEducation() {
 
         {/* LEFT IMAGE */}
         <div
-          className="w-full h-56 sm:h-72 md:h-full md:min-h-100 rounded-md bg-gray-200 grid grid-cols-10 gap-1 p-2"
+          className="w-full h-56 sm:h-72 md:h-full md:min-h-100 rounded-md bg-gray-200 overflow-hidden"
           data-aos="fade-right"
         >
-          {Array.from({ length: 100 }).map((_, i) => (
-            <div
-              key={i}
-              className={`w-full h-full ${
-                i % 2 === 0 ? "bg-gray-300" : "bg-gray-200"
-              }`}
-            />
-          ))}
+          <video
+              className="w-full h-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+            >
+              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
+            </video>
         </div>
 
         {/* RIGHT CONTENT */}
