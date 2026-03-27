@@ -1,8 +1,21 @@
 "use client";
 
+import { useState } from "react";
 import { Check } from "lucide-react";
 
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
+];
+
 export default function FeaturedProducts() {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
 
   const points = [
     "A microprocessor and specialized electronics continuously monitor the output, adjusting it to remain at the ideal level for smooth, char-free cutting.",
@@ -64,14 +77,14 @@ export default function FeaturedProducts() {
             {/* VIDEO BOX — on top, offset top-left */}
             <div className="absolute right-8 top-6.5 w-[86%] h-[89%] rounded-xl z-10 overflow-hidden flex items-center justify-center">
               <video
+                key={currentVideoIndex}
+                src={videos[currentVideoIndex]}
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
-                loop
                 playsInline
-              >
-                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
-              </video>
+                onEnded={handleVideoEnd}
+              />
             </div>
 
           </div>
