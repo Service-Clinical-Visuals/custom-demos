@@ -30,7 +30,7 @@ export default function TeamSection() {
                 loop
                 playsInline
               >
-                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
+                <source src="https://cdn.clinicalvisuals.com/medical/atmos/360/360.webm" type="video/webm" />
               </video>
           </div>
 
