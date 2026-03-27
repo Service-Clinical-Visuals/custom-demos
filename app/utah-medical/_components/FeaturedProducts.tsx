@@ -78,7 +78,7 @@ export default function FeaturedProducts() {
                 loop
                 playsInline
               >
-                <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-3.webm" type="video/webm" />
+                <source src="https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm" type="video/webm" />
               </video>
             </div>
 
