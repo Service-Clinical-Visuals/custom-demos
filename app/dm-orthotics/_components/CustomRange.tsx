@@ -129,7 +129,7 @@ export default function CustomRange() {
           <div className="w-full lg:w-1/2 order-1 lg:order-2" data-aos="fade-left">
             <div className="w-full relative mx-auto shadow-2xl rounded-2xl md:rounded-[32px] overflow-hidden bg-[#F0F0F0]">
               <div className="aspect-video">
-                <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
+                <video src="https://cdn.clinicalvisuals.com/medical/DM-Orthotics/short_clips/orthotics_1.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
               </div>
             </div>
           </div>

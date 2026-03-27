@@ -57,7 +57,7 @@ export default function ProductFeatures() {
                     title="Galileo® 530VCDA Direct-Access™ Colposcope"
                     subtitle="Three-Step Magnification with Integrated LED Light and HD Video Camera"
                     description="The Galileo® 530VCDA Direct-Access™ Colposcope features three-step magnification with integrated LED light and HD video camera for connection to a monitor or computer. The Direct-Access™ offset center feature provides a direct visual and unobstructed working space. Combining modern technology with classic aesthetics, the Galileo® 530VCDA Direct-Access™ is a piece of art designed to facilitate comprehensive cervical examination with ease and style."
-                    video="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm"
+                    video="https://cdn.clinicalvisuals.com/medical/gynex/360/galileo_colposcope.webm"
                 />
 
                 <FeatureRow

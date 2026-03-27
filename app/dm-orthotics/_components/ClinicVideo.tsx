@@ -26,18 +26,18 @@ export default function ClinicVideo() {
                 To Proceed.
               </p>
             </div>
-            
+
             <button className="w-full sm:w-auto bg-primary hover:bg-primary-dark text-white px-10 py-4 text-xs font-black uppercase tracking-widest shadow-xl shadow-primary/20 active:translate-y-1 transition-all rounded-sm" data-aos="fade-up" data-aos-delay="300">
-               Book Assessment
+              Book Assessment
             </button>
           </div>
 
           {/* Right: Video Placeholder Area */}
           <div className="w-full lg:w-1/2" data-aos="fade-left">
             <div className="w-full relative mx-auto shadow-2xl rounded-2xl md:rounded-[32px] overflow-hidden bg-[#F0F0F0]">
-               <div className="aspect-video">
-                  <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
-               </div>
+              <div className="aspect-video">
+                <video src="https://cdn.clinicalvisuals.com/medical/DM-Orthotics/short_clips/orthotics_2.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
+              </div>
             </div>
           </div>
 

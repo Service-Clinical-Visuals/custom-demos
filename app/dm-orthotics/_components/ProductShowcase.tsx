@@ -19,7 +19,7 @@ export default function ProductShowcase() {
           <div className="w-full lg:w-1/2 order-1 lg:order-1" data-aos="fade-right">
             <div className="w-full relative mx-auto shadow-2xl rounded-2xl md:rounded-[32px] overflow-hidden bg-[#F0F0F0]">
               <div className="aspect-[16/11]">
-                <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
+                <video src="https://cdn.clinicalvisuals.com/medical/DM-Orthotics/360/360_product.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
               </div>
             </div>
           </div>

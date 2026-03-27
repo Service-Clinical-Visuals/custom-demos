@@ -3,11 +3,11 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
-        // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-        // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_1.webm"
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
 ];
 
 export default function Hero() {
@@ -34,7 +34,7 @@ export default function Hero() {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* <div className="absolute inset-0 bg-black/40" /> */}
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-end h-full text-center px-4 pb-40">

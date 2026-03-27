@@ -21,14 +21,14 @@ export default function ProductEducation() {
           data-aos="fade-right"
         >
           <video
-              className="w-full h-full object-cover"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
-              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
-            </video>
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-1.webm" />
+          </video>
         </div>
 
         {/* RIGHT CONTENT */}

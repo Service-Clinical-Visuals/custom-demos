@@ -1,47 +1,22 @@
 "use client";
-
 import React, { useState } from 'react';
 
-export default function Hero() {
-  const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_1.webm",
-    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_2.webm",
-    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_3.webm",
-    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_4.webm",
-    "https://cdn.clinicalvisuals.com/medical/futuremeds/landingpage/eco_stand_5.webm",
-  ];
+const bannerVideos = [
+  "https://cdn.clinicalvisuals.com/medical/DM-Orthotics/landing_page/orthotics_01.webm",
+  "https://cdn.clinicalvisuals.com/medical/DM-Orthotics/landing_page/orthotics_02.webm",
+];
 
+export default function Hero() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-  const [nextVideoIndex, setNextVideoIndex] = useState(1);
-  const [fade, setFade] = useState(false);
 
   const handleVideoEnd = () => {
-    setFade(true); // Trigger fade out of top video
-    setTimeout(() => {
-      // Move to next indices after fade
-      const newActive = nextVideoIndex;
-      const newNext = (nextVideoIndex + 1) % bannerVideos.length;
-      setCurrentVideoIndex(newActive);
-      setNextVideoIndex(newNext);
-      setFade(false); // Reset fade for next cycle
-    }, 500); // Match transition duration
+    setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
   };
 
   return (
-    <section className="relative w-full h-[600px] md:h-screen bg-slate-800 flex items-end justify-center overflow-hidden pb-10 md:pb-16">
-      {/* Background Video Layer */}
+    <section className="bg-black w-full min-h-screen flex flex-col items-center justify-end pb-16 md:pb-24 relative overflow-hidden">
+      {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        {/* Underlay Video (the next one) */}
-        <video
-          src={bannerVideos[nextVideoIndex]}
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        ></video>
-
-        {/* Overlay Video (the current one) */}
         <video
           key={currentVideoIndex}
           src={bannerVideos[currentVideoIndex]}
@@ -49,11 +24,13 @@ export default function Hero() {
           muted
           playsInline
           onEnded={handleVideoEnd}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${fade ? 'opacity-0' : 'opacity-100'}`}
+          className="absolute inset-0 w-full h-full object-cover z-0"
         ></video>
+        {/* Overlay for text readability */}
+        {/* <div className="absolute inset-0 bg-black/40 z-10"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent z-10"></div> */}
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto flex flex-col items-center">
         <h1 className="lg:text-[35px] text-[25px] font-medium text-white mb-4 drop-shadow-md" data-aos="fade-up">
           Enhancing Mobility with Smart Orthotic Design

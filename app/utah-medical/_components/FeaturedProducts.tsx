@@ -17,7 +17,7 @@ export default function FeaturedProducts() {
         {/* TITLE */}
 
         <h2 className="text-[20px] md:text-[30px] text-center font-semibold text-gray-800 mb-20">
-            Featured Products
+          Featured Products
         </h2>
 
         {/* MAIN GRID */}
@@ -41,7 +41,7 @@ export default function FeaturedProducts() {
             <div className="space-y-3 mb-6">
               {points.map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-[#336699] flex items-center justify-center mt-1 px-1">
+                  <div className="w-5 h-5 rounded-full bg-[#336699] flex items-center justify-center mt-1 px-1">
                     <Check size={12} className="text-white" />
                   </div>
                   <p className="text-base text-gray-600">{item}</p>
@@ -70,7 +70,7 @@ export default function FeaturedProducts() {
                 loop
                 playsInline
               >
-                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
+                <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-3.webm" type="video/webm" />
               </video>
             </div>
 
