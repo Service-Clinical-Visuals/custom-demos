@@ -3,7 +3,7 @@
 export default function CleanMedico() {
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-28">
       <div className="max-w-380 mx-auto px-6 grid md:grid-cols-2 gap-12">
         
         {/* LEFT CONTENT */}
@@ -29,7 +29,7 @@ export default function CleanMedico() {
         {/* RIGHT VIDEO */}
         <div
           data-aos="fade-left"
-          className="w-full h-48 md:h-full md:min-h-80 bg-gray-200 rounded-lg flex items-center justify-center"
+          className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
         >
           {/* Placeholder */}
           <span className="text-gray-600 font-medium">

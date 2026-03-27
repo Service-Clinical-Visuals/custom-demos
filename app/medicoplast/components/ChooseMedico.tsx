@@ -16,8 +16,8 @@ const Bullet = ({ text }: { text: string }) => (
 export default function ChooseMedico() {
 
   return (
-    <section className="bg-white py-20">
-      <div className="max-w-380 mx-auto px-6 space-y-12 md:space-y-20">
+    <section className="bg-white py-28">
+      <div className="max-w-380 mx-auto px-6 space-y-12 md:space-y-20 lg:space-y-28">
 
         {/* ROW 1 */}
         <div className="grid md:grid-cols-2 gap-12">
@@ -25,7 +25,7 @@ export default function ChooseMedico() {
           {/* VIDEO LEFT */}
           <div
             data-aos="fade-right"
-            className="w-full h-48 md:h-full md:min-h-80 bg-gray-200 rounded-lg flex items-center justify-center"
+            className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
           >
             {/* Replace with video */}
             <span className="text-gray-600 font-medium">
@@ -109,7 +109,7 @@ export default function ChooseMedico() {
           {/* VIDEO RIGHT */}
           <div
             data-aos="fade-left"
-            className="w-full h-48 md:h-full md:min-h-80 bg-gray-200 rounded-lg flex items-center justify-center"
+            className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
           >
             <span className="text-gray-600 font-medium">
               360 deg video

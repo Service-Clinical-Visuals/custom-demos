@@ -3,7 +3,7 @@
 export default function AboutMedico() {
 
   return (
-    <section className="bg-[#f5f5f5] py-20">
+    <section className="bg-[#f5f5f5] py-28">
       <div className="max-w-380 mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* LEFT CONTENT */}
