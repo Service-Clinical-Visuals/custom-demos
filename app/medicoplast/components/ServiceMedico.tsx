@@ -21,7 +21,7 @@ const services = [
 export default function ServiceMedico() {
 
   return (
-    <section className="bg-[#e6d2b3] py-20 relative overflow-hidden">
+    <section className="bg-[#e6d2b3] py-28 relative overflow-hidden">
       
       <div className="max-w-380 mx-auto px-6 text-center">
         
