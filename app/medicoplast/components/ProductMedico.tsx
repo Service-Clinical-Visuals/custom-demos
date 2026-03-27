@@ -4,17 +4,17 @@ const products = [
   {
     title: "Urology",
     desc: "All functions including supply chain, value chain, project scheduling, manufacturing, services and spares, technology, R&D, etc. are integrated to give a complete solutions package.",
-    image: "/product1.jpg",
+    image: "/medicoplast/assets/medico-urology.png",
   },
   {
     title: "Care & More",
     desc: "Artificial feeding techniques, their applications in pediatrics, and the use of rectal tubes are essential components in managing various medical conditions.",
-    image: "/product2.jpg",
+    image: "/medicoplast/assets/medico-care.png",
   },
   {
     title: "Airway",
     desc: "Airway management includes techniques and tools to keep a patient's airway open. This involves artificial respiration methods and accessories to aid breathing.",
-    image: "/product3.jpg",
+    image: "/medicoplast/assets/medico-lungs.png",
   },
 ];
 
@@ -22,7 +22,7 @@ export default function ProductMedico() {
 
 
   return (
-    <section className="bg-[#e6d2b3] py-20">
+    <section className="bg-[#faf8f5] py-20 bg-[url('/medicoplast/assets/medico-bg.png')] bg-cover bg-center">
       <div className="max-w-380 mx-auto px-6 text-center">
         
         {/* Header */}
@@ -37,7 +37,7 @@ export default function ProductMedico() {
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="w-20 h-[2px] bg-[#F29100] mx-auto mt-3"
+          className="w-28 h-1 bg-[#F29100] mx-auto mt-3"
         ></div>
 
         {/* Subtitle */}
@@ -62,13 +62,13 @@ export default function ProductMedico() {
             >
 
               {/* Floating Orange Box (Replace with image later) */}
-              <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#F29100] rounded-md flex items-center justify-center">
+              <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#F29100] rounded-md flex items-center justify-center p-2.5">
                 {/* Replace with image */}
-                {/* <img src={item.image} /> */}
+                <img src={item.image} />
               </div>
 
               {/* Card */}
-              <div className="bg-white rounded-xl pt-16 pb-8 px-6 flex flex-col flex-1">
+              <div className="bg-white rounded-xl pt-16 pb-8 px-6 flex flex-col flex-1 items-center">
 
                 <h3 className="text-lg font-semibold text-gray-800">
                   {item.title}
@@ -78,7 +78,7 @@ export default function ProductMedico() {
                   {item.desc}
                 </p>
 
-                <button className="mt-6 cursor-pointer bg-[#F29100] hover:bg-[#F27100] text-white text-base font-medium px-5 py-2 rounded-md">
+                <button className="mt-6 cursor-pointer bg-[#F29100] hover:bg-[#f29100c6] text-white text-base font-medium px-5 py-2 rounded-md w-44">
                   View Products
                 </button>
               </div>

@@ -10,30 +10,27 @@ export default function AboutMedico() {
         <div>
           
           {/* Small Label */}
-          <p
+          {/* <p
             data-aos="fade-up"
             className="text-orange-500 text-lg font-medium mb-3"
           >
             About Us
-          </p>
+          </p> */}
 
           {/* Heading */}
           <h2
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-xl font-semibold text-gray-900 leading-snug"
+            className="text-2xl font-medium text-gray-900 leading-snug"
           >
-            High quality, innovative medical products{" "}
-            <span className="font-bold">
-              MADE IN GERMANY
-            </span>
+            High quality, innovative medical products MADE IN GERMANY
           </h2>
 
           {/* Paragraph */}
           <p
             data-aos="fade-up"
             data-aos-delay="200"
-            className="mt-4 text-gray-600 text-base leading-relaxed max-w-xl"
+            className="mt-4 text-gray-600 text-base leading-relaxed max-w-2xl"
           >
             Medicoplast International GmbH is a medium-sized enterprise 
             featuring more than 45 years of experience in medical technology. 
@@ -56,7 +53,7 @@ export default function AboutMedico() {
         {/* RIGHT IMAGE */}
         <div
           data-aos="fade-left"
-          className="w-full h-full"
+          className="w-full h-102"
         >
           <div className="rounded-lg overflow-hidden w-full h-full">
             {/* Replace with your actual image */}
