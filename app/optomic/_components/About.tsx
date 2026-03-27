@@ -23,9 +23,9 @@ export default function About() {
     return (
         <section className="py-24 bg-white" data-aos="fade-up">
             <div className="container mx-auto px-6 md:px-12">
-                <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-12 lg:gap-20">
+                <div className="grid grid-cols-1 lg:grid-cols-[52%_48%] items-center gap-12 lg:gap-12">
                     {/* Left Side: Image */}
-                    <div className="lg:col-span-6">
+                    <div className="">
                         <div className="rounded-[40px] overflow-hidden bg-[#E8EEF4] aspect-square lg:aspect-[4/3] flex items-center justify-center shadow-2xl relative group">
                             <img
                                 src="/optomic/about.jpg"
@@ -37,30 +37,28 @@ export default function About() {
                     </div>
 
                     {/* Right Side: Content */}
-                    <div className="lg:col-span-6 flex flex-col items-start">
+                    <div className=" flex flex-col items-start">
                         {/* Section Label */}
-                        <div className="flex items-center gap-2 mb-4">
-                            <span className="text-[#333] text-[16px] font-bold uppercase tracking-[0.2em]">
+                        <div className="flex items-center gap-2 mb-2">
+                            <span className="text-[#333] text-xs font-bold uppercase tracking-[0.2em]">
                                 About Us
                             </span>
                         </div>
 
                         {/* Subheading */}
-                        <h2 className="text-3xl md:text-[30px] font-extrabold mb-8 leading-[1.15] tracking-tight">
+                        <h2 className="text-3xl md:text-[30px] font-extrabold mb-4 leading-[1.15] tracking-tight">
                             Solutions designed by specialists for specialists
                         </h2>
 
                         {/* Body Text */}
-                        <div className="text-[#555] text-[17px] leading-[1.8] mb-10 max-w-xl">
+                        <div className="text-[#555] text-[17px] leading-[1.8] mb-5 max-w-xl">
                             <p>
-                                With over 25 years of experience, Optomic specializes in designing, manufacturing, and delivering
-                                high-quality medical equipment. Our commitment to innovation, precision, and reliability allows us to meet
-                                the evolving needs of healthcare professionals worldwide.
+                                With over 25 years of experience, Optomic specializes in designing, manufacturing, and delivering high-quality medical equipment. Our commitment to innovation, precision, and reliability allows us to meet the evolving needs of healthcare professionals worldwide.
                             </p>
                         </div>
 
                         {/* Feature Items */}
-                        <div className="space-y-10 mb-14 w-full">
+                        <div className="space-y-10 mb-8 w-full">
                             {features.map((feature, index) => (
                                 <div key={index} className="flex items-start gap-6 group/item">
                                     <div className="w-14 h-14 bg-[#0096D6] rounded-full shadow-lg shadow-[#0096D6]/30 transition-all duration-300 group-hover/item:scale-110 group-hover/item:shadow-[#0096D6]/50 p-2">

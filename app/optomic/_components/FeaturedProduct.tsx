@@ -6,14 +6,13 @@ import { ArrowRight } from "lucide-react";
 export default function FeaturedProduct() {
     return (
         <section className="relative w-full" data-aos="fade-up">
-            {/* Top White Background */}
-            <div className="bg-white pt-24 pb-48 lg:pb-64" />
 
-            {/* Bottom Blue Background (Waves) */}
-            <div className="bg-[#243783] bg-[url('/optomic/bg-why.png')] bg-cover bg-center h-[400px] lg:h-[500px] w-full" />
 
             {/* Content Overlay */}
-            <div className="absolute inset-0 pt-24 lg:pt-32">
+            <div className="relative inset-0 pt-24 lg:pt-32 pb-20">
+
+                <div className="absolute bottom-0 left-0 bg-[#243783] bg-[url('/optomic/bg-why.png')] bg-cover bg-center h-[400px] lg:h-[600px] w-full" />
+
                 <div className="container mx-auto px-6 md:px-12 flex flex-col h-full">
 
                     {/* Top Text Section */}
@@ -45,7 +44,7 @@ export default function FeaturedProduct() {
                     </div>
 
                     {/* 360 Degree Viewer Placeholder */}
-                    <div className="w-full relative mx-auto shadow-2xl rounded-2xl md:rounded-[32px] overflow-hidden bg-[#F0F0F0] flex-1 max-h-[600px]">
+                    <div className="w-full relative mx-auto shadow-2xl rounded-2xl md:rounded-[32px] overflow-hidden bg-[#F0F0F0] flex-1">
                         <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted></video>
                     </div>
                 </div>

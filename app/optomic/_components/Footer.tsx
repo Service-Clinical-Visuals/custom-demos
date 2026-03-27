@@ -40,7 +40,7 @@ export default function Footer() {
                     <div className="lg:col-span-3 flex flex-col gap-6">
                         {/* Logo Placeholder */}
                         <Link href="/optomic" className="flex items-center">
-                            <div className="w-[130px] h-[40px] rounded-full flex items-center justify-center">
+                            <div className="w-[250px] rounded-full flex items-center justify-center">
                                 <img src="/optomic/optomic-logo.png" alt="Optomic" className="w-full h-full object-cover" />
                             </div>
                         </Link>
@@ -60,12 +60,15 @@ export default function Footer() {
                                     <ArrowRight size={16} className="text-white" />
                                 </button>
                             </div>
+                            <p className="text-white/90! text-[14px] mt-4">
+                                Hello,Our goal is Delivering high-quality medical equipment through innovation, expertise, and trusted standards.
+                            </p>
                         </div>
                     </div>
 
                     {/* Specialty */}
                     <div className="lg:col-span-2 flex flex-col gap-4">
-                        <h4 className="text-white text-[20px] font-bold">Specialty</h4>
+                        <h4 className="text-white! text-[20px] font-bold">Specialty</h4>
                         <ul className="flex flex-col gap-2.5">
                             {specialtyLinks.map((link) => (
                                 <li key={link.name}>
@@ -81,8 +84,8 @@ export default function Footer() {
                     </div>
 
                     {/* Products */}
-                    <div className="lg:col-span-3 flex flex-col gap-4">
-                        <h4 className="text-white text-[20px] font-bold">Products</h4>
+                    <div className="lg:col-span-2 flex flex-col gap-4">
+                        <h4 className="text-white! text-[20px] font-bold">Products</h4>
                         <ul className="flex flex-col gap-2.5">
                             {productLinks.map((link) => (
                                 <li key={link.name}>
@@ -99,7 +102,7 @@ export default function Footer() {
 
                     {/* Company */}
                     <div className="lg:col-span-2 flex flex-col gap-4">
-                        <h4 className="text-white text-[20px] font-bold">Company</h4>
+                        <h4 className="text-white! text-[20px] font-bold">Company</h4>
                         <ul className="flex flex-col gap-2.5">
                             {companyLinks.map((link) => (
                                 <li key={link.name}>
@@ -115,16 +118,13 @@ export default function Footer() {
                     </div>
 
                     {/* World Map / Global Presence */}
-                    <div className="lg:col-span-2 flex flex-col gap-4">
-                        <h4 className="text-white text-[20px] font-bold">
+                    <div className="lg:col-span-3 flex flex-col gap-4">
+                        <h4 className="text-white! text-[20px] font-bold">
                             We are present in every continent
                         </h4>
                         {/* World Map Placeholder */}
-                        <div className="w-full aspect-[16/9] bg-[#162040] rounded-lg flex items-center justify-center overflow-hidden">
-                            <div className="text-center px-4">
-                                <div className="text-[#3A4F9A] text-4xl mb-2">🌍</div>
-                                <span className="text-white/30 text-[11px] uppercase tracking-widest">World Map</span>
-                            </div>
+                        <div className="w-full aspect-[16/9] rounded-lg flex items-center justify-center overflow-hidden">
+                            <img src="/optomic/map.png" alt="World Map" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>

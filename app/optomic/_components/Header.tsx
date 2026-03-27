@@ -2,9 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Phone, Mail, Globe, ChevronDown, Menu, X } from "lucide-react";
+import { Phone, Mail, Globe, ChevronDown, Menu, X, ArrowDown, Instagram, YoutubeIcon, Facebook } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "./Button";
+import { FacebookIcon } from "@/app/future-med/_components/Icons";
 
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -48,6 +49,12 @@ export default function Header() {
                             <span>comercial@optomic.com</span>
                         </a>
                     </div>
+                    <div className="flex items-center gap-5">
+                        <Facebook className="text-white" size={16} strokeWidth={2} />
+                        <Instagram className="text-white" size={16} strokeWidth={2} />
+                        <YoutubeIcon className="text-white" size={16} strokeWidth={2} />
+
+                    </div>
                 </div>
             </div>
 
@@ -86,15 +93,15 @@ export default function Header() {
                         <div className="flex items-center gap-2 text-[#333333]">
                             {/* Downloads Button */}
                             <div className="hidden sm:block">
-                                <Button variant="optomic" size="sm" icon={ChevronDown}>
+                                <Button variant="optomic" size="sm" icon={ArrowDown}>
                                     Downloads
                                 </Button>
                             </div>
 
                             {/* Language / Globe Icon */}
-                            <button className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer hidden sm:flex items-center justify-center">
+                            {/* <button className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer hidden sm:flex items-center justify-center">
                                 <Globe size={20} strokeWidth={1.5} className="text-[#243783]" />
-                            </button>
+                            </button> */}
 
                             {/* Mobile Hamburger */}
                             <button
@@ -126,7 +133,7 @@ export default function Header() {
                                             {link.name}
                                         </Link>
                                     ))}
-                                    <Button variant="optomic" size="sm" icon={ChevronDown} className="mt-2 text-white">
+                                    <Button variant="optomic" size="sm" icon={ArrowDown} className="mt-2 text-white">
                                         Downloads
                                     </Button>
                                 </div>

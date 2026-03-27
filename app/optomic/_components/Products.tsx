@@ -6,22 +6,22 @@ import Button from "./Button";
 
 const products = [
     {
-        id: "OP-59",
+        id: "OP-S9",
         image: "/optomic/product-1.jpg",
-        name: "OP-59",
-        description: "OP-59 unit combines the best features, designed for video angioscopy.",
+        name: "OP-S9",
+        description: "OP-S9 ENT chair combines the best features, designed for otolaryngologists.",
     },
     {
-        id: "OP-C1",
+        id: "OP-C5",
         image: "/optomic/product-2.jpg",
-        name: "OP-C1",
-        description: "OP-C1 is a high-end colposcope with a step magnification and precise focus.",
+        name: "OP-C5",
+        description: "OP-C5 is a high-end colposcope with 5-step magnification and precise focus.",
     },
     {
-        id: "OP-GYN",
+        id: "OP-G7+ gynecology chair",
         image: "/optomic/product-3.jpg",
-        name: "OP-GYN gynecology chair",
-        description: "OP-GYN is a gynecological chair that meets all ISO 2/19 examination needs.",
+        name: "OP-G7+ gynecology chair",
+        description: "OP-G7+ gynecology chair meets all OB/GYN examination needs.",
     },
 ];
 
@@ -31,7 +31,7 @@ export default function Products() {
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-12">
                     {/* Left Content */}
-                    <div className="lg:col-span-4 py-16 lg:pr-10 flex flex-col justify-center">
+                    <div className="lg:col-span-4 pt-5 pb-16 lg:pr-10 flex flex-col">
                         <span className="text-white text-xs font-semibold uppercase tracking-widest mb-3">
                             Products
                         </span>
@@ -39,9 +39,7 @@ export default function Products() {
                             Innovative ENT solutions built for accuracy and performance.
                         </h2>
                         <p className="text-white/70! text-[15px] leading-relaxed mb-8">
-                            We offer a comprehensive range of advanced ENT and medical equipment designed for precision,
-                            performance, and reliability. Our portfolio includes microscopes, examination chairs, cameras,
-                            endoscope systems, imaging systems, and supporting accessories to meet modern clinical needs.
+                            We offer a comprehensive range of advanced ENT and medical equipment designed for precision, performance, and reliability. Our portfolio includes microscopes, workstations, chairs, endoscopy systems, imaging solutions, and supporting accessories to meet modern clinical needs.
                         </p>
                         <Button variant="optomic" href="/optomic/products">
                             View All Our Products
@@ -52,7 +50,7 @@ export default function Products() {
                     <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white/10 gap-10">
                         {products.map((product) => (
                             <div key={product.id} className="flex flex-col h-full">
-                                <div className="aspect-[4/3] overflow-hidden">
+                                <div className="aspect-[4/5] overflow-hidden">
                                     <img
                                         src={product.image}
                                         alt={product.name}
@@ -63,10 +61,10 @@ export default function Products() {
 
                                 {/* Product Info */}
                                 <div className="bg-[#1b2a60] p-6 border-t border-white/10 flex-1 flex flex-col">
-                                    <h4 className="text-white! font-semibold text-[15px] mb-2">
+                                    <h4 className="text-white! font-semibold text-[17px] mb-2">
                                         {product.name}
                                     </h4>
-                                    <p className="text-white/60! text-[13px] leading-relaxed mb-6">
+                                    <p className="text-white/80! text-[13px] leading-relaxed mb-6">
                                         {product.description}
                                     </p>
                                     <div className="mt-auto">

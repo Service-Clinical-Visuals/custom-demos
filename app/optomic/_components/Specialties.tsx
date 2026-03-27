@@ -9,9 +9,7 @@ const specialties = [
         label: "ENT",
         title: "ENT",
         items: [
-            "ENT Microscopes, Cameras, Light",
-            "Sources, ENT drills, ENT Chairs",
-            "Fiberscopes",
+            "ENT Microscopes, Cameras, Light Sources, ENT drills, ENT Chairs Fiberscopes"
         ],
         href: "/optomic/specialty/ent",
     },
@@ -19,7 +17,7 @@ const specialties = [
         icon: "optomic/gynecology.png",
         label: "Gynecology",
         title: "Gynecology",
-        items: ["Colposcopes, Gynecology Chairs,", "Profuse"],
+        items: ["Colposcopes, Gynecology Chairs, Profuse"],
         href: "/optomic/specialty/gynecology",
     },
     {
@@ -27,8 +25,7 @@ const specialties = [
         label: "Urology",
         title: "Urology",
         items: [
-            "Urological Chairs, Periscopes,",
-            "Cystoscopes Profuse, Urology",
+            "Urological Chairs, Periscopes, Cystoscopes Profuse, Urology",
         ],
         href: "/optomic/specialty/urology",
     },
@@ -37,9 +34,7 @@ const specialties = [
         label: "Odontology",
         title: "Odontology",
         items: [
-            "Laboratories and Training Units, Light",
-            "Sources, Visible Microscopes, Image",
-            "and Video Capturing Software",
+            "Laboratories and Training Units, Light Sources, Visible Microscopes, Image and Video Capturing Software",
         ],
         href: "/optomic/specialty/odontology",
     },
@@ -51,12 +46,12 @@ export default function Specialties() {
             <div className="container mx-auto px-6 md:px-12">
                 {/* Heading */}
                 <div className="text-center mb-14">
-                    <h2 className="text-[28px] md:text-[34px] font-bold text-[#1A1A1A] mb-3">
+                    <h5 className="text-[16px] md:text-[16px] font-bold text-[#1A1A1A] mb-3">
                         Our Specialties
-                    </h2>
-                    <p className="text-[#243783] font-semibold text-[16px] mb-4">
+                    </h5>
+                    <h2 className="text-[#243783] font-semibold text-[34px] mb-4">
                         Advanced medical solutions for precision and better patient care.
-                    </p>
+                    </h2>
                     <p className="text-[#666] text-[15px] max-w-2xl mx-auto leading-relaxed">
                         Explore our range of specialised equipment tailored for ENT, Gynecology, Urology, and Odontology—built
                         to meet the evolving needs of modern healthcare professionals.
@@ -82,7 +77,7 @@ export default function Specialties() {
                                 </h4>
 
                                 {/* Items */}
-                                <ul className="text-[#666] text-[13px] leading-relaxed space-y-0.5">
+                                <ul className="text-[#666] text-[16px] mb-5 leading-relaxed space-y-0.5">
                                     {specialty.items.map((item, i) => (
                                         <li key={i}>{item}</li>
                                     ))}
