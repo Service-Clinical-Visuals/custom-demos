@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CheckCircle2 } from "lucide-react";
+import { Check, CheckCircle2 } from "lucide-react";
 
 const serviceItems = [
     {
@@ -32,14 +32,14 @@ export default function Service() {
                     </div>
 
                     {/* Right — Service Content */}
-                    <div className="flex flex-col justify-center">
-                        <span className="text-[#243783] text-xs font-semibold uppercase tracking-widest mb-3">
+                    <div className="flex flex-col">
+                        <span className="font-semibold mb-3">
                             Service
                         </span>
-                        <h2 className="text-[#1A1A1A] text-2xl md:text-3xl font-bold mb-5 leading-tight">
+                        <h2 className="!text-[#243783] text-[30px] mb-4">
                             Ensuring reliable service and continued support.
                         </h2>
-                        <p className="text-[#666] text-base leading-relaxed mb-8">
+                        <p className="text-[#333333] text-[16px] mb-8 text-justify">
                             Both Customer Care and After-Sales Service are priorities for Optomic. We look after the end
                             professional&apos;s needs, and guarantee the perfect condition of the equipment during its life.
                             Optomic offers to its clients many ways of contact, enabling communication between them and
@@ -49,14 +49,14 @@ export default function Service() {
                         <ul className="space-y-6">
                             {serviceItems.map((item, index) => (
                                 <li key={index} className="grid grid-cols-[2rem_1fr] gap-4 items-start">
-                                    <div className="w-8 h-8 bg-[#E8ECF9] rounded-full flex items-center justify-center">
-                                        <CheckCircle2 size={16} className="text-[#243783]" />
+                                    <div className="w-7 h-7 bg-[#243783] rounded-full flex items-center justify-center">
+                                        <Check size={22} className="text-white" />
                                     </div>
                                     <div>
-                                        <h4 className="font-semibold text-[#1A1A1A] text-[15px] mb-1">
+                                        <h4 className="font-semibold text-[#1A1A1A] text-[19px] mb-1">
                                             {item.title}
                                         </h4>
-                                        <p className="text-[#777] text-sm leading-relaxed">
+                                        <p className="leading-relaxed">
                                             {item.description}
                                         </p>
                                     </div>

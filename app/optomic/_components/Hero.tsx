@@ -47,7 +47,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
-                    className="text-white! text-2xl md:text-3xl lg:text-5xl font-semibold max-w-3xl tracking-wide drop-shadow-lg leading-tight"
+                    className="text-white! text-2xl md:text-3xl lg:text-[40px] font-semibold max-w-4xl tracking-wide drop-shadow-lg leading-tight"
                 >
                     Precision Medical Solutions for Modern Care
                 </motion.h1>
@@ -55,7 +55,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.8 }}
-                    className="text-white/80! mt-4 max-w-2xl text-base md:text-lg font-normal leading-relaxed"
+                    className="text-white/80! mt-4 max-w-4xl text-base md:text-xl! font-normal leading-relaxed"
                 >
                     We design high-quality medical equipment focused on innovation, precision, and global standards,
                     delivering reliable solutions for healthcare professionals worldwide.

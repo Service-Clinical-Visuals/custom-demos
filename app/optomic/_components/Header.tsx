@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Phone, Mail, Globe, ChevronDown, Menu, X, ArrowDown, Instagram, YoutubeIcon, Facebook } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { Phone, Mail, Globe, ChevronDown, Menu, X, ArrowDown, Instagram, YoutubeIcon, Facebook, Twitter, Download } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "./Button";
 import { FacebookIcon } from "@/app/future-med/_components/Icons";
@@ -10,6 +11,7 @@ import { FacebookIcon } from "@/app/future-med/_components/Icons";
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -38,21 +40,21 @@ export default function Header() {
                             href="tel:+34918044444"
                             className="flex items-center gap-2 hover:text-white/80 transition-colors"
                         >
-                            <Phone size={14} strokeWidth={2} />
-                            <span className="hidden sm:inline">Tel: (+34) 91 804 44 44</span>
+                            <Phone size={18} strokeWidth={2} />
+                            <span className="hidden sm:inline !text-[15px]">Tel: (+34) 91 804 44 44</span>
                         </a>
                         <a
                             href="mailto:comercial@optomic.com"
                             className="hidden md:flex items-center gap-2 hover:text-white/80 transition-colors"
                         >
-                            <Mail size={14} strokeWidth={2} />
-                            <span>comercial@optomic.com</span>
+                            <Mail size={18} strokeWidth={2} />
+                            <span className="!text-[15px]">comercial@optomic.com</span>
                         </a>
                     </div>
                     <div className="flex items-center gap-5">
-                        <Facebook className="text-white" size={16} strokeWidth={2} />
-                        <Instagram className="text-white" size={16} strokeWidth={2} />
-                        <YoutubeIcon className="text-white" size={16} strokeWidth={2} />
+                        <Facebook className="text-white" size={18} strokeWidth={2} />
+                        <Instagram className="text-white" size={18} strokeWidth={2} />
+                        <Twitter className="text-white" size={18} strokeWidth={2} />
 
                     </div>
                 </div>
@@ -70,30 +72,37 @@ export default function Header() {
                         {/* Logo Placeholder */}
                         <Link href="/optomic" className="flex items-center gap-2 shrink-0">
                             {/* Logo Image Placeholder */}
-                            <div className="w-[150px] rounded-full flex items-center justify-center">
+                            <div className="w-[180px] rounded-full flex items-center justify-center">
                                 <img src="/optomic/optomic-logo.png" alt="Optomic Logo" className="" />
                             </div>
                         </Link>
 
                         {/* Desktop Menu */}
                         <div className="hidden lg:flex items-center gap-8 font-medium text-[16px]">
-                            {navLinks.map((link) => (
-                                <Link
-                                    key={link.name}
-                                    href={link.href}
-                                    className="text-[#333333] hover:text-[#243783] transition-colors relative group py-2"
-                                >
-                                    {link.name}
-                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#243783] transition-all duration-300 group-hover:w-full"></span>
-                                </Link>
-                            ))}
+                            {navLinks.map((link) => {
+                                const isActive = pathname === link.href;
+                                return (
+                                    <Link
+                                        key={link.name}
+                                        href={link.href}
+                                        className={`${isActive ? "text-[#243783] font-bold" : "text-[#333333]"
+                                            } hover:text-[#243783] transition-colors relative group py-2`}
+                                    >
+                                        {link.name}
+                                        <span
+                                            className={`absolute -bottom-1 left-0 h-0.5 bg-[#243783] transition-all duration-300 ${isActive ? "w-full" : "w-0 group-hover:w-full"
+                                                }`}
+                                        ></span>
+                                    </Link>
+                                );
+                            })}
                         </div>
 
                         {/* Right Actions */}
                         <div className="flex items-center gap-2 text-[#333333]">
                             {/* Downloads Button */}
                             <div className="hidden sm:block">
-                                <Button variant="optomic" size="sm" icon={ArrowDown}>
+                                <Button variant="optomic" size="sm" icon={Download}>
                                     Downloads
                                 </Button>
                             </div>
@@ -123,17 +132,21 @@ export default function Header() {
                                 className="lg:hidden bg-white border-t border-gray-100 overflow-hidden shadow-xl"
                             >
                                 <div className="flex flex-col p-6 gap-4 font-medium text-sm">
-                                    {navLinks.map((link) => (
-                                        <Link
-                                            key={link.name}
-                                            href={link.href}
-                                            className="text-[#333] hover:text-[#243783] py-2 border-b border-gray-50 last:border-0"
-                                            onClick={() => setMobileOpen(false)}
-                                        >
-                                            {link.name}
-                                        </Link>
-                                    ))}
-                                    <Button variant="optomic" size="sm" icon={ArrowDown} className="mt-2 text-white">
+                                    {navLinks.map((link) => {
+                                        const isActive = pathname === link.href;
+                                        return (
+                                            <Link
+                                                key={link.name}
+                                                href={link.href}
+                                                className={`py-2 border-b border-gray-50 last:border-0 ${isActive ? "text-[#243783]" : "text-[#333]"
+                                                    } hover:text-[#243783]`}
+                                                onClick={() => setMobileOpen(false)}
+                                            >
+                                                {link.name}
+                                            </Link>
+                                        );
+                                    })}
+                                    <Button variant="optomic" size="sm" icon={Download} className="mt-2 text-white">
                                         Downloads
                                     </Button>
                                 </div>

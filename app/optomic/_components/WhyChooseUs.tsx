@@ -31,13 +31,13 @@ export default function WhyChooseUs() {
                 <div className="grid grid-cols-1 lg:grid-cols-[48%_52%] gap-20">
                     {/* Left Content */}
                     <div className="flex flex-col justify-center">
-                        <span className="text-[#8B9ED9] text-xs font-semibold uppercase tracking-widest mb-3">
+                        <span className="text-[#fff] font-semibold mb-3">
                             Why Choose Us
                         </span>
                         <h2 className="text-white! text-2xl md:text-3xl font-bold mb-4 leading-tight">
                             OPTOMIC, products designed by and for specialists
                         </h2>
-                        <p className="text-white/90! text-base leading-relaxed mb-8">
+                        <p className="text-white! text-base leading-relaxed mb-8 text-justify">
                             With over 30 years of experience and advanced in-house R&D, in-house production, and
                             certified quality standards to deliver reliable medical solutions. Our strong focus on innovation,
                             customer support, and global distribution ensures that healthcare professionals receive
@@ -52,10 +52,10 @@ export default function WhyChooseUs() {
                                         <img src={feature.icon} alt="Check" className="w-full h-full object-cover" />
                                     </div>
                                     <div>
-                                        <h4 className="text-white! font-semibold text-[15px] mb-0.5">
+                                        <h4 className="text-white! font-semibold text-[19px] mb-0.5">
                                             {feature.title}
                                         </h4>
-                                        <p className="text-white/90! text-sm leading-relaxed">
+                                        <p className="text-white! text-sm leading-relaxed">
                                             {feature.description}
                                         </p>
                                     </div>

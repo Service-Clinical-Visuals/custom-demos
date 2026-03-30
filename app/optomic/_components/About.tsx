@@ -40,18 +40,18 @@ export default function About() {
                     <div className=" flex flex-col items-start">
                         {/* Section Label */}
                         <div className="flex items-center gap-2 mb-2">
-                            <span className="text-[#333] text-xs font-bold uppercase tracking-[0.2em]">
+                            <span className="text-[#333] font-semibold">
                                 About Us
                             </span>
                         </div>
 
                         {/* Subheading */}
-                        <h2 className="text-3xl md:text-[30px] font-extrabold mb-4 leading-[1.15] tracking-tight">
+                        <h2 className="text-3xl md:text-[30px] font-bold mb-4 leading-[1.15] tracking-tight !text-[#243783]">
                             Solutions designed by specialists for specialists
                         </h2>
 
                         {/* Body Text */}
-                        <div className="text-[#555] text-[17px] leading-[1.8] mb-5 max-w-xl">
+                        <div className="text-[#333333] leading-[1.8] mb-5 text-justify">
                             <p>
                                 With over 25 years of experience, Optomic specializes in designing, manufacturing, and delivering high-quality medical equipment. Our commitment to innovation, precision, and reliability allows us to meet the evolving needs of healthcare professionals worldwide.
                             </p>
@@ -65,7 +65,7 @@ export default function About() {
                                         <img src={feature.icon} alt={feature.title} className="w-full h-full object-cover" />
                                     </div>
                                     <div className="flex-1">
-                                        <h4 className="font-extrabold text-[#1A1A1A] text-[19px] mb-2 tracking-tight group-hover/item:text-[#0096D6] transition-colors">
+                                        <h4 className="font-bold text-[#1A1A1A] text-[19px] mb-2 tracking-tight group-hover/item:text-[#0096D6] transition-colors">
                                             {feature.title}
                                         </h4>
                                         <p className="text-[#666] text-[15.5px] leading-relaxed font-normal">

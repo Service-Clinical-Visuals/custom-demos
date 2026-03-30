@@ -41,7 +41,7 @@ export default function Footer() {
                         {/* Logo Placeholder */}
                         <Link href="/optomic" className="flex items-center">
                             <div className="w-[250px] rounded-full flex items-center justify-center">
-                                <img src="/optomic/optomic-logo.png" alt="Optomic" className="w-full h-full object-cover" />
+                                <img src="/optomic/f-logo.png" alt="Optomic" className="w-full h-full object-cover" />
                             </div>
                         </Link>
 
@@ -60,15 +60,15 @@ export default function Footer() {
                                     <ArrowRight size={16} className="text-white" />
                                 </button>
                             </div>
-                            <p className="text-white/90! text-[14px] mt-4">
-                                Hello,Our goal is Delivering high-quality medical equipment through innovation, expertise, and trusted standards.
+                            <p className="text-white! mt-4">
+                                Hello, Our goal is Delivering high-quality medical equipment through innovation, expertise, and trusted standards.
                             </p>
                         </div>
                     </div>
 
                     {/* Specialty */}
                     <div className="lg:col-span-2 flex flex-col gap-4">
-                        <h4 className="text-white! text-[20px] font-bold">Specialty</h4>
+                        <h4 className="text-white! text-[20px] font-bold border-b border-white/40 pb-2">Specialty</h4>
                         <ul className="flex flex-col gap-2.5">
                             {specialtyLinks.map((link) => (
                                 <li key={link.name}>
@@ -85,7 +85,7 @@ export default function Footer() {
 
                     {/* Products */}
                     <div className="lg:col-span-2 flex flex-col gap-4">
-                        <h4 className="text-white! text-[20px] font-bold">Products</h4>
+                        <h4 className="text-white! text-[20px] font-bold border-b border-white/40 pb-2">Products</h4>
                         <ul className="flex flex-col gap-2.5">
                             {productLinks.map((link) => (
                                 <li key={link.name}>
@@ -102,7 +102,7 @@ export default function Footer() {
 
                     {/* Company */}
                     <div className="lg:col-span-2 flex flex-col gap-4">
-                        <h4 className="text-white! text-[20px] font-bold">Company</h4>
+                        <h4 className="text-white! text-[20px] font-bold border-b border-white/40 pb-2">Company</h4>
                         <ul className="flex flex-col gap-2.5">
                             {companyLinks.map((link) => (
                                 <li key={link.name}>
@@ -119,7 +119,7 @@ export default function Footer() {
 
                     {/* World Map / Global Presence */}
                     <div className="lg:col-span-3 flex flex-col gap-4">
-                        <h4 className="text-white! text-[20px] font-bold">
+                        <h4 className="text-white! text-[20px] font-bold border-b border-white/40 pb-2">
                             We are present in every continent
                         </h4>
                         {/* World Map Placeholder */}

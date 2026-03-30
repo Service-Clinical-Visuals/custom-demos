@@ -3,6 +3,7 @@
     font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
   }
 }
+
 @import "tailwindcss";
 
 @theme {
@@ -32,7 +33,7 @@ p,
 .paragraph {
   font-size: 16px !important;
   font-weight: 400;
-  color: var(--color-muted);
+  color: var(--color-text);
 }
 
 h1,
@@ -42,7 +43,7 @@ h4,
 h5,
 h6 {
   color: var(--color-dark);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .optomic-swiper-button {
