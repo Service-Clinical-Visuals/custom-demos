@@ -133,7 +133,7 @@ export default function Footer() {
             {/* Bottom Copyright Bar */}
             <div className="border-t border-white/50 py-4 text-center">
                 <p className="text-white/90! text-[14px]">
-                    {new Date().getFullYear()} Optomic · All Rights Reserved
+                    {new Date().getFullYear()} Optomic. All Rights Reserved
                 </p>
             </div>
         </footer>
