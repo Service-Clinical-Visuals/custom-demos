@@ -1,19 +1,33 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
-import { CheckCheckIcon, CircleCheck } from "lucide-react";
+import { useState } from "react";
 
-const Bullet = ({ text }: { text: string }) => (
-  <div className="flex items-start gap-3 mt-3">
-    <div className="w-5 h-5 flex items-center justify-center bg-orange-500 text-white rounded-full text-xs">
-      ✓
-    </div>
-    <p className="text-sm text-gray-600 leading-relaxed">{text}</p>
-  </div>
-);
+import { CircleCheck } from "lucide-react";
+
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+];
+
+const videos2 = [
+  "https://cdn.clinicalvisuals.com/medical/invotec/landingvideos/invotec_02.webm",
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+]
+
 
 export default function ChooseMedico() {
+
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [currentVideoIndex2, setCurrentVideoIndex2] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
+  const handleVideoEnd2 = () => {
+    setCurrentVideoIndex2((prev) => (prev + 1) % videos2.length);
+  }
+
 
   return (
     <section className="w-full bg-white py-28">
@@ -34,13 +48,16 @@ export default function ChooseMedico() {
 
             {/* Future: */}
             <video
+              key={currentVideoIndex}
+              src={videos[currentVideoIndex]}
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              loop
+              // loop
               playsInline
+              onEnded={handleVideoEnd}
             >
-              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
+              {/* <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/> */}
             </video>
            
           </div>
@@ -111,14 +128,17 @@ export default function ChooseMedico() {
             data-aos="fade-left"
             className="w-full h-48 md:h-full md:min-h-96 bg-gray-200 rounded-lg flex items-center justify-center"
           >
-                        <video
+            <video
+              key={currentVideoIndex}
+              src={videos2[currentVideoIndex2]}
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              loop
+              // loop
               playsInline
+              onEnded={handleVideoEnd2}
             >
-              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
+              {/* <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/> */}
             </video>
             {/* Future video */}
           </div>

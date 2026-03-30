@@ -1,6 +1,19 @@
 "use client";
 
+import { useState } from "react";
+
+const videos = [
+"https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+"https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+];
 export default function CleanMedico() {
+
+
+ const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
 
   return (
     <section className="w-full bg-white py-28">
@@ -38,13 +51,16 @@ export default function CleanMedico() {
 
           {/* Future Video */}
             <video
+            key={currentVideoIndex}
+            src={videos[currentVideoIndex]}
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              loop
+              // loop
               playsInline
+              onEnded={handleVideoEnd}
             >
-              <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/>
+              {/* <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm"/> */}
             </video>
         </div>
 

@@ -1,6 +1,23 @@
 "use client";
 
+import { useState } from "react";
+
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+];
+
+
 export default function TeamSection() {
+
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
+
+
   return (
     <section className="bg-white pb-20">
       
@@ -23,14 +40,17 @@ export default function TeamSection() {
             data-aos="zoom-in"
             className="w-full h-56 sm:h-72 xl:h-96 bg-gray-200 rounded-2xl shadow-lg overflow-hidden"
           >
-                          <video
+                <video
+                key={currentVideoIndex}
+                src={videos[currentVideoIndex]}
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
-                loop
+                // loop
                 playsInline
+                onEnded={handleVideoEnd}
               >
-                <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" />
+                {/* <source src="https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm" type="video/webm" /> */}
               </video>
           </div>
 

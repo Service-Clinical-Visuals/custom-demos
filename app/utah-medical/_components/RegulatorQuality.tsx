@@ -5,9 +5,7 @@ import { Check } from "lucide-react";
 
 const videos = [
   "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
+  "https://cdn.clinicalvisuals.com/medical/invotec/landingvideos/invotec_02.webm",
 ];
 
 export default function RegulatoryQuality() {
