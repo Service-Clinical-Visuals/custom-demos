@@ -46,13 +46,13 @@ export default function Specialties() {
             <div className="container mx-auto px-6 md:px-12">
                 {/* Heading */}
                 <div className="text-center mb-14">
-                    <h5 className="text-[16px] md:text-[16px] font-bold text-[#1A1A1A] mb-3">
+                    <h5 className="text-[16px] font-bold text-[#1A1A1A] mb-3">
                         Our Specialties
                     </h5>
-                    <h2 className="text-[#243783] font-semibold text-[34px] mb-4">
+                    <h2 className="!text-[#243783] text-[30px] mb-4 ">
                         Advanced medical solutions for precision and better patient care.
                     </h2>
-                    <p className="text-[#666] text-[15px] max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-[#333333] max-w-5xl mx-auto leading-relaxed">
                         Explore our range of specialised equipment tailored for ENT, Gynecology, Urology, and Odontology—built
                         to meet the evolving needs of modern healthcare professionals.
                     </p>
@@ -72,12 +72,12 @@ export default function Specialties() {
 
                             <div className="flex flex-col flex-1">
                                 {/* Title */}
-                                <h4 className="font-bold text-[17px] text-[#1A1A1A]">
+                                <h4 className="font-bold text-[19px] text-[#1A1A1A]">
                                     {specialty.title}
                                 </h4>
 
                                 {/* Items */}
-                                <ul className="text-[#666] text-[16px] mb-5 leading-relaxed space-y-0.5">
+                                <ul className="text-[#333333] text-[16px] mb-5 leading-relaxed space-y-0.5">
                                     {specialty.items.map((item, i) => (
                                         <li key={i}>{item}</li>
                                     ))}
@@ -86,7 +86,7 @@ export default function Specialties() {
                                 {/* Read More */}
                                 <a
                                     href={specialty.href}
-                                    className="inline-flex items-center gap-1.5 text-[#019EE2] font-semibold text-[13px] mt-auto hover:gap-3 transition-all"
+                                    className="inline-flex items-center gap-1.5 text-[#019EE2] font-semibold text-[16px] mt-auto hover:gap-3 transition-all"
                                 >
                                     Read More <ArrowRight size={13} />
                                 </a>

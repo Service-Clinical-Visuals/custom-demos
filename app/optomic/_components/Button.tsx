@@ -58,21 +58,21 @@ export default function Button({
     const content = (
         <>
             {variant === "optomic" ? (
-                <div className={`${baseStyles} ${variants[variant]} ${heights[size]} ${className} !overflow-visible flex items-center min-w-fit pr-2 relative`}>
-                    <span className={`flex items-center justify-center ${size === 'sm' ? 'pl-6 pr-10 text-[16px]' : 'pl-10 pr-14 text-[17px]'} font-bold tracking-tight whitespace-nowrap`}>
+                <div className={`${baseStyles} ${variants[variant]} ${heights[size]} ${className} !overflow-visible flex items-center justify-between pl-5 pr-1 relative ${size === 'sm' ? 'min-w-[160px]' : 'min-w-[220px]'} w-auto`}>
+                    <span className={`${size === 'sm' ? 'text-[16px]' : 'text-[17px]'} font-bold tracking-tight whitespace-nowrap pr-4`}>
                         {children}
                     </span>
-                    <div className={`${size === 'sm' ? 'h-[36px]' : 'h-[48px]'} aspect-square flex items-center justify-center absolute right-1 overflow-hidden rounded-full shadow-lg z-10 transition-transform duration-300 bg-[#243783]`}>
+                    <div className={`${size === 'sm' ? 'h-[36px]' : 'h-[48px]'} aspect-square flex items-center justify-center overflow-hidden rounded-full shadow-lg z-10 transition-all duration-300 bg-[#243783] group-hover:scale-110`}>
                         <div className="relative w-full h-full flex items-center justify-center">
                             <Icon
                                 size={size === 'sm' ? 16 : 20}
                                 strokeWidth={3}
-                                className="absolute transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-10 group-hover:-translate-y-10 opacity-100 group-hover:opacity-0"
+                                className="absolute transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-10 group-hover:-translate-y-10 opacity-100 group-hover:opacity-0 text-white"
                             />
                             <Icon
                                 size={size === 'sm' ? 16 : 20}
                                 strokeWidth={3}
-                                className="absolute -translate-x-10 translate-y-10 transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-0 group-hover:translate-y-0 opacity-0 group-hover:opacity-100"
+                                className="absolute -translate-x-10 translate-y-10 transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-0 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 text-white"
                             />
                         </div>
                     </div>

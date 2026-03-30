@@ -9,9 +9,9 @@ export default function FeaturedProduct() {
 
 
             {/* Content Overlay */}
-            <div className="relative inset-0 pt-24 lg:pt-32 pb-20">
+            <div className="relative inset-0 pt-12 md:pt-24 pb-20">
 
-                <div className="absolute bottom-0 left-0 bg-[#243783] bg-[url('/optomic/bg-why.png')] bg-cover bg-center h-[400px] lg:h-[600px] w-full" />
+                <div className="absolute bottom-0 left-0 bg-[url('/optomic/bg-why.png')] bg-cover bg-center h-[200px] lg:h-[600px] w-full" />
 
                 <div className="container mx-auto px-6 md:px-12 flex flex-col h-full">
 
@@ -19,17 +19,17 @@ export default function FeaturedProduct() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mb-12 lg:mb-16 items-start">
                         {/* Left Title */}
                         <div>
-                            <span className="text-[#333] text-[15px] font-bold tracking-tight mb-3 block">
+                            <span className="text-[#333] font-semibold mb-3">
                                 OP-30 fiberscope
                             </span>
-                            <h3 className="text-3xl md:text-[32px] font-extrabold !text-[#243783] leading-[1.3] max-w-lg tracking-tight">
+                            <h3 className="text-3xl md:text-[30px] font-extrabold !text-[#243783] leading-[1.3] max-w-2xl tracking-tight">
                                 Flexible endoscope designed for clear visualization and comfortable ENT examinations.
                             </h3>
                         </div>
 
                         {/* Right Description */}
                         <div className="flex flex-col items-start md:mt-8">
-                            <p className="text-[16px] leading-relaxed mb-6">
+                            <p className="text-[16px] leading-relaxed mb-6 text-justify">
                                 OPTOMIC&apos;s fiberscope or flexible endoscope provides excellent optical characteristics
                                 for the inspection of nasal passages, the pharynx and the larynx. Both fiberscopes
                                 have been designed to facilitate examination efficiency and enhance patient comfort.

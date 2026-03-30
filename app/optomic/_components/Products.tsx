@@ -32,16 +32,16 @@ export default function Products() {
                 <div className="grid grid-cols-1 lg:grid-cols-12">
                     {/* Left Content */}
                     <div className="lg:col-span-4 pt-5 pb-16 lg:pr-10 flex flex-col">
-                        <span className="text-white text-xs font-semibold uppercase tracking-widest mb-3">
+                        <span className="text-white font-semibold mb-3">
                             Products
                         </span>
                         <h2 className="text-white! text-2xl md:text-3xl font-bold mb-5 leading-tight">
                             Innovative ENT solutions built for accuracy and performance.
                         </h2>
-                        <p className="text-white/70! text-[15px] leading-relaxed mb-8">
+                        <p className="text-white! leading-relaxed mb-8 text-justify">
                             We offer a comprehensive range of advanced ENT and medical equipment designed for precision, performance, and reliability. Our portfolio includes microscopes, workstations, chairs, endoscopy systems, imaging solutions, and supporting accessories to meet modern clinical needs.
                         </p>
-                        <Button variant="optomic" href="/optomic/products">
+                        <Button variant="optomic" href="/optomic/products" size="md">
                             View All Our Products
                         </Button>
                     </div>
@@ -70,7 +70,7 @@ export default function Products() {
                                     <div className="mt-auto">
                                         <a
                                             href={`/optomic/products/${product.id.toLowerCase()}`}
-                                            className="inline-flex items-center gap-1 text-[#8B9ED9] text-[13px] font-semibold hover:gap-2 transition-all"
+                                            className="inline-flex items-center gap-1 text-[#019EE2] text-[16px] font-semibold hover:gap-2 transition-all"
                                         >
                                             Read More <ArrowRight size={12} />
                                         </a>
