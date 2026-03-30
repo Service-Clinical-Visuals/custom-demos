@@ -1,9 +1,21 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 
+const bannerVideos = [
+    "https://cdn.clinicalvisuals.com/medical/gynex/short_cilps /galileo_colposcope_1.webm",
+    "https://cdn.clinicalvisuals.com/medical/gynex/short_cilps /galileo_colposcope_2.webm",
+    "https://cdn.clinicalvisuals.com/medical/gynex/short_cilps /galileo_colposcope_3.webm",
+];
+
 export default function VideoSection() {
+
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
+    };
     return (
         <section className="w-full">
             <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -29,12 +41,13 @@ export default function VideoSection() {
                 {/* Right Content - 360 Video Placeholder */}
                 <div className="bg-[#F4F4F4] min-h-[400px] flex items-center justify-center relative overflow-hidden">
                     <video
-                        src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm"
+                        key={currentVideoIndex}
+                        src={bannerVideos[currentVideoIndex]}
                         autoPlay
                         muted
                         playsInline
+                        onEnded={handleVideoEnd}
                         className="w-full h-full object-cover"
-                        loop
                     />
                 </div>
             </div>

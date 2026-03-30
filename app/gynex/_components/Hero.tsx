@@ -10,10 +10,9 @@ import "swiper/css/effect-fade";
 import { motion } from "framer-motion";
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_03.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_04.webm",
+    "https://cdn.clinicalvisuals.com/medical/gynex/landing_page/galileo_colposcope_1.webm",
+    "https://cdn.clinicalvisuals.com/medical/gynex/landing_page/galileo_colposcope_2.webm",
+    "https://cdn.clinicalvisuals.com/medical/gynex/landing_page/galileo_colposcope_3.webm",
 ];
 
 const slides = [

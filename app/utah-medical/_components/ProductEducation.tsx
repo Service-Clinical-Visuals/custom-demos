@@ -35,14 +35,14 @@ export default function ProductEducation() {
           data-aos="fade-right"
         >
           <video
-            key={currentVideoIndex}
-            src={videos[currentVideoIndex]}
             className="w-full h-full object-cover"
             autoPlay
             muted
+            loop
             playsInline
-            onEnded={handleVideoEnd}
-          />
+          >
+            <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-1.webm" />
+          </video>
         </div>
 
         {/* RIGHT CONTENT */}

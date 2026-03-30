@@ -68,15 +68,15 @@ export default function RegulatoryQuality() {
             className="w-full h-56 sm:h-72 md:h-96 rounded-lg overflow-hidden bg-gray-200 grid grid-cols-10 gap-2 p-2"
             data-aos="fade-left"
           >
-              <video
-                key={currentVideoIndex}
-                src={videos[currentVideoIndex]}
-                className="absolute inset-0 w-full h-full object-cover"
-                autoPlay
-                muted
-                playsInline
-                onEnded={handleVideoEnd}
-              />
+            <video
+              className="absolute inset-0 w-full h-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+            >
+              <source src="https://cdn.clinicalvisuals.com/medical/utah/short_clips/UTAH-2.webm" type="video/webm" />
+            </video>
           </div>
 
         </div>

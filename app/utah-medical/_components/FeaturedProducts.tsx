@@ -9,11 +9,11 @@ const videos = [
 ];
 
 export default function FeaturedProducts() {
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  // const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
-  };
+  // const handleVideoEnd = () => {
+  //   setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  // };
 
   const points = [
     "A microprocessor and specialized electronics continuously monitor the output, adjusting it to remain at the ideal level for smooth, char-free cutting.",
@@ -28,7 +28,7 @@ export default function FeaturedProducts() {
         {/* TITLE */}
 
         <h2 className="text-[20px] md:text-[30px] text-center font-semibold text-gray-800 mb-20">
-            Featured Products
+          Featured Products
         </h2>
 
         {/* MAIN GRID */}
@@ -52,7 +52,7 @@ export default function FeaturedProducts() {
             <div className="space-y-3 mb-6">
               {points.map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-[#336699] flex items-center justify-center mt-1 px-1">
+                  <div className="w-5 h-5 rounded-full bg-[#336699] flex items-center justify-center mt-1 px-1">
                     <Check size={12} className="text-white" />
                   </div>
                   <p className="text-base text-gray-600">{item}</p>
@@ -75,14 +75,14 @@ export default function FeaturedProducts() {
             {/* VIDEO BOX — on top, offset top-left */}
             <div className="absolute right-8 top-6.5 w-[86%] h-[89%] rounded-xl z-10 overflow-hidden flex items-center justify-center">
               <video
-                key={currentVideoIndex}
-                src={videos[currentVideoIndex]}
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
+                loop
                 playsInline
-                onEnded={handleVideoEnd}
-              />
+              >
+                <source src="https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm" type="video/webm" />
+              </video>
             </div>
 
           </div>
