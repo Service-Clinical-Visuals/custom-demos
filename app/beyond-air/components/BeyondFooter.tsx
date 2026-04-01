@@ -47,7 +47,7 @@ export default function BeyondFooter() {
           </div>
 
           {/* RIGHT SIDE LINKS */}
-          <div className="md:col-span-6 lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-8 text-base">
+          <div className="md:col-span-6 lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-6 text-base">
 
             {/* COLUMN */}
             <div data-aos="fade-up" data-aos-delay="100">
