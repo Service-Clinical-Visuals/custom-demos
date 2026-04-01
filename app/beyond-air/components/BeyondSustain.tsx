@@ -51,7 +51,7 @@ export default function BeyondSustain() {
         </div>
 
         {/* MAIN GRID */}
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* LEFT CONTENT */}
           <div data-aos="fade-left">
@@ -63,7 +63,7 @@ export default function BeyondSustain() {
             <div className="flex items-start gap-3 mb-6">
               <CheckCircle className="mt-1 shrink-0" size={20} />
               <div>
-                <p className="text-white font-medium text-base">
+                <p className="text-white font-medium text-lg">
                   No Cylinders, No Chemicals
                 </p>
                 <p className="text-white text-base">
@@ -78,7 +78,7 @@ export default function BeyondSustain() {
             <div className="flex items-start gap-3 mb-8">
               <CheckCircle className="text-white mt-1 shrink-0" size={20} />
               <div>
-                <p className="text-white font-medium text-base">
+                <p className="text-white font-medium text-lg">
                   Minimal Energy Demand
                 </p>
                 <p className="text-white text-base">
@@ -94,15 +94,15 @@ export default function BeyondSustain() {
             </button>
           </div>
 
-          {/* RIGHT IMAGE */}
+          {/* RIGHT VIDEO */}
           <div
-            className="relative w-full h-96 md:h-120 rounded-xl overflow-hidden"
+            className="relative w-full h-auto rounded-xl overflow-hidden aspect-video"
             data-aos="fade-right"
           >
             <video
                 key={currentVideoIndex}
                 src={videos[currentVideoIndex]}
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover aspect-video"
                 autoPlay
                 muted
                 // loop

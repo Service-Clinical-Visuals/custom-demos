@@ -1,13 +1,24 @@
 "use client";
 
+import { useState } from "react";
 import "aos/dist/aos.css";
 
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+];
+
 export default function BeyondRespiratory() {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
 
   return (
-    <section className="bg-gray-50 py-20 px-6 lg:px-12">
+    <section className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-12">
       <div className="max-w-380 mx-auto text-center">
-        
+
         {/* LABEL */}
         <p
           data-aos="fade-up"
@@ -35,22 +46,24 @@ export default function BeyondRespiratory() {
         </p>
 
         {/* VIDEO SECTION */}
-        <div className="mt-12 relative flex justify-center">
-          
-          {/* BLUE BACKGROUND BLOCK */}
-          <div className="absolute w-[85%] h-[80%] bg-[#00A4E4] right-0 -bottom-10 rounded-lg translate-x-6 translate-y-6"></div>
+        <div className="mt-10 lg:my-18 relative flex justify-center overflow-hidden sm:overflow-visible pb-10 md:pb-0">
+          {/* BLUE BACKGROUND BLOCK — hidden on mobile to avoid overflow */}
+          <div className="hidden lg:block absolute w-[85%] h-[80%] bg-[#00A4E4] right-10 -bottom-10 rounded-lg translate-x-6 translate-y-6"></div>
 
           {/* VIDEO CARD */}
           <div
             data-aos="zoom-in"
-            className="relative w-full max-w-340 rounded-xl overflow-hidden shadow-md bg-white"
+            className="relative z-10 w-full max-w-340 rounded-xl overflow-hidden shadow-md bg-white"
           >
-            {/* Replace with your video */}
-            <div className="w-full h-[300px] md:h-[600px] bg-gray-200 flex items-center justify-center">
-              <span className="text-gray-400 text-sm">
-                Your Video Here
-              </span>
-            </div>
+            <video
+              key={currentVideoIndex}
+              src={videos[currentVideoIndex]}
+              className="w-full h-full object-cover"
+              autoPlay
+              muted
+              playsInline
+              onEnded={handleVideoEnd}
+            />
           </div>
 
         </div>

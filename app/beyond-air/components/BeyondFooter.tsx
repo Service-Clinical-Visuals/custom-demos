@@ -10,14 +10,14 @@ export default function BeyondFooter() {
       {/* BACKGROUND IMAGE (you will replace) */}
       <div className="absolute inset-0 opacity-4 bg-[url('/beyond-air/assets/beyond-bg.png')] bg-cover bg-center pointer-events-none" />
 
-      <div className="relative max-w-380 mx-auto px-6 xl:px-0">
+      <div className="relative max-w-380 mx-auto px-6 lg:px-6">
 
         {/* TOP SECTION */}
         <div className="grid md:grid-cols-5 gap-10">
 
           {/* LEFT SIDE */}
           <div data-aos="fade-up" className="md:col-span-2">
-
+ 
             {/* LOGO */}
             <div className="flex items-center gap-3">
         <div className="flex items-center gap-2">
@@ -36,58 +36,58 @@ export default function BeyondFooter() {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="flex-1 px-4 py-3 text-sm text-white placeholder-white bg-transparent outline-none"
+                className="flex-1 px-4 py-3 text-sm text-white placeholder:text-base placeholder-white bg-transparent outline-none"
               />
 
-              <button className="bg-white text-black cursor-pointer w-12 h-12 flex items-center justify-center">
+              <button className="bg-white hover:bg-[#ffffffed] text-black cursor-pointer w-12 h-12 flex items-center justify-center">
                <Navigation size={25} className="mt-1 -ml-1"/>
               </button>
-            </div>
+            </div> 
 
           </div>
 
           {/* RIGHT SIDE LINKS */}
-          <div className="md:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-8 text-base">
+          <div className="md:col-span-6 lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-8 text-base">
 
             {/* COLUMN */}
             <div data-aos="fade-up" data-aos-delay="100">
               <p className="font-semibold text-gray-900 mb-3">Quick Links</p>
-              <ul className="space-y-2 text-gray-500 cursor-pointer hover:text-gray-900 transition">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Products</li>
-                <li>Pipeline</li>
-                <li>Events</li>
-                <li>Contact</li>
+              <ul className="space-y-2 text-gray-500">
+                <li className="cursor-pointer hover:text-gray-900 transition">Home</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">About Us</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Products</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Pipeline</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Events</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Contact</li>
               </ul>
             </div>
 
             <div data-aos="fade-up" data-aos-delay="150">
               <p className="font-semibold text-gray-900 mb-3">Our Solutions:</p>
-              <ul className="space-y-2 text-gray-500 cursor-pointer hover:text-gray-900 transition">
-                <li>Respiratory Care</li>
-                <li>Oncology</li>
-                <li>Neurology</li>
-                <li>Medical Devices</li>
+              <ul className="space-y-2 text-gray-500">
+                <li className="cursor-pointer hover:text-gray-900 transition">Respiratory Care</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Oncology</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Neurology</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Medical Devices</li>
               </ul>
             </div>
 
             <div data-aos="fade-up" data-aos-delay="200">
               <p className="font-semibold text-gray-900 mb-3">Our Solutions:</p>
-              <ul className="space-y-2 text-gray-500 cursor-pointer hover:text-gray-900 transition">
-                <li>Contact Us</li>
-                <li>Privacy Policy</li>
-                <li>Disclaimer</li>
-                <li>Regulations</li>
+              <ul className="space-y-2 text-gray-500">
+                <li className="cursor-pointer hover:text-gray-900 transition">Contact Us</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Privacy Policy</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Disclaimer</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Regulations</li>
               </ul>
             </div>
 
             <div data-aos="fade-up" data-aos-delay="250">
               <p className="font-semibold text-gray-900 mb-3">Contact Info</p>
-              <ul className="space-y-2 text-gray-500 cursor-pointer hover:text-gray-900 transition">
-                <li>Address: Sunrise, Florida, USA</li>
-                <li>Email: info@company.com</li>
-                <li>Phone: +49 6441679289-0</li>
+              <ul className="space-y-2 text-gray-500">
+                <li className="cursor-pointer hover:text-gray-900 transition">Address: Sunrise, Florida, USA</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Email: info@company.com</li>
+                <li className="cursor-pointer hover:text-gray-900 transition">Phone: +49 6441679289-0</li>
               </ul>
             </div>
 
@@ -99,7 +99,7 @@ export default function BeyondFooter() {
         <div className="mt-12 border-t border-gray-300" />
 
         {/* COPYRIGHT */}
-        <p className="text-center text-xs text-gray-500 mt-4">
+        <p className="text-center text-base text-gray-500 mt-4">
           © 2026 Beyond Air Inc. All Rights Reserved.
         </p>
 

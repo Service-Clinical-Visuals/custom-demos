@@ -1,11 +1,23 @@
 "use client";
 
 import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+
+const videos = [
+  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+];
 
 export default function BeyondCorporate() {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
   return (
-    <section className="w-full bg-[#f5f5f5] py-16">
-      <div className="max-w-380 mx-auto px-6 xl:px-0 grid md:grid-cols-2 gap-12 items-center">
+    <section className="w-full bg-[#F9F9F9] py-16">
+      <div className="max-w-380 mx-auto px-6 lg:px-6 grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT CONTENT */}
         <div data-aos="fade-up" className="max-w-xl">
@@ -21,7 +33,7 @@ export default function BeyondCorporate() {
           </h2>
 
           {/* DIVIDER */}
-          <div className="mt-4 h-[1px] w-20 bg-gray-300" />
+          <div className="mt-4 h-px w-20 bg-gray-300" />
 
           {/* DESCRIPTION */}
           <p className="mt-5 text-gray-500 text-base leading-relaxed">
@@ -53,12 +65,20 @@ export default function BeyondCorporate() {
           </button>
         </div>
 
-        {/* RIGHT VIDEO PLACEHOLDER */}
+        {/* RIGHT VIDEO */}
         <div
           data-aos="zoom-in"
-          className="w-full h-[320px] md:h-[380px] bg-gray-200 rounded-xl"
+          className="relative w-full h-80 md:h-95 rounded-xl overflow-hidden"
         >
-          {/* Replace this div with your video later */}
+          <video
+            key={currentVideoIndex}
+            src={videos[currentVideoIndex]}
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            muted
+            playsInline
+            onEnded={handleVideoEnd}
+          />
         </div>
 
       </div>

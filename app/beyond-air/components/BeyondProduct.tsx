@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 const products = [
@@ -26,20 +24,14 @@ const products = [
 ];
 
 export default function BeyondProduct() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      easing: "ease-in-out",
-    });
-  }, []);
+
 
   return (
     <section className="bg-white py-20 px-6 lg:px-12">
       <div className="max-w-380 mx-auto">
         
         {/* TOP CONTENT */}
-        <div className="grid lg:grid-cols-2 gap-10 items-start">
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
           
           {/* LEFT */}
           <div data-aos="fade-up">
@@ -95,11 +87,11 @@ export default function BeyondProduct() {
             <div className="relative w-full max-w-md bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.07)] px-6 pb-6 pt-24 text-left">
 
               {/* TOP CURVE CUT EFFECT */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-16 bg-white rounded-b-full shadow-[0_8px_20px_rgba(0,0,0,0.06)] z-10 "></div>
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-16 bg-white rounded-b-full shadow-[0_3px_3px_rgba(0,0,0,0.06)] z-10 "></div>
 
               {/* FLOATING CIRCLE */}
               <div className="absolute -top-16 left-1/2 -translate-x-1/2 z-20">
-                <div className="w-28 h-28 rounded-full bg-white shadow-[0_10px_40px_rgba(0,0,0,0.15)] flex items-center justify-center">
+                <div className="w-28 h-28 rounded-full bg-white shadow-[0_2px_10px_rgba(0,0,0,0.15)] flex items-center justify-center">
                   <span className="text-green-600 font-semibold text-lg">
                     LungFit PH
                   </span>
