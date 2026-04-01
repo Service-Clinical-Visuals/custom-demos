@@ -33,7 +33,7 @@ export default function Header() {
     return (
         <header className="relative w-full z-50">
             {/* Top Bar */}
-            <div className="bg-[#243783] text-white">
+            {/* <div className="bg-[#243783] text-white">
                 <div className="container mx-auto px-4 md:px-12 py-2 flex items-center justify-between text-base font-medium">
                     <div className="flex items-center gap-6">
                         <a
@@ -58,7 +58,7 @@ export default function Header() {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Main Navbar Wrapper */}
             <div className="h-[64px] md:h-[72px] w-full relative">
