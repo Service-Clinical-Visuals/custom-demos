@@ -20,16 +20,16 @@ export default function BeyondSustain() {
 
 
   return (
-    <section className="w-full py-20 px-6 relative">
+    <section className="w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 relative">
       <div className="absolute inset-0 -z-10">
         <div className="w-full h-full bg-gradient-to-r from-[#0ea5e9] to-[#0284c7]" />
         {/* Add your bg image here */}
         <img src="/beyond-air/assets/beyond-bg.png" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
-      <div className="max-w-380 mx-auto">
-        
+      <div className="w-full max-w-380 mx-auto">
+
         {/* TOP HEADER */}
-        <div className="text-center max-w-6xl mx-auto mb-16">
+        <div className="text-center max-w-6xl mx-auto mb-10 lg:mb-16">
           <h2
             className="text-2xl md:text-3xl font-semibold text-white mb-4"
             data-aos="fade-up"
@@ -51,7 +51,7 @@ export default function BeyondSustain() {
         </div>
 
         {/* MAIN GRID */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           
           {/* LEFT CONTENT */}
           <div data-aos="fade-left">
@@ -89,23 +89,22 @@ export default function BeyondSustain() {
             </div>
 
             {/* CTA */}
-            <button className="bg-white font-semibold text-[#00A4E4] text-base px-5 py-3 cursor-pointer hover:bg-[#f0f0f0] transition">
+            <button className="w-full sm:w-auto bg-white font-semibold text-[#00A4E4] text-base px-5 py-3 cursor-pointer hover:bg-[#f0f0f0] transition">
               Learn More About Us
             </button>
           </div>
 
           {/* RIGHT VIDEO */}
           <div
-            className="relative w-full h-auto rounded-xl overflow-hidden aspect-video"
+            className="relative w-full h-56 sm:h-80 lg:h-120 rounded-xl overflow-hidden"
             data-aos="fade-right"
           >
             <video
                 key={currentVideoIndex}
                 src={videos[currentVideoIndex]}
-                className="absolute inset-0 w-full h-full object-cover aspect-video"
+                className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
-                // loop
                 playsInline
                 onEnded={handleVideoEnd}
               ></video>

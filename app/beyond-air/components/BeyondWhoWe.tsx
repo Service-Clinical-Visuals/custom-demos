@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 export default function BeyondWhoWe() {
 
   return (
-    <section className="w-full bg-white py-20 px-6 lg:px-12">
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <section className="w-full bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-12">
+      <div className="w-full max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         
         {/* LEFT CONTENT */}
         <div data-aos="fade-right">
@@ -14,7 +14,7 @@ export default function BeyondWhoWe() {
             Who We Are
           </p>
 
-          <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 leading-snug">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 leading-snug">
             Built on a Legacy of Innovation
           </h2>
 
@@ -29,7 +29,7 @@ export default function BeyondWhoWe() {
           </div>
 
           {/* BUTTON */}
-          <button className="mt-6 flex items-center gap-3 bg-[#00A4E4] text-white px-5 py-3 rounded-full text-base font-medium hover:bg-[#00a3e4cc] transition cursor-pointer">
+          <button className="mt-6 flex items-center justify-center sm:justify-start gap-3 w-full sm:w-auto bg-[#00A4E4] text-white px-5 py-3 rounded-full text-base font-medium hover:bg-[#00a3e4cc] transition cursor-pointer">
             Learn More About Us
             <span className="bg-white text-blue-600 rounded-full p-1">
               <ArrowRight size={16} />
@@ -40,12 +40,12 @@ export default function BeyondWhoWe() {
         {/* RIGHT IMAGE CARD */}
         <div
           data-aos="fade-left"
-          className="w-full h-full flex justify-center"
+          className="w-full flex justify-center"
         >
-          <div className="bg-[#E6E6E6] rounded-2xl p-6 w-full max-w-full shadow-sm">
-            
+          <div className="bg-[#E6E6E6] rounded-2xl p-4 sm:p-6 w-full shadow-sm">
+
             {/* Replace this with your image */}
-            <div className="w-full h-100 rounded-xl flex items-center justify-center">
+            <div className="w-full h-64 sm:h-80 lg:h-100 rounded-xl flex items-center justify-center">
              <img src="/beyond-air/assets/beyond-lungfit.png" alt="Beyond Who We" className="w-full h-full object-contain" />
             </div>
 

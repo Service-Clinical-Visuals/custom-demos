@@ -44,7 +44,6 @@ export default function Home() {
       <BeyondWhoWe/>
       <BeyondInnovation/>
       <BeyondProduct/>
-      {/* <BeyondChooseUs/> */}
       <BeyondSustain/> 
       <BeyondRespiratory/>
       <BeyondCorporate/>
