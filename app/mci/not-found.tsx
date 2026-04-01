@@ -28,7 +28,7 @@ export default function NotFound() {
                     
                     <div className="relative -mt-20 mb-8">
                         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                            Page Not Found
+                            Page Not Found !
                         </h2>
                         <p className="text-gray-500 text-lg max-w-md mx-auto leading-relaxed">
                             The medical resource or page you are looking for has been moved, removed, or is temporarily unavailable.
