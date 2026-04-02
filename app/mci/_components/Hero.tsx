@@ -3,10 +3,8 @@
 import React, { useState } from "react";
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_03.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_04.webm",
+    "https://cdn.clinicalvisuals.com/medical/mci/landing_page/mci_01.webm",
+    "https://cdn.clinicalvisuals.com/medical/mci/landing_page/mci_02.webm"
 ];
 
 export default function Hero() {

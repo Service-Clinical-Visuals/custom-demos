@@ -10,6 +10,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/mci/images/fav.png",
+  },
   title: "MCI - Medical Concept Innovation inc.",
   description: "Innovative Solutions, Life-Changing Results Through Advanced Medical Technology. Precision Medical Solutions.",
 };
@@ -26,7 +29,7 @@ export default function Layout({
       <body className="min-h-screen bg-white font-sans antialiased">
         <AOSInit />
         <div className="overflow-x-hidden relative w-full">
-            {children}
+          {children}
         </div>
       </body>
     </html>

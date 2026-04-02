@@ -1,24 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 import Button from "./Button";
 
 const Precision = () => {
+
+    const shortVideos = [
+        "https://cdn.clinicalvisuals.com/medical/mci/short_clips/mci_short_clip_01.webm",
+        "https://cdn.clinicalvisuals.com/medical/mci/short_clips/mci_short_clip_02.webm",
+        "https://cdn.clinicalvisuals.com/medical/mci/short_clips/mci_short_clip_03.webm",
+    ];
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
+    };
     return (
         <section className="relative py-28 bg-[url('/mci/images/precision.png')] bg-cover bg-center overflow-hidden">
 
             <div className="container mx-auto px-6 md:px-12 grid lg:grid-cols-12 gap-16 items-center relative z-10">
                 {/* Left: Image/Video Card */}
-                <div className="relative order-1 lg:col-span-7">
-                    <div className="aspect-[16/9] rounded-2xl p-2 bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative z-10 flex items-center justify-center">
-                        <div className="w-full h-full rounded-2xl overflow-hidden bg-white/5 flex items-center justify-center relative">
-                            <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted className="w-full h-full object-cover" />
-                        </div>
+                <div className="relative order-1 lg:col-span-6" data-aos="fade-right">
+                    <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center">
+                        <video
+                            key={currentVideoIndex}
+                            src={shortVideos[currentVideoIndex]}
+                            autoPlay
+                            muted
+                            playsInline
+                            onEnded={handleVideoEnd}
+                            className="absolute inset-0 w-full h-full object-cover z-0 opacity-80"
+                        ></video>
                     </div>
                 </div>
 
                 {/* Right: Content Area */}
-                <div className="space-y-10 order-2 lg:col-span-5" data-aos="fade-left">
+                <div className="space-y-10 order-2 lg:col-span-6" data-aos="fade-left">
                     <div className="space-y-6">
                         <SectionHeader
                             light
