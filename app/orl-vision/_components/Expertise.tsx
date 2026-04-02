@@ -5,11 +5,9 @@ import Image from "next/image";
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
-        // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-        // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_1.webm"
+  "https://cdn.clinicalvisuals.com/medical/orl-vision/short_clips/neuxmed_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/orl-vision/short_clips/neuxmed_3.webm"
+       
 ];
 
 

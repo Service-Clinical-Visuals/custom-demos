@@ -3,11 +3,9 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
-        // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-        // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_1.webm"
+  "https://cdn.clinicalvisuals.com/medical/orl-vision/landing_page/orlvision_1.webm",
+  "https://cdn.clinicalvisuals.com/medical/orl-vision/landing_page/orlvision_2.webm",
+       
 ];
 
 

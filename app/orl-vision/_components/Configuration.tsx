@@ -3,9 +3,8 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  // "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_5.webm",
-  //       "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_4.webm",
-        "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_3.webm",
+  "https://cdn.clinicalvisuals.com/medical/orl-vision/360/360.webm",
+
 ];
 
 export default function Configuration() {
@@ -61,6 +60,7 @@ export default function Configuration() {
             src={bannerVideos[currentVideoIndex]}
             autoPlay
             muted
+            loop
             playsInline
             onEnded={handleVideoEnd}
             className="w-full h-full object-cover"
