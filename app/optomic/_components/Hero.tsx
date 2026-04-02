@@ -5,10 +5,8 @@ import { motion } from "framer-motion";
 
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_03.webm",
-    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_04.webm",
+    "https://cdn.clinicalvisuals.com/medical/optomic/landing_page/optomic_01.webm",
+    "https://cdn.clinicalvisuals.com/medical/optomic/landing_page/optomic_02.webm",
 ];
 
 export default function Hero() {

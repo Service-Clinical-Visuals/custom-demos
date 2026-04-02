@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Check, CheckCircle2 } from "lucide-react";
 
 const serviceItems = [
@@ -21,14 +21,35 @@ const serviceItems = [
     },
 ];
 
+const shortVideos = [
+    "https://cdn.clinicalvisuals.com/medical/optomic/short_clips/optomic_1.webm",
+    "https://cdn.clinicalvisuals.com/medical/optomic/short_clips/optomic_2.webm",
+    "https://cdn.clinicalvisuals.com/medical/optomic/short_clips/optomic_3.webm"
+];
 export default function Service() {
+
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
+    };
+
+
     return (
         <section className="w-full bg-white" data-aos="fade-up">
             <div className="container mx-auto px-6 md:px-12 py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left — Video / Image Placeholder */}
                     <div className="h-[500px] relative overflow-hidden rounded-xl">
-                        <video src="http://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted playsInline className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
+                        <video
+                            src={shortVideos[currentVideoIndex]}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            onEnded={handleVideoEnd}
+                            className="w-full h-full object-cover"
+                        />
                     </div>
 
                     {/* Right — Service Content */}

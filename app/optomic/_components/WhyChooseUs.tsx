@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 
 const features = [
@@ -23,8 +23,20 @@ const features = [
             "Operating across five continents with a trusted network of distributors, delivering support and solutions worldwide.",
     },
 ];
+const shortVideos = [
+    "https://cdn.clinicalvisuals.com/medical/optomic/short_clips/optomic_1.webm",
+    "https://cdn.clinicalvisuals.com/medical/optomic/short_clips/optomic_2.webm",
+    "https://cdn.clinicalvisuals.com/medical/optomic/short_clips/optomic_3.webm"
+];
 
 export default function WhyChooseUs() {
+
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
+    };
+
     return (
         <section className="w-full py-16 md:py-20 pr-0 lg:pr-12 bg-[url('/optomic/bg-why.png')] bg-cover bg-center bg-no-repeat" data-aos="fade-up">
             <div className="container mx-auto px-6 md:px-12">
@@ -66,7 +78,15 @@ export default function WhyChooseUs() {
 
                     {/* Right — Video Placeholder */}
                     <div className="min-h-[380px] lg:min-h-0 relative overflow-hidden rounded-xl">
-                        <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted className="w-full h-full object-cover" />
+                        <video
+                            src={shortVideos[currentVideoIndex]}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            onEnded={handleVideoEnd}
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                 </div>
             </div>
