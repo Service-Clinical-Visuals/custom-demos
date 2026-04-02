@@ -28,7 +28,7 @@ export default function NotFound() {
                     <div className="space-y-6">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#243783]/10 text-[#243783] text-sm font-bold uppercase tracking-wider">
                             <AlertCircle size={16} />
-                            Page Not Found
+                            Page Not Found !
                         </div>
 
 
