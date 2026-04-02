@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/dimeda/shortclips/dimeda_1.webm"
+  "https://cdn.clinicalvisuals.com/medical/dimeda/shortclips/dimeda_3.webm"
 ];
 
 
