@@ -91,7 +91,7 @@ export default function About() {
           {/* Button */}
           <div data-aos="fade-up" className="mt-6">
             <div className="relative inline-block group">
-              <button className="bg-[#F49D00] text-white font-semibold text-sm md:text-base px-5 py-2.5 pr-14 rounded-full hover:bg-[#dda263] transition">
+              <button className="bg-[#F49D00] cursor-pointer text-white font-semibold text-sm md:text-base px-5 py-2.5 pr-14 rounded-full hover:bg-[#dda263] transition">
                 Learn More about us
               </button>
 

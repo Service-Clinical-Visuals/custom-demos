@@ -1,8 +1,12 @@
 "use client";
+
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 export default function Products() {
+
+  const [mounted, setMounted] = useState(false)
+if (!mounted) return null
   const [startIndex, setStartIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -100,17 +104,21 @@ export default function Products() {
         {/* Slider dots (optional UI) */}
 
         <div className="flex justify-center mt-10 gap-2">
-          <div
+          <button
+            type="button"
             onClick={() => handleSlide(0)}
             className={`w-15 h-1.5 rounded cursor-pointer ${
               startIndex === 0 ? "bg-gray-200" : "bg-white/50"
-            }`}></div>
+            }`}
+          ></button>
 
-          <div
+          <button
+            type="button"
             onClick={() => handleSlide(3)}
             className={`w-15 h-1.5 rounded cursor-pointer ${
               startIndex === 3 ? "bg-gray-200" : "bg-white/50"
-            }`}></div>
+            }`}
+          ></button>
         </div>
       </div>
     </section>

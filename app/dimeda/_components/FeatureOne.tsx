@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 
 const bannerVideos = [
@@ -48,7 +50,7 @@ export default function FeatureOne() {
 
           <button
             data-aos="fade-up"
-            className="bg-[#EB8A20] font-semibold text-white px-5 py-2  md:px-10 md:py-4 lg:px-10 lg:py-4 rounded w-fit">
+            className="bg-[#EB8A20] cursor-pointer font-semibold text-white px-5 py-2  md:px-10 md:py-4 lg:px-10 lg:py-4 rounded w-fit hover:bg-[#F49D00] transition-colors duration-300 ">
             View product details
           </button>
         </div>
