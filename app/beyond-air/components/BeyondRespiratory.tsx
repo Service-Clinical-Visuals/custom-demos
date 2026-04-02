@@ -4,8 +4,7 @@ import { useState } from "react";
 import "aos/dist/aos.css";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+  "https://cdn.clinicalvisuals.com/medical/beyond-air/360/beyond_air_360.webm",
 ];
 
 export default function BeyondRespiratory() {
@@ -60,6 +59,7 @@ export default function BeyondRespiratory() {
               src={videos[currentVideoIndex]}
               className="w-full h-full object-cover"
               autoPlay
+              loop
               muted
               playsInline
               onEnded={handleVideoEnd}

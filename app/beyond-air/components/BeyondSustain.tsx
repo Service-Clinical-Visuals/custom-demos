@@ -6,8 +6,7 @@ import { CheckCircle } from "lucide-react";
 import { useState } from "react";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+"https://cdn.clinicalvisuals.com/medical/beyond-air/short_clips/beyond_air_2.webm",
 ];
 
 export default function BeyondSustain() {
@@ -104,6 +103,7 @@ export default function BeyondSustain() {
                 src={videos[currentVideoIndex]}
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
+                loop
                 muted
                 playsInline
                 onEnded={handleVideoEnd}

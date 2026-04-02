@@ -4,8 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+"https://cdn.clinicalvisuals.com/medical/beyond-air/short_clips/beyond_air_3.webm"
 ];
 
 export default function BeyondCorporate() {
@@ -76,6 +75,7 @@ export default function BeyondCorporate() {
             className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             muted
+            loop
             playsInline
             onEnded={handleVideoEnd}
           />

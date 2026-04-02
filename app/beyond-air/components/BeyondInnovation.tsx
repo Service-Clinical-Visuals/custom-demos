@@ -6,9 +6,8 @@ import { useState } from "react";
 import "aos/dist/aos.css";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
-];
+  "https://cdn.clinicalvisuals.com/medical/beyond-air/short_clips/beyond_air_1.webm",
+  ];
 
 export default function BeyondInnovation() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
@@ -38,6 +37,7 @@ export default function BeyondInnovation() {
               src={videos[currentVideoIndex]}
               className="absolute inset-0 w-full h-full object-cover"
               autoPlay
+              loop
               muted
               playsInline
               onEnded={handleVideoEnd}
