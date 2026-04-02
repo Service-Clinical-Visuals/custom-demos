@@ -25,7 +25,7 @@ const Excellence = () => {
                 <div className="w-full max-w-7xl aspect-[16/9] rounded-[2rem] p-2 bg-white relative" data-aos="zoom-in" data-aos-delay="200">
                     <div className="w-full h-full rounded-[1.5rem] overflow-hidden bg-gray-50 flex items-center justify-center">
                         <video
-                            src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm"
+                            src="https://cdn.clinicalvisuals.com/medical/mci/360/MCI_360.webm"
                             autoPlay
                             loop
                             muted

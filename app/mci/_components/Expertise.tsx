@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Check, ChevronRight } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 import Button from "./Button";
@@ -9,6 +9,12 @@ import Button from "./Button";
  * Expertise Section for MCI
  */
 const Expertise = () => {
+
+    const bannerVideos = [
+        "https://cdn.clinicalvisuals.com/medical/mci/short_clips/mci_short_clip_01.webm",
+        "https://cdn.clinicalvisuals.com/medical/mci/short_clips/mci_short_clip_02.webm",
+        "https://cdn.clinicalvisuals.com/medical/mci/short_clips/mci_short_clip_03.webm",
+    ];
     const listItems = [
         "Integrating cutting-edge technology across every stage of production",
         "Specialized in Craniomaxillofacial (CMF) and Neuro Fixation Systems",
@@ -16,6 +22,11 @@ const Expertise = () => {
         // "Focused on developing implantable devices and disposable surgical instruments",
         // "Committed to innovation, excellence, and improved patient outcomes"
     ];
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
+    };
 
     return (
         <section className="relative py-24 bg-[url('/mci/images/expertice.png')] bg-cover bg-center overflow-hidden">
@@ -27,7 +38,7 @@ const Expertise = () => {
                 </svg>
             </div>
             <div className="container mx-auto px-6 md:px-12 relative z-10">
-                <div className="grid lg:grid-cols-2 gap-12 items-center px-6">
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
 
                     {/* Left: Content */}
                     <div className="space-y-8 text-white" data-aos="fade-right">
@@ -69,8 +80,16 @@ const Expertise = () => {
                         className="relative"
                         data-aos="fade-left"
                     >
-                        <div className="aspect-[16/10] rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl flex items-center justify-center">
-                            <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
+                        <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center">
+                            <video
+                                key={currentVideoIndex}
+                                src={bannerVideos[currentVideoIndex]}
+                                autoPlay
+                                muted
+                                playsInline
+                                onEnded={handleVideoEnd}
+                                className="absolute inset-0 w-full h-full object-cover z-0 opacity-80"
+                            ></video>
                         </div>
                     </div>
                 </div>
