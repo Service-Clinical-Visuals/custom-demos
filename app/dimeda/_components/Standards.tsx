@@ -4,17 +4,13 @@ import Image from "next/image";
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/dimeda/shortclips/dimeda_1.webm"
 ];
 
 
 
 export default function Standards() {
-    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const handleVideoEnd = () => {
     setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);

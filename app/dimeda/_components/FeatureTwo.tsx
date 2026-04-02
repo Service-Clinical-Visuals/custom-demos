@@ -1,11 +1,7 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/dimeda/shortclips/dimeda_2.webm"
 ];
 
 export default function FeatureTwo() {
@@ -25,9 +21,10 @@ export default function FeatureTwo() {
             src={bannerVideos[currentVideoIndex]}
             autoPlay
             muted
+            loop
             playsInline
             onEnded={handleVideoEnd}
-            className="w-full h-full object-cover rounded-xl"/>
+            className="w-full h-full object-cover rounded-xl" />
         </div>
 
         {/* Right Content */}

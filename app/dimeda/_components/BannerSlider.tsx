@@ -3,11 +3,8 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/dimeda/landing_page/dimeda_1.webm",
+  "https://cdn.clinicalvisuals.com/medical/dimeda/landing_page/dimeda_2.webm",
 ];
 
 
@@ -29,10 +26,10 @@ export default function BannerSlider() {
         muted
         playsInline
         onEnded={handleVideoEnd}
-        className="absolute top-0 left-0 w-full h-full object-cover"/>
+        className="absolute top-0 left-0 w-full h-full object-cover" />
 
       {/* 🔲 Dark Overlay (important for readability) */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      {/* <div className="absolute inset-0 bg-black/50"></div> */}
 
       {/* 📝 Content */}
       <div className="relative max-w-4xl text-center mb-16 px-6">

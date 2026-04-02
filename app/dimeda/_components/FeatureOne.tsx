@@ -3,16 +3,12 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/dimeda/360/dimeda_360.webm"
 ];
 
 
 export default function FeatureOne() {
-      const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const handleVideoEnd = () => {
     setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
@@ -62,6 +58,7 @@ export default function FeatureOne() {
             src={bannerVideos[currentVideoIndex]}
             autoPlay
             muted
+            loop
             playsInline
             onEnded={handleVideoEnd}
             className="w-full h-full object-cover rounded-xl" />
