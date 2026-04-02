@@ -45,7 +45,7 @@ export default function FeaturedProduct() {
 
                     {/* 360 Degree Viewer Placeholder */}
                     <div className="w-full relative mx-auto shadow-2xl rounded-2xl md:rounded-[32px] overflow-hidden bg-[#F0F0F0] flex-1">
-                        <video src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm" autoPlay loop muted></video>
+                        <video src="https://cdn.clinicalvisuals.com/medical/optomic/360/360.webm" autoPlay loop playsInline muted></video>
                     </div>
                 </div>
             </div>

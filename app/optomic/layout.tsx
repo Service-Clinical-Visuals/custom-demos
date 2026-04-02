@@ -10,6 +10,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/optomic/favicon.ico",
+  },
   title: "Optomic - Precision Medical Solutions",
   description: "We design high-quality medical equipment focused on innovation, precision, and global standards, delivering reliable solutions for healthcare professionals worldwide.",
 };
