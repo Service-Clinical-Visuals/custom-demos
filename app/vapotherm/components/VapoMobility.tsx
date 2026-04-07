@@ -54,7 +54,7 @@ export default function VapoMobility() {
               Anytime. Anywhere.
             </h2>
 
-            <p className="text-sm opacity-90 leading-relaxed">
+            <p className="text-base opacity-90 leading-relaxed">
               Our solution is powered by AC with an internal battery to add safety
               in the event of a power failure, an optional transfer battery for
               additional power needs, and has an internal blower that eliminates
