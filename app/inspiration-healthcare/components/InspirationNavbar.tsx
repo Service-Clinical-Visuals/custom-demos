@@ -53,7 +53,7 @@ export default function InspirationNavbar() {
             <Search size={14} />
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   )
 }
