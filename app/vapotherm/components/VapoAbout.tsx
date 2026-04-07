@@ -16,21 +16,21 @@ export default function VapoAbout() {
           {/* LEFT IMAGE */}
           <div
             data-aos="fade-right"
-            className="relative w-full overflow-hidden max-w-xl min-h-[280px] md:min-h-[500px]"
+            className=" relative w-full h-full md:h-[550px] overflow-hidden max-w-full min-h-full md:min-h-full"
           >
             {/* Blue Frame */}
-            <div className="absolute -top-6 left-0 w-16 sm:w-24 md:w-32 lg:w-48 h-[calc(100%+24px)] bg-[#0C66AF] z-0" />
+            <div className="hidden md:block absolute -top-6 left-0 w-16 sm:w-24 md:w-32 lg:w-48 h-[600px] bg-[#0C66AF] z-0" />
 
             {/* Image */}
             <img
               src="/vapotherm/assets/vapotherm-about.jpg"
               alt="about"
-              className="relative z-10 w-[calc(100%-8px)] sm:w-[calc(100%-16px)] md:w-[calc(100%-32px)] h-64 sm:h-80 md:h-125 shrink-0 shadow-lg ml-2 sm:ml-4 md:ml-8 object-cover"
+              className="relative z-10  w-full h-64 sm:h-80 md:h-125 shrink-0 shadow-lg sm:ml-4 md:ml-8 bg-cover top-6"
             />
           </div>
 
           {/* RIGHT CONTENT */}
-          <div data-aos="fade-left" className="">
+          <div data-aos="fade-left" className="max-w-2xl">
             <p className="text-[#0C66AF] text-base md:mt-6 xl:mt-0 mb-2">
               [About Vapotherm]
             </p>
@@ -63,7 +63,7 @@ export default function VapoAbout() {
                     We Have Clear, Direct, and Respectful Communication With Everyone
                   </p>
                   <p className="text-gray-600 text-base">
-                    With over 100 people on our field team, and 24/7 tech support.
+                    With over 100 people on our field team, and 24/7 tech support – Vapotherm is always available to help.
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function VapoAbout() {
                     We Make and Keep Commitments
                   </p>
                   <p className="text-gray-600 text-base">
-                    One of the fastest growing medical device companies.
+                    With the best people in the medical device industry employed by us, we are the fastest growing medical device company in the world.
                   </p>
                 </div>
               </div>

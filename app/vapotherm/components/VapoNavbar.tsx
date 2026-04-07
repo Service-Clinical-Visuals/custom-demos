@@ -33,7 +33,7 @@ export default function VapoNavbar() {
     >
       <div className="max-w-380 mx-auto">
         {/* Top Bar */}
-        <div className="text-white text-sm px-4 md:px-6 lg:px-0 py-2 flex justify-between items-center">
+        <div className="text-white text-sm px-4 md:px-6 lg:px-8 xl:px-4 xxl:px-0 py-2 flex justify-between items-center">
           <span className="flex gap-2 items-center">
             <Phone size={15} /> 1.844.381.8276
           </span>
@@ -48,7 +48,7 @@ export default function VapoNavbar() {
 
       {/* Main Navbar */}
       <div className="bg-white">
-        <div className="max-w-380 mx-auto px-4 md:px-6 lg:px-0 py-4 flex items-center justify-between">
+        <div className="max-w-380 mx-auto px-4 md:px-6 lg:px-8 xl:px-4 xxl:px-0 py-4 flex items-center justify-between">
           {/* Logo */}
           <Image
             src="/vapotherm/assets/vapotherm-logo.png"

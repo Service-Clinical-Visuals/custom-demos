@@ -37,7 +37,7 @@ export default function VapoTheraphy() {
 
           {/* TEXT BLOCK */}
           <div data-aos="fade-up">
-            <h3 className="text-2xl font-semibold mb-4">
+            <h3 className="text-2xl md:text-3xl font-semibold mb-4">
               Un-Mask Respiratory Support
             </h3>
 

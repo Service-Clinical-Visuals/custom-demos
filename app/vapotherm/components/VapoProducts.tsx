@@ -78,7 +78,7 @@ export default function VapoProducts() {
 
           {/* LEFT CONTENT */}
           <div data-aos="fade-right" className="min-w-0">
-            <h3 className="text-xl md:text-2xl font-semibold text-[#0C66AF] mb-4">
+            <h3 className="text-2xl md:text-3xl font-semibold text-[#0C66AF] mb-4">
               Rethinking Ventilation: Do You Always Need Pressure?
             </h3>
 

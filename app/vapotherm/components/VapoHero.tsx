@@ -41,22 +41,25 @@ export default function VapoHero() {
 
 
       {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent" /> */}
+      <div className="absolute inset-0 bg-black/40" />
 
+      {/* Content */}
+      <div className="relative z-10 flex max-w-5xl  mx-auto flex-col items-center justify-end h-full text-center px-4 pb-24 md:pb-20">
+        <h1
+          className="text-white text-[28px] md:text-[35px] font-semibold mb-3"
+          data-aos="fade-up"
+        >
+          Innovating the non-invasive respiratory support category for more than 20 years.
+        </h1>
 
-      {/* <div
-        data-aos="fade-right"
-        className="relative z-10 h-full flex items-center px-10"
-      >
-        <div className="text-white max-w-xl">
-          <h1 className="text-4xl font-bold mb-4">
-            High Velocity Therapy
-          </h1>
-          <p className="text-lg opacity-90">
-            Delivering advanced respiratory care solutions.
-          </p>
-        </div>
-      </div> */}
+        <p
+          className="text-gray-300 text-sm md:text-2xl"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Vapotherm high velocity therapy is more than oxygen therapy.  It is a fast and safe way to provide treatment for undifferentiated respiratory distress with one single tool.
+        </p>
+      </div>
     </section>
   );
 }
