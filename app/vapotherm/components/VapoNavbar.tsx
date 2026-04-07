@@ -33,13 +33,13 @@ export default function VapoNavbar() {
     >
       <div className="max-w-380 mx-auto">
         {/* Top Bar */}
-        <div className="text-white text-sm px-4 md:px-6 py-2 flex justify-between items-center">
+        <div className="text-white text-sm px-4 md:px-6 lg:px-0 py-2 flex justify-between items-center">
           <span className="flex gap-2 items-center">
             <Phone size={15} /> 1.844.381.8276
           </span>
           <div className="hidden sm:flex items-center gap-4">
-            <span className="underline">COVID-19</span>
-            <div className="flex items-center gap-1">
+            <span className="underline cursor-pointer">COVID-19</span>
+            <div className="flex items-center gap-1 cursor-pointer">
               🇬🇧 <span>EN</span> <ChevronDown size={15} />
             </div>
           </div>
@@ -48,14 +48,14 @@ export default function VapoNavbar() {
 
       {/* Main Navbar */}
       <div className="bg-white">
-        <div className="max-w-380 mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
+        <div className="max-w-380 mx-auto px-4 md:px-6 lg:px-0 py-4 flex items-center justify-between">
           {/* Logo */}
           <Image
             src="/vapotherm/assets/vapotherm-logo.png"
             alt="Vapotherm Logo"
-            width={160}
+            width={200}
             height={60}
-            className="w-32 md:w-40 h-auto"
+            className="w-32 md:w-40 lg:w-52 h-auto"
           />
 
           {/* Desktop Menu */}
