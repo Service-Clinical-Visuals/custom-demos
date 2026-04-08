@@ -1,8 +1,25 @@
 "use client";
 
 import "aos/dist/aos.css";
+import { useState } from "react";
+
+const bannerVideos = [
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
+  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+];
+
 
 export default function InspirationValues() {
+
+      const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
+  };
+
 
   return (
     <section className="bg-[#7f8b91] py-24 px-6 lg:px-20">
@@ -11,7 +28,12 @@ export default function InspirationValues() {
         <div data-aos="fade-right">
           <div className="rounded-2xl overflow-hidden bg-gray-300 h-[420px] lg:h-[460px]">
             {/* Replace with video */}
-            {/* <video className="w-full h-full object-cover" autoPlay muted loop /> */}
+            <video
+                key={currentVideoIndex}
+                onEnded={handleVideoEnd}
+              src={bannerVideos[currentVideoIndex]} 
+              className="w-full h-full object-cover" 
+              autoPlay muted playsInline />
           </div>
         </div>
 

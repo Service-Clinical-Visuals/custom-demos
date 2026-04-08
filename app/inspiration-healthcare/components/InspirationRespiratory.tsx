@@ -24,12 +24,12 @@ export default function InspirationRespiratory() {
   };
 
   return (
-    <section className="bg-[#7B868C] py-20 px-6 md:px-16">
-      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-16 items-center">
+    <section className="bg-[#7B868C] py-16 md:py-20 px-6 md:px-16">
+      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-8 md:gap-16 items-stretch">
 
         {/* LEFT VIDEO */}
-        <div data-aos="fade-right" className="w-full">
-          <div className="rounded-xl overflow-hidden shadow-lg bg-gray-300 h-[320px] md:h-[360px]">
+        <div data-aos="fade-right" className="w-full h-full">
+          <div className="rounded-xl overflow-hidden shadow-lg bg-gray-300 h-56 sm:h-72 md:h-full">
             
             {/* VIDEO (Replace later) */}
             
@@ -37,6 +37,7 @@ export default function InspirationRespiratory() {
               key={currentVideoIndex}
                 src={bannerVideos[currentVideoIndex]}
               className="w-full h-full object-cover"
+              onEnded={handleVideoEnd}
               autoPlay
               muted
               playsInline
@@ -50,7 +51,7 @@ export default function InspirationRespiratory() {
         <div data-aos="fade-left" className="text-white">
 
           {/* LABEL */}
-          <p className="text-xs text-gray-200 mb-3 tracking-wide">
+          <p className="text-base text-gray-200 mb-3 tracking-wide">
             Our Expertise in Respiratory Care
           </p>
 
@@ -59,25 +60,19 @@ export default function InspirationRespiratory() {
             Respiratory care, starting from the first breaths of life
           </h2>
 
-          <p className="text-sm text-gray-200 leading-relaxed mb-6 max-w-xl">
+          <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
             We have developed and manufactured respiratory equipment since 1977.
             Nurturing close relationships with leading universities, hospitals and
             industry specialists to understand the challenges facing clinicians when
             caring for the most critical babies.
           </p>
 
-          {/* BLOCK 2 */}
-          <h3 className="text-xl md:text-2xl font-semibold leading-snug mb-4">
-            Respiratory care, starting from the first breaths of life
-          </h3>
+          <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
+            Our solutions are designed for flexibility and seamless integration into clinical environments. Our air/oxygen blenders can be configured for mounting on either poles or rails and are compatible with a variety of flow meters, ensuring adaptability across different care settings.
+          </p>
 
-          <p className="text-sm text-gray-200 leading-relaxed mb-6 max-w-xl">
-            In order to offer maximum flexibility, our blenders can be specified for
-            either mounting on a pole or rail, with a variety of flow meters.
-            <br /><br />
-            This means that our blender works well when paired with one of our
-            products like the LifeStart™, which has an accessory pole and standard
-            medirails for attachment purposes.
+                    <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
+                      This versatility allows our systems to work effortlessly alongside complementary solutions such as LifeStart™, which features an accessory pole and standard medirails for easy attachment—supporting efficient and effective patient care.
           </p>
 
           {/* CTA */}

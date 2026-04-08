@@ -47,7 +47,7 @@ export default function InspirationFooter() {
   );
 }
 
-function FooterColumn({ title, items } : any) {
+function FooterColumn({ title, items }: { title: string; items: string[] }) {
   return (
     <div>
       <h4 className="text-sm font-semibold mb-4">{title}</h4>

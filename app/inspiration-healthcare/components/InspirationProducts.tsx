@@ -9,13 +9,13 @@ export default function InspirationProducts() {
       <div className="max-w-380 mx-auto">
         {/* Header */}
         <div className="text-center mb-14" data-aos="fade-up">
-          <p className="text-xs tracking-wide text-gray-500 mb-3">
+          <p className="text-base tracking-wide text-gray-500 mb-3 font-medium">
             Our Products
           </p>
-          <h2 className="text-3xl lg:text-4xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-2xl lg:text-3xl font-semibold text-[#26505E] mb-4">
             Respiratory Care
           </h2>
-          <p className="text-sm text-gray-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base text-gray-500 max-w-4xl mx-auto leading-relaxed">
             Our respiratory solutions are simple, flexible, and precise—enabling clinicians to deliver tailored therapy with confidence. Advanced features like automated oxygen control ensure safe, consistent, and effective support for infants.
           </p>
         </div>
@@ -31,20 +31,20 @@ export default function InspirationProducts() {
             >
               {/* Image */}
               <div className="p-4">
-                <div className="rounded-xl overflow-hidden bg-gray-200 h-48 flex items-center justify-center">
+                <div className="rounded-xl overflow-hidden bg-gray-200 h-64 flex items-center justify-center">
                   <img src={card.img} alt={card.title} className="w-full h-full object-cover" />
                 </div>
               </div>
 
               {/* Content */}
               <div className="px-5 pb-6">
-                <h3 className="text-sm font-semibold text-gray-800 mb-3 leading-snug">
+                <h3 className="text-base font-semibold text-[#26505E] mb-3 leading-snug">
                   {card.title}
                 </h3>
 
                 <div className="h-px bg-gray-200 mb-4" />
 
-                <p className="text-sm text-gray-500 leading-relaxed">
+                <p className="text-base text-gray-500 leading-relaxed">
                   {card.desc}
                 </p>
               </div>

@@ -1,24 +1,23 @@
 "use client"
 
-import { Check, ArrowRight } from "lucide-react"
+import { Check, ArrowRight, CornerUpRight } from "lucide-react"
 
 export default function InspirationAbout() {
 
   return (
-    <section className="bg-white py-20 px-6 md:px-16">
-      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <section className="bg-white py-16 md:py-20 px-6 md:px-16">
+      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-8 md:gap-12 items-center">
 
         {/* LEFT IMAGE */}
-        <div data-aos="fade-right" className="relative w-full max-w-[570px] h-[530px] pl-10 pb-10">
+        <div data-aos="fade-right" className="relative w-full max-w-[620px] aspect-[62/58] pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0">
           {/* Grey chamfered frame — absolute, peeks out bottom-left */}
           <img src="/inspiration-healthcare/assets/subtract.png" alt="frame" className="w-full h-full object-cover" />
           {/* Image — sits on top, offset to top-right by the padding */}
           <img
             src="/inspiration-healthcare/assets/inspiration-about.png"
             alt="about"
-            className="absolute w-[440px] h-[410px] object-cover object-center  block z-10 top-10 right-12 shadow-2xl"
+            className="absolute w-[79%] aspect-[49/46] object-cover object-center block z-10 top-[7%] right-[8%] shadow-2xl"
           />
-
         </div>
         {/* RIGHT CONTENT */}
         <div data-aos="fade-left">
@@ -59,8 +58,8 @@ export default function InspirationAbout() {
                 data-aos-delay={i * 150}
                 className="flex gap-4"
               >
-                <div className="w-6 h-6 flex items-center justify-center rounded-full bg-gray-800 text-white">
-                  <Check size={14} />
+                <div className="w-6 h-6 shrink-0 flex items-center justify-center rounded-full bg-gray-800 text-white">
+                  <Check size={14} className=""/>
                 </div>
 
                 <div>
@@ -76,9 +75,9 @@ export default function InspirationAbout() {
           </div>
 
           {/* BUTTON */}
-          <button className="mt-8 flex items-center gap-2 bg-gray-300 hover:bg-gray-400 transition px-5 py-2 rounded-full text-sm text-gray-800">
+          <button className="mt-8 flex items-center gap-2 bg-[#7B868C] hover:bg-gray-400 transition px-5 py-2 rounded-full text-sm text-white">
             Know More About Us
-            <ArrowRight size={16} />
+            <CornerUpRight size={16} />
           </button>
 
         </div>

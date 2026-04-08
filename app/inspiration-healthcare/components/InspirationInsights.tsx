@@ -2,6 +2,7 @@
 
 import "aos/dist/aos.css";
 import { img } from "framer-motion/client";
+import { CornerUpRight } from "lucide-react";
 
 export default function InspirationInsights() {
 
@@ -10,11 +11,11 @@ export default function InspirationInsights() {
       <div className="max-w-380 mx-auto">
         {/* HEADER */}
         <div className="text-center mb-14" data-aos="fade-up">
-          <p className="text-xs text-gray-500 mb-3">Insights & Updates</p>
-          <h2 className="text-3xl lg:text-4xl font-semibold text-gray-800 mb-4">
+          <p className="text-xs text-[#26505E] mb-3">Insights & Updates</p>
+          <h2 className="text-2xl lg:text-3xl font-semibold text-[#26505E] mb-4">
             Stay Informed with Our Latest Updates and Insights
           </h2>
-          <p className="text-sm text-gray-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base text-gray-500 max-w-2xl mx-auto leading-relaxed">
             Explore our latest news, reports, events, and clinical insights—all in one place. From corporate announcements and investor updates to educational resources and healthcare advancements, stay connected with everything shaping our journey and impact.
           </p>
         </div>
@@ -24,7 +25,7 @@ export default function InspirationInsights() {
           {/* LEFT FEATURE CARD */}
           <div data-aos="fade-right">
             <div className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
-              <div className="h-[320px] bg-gray-200">
+              <div className="h-[420px] bg-gray-200">
                 <img
                   src="/inspiration-healthcare/assets/inspiration-insight.png"
                   alt="Featured Insight"
@@ -34,11 +35,11 @@ export default function InspirationInsights() {
             </div>
 
             <div className="flex items-center justify-between mt-4">
-              <p className="text-sm text-gray-600">Regulatory News</p>
+              <p className="text-base text-gray-600">Regulatory News</p>
 
-              <button className="bg-gray-700 text-white text-sm px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
+              <button className="bg-gray-700 text-white text-base px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
                 View All Updates
-                <span>→</span>
+               <CornerUpRight size={14}/>
               </button>
             </div>
           </div>
@@ -53,7 +54,7 @@ export default function InspirationInsights() {
                 data-aos-delay={i * 100}
               >
                 {/* Thumbnail */}
-                <div className="w-20 h-20 rounded-xl bg-gray-200 flex-shrink-0" >
+                <div className="w-20 h-20 rounded-lg bg-gray-200 shrink-0 overflow-hidden" >
                     <img
                       src={item.img}
                       alt={item.title}
@@ -62,12 +63,14 @@ export default function InspirationInsights() {
                     </div>
 
                 {/* Content */}
-                <div>
-                  <h4 className="text-sm font-semibold text-gray-800 leading-snug mb-1">
+                <div className="">
+                    <div className="flex items-center gap-4 border">
+                  <h4 className="text-base font-semibold text-gray-800 leading-snug">
                     {item.title}
                   </h4>
-                  <p className="text-xs text-gray-400 mb-2">{item.date}</p>
-                  <p className="text-sm text-gray-500 leading-relaxed">
+                  <p className="text-base text-gray-400">{item.date}</p>
+                        </div>
+                  <p className="text-base text-gray-500 leading-relaxed mt-2">
                     {item.desc}
                   </p>
                 </div>
