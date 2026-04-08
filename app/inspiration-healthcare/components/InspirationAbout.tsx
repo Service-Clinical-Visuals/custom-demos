@@ -5,35 +5,31 @@ import { Check, ArrowRight } from "lucide-react"
 export default function InspirationAbout() {
 
   return (
-    <section className="bg-[#f3f3f3] py-20 px-6 md:px-16">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <section className="bg-white py-20 px-6 md:px-16">
+      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT IMAGE */}
-        <div data-aos="fade-right" className="relative w-full max-w-[520px] pl-10 pb-10">
+        <div data-aos="fade-right" className="relative w-full max-w-[570px] h-[530px] pl-10 pb-10">
           {/* Grey chamfered frame — absolute, peeks out bottom-left */}
-          <div
-            className="absolute inset-0 bg-[#8a9099]"
-            style={{
-              clipPath: 'polygon(60px 0, 100% 0, 100% calc(100% - 60px), calc(100% - 60px) 100%, 0 100%, 0 60px)',
-            }}
-          />
+          <img src="/inspiration-healthcare/assets/subtract.png" alt="frame" className="w-full h-full object-cover" />
           {/* Image — sits on top, offset to top-right by the padding */}
           <img
-            src="/inspiration-healthcare/assets/inspiration-about2.png"
+            src="/inspiration-healthcare/assets/inspiration-about.png"
             alt="about"
-            className="relative w-full h-[380px] object-cover block z-10"
+            className="absolute w-[440px] h-[410px] object-cover object-center  block z-10 top-10 right-12 shadow-2xl"
           />
+
         </div>
         {/* RIGHT CONTENT */}
         <div data-aos="fade-left">
 
-          <p className="text-sm text-gray-500 mb-3">About Us</p>
+          <p className="text-base text-[#26505E] mb-3 font-medium">About Us</p>
 
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4 leading-snug">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#26505E] mb-4 leading-snug">
             Specialists in neonatal and critical care innovation
           </h2>
 
-          <p className="text-gray-500 text-sm leading-relaxed mb-6">
+          <p className="text-[#666666] text-base leading-relaxed mb-6">
             Inspiration Healthcare Group designs, manufactures, and markets advanced
             medical technology focused on improving patient care and clinical outcomes.
             With a commitment to innovation and quality, we develop solutions that support
@@ -68,10 +64,10 @@ export default function InspirationAbout() {
                 </div>
 
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-800">
+                  <h4 className="text-base font-semibold text-gray-800">
                     {item.title}
                   </h4>
-                  <p className="text-xs text-gray-500 leading-relaxed">
+                  <p className="text-base text-gray-500 leading-relaxed">
                     {item.desc}
                   </p>
                 </div>

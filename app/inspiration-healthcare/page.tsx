@@ -7,6 +7,12 @@ import InspirationNavbar from "./components/InspirationNavbar";
 import InspirationHero from "./components/InspirationHero";
 import InspirationAbout from "./components/InspirationAbout";
 import InspirationRespiratory from "./components/InspirationRespiratory";
+import InspirationHealth from "./components/InspirationHealth";
+import InspirationCares from "./components/InspirationCares";
+import InspirationProducts from "./components/InspirationProducts";
+import InspirationValues from "./components/InspirationValues";
+import InspirationInsights from "./components/InspirationInsights";
+import InspirationFooter from "./components/InspirationFooter";
 
 export default function Home() {
   AOSInit();
@@ -37,6 +43,12 @@ export default function Home() {
       <InspirationHero/>
       <InspirationAbout/>
       <InspirationRespiratory/>
+      <InspirationHealth/>
+      <InspirationCares/>
+      <InspirationProducts/>
+      <InspirationValues/>
+      <InspirationInsights/>
+      <InspirationFooter/>
     </main>
   );
 }

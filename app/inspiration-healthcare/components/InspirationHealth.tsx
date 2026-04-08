@@ -1,0 +1,109 @@
+"use client";
+
+import "aos/dist/aos.css";
+import { img } from "framer-motion/client";
+
+export default function InspirationHealth() {
+
+  return (
+    <section className="bg-[#f4f6f8] py-20 px-6 lg:px-20">
+      <div className="max-w-380 mx-auto">
+        {/* Top Section */}
+        <div className="grid lg:grid-cols-2 gap-10 items-start">
+          {/* Left Content */}
+          <div data-aos="fade-up">
+            <p className="text-sm text-gray-500 mb-3">
+              Choose Your Area of Care
+            </p>
+            <h2 className="text-3xl lg:text-4xl font-semibold text-gray-800 leading-snug mb-4">
+              Explore specialized solutions tailored to different
+              healthcare needs
+            </h2>
+            <p className="text-gray-500 text-sm leading-relaxed max-w-xl">
+              Discover our range of healthcare solutions designed to support
+              various clinical environments. From acute care to advanced
+              therapies and technology support, select the area that best fits
+              your requirements and explore solutions built for better patient
+              outcomes.
+            </p>
+          </div>
+
+          {/* Right Pills */}
+          <div
+            className="flex flex-col gap-4 items-end"
+            data-aos="fade-left"
+          >
+            {[
+              "Pain Management & Developmental (10)",
+              "Developmental Care (2)",
+              "Neonatal (35)",
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="bg-gray-200 text-gray-700 px-6 py-3 rounded-full text-sm shadow-sm"
+              >
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Cards Section */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
+          {cards.map((card, index) => (
+            <div
+              key={index}
+              className="relative rounded-2xl overflow-hidden group"
+              data-aos="zoom-in"
+              data-aos-delay={index * 100}
+            >
+              {/* Image Placeholder */}
+              <div className="h-56 bg-gray-300">
+                <img
+                  src={card.img}
+                  alt={card.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Floating Card */}
+              <div className="absolute bottom-0 left-0 w-full translate-y-1/3 group-hover:translate-y-0 transition-all duration-300">
+                <div className="bg-white rounded-2xl shadow-lg p-5 mx-4">
+                  <button className="bg-gray-600 text-white text-xs px-4 py-2 rounded-full mb-3">
+                    View More
+                  </button>
+
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                    {card.title}
+                  </h3>
+
+                  <p className="text-sm text-gray-500 leading-relaxed">
+                    {card.desc}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+const cards = [
+  {
+    title: "Acute Care",
+    img: "/inspiration-healthcare/assets/inspiration-acute.png",
+    desc: "Comprehensive solutions for critical and hospital-based care environments, ensuring safety and efficiency in urgent medical situations.",
+  },
+  {
+    title: "Infusion Therapies",
+    img: "/inspiration-healthcare/assets/inspiration-infusion.png",
+    desc: "Advanced systems designed for accurate and controlled delivery of fluids and medications, supporting effective patient treatment.",
+  },
+  {
+    title: "Technology Support",
+    img: "/inspiration-healthcare/assets/inspiration-tech.png",
+    desc: "Reliable technical assistance and services to ensure optimal performance, maintenance, and longevity of medical equipment.",
+  },
+];
