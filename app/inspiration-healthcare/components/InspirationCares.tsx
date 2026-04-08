@@ -61,7 +61,7 @@ export default function InspirationCares() {
             available for purchase in your country.
           </p>
 
-          <button className="bg-white text-gray-700 text-base px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+          <button className="bg-white cursor-pointer text-gray-700 text-base px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
             Learn More Inosys
             <CornerUpRight size={16}/>
           </button>

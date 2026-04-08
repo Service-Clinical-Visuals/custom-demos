@@ -36,7 +36,7 @@ export default function InspirationInsights() {
             <div className="flex flex-wrap items-center justify-between gap-3 mt-4">
               <p className="text-base text-gray-600">Regulatory News</p>
 
-              <button className="bg-gray-700 text-white text-sm px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
+              <button className="bg-gray-700 cursor-pointer text-white text-sm px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
                 View All Updates
                 <CornerUpRight size={14} />
               </button>

@@ -67,7 +67,7 @@ export default function InspirationValues() {
             ))}
           </div>
 
-          <button className="bg-white text-gray-700 text-sm px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+          <button className="cursor-pointer bg-white text-gray-700 text-sm px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
             Discover Our Values
             <span>→</span>
           </button>

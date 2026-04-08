@@ -71,12 +71,12 @@ export default function InspirationRespiratory() {
             Our solutions are designed for flexibility and seamless integration into clinical environments. Our air/oxygen blenders can be configured for mounting on either poles or rails and are compatible with a variety of flow meters, ensuring adaptability across different care settings.
           </p>
 
-                    <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
-                      This versatility allows our systems to work effortlessly alongside complementary solutions such as LifeStart™, which features an accessory pole and standard medirails for easy attachment—supporting efficient and effective patient care.
+          <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
+            This versatility allows our systems to work effortlessly alongside complementary solutions such as LifeStart™, which features an accessory pole and standard medirails for easy attachment—supporting efficient and effective patient care.
           </p>
 
           {/* CTA */}
-          <button className="flex items-center gap-2 bg-white text-gray-800 px-5 py-3 rounded-full text-sm hover:scale-105 transition min-h-[44px]">
+          <button className="flex cursor-pointer items-center gap-2 bg-white text-gray-800 px-5 py-3 rounded-full text-sm hover:scale-105 transition min-h-[44px]">
             Explore Our Expertise
             <ArrowRight size={16} />
           </button>
