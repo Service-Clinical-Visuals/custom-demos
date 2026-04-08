@@ -30,7 +30,7 @@ export default function InspirationAbout() {
           </h2>
 
           <p className="text-[#666666] text-base leading-relaxed mb-6">
-            Inspiration Healthcare Group designs, manufactures, and markets advanced
+            Balaji Krish Group designs, manufactures, and markets advanced
             medical technology focused on improving patient care and clinical outcomes.
             With a commitment to innovation and quality, we develop solutions that support
             healthcare professionals in delivering safe, effective, and efficient treatment.
