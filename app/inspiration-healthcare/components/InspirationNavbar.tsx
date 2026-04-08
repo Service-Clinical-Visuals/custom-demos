@@ -41,7 +41,7 @@ export default function InspirationNavbar() {
         </div>
 
         {/* Desktop nav links */}
-        <div className="hidden lg:flex gap-6 xl:gap-8 text-sm xl:text-base text-gray-700">
+        <div className="hidden lg:flex gap-6 xl:gap-8 text-sm xl:text-base text-gray-700 overflow-hidden">
           {navLinks.map((link, i) => (
             <span
               key={link}

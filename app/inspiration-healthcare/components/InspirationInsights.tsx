@@ -1,17 +1,16 @@
 "use client";
 
 import "aos/dist/aos.css";
-import { img } from "framer-motion/client";
 import { CornerUpRight } from "lucide-react";
 
 export default function InspirationInsights() {
 
   return (
-    <section className="bg-[#f5f6f7] py-24 px-6 lg:px-20">
+    <section className="bg-[#f5f6f7] py-16 md:py-20 lg:py-24 px-6 md:px-10 lg:px-20">
       <div className="max-w-380 mx-auto">
         {/* HEADER */}
-        <div className="text-center mb-14" data-aos="fade-up">
-          <p className="text-xs text-[#26505E] mb-3">Insights & Updates</p>
+        <div className="text-center mb-10 md:mb-14" data-aos="fade-up">
+          <p className="text-base text-[#26505E] mb-3">Insights & Updates</p>
           <h2 className="text-2xl lg:text-3xl font-semibold text-[#26505E] mb-4">
             Stay Informed with Our Latest Updates and Insights
           </h2>
@@ -21,11 +20,11 @@ export default function InspirationInsights() {
         </div>
 
         {/* CONTENT */}
-        <div className="grid lg:grid-cols-2 gap-10 items-start">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-start">
           {/* LEFT FEATURE CARD */}
-          <div data-aos="fade-right">
+          <div data-aos="fade-up">
             <div className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
-              <div className="h-[420px] bg-gray-200">
+              <div className="h-[220px] sm:h-[300px] lg:h-[420px] bg-gray-200">
                 <img
                   src="/inspiration-healthcare/assets/inspiration-insight.png"
                   alt="Featured Insight"
@@ -34,43 +33,43 @@ export default function InspirationInsights() {
               </div>
             </div>
 
-            <div className="flex items-center justify-between mt-4">
+            <div className="flex flex-wrap items-center justify-between gap-3 mt-4">
               <p className="text-base text-gray-600">Regulatory News</p>
 
-              <button className="bg-gray-700 text-white text-base px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
+              <button className="bg-gray-700 text-white text-sm px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
                 View All Updates
-               <CornerUpRight size={14}/>
+                <CornerUpRight size={14} />
               </button>
             </div>
           </div>
 
           {/* RIGHT LIST */}
-          <div className="space-y-6" data-aos="fade-left">
+          <div className="space-y-5 md:space-y-6" data-aos="fade-up" data-aos-delay="100">
             {updates.map((item, i) => (
               <div
                 key={i}
                 className="flex gap-4 items-start"
                 data-aos="fade-up"
-                data-aos-delay={i * 100}
+                data-aos-delay={i * 80}
               >
                 {/* Thumbnail */}
-                <div className="w-20 h-20 rounded-lg bg-gray-200 shrink-0 overflow-hidden" >
-                    <img
-                      src={item.img}
-                      alt={item.title}
-                      className="w-full h-full object-cover"
-                    />
-                    </div>
+                <div className="w-16 h-16 md:w-20 md:h-20 rounded-lg bg-gray-200 shrink-0 overflow-hidden">
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
 
                 {/* Content */}
-                <div className="">
-                    <div className="flex items-center gap-4 border">
-                  <h4 className="text-base font-semibold text-gray-800 leading-snug">
-                    {item.title}
-                  </h4>
-                  <p className="text-base text-gray-400">{item.date}</p>
-                        </div>
-                  <p className="text-base text-gray-500 leading-relaxed mt-2">
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-col gap-0.5 mb-1">
+                    <h4 className="text-sm md:text-base font-semibold text-gray-800 leading-snug break-words">
+                      {item.title}
+                    </h4>
+                    <p className="text-xs md:text-sm text-gray-400">{item.date}</p>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-500 leading-relaxed">
                     {item.desc}
                   </p>
                 </div>

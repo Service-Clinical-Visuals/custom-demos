@@ -23,10 +23,10 @@ export default function InspirationValues() {
 
   return (
     <section className="bg-[#7f8b91] py-24 px-6 lg:px-20">
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         {/* LEFT VIDEO */}
         <div data-aos="fade-right">
-          <div className="rounded-2xl overflow-hidden bg-gray-300 h-[420px] lg:h-[460px]">
+          <div className="rounded-2xl overflow-hidden bg-gray-300 h-64 md:h-full lg:h-[460px] min-h-[300px]">
             {/* Replace with video */}
             <video
                 key={currentVideoIndex}
@@ -75,14 +75,15 @@ export default function InspirationValues() {
       </div>
 
       {/* RIGHT FLOATING IMAGE */}
-      <div className="max-w-380 mx-auto mt-10 lg:-mt-65 flex justify-end px-6 lg:px-0">
+      <div className="hidden lg:flex max-w-380 mx-auto lg:-mt-65 justify-end lg:px-0">
         <div
-          className="w-[280px] h-[250px] rounded-2xl overflow-hidden bg-gray-300 shadow-lg"
+          className="w-[280px] h-[250px] max-w-full rounded-2xl overflow-hidden bg-gray-300 shadow-lg"
           data-aos="zoom-in"
         >
           <img
             src="/inspiration-healthcare/assets/inspiration-value.jpg"
             alt="Floating Image"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>

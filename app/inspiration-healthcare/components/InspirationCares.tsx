@@ -53,7 +53,7 @@ export default function InspirationCares() {
             constantly monitored and maintained.
           </p>
 
-          <div className="border-t border-white/30 my-6 w-4/4"></div>
+          <div className="border-t border-white/30 my-6 w-full"></div>
 
           <p className="text-base opacity-70 mb-6 max-w-3xl">
             Please note the SLE Inosys is not available in all countries. Please

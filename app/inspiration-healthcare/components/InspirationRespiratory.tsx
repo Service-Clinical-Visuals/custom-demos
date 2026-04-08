@@ -25,11 +25,11 @@ export default function InspirationRespiratory() {
 
   return (
     <section className="bg-[#7B868C] py-16 md:py-20 px-6 md:px-16">
-      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-8 md:gap-16 items-stretch">
+      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 md:gap-16 items-stretch">
 
         {/* LEFT VIDEO */}
-        <div data-aos="fade-right" className="w-full h-full">
-          <div className="rounded-xl overflow-hidden shadow-lg bg-gray-300 h-56 sm:h-72 md:h-full">
+        <div data-aos="fade-right" className="w-full h-full min-w-0">
+          <div className="rounded-xl overflow-hidden shadow-lg bg-gray-300 h-56 sm:h-72 lg:h-full">
             
             {/* VIDEO (Replace later) */}
             
@@ -48,7 +48,7 @@ export default function InspirationRespiratory() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div data-aos="fade-left" className="text-white">
+        <div data-aos="fade-left" className="text-white min-w-0">
 
           {/* LABEL */}
           <p className="text-base text-gray-200 mb-3 tracking-wide">
@@ -76,7 +76,7 @@ export default function InspirationRespiratory() {
           </p>
 
           {/* CTA */}
-          <button className="flex items-center gap-2 bg-white text-gray-800 px-5 py-2 rounded-full text-sm hover:scale-105 transition">
+          <button className="flex items-center gap-2 bg-white text-gray-800 px-5 py-3 rounded-full text-sm hover:scale-105 transition min-h-[44px]">
             Explore Our Expertise
             <ArrowRight size={16} />
           </button>

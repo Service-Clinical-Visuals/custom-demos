@@ -44,7 +44,7 @@ export default function InspirationHero() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 flex max-w-5xl  mx-auto flex-col items-center justify-end h-full text-center px-4 pb-24 md:pb-20">
+      <div className="relative z-10 flex w-full max-w-5xl mx-auto flex-col items-center justify-end h-full text-center px-4 pb-24 md:pb-20">
         <h1
           className="text-white text-[28px] md:text-[35px] font-semibold mb-3"
           data-aos="fade-up"

@@ -12,10 +12,10 @@ export default function InspirationHealth() {
         <div className="grid lg:grid-cols-2 gap-10 items-start">
           {/* Left Content */}
           <div data-aos="fade-up">
-            <p className="text-base text-gray-500 mb-3">
+            <p className="text-base text-[#26505E] mb-3">
               Choose Your Area of Care
             </p>
-            <h2 className="text-3xl lg:text-4xl font-semibold text-gray-800 leading-snug mb-4">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-[#26505E] leading-snug mb-4">
               Explore specialized solutions tailored to different
               healthcare needs
             </h2>
@@ -30,7 +30,7 @@ export default function InspirationHealth() {
 
           {/* Right Pills */}
           <div
-            className="flex flex-col gap-4 items-end"
+            className="flex flex-col gap-4 items-start lg:items-end"
             data-aos="fade-left"
           >
             {[
@@ -49,7 +49,7 @@ export default function InspirationHealth() {
         </div>
 
         {/* Cards Section */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-20 mt-14">
           {cards.map((card, index) => (
             <div
               key={index}

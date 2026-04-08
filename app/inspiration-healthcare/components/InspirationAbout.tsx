@@ -6,10 +6,10 @@ export default function InspirationAbout() {
 
   return (
     <section className="bg-white py-16 md:py-20 px-6 md:px-16">
-      <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
 
         {/* LEFT IMAGE */}
-        <div data-aos="fade-right" className="relative w-full max-w-[620px] aspect-[62/58] pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0">
+        <div data-aos="fade-right" className="relative w-full max-w-[620px]  pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0 overflow-hidden">
           {/* Grey chamfered frame — absolute, peeks out bottom-left */}
           <img src="/inspiration-healthcare/assets/subtract.png" alt="frame" className="w-full h-full object-cover" />
           {/* Image — sits on top, offset to top-right by the padding */}
@@ -28,11 +28,8 @@ export default function InspirationAbout() {
             Specialists in neonatal and critical care innovation
           </h2>
 
-          <p className="text-[#666666] text-base font-bold leading-relaxed mb-6">
-            Selva manufactures, and markets advanced
-            medical technology focused on improving patient care and clinical outcomes.
-            With a commitment to innovation and quality, we develop solutions that support
-            healthcare professionals in delivering safe, effective, and efficient treatment.
+          <p className="text-[#666666] text-base  leading-relaxed mb-6">
+            Inspiration Healthcare Group designs, manufactures, and markets advanced medical technology focused on improving patient care and clinical outcomes. With a commitment to innovation and quality, we develop solutions that support healthcare professionals in delivering safe, effective, and efficient treatment.
           </p>
 
           {/* FEATURES */}
@@ -75,7 +72,7 @@ export default function InspirationAbout() {
           </div>
 
           {/* BUTTON */}
-          <button className="mt-8 flex items-center gap-2 bg-[#7B868C] hover:bg-gray-400 transition px-5 py-2 rounded-full text-sm text-white">
+          <button className="mt-8 flex items-center gap-2 bg-[#7B868C] hover:bg-gray-400 transition px-5 py-3 rounded-full text-sm text-white min-h-[44px]">
             Know More About Us
             <CornerUpRight size={16} />
           </button>
