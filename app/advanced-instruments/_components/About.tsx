@@ -32,6 +32,7 @@ const About = () => {
                 {/* Left side: Hero About Image */}
                 <div
                     className="relative order-2 lg:order-1 flex justify-center lg:block"
+                    data-aos="fade-right"
                 >
                     <div className="relative group w-full max-w-2xl lg:max-w-none">
                         <div className="absolute inset-0 bg-[#00aeef]/10 rounded-[2rem] -rotate-10 transform transition-transform group-hover:rotate-0" />
@@ -53,7 +54,7 @@ const About = () => {
                         centered={false}
                     />
 
-                    <div className="text-gray-600 space-y-4 mb-8">
+                    <div className="text-gray-600 space-y-4 mb-8" data-aos="fade-up" data-aos-delay="200">
                         <p className="text-base leading-relaxed">
                             We provide high-quality medical equipment and furniture to healthcare facilities worldwide. Our reliable products, supported by dedicated service and technical expertise, help deliver efficient and high-standard patient care.
                         </p>
@@ -62,7 +63,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start gap-10">
+                    <div className="flex flex-col md:flex-row md:justify-between items-center md:items-stretch gap-10">
                         <div className="grid grid-cols-1 gap-y-4 gap-x-6">
                             {[
                                 "Globally trusted medical equipment manufacturer",
@@ -73,6 +74,8 @@ const About = () => {
                                 <div
                                     key={index}
                                     className="flex items-center gap-3 group"
+                                    data-aos="fade-up"
+                                    data-aos-delay={300 + index * 100}
                                 >
                                     <div className="mt-1 flex-shrink-0">
                                         <img src="advanced-instruments/images/Turbine_fill.png" alt="Turbine_fill" className="w-6 h-6" />
@@ -82,10 +85,18 @@ const About = () => {
                                     </span>
                                 </div>
                             ))}
+                            <div className="flex flex-wrap gap-6 items-center mt-5 justify-center lg:justify-start hidden md:block">
+                                <Button
+                                    text="Know More About Us"
+                                    href="#"
+                                />
+                            </div>
                         </div>
                         {/* Floating Experience Badge */}
                         <div
                             className="flex bg-white p-6 rounded-2xl shadow-xl flex-col items-center gap-2 border border-blue-50 max-w-[220px]"
+                            data-aos="zoom-in"
+                            data-aos-delay="700"
                         >
                             <div className="w-full h-32 bg-neutral-50 flex items-center justify-center mb-2">
                                 <img src="advanced-instruments/images/about-2.png" alt="about-2" className="w-full h-full object-cover rounded-xl" />
@@ -96,7 +107,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-wrap gap-6 items-center mt-5 justify-center lg:justify-start">
+                    <div className="flex flex-wrap gap-6 items-center mt-5 justify-center lg:justify-start md:hidden">
                         <Button
                             text="Know More About Us"
                             href="#"

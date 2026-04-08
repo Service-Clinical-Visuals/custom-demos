@@ -12,6 +12,7 @@ const GlobalPresence = () => {
             <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                 <div
                     className="z-10"
+                    data-aos="fade-right"
                 >
                     <SectionHeader
                         label="Global Presence"
@@ -19,7 +20,7 @@ const GlobalPresence = () => {
                         light={true}
                     />
 
-                    <div className="space-y-4 mb-8">
+                    <div className="space-y-4 mb-8" data-aos="fade-up" data-aos-delay="200">
                         <p className="text-base leading-relaxed text-white!">
                             No matter what type of medical facility you run, chances are you use a wide variety of advanced medical supplies, patient monitoring instruments, surgical supplies, and more. When you're looking for high-quality supplies and equipment, our company carries a full stock of everything you need to maintain a cost-effective clinic that serves its patients reliably. Check out our products page to view our full selection of supplies including:
                         </p>
@@ -36,16 +37,11 @@ const GlobalPresence = () => {
                             "Fetal Monitors",
                             "Ultrasonic Table Top Dopplers",
                         ].map((item, index) => (
-                            <div key={index} className="flex items-center gap-3">
+                            <div key={index} className="flex items-center gap-3" data-aos="fade-up" data-aos-delay={300 + (index % 4) * 100}>
                                 <img src="advanced-instruments/images/Turbine_fill-white.png" alt="Turbine_fill" className="w-6 h-6" />
                                 <span className="text-white text-base font-semibold">{item}</span>
                             </div>
                         ))}
-                    </div>
-                    <div className="space-y-4 mb-10">
-                        <p className="text-base leading-relaxed text-white!">
-                            As a medical professional or clinic administrator or supplier, it's important for you to serve your patients as well as possible, and strive to run your facility cost effectively.
-                        </p>
                     </div>
 
                     <Button

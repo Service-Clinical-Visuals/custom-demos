@@ -13,13 +13,13 @@ const Solutions = () => {
                     centered={true}
                 />
 
-                <div className="text-gray-600 space-y-4 mb-8 text-center max-w-7xl mx-auto">
+                <div className="text-gray-600 space-y-4 mb-8 text-center max-w-7xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                     <p className="text-base leading-relaxed">
                         Our solutions are designed to meet the specific needs of various medical departments, including intensive care units, operating rooms, cardiology, radiology, and neonatal care. We understand that each healthcare setting requires specialized equipment, and our offerings are tailored to enhance performance, safety, and efficiency.
                     </p>
                 </div>
 
-                <div className="relative bg-[#46C9FF] rounded-2xl lg:bg-transparent w-full max-w-7xl py-15 lg:mt-8 flex justify-center items-center md:h-[600px] group">
+                <div className="relative bg-[#46C9FF] rounded-2xl lg:bg-transparent w-full max-w-7xl py-15 lg:mt-8 flex justify-center items-center md:h-[600px] group" data-aos="zoom-in" data-aos-delay="400">
                     {/* Blue Decorative Block (Centered with Offset) */}
                     <div className="hidden lg:block absolute right-15 -top-8 w-[75%] h-[110%] bg-[#46C9FF] rounded-[2.5rem]" />
 
