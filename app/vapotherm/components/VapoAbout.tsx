@@ -16,16 +16,14 @@ export default function VapoAbout() {
           {/* LEFT IMAGE */}
           <div
             data-aos="fade-right"
-            className=" relative w-full h-full md:h-[550px] overflow-hidden max-w-full min-h-full md:min-h-full"
+            className=" relative w-full h-full md:h-[550px] rounded-2xl max-w-full min-h-full md:min-h-full"
           >
-            {/* Blue Frame */}
-            <div className="hidden md:block absolute -top-6 left-0 w-16 sm:w-24 md:w-32 lg:w-48 h-[600px] bg-[#0C66AF] z-0" />
 
             {/* Image */}
             <img
-              src="/vapotherm/assets/vapotherm-about.jpg"
+              src="/vapotherm/assets/vapotherm-about2.jpg"
               alt="about"
-              className="relative z-10  w-full h-64 sm:h-80 md:h-125 shrink-0 shadow-lg sm:ml-4 md:ml-8 bg-cover top-6"
+              className="rounded-2xl w-full h-full object-cover shadow-lg"
             />
           </div>
 
