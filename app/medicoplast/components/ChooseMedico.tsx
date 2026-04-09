@@ -31,7 +31,7 @@ export default function ChooseMedico() {
 
   return (
     <section className="w-full bg-white py-28">
-      <div className="max-w-380 mx-auto px-4 sm:px-6 space-y-12 md:space-y-20 lg:space-y-28">
+      <div className="max-w-380 mx-auto px-4 sm:px-6 space-y-12 md:space-y-20 lg:space-y-18">
 
         {/* ROW 1 */}
         <div className="grid md:grid-cols-2 gap-12 items-center">

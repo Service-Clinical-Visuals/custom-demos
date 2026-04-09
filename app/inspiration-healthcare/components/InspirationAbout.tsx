@@ -9,14 +9,14 @@ export default function InspirationAbout() {
       <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
 
         {/* LEFT IMAGE */}
-        <div data-aos="fade-right" className="relative w-full max-w-[620px] pl-6 pb-6 md:pl-10 md:pt-10 mx-auto md:mx-0 ">
+        <div data-aos="fade-right" className="relative w-full max-w-[620px] pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0 overflow-hidden">
           {/* Grey chamfered frame — absolute, peeks out bottom-left */}
           <img src="/inspiration-healthcare/assets/subtract.png" alt="frame" className="w-full h-full object-cover" />
           {/* Image — sits on top, offset to top-right by the padding */}
           <img
             src="/inspiration-healthcare/assets/inspiration-about.png"
             alt="about"
-            className="absolute w-[79%] aspect-[49/46] object-cover object-center block z-10 top-[4.8%] right-[10%] md:top-[12%] md:right-[8.7%] shadow-2xl"
+            className="absolute w-[79%] aspect-[49/46] object-cover object-center block z-10 top-[6%] right-[8.3%] shadow-2xl"
           />
         </div>
         {/* RIGHT CONTENT */}
@@ -24,7 +24,7 @@ export default function InspirationAbout() {
 
           <p className="text-base text-[#26505E] mb-3 font-medium">About Us</p>
 
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#26505E] mb-3 leading-snug">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#26505E] mb-4 leading-snug">
             Specialists in neonatal and critical care innovation
           </h2>
 
@@ -72,7 +72,7 @@ export default function InspirationAbout() {
           </div>
 
           {/* BUTTON */}
-          <button className="mt-6 cursor-pointer flex items-center gap-2 bg-[#7B868C] hover:bg-gray-400 transition px-5 py-3 rounded-full text-sm text-white min-h-[44px]">
+          <button className="mt-8 cursor-pointer flex items-center gap-2 bg-[#7B868C] hover:bg-gray-400 transition px-5 py-3 rounded-full text-sm text-white min-h-[44px]">
             Know More About Us
             <CornerUpRight size={16} />
           </button>

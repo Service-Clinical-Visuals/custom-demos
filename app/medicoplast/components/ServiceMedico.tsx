@@ -21,7 +21,7 @@ const services = [
 export default function ServiceMedico() {
 
   return (
-    <section className="w-full bg-[#eddabf] py-28 relative overflow-hidden">
+    <section className="w-full bg-[#faf8f5] py-28 bg-[url('/medicoplast/assets/medico-bg.png')] bg-cover bg-center relative overflow-hidden">
       
       <div className="max-w-380 mx-auto px-4 sm:px-6 text-center">
         
