@@ -27,7 +27,7 @@ export default function SuccessStories() {
         {/* Stories Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stories.map((story, idx) => (
-            <div key={idx} data-aos="zoom-in" data-aos-delay={idx * 150} className="border border-gray-200 rounded-t-[140px] rounded-b-xl p-6 flex flex-col items-center hover:shadow-xl transition-shadow bg-white">
+            <div key={idx} data-aos="zoom-in" data-aos-delay={idx * 150} className="border border-gray-200 rounded-t-full rounded-b-xl p-6 flex flex-col items-center hover:shadow-xl transition-shadow bg-white">
               {/* Image Circle  */}
               <div className="w-full aspect-square rounded-full overflow-hidden mb-6 relative bg-gray-100">
                 <img src={story.image} alt={story.name} className="w-full h-full object-cover" />

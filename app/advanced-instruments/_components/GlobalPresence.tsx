@@ -20,13 +20,13 @@ const GlobalPresence = () => {
                         light={true}
                     />
 
-                    <div className="space-y-4 mb-8" data-aos="fade-up" data-aos-delay="200">
+                    <div className="space-y-4 mb-6" data-aos="fade-up" data-aos-delay="200">
                         <p className="text-base leading-relaxed text-white!">
                             No matter what type of medical facility you run, chances are you use a wide variety of advanced medical supplies, patient monitoring instruments, surgical supplies, and more. When you're looking for high-quality supplies and equipment, our company carries a full stock of everything you need to maintain a cost-effective clinic that serves its patients reliably. Check out our products page to view our full selection of supplies including:
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-12 mt-10 mb-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-12 mt-6 mb-7">
                         {[
                             "Anesthesia Machines",
                             "Neonatal Incubators",

@@ -89,7 +89,7 @@ const WhyChooseUs = () => {
                             muted
                             playsInline
                             onEnded={handleVideoEnd}
-                            className="absolute inset-0 w-full h-full object-cover z-0 opacity-80"
+                            className="absolute inset-0 w-full h-full object-cover z-0"
                         ></video>
                     </div>
                 </div>
