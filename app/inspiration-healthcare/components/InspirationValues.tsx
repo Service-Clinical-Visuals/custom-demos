@@ -59,7 +59,7 @@ export default function InspirationValues() {
             {values.map((item, i) => (
               <div key={i} className="flex items-start gap-4 bg-white/10 rounded-xl p-4">
                 <div className="w-10 h-10 rounded-full bg-white flex-shrink-0 flex items-center justify-center text-sm">
-                  <img src={item.icon} alt={item.title} className="w-5 h-5" />
+                  <img src={item.icon} alt={item.title} className="w-7 h-7" />
                 </div>
                 <div>
                   <p className="font-semibold text-base">{item.title}</p>
