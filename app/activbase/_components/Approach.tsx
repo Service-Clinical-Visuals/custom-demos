@@ -37,7 +37,7 @@ const approaches = [
 export default function Approach() {
   return (
     <section className="w-full py-24 bg-white">
-      <div className="site-container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div className="flex flex-col">
           <span data-aos="fade-up" className="text-gray-800 font-bold text-[12px] tracking-wider mb-3">

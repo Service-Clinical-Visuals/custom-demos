@@ -10,7 +10,7 @@ const stories = [
 export default function SuccessStories() {
   return (
     <section className="w-full py-24 bg-white">
-      <div className="site-container mx-auto">
+      <div className="container mx-auto">
         {/* Header section */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span data-aos="fade-up" className="text-gray-800 font-bold text-xs tracking-wider uppercase mb-3 block">

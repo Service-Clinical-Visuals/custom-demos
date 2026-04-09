@@ -19,7 +19,7 @@ const coreValues = [
 export default function About() {
   return (
     <section className="w-full py-20 bg-white">
-      <div className="site-container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Content - Image Placeholder */}
         <div data-aos="fade-right" className="w-full relative h-[600px] bg-gray-100 rounded-2xl overflow-hidden flex items-center justify-center border border-gray-200">
           <img src="/activbase/home/about.png" alt="Personalised Protocol" className="w-full h-full object-cover" />
@@ -44,7 +44,7 @@ export default function About() {
             The principles that guide every treatment, every interaction, and every outcome.
           </p>
 
-          <div className="space-y-3 mb-5">
+          <div className="space-y-3 mb-2">
             {coreValues.map((value, idx) => (
               <div key={idx} data-aos="fade-up" data-aos-delay={500 + idx * 100} className="flex gap-3 mb-4">
                 <div className="flex-shrink-0 mt-1">
@@ -56,7 +56,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-[15px] mb-1">{value.title}</h4>
-                  <p className="text-gray-600 text-[14px]">
+                  <p className="text-gray-600 text-[16px]">
                     {value.desc}
                   </p>
                 </div>

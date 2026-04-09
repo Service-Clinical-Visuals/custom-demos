@@ -32,7 +32,7 @@ export default function Hero() {
         {/* <div className="absolute inset-0 bg-black/60 z-10"></div> */}
       </div>
 
-      <div className="site-container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 py-20 relative z-10 w-full h-full">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 py-20 relative z-10 w-full h-full">
         {/* Left Content */}
         <div className="flex flex-col justify-end h-full pt-20 pb-10 text-white">
           <p data-aos="fade-up" className="text-[16px] font-medium mb-4 text-white">Trusted by 5,000+ patients</p>

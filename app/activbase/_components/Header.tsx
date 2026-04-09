@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <header className={`w-full bg-white border-b border-gray-100 flex flex-col fixed top-0 z-50 transition-all duration-300 ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}>
-      <div className="site-container mx-auto">
+      <div className="container mx-auto">
         <div className="flex items-center justify-between h-20 w-full">
           {/* Logo */}
           <div className="flex items-center gap-2">
@@ -81,9 +81,9 @@ export default function Header() {
               Book Now
             </Link>
           </div>
-          
+
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden flex items-center text-primary"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
@@ -105,7 +105,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      
+
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white w-full border-t border-gray-100 py-4 px-6 shadow-lg pb-6">

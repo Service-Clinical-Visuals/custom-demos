@@ -20,7 +20,7 @@ export default function Facilities() {
 
   return (
     <section className="w-full bg-primary overflow-hidden">
-      <div className="site-container mx-auto py-10" data-aos="fade-up">
+      <div className="container mx-auto py-10" data-aos="fade-up">
         <div className="grid grid-cols-1 lg:grid-cols-4">
 
           <div className="col-span-1 lg:col-span-3 relative">

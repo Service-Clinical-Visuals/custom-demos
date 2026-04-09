@@ -27,7 +27,7 @@ const features = [
 export default function WhyChoose() {
   return (
     <section className="w-full py-20 bg-primary text-white">
-      <div className="site-container mx-auto">
+      <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
           <div className="max-w-3xl">
             <span data-aos="fade-up" className="text-sm font-semibold tracking-wider mb-2 block">

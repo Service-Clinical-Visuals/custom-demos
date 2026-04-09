@@ -3,7 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #111111;
-  --primary: #2938B9; /* Indigo blue */
+  --primary: #272EB4;
+  /* Indigo blue */
   --secondary: #1E2882;
   --text-muted: #666666;
 }
@@ -18,8 +19,8 @@
 }
 
 @layer components {
-  .site-container {
-    @apply max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10 w-full;
+  .container {
+    @apply px-3;
   }
 }
 

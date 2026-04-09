@@ -4,7 +4,7 @@ import React from "react";
 export default function SportsRehab() {
   return (
     <section className="w-full py-20 bg-primary text-white">
-      <div className="site-container mx-auto grid grid-cols-1 lg:grid-cols-[65%_35%] gap-12 lg:gap-16 items-center">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-[65%_35%] gap-12 lg:gap-16 items-center">
         {/* Left Content - Large Image Placeholder */}
         <div data-aos="fade-right" className="w-full relative aspect-video rounded-xl overflow-hidden">
           <video

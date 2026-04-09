@@ -14,7 +14,7 @@ const SpecialtyCard = ({ image, title, description }: SpecialtyCardProps) => (
     </div>
     <div className="p-6 flex flex-col flex-1">
       <h4 className="text-primary font-semibold text-[18px] mb-3">{title}</h4>
-      <p className="text-gray-600 text-[14px] leading-relaxed flex-1">
+      <p className="text-gray-600 text-[16px] leading-relaxed flex-1">
         {description}
       </p>
     </div>
@@ -24,7 +24,7 @@ const SpecialtyCard = ({ image, title, description }: SpecialtyCardProps) => (
 export default function Specialties() {
   return (
     <section className="w-full py-24 bg-primary text-white">
-      <div className="site-container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Content */}
         <div className="lg:col-span-5 flex flex-col pr-8" data-aos="fade-up">
           <span className="text-white font-medium text-[14px] tracking-wider mb-3">
