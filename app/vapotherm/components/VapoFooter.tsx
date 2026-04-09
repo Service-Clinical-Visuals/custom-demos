@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function VapoFooter() {
 
   return (
-    <footer className="bg-gray-100 px-6 md:px-16 py-16">
+    <footer className="bg-gray-100 px-6 md:px-16 py-10">
       <div className="max-w-380 mx-auto">
         
         {/* TOP GRID */}
@@ -85,6 +85,8 @@ export default function VapoFooter() {
 
         {/* DIVIDER */}
         <div className="border-t border-gray-300 mt-12" />
+
+        <div className=" text-gray-500 flex justify-center pt-10 font-semibold">Copyrights © Vapotherm 2026. All rights reserved.</div>
 
       </div>
     </footer>

@@ -29,9 +29,9 @@ export default function VapoProducts() {
 
           {/* LEFT CONTENT */}
           <div data-aos="fade-right" className="min-w-0">
-            <p className="text-sm text-gray-500 mb-2">
+            {/* <p className="text-sm text-gray-500 mb-2">
               [Pediatrics to Adults]
-            </p>
+            </p> */}
 
             <h2 className="text-2xl md:text-3xl font-semibold text-[#0C66AF] mb-4">
               HVT® 2.0 System

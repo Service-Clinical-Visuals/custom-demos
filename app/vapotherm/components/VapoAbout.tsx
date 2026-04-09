@@ -16,7 +16,7 @@ export default function VapoAbout() {
           {/* LEFT IMAGE */}
           <div
             data-aos="fade-right"
-            className=" relative w-full h-full md:h-[550px] rounded-2xl max-w-full min-h-full md:min-h-full"
+            className=" relative w-full h-full md:h-[450px] rounded-2xl max-w-full min-h-full md:min-h-full"
           >
 
             {/* Image */}
@@ -29,15 +29,13 @@ export default function VapoAbout() {
 
           {/* RIGHT CONTENT */}
           <div data-aos="fade-left" className="max-w-2xl">
-            <p className="text-[#0C66AF] text-base md:mt-6 xl:mt-0 mb-2">
-              [About Vapotherm]
-            </p>
 
-            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+
+            <h1 className="text-3xl font-semibold text-gray-800 mb-4">
               We Do Work That Matters
-            </h2>
+            </h1>
 
-            <p className="text-gray-600 mb-4 text-base leading-relaxed">
+            <p className="text-gray-600 mb-4 text-base leading-relaxed ">
               Vapotherm high velocity therapy is more than oxygen therapy.
               It is a fast and safe way to provide treatment for undifferentiated
               respiratory distress with one single tool.
@@ -52,7 +50,7 @@ export default function VapoAbout() {
             {/* Checklist */}
             <div className="space-y-5">
               
-              <div className="flex gap-3">
+              <div className="flex gap-3 ">
                 <div className="bg-[#0C66AF] text-white p-2 rounded-full h-fit">
                   <Check size={14} />
                 </div>
@@ -66,7 +64,7 @@ export default function VapoAbout() {
                 </div>
               </div>
 
-              <div className="flex gap-3">
+              <div className="flex gap-3 ">
                 <div className="bg-[#0C66AF] text-white p-2 rounded-full h-fit">
                   <Check size={14} />
                 </div>
@@ -107,12 +105,12 @@ export default function VapoAbout() {
             data-aos="fade-up"
             className="flex gap-4 md:gap-6 w-full md:w-auto"
           >
-            <div className="bg-[#0C66AF] text-white px-4 md:px-8 py-6 rounded-md text-center flex-1 md:w-40 md:flex-none">
+            <div className="bg-[#0C66AF] text-white px-4 md:px-8 py-6 rounded-md text-center flex-col justify-center items-center flex-1 md:w-40 md:flex-none">
               <p className="text-2xl font-bold">2400+</p>
               <p className="text-sm mt-1">Trusted By Hospitals</p>
             </div>
 
-            <div className="bg-[#0C66AF] text-white px-4 md:px-8 py-6 rounded-md text-center flex-1 md:w-40 md:flex-none">
+            <div className="bg-[#0C66AF] text-white px-4 md:px-8 py-8 rounded-md text-center flex-col justify-center items-center flex-1 md:flex-none">
               <p className="text-2xl font-bold">4.1 million</p>
               <p className="text-sm mt-1">Treated Patients</p>
             </div>

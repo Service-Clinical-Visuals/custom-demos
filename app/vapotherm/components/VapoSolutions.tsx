@@ -54,7 +54,7 @@ export default function VapoSolutions() {
 
               {/* CONTENT */}
               <div className="p-6 text-left flex flex-col flex-1">
-                <h3 className="text-gray-800 text-xl font-medium mb-2">
+                <h3 className="text-gray-800 text-lg font-medium mb-2">
                   {card.title}
                 </h3>
                 <p className="text-gray-600 text-base leading-relaxed">
