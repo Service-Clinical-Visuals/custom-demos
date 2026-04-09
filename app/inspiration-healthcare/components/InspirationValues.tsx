@@ -1,6 +1,7 @@
 "use client";
 
 import "aos/dist/aos.css";
+import { CornerUpRight } from "lucide-react";
 import { useState } from "react";
 
 const bannerVideos = [
@@ -22,11 +23,12 @@ export default function InspirationValues() {
 
 
   return (
-    <section className="bg-[#7f8b91] py-24 px-6 lg:px-20">
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+    <section className="relative bg-[#7f8b91] py-24 px-6 lg:px-20">
+
+      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-16 items-stretch">
         {/* LEFT VIDEO */}
-        <div data-aos="fade-right">
-          <div className="rounded-2xl overflow-hidden bg-gray-300 h-64 md:h-full lg:h-[520px] min-h-[300px]">
+        <div className="h-full" data-aos="fade-right">
+          <div className="rounded-2xl overflow-hidden bg-gray-300 h-full min-h-[300px] lg:min-h-[520px]">
             {/* Replace with video */}
             <video
                 key={currentVideoIndex}
@@ -45,7 +47,7 @@ export default function InspirationValues() {
             Guided by Values That Drive Impact
           </h2>
 
-          <p className="text-base opacity-80 leading-relaxed mb-6 max-w-xl">
+          <p className="text-base opacity-80 leading-relaxed mb-6">
             Our core values shape everything we do—driving innovation, advancing
             research, and keeping patients at the heart of every solution. We
             are committed to delivering outcome-focused, pioneering healthcare
@@ -61,31 +63,29 @@ export default function InspirationValues() {
                 </div>
                 <div>
                   <p className="font-semibold text-base">{item.title}</p>
-                  <p className="text-[14.5px] opacity-80">{item.desc}</p>
+                  <p className="text-base opacity-80">{item.desc}</p>
                 </div>
               </div>
             ))}
           </div>
 
-          <button className="cursor-pointer bg-white text-gray-700 text-sm px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+          <button className="cursor-pointer bg-white text-gray-700 text-base px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
             Discover Our Values
-            <span>→</span>
+            <CornerUpRight size={14}/>
           </button>
         </div>
       </div>
 
       {/* RIGHT FLOATING IMAGE */}
-      <div className="hidden xl:flex max-w-380 mx-auto lg:-mt-75 justify-end lg:px-0">
-        <div
-          className="w-[160px] h-[160px] xl:w-[200px] xl:h-[200px] 2xl:w-[280px] 2xl:h-[280px] max-w-full rounded-2xl overflow-hidden bg-gray-300 shadow-lg"
-          data-aos="zoom-in"
-        >
-          <img
-            src="/inspiration-healthcare/assets/inspiration-value.jpg"
-            alt="Floating Image"
-            className="w-full h-full object-cover"
-          />
-        </div>
+      <div
+        className="hidden absolute bottom-35 right-50 xl:w-[200px] xl:h-[200px] 2xl:w-[260px] 2xl:h-[260px] rounded-2xl overflow-hidden bg-gray-300 shadow-lg"
+        data-aos="zoom-in"
+      >
+        <img
+          src="/inspiration-healthcare/assets/inspiration-value.jpg"
+          alt="Floating Image"
+          className="w-full h-full object-cover"
+        />
       </div>
     </section>
   );

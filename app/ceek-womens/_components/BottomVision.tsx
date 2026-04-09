@@ -38,30 +38,23 @@ export default function BottomVision() {
         {/* RIGHT CONTENT */}
         <div>
           <p className="text-base text-[#FFFFFF] mb-2">
-            A New Vision for Women’s Healthcare
+            Meet Nella
           </p>
 
           <h2 className="text-2xl md:text-3xl lg:text-[44px] text-[#FFFFFF] font-semibold mb-4">
-            Revolutionizing the Gynecological Exam Experience
+            A Game-Changing Speculum
           </h2>
 
           <p className="text-[#FFFFFF] text-base leading-relaxed mb-6">
-            Ceek Women’s Health is on a mission to transform the gynecological
-            exam with innovative, patient-centered solutions that redefine
-            comfort and care. Our products are thoughtfully designed to reduce
-            discomfort, improve accessibility, and streamline clinical
-            workflows, ensuring a more efficient and positive experience for
-            both patients and healthcare providers. By combining modern
-            technology with human-centered design, we create advanced solutions
-            that enhance comfort, safety, and ease of use.
+    Meet Nella, an innovative speculum that revolutionizes the way clinicians work while prioritizing patient comfort. Unlike traditional speculums, Nella stands out for its efficiency and thoughtful design. In fact, an impressive 99% of women prefer Nella, praising its quiet insertion, ultra-slim profile, and temperature-neutral, medical-grade materials that ensure a gentle experience. With Nella, both clinicians and patients can enjoy a more effective and resourceful approach to care.
           </p>
 
           {/* Points */}
           <div className="space-y-3 mb-6">
             {[
-              "Patient-first design for enhanced comfort",
-              "Improved ease and accessibility for clinicians",
-              // "Modern solutions replacing outdated tools",
+              "Designed to support smoother procedures, allowing clinicians to work with better control, visibility, and ease.",
+              "Engineered to significantly reduce discomfort, making examinations less stressful and more tolerable.",
+              "Clinically appreciated and widely favored due to its comfort-first design and improved experience.",
               // "Better overall exam experience",
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3">

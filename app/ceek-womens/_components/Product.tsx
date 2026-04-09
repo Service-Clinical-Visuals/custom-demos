@@ -33,21 +33,14 @@ export default function Product() {
         <h2
           data-aos="fade-up"
           className="text-2xl md:text-3xl lg:text-[44px] font-semibold text-[#26505E] mb-4">
-          Revolutionizing the Gynecological Exam Experience
+          Speculum Product Collection
         </h2>
 
         {/* Description */}
         <p
           data-aos="fade-up"
           className="text-[#484848] text-base max-w-7xl mx-auto mb-14 leading-relaxed">
-          Ceek Women’s Health is on a mission to transform the gynecological
-          exam with innovative, patient-centered solutions that redefine comfort
-          and care. Our products are thoughtfully designed to reduce discomfort,
-          improve accessibility, and streamline clinical workflows, ensuring a
-          more efficient and positive experience for both patients and
-          healthcare providers. By combining modern technology with
-          human-centered design, we create advanced solutions that enhance
-          comfort, safety, and ease of use.
+          Our speculum collection is thoughtfully designed to improve patient comfort while supporting clinical efficiency. Featuring both reusable and single-use options, each product incorporates advanced design elements such as wider apertures, ergonomic shapes, and integrated sidewall retractors. These innovations help reduce discomfort, minimize pinching, and ensure better accessibility across a broader patient population.
         </p>
 
         {/* Cards */}

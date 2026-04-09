@@ -14,7 +14,7 @@ export default function InspirationInsights() {
           <h2 className="text-2xl lg:text-3xl font-semibold text-[#26505E] mb-4">
             Stay Informed with Our Latest Updates and Insights
           </h2>
-          <p className="text-base text-gray-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base text-gray-500 max-w-7xl mx-auto leading-relaxed">
             Explore our latest news, reports, events, and clinical insights—all in one place. From corporate announcements and investor updates to educational resources and healthcare advancements, stay connected with everything shaping our journey and impact.
           </p>
         </div>
@@ -24,7 +24,7 @@ export default function InspirationInsights() {
           {/* LEFT FEATURE CARD */}
           <div data-aos="fade-up">
             <div className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
-              <div className="h-[220px] sm:h-[300px] lg:h-[435px] bg-gray-200">
+              <div className="h-[220px] sm:h-[300px] lg:h-[450px] bg-gray-200">
                 <img
                   src="/inspiration-healthcare/assets/inspiration-insight.png"
                   alt="Featured Insight"
@@ -34,9 +34,9 @@ export default function InspirationInsights() {
             </div>
 
             <div className="flex flex-wrap items-center justify-between gap-3 mt-4">
-              <p className="text-base text-gray-600">Regulatory News</p>
+              <p className="text-lg text-gray-600 font-semibold">Regulatory News</p>
 
-              <button className="bg-gray-700 cursor-pointer text-white text-sm px-5 py-2 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
+              <button className="bg-gray-700 cursor-pointer text-white text-sm px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
                 View All Updates
                 <CornerUpRight size={14} />
               </button>
