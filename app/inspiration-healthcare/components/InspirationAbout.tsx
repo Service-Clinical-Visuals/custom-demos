@@ -9,7 +9,7 @@ export default function InspirationAbout() {
       <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
 
         {/* LEFT IMAGE */}
-        <div data-aos="fade-right" className="relative w-full max-w-[620px] pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0 overflow-hidden">
+        <div data-aos="fade-right" className="relative w-full max-w-[620px] pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0 ">
           {/* Grey chamfered frame — absolute, peeks out bottom-left */}
           <img src="/inspiration-healthcare/assets/subtract.png" alt="frame" className="w-full h-full object-cover" />
           {/* Image — sits on top, offset to top-right by the padding */}

@@ -24,7 +24,7 @@ export default function InspirationInsights() {
           {/* LEFT FEATURE CARD */}
           <div data-aos="fade-up">
             <div className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
-              <div className="h-[220px] sm:h-[300px] lg:h-[420px] bg-gray-200">
+              <div className="h-[220px] sm:h-[300px] lg:h-[435px] bg-gray-200">
                 <img
                   src="/inspiration-healthcare/assets/inspiration-insight.png"
                   alt="Featured Insight"
@@ -44,7 +44,7 @@ export default function InspirationInsights() {
           </div>
 
           {/* RIGHT LIST */}
-          <div className="space-y-5 md:space-y-6" data-aos="fade-up" data-aos-delay="100">
+          <div className="space-y-5 md:space-y-4" data-aos="fade-up" data-aos-delay="100">
             {updates.map((item, i) => (
               <div
                 key={i}
@@ -53,7 +53,7 @@ export default function InspirationInsights() {
                 data-aos-delay={i * 80}
               >
                 {/* Thumbnail */}
-                <div className="w-16 h-16 md:w-20 md:h-20 rounded-lg bg-gray-200 shrink-0 overflow-hidden">
+                <div className="w-16 h-16 md:w-22 md:h-22 rounded-lg bg-gray-200 shrink-0 overflow-hidden">
                   <img
                     src={item.img}
                     alt={item.title}
@@ -69,7 +69,7 @@ export default function InspirationInsights() {
                     </h4>
                     <p className="text-xs md:text-sm text-gray-400">{item.date}</p>
                   </div>
-                  <p className="text-sm md:text-base text-gray-500 leading-relaxed">
+                  <p className="text-sm md:text-[15.5px] text-gray-500 leading-relaxed">
                     {item.desc}
                   </p>
                 </div>

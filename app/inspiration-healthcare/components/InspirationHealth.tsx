@@ -1,8 +1,5 @@
 "use client";
 
-import "aos/dist/aos.css";
-import { img } from "framer-motion/client";
-
 export default function InspirationHealth() {
 
   return (
@@ -49,7 +46,7 @@ export default function InspirationHealth() {
         </div>
 
         {/* Cards Section */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-20 mt-14">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-15 md:gap-20 mt-14">
           {cards.map((card, index) => (
             <div
               key={index}

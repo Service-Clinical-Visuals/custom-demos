@@ -26,7 +26,7 @@ export default function InspirationValues() {
       <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         {/* LEFT VIDEO */}
         <div data-aos="fade-right">
-          <div className="rounded-2xl overflow-hidden bg-gray-300 h-64 md:h-full lg:h-[460px] min-h-[300px]">
+          <div className="rounded-2xl overflow-hidden bg-gray-300 h-64 md:h-full lg:h-[520px] min-h-[300px]">
             {/* Replace with video */}
             <video
                 key={currentVideoIndex}
@@ -39,13 +39,13 @@ export default function InspirationValues() {
 
         {/* RIGHT CONTENT */}
         <div className="text-white" data-aos="fade-left">
-          <p className="text-sm opacity-80 mb-3">Our Values</p>
+          <p className="text-base opacity-80 mb-3 font-medium">Our Values</p>
 
-          <h2 className="text-3xl lg:text-4xl font-semibold leading-snug mb-4">
+          <h2 className="text-2xl lg:text-3xl font-semibold leading-snug mb-4">
             Guided by Values That Drive Impact
           </h2>
 
-          <p className="text-sm opacity-80 leading-relaxed mb-6 max-w-xl">
+          <p className="text-base opacity-80 leading-relaxed mb-6 max-w-xl">
             Our core values shape everything we do—driving innovation, advancing
             research, and keeping patients at the heart of every solution. We
             are committed to delivering outcome-focused, pioneering healthcare
@@ -60,8 +60,8 @@ export default function InspirationValues() {
                   <img src={item.icon} alt={item.title} className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="font-semibold text-sm">{item.title}</p>
-                  <p className="text-xs opacity-80">{item.desc}</p>
+                  <p className="font-semibold text-base">{item.title}</p>
+                  <p className="text-[14.5px] opacity-80">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -75,9 +75,9 @@ export default function InspirationValues() {
       </div>
 
       {/* RIGHT FLOATING IMAGE */}
-      <div className="hidden lg:flex max-w-380 mx-auto lg:-mt-65 justify-end lg:px-0">
+      <div className="hidden xl:flex max-w-380 mx-auto lg:-mt-75 justify-end lg:px-0">
         <div
-          className="w-[280px] h-[250px] max-w-full rounded-2xl overflow-hidden bg-gray-300 shadow-lg"
+          className="w-[160px] h-[160px] xl:w-[200px] xl:h-[200px] 2xl:w-[280px] 2xl:h-[280px] max-w-full rounded-2xl overflow-hidden bg-gray-300 shadow-lg"
           data-aos="zoom-in"
         >
           <img
