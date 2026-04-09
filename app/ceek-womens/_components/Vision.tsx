@@ -10,27 +10,27 @@ export default function Vision() {
         {/* LEFT CONTENT */}
         <div data-aos="fade-up">
           {/* Small Label */}
-          <p className="text-base text-[#FFFFFF] mb-3">
+          <p className="text-base text-[#FFFFFF] mb-1">
             A New Vision for Women’s Healthcare
           </p>
 
           {/* Heading */}
-          <h1 className="text-2xl md:text-3xl lg:text-[44px] font-semibold leading-snug mb-5">
+          <h1 className="text-2xl md:text-3xl font-semibold leading-snug mb-1">
             Revolutionizing the Gynecological Exam Experience
           </h1>
 
           {/* Description */}
-          <p className="text-[#FFFFFF] text-base md:text-base leading-relaxed mb-6">
+          <p className="text-[#FFFFFF] text-base md:text-base leading-relaxed mb-5">
             Ceek Women’s Health is on a mission to transform the gynecological exam with innovative, patient-centered solutions that redefine comfort and care. Our products are thoughtfully designed to reduce discomfort, improve accessibility, and streamline clinical workflows, ensuring a more efficient and positive experience for both patients and healthcare providers. By combining modern technology with human-centered design, we create advanced solutions that enhance comfort, safety, and ease of use.
           </p>
 
           {/* POINTS */}
-          <div className="space-y-3 mb-6">
+          <div className="space-y-1 mb-5">
             {[
               "Patient-first design for enhanced comfort",
               "Improved ease and accessibility for clinicians",
               "Modern solutions replacing outdated tools",
-              "Better overall exam experience for patients and providers",
+              // "Better overall exam experience for patients and providers",
             ].map((item, index) => (
               <div key={index} className="flex items-center gap-3">
                 <div className=" p-2 rounded-full flex items-center justify-center">

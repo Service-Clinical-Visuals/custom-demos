@@ -37,20 +37,20 @@ export default function BottomVision() {
 
         {/* RIGHT CONTENT */}
         <div>
-          <p className="text-base text-[#FFFFFF] mb-2">
+          <p className="text-base text-[#FFFFFF] ">
             Meet Nella
           </p>
 
-          <h2 className="text-2xl md:text-3xl lg:text-[44px] text-[#FFFFFF] font-semibold mb-4">
+          <h2 className="text-2xl md:text-3xl  text-[#FFFFFF] font-semibold my-2">
             A Game-Changing Speculum
           </h2>
 
-          <p className="text-[#FFFFFF] text-base leading-relaxed mb-6">
+          <p className="text-[#FFFFFF] text-base leading-relaxed mb-4">
     Meet Nella, an innovative speculum that revolutionizes the way clinicians work while prioritizing patient comfort. Unlike traditional speculums, Nella stands out for its efficiency and thoughtful design. In fact, an impressive 99% of women prefer Nella, praising its quiet insertion, ultra-slim profile, and temperature-neutral, medical-grade materials that ensure a gentle experience. With Nella, both clinicians and patients can enjoy a more effective and resourceful approach to care.
           </p>
 
           {/* Points */}
-          <div className="space-y-3 mb-6">
+          <div className="space-y-3 mb-3">
             {[
               "Designed to support smoother procedures, allowing clinicians to work with better control, visibility, and ease.",
               "Engineered to significantly reduce discomfort, making examinations less stressful and more tolerable.",

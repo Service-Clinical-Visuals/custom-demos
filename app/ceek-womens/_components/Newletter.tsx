@@ -6,7 +6,7 @@ const Newsletter = () => {
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-start lg:items-stretch gap-12">
         {/* Left Side: Text */}
         <div data-aos="fade-up" className="lg:w-1/2">
-          <h2 className="text-3xl md:text-[42px] font-semibold text-[#26505E] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#26505E] mb-6">
             Get the Latest in Healthcare Innovation
           </h2>
           <p className="text-[#484848] text-base leading-relaxed max-w-3xl text-justify">
@@ -19,7 +19,7 @@ const Newsletter = () => {
 
         {/* Right Side: Form */}
         <div data-aos="fade-up" className="w-full lg:w-auto grow max-w-xl">
-          <h3 className="text-[42px] font-medium text-[#1C1C1C] mb-6">
+          <h3 className="text-3xl font-medium text-[#1C1C1C] mb-6">
             Subscribe Newsletter
           </h3>
 
