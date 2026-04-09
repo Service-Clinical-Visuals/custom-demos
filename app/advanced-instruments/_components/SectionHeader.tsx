@@ -18,6 +18,7 @@ const SectionHeader = ({
     return (
         <div
             className={`flex flex-col ${centered ? "items-center text-center max-w-3xl mx-auto" : "items-start text-left"}`}
+            data-aos="fade-up"
         >
             {label && (
                 <div className="flex items-center gap-3 mb-4 group">

@@ -51,14 +51,17 @@ const Footer = () => {
             <footer className="bg-white border-t border-gray-100 py-10 md:py-15 overflow-hidden" id="footer">
                 <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-16">
                     {/* Brand Column */}
-                    <div className="lg:col-span-1 space-y-6">
+                    <div className="lg:col-span-1 space-y-6" data-aos="fade-up">
                         <Link href="/advanced-instruments" className="flex items-center group">
                             <img src="/advanced-instruments/images/advanced-logo.png" alt="logo" className="w-24 md:w-55" />
                         </Link>
+                        <p className="text-base leading-relaxed text-justify">
+                            Advanced Instrumentations is a premier global manufacturer of high quality medical equipment & advanced medical supplies
+                        </p>
                     </div>
 
                     {/* Quick Links Column */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="100">
                         <h4 className="text-[#1a1a1a] font-semibold! text-lg mb-2 tracking-wider relative pb-2">
                             Quick Links
                         </h4>
@@ -66,7 +69,7 @@ const Footer = () => {
                     </div>
 
                     {/* Company Column */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="200">
                         <h4 className="text-[#1a1a1a] font-semibold! text-lg mb-2 tracking-wider relative pb-2">
                             Company
                         </h4>
@@ -74,7 +77,7 @@ const Footer = () => {
                     </div>
 
                     {/* Category Column */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="300">
                         <h4 className="text-[#1a1a1a] font-semibold! text-lg mb-2 tracking-wider relative pb-2">
                             Category
                         </h4>
@@ -82,7 +85,7 @@ const Footer = () => {
                     </div>
 
                     {/* Contact Column */}
-                    <div className="lg:col-span-1">
+                    <div className="lg:col-span-1" data-aos="fade-up" data-aos-delay="400">
                         <h4 className="text-[#1a1a1a] font-semibold! text-lg mb-2 tracking-wider relative pb-2">
                             Contact Info
                         </h4>

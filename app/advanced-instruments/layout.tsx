@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import AOSInit from "./_components/AOSInit";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function Layout({
   return (
     <html lang="en" className={`${outfit.variable} font-sans`} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased text-[#4a4a4a]">
+        <AOSInit />
         <div className="overflow-x-hidden relative w-full">
           {children}
         </div>

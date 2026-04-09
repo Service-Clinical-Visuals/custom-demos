@@ -37,7 +37,7 @@ const Products = () => {
                     centered={true}
                 />
 
-                <div className="text-gray-600 space-y-4 mb-8 text-center max-w-7xl mx-auto">
+                <div className="text-gray-600 space-y-4 mb-8 text-center max-w-7xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                     <p className="text-base leading-relaxed">
                         We offer a wide and diverse range of medical equipment designed to serve multiple healthcare applications. Our product portfolio includes patient monitoring systems, neonatal care equipment, anesthesia machines, surgical instruments, imaging systems, and hospital furniture.
                     </p>
@@ -48,6 +48,8 @@ const Products = () => {
                         <div
                             key={index}
                             className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group"
+                            data-aos="fade-up"
+                            data-aos-delay={300 + index * 100}
                         >
                             <div className="p-8 pb-4">
                                 <span className="text-[#00aeef] text-base font-bold tracking-widest uppercase mb-3 inline-block">{product.category}</span>

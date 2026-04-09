@@ -30,17 +30,7 @@ const items = [
         icon: "/advanced-instruments/images/customer.png",
         label: "Customer Focus",
         description: "Smooth and efficient experience",
-    },
-    {
-        icon: "/advanced-instruments/images/quality.png",
-        label: "Premium Quality",
-        description: "Built for international standards",
-    },
-    {
-        icon: "/advanced-instruments/images/support.png",
-        label: "Expert Support",
-        description: "Strong technical assistance",
-    },
+    }
 ];
 
 const WhyChooseUs = () => {
@@ -61,7 +51,7 @@ const WhyChooseUs = () => {
                         light={true}
                     />
 
-                    <div className="space-y-4 mb-8">
+                    <div className="space-y-4 mb-8" data-aos="fade-up" data-aos-delay="200">
                         <p className="text-base leading-relaxed text-white!">
                             We are committed to delivering advanced healthcare solutions that seamlessly combine innovation, quality, and reliability. Our products are designed with precision to meet the evolving needs of modern medical environments, ensuring safety, efficiency, and superior performance.
                         </p>
@@ -72,6 +62,8 @@ const WhyChooseUs = () => {
                             <div
                                 key={index}
                                 className="flex items-center gap-6 group"
+                                data-aos="fade-up"
+                                data-aos-delay={300 + index * 100}
                             >
                                 <div className="p-4 rounded-full text-white shadow-inner transition-colors bg-white flex-shrink-0">
                                     <img src={item.icon} alt={item.label} className="w-8 h-8" />
