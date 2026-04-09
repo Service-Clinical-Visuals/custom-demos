@@ -8,7 +8,7 @@ const Excellence = () => {
 
             <div className="container relative z-10 mx-auto px-4 md:px-0 text-center">
                 <h2
-                    className="text-3xl lg:text-4xl font-extrabold text-white! uppercase mb-8 tracking-wider!"
+                    className="text-3xl lg:text-4xl font-extrabold text-white! uppercase mb-3 tracking-wider!"
                     data-aos="fade-up"
                     data-aos-delay="200"
                 >
