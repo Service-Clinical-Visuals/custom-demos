@@ -29,33 +29,33 @@ export default function InspirationCares() {
         <div data-aos="fade-right" className="text-white">
           <p className="text-base opacity-80 mb-4 font-medium">Inosys</p>
 
-          <h1 className="text-2xl lg:text-3xl font-semibold leading-snug mb-6">
+          <h1 className="text-2xl lg:text-3xl font-semibold leading-snug mb-3">
             Precision Nitric Oxide Delivery for
             <br />
             Neonatal Respiratory Care
           </h1>
 
-          <p className="text-base opacity-80 leading-relaxed mb-4 max-w-3xl">
+          <p className="text-base opacity-80 leading-relaxed mb-3 max-w-3xl">
             The Inosys Nitric Oxide (NO) delivery and monitoring system is
             specifically designed for use with constant flow type (infant)
             ventilators.
           </p>
 
-          <p className="text-base opacity-80 leading-relaxed mb-4 max-w-3xl">
+          <p className="text-base opacity-80 leading-relaxed mb-3 max-w-3xl">
             Used in conjunction with ventilation to treat infant respiratory
             diseases such as Persistent Pulmonary Hypertension (PPHN), The
             Inosys maintains a set constant flow into the patient ventilator
             circuit, to ensure a constant therapeutic dose of Nitric Oxide.
           </p>
 
-          <p className="text-base opacity-80 leading-relaxed mb-6 max-w-3xl">
+          <p className="text-base opacity-80 leading-relaxed mb-3 max-w-3xl">
             Built in safety monitoring systems ensure the prescribed dose is
             constantly monitored and maintained.
           </p>
 
-          <div className="border-t border-white/30 my-6 w-full"></div>
+          <div className="border-t border-white/30 my-3 w-full"></div>
 
-          <p className="text-base opacity-70 mb-6 max-w-3xl">
+          <p className="text-base opacity-70 mb-3 max-w-3xl">
             Please note the SLE Inosys is not available in all countries. Please
             check with your local SLE Distributor to find out if this product is
             available for purchase in your country.

@@ -60,18 +60,18 @@ export default function InspirationRespiratory() {
             Respiratory care, starting from the first breaths of life
           </h2>
 
-          <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
+          <p className="text-base text-gray-200 leading-relaxed mb-6 ">
             We have developed and manufactured respiratory equipment since 1977.
             Nurturing close relationships with leading universities, hospitals and
             industry specialists to understand the challenges facing clinicians when
             caring for the most critical babies.
           </p>
 
-          <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
+          <p className="text-base text-gray-200 leading-relaxed mb-6">
             Our solutions are designed for flexibility and seamless integration into clinical environments. Our air/oxygen blenders can be configured for mounting on either poles or rails and are compatible with a variety of flow meters, ensuring adaptability across different care settings.
           </p>
 
-          <p className="text-base text-gray-200 leading-relaxed mb-6 max-w-xl">
+          <p className="text-base text-gray-200 leading-relaxed mb-6">
             This versatility allows our systems to work effortlessly alongside complementary solutions such as LifeStart™, which features an accessory pole and standard medirails for easy attachment—supporting efficient and effective patient care.
           </p>
 

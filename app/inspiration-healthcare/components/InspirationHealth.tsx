@@ -1,12 +1,9 @@
 "use client";
 
-import "aos/dist/aos.css";
-import { img } from "framer-motion/client";
-
 export default function InspirationHealth() {
 
   return (
-    <section className="bg-[#f4f6f8] py-20 px-6 lg:px-20">
+    <section className="bg-[#f4f6f8] pt-20 pb-36 px-6 lg:px-20">
       <div className="max-w-380 mx-auto">
         {/* Top Section */}
         <div className="grid lg:grid-cols-2 gap-10 items-start">
@@ -49,7 +46,7 @@ export default function InspirationHealth() {
         </div>
 
         {/* Cards Section */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-20 mt-14">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-15 md:gap-20 mt-14">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -58,7 +55,7 @@ export default function InspirationHealth() {
               data-aos-delay={index * 100}
             >
               {/* Image Placeholder */}
-              <div className="h-56 bg-gray-300 rounded-2xl overflow-hidden">
+              <div className="h-72 bg-gray-300 rounded-2xl overflow-hidden">
                 <img
                   src={card.img}
                   alt={card.title}
@@ -67,19 +64,23 @@ export default function InspirationHealth() {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute left-0 right-0 -bottom-8 translate-y-0 group-hover:-translate-y-2 transition-transform duration-300">
+              <div className="absolute left-0 right-0 -bottom-22 translate-y-0 group-hover:-translate-y-2 transition-transform duration-300">
                 <div className="bg-white rounded-2xl shadow-lg p-5 mx-4">
-                  <button className="bg-gray-600 cursor-pointer text-white text-base px-4 py-2 rounded-full mb-3">
+                  <button className="bg-gray-600 absolute -mt-10 cursor-pointer text-white text-base px-4 py-2 rounded-full mb-3">
                     View More
                   </button>
 
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                  <div className="mt-5">
+
+                  <h3 className="text-lg font-semibold text-gray-800 mb-1">
                     {card.title}
                   </h3>
 
                   <p className="text-base text-gray-500 leading-relaxed">
                     {card.desc}
                   </p>
+                  </div>
+
                 </div>
               </div>
             </div>

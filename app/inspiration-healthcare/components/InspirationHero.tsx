@@ -19,14 +19,7 @@ export default function InspirationHero() {
   };
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
-      {/* Background Image (replace with video later) */}
-      <img
-        src="/hero.jpg"
-        alt="hero"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-
+    <section className="relative w-full h-screen">
       {/* Future Video Support */}
 
       <video
