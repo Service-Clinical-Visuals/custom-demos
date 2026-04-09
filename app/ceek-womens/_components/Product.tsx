@@ -32,7 +32,7 @@ export default function Product() {
         {/* Heading */}
         <h2
           data-aos="fade-up"
-          className="text-2xl md:text-3xl lg:text-[44px] font-semibold text-[#26505E] mb-4">
+          className="text-2xl md:text-3xl font-semibold text-[#26505E] mb-4">
           Speculum Product Collection
         </h2>
 

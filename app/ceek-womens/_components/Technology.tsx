@@ -13,7 +13,7 @@ export default function Technology() {
       {/* Title */}
       <h2
         data-aos="fade-up"
-        className="text-3xl md:text-4xl lg:text-[44px] font-semibold text-[#26505E] mb-4">
+        className="text-3xl md:text-4xl font-semibold text-[#26505E] mb-4">
         Engineered for Better Clinical Outcomes
       </h2>
 
