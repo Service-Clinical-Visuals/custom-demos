@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <header className={`w-full bg-white border-b border-gray-100 flex flex-col fixed top-0 z-50 transition-all duration-300 ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}>
-      <div className="containerdiscover mx-auto">
+      <div className="container mx-auto">
         <div className="flex items-center justify-between h-20 w-full">
           {/* Logo */}
           <div className="flex items-center gap-2">
