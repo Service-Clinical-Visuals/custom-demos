@@ -5,11 +5,9 @@ import { useState } from "react"
 import { ArrowRight } from "lucide-react"
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/short_clips/video1.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/short_clips/video2.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/short_clips/video3.webm",
 ];
 
 

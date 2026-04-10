@@ -3,11 +3,9 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/landing_page/video1.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/landing_page/video2.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/landing_page/video3.webm",
 ];
 
 
@@ -34,7 +32,7 @@ export default function InspirationHero() {
 
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* <div className="absolute inset-0 bg-black/40" /> */}
 
       {/* Content */}
       <div className="relative z-10 flex w-full max-w-5xl mx-auto flex-col items-center justify-end h-full text-center px-4 pb-24 md:pb-20">
