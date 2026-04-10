@@ -5,13 +5,11 @@ import { useState } from "react";
 import { CircleCheck } from "lucide-react";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+  "https://cdn.clinicalvisuals.com/medical/medicoplast/short_clips/medicoplast_international_gmbH_01.webm",
 ];
 
 const videos2 = [
-  "https://cdn.clinicalvisuals.com/medical/invotec/landingvideos/invotec_02.webm",
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/medicoplast/360/medicoplast_international_gmbH.webm",
 ]
 
 
@@ -53,7 +51,7 @@ export default function ChooseMedico() {
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              // loop
+              loop
               playsInline
               onEnded={handleVideoEnd}
             >
@@ -134,7 +132,7 @@ export default function ChooseMedico() {
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              // loop
+              loop
               playsInline
               onEnded={handleVideoEnd2}
             >
