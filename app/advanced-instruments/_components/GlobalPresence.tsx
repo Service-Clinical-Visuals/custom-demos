@@ -1,12 +1,23 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 import Button from "./Button";
 import SectionHeader from "./SectionHeader";
 
+const shortClips = [
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_02.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_03.webm",
+];
+
 const GlobalPresence = () => {
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortClips.length);
+    };
+
     return (
         <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/global-bg.png')] bg-cover bg-center relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -72,11 +83,12 @@ const GlobalPresence = () => {
 
                     <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center z-10">
                         <video
-                            src="https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_1.webm"
+                            key={currentVideoIndex}
+                            src={shortClips[currentVideoIndex]}
                             autoPlay
                             muted
-                            loop
                             playsInline
+                            onEnded={handleVideoEnd}
                             className="absolute inset-0 w-full h-full object-cover z-0"
                         ></video>
                     </div>

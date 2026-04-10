@@ -5,9 +5,9 @@ import { Award, Globe, HeadphonesIcon, Users, ShieldCheck, HeartPulse } from "lu
 import SectionHeader from "./SectionHeader";
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_1.webm",
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_2.webm",
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_3.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_01.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_02.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_03.webm",
 ];
 
 const items = [

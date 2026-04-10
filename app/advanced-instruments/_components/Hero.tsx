@@ -3,10 +3,8 @@
 import React, { useState } from "react";
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_1.webm",
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_2.webm",
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_3.webm",
-    "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_4.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_02.webm"
 ];
 
 const Hero = () => {
