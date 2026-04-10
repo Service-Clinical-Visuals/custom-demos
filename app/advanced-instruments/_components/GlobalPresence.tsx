@@ -71,17 +71,17 @@ const GlobalPresence = () => {
                     <motion.div
                         animate={{ scale: [1, 1.03, 1] }}
                         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute lg:-top-10 lg:-right-10 -top-3 -right-3 w-full h-[50%] rounded-2xl"
+                        className="absolute lg:-top-10 lg:-right-10 -top-3 -right-3 w-[350px] h-[150px] rounded-2xl"
                         style={{ background: "linear-gradient(93.62deg, #0DB8FF 0%, #0089C2 103.72%)" }}
                     />
                     <motion.div
                         animate={{ scale: [1, 1.03, 1] }}
                         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                        className="absolute lg:-bottom-10 lg:-left-10 -bottom-3 -left-3 w-full h-[50%] rounded-2xl"
+                        className="absolute lg:-bottom-10 lg:-left-10 -bottom-3 -left-3 w-[350px] h-[150px] rounded-2xl"
                         style={{ background: "linear-gradient(93.62deg, #0089C2 0%, #0DB8FF 103.72%)" }}
                     />
 
-                    <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center z-10">
+                    <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-3 border-white/85 shadow-2xl relative overflow-hidden flex items-center justify-center z-10">
                         <video
                             key={currentVideoIndex}
                             src={shortClips[currentVideoIndex]}
