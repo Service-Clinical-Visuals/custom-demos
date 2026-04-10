@@ -5,13 +5,11 @@ import { useState } from "react";
 import { CircleCheck } from "lucide-react";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+  "https://cdn.clinicalvisuals.com/medical/medicoplast/short_clips/medicoplast_international_gmbH_01.webm",
 ];
 
 const videos2 = [
-  "https://cdn.clinicalvisuals.com/medical/invotec/landingvideos/invotec_02.webm",
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/medicoplast/360/medicoplast_international_gmbH.webm",
 ]
 
 
@@ -31,7 +29,7 @@ export default function ChooseMedico() {
 
   return (
     <section className="w-full bg-white py-28">
-      <div className="max-w-380 mx-auto px-4 sm:px-6 space-y-12 md:space-y-20 lg:space-y-28">
+      <div className="max-w-380 mx-auto px-4 sm:px-6 space-y-12 md:space-y-20 lg:space-y-18">
 
         {/* ROW 1 */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -53,7 +51,7 @@ export default function ChooseMedico() {
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              // loop
+              loop
               playsInline
               onEnded={handleVideoEnd}
             >
@@ -134,7 +132,7 @@ export default function ChooseMedico() {
               className="w-full h-full object-cover rounded-lg"
               autoPlay
               muted
-              // loop
+              loop
               playsInline
               onEnded={handleVideoEnd2}
             >

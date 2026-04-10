@@ -26,7 +26,7 @@ const Solutions = () => {
                     {/* Video Container (Centered) */}
                     <div className="relative w-[80%] aspect-video bg-neutral-900 rounded-[2.5rem] shadow-[0_32px_64px_-12px_rgba(0,0,0,0.3)] overflow-hidden z-10">
                         <video
-                            src="https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_1.webm"
+                            src="https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/360/advance_esu_400_360_.webm"
                             autoPlay
                             muted
                             loop

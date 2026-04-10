@@ -1,12 +1,23 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 import Button from "./Button";
 import SectionHeader from "./SectionHeader";
 
+const shortClips = [
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_02.webm",
+    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/short_clips/adavnced_esu_400_short_clip_03.webm",
+];
+
 const GlobalPresence = () => {
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortClips.length);
+    };
+
     return (
         <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/global-bg.png')] bg-cover bg-center relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -60,23 +71,24 @@ const GlobalPresence = () => {
                     <motion.div
                         animate={{ scale: [1, 1.03, 1] }}
                         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute lg:-top-10 lg:-right-10 -top-3 -right-3 w-full h-[50%] rounded-2xl"
+                        className="absolute lg:-top-10 lg:-right-10 -top-3 -right-3 w-[350px] h-[150px] rounded-2xl"
                         style={{ background: "linear-gradient(93.62deg, #0DB8FF 0%, #0089C2 103.72%)" }}
                     />
                     <motion.div
                         animate={{ scale: [1, 1.03, 1] }}
                         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                        className="absolute lg:-bottom-10 lg:-left-10 -bottom-3 -left-3 w-full h-[50%] rounded-2xl"
+                        className="absolute lg:-bottom-10 lg:-left-10 -bottom-3 -left-3 w-[350px] h-[150px] rounded-2xl"
                         style={{ background: "linear-gradient(93.62deg, #0089C2 0%, #0DB8FF 103.72%)" }}
                     />
 
-                    <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center z-10">
+                    <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-3 border-white/85 shadow-2xl relative overflow-hidden flex items-center justify-center z-10">
                         <video
-                            src="https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_1.webm"
+                            key={currentVideoIndex}
+                            src={shortClips[currentVideoIndex]}
                             autoPlay
                             muted
-                            loop
                             playsInline
+                            onEnded={handleVideoEnd}
                             className="absolute inset-0 w-full h-full object-cover z-0"
                         ></video>
                     </div>

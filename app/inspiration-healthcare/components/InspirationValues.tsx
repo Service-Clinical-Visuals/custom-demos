@@ -5,11 +5,8 @@ import { CornerUpRight } from "lucide-react";
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/short_clips/video2.webm",
+  "https://cdn.clinicalvisuals.com/medical/inspiration-healthcare/short_clips/video3.webm",
 ];
 
 
@@ -55,15 +52,15 @@ export default function InspirationValues() {
           </p>
 
           {/* VALUE LIST */}
-          <div className="space-y-4 mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
             {values.map((item, i) => (
-              <div key={i} className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sm">
-                  <img src={item.icon} alt={item.title} className="w-5 h-5" />
+              <div key={i} className="flex items-start gap-4 bg-white/10 rounded-xl p-4">
+                <div className="w-10 h-10 rounded-full bg-white flex-shrink-0 flex items-center justify-center text-sm">
+                  <img src={item.icon} alt={item.title} className="w-7 h-7" />
                 </div>
                 <div>
                   <p className="font-semibold text-base">{item.title}</p>
-                  <p className="text-base opacity-80">{item.desc}</p>
+                  <p className="text-sm opacity-80 mt-1">{item.desc}</p>
                 </div>
               </div>
             ))}
