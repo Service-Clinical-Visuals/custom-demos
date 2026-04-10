@@ -1,6 +1,22 @@
 "use client";
 
+import { useState } from "react";
+
+const bannerVideos = [
+"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_1.webm",
+"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_2.webm"
+];
+
+
+
+
 export default function Technology() {
+
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
+  };
   return (
     <section className="bg-[#FFFFFF] py-20 px-6 md:px-10 text-center">
       {/* Subtitle */}
@@ -35,10 +51,11 @@ export default function Technology() {
         className="max-w-7xl mx-auto rounded-xl overflow-hidden">
         <div className="aspect-video">
           <video
-            src="/ceek/video1.mp4"
+            key={currentVideoIndex}
+            src={bannerVideos[currentVideoIndex]}
             autoPlay
-            loop
             muted
+            onEnded={handleVideoEnd}
             playsInline
             className="w-full h-full object-cover"
           />

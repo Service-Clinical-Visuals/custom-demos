@@ -2,8 +2,22 @@
 
 import Image from "next/image";
 import { Check, CornerUpRight, Sparkles } from "lucide-react";
+import { useState } from "react";
+
+
+const bannerVideos = [
+"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_1.webm",
+"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_2.webm"
+];
+
 
 export default function Vision() {
+
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
+  };
   return (
     <section className="bg-[#6F6589] text-white py-20 px-6">
       <div className="container mx-auto grid xl:grid-cols-2 gap-12 items-center">
@@ -60,13 +74,15 @@ export default function Vision() {
             <div className="rounded-xl overflow-hidden bg-gray-200">
               {/* OR VIDEO */}
 
-              <video
+              <video 
+                key={currentVideoIndex}
+                src={bannerVideos[currentVideoIndex]}
                 autoPlay
                 muted
-                loop
+                onEnded={handleVideoEnd}
                 playsInline
                 className="w-full h-full object-cover">
-                <source src="/ceek/video1.mp4" type="video/mp4" />
+                {/* <source src="/ceek/video1.mp4" type="video/mp4" /> */}
               </video>
             </div>
           </div>

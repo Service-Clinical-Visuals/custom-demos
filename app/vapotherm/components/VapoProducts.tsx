@@ -3,11 +3,7 @@
 import { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/vapotherm/360/360.webm"
 ];
 
 
@@ -61,6 +57,7 @@ export default function VapoProducts() {
               key={currentVideoIndex}
               src={bannerVideos[currentVideoIndex]}
               autoPlay
+              loop
               muted
               playsInline
               onEnded={handleVideoEnd}

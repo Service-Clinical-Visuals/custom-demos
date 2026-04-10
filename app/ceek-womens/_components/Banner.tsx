@@ -1,20 +1,35 @@
 "use client";
 
+import { useState } from "react";
+
+const bannerVideos = [
+"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_1.webm",
+"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_2.webm"
+];
+
+
 export default function Banner() {
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
+  };
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* 🎥 Background Video */}
       <video
+        key={currentVideoIndex}
+        src={bannerVideos[currentVideoIndex]}
         autoPlay
         muted
-        loop
+        onEnded={handleVideoEnd}
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="/ceek/video1.mp4" type="video/mp4" />
+        {/* <source src="/ceek/video1.mp4" type="video/mp4" /> */}
       </video>
 
       {/* 🖤 Dark Overlay (important for text visibility) */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black/50" />
+      {/* <div className="absolute top-0 left-0 w-full h-full bg-black/50" /> */}
 
       {/* 📄 Content */}
       <div className="relative z-10 flex items-end justify-center text-center h-full px-6 pb-16">

@@ -4,11 +4,7 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-1.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-3.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-4.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/landing_page/UTAH-5.webm",
+  "https://cdn.clinicalvisuals.com/medical/vapotherm/short_clips/Vapotherm_3.webm",
 ];
 
 
@@ -41,6 +37,7 @@ export default function VapoMobility() {
                 src={bannerVideos[currentVideoIndex]}
                 autoPlay
                 muted
+                loop
                 playsInline
                 onEnded={handleVideoEnd}
                 className="absolute inset-0 w-full h-full object-cover"
