@@ -6,8 +6,8 @@ import { useState } from "react";
 
 
 const bannerVideos = [
-"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_1.webm",
-"https://cdn.clinicalvisuals.com/medical/beyond-air/landing_page/beyond_air_2.webm"
+"https://cdn.clinicalvisuals.com/medical/ceekwomen/short_clips/video1.webm",
+// "https://cdn.clinicalvisuals.com/medical/ceekwomen/short_clips/video2.webm"
 ];
 
 
@@ -79,6 +79,7 @@ export default function Vision() {
                 src={bannerVideos[currentVideoIndex]}
                 autoPlay
                 muted
+                loop
                 onEnded={handleVideoEnd}
                 playsInline
                 className="w-full h-full object-cover">
