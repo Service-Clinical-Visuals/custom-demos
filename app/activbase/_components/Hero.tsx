@@ -3,10 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_1.webm",
-  "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_3.webm",
-  "https://cdn.clinicalvisuals.com/medical/soniquence/landing_page/sequence_4.webm",
+  "https://cdn.clinicalvisuals.com/medical/activbase/landing_page/activebase_01.webm",
+  "https://cdn.clinicalvisuals.com/medical/activbase/landing_page/activebase_02.webm",
 ];
 
 export default function Hero() {

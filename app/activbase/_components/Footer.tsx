@@ -68,25 +68,25 @@ export default function Footer() {
             <h4 className="font-bold text-[16px] mb-6">Contact</h4>
             <div className="flex flex-col space-y-6 text-white/80 text-[16px]">
               <div className="flex gap-3">
-                <Phone size={18} className="text-white/60 shrink-0" />
+                <Phone size={18} className="text-white/60 shrink-0 mt-1.5" />
                 <div>
                   <p className="mb-1 font-medium text-white">For Consultation</p>
                   <p>7994512251</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <Phone size={18} className="text-white/60 shrink-0" />
+                <Phone size={18} className="text-white/60 shrink-0 mt-1.5" />
                 <div>
                   <p className="mb-1 font-medium text-white">For Business Enquiries</p>
                   <p>7994731225</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <Mail size={18} className="text-white/60 shrink-0" />
+                <Mail size={18} className="text-white/60 shrink-0 mt-1.5" />
                 <p>hari.k@activbase.org</p>
               </div>
               <div className="flex gap-3">
-                <MapPin size={18} className="text-white/60 shrink-0" />
+                <MapPin size={18} className="text-white/60 shrink-0 mt-1.5" />
                 <div className="max-w-[250px] leading-relaxed">
                   <p>Activbase, Nilampathinjamukkal Rajagiri Valey Road, Kakkanad Kochi, Kerala - 682039</p>
                 </div>
@@ -99,14 +99,14 @@ export default function Footer() {
             <h4 className="font-bold text-[16px] mb-6">Opening Hours</h4>
             <div className="flex flex-col space-y-6 text-white/80 text-[16px]">
               <div className="flex gap-3">
-                <Clock size={18} className="text-white/60 shrink-0" />
+                <Clock size={18} className="text-white/60 shrink-0 mt-1.5" />
                 <div>
                   <p className="mb-1 font-medium text-white">Consultation</p>
                   <p>Mon to Sat 6:00 AM - 11:00 PM</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <Clock size={18} className="text-white/60 shrink-0" />
+                <Clock size={18} className="text-white/60 shrink-0 mt-1.5" />
                 <div>
                   <p className="mb-1 font-medium text-white">Treatment</p>
                   <p>Mon to Sat 6:00 AM - 11:00 PM</p>
@@ -120,7 +120,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Banner */}
-        <div className="pt-4 border-t border-white/20 text-center text-white text-[14px]">
+        <div className="pt-4 border-t border-white/20 text-center text-white/80 text-[14px]">
           <p>Copyright ©2026 ActivBase Physiotherapy. All rights reserved | Designed by Blusteak</p>
         </div>
       </div>

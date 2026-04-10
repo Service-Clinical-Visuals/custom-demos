@@ -40,7 +40,7 @@ export default function Approach() {
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div className="flex flex-col">
-          <span data-aos="fade-up" className="text-gray-800 font-bold text-[12px] tracking-wider mb-3">
+          <span data-aos="fade-up" className="text-gray-800 font-bold text-[14px] tracking-wider mb-3">
             Why Our Approach Works
           </span>
           <h2 data-aos="fade-up" data-aos-delay="100" className="text-[36px] font-bold mb-6 leading-snug text-gray-900">
@@ -78,7 +78,7 @@ export default function Approach() {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://cdn.clinicalvisuals.com/medical/soniquence/360.webm" />
+            src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_01.webm" />
         </div>
       </div>
     </section>

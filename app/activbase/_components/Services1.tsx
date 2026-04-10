@@ -13,12 +13,12 @@ export default function Services1() {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://cdn.clinicalvisuals.com/medical/soniquence/360.webm" />
+            src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_02.webm" />
         </div>
 
         {/* Right Content */}
         <div className="flex flex-col">
-          <span data-aos="fade-up" className="text-gray-800 font-bold text-[12px] tracking-wider mb-3">
+          <span data-aos="fade-up" className="text-gray-800 font-bold text-[14px] tracking-wider mb-3">
             Our Physiotherapy Services
           </span>
           <h2 data-aos="fade-up" data-aos-delay="100" className="text-[36px] font-bold mb-6 text-gray-900 leading-snug">

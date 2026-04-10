@@ -13,12 +13,12 @@ export default function SportsRehab() {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://cdn.clinicalvisuals.com/medical/soniquence/360.webm" />
+            src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_03.webm" />
         </div>
 
         {/* Right Content */}
         <div className="flex flex-col pr-0">
-          <span data-aos="fade-up" className="text-white font-medium text-[12px] mb-4 block">
+          <span data-aos="fade-up" className="text-white font-medium text-[14px] mb-4 block">
             Complete Rehabilitation
           </span>
           <h2 data-aos="fade-up" data-aos-delay="100" className="text-[36px] font-bold mb-6 leading-tight max-w-[450px]">

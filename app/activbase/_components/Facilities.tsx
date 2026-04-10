@@ -71,7 +71,7 @@ export default function Facilities() {
           </div>
 
           <div className="col-span-1 flex flex-col justify-center px-8 lg:px-12 py-12 lg:py-0  lg:border-l-0 border-l border-white/10 lg:mt-0 mt-8" data-aos="fade-left" data-aos-delay="200">
-            <span className="text-white/80 font-bold text-[12px] tracking-wider mb-3 block">
+            <span className="text-white/80 font-bold text-[14px] tracking-wider mb-3 block">
               How We Treat You
             </span>
             <h2 className="text-[30px] font-bold mb-4 text-white leading-snug">
