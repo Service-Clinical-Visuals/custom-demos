@@ -31,7 +31,7 @@ export default function AboutUs() {
     <section className="bg-[#F5F5F7] py-16 px-6 lg:py-24">
       <div className="container mx-auto grid lg:grid-cols-2 gap-10 items-stretch">
         {/* LEFT IMAGE */}
-        <div className="w-full h-full">
+        <div data-aos="fade-left" className="w-full h-full">
           <div className="relative w-full h-full min-h-100 rounded-xl overflow-hidden">
             <Image
               src="/clinisupplies/about.png"
@@ -43,7 +43,7 @@ export default function AboutUs() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div>
+        <div data-aos="fade-right">
           <p className="text-base text-[#333333] mb-2">About Us</p>
 
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-[#333333] mb-4">

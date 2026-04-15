@@ -38,7 +38,7 @@ const HealthSupport = () => {
           {/* LEFT → TEXT + 2 CARDS */}
           <div className="space-y-8 text-[#FFFFFF]">
             {/* Content */}
-            <div className="space-y-4">
+            <div data-aos="fade-up" className="space-y-4">
               <p className="text-base font-medium opacity-90">
                 Explore Your Health Support Options
               </p>
@@ -61,7 +61,9 @@ const HealthSupport = () => {
             </div>
 
             {/* 2 Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
+            <div
+              data-aos="fade-up"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
               {cards.slice(0, 2).map((card, i) => (
                 <div
                   key={i}
@@ -78,18 +80,23 @@ const HealthSupport = () => {
           </div>
 
           {/* RIGHT → VIDEO */}
-          <div className="relative w-full aspect-video bg-white/20 rounded-2xl overflow-hidden shadow-2xl">
+          <div
+            data-aos="fade-up"
+            className="relative w-full aspect-video bg-white/20 rounded-2xl overflow-hidden shadow-2xl">
             <video
               src="/clinisupplies/video.mp4"
               className="w-full h-full object-cover"
-              controls
-              poster="/thumbnail.jpg"
+              autoPlay
+              loop
+              muted
             />
           </div>
         </div>
 
         {/* 🔹 BOTTOM SECTION → 4 CARDS */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+        <div
+          data-aos="fade-up"
+          className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
           {cards.slice(2).map((card, i) => (
             <div
               key={i}

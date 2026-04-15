@@ -13,7 +13,9 @@ const Feature = () => {
     <section className="bg-[#F26828] flex items-center justify-center px-6 py-12 lg:px-12 lg:py-24 font-['Outfit',sans-serif]">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Content Column */}
-        <div className="text-[#FFFFFF] space-y-8 lg:col-span-5">
+        <div
+          data-aos="fade-left"
+          className="text-[#FFFFFF] space-y-8 lg:col-span-5">
           <div className="space-y-4">
             <p className="text-base font-medium opacity-90">Our Products</p>
             <h2 className="text-3xl md:text-4xl font-medium">
@@ -57,7 +59,9 @@ const Feature = () => {
         </div>
 
         {/* Right Image/Placeholder Column */}
-        <div className="relative w-full aspect-4/3 lg:aspect-video bg-[#FFFFFF] rounded-[2.5rem] overflow-hidden shadow-2xl lg:col-span-7">
+        <div
+          data-aos="fade-right"
+          className="relative w-full aspect-4/3 lg:aspect-video bg-[#FFFFFF] rounded-[2.5rem] overflow-hidden shadow-2xl lg:col-span-7">
           {/* Video */}
           <video
             className="absolute inset-0 w-full h-full object-cover"
