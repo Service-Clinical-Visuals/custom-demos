@@ -23,20 +23,20 @@ export default function WhyDifferent() {
           </div>
 
           <div className="flex flex-col">
-            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[16px] uppercase tracking-wider">Why We're Different</h3>
+            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[14px] uppercase tracking-wider">Why We're Different</h3>
             <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">
               Delivering value, support, and flexibility you can trust
             </h2>
-            <p data-aos="fade-up" data-aos-delay="200" className="text-muted text-[18px] leading-[1.7] text-justify mb-8">
+            <p data-aos="fade-up" data-aos-delay="200" className="text-muted text-[17px] leading-[1.7] text-justify mb-8">
               We are committed to providing exceptional service, high-quality products, and reliable support tailored to your needs. With a strong focus on value, accessibility, and innovation, we ensure that every solution we offer enhances your experience and meets the highest standards of care.
             </p>
-            
+
             <div className="space-y-6 mb-8">
               {points.map((point, idx) => (
                 <div key={idx} data-aos="fade-up" data-aos-delay={300 + (idx * 100)} className="flex gap-4">
                   <CheckCircle2 className="w-5 h-5 text-gray-700 shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="font-medium text-foreground text-[18px] mb-1">{point.title}</h4>
+                    <h4 className="font-medium text-foreground text-[17px] mb-1">{point.title}</h4>
                     <p className="text-muted text-[16px] leading-[1.7]">{point.desc}</p>
                   </div>
                 </div>

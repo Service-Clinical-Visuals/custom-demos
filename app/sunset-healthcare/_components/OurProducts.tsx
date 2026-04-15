@@ -9,7 +9,7 @@ export default function OurProducts() {
   return (
     <section className="w-full py-16 md:py-20 bg-[#fafafa] text-center border-t border-b border-gray-100">
       <div className="container mx-auto">
-        <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[16px]">Our Products</h3>
+        <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[14px]">Our Products</h3>
         <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">
           Reliable, high-quality equipment, supplies and accessories at a low price point.
         </h2>
@@ -20,10 +20,10 @@ export default function OurProducts() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((prod, idx) => (
             <div data-aos="fade-up" data-aos-delay={300 + (idx * 100)} key={idx} className="bg-white border border-gray-100 text-center p-6 rounded-xl flex flex-col items-center shadow-[0px_4px_20px_-5px_rgba(0,0,0,0.05)] hover:shadow-lg transition-all">
-              <div className="aspect-[4/3] bg-[#f7f7f700] flex items-center justify-center rounded-lg mb-6">
-                <img src={`/sunset-healthcare/home/${prod.img}`} alt={prod.name} className="w-full h-full aspect-[4/3] object-cover bg-[#f7f7f700]" />
+              <div className="aspect-square bg-[#D9D6D633] flex items-center justify-center rounded-lg mb-6">
+                <img src={`/sunset-healthcare/home/${prod.img}`} alt={prod.name} className="w-full h-full aspect-square object-cover bg-[#D9D6D633]" />
               </div>
-              <h4 className="text-[18px] font-medium text-foreground">{prod.name}</h4>
+              <h4 className="text-[17px] font-medium text-foreground">{prod.name}</h4>
             </div>
           ))}
         </div>

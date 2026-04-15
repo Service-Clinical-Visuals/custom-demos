@@ -51,11 +51,7 @@ export default function AboutUs() {
           </h2>
 
           <p className="text-[#666666] text-base leading-relaxed mb-6">
-            Our purpose is to support people to live their lives more freely,
-            always acting with respect for others. We do this by focusing our
-            energy on relentless progress, moving fast but caring deeply, taking
-            ownership in all that we do knowing we impact real peoples’ lives
-            each and every day.
+            Our purpose is to support people to live their lives more freely, always acting with respect for others. We do this by focusing our energy on relentless progress, moving fast but caring deeply, taking ownership in all that we do knowing we impact real peoples’ lives each and every day.
           </p>
 
           {/* FEATURES GRID */}
@@ -63,7 +59,7 @@ export default function AboutUs() {
             {features.map((item, i) => (
               <div
                 key={i}
-                className="flex items-center gap-4 bg-white rounded-3xl p-4 shadow-xl border hover:shadow-md transition">
+                className="flex items-center gap-4 bg-white rounded-3xl p-4 shadow-md border hover:shadow-lg transition">
                 <div className="bg-[#F26828] p-3 rounded-md  flex items-center justify-center">
                   <Image
                     src={item.img}

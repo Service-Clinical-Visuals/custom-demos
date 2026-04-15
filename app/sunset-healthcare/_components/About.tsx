@@ -12,14 +12,14 @@ export default function About() {
 
           {/* Content */}
           <div className="flex flex-col">
-            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 flex items-center gap-2 text-[16px]">
+            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 flex items-center gap-2 text-[14px]">
               About Us
             </h3>
             <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">
               A Trusted Leader in HME Solutions Since 2004
             </h2>
 
-            <div data-aos="fade-up" data-aos-delay="200" className="space-y-4 text-muted text-justify text-[18px] leading-[1.7] mb-8">
+            <div data-aos="fade-up" data-aos-delay="200" className="space-y-4 text-muted text-justify text-[17px] leading-[1.7] mb-8">
               <p>
                 Since 2004, Sunset Healthcare Solutions has provided highly tailored customer service and consistent great value within the HME space. The Chicago-based manufacturer and distributor of HME supplies partners with over 1600 healthcare businesses to offer specialized support, innovative solutions, and a full range of quality HME products.
               </p>

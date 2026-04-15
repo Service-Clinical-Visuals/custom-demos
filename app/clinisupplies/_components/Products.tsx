@@ -68,7 +68,7 @@ const Products = () => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="border border-[#0000007A] rounded-4xl p-4 flex flex-col h-full hover:shadow-md  transition-all duration-300 overflow-hidden group">
+              className="border border-[#00000029] rounded-4xl p-4 flex flex-col h-full hover:shadow-md  transition-all duration-300 overflow-hidden group">
               {/* Image Container with inner rounded corners */}
               <div className="relative aspect-[1.1/1] bg-slate-100 rounded-3xl overflow-hidden mb-6">
                 <img

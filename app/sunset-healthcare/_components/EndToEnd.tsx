@@ -12,11 +12,11 @@ export default function EndToEnd() {
       <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="flex flex-col">
-            <h3 data-aos="fade-up" className="font-bold mb-3 text-[16px] text-white/90">Our Services</h3>
+            <h3 data-aos="fade-up" className="font-bold mb-3 text-[14px] text-white/90">Our Services</h3>
             <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium mb-6 leading-[1.2]">
               End-to-end healthcare solutions designed for efficiency, quality, and business growth
             </h2>
-            <div data-aos="fade-up" data-aos-delay="200" className="space-y-4 text-[18px] leading-[1.7] text-justify text-white/90 mb-8">
+            <div data-aos="fade-up" data-aos-delay="200" className="space-y-4 text-[17px] leading-[1.7] text-justify text-white/90 mb-8">
               <p>
                 We provide a comprehensive range of services that go beyond product supply, helping healthcare businesses operate more efficiently and grow with confidence. From private labeling and custom packaging to OEM manufacturing and quality testing, our solutions are tailored to meet diverse operational needs.
               </p>

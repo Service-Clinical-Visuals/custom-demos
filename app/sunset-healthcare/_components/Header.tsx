@@ -33,14 +33,13 @@ export default function Header() {
   ];
 
   return (
-    <header className={`w-full bg-white border-b border-gray-100 fixed top-0 z-50 transition-all duration-500 transform ${
-      isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none text-white"
-    }`}>
+    <header className={`w-full bg-white border-b border-gray-100 fixed top-0 z-50 transition-all duration-500 transform ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none text-white"
+      }`}>
       <div className="container py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link href="/sunset-healthcare" className="flex items-center">
-            <div className="w-[150px] md:w-[200px] h-[40px] md:h-[50px] bg-gray-50 flex flex-col items-center justify-center rounded border border-gray-100 overflow-hidden">
+            <div className="w-[150px] md:w-[200px] h-[40px] md:h-[50px] flex flex-col items-center justify-center rounded overflow-hidden">
               <img src="/sunset-healthcare/logo.png" alt="Logo" className="h-full object-contain" />
             </div>
           </Link>
@@ -70,9 +69,9 @@ export default function Header() {
           <button className="hidden sm:flex bg-primary hover:bg-primary-hover text-white text-[13px] font-bold px-5 py-2.5 rounded-md transition-colors">
             Pay Online
           </button>
-          
+
           {/* Mobile Menu Toggle */}
-          <button 
+          <button
             className="xl:hidden w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -82,17 +81,15 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu Dropdown */}
-      <div className={`xl:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100 shadow-xl transition-all duration-300 ease-in-out ${
-        isMobileMenuOpen ? "max-h-[80vh] opacity-100 overflow-y-auto" : "max-h-0 opacity-0 overflow-hidden"
-      }`}>
+      <div className={`xl:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100 shadow-xl transition-all duration-300 ease-in-out ${isMobileMenuOpen ? "max-h-[80vh] opacity-100 overflow-y-auto" : "max-h-0 opacity-0 overflow-hidden"
+        }`}>
         <nav className="flex flex-col p-6 gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className={`text-[16px] font-semibold py-2 border-b border-gray-50 transition-colors ${
-                link.active ? "text-primary" : "text-gray-700 hover:text-primary"
-              }`}
+              className={`text-[16px] font-semibold py-2 border-b border-gray-50 transition-colors ${link.active ? "text-primary" : "text-gray-700 hover:text-primary"
+                }`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {link.name}

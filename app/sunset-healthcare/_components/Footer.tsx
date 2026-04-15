@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12 mb-8">
           <div className="lg:col-span-2">
             <Link href="/sunset-healthcare" className="inline-block mb-4">
-              <div className="w-[180px] h-[50px] bg-white/5 flex items-center justify-center rounded">
+              <div className="w-[180px] h-[50px] flex items-center justify-center rounded">
                 <img src="/sunset-healthcare/logo-white.png" alt="Logo" className="" />
               </div>
             </Link>
@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-6 text-[18px]">Our Products</h4>
+            <h4 className="font-bold mb-6 text-[17px]">Our Products</h4>
             <ul className="space-y-4 text-[16px] text-white/80">
               <li><Link href="#" className="hover:text-white transition-colors">Products</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">OEM Manufacturing</Link></li>
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-6 text-[18px]">Legal & Policies</h4>
+            <h4 className="font-bold mb-6 text-[17px]">Legal & Policies</h4>
             <ul className="space-y-4 text-[16px] text-white/80">
               <li><Link href="#" className="hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Service</Link></li>
@@ -41,14 +41,14 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-6 text-[18px]">Services</h4>
+            <h4 className="font-bold mb-6 text-[17px]">Services</h4>
             <div className="text-[16px] text-white/80 space-y-1 mb-8">
               <p>Sunset Healthcare Solutions</p>
               <p>141 W Jackson Blvd Ste 1950</p>
               <p>Chicago IL 60604</p>
             </div>
 
-            <h4 className="font-bold mb-4 text-[18px]">Social Media</h4>
+            <h4 className="font-bold mb-4 text-[17px]">Social Media</h4>
             <div className="flex gap-4 mb-6">
               <Link href="#" className="text-white/80 hover:text-white transition-colors">
                 <Linkedin size={20} />

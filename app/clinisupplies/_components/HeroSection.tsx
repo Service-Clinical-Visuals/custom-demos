@@ -10,7 +10,7 @@ export default function HeroSection() {
         className="absolute top-0 left-0 w-full h-full object-cover">
         <source src="/clinisupplies/video.mp4" type="video/mp4" />
       </video>
-      <div className="absolute inset-0 bg-black/50"></div>
+      {/* <div className="absolute inset-0 bg-black/50"></div> */}
       <div className="relative max-w-7xl text-center mb-16 px-6">
         {/* HEADING */}
         <h1

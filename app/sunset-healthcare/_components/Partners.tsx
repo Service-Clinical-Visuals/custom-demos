@@ -6,17 +6,17 @@ export default function Partners() {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-8">
           <div className="flex-1 lg:max-w-[70%] flex flex-col">
-            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[16px] uppercase tracking-wider">We proudly partner with</h3>
+            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[14px] uppercase tracking-wider">We proudly partner with</h3>
             <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2] pr-4">
               Collaborating with trusted organizations to deliver better healthcare solutions
             </h2>
-            <div data-aos="fade-up" data-aos-delay="200" className="text-muted text-[18px] leading-[1.7] text-justify space-y-4 mb-8">
+            <div data-aos="fade-up" data-aos-delay="200" className="text-muted text-[17px] leading-[1.7] text-justify space-y-4 mb-8">
               <p>
                 We proudly partner with leading organizations across the healthcare industry to enhance the quality, reach, and reliability of our solutions. These strategic collaborations allow us to combine expertise, innovation, and resources—ensuring we deliver greater value to our customers.
               </p>
-              <p data-aos="fade-up" data-aos-delay="300">
+              {/* <p data-aos="fade-up" data-aos-delay="300">
                 Together with our partners, we continue to strengthen our capabilities, expand our network, and drive better outcomes for healthcare providers and patients alike.
-              </p>
+              </p> */}
             </div>
 
             <div data-aos="fade-up" data-aos-delay="400">
