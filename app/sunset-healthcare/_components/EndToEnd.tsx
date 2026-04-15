@@ -1,0 +1,46 @@
+import { ArrowUpRight } from "lucide-react";
+
+export default function EndToEnd() {
+  return (
+    <section
+      className="w-full py-16 md:py-24 text-white relative bg-cover bg-bottom"
+      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.jpg')" }}
+    >
+      {/* Color overlay over the background image */}
+      <div className="absolute inset-0 bg-[#54626d] opacity-97 z-0"></div>
+
+      <div className="container relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div>
+            <h3 className="font-bold mb-3 text-[16px] text-white/90">Our Services</h3>
+            <h2 className="text-[25px] md:text-[30px] font-medium mb-6 leading-[1.2]">
+              End-to-end healthcare solutions designed for efficiency, quality, and business growth
+            </h2>
+            <div className="space-y-4 text-[18px] leading-[1.7] text-justify text-white/90 mb-8">
+              <p>
+                We provide a comprehensive range of services that go beyond product supply, helping healthcare businesses operate more efficiently and grow with confidence. From private labeling and custom packaging to OEM manufacturing and quality testing, our solutions are tailored to meet diverse operational needs.
+              </p>
+              <p>
+                With nationwide coverage and global reach, we ensure fast sourcing, reliable distribution, and seamless delivery. Our flexible approach includes drop shipping, simplified onboarding, and direct access to knowledgeable support—making it easier for businesses to scale and succeed.
+              </p>
+            </div>
+
+            <button className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-white px-7 py-3.5 rounded-full font-semibold text-sm transition-colors">
+              Explore Product <ArrowUpRight size={16} />
+            </button>
+          </div>
+
+          <div className="w-full relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+              src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_02.webm" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
