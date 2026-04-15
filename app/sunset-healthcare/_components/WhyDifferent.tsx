@@ -12,7 +12,7 @@ export default function WhyDifferent() {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-          <div className="w-full lg:h-[500px] relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
+          <div data-aos="fade-right" data-aos-delay="200" className="w-full lg:h-[500px] relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
             <video
               autoPlay
               loop
@@ -22,18 +22,18 @@ export default function WhyDifferent() {
               src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_02.webm" />
           </div>
 
-          <div>
-            <h3 className="text-primary font-bold mb-3 text-[16px] uppercase tracking-wider">Why We're Different</h3>
-            <h2 className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">
+          <div className="flex flex-col">
+            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[16px] uppercase tracking-wider">Why We're Different</h3>
+            <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">
               Delivering value, support, and flexibility you can trust
             </h2>
-            <p className="text-muted text-[18px] leading-[1.7] text-justify mb-8">
+            <p data-aos="fade-up" data-aos-delay="200" className="text-muted text-[18px] leading-[1.7] text-justify mb-8">
               We are committed to providing exceptional service, high-quality products, and reliable support tailored to your needs. With a strong focus on value, accessibility, and innovation, we ensure that every solution we offer enhances your experience and meets the highest standards of care.
             </p>
-
+            
             <div className="space-y-6 mb-8">
               {points.map((point, idx) => (
-                <div key={idx} className="flex gap-4">
+                <div key={idx} data-aos="fade-up" data-aos-delay={300 + (idx * 100)} className="flex gap-4">
                   <CheckCircle2 className="w-5 h-5 text-gray-700 shrink-0 mt-0.5" />
                   <div>
                     <h4 className="font-medium text-foreground text-[18px] mb-1">{point.title}</h4>
@@ -43,9 +43,11 @@ export default function WhyDifferent() {
               ))}
             </div>
 
-            <button className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-white px-7 py-3.5 rounded-full font-semibold text-sm transition-colors">
-              See What Sets Us Apart <ArrowUpRight size={16} />
-            </button>
+            <div data-aos="fade-up" data-aos-delay="800">
+              <button className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-white px-7 py-3.5 rounded-full font-semibold text-sm transition-colors">
+                See What Sets Us Apart <ArrowUpRight size={16} />
+              </button>
+            </div>
           </div>
 
         </div>

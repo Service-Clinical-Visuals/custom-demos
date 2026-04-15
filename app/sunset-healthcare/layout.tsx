@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { AosInit } from "./_components/AosInit";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontPrimary.variable} antialiased`}>
+        <AosInit />
         {children}
       </body>
     </html>
