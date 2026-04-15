@@ -1,0 +1,83 @@
+"use client";
+
+import "aos/dist/aos.css";
+import { Check, CircleCheck } from "lucide-react";
+import { useState } from "react";
+
+const bannerVideos = [
+  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_1.webm",
+  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_2.webm",
+  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_3.webm",
+
+];
+
+
+export default function MedacureSection() {
+
+      const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
+  };
+
+  const features = [
+    "Audible alarm for Power Failure, Low Battery, Low Oxygen Output, High Flow/Low Flow, No Breath Detected in Pulse Dose mode, High Temperature, Unit Malfunction",
+    "Advanced trigger sensitivity with ability to detect the breathing at a lower pressure",
+    "Multiple power options: AC power, DC power or rechargeable battery",
+  ];
+
+  return (
+    <section className="bg-[#2E2662] py-20 overflow-hidden">
+      <div className="max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+        
+        {/* LEFT IMAGE */}
+        <div data-aos="fade-right">
+          <div className="relative w-full h-[300px] md:h-[380px] rounded-2xl overflow-hidden">
+        <video
+        key={currentVideoIndex}
+        src={bannerVideos[currentVideoIndex]}
+        autoPlay
+        muted
+        playsInline
+        onEnded={handleVideoEnd}
+        className="w-full h-full object-cover"
+      />
+          </div>
+        </div>
+
+        {/* RIGHT CONTENT */}
+        <div data-aos="fade-left" className="max-w-xl text-white">
+          
+          {/* Title */}
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+            Portable Oxygen Concentrator
+          </h2>
+
+          {/* Description */}
+          <p className="text-white/80 leading-relaxed mb-6">
+            The MedaCure AeroLite Portable Oxygen Concentrator is designed to deliver
+            reliable oxygen therapy with a strong focus on performance, portability,
+            and patient convenience...
+          </p>
+
+          {/* Features */}
+          <div className="space-y-3">
+            {features.map((item, i) => (
+              <div
+                key={i}
+                data-aos="fade-up"
+                data-aos-delay={i * 100}
+                className="flex items-start gap-3"
+              >
+                <CircleCheck className="w-4 h-4 mt-1 text-[#2E2662] shrink-0 fill-white" />
+                <p className="text-sm text-white/90 leading-relaxed">
+                  {item}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
