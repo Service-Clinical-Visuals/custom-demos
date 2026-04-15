@@ -29,21 +29,24 @@ const Services = () => {
         style={{ backgroundImage: "url('/clinisupplies/bg.png')" }}
       />
 
-      <div className="relative z-10 container mx-auto py-16 lg:py-24 sm:px-6 md:px-6 lg:px-0 items-stretch">
+      <div className="relative z-10 container mx-auto py-16 lg:py-24 px-6 lg:px-0 items-stretch">
         {/* TOP SECTION: Grid Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-6">
           {/* Left: Placeholder / Video Box */}
-          <div className="bg-white/20 backdrop-blur-sm rounded-3xl border border-white/30 aspect-video overflow-hidden shadow-2xl">
+          <div
+            data-aos="fade-left"
+            className="bg-white/20 backdrop-blur-sm rounded-3xl border border-white/30 aspect-video overflow-hidden shadow-2xl">
             <video
               src="/clinisupplies/video.mp4" // place inside /public
               className="w-full h-full object-cover"
-              controls
-              poster="/thumbnail.jpg" // optional preview image
+              autoPlay
+              loop
+              muted
             />
           </div>
 
           {/* Right: Content */}
-          <div className="text-[#FFFFFF] space-y-4">
+          <div data-aos="fade-right" className="text-[#FFFFFF] space-y-4">
             <span className="text-base font-medium  opacity-90">
               Our Services
             </span>
@@ -76,7 +79,9 @@ const Services = () => {
         </div>
 
         {/* BOTTOM SECTION: 4-Column Image Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          data-aos="fade-up"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {serviceCards.map((service, index) => (
             <div key={index} className="group cursor-pointer">
               <div className="relative h-50 w-90 rounded-2xl overflow-hidden shadow-lg mb-4">

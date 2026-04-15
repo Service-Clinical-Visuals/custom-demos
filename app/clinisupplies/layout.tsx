@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
+import LenisProvider from "./_components/LenisProvider";
+import AOSProvider from "./_components/AOSProvider";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -11,6 +13,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Clinisupplies",
   description: "Clinisupplies",
+  icons: {
+    icon: "/clinisupplies/logo.png",
+  },
 };
 
 export default function RootLayout({
@@ -23,7 +28,9 @@ export default function RootLayout({
       <body className={outfit.className}>
         {" "}
         <Navbar />
-        {children}
+        <LenisProvider>
+          <AOSProvider>{children}</AOSProvider>
+        </LenisProvider>
       </body>
     </html>
   );

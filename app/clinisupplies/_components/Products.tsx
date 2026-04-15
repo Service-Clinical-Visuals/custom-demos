@@ -34,7 +34,7 @@ const Products = () => {
       <div className="container mx-auto">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-12 gap-6">
-          <div className="max-w-4xl space-y-4">
+          <div data-aos="fade-up" className="max-w-4xl space-y-4">
             <p className="text-base font-medium text-[#333333]">
               Featured Products
             </p>
@@ -50,7 +50,7 @@ const Products = () => {
             </p>
           </div>
 
-          <div>
+          <div data-aos="fade-up">
             <button className="flex items-center gap-2 border-2 border-[#F26828] text-[#11121B] text-base font-semibold px-5 py-2 rounded-full hover:bg-[#F26828] hover:text-[#FFFFFF] transition-all group">
               View Our Products
               <CornerUpRight
@@ -62,22 +62,24 @@ const Products = () => {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          data-aos="fade-up"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product, index) => (
             <div
               key={index}
-              className="border border-[#0000007A] rounded-4xl p-4 flex flex-col h-full hover:shadow-md transition-shadow">
+              className="border border-[#0000007A] rounded-4xl p-4 flex flex-col h-full hover:shadow-md  transition-all duration-300 overflow-hidden group">
               {/* Image Container with inner rounded corners */}
-              <div className="relative aspect-[1.1/1] bg-slate-100 rounded-3xl overflow-hidden mb-6 hover:scale-105 duration-500">
+              <div className="relative aspect-[1.1/1] bg-slate-100 rounded-3xl overflow-hidden mb-6">
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full object-cover mix-blend-multiply"
+                  className="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
               {/* Text Content */}
-              <div className="px-2 pb-4 space-y-3 grow">
+              <div data-aos="fade-up" className="px-2 pb-4 space-y-3 grow">
                 <h3 className="text-2xl font-medium text-[#333333]">
                   {product.title}
                 </h3>

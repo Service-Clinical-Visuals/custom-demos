@@ -8,7 +8,7 @@ export default function Sustainability() {
     <section className="bg-[#FFFFFF] py-16 lg:py-24 px-6">
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-stretch">
         {/* LEFT CONTENT */}
-        <div>
+        <div data-aos="fade-left">
           <p className="text-base text-[#333333] mb-2">Sustainability</p>
 
           <h2 className="text-4xl font-medium text-[#333333] mb-4 leading-snug">
@@ -68,7 +68,9 @@ export default function Sustainability() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="w-full h-full relative rounded-xl overflow-hidden">
+        <div
+          data-aos="fade-right"
+          className="w-full h-full relative rounded-xl overflow-hidden">
           <Image
             src="/clinisupplies/sustainability.png" // replace with your image
             alt="Sustainability"

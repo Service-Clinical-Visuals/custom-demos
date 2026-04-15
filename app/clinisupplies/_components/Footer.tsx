@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import {
   FaFacebookF,
   FaTwitter,
@@ -16,19 +15,17 @@ export default function Footer() {
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Logo + Contact */}
-          <div className="space-y-5">
+          <div data-aos="fade-up" className="space-y-5">
             <div className="flex items-center gap-3">
               {/* Logo */}
               <div className="relative w-14 h-14">
-                <Link href="/">
-                  <Image
-                    src="/clinisupplies/footerLogo.png"
-                    alt="Clinisupplies Logo"
-                    fill
-                    className="object-contain"
-                    priority
-                  />
-                </Link>
+                <Image
+                  src="/clinisupplies/footerLogo.png"
+                  alt="Clinisupplies Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
 
               {/* Text */}
@@ -58,7 +55,7 @@ export default function Footer() {
           </div>
 
           {/* Column 1 */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-[#FFFFFF] text-[19px] font-semibold mb-4">
               Our Products
             </h3>
@@ -72,7 +69,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2 */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-[#FFFFFF] text-[19px] font-semibold mb-4">
               Legal & Policies
             </h3>
@@ -89,7 +86,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3 */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-[#FFFFFF] text-[19px] font-semibold mb-4">
               Company
             </h3>
@@ -103,7 +100,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4 */}
-          <div>
+          <div data-aos="fade-up">
             <h3 className="text-[#FFFFFF] text-[19px] font-semibold mb-4">
               Services
             </h3>

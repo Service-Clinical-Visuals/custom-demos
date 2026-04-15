@@ -23,7 +23,10 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="w-full bg-white shadow-sm relative">
+    <header
+      className={`fixed top-0 left-0 w-full bg-gray-100 shadow-sm transition-transform duration-300 z-50 ${
+        show ? "translate-y-0" : "-translate-y-full"
+      }`}>
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* LOGO */}
         <div className="flex items-center gap-2">

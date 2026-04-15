@@ -31,7 +31,7 @@ export default function BlogCard() {
     <section className="bg-[#FFFFFF] py-12 lg:py-24 px-6">
       <div className="container mx-auto text-center">
         {/* Header */}
-        <div className="space-y-4">
+        <div data-aos="fade-up" className="space-y-4">
           <p className="text-base text-[#333333]">Latest blogs</p>
 
           <h2 className="text-3xl md:text-4xl font-medium text-[#333333]">
@@ -48,18 +48,19 @@ export default function BlogCard() {
         </div>
 
         {/* Blog Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div
+          data-aos="fade-up"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
           {blogs.map((blog, index) => (
             <div
               key={index}
-              className="bg-[#FFFFFF] rounded-2xl border border-[#00000029] shadow-[#00000029] hover:shadow-xl transition-all duration-300 overflow-hidden group text-left p-6">
+              className="bg-[#FFFFFF] rounded-2xl  border border-[#00000029] shadow-[#00000029] hover:shadow-xl transition-all duration-300 overflow-hidden group text-left p-6">
               {/* Image */}
-              <div className="relative w-full h-90 overflow-hidden">
-                <Image
+              <div className="relative w-full overflow-hidden rounded-xl">
+                <img
                   src={blog.image}
                   alt={blog.title}
-                  fill
-                  className="object-contain group-hover:scale-105 transition-transform duration-500 rounded-xl"
+                  className="object-cover aspect-video object-top group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
