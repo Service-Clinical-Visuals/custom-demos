@@ -34,7 +34,7 @@ export default function HeroMedico() {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* <div className="absolute inset-0 bg-black/40" /> */}
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-end h-full text-center px-4 pb-24 md:pb-40">
