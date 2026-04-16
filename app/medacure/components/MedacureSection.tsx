@@ -69,7 +69,7 @@ export default function MedacureSection() {
                 data-aos-delay={i * 100}
                 className="flex items-start gap-3"
               >
-                <CircleCheck className="w-4 h-4 mt-1 text-[#2E2662] shrink-0 fill-white" />
+                <CircleCheck className="w-7 h-7 mt-1 text-[#2E2662] shrink-0 fill-white" />
                 <p className="text-base text-white/90 leading-relaxed">
                   {item}
                 </p>
