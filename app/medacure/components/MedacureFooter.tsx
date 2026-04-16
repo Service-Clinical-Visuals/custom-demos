@@ -94,8 +94,8 @@ export default function MedacureFooter() {
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="border-t border-white/10 text-center text-white/60 text-base py-4">
-        © 2023 MedaCure Inc. All rights reserved.
+      <div className="border-t border-white/10 text-center font-medium text-white/60 text-base py-4">
+        &copy; 2023 MedaCure Inc. All rights reserved.
       </div>
     </footer>
   );

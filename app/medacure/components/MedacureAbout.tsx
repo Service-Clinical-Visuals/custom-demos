@@ -84,7 +84,7 @@ export default function MedacureAbout() {
           {/* CTA */}
           <button
             data-aos="zoom-in"
-            className="cursor-pointer border border-[#2E2662] text-[#333333] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition"
+            className="cursor-pointer border-2 border-[#2E2662] text-[#333333] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition"
           >
             Know More About Us
           </button>

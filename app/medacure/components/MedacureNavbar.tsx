@@ -48,7 +48,7 @@ export default function MedacureNavbar() {
         {/* Right */}
         <div className="flex items-center gap-4">
           <Search className="w-5 h-5 cursor-pointer text-black" />
-          <button className="bg-[#2E2662] cursor-pointer text-white px-5 py-2 rounded-full">
+          <button className="bg-[#2E2662] cursor-pointer text-white px-6 py-3 rounded-full">
             Login
           </button>
         </div>

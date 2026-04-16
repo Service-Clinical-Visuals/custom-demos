@@ -46,7 +46,7 @@ export default function MedacureHero() {
             data-aos="fade-up"
             className=" text-white mb-30"
           >
-            <h1 className="text-3xl md:text-5xl leading-tight mb-6 font-medium">
+            <h1 className="text-3xl md:text-4xl leading-tight mb-6 font-semibold">
               Manufacturer of Durable
               <br />
               Medical Equipment & Supplies
