@@ -54,11 +54,11 @@ export default function MedacureFeatureTop() {
         {/* TEXT */}
         <div data-aos="fade-left" className="max-w-2xl">
           
-          <p className="text-base text-[#ffffff] font-medium mb-2">
+          <p className="text-base text-black lg:text-[#ffffff] font-medium mb-2">
             Our Features
           </p>
 
-          <h2 className="text-2xl md:text-3xl font-semibold text-white mb-10">
+          <h2 className="text-2xl md:text-3xl font-semibold text-black lg:text-white mb-10">
             AeroLite Portable Oxygen Concentrator
           </h2>
 
