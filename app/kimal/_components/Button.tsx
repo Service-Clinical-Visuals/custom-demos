@@ -54,7 +54,7 @@ export default function Button({
             </div>
             {showIcon && (
                 <div className={`${iconBaseStyles} ${styles.icon}`}>
-                    <ArrowUpRight className={`w-5 h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 ${styles.iconSymbol}`} />
+                    <ArrowUpRight className={`w-5 h-5 transition-transform duration-300 group-hover:rotate-45 group-hover:translate-x-0.5 ${styles.iconSymbol}`} />
                 </div>
             )}
         </>

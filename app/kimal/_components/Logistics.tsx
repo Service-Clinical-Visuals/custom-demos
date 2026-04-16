@@ -21,7 +21,7 @@ export default function Logistics() {
     <section className="py-20 lg:py-28 bg-[#4782d3] text-white relative overflow-hidden border-t-2 border-white/10">
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-right">
             <h2 className="text-xl lg:text-3xl leading-[1.2] font-bold mb-6 text-white! tracking-tight">Delivery On Time, Every Time</h2>
             <p className="text-base lg:text-lg leading-relaxed mb-4 text-justify">
               We are committed to ensuring that your orders are delivered on time, every time, and we have a dedicated support team who strive to achieve this. Our customised logistic solutions also allow us to meet our customers' individual requirements.
@@ -39,7 +39,7 @@ export default function Logistics() {
               <Button text="Request Logistics Support" variant="outline-white" />
             </div>
           </div>
-          <div className="w-full aspect-[video] rounded-3xl overflow-hidden relative border border-white/10 shadow-xl">
+          <div className="w-full aspect-[video] rounded-3xl overflow-hidden relative border border-white/10 shadow-xl" data-aos="fade-left">
             <video
               key={currentVideoIndex}
               src={shortVideos[currentVideoIndex]}

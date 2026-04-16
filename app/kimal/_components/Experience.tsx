@@ -6,7 +6,7 @@ export default function Experience() {
     <section className="py-20 lg:py-28 bg-[#4782d3] text-white relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          <div className="flex flex-col text-justify">
+          <div className="flex flex-col text-justify" data-aos="fade-right">
             <h2 className="text-xl lg:text-3xl leading-[1.2] font-bold mb-6 text-white!">Our Knowledge & Experience</h2>
             <p className="text-base lg:text-lg leading-relaxed mb-4 text-blue-50 font-medium">
               In the early 90s we launched the first cardiology procedure pack in the UK leading to the opening of our manufacturing facility in Bromsgrove.
@@ -25,7 +25,7 @@ export default function Experience() {
               <Button text="Discover Our Experience" variant="white" />
             </div>
           </div>
-          <div className="w-full aspect-[video] bg-[#ffffff15] rounded-3xl overflow-hidden relative border border-white/10 shadow-xl">
+          <div className="w-full aspect-[video] bg-[#ffffff15] rounded-3xl overflow-hidden relative border border-white/10 shadow-xl" data-aos="fade-left">
             <video src="https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
           </div>
         </div>

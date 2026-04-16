@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   description: "Delivering healthcare innovation and exceeding our customers' expectations.",
 };
 
+import AosInit from "./_components/AosInit";
+
 export default function Layout({
   children,
 }: Readonly<{
@@ -22,6 +24,7 @@ export default function Layout({
   return (
     <html lang="en" className={`${outfit.variable} font-sans`} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased text-[#4b5563]">
+        <AosInit />
         <div className="overflow-x-hidden relative w-full">
           {children}
         </div>

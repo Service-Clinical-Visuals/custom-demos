@@ -10,7 +10,7 @@ export default function About() {
 
           {/* Left Side: Image Setup */}
           {/* Left Side: Image Setup */}
-          <div className="relative isolate group">
+          <div className="relative isolate group" data-aos="fade-right">
 
             {/* The Floating Blue Box over the image with precise white cutout */}
             <div className="absolute top-0 left-0 z-20 bg-white pr-4 pb-4 md:pr-6 md:pb-6 rounded-br-[2rem]">
@@ -38,7 +38,7 @@ export default function About() {
           </div>
 
           {/* Right Side: Text & Features */}
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-left">
             <h2 className="text-xl lg:text-3xl leading-[1.2] font-bold mb-6 max-w-lg">
               At Kimal, innovation and exceeding expectations are at our core.
             </h2>

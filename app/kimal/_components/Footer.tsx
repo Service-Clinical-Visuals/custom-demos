@@ -26,14 +26,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-16">
           {/* Logo Column */}
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-up" data-aos-delay="0">
             <Link href="/kimal" className="flex flex-col leading-tight mb-8">
               <img src="/kimal/images/kimal-logo.png" alt="Kimal Logo" className="w-46 h-auto" />
             </Link>
           </div>
 
           {/* Links 1 */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="100">
             <h4 className="text-[20px] mb-6 tracking-wide!">Quick Links</h4>
             <ul className="space-y-4">
               <li><FooterLink href="/kimal">Home</FooterLink></li>
@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
 
           {/* Links 2 */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="200">
             <h4 className="text-[20px] mb-6 tracking-wide!">Clinical Areas</h4>
             <ul className="space-y-4">
               <li><FooterLink href="#">Cardiac Surgery</FooterLink></li>
@@ -61,7 +61,7 @@ export default function Footer() {
           </div>
 
           {/* Links 3 */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="300">
             <h4 className="text-[20px] mb-6 tracking-wide!">Other Links</h4>
             <ul className="space-y-4">
               <li><FooterLink href="#">Business Ethics Policy</FooterLink></li>
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="400">
             <h4 className="text-[20px] mb-6 tracking-wide!">Contact</h4>
             <ul className="space-y-4 text-slate-500">
               <li className="text-base lg:text-[17px]">Kimal PLC : +44 (0)845 4379542</li>
