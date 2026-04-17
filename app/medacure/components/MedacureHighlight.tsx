@@ -1,33 +1,21 @@
 "use client";
 
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import "aos/dist/aos.css";
 import { Check, CircleCheck } from "lucide-react";
 import { useState } from "react";
-
-const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_1.webm",
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_3.webm",
-
-];
 
 
 
 export default function MedacureHighlight() {
 
-      const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
-  };
-
   return (
     <section className="bg-[#2E2662] py-20 overflow-hidden">
       <div className="max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-        
+
         {/* LEFT CONTENT */}
         <div data-aos="fade-right" className="text-white max-w-2xl">
-          
+
           {/* Title */}
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">
             AeroLite Portable Oxygen Concentrator
@@ -51,7 +39,7 @@ export default function MedacureHighlight() {
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <CircleCheck className="shrink-0 w-6 h-6 text-[#2E2662] fill-[#ffffff] " />
-                     <span className="text-white/90 text-base">{item}</span>
+                <span className="text-white/90 text-base">{item}</span>
               </div>
             ))}
           </div>
@@ -71,15 +59,10 @@ export default function MedacureHighlight() {
           className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden"
         >
           {/* Replace with video later */}
-           <video
-                    key={currentVideoIndex}
-                    src={bannerVideos[currentVideoIndex]}
-                    autoPlay
-                    muted
-                    playsInline
-                    onEnded={handleVideoEnd}
-                    className="absolute inset-0 w-full h-full object-cover"
-                />
+          <DynamicVideoPlayer
+            type="360"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
         </div>
       </div>
     </section>

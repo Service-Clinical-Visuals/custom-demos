@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./_components/Navbar";
 import LenisProvider from "./_components/LenisProvider";
 import AOSProvider from "./_components/AOSProvider";
+import { VideoProvider } from "../_context/VideoContext";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -26,11 +27,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
-        {" "}
-        <Navbar />
-        <LenisProvider>
-          <AOSProvider>{children}</AOSProvider>
-        </LenisProvider>
+        <VideoProvider>
+          {" "}
+          <Navbar />
+          <LenisProvider>
+            <AOSProvider>{children}</AOSProvider>
+          </LenisProvider>
+        </VideoProvider>
       </body>
     </html>
   );

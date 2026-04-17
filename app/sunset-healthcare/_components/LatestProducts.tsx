@@ -27,12 +27,12 @@ export default function LatestProducts() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {products.map((prod, idx) => (
             <div data-aos="fade-up" data-aos-delay={300 + (idx * 100)} key={idx} className="bg-[#78828b] rounded-xl overflow-hidden flex flex-col text-left hover:-translate-y-1 transition-transform border border-white/10">
-              <div className="w-full flex items-center justify-center bg-[#faebef]">
-                <img src={`/sunset-healthcare/home${prod.image}`} alt={prod.name} className="w-full h-full aspect-squire object-cover bg-[#faebef]" />
+              <div className="w-full flex items-center justify-center bg-[#f3f1f1]">
+                <img src={`/sunset-healthcare/home${prod.image}`} alt={prod.name} className="w-full h-full aspect-squire object-cover bg-[#f3f1f1]" />
               </div>
               <div className="p-5">
                 <p className="text-[14px] text-white/70 mb-1">{prod.category}</p>
-                <h4 className="font-medium text-white text-[17px] leading-snug pr-2">{prod.name}</h4>
+                <h4 className="font-medium text-white text-[19px] leading-snug pr-2">{prod.name}</h4>
               </div>
             </div>
           ))}

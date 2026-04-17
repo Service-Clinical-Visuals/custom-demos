@@ -12,7 +12,7 @@ export default function About() {
 
           {/* Content */}
           <div className="flex flex-col">
-            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 flex items-center gap-2 text-[14px]">
+            <h3 data-aos="fade-up" className="text-primary font-bold mb-3 flex items-center gap-2 text-[14px] uppercase">
               About Us
             </h3>
             <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">

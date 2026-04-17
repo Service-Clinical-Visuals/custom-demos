@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight, CornerRightUp, CornerUpRight } from "lucide-react"; // Optional: using lucide-react for the button icon
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const Services = () => {
   const serviceCards = [
@@ -36,12 +37,9 @@ const Services = () => {
           <div
             data-aos="fade-left"
             className="bg-white/20 backdrop-blur-sm rounded-3xl border border-white/30 aspect-video overflow-hidden shadow-2xl">
-            <video
-              src="/clinisupplies/video.mp4" // place inside /public
+            <DynamicVideoPlayer
+              type="360"
               className="w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
             />
           </div>
 

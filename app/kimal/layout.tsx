@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 import AosInit from "./_components/AosInit";
+import { VideoProvider } from "../_context/VideoContext";
 
 export default function Layout({
   children,
@@ -24,10 +25,12 @@ export default function Layout({
   return (
     <html lang="en" className={`${outfit.variable} font-sans`} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased text-[#4b5563]">
-        <AosInit />
-        <div className="overflow-x-hidden relative w-full">
-          {children}
-        </div>
+        <VideoProvider>
+          <AosInit />
+          <div className="overflow-x-hidden relative w-full">
+            {children}
+          </div>
+        </VideoProvider>
       </body>
     </html>
   );

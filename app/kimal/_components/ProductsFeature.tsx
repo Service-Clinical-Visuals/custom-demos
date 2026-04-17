@@ -1,5 +1,5 @@
-import { ArrowUpRight } from "lucide-react";
 import Button from "./Button";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function ProductsFeature() {
   return (
@@ -7,7 +7,10 @@ export default function ProductsFeature() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-16 lg:mb-24">
           <div className="w-full aspect-[video] bg-gray-100/80 rounded-3xl overflow-hidden relative shadow-lg" data-aos="fade-right">
-            <video src="https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
+            <DynamicVideoPlayer
+              type="360"
+              className="w-full h-full object-cover z-0"
+            />
           </div>
           <div className="flex flex-col" data-aos="fade-left">
             <h2 className="text-xl lg:text-3xl leading-[1.2] font-bold text-slate-800 mb-3 tracking-tight">Altius Central Venous Catheters</h2>

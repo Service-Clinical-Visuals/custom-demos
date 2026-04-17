@@ -69,7 +69,7 @@ export const VideoProvider = ({ children, website }: { children: ReactNode; webs
           return;
         }
 
-        const response = await fetch(`http://192.168.1.75:3002/admin/custom-business/public/business-media?businessName=${resolvedBusinessName}`);
+        const response = await fetch(`https://api.clinicalvisuals.com/admin/custom-business/public/business-media?businessName=${resolvedBusinessName}`);
 
         if (!response.ok) {
           console.warn(`API responded with ${response.status}. Using fallback videos.`);

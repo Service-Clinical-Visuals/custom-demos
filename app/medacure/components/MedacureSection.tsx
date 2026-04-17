@@ -1,24 +1,13 @@
 "use client";
 
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import "aos/dist/aos.css";
 import { Check, CircleCheck } from "lucide-react";
 import { useState } from "react";
 
-const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_1.webm",
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_3.webm",
-
-];
-
 
 export default function MedacureSection() {
 
-      const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
-  };
 
   const features = [
     "Audible alarm for Power Failure, Low Battery, Low Oxygen Output, High Flow/Low Flow, No Breath Detected in Pulse Dose mode, High Temperature, Unit Malfunction",
@@ -29,25 +18,20 @@ export default function MedacureSection() {
   return (
     <section className="bg-[#2E2662] py-20 overflow-hidden">
       <div className="max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-        
+
         {/* LEFT IMAGE */}
         <div data-aos="fade-right">
           <div className="relative w-full h-[300px] md:h-[380px] rounded-2xl overflow-hidden">
-        <video
-        key={currentVideoIndex}
-        src={bannerVideos[currentVideoIndex]}
-        autoPlay
-        muted
-        playsInline
-        onEnded={handleVideoEnd}
-        className="w-full h-full object-cover"
-      />
+            <DynamicVideoPlayer
+              type="short-2"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
         {/* RIGHT CONTENT */}
         <div data-aos="fade-left" className="max-w-xl text-white">
-          
+
           {/* Title */}
           <h2 className="text-xl md:text-2xl font-semibold mb-4">
             Portable Oxygen Concentrator

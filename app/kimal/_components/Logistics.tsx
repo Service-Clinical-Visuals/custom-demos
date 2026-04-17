@@ -2,21 +2,11 @@
 
 import { ArrowUpRight, Check, ChevronRight, ChevronsRight } from "lucide-react";
 import Button from "./Button";
-import { useState } from "react";
-
-
-const shortVideos = [
-  "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm",
-  "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_02.webm"
-];
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 
 export default function Logistics() {
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
-  };
   return (
     <section className="py-20 lg:py-28 bg-[#4782d3] text-white relative overflow-hidden border-t-2 border-white/10">
       <div className="container mx-auto px-4 relative z-10">
@@ -40,13 +30,8 @@ export default function Logistics() {
             </div>
           </div>
           <div className="w-full aspect-[video] rounded-3xl overflow-hidden relative border border-white/10 shadow-xl" data-aos="fade-left">
-            <video
-              key={currentVideoIndex}
-              src={shortVideos[currentVideoIndex]}
-              autoPlay
-              muted
-              playsInline
-              onEnded={handleVideoEnd}
+            <DynamicVideoPlayer
+              type="short-1"
               className="w-full h-full object-cover z-0"
             />
           </div>

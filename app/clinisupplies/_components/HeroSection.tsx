@@ -1,15 +1,12 @@
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+
 export default function HeroSection() {
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-end justify-center text-white">
       {/* 🎥 Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="/clinisupplies/video.mp4" type="video/mp4" />
-      </video>
+      <DynamicVideoPlayer
+        type="banner"
+        className="absolute top-0 left-0 w-full h-full object-cover" />
       {/* <div className="absolute inset-0 bg-black/50"></div> */}
       <div className="relative max-w-7xl text-center mb-16 px-6">
         {/* HEADING */}

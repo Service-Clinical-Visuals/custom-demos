@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import Button from "./Button";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Experience() {
   return (
@@ -26,7 +27,10 @@ export default function Experience() {
             </div>
           </div>
           <div className="w-full aspect-[video] bg-[#ffffff15] rounded-3xl overflow-hidden relative border border-white/10 shadow-xl" data-aos="fade-left">
-            <video src="https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm" autoPlay loop muted className="w-full h-full object-cover"></video>
+            <DynamicVideoPlayer
+              type="short-2"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

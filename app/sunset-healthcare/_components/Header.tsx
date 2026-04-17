@@ -63,10 +63,10 @@ export default function Header() {
 
         {/* Actions */}
         <div className="flex items-center gap-2 md:gap-3">
-          <button className="hidden sm:flex w-9 h-9 items-center justify-center bg-primary text-white rounded-md hover:bg-primary-hover transition-colors">
+          <button className="hidden sm:flex w-9 h-9 items-center justify-center bg-primary text-white rounded-full hover:bg-primary-hover transition-colors">
             <Search size={16} />
           </button>
-          <button className="hidden sm:flex bg-primary hover:bg-primary-hover text-white text-[13px] font-bold px-5 py-2.5 rounded-md transition-colors">
+          <button className="hidden sm:flex bg-primary hover:bg-primary-hover text-white text-[13px] font-bold px-5 py-2.5 rounded-full transition-colors">
             Pay Online
           </button>
 
@@ -99,7 +99,7 @@ export default function Header() {
             <button className="flex items-center gap-3 text-gray-700 font-semibold py-2">
               <Search size={20} /> Search
             </button>
-            <button className="w-full bg-primary text-white font-bold py-3 rounded-md hover:bg-primary-hover transition-colors">
+            <button className="w-full bg-primary text-white font-bold py-3 rounded-full hover:bg-primary-hover transition-colors">
               Pay Online
             </button>
           </div>

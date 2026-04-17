@@ -33,7 +33,7 @@ export default function VesperMask() {
             <ul className="space-y-4 mb-8">
               {points.map((point, idx) => (
                 <li key={idx} data-aos="fade-up" data-aos-delay={300 + (idx * 100)} className="flex gap-3 text-[17px] text-white">
-                  <CheckCircle2 className="w-4 h-4 text-white shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-white shrink-0 mt-0.5" />
                   <span>{point}</span>
                 </li>
               ))}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { VideoProvider } from "../_context/VideoContext";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -26,7 +27,9 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} antialiased`}
       >
-        {children}
+        <VideoProvider>
+          {children}
+        </VideoProvider>
       </body>
     </html>
   );

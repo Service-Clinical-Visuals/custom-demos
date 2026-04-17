@@ -1,39 +1,22 @@
 "use client";
 
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import "aos/dist/aos.css";
-import { useState } from "react";
-
-const bannerVideos = [
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_1.webm",
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/vapotherm/landing_page/Vapotherm_3.webm",
-
-];
-
 
 
 export default function MedacureHero() {
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prev) => (prev + 1) % bannerVideos.length);
-  };
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
       {/* VIDEO (future ready) */}
       {/* Replace this with <video /> later */}
       <div className="absolute inset-0">
-       
-      <video
-        key={currentVideoIndex}
-        src={bannerVideos[currentVideoIndex]}
-        autoPlay
-        muted
-        playsInline
-        onEnded={handleVideoEnd}
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+
+        <DynamicVideoPlayer
+          type="banner"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
       </div>
 
       {/* Overlay */}

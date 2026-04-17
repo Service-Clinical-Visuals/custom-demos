@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle2, CornerUpRight, MoveRight } from "lucide-react";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const Feature = () => {
   const features = [
@@ -63,13 +64,9 @@ const Feature = () => {
           data-aos="fade-right"
           className="relative w-full aspect-4/3 lg:aspect-video bg-[#FFFFFF] rounded-[2.5rem] overflow-hidden shadow-2xl lg:col-span-7">
           {/* Video */}
-          <video
+          <DynamicVideoPlayer
+            type="short-2"
             className="absolute inset-0 w-full h-full object-cover"
-            src="/clinisupplies/video.mp4" // 👉 put your video inside public/videos/
-            autoPlay
-            loop
-            muted
-            playsInline
           />
 
           {/* Optional overlay (keeps design aesthetic) */}

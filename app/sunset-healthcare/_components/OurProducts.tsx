@@ -9,7 +9,7 @@ export default function OurProducts() {
   return (
     <section className="w-full py-16 md:py-20 bg-[#fafafa] text-center border-t border-b border-gray-100">
       <div className="container mx-auto">
-        <h3 data-aos="fade-up" className="text-primary font-bold mb-3 text-[14px]">Our Products</h3>
+        <h3 data-aos="fade-up" className="text-primary uppercase font-bold mb-3 text-[14px]">Our Products</h3>
         <h2 data-aos="fade-up" data-aos-delay="100" className="text-[25px] md:text-[30px] font-medium text-foreground mb-6 leading-[1.2]">
           Reliable, high-quality equipment, supplies and accessories at a low price point.
         </h2>

@@ -16,7 +16,7 @@ export default function WhyDifferent({ video }: { video?: string | string[] }) {
 
           <div data-aos="fade-right" data-aos-delay="200" className="w-full lg:h-[500px] relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
             <DynamicVideoPlayer
-              type="360"
+              type="short-2"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -30,7 +30,7 @@ export default function WhyDifferent({ video }: { video?: string | string[] }) {
               We are committed to providing exceptional service, high-quality products, and reliable support tailored to your needs. With a strong focus on value, accessibility, and innovation, we ensure that every solution we offer enhances your experience and meets the highest standards of care.
             </p>
 
-            <div className="space-y-6 mb-8">
+            <div className="space-y-4 mb-8">
               {points.map((point, idx) => (
                 <div key={idx} data-aos="fade-up" data-aos-delay={300 + (idx * 100)} className="flex gap-4">
                   <CheckCircle2 className="w-5 h-5 text-gray-700 shrink-0 mt-0.5" />

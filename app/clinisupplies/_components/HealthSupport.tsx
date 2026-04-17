@@ -1,5 +1,6 @@
 "use client";
 
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import React from "react";
 
 const HealthSupport = () => {
@@ -83,12 +84,9 @@ const HealthSupport = () => {
           <div
             data-aos="fade-up"
             className="relative w-full aspect-video bg-white/20 rounded-2xl overflow-hidden shadow-2xl">
-            <video
-              src="/clinisupplies/video.mp4"
+            <DynamicVideoPlayer
+              type="short-1"
               className="w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
             />
           </div>
         </div>

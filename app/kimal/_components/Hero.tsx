@@ -4,32 +4,18 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Button from "./Button";
-
-const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm",
-    "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_02.webm"
-];
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const Hero = () => {
-    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-    const handleVideoEnd = () => {
-        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
-    };
 
     return (
         <section className="bg-black w-full h-screen flex flex-col items-center justify-end pb-10 md:pb-16 relative overflow-hidden" data-aos="fade-in">
             {/* Video Background */}
             <div className="absolute inset-0 z-0">
-                <video
-                    key={currentVideoIndex}
-                    src={bannerVideos[currentVideoIndex]}
-                    autoPlay
-                    muted
-                    playsInline
-                    onEnded={handleVideoEnd}
+                <DynamicVideoPlayer
+                    type="banner"
                     className="absolute inset-0 w-full h-full object-cover z-0"
-                ></video>
+                />
 
             </div>
 
