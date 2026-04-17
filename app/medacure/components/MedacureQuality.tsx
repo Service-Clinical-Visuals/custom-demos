@@ -22,7 +22,7 @@ export default function MedacureQuality() {
           </h2>
 
           {/* Description */}
-          <p className="text-gray-600 leading-relaxed mb-6">
+          <p className="text-gray-600 leading-7.5 mb-6">
             We deeply value the level of care you extend to your residents,
             which is why we prioritize quality assurance and quality control
             in every stage of our product development. While we sincerely hope
@@ -34,7 +34,7 @@ export default function MedacureQuality() {
           {/* CTA */}
           <button
             data-aos="zoom-in"
-            className="cursor-pointer border border-[#2E2662] text-[#2E2662] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition"
+            className="cursor-pointer border-2 font-semibold border-[#2E2662] text-[#2E2662] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition"
           >
             Read More
           </button>

@@ -39,7 +39,8 @@ export default function Home() {
     };
   }, []);
   return (
-    <main>
+     
+    <main id="home">
       <MedacureNavbar/>
       <MedacureHero/>
       <MedacureAbout/> 

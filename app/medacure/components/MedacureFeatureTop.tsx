@@ -62,11 +62,11 @@ export default function MedacureFeatureTop() {
             AeroLite Portable Oxygen Concentrator
           </h2>
 
-          <p className="text-gray-600 leading-relaxed mb-6">
+          <p className="text-gray-600 leading-7.5 mb-6">
             MedaCure products are engineered with advanced trigger sensitivity, enabling precise detection of patient breathing even at lower pressure levels for enhanced comfort and responsiveness. Designed for reliability and convenience, they offer an extended operating time with a single 8-cell battery (included), along with an optional 16-cell battery for even longer use. To ensure uninterrupted performance across different settings, the system supports multiple power options, including AC power, DC power, and a rechargeable battery, providing flexibility and dependability wherever it is needed.
           </p>
 
-          <button className="cursor-pointer border border-[#2E2662] text-[#333333] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition">
+          <button className="cursor-pointer border-2 border-[#2E2662] text-[#2E2662] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition">
             View Products
           </button>
         </div>

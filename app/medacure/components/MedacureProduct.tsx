@@ -6,9 +6,9 @@ import "aos/dist/aos.css";
 import ProductCard from "./MedacureProductCard";
 
 const categories = [
+  "Respiratory & Diagnostics",
   "Beds",
   "Mattresses",
-  "Respiratory & Diagnostics",
   "Patient Lifts & Slings",
   "Wheel Chairs",
   "Walkers",
@@ -45,7 +45,7 @@ export default function MedacureProduct() {
           {categories.map((item, i) => (
             <button
               key={i}
-              className={`cursor-pointer px-6 py-3 ${i === categories.length - 1 ? "bg-[#2E2662] text-white" : ""} border border-[#2E2662] rounded-full text-sm text-gray-700 hover:bg-[#2E2662] hover:text-white transition`}
+              className={`cursor-pointer px-6 py-3 ${i === categories.length - 1 || i === 0 ? "bg-[#2E2662] text-white" : ""} border border-[#2E2662] rounded-full text-sm text-gray-700 hover:bg-[#2E2662] hover:text-white transition`}
             >
               {item}
             </button>
