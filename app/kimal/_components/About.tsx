@@ -16,7 +16,7 @@ export default function About() {
             <div className="absolute top-0 left-0 z-20 bg-white pr-4 pb-4 md:pr-6 md:pb-6 rounded-br-[2rem]">
               <div className="bg-[#4782d3] text-white p-6 md:p-8 rounded-[1.5rem] w-48 md:w-64 flex flex-col justify-center shadow-lg">
                 <p className="font-bold! text-lg leading-snug">
-                  Over 1M packs yearly in Class 8 clean rooms.
+                  Over 1M packs yearly in "Class 8" clean rooms.
                 </p>
               </div>
 

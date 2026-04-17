@@ -21,11 +21,11 @@ export default function Innovation() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-10">
               <div className="bg-white rounded-[20px] p-6 text-center text-slate-800 shadow-xl">
                 <h4 className="text-base md:text-xl font-bold mb-2 tracking-wide">High-Volume Manufacturing</h4>
-                <p className="text-sm lg:text-base leading-relaxed font-medium">We produce over 1 million procedure packs annually, ensuring consistent quality and reliable supply.</p>
+                <p className="text-sm lg:text-base leading-relaxed">We produce over 1 million procedure packs annually, ensuring consistent quality and reliable supply.</p>
               </div>
               <div className="bg-white rounded-[20px] p-6 text-center text-slate-800 shadow-xl">
                 <h4 className="text-base md:text-xl font-bold mb-2 tracking-wide">Advanced Cleanroom Facilities</h4>
-                <p className="text-sm lg:text-base leading-relaxed font-medium">Manufactured in Class 8 clean rooms using certified medical-grade components and strict standards.</p>
+                <p className="text-sm lg:text-base leading-relaxed">Manufactured in Class 8 clean rooms using certified medical-grade components and strict standards.</p>
               </div>
             </div>
 
