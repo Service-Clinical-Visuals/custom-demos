@@ -1,3 +1,4 @@
+"use client";
 import About from "./_components/About";
 import Header from "./_components/Header";
 import Hero from "./_components/Hero";
@@ -11,21 +12,23 @@ import Testimonials from "./_components/Testimonials";
 import Updates from "./_components/Updates";
 import Footer from "./_components/Footer";
 
-export default function SunsetHealthcareHome() {
+export default function SunsetHealthcare() {
   return (
     <div className="flex flex-col min-h-screen w-full bg-white">
       <Header />
       <main className="flex-1 w-full flex flex-col">
-        <Hero />
-        <About />
-        <VesperMask />
-        <OurProducts />
-        <EndToEnd />
-        <Partners />
-        <LatestProducts />
-        <WhyDifferent />
-        <Testimonials />
-        <Updates />
+        <div className="bg-[#f2f4f7]">
+          <Hero />
+          <About />
+          <VesperMask />
+          <OurProducts />
+          <EndToEnd />
+          <Partners />
+          <LatestProducts />
+          <WhyDifferent />
+          <Testimonials />
+          <Updates />
+        </div>
       </main>
       <Footer />
     </div>

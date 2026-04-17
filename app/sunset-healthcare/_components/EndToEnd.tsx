@@ -1,4 +1,6 @@
+import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import DynamicVideoPlayer from "../../_components/DynamicVideoPlayer";
 
 export default function EndToEnd() {
   return (
@@ -33,13 +35,10 @@ export default function EndToEnd() {
           </div>
 
           <div data-aos="fade-left" data-aos-delay="300" className="w-full relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
+            <DynamicVideoPlayer
+              type="short-2"
               className="absolute inset-0 w-full h-full object-cover"
-              src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_02.webm" />
+            />
           </div>
         </div>
       </div>

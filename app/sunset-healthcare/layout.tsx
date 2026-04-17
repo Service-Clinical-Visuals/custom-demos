@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 };
 
 import { AosInit } from "./_components/AosInit";
+import { VideoProvider } from "../_context/VideoContext";
 
 export default function RootLayout({
   children,
@@ -26,8 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontPrimary.variable} antialiased`}>
-        <AosInit />
-        {children}
+        <VideoProvider>   {/* if needed use directly the below line  <VideoProvider website="sunset-healthcare" > */}
+          <AosInit />
+          {children}
+        </VideoProvider>
       </body>
     </html>
   );

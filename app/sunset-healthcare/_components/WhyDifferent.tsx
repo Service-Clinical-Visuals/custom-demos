@@ -1,6 +1,8 @@
+import React from "react";
 import { CheckCircle2, ArrowUpRight } from "lucide-react";
+import DynamicVideoPlayer from "../../_components/DynamicVideoPlayer";
 
-export default function WhyDifferent() {
+export default function WhyDifferent({ video }: { video?: string | string[] }) {
   const points = [
     { title: "Here for you more than ever", desc: "Count on Sunset for tailored service and the creative solutions you need." },
     { title: "Consistent great value", desc: "Choose from the highest quality products available at a low price point." },
@@ -13,13 +15,10 @@ export default function WhyDifferent() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           <div data-aos="fade-right" data-aos-delay="200" className="w-full lg:h-[500px] relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
+            <DynamicVideoPlayer
+              type="360"
               className="absolute inset-0 w-full h-full object-cover"
-              src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_02.webm" />
+            />
           </div>
 
           <div className="flex flex-col">

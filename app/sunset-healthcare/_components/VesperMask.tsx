@@ -1,4 +1,6 @@
+import React from 'react';
 import { CheckCircle2, ArrowUpRight } from "lucide-react";
+import DynamicVideoPlayer from "../../_components/DynamicVideoPlayer";
 
 export default function VesperMask() {
   const points = [
@@ -36,22 +38,13 @@ export default function VesperMask() {
                 </li>
               ))}
             </ul>
-
-            {/* <div data-aos="fade-up" data-aos-delay="700">
-              <button className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-white px-7 py-3.5 rounded-full font-semibold text-sm transition-colors">
-                Explore Product <ArrowUpRight size={16} />
-              </button>
-            </div> */}
           </div>
 
           <div data-aos="fade-left" data-aos-delay="200" className="w-full lg:h-[500px] relative rounded-2xl overflow-hidden border border-gray-200 aspect-video">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
+            <DynamicVideoPlayer
+              type="short-1"
               className="absolute inset-0 w-full h-full object-cover"
-              src="https://cdn.clinicalvisuals.com/medical/activbase/short_clips/activebase_02.webm" />
+            />
           </div>
         </div>
       </div>
