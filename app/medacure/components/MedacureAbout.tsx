@@ -26,7 +26,7 @@ export default function MedacureAbout() {
 
 
   return (
-    <section className="relative bg-gray-50 py-20 overflow-hidden">
+    <section className="relative bg-gray-50 py-20 overflow-hidden" id="about">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <img

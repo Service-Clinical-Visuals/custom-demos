@@ -19,7 +19,7 @@ const categories = [
 export default function MedacureProduct() {
 
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-gray-50 py-20" id="products">
       <div className="max-w-380 mx-auto px-6 text-center">
         
         {/* Heading */}

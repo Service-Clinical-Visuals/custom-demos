@@ -6,7 +6,7 @@ import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 export default function MedacureFooter() {
 
   return (
-    <footer className="bg-[#2e2463] relative pt-56 md:pt-38 mt-20">
+    <footer className="bg-[#2e2463] relative pt-56 md:pt-38 mt-20" id="contact">
       
       {/* FLOATING CTA */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-380 px-6">
@@ -61,11 +61,11 @@ export default function MedacureFooter() {
         <div data-aos="fade-up" data-aos-delay="100">
           <h4 className="font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-white/70 text-base">
-            <li className="cursor-pointer hover:text-white">Home</li>
-            <li className="cursor-pointer hover:text-white">About</li>
-            <li className="cursor-pointer hover:text-white">Products</li>
-            <li className="cursor-pointer hover:text-white">Furniture</li>
-            <li className="cursor-pointer hover:text-white">Contact</li>
+            <li><a href="#home" className="cursor-pointer hover:text-white">Home</a></li>
+            <li><a href="#about" className="cursor-pointer hover:text-white">About</a></li>
+            <li><a href="#products" className="cursor-pointer hover:text-white">Products</a></li>
+            <li><a href="#furniture" className="cursor-pointer hover:text-white">Furniture</a></li>
+            <li><a href="#contact" className="cursor-pointer hover:text-white">Contact</a></li>
           </ul>
         </div>
 

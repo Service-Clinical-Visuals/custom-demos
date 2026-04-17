@@ -21,7 +21,7 @@ export default function MedacureFeatureTop() {
 
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden" id="furniture">
       
       {/* Top Purple Background */}
       <div className="bg-[#2E2662] h-[220px] w-full" />
