@@ -40,9 +40,8 @@ export default function ProductsSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* LEFT TABS (3 columns) */}
-          <div className="lg:col-span-3 flex flex-col gap-6">
+          <div data-aos="fade-up" className="lg:col-span-3 flex flex-col gap-6">
             <button
-              data-aos="fade-up"
               onClick={() => setActive("face")}
               className={`w-full py-4 rounded-2xl text-[20px] font-medium font-sora transition-all duration-300 shadow-md ${active === "face"
                 ? "bg-[#8BC541] text-[#FFFFFF]"
@@ -52,7 +51,6 @@ export default function ProductsSection() {
             </button>
 
             <button
-              data-aos="fade-up"
               onClick={() => setActive("hand")}
               className={`w-full py-4 rounded-2xl text-[20px] font-medium font-sora transition-all duration-300 shadow-md ${active === "hand"
                 ? "bg-[#8BC541] text-[#FFFFFF]"
@@ -62,7 +60,6 @@ export default function ProductsSection() {
             </button>
 
             <button
-              data-aos="fade-up"
               onClick={() => setActive("extremities")}
               className={`w-full py-4 rounded-2xl text-[20px] font-medium font-sora transition-all duration-300 shadow-md ${active === "extremities"
                 ? "bg-[#8BC541] text-[#FFFFFF]"
@@ -88,10 +85,24 @@ export default function ProductsSection() {
           <div
             data-aos="fade-up"
             key={active}
-            className="lg:col-span-9 bg-[#FFFFFF] bg-[url('/delphos-implants/images/product-bg.jpg')] bg-no-repeat bg-right bg-contain rounded-3xl p-4 lg:p-6 flex flex-col lg:flex-row gap-8 items-center min-h-[480px] shadow-lg border border-gray-100 relative overflow-hidden">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            className="lg:col-span-9 bg-[#FFFFFF] rounded-3xl p-4 lg:p-6 flex flex-col lg:flex-row gap-8 items-center min-h-[480px] shadow-lg border border-gray-100 relative overflow-hidden">
+
+            {/* Background Image Layer with Opacity 40 */}
+            <div
+              className="absolute inset-0 pointer-events-none select-none overflow-hidden rounded-3xl"
+              aria-hidden="true"
+            >
+              <img
+                src="/delphos-implants/images/product-bg.jpg"
+                alt="bg"
+                className="w-full h-full object-cover opacity-40"
+              />
+            </div>
+
+            {/* CONTENT */}
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center w-full">
               {/* IMAGE */}
-              <div className="w-full lg:col-span-5 flex justify-center h-full">
+              <div className="w-full lg:col-span-12 xl:col-span-5 flex justify-center h-full">
                 <div className="rounded-2xl overflow-hidden shadow-sm aspect-square w-full max-w-[380px] flex items-center justify-center bg-gray-50/50">
                   <img
                     src={products[active].img}
@@ -102,7 +113,7 @@ export default function ProductsSection() {
               </div>
 
               {/* TEXT */}
-              <div className="w-full lg:col-span-7 space-y-5 z-10">
+              <div className="w-full lg:col-span-12 xl:col-span-7 space-y-5">
                 <h3 className="text-[24px] font-bold text-[#000000]">
                   {products[active].title}
                 </h3>

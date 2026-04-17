@@ -20,7 +20,7 @@ export default function History() {
 
   return (
     <section className="w-full flex justify-center pt-6 ">
-      <div className="w-[95%] container mx-auto space-y-10">
+      <div className="container mx-auto space-y-10">
         <div className="bg-[#F5F5F5] border border-[#F5F5F5] rounded-2xl">
           {/* TOP SECTION */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center p-4 lg:p-8">

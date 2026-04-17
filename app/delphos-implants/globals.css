@@ -25,6 +25,10 @@
   }
 }
 
+section {
+  overflow: hidden;
+}
+
 @theme {
   --font-sora: var(--font-sora);
   --font-manrope: var(--font-manrope);

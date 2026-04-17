@@ -102,7 +102,7 @@ export default function Highlight() {
         <div
           data-aos="fade-up"
           className="rounded-3xl bg-linear-to-r from-[#0F8F43] to-[#7CC242] text-[#FFFFFF] text-center py-10 px-6">
-          <h3 className="text-[28px] font-medium mb-6 max-w-5xl mx-auto">
+          <h3 className="text-[20px] md:text-[24px] lg:text-[28px] font-medium mb-6 max-w-5xl mx-auto">
             Our focus is to be recognized as a partner company for our
             distributors and customers, building solid and lasting partnerships.
           </h3>

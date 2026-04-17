@@ -16,8 +16,8 @@ export default function Innovation() {
     setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
   };
   return (
-    <section className="w-full flex justify-center py-16">
-      <div className="w-[95%] container mx-auto grid lg:grid-cols-2 gap-10 items-center">
+    <section className="w-full flex justify-center py-16 px-4">
+      <div className="container mx-auto grid lg:grid-cols-2 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div data-aos="fade-left">
           <h2 className="text-[24px] font-semibold text-[#000000] mb-4">
