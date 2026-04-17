@@ -37,18 +37,18 @@ export default function MedacureNavbar() {
         </div>
 
         {/* Nav Links */}
-        <div className="hidden lg:flex gap-8 text-gray-700 font-medium">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Products</a>
-          <a href="#">Furniture</a>
-          <a href="#">Contact</a>
+        <div className="hidden lg:flex gap-8 text-gray-600 font-medium">
+          <a href="#" className="font-bold">Home</a>
+          <a href="#" className="hover:text-gray-900">About</a>
+          <a href="#" className="hover:text-gray-900">Products</a>
+          <a href="#" className="hover:text-gray-900">Furniture</a>
+          <a href="#" className="hover:text-gray-900">Contact</a>
         </div>
 
         {/* Right */}
         <div className="flex items-center gap-4">
           <Search className="w-5 h-5 cursor-pointer text-black" />
-          <button className="bg-[#2E2662] cursor-pointer text-white px-6 py-3 rounded-full">
+          <button className="cursor-pointer text-[#333333] px-12 py-3 rounded-full border-2 border-[#2E2662]">
             Login
           </button>
         </div>

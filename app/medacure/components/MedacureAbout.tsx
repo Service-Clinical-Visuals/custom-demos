@@ -12,11 +12,11 @@ const highlights = [
     description: "is expertly trained in a broad range of healthcare products.",
   },
   {
-    title: "Our professional staff",
+    title: "Our service and dedication",
     description: "to our clients are unsurpassed.",
   },
   {
-    title: "Our professional staff",
+    title: "Our goal",
     description:
       "is to offer the most advanced quality product at the absolute lowest price.",
   },
@@ -49,7 +49,7 @@ export default function MedacureAbout() {
             About MedaCure Inc.
           </p>
 
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-6">
             Leading the Future of Healthcare Products
           </h2>
 

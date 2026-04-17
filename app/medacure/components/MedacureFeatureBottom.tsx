@@ -8,7 +8,7 @@ export default function MedacureFeatureBottom() {
         <div className="bg-[#2E2662] rounded-2xl px-10 py-22 overflow-hidden">
           
           {/* TEXT */}
-          <div className="max-w-lg text-white">
+          <div className="max-w-xl text-white">
             <h3 className="text-xl md:text-2xl font-semibold mb-4">
               An elegant collection of quality case goods
               furniture and chairs for senior living.
