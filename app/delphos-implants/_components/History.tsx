@@ -2,22 +2,10 @@
 
 import React, { useState } from "react";
 import Button from "./Button";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
-
-const shortVideos = [
-  "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm",
-  "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_02.webm"
-];
 
 export default function History() {
-
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
-  };
-
-
   return (
     <section className="w-full flex justify-center pt-6 ">
       <div className="container mx-auto space-y-10">
@@ -28,16 +16,9 @@ export default function History() {
             <div
               data-aos="fade-left"
               className="col-span-12 lg:col-span-7 rounded-2xl overflow-hidden bg-[#F5F5F5] h-55 sm:h-70 lg:h-auto">
-              <video
-                key={currentVideoIndex}
-                src={shortVideos[currentVideoIndex]}
-                autoPlay
-                loop
-                muted
-                playsInline
-                onEnded={handleVideoEnd}
-                className="w-full h-full object-cover">
-              </video>
+              <DynamicVideoPlayer
+                type="short-2"
+                className="w-full h-full object-cover" />
             </div>
 
             {/* RIGHT CONTENT (4 cols) */}

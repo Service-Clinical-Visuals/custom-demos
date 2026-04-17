@@ -100,10 +100,10 @@ export default function Testimonials() {
           </div>
 
           <div data-aos="fade-left" data-aos-delay="300" className="relative group">
-            <div className="w-full h-[350px] md:h-[500px] bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl scale-95 group-hover:scale-100 transition-transform duration-700">
+            <div className="w-full h-[350px] md:h-[500px] bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl transition-transform duration-700">
               <img
                 src="/sunset-healthcare/home/testi.jpg"
-                className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
                 alt="Testimonial background"
               />
             </div>

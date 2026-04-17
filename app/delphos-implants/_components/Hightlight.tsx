@@ -2,6 +2,7 @@
 
 import { Check, SendHorizontal } from "lucide-react";
 import Button from "./Button";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 
 export default function Highlight() {
@@ -18,12 +19,8 @@ export default function Highlight() {
             data-aos="fade-left"
             className="rounded-2xl overflow-hidden bg-[#FFFFFF] min-h-70 flex items-center justify-center">
             {/* Replace with actual video */}
-            <video
-              src="https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/360/advance_esu_400_360_.webm"
-              autoPlay
-              muted
-              loop
-              playsInline
+            <DynamicVideoPlayer
+              type="360"
               className="w-full h-full object-cover z-0"
             />
           </div>

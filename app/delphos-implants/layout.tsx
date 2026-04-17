@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./_components/Navbar";
 import LenisProvider from "./_components/LenisProvider";
 import AOSProvider from "./_components/AOSProvider";
+import { VideoProvider } from "../_context/VideoContext";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -30,10 +31,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={`${sora.variable} ${manrope.variable}`}>
       <body className={`${manrope.className} overflow-x-hidden`} >
-        <Navbar />
-        <LenisProvider>
-          <AOSProvider>{children}</AOSProvider>
-        </LenisProvider>
+        <VideoProvider>
+          <Navbar />
+          <LenisProvider>
+            <AOSProvider>{children}</AOSProvider>
+          </LenisProvider>
+        </VideoProvider>
       </body>
     </html>
   );

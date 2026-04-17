@@ -2,19 +2,10 @@
 
 import { useState } from "react";
 import Button from "./Button";
-
-const shortVideos = [
-  "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_01.webm",
-  "https://cdn.clinicalvisuals.com/medical/advanced_instrumentations/landing_page/adavnced_esu_400_02.webm"
-];
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Innovation() {
 
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  const handleVideoEnd = () => {
-    setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
-  };
   return (
     <section className="w-full flex justify-center py-16 px-4">
       <div className="container mx-auto grid lg:grid-cols-2 gap-10 items-center">
@@ -57,16 +48,9 @@ export default function Innovation() {
           data-aos="fade-right"
           className="rounded-2xl overflow-hidden bg-gray-200 flex items-center justify-center aspect-video">
           {/* Replace this with actual video */}
-          <video
-            key={currentVideoIndex}
-            src={shortVideos[currentVideoIndex]}
-            autoPlay
-            loop
-            muted
-            playsInline
-            onEnded={handleVideoEnd}
-            className="w-full h-full object-cover">
-          </video>
+          <DynamicVideoPlayer
+            type="short-1"
+            className="w-full h-full object-cover" />
 
           {/* Placeholder text (remove when video used) */}
           {/* <span className="absolute text-gray-600 text-lg font-medium">
