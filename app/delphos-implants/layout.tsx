@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className={`${sora.variable} ${manrope.variable}`}>
-      <body className={manrope.className}>
+      <body className={`${manrope.className} overflow-x-hidden`} >
         <Navbar />
         <LenisProvider>
           <AOSProvider>{children}</AOSProvider>

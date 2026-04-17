@@ -42,7 +42,7 @@ export default function AboutSection() {
             <div className="flex gap-4 mb-6">
               <button
                 onClick={() => setActive("vision")}
-                className={`px-5 py-2 rounded-full text-[16px] font-semibold ${active === "vision"
+                className={`px-5 py-2 rounded-full text-[16px] font-semibold cursor-pointer ${active === "vision"
                   ? "bg-[#059347] text-[#FFFFFF]"
                   : "bg-[#F1F1F1] text-[#333333]"
                   }`}>
@@ -51,7 +51,7 @@ export default function AboutSection() {
 
               <button
                 onClick={() => setActive("mission")}
-                className={`px-5 py-2 rounded-full text-[16px] font-semibold ${active === "mission"
+                className={`px-5 py-2 rounded-full text-[16px] font-semibold cursor-pointer ${active === "mission"
                   ? "bg-[#059347] text-[#FFFFFF]"
                   : "bg-[#F1F1F1] text-[#333333]"
                   }`}>
@@ -70,7 +70,7 @@ export default function AboutSection() {
               </div>
 
               {/* RIGHT (8 cols) */}
-              <div className="col-span-12 sm:col-span-8 bg-linear-to-r from-[#8BC541] to-[#006938] text-[#FFFFFF] p-6 text-[17px] leading-relaxed text-justify">
+              <div className="col-span-12 sm:col-span-8 bg-linear-to-r from-[#8BC541] to-[#006938] text-[#FFFFFF] p-6 text-[16px] leading-relaxed text-justify">
                 {active === "vision" ? (
                   <>
                     Our vision at Delphos is to be recognized as innovative

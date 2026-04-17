@@ -25,7 +25,7 @@ const Footer = () => {
               />
             </div>
 
-            <p className="text-[17px] leading-relaxed max-w-xs">
+            <p className="text-sm lg:text-[17px] leading-relaxed max-w-xs">
               Proud to be a Portuguese company, we have representation in more
               than 28 countries.
             </p>
@@ -47,7 +47,7 @@ const Footer = () => {
           {/* Column 2: Quick Links */}
           <div data-aos="fade-up" className="lg:col-span-2">
             <h3 className="text-[24px] font-semibold mb-6">Quick Links</h3>
-            <ul className="space-y-4 text-[17px] font-medium">
+            <ul className="space-y-4 text-sm lg:text-[17px] font-medium">
               <li>
                 <a href="#" className="hover:underline">
                   Home
@@ -79,7 +79,7 @@ const Footer = () => {
           {/* Column 3: Products */}
           <div data-aos="fade-up" className="lg:col-span-2">
             <h3 className="text-[24px] font-semibold mb-6">Products</h3>
-            <ul className="space-y-4 text-[17px] font-medium">
+            <ul className="space-y-4 text-sm lg:text-[17px] font-medium">
               <li>
                 <a href="#" className="hover:underline">
                   D2 Face
@@ -101,7 +101,7 @@ const Footer = () => {
           {/* Column 4: Contact */}
           <div data-aos="fade-up" className="lg:col-span-3">
             <h3 className="text-[22px] font-semibold mb-6">Contact</h3>
-            <ul className="space-y-6 text-[17px] font-medium">
+            <ul className="space-y-6 text-sm lg:text-[17px] font-medium">
               <li className="flex items-center gap-3">
                 <FaPhone size={18} className="shrink-0" />
                 <span>(351) 211 955 986</span>
