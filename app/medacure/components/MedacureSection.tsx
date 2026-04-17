@@ -54,7 +54,7 @@ export default function MedacureSection() {
           </h2>
 
           {/* Description */}
-          <p className="text-white/80 leading-relaxed mb-6">
+          <p className="text-white/80 leading-7.5 mb-6">
             The MedaCure AeroLite Portable Oxygen Concentrator is designed to deliver
             reliable oxygen therapy with a strong focus on performance, portability,
             and patient convenience...

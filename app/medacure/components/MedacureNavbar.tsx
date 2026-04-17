@@ -26,7 +26,6 @@ export default function MedacureNavbar() {
 
   return (
     <div 
-     id="home"
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         show ? "translate-y-0 bg-white shadow-md" : "-translate-y-full"
       }`}
@@ -48,8 +47,8 @@ export default function MedacureNavbar() {
 
         {/* Right */}
         <div className="flex items-center gap-4">
-          <Search className="w-5 h-5 cursor-pointer text-black" />
-          <button className="cursor-pointer text-[#333333] px-10 py-3 rounded-full border-2 border-[#2E2662]">
+          <Search className="w-7 h-7 cursor-pointer text-black" />
+          <button className="cursor-pointer text-[#333333] px-14 py-3 rounded-full border-2 border-[#2E2662]">
             Login
           </button>
         </div>

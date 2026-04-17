@@ -9,7 +9,7 @@ export default function MedacureFooter() {
     <footer className="bg-[#2e2463] relative pt-56 md:pt-38 mt-20" id="contact">
       
       {/* FLOATING CTA */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-380 px-6">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-300 px-6">
         <div
           data-aos="fade-up"
           className=" bg-[linear-gradient(180deg,#3858DD_0%,#282587_100%)] rounded-2xl px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6"
@@ -59,7 +59,7 @@ export default function MedacureFooter() {
 
         {/* Quick Links */}
         <div data-aos="fade-up" data-aos-delay="100">
-          <h4 className="font-semibold mb-4">Quick Links</h4>
+          <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
           <ul className="space-y-2 text-white/70 text-base">
             <li><a href="#home" className="cursor-pointer hover:text-white">Home</a></li>
             <li><a href="#about" className="cursor-pointer hover:text-white">About</a></li>
@@ -71,7 +71,7 @@ export default function MedacureFooter() {
 
         {/* Products */}
         <div data-aos="fade-up" data-aos-delay="200">
-          <h4 className="font-semibold mb-4">Products</h4>
+          <h4 className="font-semibold mb-4 text-lg">Products</h4>
           <ul className="space-y-2 text-white/70 text-base">
             <li className="cursor-pointer hover:text-white">Beds</li>
             <li className="cursor-pointer hover:text-white">Mattresses</li>
@@ -83,7 +83,7 @@ export default function MedacureFooter() {
 
         {/* Contact */}
         <div data-aos="fade-up" data-aos-delay="300">
-          <h4 className="font-semibold mb-4">Contact Us</h4>
+          <h4 className="font-semibold mb-4 text-lg">Contact Us</h4>
           <div className="text-white/70 text-base space-y-2">
             <p className="font-medium text-white">CORPORATE OFFICE</p>
             <p>221 South 31st Street Kenilworth, NJ 07033, USA</p>

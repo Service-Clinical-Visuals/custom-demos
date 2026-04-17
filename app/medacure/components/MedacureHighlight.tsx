@@ -26,7 +26,7 @@ export default function MedacureHighlight() {
       <div className="max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         
         {/* LEFT CONTENT */}
-        <div data-aos="fade-right" className="text-white max-w-xl">
+        <div data-aos="fade-right" className="text-white max-w-2xl">
           
           {/* Title */}
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">
@@ -34,7 +34,7 @@ export default function MedacureHighlight() {
           </h2>
 
           {/* Description */}
-          <p className="text-white/80 leading-relaxed mb-6">
+          <p className="text-white leading-7.5 mb-6">
             The AeroLite Portable Oxygen Concentrator by Medacure provides
             medical grade oxygen in a compact battery operated unit. Lightweight
             and portable, it's ideal for travel. Includes a long lasting battery
@@ -51,7 +51,7 @@ export default function MedacureHighlight() {
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <CircleCheck className="shrink-0 w-6 h-6 text-[#2E2662] fill-[#ffffff] " />
-                     <span className="text-white/90 text-sm">{item}</span>
+                     <span className="text-white/90 text-base">{item}</span>
               </div>
             ))}
           </div>

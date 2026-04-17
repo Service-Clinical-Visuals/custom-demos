@@ -53,7 +53,7 @@ export default function MedacureAbout() {
             Leading the Future of Healthcare Products
           </h2>
 
-          <p className="text-gray-600 mb-4 leading-relaxed">
+          <p className="text-gray-600 mb-4 leading-7.5">
             MedaCure® designs, develops & manufactures a full range of Durable Medical Equipment for the long term and homecare space. Our unique product line includes beds, patient lifts, alternating pressure and preventive mattresses, oxygen concentrators, wheelchairs and a full line of furniture and chairs. With exclusive patented features, our products rival all of the major brands in quality, service and price.
           </p>
 
