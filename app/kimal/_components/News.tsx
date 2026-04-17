@@ -32,7 +32,7 @@ export default function News() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-6xl mx-auto mb-12 lg:mb-16 text-white" data-aos="fade-up">
           <h2 className="text-xl lg:text-3xl leading-[1.2] font-bold mb-4 tracking-tight text-white!">News and Events</h2>
-          <p className="text-base lg:text-lg font-medium leading-relaxed">
+          <p className="text-base lg:text-lg leading-relaxed">
             Stay updated with the latest news, innovations, and upcoming events, bringing you insights and developments from across our organisation.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function News() {
             >
               <h4 className="font-bold text-[#407EC9]! text-base lg:text-xl mb-2 leading-snug">{item.title}</h4>
               <p className="text-sm md:text-base font-semibold mb-5 pb-5 border-b border-gray-200 tracking-wide">{item.date}</p>
-              <p className=" font-medium text-base lg:text-[17px] leading-relaxed mb-6 flex-grow text-justify">{item.excerpt}</p>
+              <p className=" text-base lg:text-[17px] leading-relaxed mb-6 flex-grow text-justify">{item.excerpt}</p>
               <Link href="#" className="font-bold text-[#407EC9] text-sm md:text-base hover:underline hover:text-[#356ab0] transition-colors self-start mt-auto">
                 Read More...
               </Link>

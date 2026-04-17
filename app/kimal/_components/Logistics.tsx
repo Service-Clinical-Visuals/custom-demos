@@ -19,7 +19,7 @@ export default function Logistics() {
             <p className="text-base lg:text-lg leading-relaxed mb-6 text-justify">
               With our customised logistics solutions, we are able to adapt to your specific requirements, offering flexible and efficient delivery options tailored to your needs.
             </p>
-            <ul className="space-y-3 mb-10 text-base lg:text-lg font-medium">
+            <ul className="space-y-3 mb-10 text-base lg:text-lg">
               <li className="flex gap-3 items-center"><span className="text-white"><ChevronsRight className="w-4 h-4" /></span> Strong commitment to on-time delivery, every time</li>
               <li className="flex gap-3 items-center"><span className="text-white"><ChevronsRight className="w-4 h-4" /></span> Well-structured processes to ensure consistent performance</li>
               <li className="flex gap-3 items-center"><span className="text-white"><ChevronsRight className="w-4 h-4" /></span> Efficient order management from processing to dispatch</li>

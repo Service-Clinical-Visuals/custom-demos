@@ -11,7 +11,7 @@ export default function Footer() {
     return (
       <Link
         href={href}
-        className={`relative group inline-block pb-0.5 transition-colors text-base lg:text-[17px] ${isActive ? "text-[#4782d3]" : "hover:text-[#4782d3]"}`}
+        className={`relative group inline-block pb-0.5 transition-colors text-base lg:text-[16px] ${isActive ? "text-[#4782d3]" : "hover:text-[#4782d3]"}`}
       >
         {children}
         <span
@@ -22,7 +22,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#fbFcfd] text-slate-500 pt-16 pb-6 border-t border-gray-100 text-[13px] font-medium">
+    <footer className="bg-[#fbFcfd] text-slate-500 pt-16 pb-6 border-t border-gray-100 text-[13px]">
       <div className="container mx-auto px-4 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-16">
           {/* Logo Column */}
@@ -87,7 +87,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 pt-6 text-center text-[14px] font-medium text-slate-400">
+        <div className="border-t border-gray-200 pt-6 text-center text-[14px] text-slate-400">
           <p>© Copyright Kimal 2026</p>
         </div>
       </div>
