@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Mail, Linkedin, Globe, Phone, Menu, X, ChevronDown } from "lucide-react";
+import Button from "./Button";
 
 const navLinks = [
   { name: "Home", href: "/horizon" },
@@ -134,9 +135,9 @@ export default function Header() {
               <Mail size={20} className="text-[#84CFFA]" />
               <span>info@horizon-medtech.com</span>
             </div>
-            <button className="w-full bg-white text-[#064163] py-4 rounded-xl font-bold text-lg shadow-xl mt-4">
+            <Button href="#" variant="white" className="w-full mt-4">
               CONTACT US
-            </button>
+            </Button>
           </div>
         </div>
       )}

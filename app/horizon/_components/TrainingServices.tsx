@@ -44,7 +44,7 @@ export default function TrainingServices() {
                 <img src={service.image} alt={service.title} className="w-full h-full object-contain" />
               </div>
 
-              <h3 className="text-[22px] font-bold text-[#1a1a1a] mb-4">
+              <h3 className="text-[22px] font-semibold text-[#1a1a1a] mb-4">
                 {service.title}
               </h3>
 

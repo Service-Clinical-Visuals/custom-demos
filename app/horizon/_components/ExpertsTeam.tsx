@@ -27,7 +27,7 @@ export default function ExpertsTeam() {
         className="absolute inset-0 opacity-[0.58] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
       />
       <div className="container mx-auto px-4 md:px-12 relative z-10 text-center">
-        <h2 className="text-[30px] md:text-[32px] font-bold text-[#1A1A1A] mb-16" data-aos="fade-up">
+        <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] mb-16" data-aos="fade-up">
           Meet Our Experts Team
         </h2>
 

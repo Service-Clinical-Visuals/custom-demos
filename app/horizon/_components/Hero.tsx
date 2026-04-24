@@ -61,7 +61,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <Button href="#products" variant="outline" className="px-8 py-3 text-[18px]">
+            <Button href="#products" variant="outline" size="md">
               Explore our Products
             </Button>
           </motion.div>
