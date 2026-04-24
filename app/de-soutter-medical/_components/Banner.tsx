@@ -18,7 +18,7 @@ export default function Banner() {
         className="absolute top-0 left-0 w-full h-full object-cover"
       />
       {/* Optional Dark Overlay (improves text readability) */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      {/* <div className="absolute inset-0 bg-black/50"></div> */}
 
       {/* Content */}
       <div
@@ -30,7 +30,7 @@ export default function Banner() {
         </h1>
         <div className="relative inline-flex items-center mt-8">
           <button className="mt-4 bg-[#FFFFFF] text-[#5A6FB0] px-6 py-2 rounded-full flex items-center gap-2 hover:bg-gray-200 transition">
-            Get to Know Us
+            Explore Our Products
             <ArrowRight size={16} />
           </button>
         </div>

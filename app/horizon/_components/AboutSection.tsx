@@ -39,7 +39,7 @@ export default function AboutSection() {
             </div>
 
             <div className="pt-4">
-              <Button href="#about">
+              <Button href="#about" className="text-[#0000]">
                 Learn More About Us
               </Button>
             </div>

@@ -55,11 +55,11 @@ export default function Products() {
           {categories.map((item) => (
             <button
               key={item}
-              onClick={() => setActive(item)}
+              onClick={item === "Large Bone" ? () => setActive(item) : undefined}
               className={`px-12 py-2 rounded-full border text-[18px] transition ${
                 active === item
                   ? "bg-[#5A6FB0] text-[#FFFFFF]"
-                  : "border-[#5A6FB0] text-[#333333] hover:bg-[#5A6FB0]/10"
+                  : "border-[#5A6FB0] text-[#333333] cursor-default"
               }`}>
               {item}
             </button>

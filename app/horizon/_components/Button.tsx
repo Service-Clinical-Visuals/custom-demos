@@ -25,7 +25,7 @@ export default function Button({
     "inline-flex items-center justify-between gap-6 pl-8 pr-2 py-2 rounded-full font-bold transition-all duration-300 text-[16px] cursor-pointer group";
 
   const variants = {
-    primary: "bg-[#84CFFA] text-white",
+    primary: "bg-[#84CFFA] text-[#064163]",
     secondary: "bg-[#064163] text-white",
     white: "bg-white text-[#064163]",
     dark: "bg-[#1A1A1A] text-white",

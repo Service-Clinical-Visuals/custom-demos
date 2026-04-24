@@ -36,7 +36,7 @@ export default function Navbar() {
 
         {/* Right Side */}
         <div className="hidden lg:flex bg-white text-[#333] rounded-full px-3 py-1 items-center gap-2">
-          <span className="text-sm">Search</span>
+          <span className="text-sm px-6">Search</span>
           <Search size={16} />
         </div>
 
