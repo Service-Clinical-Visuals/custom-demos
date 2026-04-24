@@ -9,6 +9,7 @@ interface ButtonProps {
   className?: string;
   type?: "button" | "submit" | "reset";
   variant?: "primary" | "secondary" | "white" | "dark" | "outline";
+  size?: "sm" | "md" | "lg";
   showIcon?: boolean;
 }
 
@@ -19,13 +20,26 @@ export default function Button({
   className = "",
   type = "button",
   variant = "primary",
+  size = "md",
   showIcon = true,
 }: ButtonProps) {
+  const sizeClasses = {
+    sm: "pl-4 pr-1 py-1 text-[14px]",
+    md: "pl-6 pr-1 py-1 text-[16px]",
+    lg: "pl-8 pr-2 py-3 text-[18px]",
+  };
+
+  const iconSizes = {
+    sm: { circle: "w-6 h-6", icon: 14 },
+    md: { circle: "w-8 h-8", icon: 16 },
+    lg: { circle: "w-10 h-10", icon: 20 },
+  };
+
   const baseClasses =
-    "inline-flex items-center justify-between gap-6 pl-8 pr-2 py-2 rounded-full font-bold transition-all duration-300 text-[16px] cursor-pointer group";
+    `inline-flex items-center justify-between gap-6 rounded-full font-semibold transition-all duration-300 cursor-pointer tracking-wider group ${sizeClasses[size]}`;
 
   const variants = {
-    primary: "bg-[#84CFFA] text-white",
+    primary: "bg-[#84CFFA] text-[#0E0B06]",
     secondary: "bg-[#064163] text-white",
     white: "bg-white text-[#064163]",
     dark: "bg-[#1A1A1A] text-white",
@@ -46,8 +60,8 @@ export default function Button({
     <>
       <span className="whitespace-nowrap">{children}</span>
       {showIcon && (
-        <div className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 ${iconClasses[variant]}`}>
-          <ArrowUpRight size={20} className="group-hover:rotate-45 transition-transform duration-300" />
+        <div className={`${iconSizes[size].circle} rounded-full flex items-center justify-center transition-all duration-300 ${iconClasses[variant]}`}>
+          <ArrowUpRight size={iconSizes[size].icon} className="group-hover:rotate-45 transition-transform duration-300" />
         </div>
       )}
     </>

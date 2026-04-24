@@ -22,7 +22,7 @@ export default function AboutSection() {
 
           {/* Text Content Section */}
           <div className="flex flex-col gap-6" data-aos="fade-left">
-            <h2 className="text-[30px] md:text-[32px] font-bold text-[#1A1A1A] leading-tight">
+            <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] leading-tight">
               About Horizon Med Tech
             </h2>
 

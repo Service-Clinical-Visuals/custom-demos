@@ -9,7 +9,7 @@ export default function HypothermiaSystem() {
 
         {/* Text Column */}
         <div className="flex flex-col gap-8" data-aos="fade-right">
-          <h2 className="text-[30px] md:text-[32px] font-bold text-[#1A1A1A] leading-tight">
+          <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] leading-tight">
             Brammi Therapeutic Hypothermia System
           </h2>
 
@@ -41,7 +41,7 @@ export default function HypothermiaSystem() {
 
         {/* Image Column */}
         <div data-aos="fade-left">
-          <div className="bg-[#F1F1F1] rounded-[40px] p-8 md:p-12 overflow-hidden shadow-sm">
+          <div className="bg-[#F1F1F1] rounded-[40px] p-8 md:p-12 overflow-hidden">
             <img
               src="/horizon/images/picterus-jaundice-pro.png"
               alt="Brammi System"
