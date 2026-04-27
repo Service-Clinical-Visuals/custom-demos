@@ -7,7 +7,7 @@ import { Mail, Linkedin, Globe, Phone, Menu, X, ChevronDown } from "lucide-react
 import Button from "./Button";
 
 const navLinks = [
-  { name: "Home", href: "/horizon" },
+  { name: "Home", href: "/horizon-med-tech" },
   { name: "About", href: "#" },
   { name: "Products", href: "#" },
   { name: "Training", href: "#" },
@@ -65,7 +65,7 @@ export default function Header() {
         <nav className={`bg-white text-[#064163] shadow-md w-full transition-all duration-300 ease-in-out ${isScrolled ? 'fixed top-0 left-0 animate-in slide-in-from-top-full z-[60]' : 'absolute top-0 left-0 z-40'}`}>
           <div className="container mx-auto h-[75px] md:h-[80px] px-4 md:px-12 flex justify-between items-center">
             {/* Logo Section */}
-            <Link href="/horizon" className="flex items-center">
+            <Link href="/horizon-med-tech" className="flex items-center">
               <div className="">
                 <img src="/horizon/images/horizon-logo.png" alt="horizon-logo" className="w-24" />
               </div>
@@ -79,7 +79,7 @@ export default function Header() {
                   <Link
                     key={link.name}
                     href={link.href}
-                    className={`hover:text-[#064163] transition-colors py-2 ${isActive ? "text-[#064163] font-bold" : "text-gray-500"}`}
+                    className={`hover:text-[#064163] transition-colors py-2 ${isActive ? "text-[#064163] font-bold" : "text-[#827E76]"}`}
                   >
                     {link.name}
                   </Link>
