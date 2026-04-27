@@ -28,7 +28,7 @@ export default function Layout({
       <body className="min-h-screen bg-white font-sans antialiased text-[#4a4a4a]">
         <SmoothScroll>
           <AosProvider>
-            <VideoProvider website="horizon">
+            <VideoProvider website="horizon-med-tech">
               <div className="overflow-x-hidden relative w-full flex flex-col min-h-screen">
                 <Header />
                 <main className="flex-grow">{children}</main>
