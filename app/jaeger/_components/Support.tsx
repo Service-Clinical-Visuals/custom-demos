@@ -21,12 +21,12 @@ const Support = () => {
   ];
 
   return (
-    <section className="bg-[#F0FFF2] py-16 px-4 md:px-8 lg:px-16">
+    <section className="bg-[#5888B5]/10 py-16 px-4 md:px-8 lg:px-16">
       <div className="container mx-auto">
         {/* Top Section: Testimonial and Image */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-6">
           <div data-aos="fade-up" className="space-y-6">
-            <span className="inline-block bg-[#3DAA4A14] text-[#3DAA4A] text-base  px-3 py-1 rounded">
+            <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
               Comprehensive Service & Support
             </span>
             <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E] leading-tight">
@@ -68,7 +68,8 @@ const Support = () => {
             <div
               data-aos="fade-up"
               key={index}
-              className="bg-[#4CAF50] p-8 rounded-2xl text-[#FFFFFF] hover:bg-[#43a047] transition-colors cursor-pointer group">
+              style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+              className="p-8 rounded-2xl text-[#FFFFFF] hover:opacity-90 transition-all cursor-pointer group shadow-lg">
               <h3 className="text-[24px] font-semibold mb-4">{card.title}</h3>
               <p className="text-[#FFFFFF]/90 text-base mb-8 leading-relaxed">
                 {card.description}

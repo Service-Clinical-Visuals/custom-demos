@@ -1,6 +1,7 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import Link from "next/link";
 
 
 
@@ -19,6 +20,14 @@ export default function Banner() {
           <h1 className="text-[#FFFFFF] text-2xl md:text-[36px] font-semibold max-w-3xl leading-relaxed mt-120 md:mt-165 lg:mt-180">
             Innovative Technology For Respiratory Diagnostics
           </h1>
+          <div className="">
+            <Link
+              href="#"
+              className="border border-[#fff] text-[#fff] font-medium text-base px-10 py-3 rounded-md mt-6 inline-flex items-center justify-center w-fit cursor-pointer hover:bg-white hover:text-[#3DAA4A] transition-all duration-300"
+            >
+              Explore Our Products
+            </Link>
+          </div>
         </div>
       </div>
     </section>

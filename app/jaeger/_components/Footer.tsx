@@ -40,7 +40,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#FFFFFF] pt-16 pb-8 px-6 md:px-12 lg:px-24 border-t border-gray-100 font-sans">
+    <footer className="bg-[#f5f5f5] pt-16 pb-8 px-6 md:px-12 lg:px-24 border-t border-gray-100 font-sans">
       <div className="container mx-auto">
         {/* Top Section: Branding and Links */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
@@ -77,7 +77,7 @@ const Footer = () => {
                   <li key={linkIdx}>
                     <a
                       href="#"
-                      className="text-base text-[#333333] hover:text-[#4CAF50] transition-colors">
+                      className="text-base text-[#333333] hover:text-[#00689B] transition-colors">
                       {link}
                     </a>
                   </li>

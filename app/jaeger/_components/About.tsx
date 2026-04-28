@@ -27,13 +27,13 @@ export default function About() {
           <span className="font-semibold text-[#000000]">
             respiratory diagnostics,
           </span>
-          delivering innovative technology to healthcare professionals
+          {" "}delivering innovative technology to healthcare professionals
           worldwide. With a legacy spanning{" "}
           <span className="font-semibold text-[#000000]">over 70 years,</span>{" "}
           Jaeger Medical has been at the forefront of{" "}
           <span className="font-semibold text-[#000000]">
             pulmonary function testing,
-          </span>
+          </span>{" "}
           shaping the future of respiratory health through innovation and
           precision.
         </>
@@ -69,7 +69,7 @@ export default function About() {
   const current = content[activeTab];
 
   return (
-    <section className="w-full bg-gray-100 py-16 lg:py-24">
+    <section className="w-full py-16 lg:py-24">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
         {/* LEFT SIDE - IMAGES */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -106,7 +106,7 @@ export default function About() {
         {/* RIGHT SIDE - CONTENT */}
         <div data-aos="fade-up" className="space-y-6">
           {/* Tag */}
-          <span className="bg-[#3DAA4A14] text-[#3DAA4A] text-base px-10 py-2 rounded-md">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
             About Our Company
           </span>
 
@@ -123,7 +123,7 @@ export default function About() {
               className="relative cursor-pointer">
               <div
                 className={`px-6 py-3 rounded-xl text-base font-bold text-center border ${activeTab === "philosophy"
-                  ? "bg-[#3DAA4A] text-[#FFFFFF] border-[#3DAA4A]"
+                  ? "bg-[#00689B] text-[#FFFFFF] border-[#00689B]"
                   : "border-[#D1D5DB] text-[#1F242E]"
                   }`}>
                 Our Philosophy
@@ -135,7 +135,7 @@ export default function About() {
                   className="absolute left-1/2 -translate-x-1/2 top-[calc(100%-1px)] w-0 h-0
         border-l-[15px] border-l-transparent
         border-r-[15px] border-r-transparent
-        border-t-[15px] border-t-[#3DAA4A]"
+        border-t-[15px] border-t-[#00689B]"
                 />
               )}
             </div>
@@ -146,7 +146,7 @@ export default function About() {
               className="relative cursor-pointer">
               <div
                 className={`px-6 py-3 rounded-xl text-base font-bold text-center border ${activeTab === "values"
-                  ? "bg-[#3DAA4A] text-[#FFFFFF] border-[#3DAA4A]"
+                  ? "bg-[#00689B] text-[#FFFFFF] border-[#00689B]"
                   : "border-[#D1D5DB] text-[#1F242E]"
                   }`}>
                 Core Values
@@ -158,7 +158,7 @@ export default function About() {
                   className="absolute left-1/2 -translate-x-1/2 top-[calc(100%-1px)] w-0 h-0
         border-l-[15px] border-l-transparent
         border-r-[15px] border-r-transparent
-        border-t-[15px] border-t-[#3DAA4A]"
+        border-t-[15px] border-t-[#00689B]"
                 />
               )}
             </div>
@@ -201,8 +201,11 @@ export default function About() {
             </div>
           </div>
 
-          <button className="bg-[#3DAA4A] flex items-center text-[#FFFFFF]  px-6 py-2 rounded-md text-base hover:bg-green-700 transition">
-            Learn More <ArrowRight size={16} className="ml-4" />
+          <button
+            style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+            className="group flex items-center text-[#FFFFFF] px-6 py-2 rounded-md text-base transition shadow-md cursor-pointer"
+          >
+            Learn More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
       </div>

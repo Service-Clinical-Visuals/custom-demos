@@ -21,18 +21,20 @@ const Prevention = () => {
   ];
 
   return (
-    <section className="bg-[#3DAA4A] py-16 px-4 md:px-8 lg:px-16 font-sans">
+    <section
+      style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+      className="py-16 px-4 md:px-8 lg:px-16 font-sans">
       <div className="container mx-auto">
         {/* Top Section: Testimonial and Image */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-10">
           <div data-aos="fade-up" className="space-y-6">
-            <span className="inline-block bg-[#FFFFFF14] text-[#FFFFFF] text-base  px-3 py-1 rounded">
+            <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-base px-6 py-2 rounded-md">
               Infection Prevention
             </span>
             <h2 className="text-3xl md:text-[38px] font-semibold text-[#FFFFFF] leading-tight">
               Highest Infection Prevention Standards – Past, Present, and Future
             </h2>
-            <p className="text-base text-[#FFFFFF]">
+            <p className="text-base text-[#FFFFFF] text-justify">
               Infection prevention is an integral part of our innovation and
               product development. From our earliest designs to our latest
               advancements, we ensure that infection prevention remains a
@@ -45,8 +47,10 @@ const Prevention = () => {
               demonstrate, that our MicroGard® II filters and hardware meet
               rigorous standards. 1, 2, 3, 4,5
             </p>
-            <button className="flex items-center bg-[#FFFFFF] text-[#3DAA4A] text-base font-medium px-5 py-2 rounded-md hover:bg-green-100 transition">
-              Explore More <ArrowRight size={20} className="ml-2" />
+            <button
+              className="bg-[#fff] group flex items-center text-[#38679A] text-base px-5 py-2 rounded-md transition shadow-md cursor-pointer"
+            >
+              Explore More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
             </button>
           </div>
 
@@ -65,7 +69,7 @@ const Prevention = () => {
             <div
               data-aos="fade-up"
               key={index}
-              className="bg-[#FFFFFF36] p-8 rounded-2xl text-[#FFFFFF] hover:bg-[#43a047] transition-colors cursor-pointer group">
+              className="bg-[#5888B5] p-8 rounded-2xl text-[#FFFFFF] hover:bg-[#FFFFFF36] transition-colors cursor-pointer group">
               <h3 className="text-[24px] font-semibold mb-2">{card.title}</h3>
               <p className="text-[#FFFFFF]/90 text-base mb-2 leading-relaxed">
                 {card.description}
