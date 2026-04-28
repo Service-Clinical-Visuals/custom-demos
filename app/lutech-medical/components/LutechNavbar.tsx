@@ -44,7 +44,7 @@ export default function LutechNavbar() {
      >
        <div className="max-w-380 mx-auto px-6 py-2 flex items-center justify-between">
          {/* Logo */}
-         <div className="flex items-center gap-2">
+         <div className="flex items-center gap-2 cursor-pointer">
            <img src="/lutech-medical/assets/lutech-black.png" alt="Lutech Logo" className="w-36 h-auto md:w-44 md:h-15" />
          </div>
 
