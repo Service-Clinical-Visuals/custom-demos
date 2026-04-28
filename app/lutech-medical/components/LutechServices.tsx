@@ -75,9 +75,9 @@ export default function LutechServices() {
               </p>
 
               {/* CTA */}
-              <div className="flex items-center gap-3 group">
+              <div className="flex items-center group">
                 <button className="cursor-pointer bg-[#00769E] text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-full text-sm sm:text-base font-medium hover:opacity-90 transition">
-                  Discover Features
+                  Explore Service
                 </button>
                 <button className="cursor-pointer w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center rounded-full bg-[#00769E] text-white hover:opacity-90 transition">
                   <ArrowUpRight size={20} className="group-hover:rotate-45 transition"/>
