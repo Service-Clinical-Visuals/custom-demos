@@ -24,11 +24,11 @@ const NewsSection = () => {
   ];
 
   return (
-    <section className="bg-[#F0FFF2] py-20 px-4">
+    <section className="bg-[#5888B5]/10 py-20 px-4">
       <div className="container mx-auto text-center">
         {/* Header Section */}
         <div className="mb-12 flex flex-col items-center">
-          <span className="inline-block bg-[#3DAA4A14] text-[#3DAA4A] text-base  px-3 py-1 rounded">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
             Latest News
           </span>
           <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E] mb-4 mt-4">
@@ -62,8 +62,11 @@ const NewsSection = () => {
                 </h3>
                 <p className="text-base text-[#333333D1] mb-6">{news.date}</p>
 
-                <button className="w-fit flex items-center bg-[#3DAA4A] text-[#FFFFFF] text-base font-medium px-5 py-2 rounded-md hover:bg-green-700 transition">
-                  See All Updates <ArrowRight size={20} className="ml-2" />
+                <button
+                  style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+                  className="group w-fit flex items-center text-[#FFFFFF] text-base px-5 py-2 rounded-md transition shadow-md cursor-pointer"
+                >
+                  See All Updates <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
                 </button>
               </div>
             </div>

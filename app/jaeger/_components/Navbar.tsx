@@ -34,23 +34,23 @@ export default function Navbar() {
           {/* PRODUCTS */}
           <div className="relative group">
             <div className="flex items-center gap-1 cursor-pointer">
-              Products <ChevronDown size={16} className="text-[#3DAA4A]" />
+              Products <ChevronDown size={16} className="text-[#00689B]" />
             </div>
             <div className="absolute left-0 top-full hidden group-hover:block w-80 pt-2">
               <div className="bg-[#FFFFFF] shadow-lg rounded-md p-2">
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Pulmonary Function Testing
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Cardiopulmonary Exercise Testing
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Spirometry
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Software
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Product Security
                 </Link>
               </div>
@@ -63,17 +63,17 @@ export default function Navbar() {
           {/* ABOUT */}
           <div className="relative group">
             <div className="flex items-center gap-1 cursor-pointer">
-              About <ChevronDown size={16} className="text-[#3DAA4A]" />
+              About <ChevronDown size={16} className="text-[#00689B]" />
             </div>
             <div className="absolute left-0 top-full hidden group-hover:block w-64 pt-2">
               <div className="bg-[#FFFFFF] shadow-lg rounded-md p-2">
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Company
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Leadership
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Careers
                 </Link>
               </div>
@@ -84,17 +84,17 @@ export default function Navbar() {
           <div className="relative group">
             <div className="flex items-center gap-1 cursor-pointer">
               Education & Resources
-              <ChevronDown size={16} className="text-[#3DAA4A]" />
+              <ChevronDown size={16} className="text-[#00689B]" />
             </div>
             <div className="absolute left-0 top-full hidden group-hover:block w-72 pt-2">
               <div className="bg-[#FFFFFF] shadow-lg rounded-md p-2">
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Articles
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Guides
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Downloads
                 </Link>
               </div>
@@ -104,14 +104,14 @@ export default function Navbar() {
           {/* NEWS */}
           <div className="relative group">
             <div className="flex items-center gap-1 cursor-pointer">
-              News <ChevronDown size={16} className="text-[#3DAA4A]" />
+              News <ChevronDown size={16} className="text-[#00689B]" />
             </div>
             <div className="absolute left-0 top-full hidden group-hover:block w-64 pt-2">
               <div className="bg-[#FFFFFF] shadow-lg rounded-md p-2">
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Latest News
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-[#3DAA4A] hover:text-white">
+                <Link href="#" className="block px-4 py-2 hover:bg-[#00689B] hover:text-white">
                   Events
                 </Link>
               </div>
@@ -122,7 +122,10 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop Search */}
-        <button className="hidden lg:flex items-center gap-4 bg-[#3DAA4A] text-[#FFFFFF] text-base font-medium px-6 py-2 rounded-md hover:bg-green-700 transition">
+        <button
+          style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+          className="hidden lg:flex items-center gap-4 text-[#FFFFFF] text-base font-medium px-6 py-2 rounded-md hover:opacity-90 transition shadow-sm"
+        >
           Search
           <Search size={20} />
         </button>
@@ -164,7 +167,10 @@ export default function Navbar() {
           </Link>
 
           {/* Mobile Search */}
-          <button className="w-full flex items-center justify-center gap-2 bg-[#3DAA4A] text-white py-2 rounded-md">
+          <button
+            style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+            className="w-full flex items-center justify-center gap-2 text-white py-2 rounded-md"
+          >
             Search <Search size={18} />
           </button>
         </div>

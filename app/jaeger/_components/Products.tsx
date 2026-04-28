@@ -89,7 +89,7 @@ export default function Products() {
       <div className="container mx-auto px-6 text-center space-y-4">
         {/* Top Content */}
         <div data-aos="fade-up" className="space-y-4 max-w-6xl mx-auto">
-          <span className="bg-[#3DAA4A14] text-[#3DAA4A] px-3 py-1 rounded-md text-base">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
             Our Products
           </span>
 
@@ -132,7 +132,7 @@ export default function Products() {
                 {/* IMAGE */}
                 <div className="relative md:absolute md:left-4 md:top-1/2 md:-translate-y-1/2 w-full md:w-43 h-45 rounded-xl overflow-hidden shadow-md mb-4 md:mb-0">
                   {/* Tag */}
-                  <span className="absolute top-0 left-0 md:-left-2 bg-[#3DAA4A] text-[#FFFFFF] text-center text-sm font-medium px-3 py-1 rounded">
+                  <span className="absolute top-0 left-0 md:-left-2 bg-[#00689B] text-[#FFFFFF] text-center text-sm font-medium px-3 py-1 rounded">
                     Request Information
                   </span>
 
@@ -168,13 +168,13 @@ export default function Products() {
         <div data-aos="fade-up" className="flex justify-center gap-4 pt-4">
           <button
             onClick={prev}
-            className="bg-green-600 text-[#FFFFFF] p-3 rounded-md hover:bg-green-700">
+            className="bg-[#00689B] text-[#FFFFFF] p-3 rounded-md hover:bg-[#00689B]/80">
             <ArrowLeft size={18} />
           </button>
 
           <button
             onClick={next}
-            className="bg-green-600 text-[#FFFFFF] p-3 rounded-md hover:bg-green-700">
+            className="bg-[#00689B] text-[#FFFFFF] p-3 rounded-md hover:bg-[#00689B]/80">
             <ArrowRight size={18} />
           </button>
         </div>

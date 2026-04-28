@@ -27,7 +27,7 @@ const Features = () => {
 
         {/* Right Side: Content */}
         <div data-aos="fade-up" className="space-y-6">
-          <span className="inline-block bg-[#3DAA4A14] text-[#3DAA4A] text-base  px-3 py-1 rounded">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
             Advanced solutions
           </span>
           <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E]">
@@ -56,8 +56,9 @@ const Features = () => {
 
           <button
             data-aos="fade-up"
-            className="flex items-center bg-[#3DAA4A] text-[#FFFFFF] text-base font-medium px-5 py-2 rounded-md hover:bg-green-700 transition">
-            Explore More <ArrowRight size={20} className="ml-2" />
+            style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+            className="group flex items-center text-[#FFFFFF] text-base px-6 py-2 rounded-md transition shadow-md cursor-pointer w-fit">
+            Explore More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
       </div>

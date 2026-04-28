@@ -27,13 +27,13 @@ const Solutions = () => {
 
         {/* Right Side: Content */}
         <div data-aos="fade-up" className="space-y-5">
-          <span className="inline-block bg-[#3DAA4A14] text-[#3DAA4A] text-base  px-3 py-1 rounded">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
             Our Solutions
           </span>
           <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E]">
             Safety Oriented Cabin Design
           </h2>
-          <div className="bg-[#F0FFF2] p-6">
+          <div className="bg-[#00689B]/12 p-6 rounded-2xl">
             <ul className="space-y-3">
               {features.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">

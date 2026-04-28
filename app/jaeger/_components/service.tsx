@@ -22,8 +22,9 @@ export default function ServicesSection() {
       {/* Green Header Background */}
       <div
         data-aos="fade-up"
-        className="bg-[#3DAA4A] pt-12 pb-32 text-center text-[#FFFFFF] px-4">
-        <span className="inline-block px-4 py-1 mb-6 text-base font-medium bg-[#FFFFFF]/20 rounded-md">
+        style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
+        className="pt-12 pb-32 text-center text-[#FFFFFF] px-4">
+        <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-base px-6 py-2 rounded-md mb-6">
           Our Services
         </span>
         <h2 className="text-3xl md:text-[38px] font-semibold max-w-6xl mx-auto mb-4">
@@ -58,7 +59,7 @@ export default function ServicesSection() {
                 </p>
                 <a
                   href="#"
-                  className="flex items-center text-[#3DAA4A] font-medium hover:underline gap-1 text-base">
+                  className="flex items-center text-[#00689B] font-medium hover:underline gap-1 text-base">
                   Read More
                   <CornerUpRight size={16} />
                 </a>
