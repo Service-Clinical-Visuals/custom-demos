@@ -38,9 +38,6 @@ export default function Testing() {
                 type="360"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <span className="text-2xl font-bold text-[#1F242E] opacity-20 uppercase tracking-widest">360 Video</span>
-              </div>
             </div>
           </div>
 

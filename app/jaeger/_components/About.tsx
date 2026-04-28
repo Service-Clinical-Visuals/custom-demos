@@ -106,7 +106,7 @@ export default function About() {
         {/* RIGHT SIDE - CONTENT */}
         <div data-aos="fade-up" className="space-y-6">
           {/* Tag */}
-          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md mb-0">
             About Our Company
           </span>
 
