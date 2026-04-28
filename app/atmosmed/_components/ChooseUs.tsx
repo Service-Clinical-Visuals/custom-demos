@@ -3,8 +3,7 @@
 import { useState } from "react";
 
 const videos = [
-  "https://cdn.clinicalvisuals.com/medical/noxbox/landingpage/Noxboxi_2.webm",
-  "https://cdn.clinicalvisuals.com/medical/utah/Utah_360.webm",
+  "https://cdn.clinicalvisuals.com/medical/atmos/360/360.webm",
 ];
 
 export default function WhyChooseUs() {
@@ -109,7 +108,7 @@ export default function WhyChooseUs() {
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 muted
-                // loop
+                loop
                 playsInline
                 onEnded={handleVideoEnd}
               >
