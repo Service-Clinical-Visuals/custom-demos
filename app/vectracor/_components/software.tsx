@@ -21,7 +21,7 @@ export default function Software() {
 
         {/* Header */}
         <div className="text-center" data-aos="fade-up">
-          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-sm mb-4">
+          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-base mb-4 font-medium">
             <span className="w-2 h-2 bg-red-500 rounded-full"></span>
             Software
           </div>
@@ -62,7 +62,7 @@ export default function Software() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-semibold text-center mt-4">
+              <h3 className="text-2xl font-semibold text-center mt-4">
                 {item.title}
               </h3>
 

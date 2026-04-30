@@ -32,7 +32,7 @@ export default function Subscribe() {
               className="px-4 py-3 outline-none w-[250px] md:w-[350px]"
             />
 
-            <button className="bg-blue-700 cursor-pointer text-white px-6 py-3 font-medium hover:bg-blue-800 transition">
+            <button className="bg-blue-700  font-bold cursor-pointer text-white px-6 py-3  hover:bg-blue-800 transition">
               Subscribe Now
             </button>
 

@@ -10,7 +10,7 @@ export default function WhatWeDo() {
         <div data-aos="fade-right" className="col-span-4 ">
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[18px] font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[18px] font-medium mb-6">
             <span className="w-2 h-2 bg-[#25477F] rounded-full"></span>
             What we do?
           </div>
@@ -47,7 +47,7 @@ export default function WhatWeDo() {
           </div>
 
           {/* CTA */}
-             <button className="mt-8  cursor-pointer inline-flex items-center gap-3 px-7 py-2 bg-[#25477F] text-white rounded-full hover:bg-[#102b57] transition font-medium border-2 border-[#B5D2FF] hover:border-[#102b57]">
+             <button className="mt-8 font-bold  cursor-pointer inline-flex items-center gap-3 px-7 py-3 bg-[#25477F] text-white rounded-full hover:bg-[#102b57] transition  border-2 border-[#B5D2FF] hover:border-[#102b57]">
             Explore Our Solutions <span className="text-lg "><ArrowRight /></span>
           </button>
         </div>

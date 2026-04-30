@@ -1,4 +1,5 @@
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { ArrowRight } from "lucide-react";
 
 // components/VectraSection.tsx
 export default function VectraSection() {
@@ -71,7 +72,7 @@ export default function VectraSection() {
                   <h4 className="text-white text-base md:text-lg font-bold">
                     {item.title}
                   </h4>
-                  <p className="text-white/70 text-xs md:text-sm mt-0.5">
+                  <p className="text-white/70 text-xs md:text-base mt-0.5">
                     {item.desc}
                   </p>
                 </div>
@@ -81,12 +82,12 @@ export default function VectraSection() {
 
           {/* Bottom CTA */}
           <div className="md:mt-5 lg:mt-0">
-            <p className="text-white mb-4 text-sm md:text-base">
+            <p className="text-white mb-4 text-sm md:text-base font-semibold">
               Meet the VectraplexECG, Our Smartest ECG Ever.
             </p>
 
-            <button className="bg-white cursor-pointer text-[#333333] px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF] text-sm md:text-base">
-              View Specifications &rarr;
+            <button className="bg-white font-bold cursor-pointer text-[#333333] px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF] text-sm md:text-base">
+              View Specifications <span><ArrowRight className="mt-0.3"/></span>
             </button>
           </div>
         </div>
