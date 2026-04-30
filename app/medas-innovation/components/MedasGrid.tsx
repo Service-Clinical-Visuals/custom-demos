@@ -58,7 +58,7 @@ export default function MedasGrid() {
           {/* Pattern */}
           {/* <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div> */}
 
-          <div className="relative p-8 md:p-12 lg:p-16 max-w-md">
+          <div className="relative px-6 lg:px-48 ">
             <h3 className="text-xl md:text-2xl font-semibold">
               Who We Serve for
             </h3>
