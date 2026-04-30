@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Column 4 */}
           <div>
-            <h3 className="font-semibold text-gray-800 mb-4">
+            <h3 className="font-semibold text-gray-800 mb-4 ">
               Connect With Us
             </h3>
 
@@ -64,7 +64,7 @@ export default function Footer() {
               {["T", "in", "IG"].map((item, i) => (
                 <div
                   key={i}
-                  className="w-10 h-10 bg-red-500 text-white rounded-md flex items-center justify-center shadow-md"
+                  className="w-10 h-10 cursor-pointer bg-red-500 text-white rounded-md flex items-center justify-center shadow-md"
                 >
                   {item}
                 </div>

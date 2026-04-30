@@ -35,7 +35,7 @@ export default function ClinicalResearch() {
 
           {/* Right CTA */}
           <div data-aos="fade-left" className="w-full md:w-auto shrink-0">
-            <button className="w-full sm:w-auto bg-white text-[#333333]]-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF]">
+            <button className="w-full cursor-pointer sm:w-auto bg-white text-[#333333]]-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF]">
               Learn More <span className="text-lg"><ArrowRight /></span>
             </button>
           </div>

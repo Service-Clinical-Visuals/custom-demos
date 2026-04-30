@@ -56,7 +56,7 @@ export default function Software() {
                 />
 
                 {/* Arrow */}
-                <div className="absolute top-4 right-4 w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center shadow-md">
+                <div className="absolute top-4 cursor-pointer right-4 w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center shadow-md">
                  <ArrowRight />
                 </div>
               </div>

@@ -39,7 +39,7 @@ export default function Navbar() {
 
         {/* Right side: Search + Hamburger */}
         <div className="flex items-center gap-3">
-          <button className="w-10 h-10 flex items-center justify-center rounded-full bg-[#25477F] text-white hover:bg-[#102b57] transition shadow-[0px_4px_12px_rgba(0,0,0,0.40)] border-2 border-[#B5D2FF] hover:border-[#102b57]">
+          <button className="cursor-pointer w-10 h-10 flex items-center justify-center rounded-full bg-[#25477F] text-white hover:bg-[#102b57] transition shadow-[0px_4px_12px_rgba(0,0,0,0.40)] border-2 border-[#B5D2FF] hover:border-[#102b57]">
             <Search size={16} />
           </button>
 

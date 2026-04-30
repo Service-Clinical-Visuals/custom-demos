@@ -85,7 +85,7 @@ export default function VectraSection() {
               Meet the VectraplexECG, Our Smartest ECG Ever.
             </p>
 
-            <button className="bg-white text-[#333333] px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF] text-sm md:text-base">
+            <button className="bg-white cursor-pointer text-[#333333] px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF] text-sm md:text-base">
               View Specifications &rarr;
             </button>
           </div>

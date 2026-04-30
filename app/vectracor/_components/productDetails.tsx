@@ -47,7 +47,7 @@ export default function ProductDetails() {
           </p>
 
           {/* CTA */}
-            <button className="mt-8 inline-flex items-center gap-3 px-7 py-2 bg-[#25477F] text-white rounded-full hover:bg-[#102b57] transition font-medium border-2 border-[#B5D2FF] hover:border-[#102b57]">
+            <button className="mt-8 cursor-pointer inline-flex items-center gap-3 px-7 py-2 bg-[#25477F] text-white rounded-full hover:bg-[#102b57] transition font-medium border-2 border-[#B5D2FF] hover:border-[#102b57]">
             Explore Products <span className="text-lg "><ArrowRight /></span>
           </button>
         </div>
