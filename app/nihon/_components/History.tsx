@@ -6,15 +6,15 @@ import Button from "./Button";
 
 export default function History() {
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-4 md:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-10">
           {/* Illustration Section */}
           <div className="flex justify-center lg:justify-start">
             <img
               src="/nihon/images/about.png"
               alt="Nihon Kohden Wing Illustration"
-              className="max-w-full h-auto object-contain"
+              className="max-w-full h-auto object-cover"
             />
           </div>
 
@@ -34,7 +34,7 @@ export default function History() {
             </h3>
 
             <p className="text-[#333333] leading-relaxed text-[17px] mb-6 text-justify">
-              The neuromuscular tissue of a small bird inspired the founding of Nihon Kohden. Dr. Yoshio Ogino – founder of Nihon Kohden – was researching electrical engineering when he witnessed an experiment involving stimulation of the neuromuscular tissue of a small bird. He was amazed by the wonder of biology and remarked that "to measure part of a living body requires several hundred times the sensitivity and at least two decimal places more than the equipment developed by the leading electrical engineering experts in Japan."
+              The neuromuscular tissue of a small bird inspired the founding of Nihon Kohden. Dr. Yoshio Ogino – founder of Nihon Kohden – was researching electrical engineering when he witnessed an experiment involving stimulation of the neuromuscular tissue of a small bird. He was amazed by the wonder of biology and remarked that "to measure part of a living body requires several hundred times."
             </p>
 
             <div className="w-full h-[1px] bg-[#000000]/10 mb-8"></div>
