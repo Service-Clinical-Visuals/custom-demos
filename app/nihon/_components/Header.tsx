@@ -62,13 +62,13 @@ export default function Header() {
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center space-x-6 font-medium text-[16px] tracking-wide">
-              {navLinks.map((link) => {
+              {navLinks.map((link, i) => {
                 const isActive = pathname === link.href;
                 return (
                   <Link
                     key={link.name}
                     href={link.href}
-                    className={`hover:text-[#0068B3] transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0068B3] hover:after:w-full after:transition-all ${isActive ? "text-[#0068B3] font-bold after:w-full" : "text-[#111]"}`}
+                    className={`hover:text-[#0068B3] ${ i === 4 ? "hidden" : ""} transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0068B3] hover:after:w-full after:transition-all ${isActive ? "text-[#0068B3] font-bold after:w-full" : "text-[#111]"}`}
                   >
                     {link.name}
                   </Link>

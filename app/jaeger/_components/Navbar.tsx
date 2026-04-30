@@ -57,8 +57,8 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="#">Services</Link>
-          <Link href="#">Infection Prevention</Link>
+          <Link href="#" className="">Services</Link>
+          <Link href="#" className="hidden">Infection Prevention</Link>
 
           {/* ABOUT */}
           <div className="relative group">
