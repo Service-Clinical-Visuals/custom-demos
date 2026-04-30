@@ -15,7 +15,7 @@ export default function ProductDetails() {
 
         {/* LEFT - MEDIA */}
         <div data-aos="fade-right">
-          <div className="bg-gray-200 rounded-2xl shadow-lg h-[500px] w-full">
+          <div className="bg-gray-200 rounded-2xl shadow-lg h-[500px] w-full overflow-hidden">
             {/* Future: video / 3D viewer */}
             <DynamicVideoPlayer type="short-1"
               className="w-full h-full object-cover " />
@@ -26,7 +26,7 @@ export default function ProductDetails() {
         <div data-aos="fade-left">
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/70 border border-gray-200 text-red-500 px-4 py-1 rounded-full text-[18px] font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-white/70 border border-gray-200 text-red-500 px-4 py-1 rounded-full text-[18px] font-medium mb-6">
             <span className="w-2 h-2 bg-[#25477F] rounded-full"></span>
             Product Details
           </div>
@@ -47,7 +47,7 @@ export default function ProductDetails() {
           </p>
 
           {/* CTA */}
-            <button className="mt-8 cursor-pointer inline-flex items-center gap-3 px-7 py-2 bg-[#25477F] text-white rounded-full hover:bg-[#102b57] transition font-medium border-2 border-[#B5D2FF] hover:border-[#102b57]">
+            <button className="mt-8 font-bold cursor-pointer inline-flex items-center gap-3 px-7 py-2 bg-[#25477F] text-white rounded-full hover:bg-[#102b57] transition  border-2 border-[#B5D2FF] hover:border-[#102b57]">
             Explore Products <span className="text-lg "><ArrowRight /></span>
           </button>
         </div>
