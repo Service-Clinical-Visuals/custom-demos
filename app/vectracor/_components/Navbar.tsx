@@ -1,7 +1,7 @@
 "use client";
 
 import { Search, Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const NAV_ITEMS = [
   "Home",
@@ -18,9 +18,16 @@ const NAV_ITEMS = [
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setVisible(window.scrollY > 0);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <header className="w-full bg-white border-b border-gray-200 fixed top-0 z-50">
+    <header className={`w-full bg-white border-b border-gray-200 fixed top-0 z-50 transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
       <div className="max-w-[1600px] mx-auto flex items-center justify-between px-6 py-1">
 
         {/* Logo */}
