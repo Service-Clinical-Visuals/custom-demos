@@ -9,7 +9,7 @@ const Features = () => {
     "Advanced ultrasonic & digital pressure compensation technology for greater accuracy",
     "Requires only a single gas tank to operate",
     "Optimized for compliance with ERS/ATS 2019 guidelines",
-    "The only body plethysmograph with Resistance Volume Loops - A unique graphical aid displaying the relationship between airway resistance and lung volumes.",
+    "The only body plethysmograph with Resistance Volume Loops - A unique graphical aid displaying the relationship between airway resistance and lung volumes",
   ];
 
   return (
@@ -27,10 +27,10 @@ const Features = () => {
 
         {/* Right Side: Content */}
         <div data-aos="fade-up" className="space-y-6">
-          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
             Advanced solutions
           </span>
-          <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E]">
+          <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E]">
             Why Choose Vyntus™ BODY?
           </h2>
 
@@ -57,7 +57,7 @@ const Features = () => {
           <button
             data-aos="fade-up"
             style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
-            className="group flex items-center text-[#FFFFFF] text-base px-6 py-2 rounded-md transition shadow-md cursor-pointer w-fit">
+            className="group flex items-center text-[#FFFFFF] text-[14px] px-4 py-2 rounded-md transition shadow-md cursor-pointer w-fit">
             Explore More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
