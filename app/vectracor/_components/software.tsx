@@ -21,7 +21,7 @@ export default function Software() {
 
         {/* Header */}
         <div className="text-center" data-aos="fade-up">
-          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-base mb-4 font-medium">
+          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full  text-[18px] mb-4 font-medium">
             <span className="w-2 h-2 bg-red-500 rounded-full"></span>
             Software
           </div>

@@ -68,7 +68,7 @@ export default function LutechAbout() {
         {/* RIGHT IMAGE */}
         <div
           data-aos="fade-left"
-          className="w-full h-[240px] md:h-[340px] lg:h-[420px] rounded-2xl shadow-md"
+          className="w-full h-[240px] md:h-[340px] lg:h-[420px] rounded-2xl shadow-md overflow-hidden"
         >
           <img
             src="/lutech-medical/assets/lutech-about.jpg" // replace later

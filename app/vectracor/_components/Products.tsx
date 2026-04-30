@@ -60,7 +60,7 @@ export default function Products() {
 
         {/* Pagination */}
         <div className="flex justify-center gap-2 mt-8">
-          <span className="w-3 h-3 rounded-full bg-blue-700"></span>
+          <span className="w-3 h-3 rounded-full bg-[#25477F]"></span>
           <span className="w-3 h-3 rounded-full bg-gray-300"></span>
         </div>
 

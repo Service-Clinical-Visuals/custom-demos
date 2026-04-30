@@ -36,7 +36,7 @@ export default function WhatWeDo() {
               "FDA cleared, CE marked products with ISO 13485 certified quality standards.",
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-blue-700 text-white flex items-center justify-center text-md mt-1">
+                <div className="w-6 h-6 rounded-full bg-[#25477F] text-white flex items-center justify-center text-md mt-1">
                   ✓
                 </div>
                 <p className="text-gray-600 text-md leading-relaxed">

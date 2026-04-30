@@ -36,9 +36,9 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden lg:flex items-center gap-8 text-md font-medium text-gray-700">
+        <nav className="hidden lg:flex items-center gap-8 text-base font-medium text-gray-700">
           {NAV_ITEMS.map((item, i) => (
-            <a key={i} href="#" className={`hover:text-blue-600 transition lg:${i=== 6 || i === 7 || i === 8 ? "hidden" : "block"} `}>
+            <a key={i} href="#" className={`hover:text-[#25477F] transition lg:${i=== 6 || i === 7 || i === 8 ? "hidden" : "block"} `}>
               {item}
             </a>
           ))}

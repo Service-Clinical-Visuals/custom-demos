@@ -80,7 +80,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-gray-300 mt-10 pt-4 text-center">
-          <p className="text-base text-blue-700">
+          <p className="text-base text-[#25477F]">
             All personal information collected by VectraCor is for internal use only...
           </p>
 
