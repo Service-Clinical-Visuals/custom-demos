@@ -37,7 +37,7 @@ export default function LutechServices() {
         <p
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-gray-600 text-sm sm:text-base max-w-2xl mx-auto mb-8 sm:mb-12"
+          className="text-gray-600 text-sm sm:text-base max-w-5xl mx-auto mb-8 sm:mb-12"
         >
           We offer complete support through repair, maintenance, and training
           services to ensure smooth and efficient operation. Our digital solutions

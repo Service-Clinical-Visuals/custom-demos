@@ -38,14 +38,14 @@ export default function LutechNavbar() {
 
    return (
      <div
-       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-         show ? "translate-y-0 bg-black shadow-md" : "-translate-y-full"
+       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 text-black ${
+         show ? "translate-y-0 bg-white shadow-md" : "-translate-y-full"
        }`}
      >
        <div className="max-w-380 mx-auto px-6 py-2 flex items-center justify-between">
          {/* Logo */}
-         <div className="flex items-center gap-2 cursor-pointer">
-           <img src="/lutech-medical/assets/lutech-black.png" alt="Lutech Logo" className="w-36 h-auto md:w-44 md:h-15" />
+         <div className="flex items-center gap-2 cursor-pointer shrink-0">
+           <img src="/lutech-medical/assets/lutech-white.png" alt="Lutech Logo" className="w-36 h-auto md:w-44 md:h-15 shrink-0" />
          </div>
 
          {/* Desktop Menu */}
