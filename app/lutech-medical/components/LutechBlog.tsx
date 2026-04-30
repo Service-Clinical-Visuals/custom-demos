@@ -59,11 +59,11 @@ export default function LutechBlog() {
               key={i}
               data-aos="fade-up"
               data-aos-delay={i * 120}
-              className="bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.08)] p-3 hover:shadow-md transition"
+              className="bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.08)] p-3 hover:shadow-md transition flex flex-col"
             >
-              
+
               {/* IMAGE */}
-              <div className="w-full h-44 sm:h-56 lg:h-64 rounded-xl overflow-hidden mb-3">
+              <div className="w-full h-44 sm:h-56 lg:h-64 rounded-xl overflow-hidden mb-3 flex-shrink-0">
                 <img
                   src={item.img}
                   alt={item.title}
@@ -72,8 +72,8 @@ export default function LutechBlog() {
               </div>
 
               {/* CONTENT */}
-              <div className="px-1">
-                
+              <div className="px-1 flex flex-col flex-1">
+
                 {/* TITLE */}
                 <h3 className="text-base font-semibold text-gray-800 mb-1">
                   {item.title}
@@ -90,7 +90,7 @@ export default function LutechBlog() {
                 </p>
 
                 {/* CTA */}
-                <span className="text-[#0f6c86] text-base font-medium cursor-pointer underline hover:text-[#031e28] transition">
+                <span className="text-[#0f6c86] text-base font-medium cursor-pointer underline hover:text-[#031e28] transition mt-auto">
                   Read More &gt;&gt;
                 </span>
               </div>

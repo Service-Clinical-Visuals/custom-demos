@@ -69,7 +69,7 @@ const Footer = () => {
               data-aos="fade-up"
               key={idx}
               className="lg:col-span-2 space-y-4">
-              <h4 className="text-[19px] font-medium text-[#333333]">
+              <h4 className="text-[18px] font-bold text-[#333333]">
                 {section.title}
               </h4>
               <ul className="space-y-3">
@@ -88,8 +88,8 @@ const Footer = () => {
 
           {/* Address Column */}
           <div data-aos="fade-up" className="lg:col-span-2 space-y-4">
-            <h4 className="text-[19px] font-bold text-[#333333]">
-              Legal & Policies
+            <h4 className="text-[18px] font-bold text-[#333333]">
+              Address
             </h4>
             <div className="text-base text-[#333333] leading-relaxed space-y-1">
               <p>Jaeger Medical GmbH</p>

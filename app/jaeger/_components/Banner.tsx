@@ -17,7 +17,7 @@ export default function Banner() {
       {/* 📝 Content */}
       <div className="relative z-10 flex  h-full">
         <div data-aos="fade-up" className="container mx-auto px-6">
-          <h1 className="text-[#FFFFFF] text-2xl md:text-[36px] font-semibold max-w-3xl leading-relaxed mt-120 md:mt-165 lg:mt-180">
+          <h1 className="text-[#FFFFFF] text-2xl md:text-[36px] font-semibold max-w-3xl leading-relaxed mt-120 md:mt-155 lg:mt-170">
             Innovative Technology For Respiratory Diagnostics
           </h1>
           <div className="">

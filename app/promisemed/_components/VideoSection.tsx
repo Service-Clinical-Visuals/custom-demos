@@ -13,9 +13,9 @@ export default function VideoSection() {
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up">
           {/* Video Area */}
           <div
-            
-            className="w-full aspect-video lg:h-180 bg-gray-200 flex items-center justify-center">
-            <DynamicVideoPlayer  type="360" className="w-full h-full object-cover"/>
+
+            className="w-full aspect-video flex items-center justify-center">
+            <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
           </div>
         </div>
 

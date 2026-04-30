@@ -8,7 +8,7 @@ const Solutions = () => {
     "Reinforced bench – Supports up to 551 lbs/250 kg for greater patient accessibility",
     "Low step-in clearance – Less than 3/7.5 cm for easier patient transfer",
     "Flexible telescopic arm – Extends 25/63.0 cm outside the cabin for convenient flexible testing",
-    "Prominent grab bar – Enhances patient safety for entry and exit",
+    // "Prominent grab bar – Enhances patient safety for entry and exit",
     "Low profile breathing circuit allows for optimized patient viewing and coaching during maneuver",
   ];
 

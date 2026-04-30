@@ -72,7 +72,7 @@ export default function LutechChoose() {
           {/* CTA */}
         <div className="flex items-center group ">
             <button className="cursor-pointer bg-[#00769E] text-white px-6 py-3 rounded-full text-base font-medium hover:opacity-90 transition">
-              Discover Features
+             View Details
             </button>
 
             <button className="cursor-pointer w-11 h-11 flex items-center justify-center rounded-full bg-[#00769E] text-white hover:opacity-90 transition">

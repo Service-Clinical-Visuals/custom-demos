@@ -8,11 +8,11 @@ export default function About() {
         {/* LEFT SIDE (Images) */}
         <div
           data-aos="fade-up"
-          className="relative w-full h-62.5 sm:h-75 md:h-88 lg:h-full rounded-2xl overflow-hidden shadow-lg">
+          className="relative w-full h-62.5 sm:h-75 md:h-88 lg:h-full overflow-hidden rounded-2xl">
           <img
             src="/promisemed/about.png"
             alt="factory"
-            className="w-full h-full object-cover"
+            className="w-full h-full"
           />
         </div>
 
