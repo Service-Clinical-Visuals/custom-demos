@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function WhatWeDo() {
   return (
     <section className="w-full py-20 bg-white">
-      <div className="container mx-auto px-6 grid grid-cols-6  gap-2 items-center">
+      <div className="container mx-auto px-6 grid lg:grid-cols-6  gap-2 items-center">
 
         {/* LEFT */}
         <div data-aos="fade-right" className="col-span-4 ">

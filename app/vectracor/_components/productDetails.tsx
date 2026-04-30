@@ -1,3 +1,4 @@
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import { ArrowRight } from "lucide-react";
 
 // components/ProductDetails.tsx
@@ -10,12 +11,14 @@ export default function ProductDetails() {
      {/* 🔷 Pattern Layer */}
       <div className="absolute inset-0 bg-[#fff]/85" ></div>
 
-      <div className=" container relative mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div className=" container relative mx-auto px-6 grid md:grid-cols-2 gap-16 items-center overflow-hidden">
 
         {/* LEFT - MEDIA */}
         <div data-aos="fade-right">
           <div className="bg-gray-200 rounded-2xl shadow-lg h-[500px] w-full">
             {/* Future: video / 3D viewer */}
+            <DynamicVideoPlayer type="short-1"
+              className="w-full h-full object-cover " />
           </div>
         </div>
 

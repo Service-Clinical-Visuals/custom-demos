@@ -3,20 +3,20 @@ import { ArrowRight } from "lucide-react";
 // components/About.tsx
 export default function About() {
   return (
-    <section className="w-full py-20 bg-gray-50">
-      <div className="container mx-auto grid md:grid-cols-2 gap-16 px-6">
+    <section className="w-full py-12 md:py-20 bg-gray-50">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 px-4 sm:px-6">
 
         {/* LEFT CONTENT */}
         <div data-aos="fade-right">
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[18px] font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[14px] sm:text-[16px] md:text-[18px] font-semibold mb-4 md:mb-6">
             <span className="w-2 h-2 bg-[#25477F] rounded-full"></span>
             About Us
           </div>
 
           {/* Heading */}
-          <h2 className="text-4xl max-w-2xl font-semibold leading-tight text-gray-900">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl max-w-2xl font-semibold leading-tight text-gray-900">
             Advanced Technology for Faster 
             Diagnosis
           </h2>
@@ -34,8 +34,8 @@ export default function About() {
 
             {/* Item 1 */}
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg  flex items-center justify-center">
-                <img src="/vectracor/ecg-machine.png" className="w-60 h-20 object-contain" />
+              <div className="w-12 h-12 shrink-0 rounded-lg flex items-center justify-center">
+                <img src="/vectracor/ecg-machine.png" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-800">
@@ -49,8 +49,8 @@ export default function About() {
 
             {/* Item 2 */}
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg  flex items-center justify-center">
-                <img src="/vectracor/ct-scan.png" className="w-60 h-20 object-contain" />
+              <div className="w-12 h-12 shrink-0 rounded-lg flex items-center justify-center">
+                <img src="/vectracor/ct-scan.png" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-800">
@@ -77,14 +77,14 @@ export default function About() {
 
           <button
             // style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
-            className="mt-8 group flex items-center bg-[#25477F] text-[#FFFFFF] px-6 py-2 rounded-full text-base transition shadow-md cursor-pointer border-2 border-[#B5D2FF] hover:border-[#102b57]"
+            className="mt-8 group flex items-center justify-center sm:justify-start min-h-[44px] bg-[#25477F] text-[#FFFFFF] px-6 py-2 rounded-full text-base transition shadow-md cursor-pointer border-2 border-[#B5D2FF] hover:border-[#102b57] w-full sm:w-auto"
           >
             Learn More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="relative" data-aos="fade-left">
+        <div className="relative order-first lg:order-last" data-aos="fade-left">
 
           {/* Floating Card */}
           {/* <div className="absolute top-6 left-6 bg-blue-800 text-white p-6 rounded-xl shadow-lg z-20 max-w-[220px]">
@@ -97,7 +97,7 @@ export default function About() {
           <img
             src="/vectracor/about.png"
             alt="About VectraCor"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-56 sm:h-72 md:h-96 lg:h-full object-cover rounded-2xl"
           />
         </div>
 

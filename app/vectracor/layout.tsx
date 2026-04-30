@@ -20,8 +20,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Jaeger",
-  description: "Jaeger Website",
+  title: "Vectracor",
+  description: "Vectracor Website",
+  icons: {
+    icon: "/vectracor/vectracor-favicon.png",
+  }, 
 };
 
 export default function RootLayout({
