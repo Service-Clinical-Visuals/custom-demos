@@ -1,3 +1,4 @@
+import { BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 // components/Footer.tsx
 export default function Footer() {
   return (
@@ -15,7 +16,7 @@ export default function Footer() {
           <div>
             <h2 className="text-xl font-bold text-blue-800">VECTRACOR</h2>
 
-            <p className="text-gray-600 text-sm mt-4 leading-relaxed max-w-[300px]">
+            <p className="text-gray-600 text-base mt-4 leading-relaxed max-w-[300px]">
               VectraCor, Inc. is a medical device company with “Disruptive Early
               Detection Technology”...
             </p>
@@ -27,7 +28,7 @@ export default function Footer() {
               Quick Links
             </h3>
 
-            <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-600 mt-3">
+            <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-base text-gray-600 mt-3">
               <a href="#">Home</a>
               <a href="#">Customer Care</a>
               <a href="#">About Us</a>
@@ -47,7 +48,7 @@ export default function Footer() {
               Contact Us
             </h3>
 
-            <div className="text-sm text-gray-600 space-y-2">
+            <div className="text-base text-gray-600 space-y-2">
               <p>info@vectracor.com</p>
               <p>+1 973-904-0444</p>
               <p>785 Totowa Road Totowa, New Jersey 07512</p>
@@ -59,9 +60,12 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-800 mb-4 ">
               Connect With Us
             </h3>
+            <p className="text-base text-gray-600 mt-2">
+              Smart Software for Better Diagnostics
+            </p>
 
             <div className="flex gap-3">
-              {["T", "in", "IG"].map((item, i) => (
+              {[<BsTwitter/>, <BsLinkedin/>, <BsYoutube/>].map((item, i) => (
                 <div
                   key={i}
                   className="w-10 h-10 cursor-pointer bg-red-500 text-white rounded-md flex items-center justify-center shadow-md"
@@ -76,11 +80,11 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-gray-300 mt-10 pt-4 text-center">
-          <p className="text-xs text-blue-700">
+          <p className="text-base text-blue-700">
             All personal information collected by VectraCor is for internal use only...
           </p>
 
-          <p className="text-xs text-gray-500 mt-2">
+          <p className="text-base text-gray-500 mt-2">
             © Copyright Vectracor Medical 2026. All Rights Reserved.
           </p>
         </div>

@@ -14,7 +14,7 @@ export default function Products() {
         {/* Header */}
         <div className="text-center" data-aos="fade-up">
 
-          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[18px] font-semibold mb-4">
+          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[18px] font-medium mb-4">
             <span className="w-2 h-2 bg-[#25477F] rounded-full"></span>
             Our Products
           </div>
