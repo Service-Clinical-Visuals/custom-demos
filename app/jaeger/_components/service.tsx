@@ -24,10 +24,10 @@ export default function ServicesSection() {
         data-aos="fade-up"
         style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
         className="pt-12 pb-32 text-center text-[#FFFFFF] px-4">
-        <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-base px-6 py-2 rounded-md mb-6">
+        <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-[14px] px-4 py-2 rounded-md mb-6">
           Our Services
         </span>
-        <h2 className="text-3xl md:text-[38px] font-semibold max-w-6xl mx-auto mb-4">
+        <h2 className="text-3xl md:text-[32px] font-bold max-w-6xl mx-auto mb-4">
           Reliable Service Solutions for Seamless Performance and Care
         </h2>
       </div>

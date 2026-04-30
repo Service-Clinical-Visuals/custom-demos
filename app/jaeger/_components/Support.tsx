@@ -26,12 +26,11 @@ const Support = () => {
         {/* Top Section: Testimonial and Image */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-6">
           <div data-aos="fade-up" className="space-y-6">
-            <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
+            <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
               Comprehensive Service & Support
             </span>
-            <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E] leading-tight">
-              This is my third PFT interface install and, without a doubt, my
-              most seamless go-live ever.
+            <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E] leading-tight">
+              This is my third PFT interface install, and it's been my smoothest go-live yet.
             </h2>
             <p className="text-base text-[#333333]">
               — RCP Therapist, Pulmonary Function Lab
@@ -74,7 +73,7 @@ const Support = () => {
               <p className="text-[#FFFFFF]/90 text-base mb-8 leading-relaxed">
                 {card.description}
               </p>
-              <button className="flex items-center gap-1 text-base font-medium underline">
+              <button className="flex items-center gap-1 text-base font-medium">
                 Start Here <CornerUpRight size={16} />
               </button>
             </div>

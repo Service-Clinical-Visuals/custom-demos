@@ -28,10 +28,10 @@ const NewsSection = () => {
       <div className="container mx-auto text-center">
         {/* Header Section */}
         <div className="mb-12 flex flex-col items-center">
-          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
             Latest News
           </span>
-          <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E] mb-4 mt-4">
+          <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E] mb-4 mt-4">
             Latest Updates & Company Highlights
           </h2>
           <p className="text-[#333333] text-base max-w-6xl leading-relaxed">

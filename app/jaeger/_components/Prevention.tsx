@@ -28,10 +28,10 @@ const Prevention = () => {
         {/* Top Section: Testimonial and Image */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-10">
           <div data-aos="fade-up" className="space-y-6">
-            <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-base px-6 py-2 rounded-md">
+            <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-[14px] px-4 py-2 rounded-md">
               Infection Prevention
             </span>
-            <h2 className="text-3xl md:text-[38px] font-semibold text-[#FFFFFF] leading-tight">
+            <h2 className="text-3xl md:text-[32px] font-bold text-[#FFFFFF] leading-tight">
               Highest Infection Prevention Standards – Past, Present, and Future
             </h2>
             <p className="text-base text-[#FFFFFF] text-justify">

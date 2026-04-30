@@ -13,13 +13,13 @@ export default function Testing() {
           <div data-aos="fade-up" className="lg:col-span-7 flex flex-col">
             {/* Tag */}
             <div className="mb-4">
-              <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
+              <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
                 Pulmonary Function Testing
               </span>
             </div>
 
             {/* Title */}
-            <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E] mb-6">
+            <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E] mb-6">
               Vyntus™ BODY Plethysmograph
             </h2>
 
@@ -78,7 +78,7 @@ export default function Testing() {
             {/* Button */}
             <button
               style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
-              className="group flex items-center text-[#FFFFFF] text-base px-6 py-2 rounded-md transition shadow-md cursor-pointer"
+              className="group flex items-center text-[#FFFFFF] text-[14px] px-4 py-2 rounded-md transition shadow-md cursor-pointer"
             >
               Explore More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
             </button>

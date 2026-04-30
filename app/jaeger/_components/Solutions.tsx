@@ -27,10 +27,10 @@ const Solutions = () => {
 
         {/* Right Side: Content */}
         <div data-aos="fade-up" className="space-y-5">
-          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
             Our Solutions
           </span>
-          <h2 className="text-3xl md:text-[38px] font-semibold text-[#1F242E]">
+          <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E]">
             Safety Oriented Cabin Design
           </h2>
           <div className="bg-[#00689B]/12 p-6 rounded-2xl">

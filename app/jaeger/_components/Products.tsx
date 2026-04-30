@@ -89,11 +89,11 @@ export default function Products() {
       <div className="container mx-auto px-6 text-center space-y-4">
         {/* Top Content */}
         <div data-aos="fade-up" className="space-y-4 max-w-6xl mx-auto">
-          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-base px-6 py-2 rounded-md mb-0">
+          <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md mb-0">
             Our Products
           </span>
 
-          <h2 className="text-2xl md:text-[38px] font-semibold text-[#1F242E] mt-6">
+          <h2 className="text-2xl md:text-[32px] font-bold text-[#1F242E] mt-6">
             Comprehensive Respiratory Diagnostic Solutions
           </h2>
 
