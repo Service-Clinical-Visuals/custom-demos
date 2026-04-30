@@ -20,10 +20,7 @@ const benefits = [
     title: "Easy-to-Use",
     desc: "Cutting down exam time by up to 50%.",
   },
-  {
-    title: "Hands-Free Image Capture",
-    desc: "Makes one-person exams simpler to perform.",
-  },
+
 ];
 
 export default function LutechBenefits() {

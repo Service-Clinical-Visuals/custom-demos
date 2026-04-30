@@ -41,7 +41,7 @@ export default function LutechFeature() {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-gray-600 text-base max-w-xl mb-10"
+            className="text-gray-600 text-base max-w-6xl mb-10"
           >
             We offer complete support through repair, maintenance, and training
             services to ensure smooth and efficient operation. Our digital
@@ -58,7 +58,7 @@ export default function LutechFeature() {
                 data-aos-delay={i * 120}
                 className="bg-white rounded-2xl p-6"
               >
-                <h3 className="text-base font-semibold text-gray-800 mb-2">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   {item.title}
                 </h3>
 
