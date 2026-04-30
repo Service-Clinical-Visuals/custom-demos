@@ -4,13 +4,13 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function MedasHighlight() {
   return (
-    <section className="w-full bg-gray-100 py-20">
-      <div className="max-w-380 mx-auto px-6 lg:px-10">
-        
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          
+    <section className="w-full bg-gray-100 py-10 md:py-14 lg:py-20">
+      <div className="max-w-380 mx-auto px-4 md:px-6 lg:px-10">
+
+        <div className="grid md:grid-cols-2 gap-8 md:gap-10 lg:gap-16 items-center">
+
           {/* LEFT CONTENT */}
-          <div data-aos="fade-right" className="max-w-xl">
+          <div data-aos="fade-right" className="max-w-full lg:max-w-xl">
             
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-snug">
@@ -30,7 +30,7 @@ export default function MedasHighlight() {
               
               {/* Item 1 */}
               <div className="flex items-start gap-4" data-aos="fade-up" data-aos-delay="100">
-                <div className="w-10 h-10 bg-[#0287C3] rounded-full"></div>
+                <div className="w-10 h-10 bg-[#0287C3] rounded-full shrink-0"></div>
                 <div>
                   <h4 className="text-[#385393] font-semibold text-base">
                     Premium Latex Material
@@ -43,7 +43,7 @@ export default function MedasHighlight() {
 
               {/* Item 2 */}
               <div className="flex items-start gap-4" data-aos="fade-up" data-aos-delay="200">
-                <div className="w-10 h-10 bg-[#0287C3] rounded-full"></div>
+                <div className="w-10 h-10 bg-[#0287C3] rounded-full shrink-0"></div>
                 <div>
                   <h4 className="text-[#385393] font-semibold text-base">
                     Silicone Coating

@@ -26,25 +26,25 @@ export default function MedasFeatures() {
         </div>
 
         {/* BOTTOM GRID */}
-        <div className="mt-14 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="mt-14 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           
           {/* LEFT VIDEO */}
           <div data-aos="fade-right">
             <div className="relative w-full h-[260px] md:h-[320px] lg:h-[360px] rounded-xl overflow-hidden">
 
-                               <div className="absolute inset-0">
-                         
-                                 <DynamicVideoPlayer
-                                   type="short-1"
-                                   className="absolute inset-0 w-full h-full object-cover"
-                                 />
-                         
-                               </div>
+                <div className="absolute inset-0">
+          
+                  <DynamicVideoPlayer
+                    type="short-1"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+          
+                </div>
             </div>
           </div>
 
           {/* RIGHT CONTENT */}
-          <div data-aos="fade-left" className="max-w-xl">
+          <div data-aos="fade-left" className="w-full md:max-w-xl">
 
             {/* Title */}
             <h3 className="text-xl md:text-2xl font-semibold text-gray-800">
