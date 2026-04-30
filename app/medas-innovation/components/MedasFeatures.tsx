@@ -13,7 +13,7 @@ export default function MedasFeatures() {
           data-aos="fade-up"
           className="text-center max-w-4xl mx-auto"
         >
-          <p className="text-[#3F5897] text-lg md:text-xl leading-relaxed font-semibold">
+          <p className="text-[#3F5897] text-lg md:text-2xl leading-relaxed font-semibold">
             Health care solutions means sense of quality and serve reasons that
             lead us deliver all our potential in this objective. Accurate design
             and perform in useful medical devices, in more tech and certificate

@@ -10,7 +10,7 @@ export default function MedasAbout() {
           
           {/* LEFT IMAGE */}
           <div data-aos="fade-right" className="w-full h-full">
-            <div className="w-full h-[320px] md:h-[420px] lg:h-[460px] overflow-hidden">
+            <div className="w-full h-[320px] md:h-[420px] lg:h-[460px] rounded-2xl overflow-hidden">
               <img
                 src="/medas-innovation/assets/medas-about.png"
                 alt="about"

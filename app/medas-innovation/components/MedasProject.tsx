@@ -91,9 +91,9 @@ export default function MedasProject() {
 
         {/* INDICATORS */}
         <div className="flex justify-center gap-2 mt-10">
-          <div className="w-6 h-2 bg-white rounded-full"></div>
-          <div className="w-6 h-2 bg-white/50 rounded-full"></div>
-          <div className="w-6 h-2 bg-white/50 rounded-full"></div>
+          <div className="w-12 h-2 bg-white rounded-full"></div>
+          <div className="w-12 h-2 bg-white/50 rounded-full"></div>
+          <div className="w-12 h-2 bg-white/50 rounded-full"></div>
         </div>
 
       </div>

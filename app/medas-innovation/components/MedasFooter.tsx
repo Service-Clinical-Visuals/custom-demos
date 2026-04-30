@@ -1,6 +1,8 @@
 "use client";
 
 import { Send } from "lucide-react";
+import { BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { FaSquareFacebook } from "react-icons/fa6";
 
 export default function MedasFooter() {
   return (
@@ -36,11 +38,13 @@ export default function MedasFooter() {
 
           {/* Social dots */}
           <div className="flex gap-3 mt-4">
-            {Array.from({ length: 5 }).map((_, i) => (
+            {[<BsInstagram />, <FaSquareFacebook />, <BsLinkedin/>, <BsYoutube/>].map((item, i) => (
               <div
                 key={i}
-                className="w-3 h-3 bg-[#0287C3] rounded-full"
-              ></div>
+                className=" cursor-pointer w-8 h-8 flex items-center justify-center bg-[#0287C3] rounded-full"
+              >
+                {item}
+              </div>
             ))}
           </div>
 

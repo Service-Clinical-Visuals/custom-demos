@@ -41,7 +41,7 @@ export default function MedasNews() {
         {/* RIGHT CONTENT */}
         <div
           data-aos="fade-left"
-          className="relative  text-white flex items-center bg-blue-500/50"
+          className="relative  text-white flex items-center bg-[#3f5f9a]"
         >
           {/* PATTERN OVERLAY */}
           <div className="absolute inset-0 opacity-10 bg-[url('/medas-innovation/assets/medas-pattern.png')] bg-repeat"></div>
@@ -64,7 +64,7 @@ export default function MedasNews() {
             </p>
 
             {/* CTA */}
-            <button className="mt-4 cursor-pointer bg-white text-[#0287C3] px-5 py-2 rounded-md flex items-center gap-2 hover:bg-gray-100 transition">
+            <button className="mt-4 cursor-pointer bg-white text-[#0287C3] px-5 py-2 rounded-md flex items-center gap-2 hover:bg-gray-100 transition font-semibold">
               Learn More <span><ArrowRight/></span>
             </button>
 
