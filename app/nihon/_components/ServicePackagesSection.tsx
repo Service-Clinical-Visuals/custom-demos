@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function ServicePackagesSection() {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-16 lg:py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Image Section */}
@@ -23,7 +23,7 @@ export default function ServicePackagesSection() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
               <h2 className="text-[#0068B3] font-semibold text-[16px]">
-                Discover our Solutions
+                Our Services
               </h2>
             </div>
 
@@ -45,7 +45,6 @@ export default function ServicePackagesSection() {
             <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
 
             <div className="flex flex-col gap-6">
-              <h4 className="text-[22px] font-bold text-[#353A3D]">You Purchase – We Care</h4>
               <div>
                 <Button href="#" variant="primary" size="md">
                   Book a consultation

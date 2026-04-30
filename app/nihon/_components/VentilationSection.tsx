@@ -8,11 +8,11 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 const VentilationSection = () => {
   return (
     <section
-      className="py-24 relative overflow-hidden"
+      className="py-16 lg:py-20 relative overflow-hidden"
       style={{ background: "linear-gradient(180deg, rgba(0, 104, 179, 0.79) 0%, rgba(0, 45, 77, 0.96) 100%)" }}
     >
       {/* Grid Pattern Overlay */}
-      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(white_1px,transparent_1px)] [background-size:20px_20px]"></div>
+      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(white_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
 
       <div className="container mx-auto px-4 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
@@ -35,10 +35,11 @@ const VentilationSection = () => {
               <p className="text-gray-100 font-light text-[17px] leading-relaxed text-justify">
                 Nihon Kohden's overriding philosophy inherent to the NKV-550 design is to Treasure Every Breath®. Our focus is to provide clinically relevant innovations and solutions for patients requiring mechanical ventilation. The NKV-550 Ventilator System is suitable for neonatal through adult patients and is equipped with a range of applications and modes, including invasive and non-invasive ventilation, O2 therapy, and airway care apps.
               </p>
-              <p className="text-gray-100 font-light text-[17px] leading-relaxed text-justify">
+              {/* <p className="text-gray-100 font-light text-[17px] leading-relaxed text-justify">
                 Built with Nihon Kohden's philosophy of combining medical insight with advanced engineering, the NKV-550 delivers reliable performance, seamless usability, and innovative respiratory solutions that empower healthcare professionals to provide the highest standard of care — because every breath matters.
-              </p>
+              </p> */}
             </div>
+            <div className="w-full h-[1px] bg-white/20 mb-6"></div>
 
             <Button href="#" variant="white" size="md">
               Get to Know Us
