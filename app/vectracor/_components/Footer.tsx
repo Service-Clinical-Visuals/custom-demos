@@ -14,7 +14,9 @@ export default function Footer() {
 
           {/* Column 1 */}
           <div>
-            <h2 className="text-xl font-bold text-blue-800">VECTRACOR</h2>
+                    <div>
+          <img src="/vectracor/VectraCor.png" className="w-48 h-16 md:w-60 md:h-20 object-contain lg:-ml-10" />
+        </div>
 
             <p className="text-gray-600 text-base mt-4 leading-relaxed max-w-[300px]">
               VectraCor, Inc. is a medical device company with “Disruptive Early
@@ -24,7 +26,7 @@ export default function Footer() {
 
           {/* Column 2 */}
           <div>
-            <h3 className="font-semibold text-gray-800 mb-2 border-b border-gray-300 pb-2">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2 border-b border-gray-300 pb-2">
               Quick Links
             </h3>
 
@@ -48,7 +50,7 @@ export default function Footer() {
               Contact Us
             </h3>
 
-            <div className="text-base text-gray-600 space-y-2">
+            <div className=" text-gray-600 space-y-2 text-lg">
               <p>info@vectracor.com</p>
               <p>+1 973-904-0444</p>
               <p>785 Totowa Road Totowa, New Jersey 07512</p>
@@ -57,10 +59,10 @@ export default function Footer() {
 
           {/* Column 4 */}
           <div>
-            <h3 className="font-semibold text-gray-800 mb-4 ">
+            <h3 className="font-semibold text-gray-800 mb-4 text-lg">
               Connect With Us
             </h3>
-            <p className="text-base text-gray-600 mt-2">
+            <p className="text-base text-gray-600 mb-4">
               Smart Software for Better Diagnostics
             </p>
 

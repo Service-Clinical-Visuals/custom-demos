@@ -54,7 +54,7 @@ export default function ClinicalResearch() {
               <img
                 src={logo}
                 alt="logo"
-                className="h-auto lg:h-[160px]"
+                className={`object-contain max-w -full ${i === 3 || i === 4 ? "h-auto max-h-[90px] lg:max-h-[110px]" : "h-[80px] lg:h-[160px]"}`}
               />
             </div>
           ))}
