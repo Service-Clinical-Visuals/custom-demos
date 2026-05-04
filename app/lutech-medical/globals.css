@@ -15,8 +15,9 @@ html, body {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-outfit: var(--font-outfit);
+  --font-rubik: var(--font-rubik);
 }
-
+  
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
@@ -24,8 +25,10 @@ html, body {
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-outfit);
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-outfit);
+  }
 }

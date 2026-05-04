@@ -16,9 +16,9 @@ export default function LutechFooter() {
           {/* QUICK LINKS */}
           <div data-aos="fade-up" data-aos-delay="100">
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-base text-white/80">
+            <ul className="space-y-2 text-base text-white/80 font-rubik">
               {["Home", "Colposcopes", "Services", "About Us", "Resources", "Contact"].map((item, i) => (
-                <li key={i} className="hover:text-white cursor-pointer transition">
+                <li key={i} className="hover:text-white cursor-pointer transition font-rubik">
                   {item}
                 </li>
               ))}
@@ -28,7 +28,7 @@ export default function LutechFooter() {
           {/* ADDRESS */}
           <div data-aos="fade-up" data-aos-delay="200">
             <h4 className="text-lg font-semibold mb-4">Address</h4>
-            <p className="text-base text-white/80 leading-relaxed">
+            <p className="text-base text-white/80 leading-relaxed font-rubik">
               Headquarters : Indianapolis, Indiana <br />
               3910 Industrial Blvd, <br />
               Indianapolis, Indiana <br />
@@ -38,8 +38,8 @@ export default function LutechFooter() {
 
           {/* CONTACT */}
           <div data-aos="fade-up" data-aos-delay="300">
-            <h4 className="text-lh font-semibold mb-4">Contact</h4>
-            <p className="text-base text-white/80">
+            <h4 className="text-lg font-semibold mb-4">Contact</h4>
+            <p className="text-base text-white/80 font-rubik">
               Tel: (631) 676-7432
             </p>
           </div>
@@ -50,7 +50,7 @@ export default function LutechFooter() {
         <div className="border-t border-white/30 mb-6" />
 
         {/* COPYRIGHT */}
-        <p className="text-center text-base text-white/80">
+        <p className="text-center text-base text-white/80 font-rubik">
           ©2026 Lutech - All Rights Reserved
         </p>
 

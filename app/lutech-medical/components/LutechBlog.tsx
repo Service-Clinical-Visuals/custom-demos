@@ -44,7 +44,7 @@ export default function LutechBlog() {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-base text-gray-600 max-w-2xl mx-auto"
+            className="text-base text-gray-600 max-w-2xl mx-auto font-rubik"
           >
             Our blog explores the evolving landscape of women's health and digital
             colposcopy, highlighting advancements in early detection, patient care,
@@ -59,7 +59,7 @@ export default function LutechBlog() {
               key={i}
               data-aos="fade-up"
               data-aos-delay={i * 120}
-              className="bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.08)] p-3 hover:shadow-md transition flex flex-col"
+              className="font-rubik bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.08)] p-3 hover:shadow-md transition flex flex-col"
             >
 
               {/* IMAGE */}

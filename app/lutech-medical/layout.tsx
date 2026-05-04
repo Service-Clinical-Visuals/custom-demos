@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Outfit, Rubik } from "next/font/google";
 import "./globals.css";
 import { VideoProvider } from "../_context/VideoContext";
 
 const outfit = Outfit({
   variable: "--font-outfit",
+  subsets: ["latin"],
+})
+
+const rubik = Rubik({
+  variable: "--font-rubik",
   subsets: ["latin"],
 })
 
@@ -22,9 +27,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${outfit.variable} ${rubik.variable}`}>
       <body
-        className={`${outfit.variable} antialiased`}
+        className="antialiased"
       >
         <VideoProvider>
           {children}

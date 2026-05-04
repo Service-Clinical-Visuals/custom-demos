@@ -7,16 +7,19 @@ const services = [
     title: "Maintenance and training",
     desc: "Just got your Lutech product and not sure where to start? Give us a call or schedule a training session. We will be happy to...",
     img: "/lutech-medical/assets/lutech-main.jpg",
+    imgFit: "object-cover",
   },
   {
     title: "Lutech Digital Benefits",
     desc: "For a limited time Lutech Medical is offering special pricing and transition support to help DYSIS users make the switch.",
     img: "/lutech-medical/assets/lutech-digital.png",
+    imgFit: "object-contain",
   },
   {
     title: "Warranty Policy",
     desc: "Lutech Medical stands behind every product we design, manufacture and sell. We will honor every transaction and treat...",
     img: "/lutech-medical/assets/lutech-warranty.jpg",
+    imgFit: "object-cover",
   },
 ];
 
@@ -37,7 +40,7 @@ export default function LutechServices() {
         <p
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-gray-600 text-sm sm:text-base max-w-5xl mx-auto mb-8 sm:mb-12"
+          className="text-gray-600 text-sm sm:text-base max-w-5xl mx-auto mb-8 sm:mb-12 font-rubik"
         >
           We offer complete support through repair, maintenance, and training
           services to ensure smooth and efficient operation. Our digital solutions
@@ -56,11 +59,11 @@ export default function LutechServices() {
             >
 
               {/* IMAGE */}
-              <div className="w-full h-56 sm:h-64 lg:h-72 rounded-xl border border-gray-300 overflow-hidden mb-4">
+              <div className="relative w-full h-56 sm:h-64 lg:h-72 rounded-xl border border-gray-300 overflow-hidden mb-4">
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-full h-full object-cover object-center"
+                  className={`absolute inset-0 w-full h-full ${item.imgFit} object-center`}
                 />
               </div>
 
@@ -72,7 +75,7 @@ export default function LutechServices() {
               </h3>
 
               {/* DESCRIPTION */}
-              <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
+              <p className="font-rubik text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
                 {item.desc}
               </p>
 

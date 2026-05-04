@@ -43,7 +43,7 @@ export default function LutechBenefits() {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-gray-600 text-base max-w-lg mb-8"
+            className="text-gray-600 text-base max-w-lg mb-8 font-rubik"
           >
             Delivers clear imaging, faster procedures, and a more comfortable,
             user-friendly experience for both clinicians and patients.
@@ -56,7 +56,7 @@ export default function LutechBenefits() {
                 key={i}
                 data-aos="fade-up"
                 data-aos-delay={i * 100}
-                className="flex items-start gap-4"
+                className="flex items-start gap-4 font-rubik"
               >
                 {/* ICON */}
                 <div className="w-10 h-10 flex items-center justify-center rounded-full bg-[#0f6c86] text-white text-lg shadow-sm shrink-0">
@@ -68,7 +68,7 @@ export default function LutechBenefits() {
                   <h4 className="text-base font-semibold text-gray-800">
                     {item.title}
                   </h4>
-                  <p className="text-base text-gray-600">
+                  <p className="font-rubik text-base text-gray-600">
                     {item.desc}
                   </p>
                 </div>

@@ -44,14 +44,14 @@ export default function LutechChoose() {
           </h2>
 
           {/* DESCRIPTION */}
-          <p className="text-gray-600 text-base leading-relaxed mb-4">
+          <p className="text-gray-600 text-base leading-relaxed mb-4 font-rubik">
             The LT-300HD Vertical Stand is the gold standard in digital colposcopy
             combining the cutting-edge technology and convenience of the vertical
             stand. Whether you're in a busy clinic or a private practice, it offers
             a cost-effective solution without compromising on quality.
           </p>
 
-          <p className="text-gray-600 text-base leading-relaxed mb-4">
+          <p className="text-gray-600 text-base leading-relaxed mb-4 font-rubik">
             <span className="font-semibold text-gray-800">
               Portable & Flexible:
             </span>{" "}
@@ -60,7 +60,7 @@ export default function LutechChoose() {
             different room configurations and exam scenarios.
           </p>
 
-          <p className="text-gray-600 text-base leading-relaxed mb-8">
+          <p className="text-gray-600 text-base leading-relaxed mb-8 font-rubik">
             <span className="font-semibold text-gray-800">
               Reliability & Durability:
             </span>{" "}

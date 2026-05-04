@@ -49,7 +49,7 @@ export default function LutechNavbar() {
          </div>
 
          {/* Desktop Menu */}
-         <nav className="hidden lg:flex items-center gap-8 text-base">
+         <nav className="hidden lg:flex items-center gap-8 text-base font-rubik">
            {navItems.map((item, i) => (
              <div
                key={i}
@@ -77,7 +77,7 @@ export default function LutechNavbar() {
            menuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
          } bg-black`}
        >
-         <nav className="flex flex-col px-6 pb-4 pt-2 gap-1">
+         <nav className="flex flex-col px-6 pb-4 pt-2 gap-1 font-rubik">
            {navItems.map((item, i) => (
              <button
                key={i}

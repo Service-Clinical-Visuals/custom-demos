@@ -41,7 +41,7 @@ export default function LutechFeature() {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-gray-600 text-base max-w-6xl mb-10"
+            className="text-gray-600 text-base max-w-6xl mb-10 font-rubik"
           >
             We offer complete support through repair, maintenance, and training
             services to ensure smooth and efficient operation. Our digital
@@ -62,11 +62,11 @@ export default function LutechFeature() {
                   {item.title}
                 </h3>
 
-                <p className="text-base text-gray-600 leading-relaxed mb-3">
+                <p className="text-base text-gray-600 leading-relaxed mb-3 font-rubik">
                   {item.desc}
                 </p>
 
-                <span className="text-[#0f6c86] text-base font-medium cursor-pointer underline hover:text-[#031e28] transition">
+                <span className="font-rubik text-[#0f6c86] text-base font-medium cursor-pointer underline hover:text-[#031e28] transition">
                   View More &gt;&gt;
                 </span>
               </div>

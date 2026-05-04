@@ -26,7 +26,7 @@ export default function LutechAbout() {
           </h2>
 
           {/* Description */}
-          <p className="text-gray-600 text-base leading-7.5 mb-6">
+          <p className="text-gray-600 text-base leading-7.5 mb-6 font-rubik">
             Lutech Medical is dedicated to advancing cancer detection and forensic
             medical documentation through innovative digital colposcopy technology.
             We aim to set the gold standard in medical imaging by delivering
@@ -38,7 +38,7 @@ export default function LutechAbout() {
           {/* Features */}
           <div className="space-y-4 mb-8">
             {features.map((item, i) => (
-              <div key={i} className="flex items-start gap-3">
+              <div key={i} className="flex items-start gap-3 font-rubik">
                 
                 {/* Icon */}
                 <div className="w-5 h-5 flex items-center justify-center rounded-full bg-[#0196D5] text-white text-xs mt-1">

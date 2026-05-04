@@ -53,7 +53,7 @@ export default function LutechProduct() {
             </h2>
 
             {/* Description */}
-            <p className="text-gray-600 text-base leading-relaxed mb-4">
+            <p className="text-gray-600 text-base leading-relaxed mb-4 font-rubik">
               The LT-300HD with Vertical Stand provides a compact solution for
               cervical exam rooms. Experience digital colposcopy with a system
               designed for both the patient and provider. The LCD screen eliminates
@@ -64,7 +64,7 @@ export default function LutechProduct() {
             {/* FEATURES GRID */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
               {features.map((item, i) => (
-                <div key={i} className="flex items-start gap-3">
+                <div key={i} className="flex items-start gap-3 font-rubik">
                   
                   {/* Icon */}
                   <div className="w-5 h-5 flex items-center justify-center rounded-full bg-[#0f6c86] text-white text-xs mt-1">
