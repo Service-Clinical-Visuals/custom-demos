@@ -19,7 +19,7 @@ export default function MedasFooter() {
             <img src="/medas-innovation/assets/medas-logo.png" alt="logo" className="w-32 mb-6" />
 
           {/* Description */}
-          <p className="mt-4 text-gray-600 text-sm max-w-sm">
+          <p className="mt-4 text-gray-600 text-base max-w-sm">
             MEDAS , company dedicated manufacture and distribution of medical
             material devices
           </p>
@@ -49,7 +49,7 @@ export default function MedasFooter() {
           </div>
 
           {/* Copyright */}
-          <p className="mt-6 text-xs text-gray-500">
+          <p className="mt-6 text-base text-gray-500">
             © Copyright <span className="font-semibold">Medadv</span> Medical
             2026. All Rights Reserved.
           </p>

@@ -33,7 +33,7 @@ export default function MedasAbout() {
             </p>
 
             {/* Description */}
-            <div className="mt-4 space-y-3 text-gray-600 text-sm leading-relaxed">
+            <div className="mt-4 space-y-3 text-gray-600 text-base leading-[1.9]">
               <p>
                 Our logistic center and headquarters Located in city of Miami,
                 service all over the world offer a wide range of solutions in

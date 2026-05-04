@@ -32,13 +32,13 @@ export default function MedasGrid() {
               Who We Are?
             </h3>
 
-            <p className="mt-4 text-sm text-white/80 leading-relaxed">
+            <p className="mt-4 text-base text-white/80 leading-[1.9]">
               Located in South Florida, our headquarters in Miami city means something more
               than vacations or good times. Our privileged location allows us to serve a vast
               community in healthcare across the US, LATAM, and worldwide.
             </p>
 
-            <p className="mt-4 text-sm text-white/80 leading-relaxed">
+            <p className="mt-4 text-base text-white/80 leading-[1.9]">
               First and foremost, our commitment is to healthcare support, with an extensive
               product portfolio in critical specializations such as interventional cardiology,
               anesthesia and respiratory therapy.
@@ -63,12 +63,12 @@ export default function MedasGrid() {
               Who We Serve for
             </h3>
 
-            <p className="mt-4 text-sm text-white/80 leading-relaxed">
+            <p className="mt-4 text-base text-white/80 leading-[1.9]">
               Patient our last link, but always in our thought is priority matter, health care
               professionals middle link who their shoulders rest the health job well done.
             </p>
 
-            <p className="mt-4 text-sm text-white/80 leading-relaxed">
+            <p className="mt-4 text-base text-white/80 leading-[1.9]">
               First and foremost, our commitment is to healthcare support, with an extensive
               product portfolio in critical specializations.
             </p>
@@ -87,7 +87,7 @@ export default function MedasGrid() {
           <img
             src="/medas-innovation/assets/medas-grid2.png"
             alt=""
-            className="w-full h-full bg-cover object-cover"
+            className="w-full h-full bg-cover object-cover object-bottom-right"
           />
         </div>
 

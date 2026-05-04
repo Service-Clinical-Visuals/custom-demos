@@ -52,7 +52,7 @@ export default function MedasFeatures() {
             </h3>
 
             {/* Description */}
-            <p className="mt-4 text-gray-600 text-base leading-relaxed">
+            <p className="mt-4 text-gray-600 text-base leading-[1.9]">
               This catheter is made from premium medical-grade latex with a smooth
               silicone coating for easy insertion and enhanced patient comfort.
               Its two-way design ensures efficient drainage and secure balloon
@@ -74,7 +74,7 @@ export default function MedasFeatures() {
                   data-aos-delay={i * 100}
                   className="flex items-start gap-3"
                 >
-                  <div className="w-5 h-5 rounded-full bg-[#0287C3] flex items-center justify-center text-white text-xs shrink-0">
+                  <div className="w-5 h-5 rounded-full bg-[#0287C3] flex items-center justify-center text-white text-base shrink-0">
                     <Check size={12} className=""/>
                   </div>
                   <p className="text-gray-600 text-base">{item}</p>

@@ -40,7 +40,7 @@ export default function MedasProject() {
             <h2 className="text-white text-2xl md:text-3xl font-semibold">
               Our Latest Projects
             </h2>
-            <p className="text-white/70 mt-3 max-w-md text-base">
+            <p className="text-white/70 mt-3 max-w-md text-base leading-[1.9]">
               Our expertise spans multiple industries, delivering high quality
               fabrics crafted for durability, functionality, & consistent performance.
             </p>

@@ -18,7 +18,7 @@ export default function MedasHighlight() {
             </h2>
 
             {/* Description */}
-            <p className="mt-4 text-gray-600 text-sm leading-relaxed">
+            <p className="mt-4 text-gray-600 text-base leading-[1.9]">
               The Two Way Silicone Coated Latex Foley Catheter ensures safe and
               comfortable urinary drainage. Made from quality latex with a smooth
               silicone coating, it facilitates easy insertion and reduces friction,
@@ -35,7 +35,7 @@ export default function MedasHighlight() {
                   <h4 className="text-[#385393] font-semibold text-base">
                     Premium Latex Material
                   </h4>
-                  <p className="text-gray-600 text-base mt-1">
+                  <p className="text-gray-600 text-base mt-1 leading-[1.9]">
                     Manufactured from medical-grade latex for flexibility and reliability
                   </p>
                 </div>
@@ -48,7 +48,7 @@ export default function MedasHighlight() {
                   <h4 className="text-[#385393] font-semibold text-base">
                     Silicone Coating
                   </h4>
-                  <p className="text-gray-600 text-sm mt-1">
+                  <p className="text-gray-600 text-base mt-1 leading-[1.9]">
                     Smooth surface enables easy insertion and minimizes irritation
                   </p>
                 </div>

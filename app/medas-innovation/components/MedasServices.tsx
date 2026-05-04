@@ -18,7 +18,7 @@ export default function MedasServices() {
             </h2>
 
             {/* Paragraphs */}
-            <div className="mt-4 space-y-4 text-gray-600 text-base leading-relaxed">
+            <div className="mt-4 space-y-4 text-gray-600 text-base leading-[1.9]">
               <p>
                 High skill engineers team design templates of our products that
                 become into industrial modern facilities in our MEDADV Medical
