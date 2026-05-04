@@ -25,7 +25,7 @@ const ProductsSection = () => {
     <section className="py-16 lg:py-20 bg-gradient-to-b from-[#0068B3] to-[#004d85] text-white overflow-hidden">
       <div className="container mx-auto px-4 md:px-12">
         {/* Header Part */}
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-8 mb-16">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-8 mb-16" data-aos="fade-up">
           <div className="lg:max-w-xl">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-white"></div>
@@ -51,7 +51,7 @@ const ProductsSection = () => {
         </div>
 
         {/* Products Carousel */}
-        <div className="relative">
+        <div className="relative" data-aos="fade-up">
           <Swiper
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}

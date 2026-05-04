@@ -47,7 +47,7 @@ const SolutionsSection = () => {
         {/* Top Part: Text + Human Torso */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-16 items-center">
           {/* Left Content */}
-          <div className="flex flex-col gap-6 lg:col-span-7">
+          <div className="flex flex-col gap-6 lg:col-span-7" data-aos="fade-up">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
@@ -79,7 +79,7 @@ const SolutionsSection = () => {
           </div>
 
           {/* Right Image Placeholder (Human Torso) */}
-          <div className="relative lg:col-span-5 lg:-ml-20 z-0">
+          <div className="relative lg:col-span-5 lg:-ml-20 z-0" data-aos="fade-up">
             <div className="relative w-full max-w-[550px] aspect-square flex justify-center lg:justify-start">
               {/* Blue Torso Illustration Placeholder */}
               <div className="w-full h-full bg-gradient-to-t from-[#0068B3]/20 to-transparent rounded-full absolute bottom-0 blur-3xl"></div>
@@ -109,8 +109,8 @@ const SolutionsSection = () => {
         </div>
 
         {/* Bottom Part: Slider/Feature Pill */}
-        <div className="relative mt-4 mb-8">
-          <div className="bg-[#2B78B1] rounded-full py-10 px-12 md:px-24 text-white relative overflow-hidden">
+        <div className="relative mt-4 mb-8" data-aos="fade-up">
+          <div className="bg-[#2B78B1] lg:rounded-full py-10 px-12 md:px-24 text-white relative overflow-hidden">
             {/* Arrows */}
             <div className="absolute inset-y-0 left-6 md:left-12 flex items-center z-30">
               <button

@@ -17,7 +17,7 @@ const VentilationSection = () => {
       <div className="container mx-auto px-4 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           {/* Left Content */}
-          <div className="text-white lg:col-span-5">
+          <div className="text-white lg:col-span-5" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-white"></div>
               <h2 className="text-white font-semibold text-[16px]">
@@ -47,7 +47,7 @@ const VentilationSection = () => {
           </div>
 
           {/* Right Video Placeholder */}
-          <div className="relative lg:col-span-7">
+          <div className="relative lg:col-span-7" data-aos="fade-up">
             <div className="aspect-video bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 flex items-center justify-center relative overflow-hidden group">
               <DynamicVideoPlayer type="360" />
             </div>

@@ -24,10 +24,10 @@ export default function Layout({
 }>) {
   return (
     <html lang="en" className={`${outfit.variable} font-sans`} suppressHydrationWarning>
-      <body className="min-h-screen bg-white font-sans antialiased">
+      <body className="bg-white font-sans antialiased">
         <AosProvider>
           <VideoProvider website="nihon">
-            <div className="overflow-x-hidden relative w-full flex flex-col min-h-screen">
+            <div className="relative w-full flex flex-col min-h-screen">
               <Header />
               <main className="flex-grow">{children}</main>
               <Footer />

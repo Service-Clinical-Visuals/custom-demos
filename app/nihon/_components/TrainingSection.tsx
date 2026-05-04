@@ -62,11 +62,11 @@ const TrainingSection = () => {
   return (
     <section className="py-16 lg:py-20 bg-[#D8EFFF]">
       <div className="container mx-auto px-4 md:px-12">
-        <div className="text-center max-w-6xl mx-auto mb-16">
+        <div className="text-center max-w-6xl mx-auto mb-16" data-aos="fade-up">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
             <h2 className="text-[#0068B3] font-semibold text-[16px]">
-              Innovative Technologies
+              Latest Blogs
             </h2>
           </div>
 
@@ -77,52 +77,54 @@ const TrainingSection = () => {
         </div>
 
         {/* Training Carousel */}
-        <Swiper
-          modules={[Autoplay]}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          spaceBetween={30}
-          slidesPerView={1}
-          loop={true}
-          breakpoints={{
-            640: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          className="pb-12"
-        >
-          {trainingEvents.map((event, index) => (
-            <SwiperSlide key={index}>
-              <div className="group bg-white rounded-2xl overflow-hidden transition-all duration-500 h-full flex flex-col cursor-pointer">
-                <div className="aspect-[4/2.5] overflow-hidden">
-                  <img
-                    src={event.image}
-                    alt={event.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                </div>
-
-                <div className="p-8 flex flex-col flex-grow">
-                  <h3 className="text-[20px] md:text-[20px] font-bold text-[#2B2F31] mb-3 group-hover:text-[#0068B3] transition-colors leading-tight min-h-[50px]">
-                    {event.title}
-                  </h3>
-
-                  <div className="flex items-center gap-2 text-xs md:text-[16px] font-medium text-[#333333] mb-4">
-                    <Calendar size={16} className="text-[#333333]" />
-                    {event.date}
+        <div data-aos="fade-up">
+          <Swiper
+            modules={[Autoplay]}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            spaceBetween={30}
+            slidesPerView={1}
+            loop={true}
+            breakpoints={{
+              640: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            className="pb-12"
+          >
+            {trainingEvents.map((event, index) => (
+              <SwiperSlide key={index}>
+                <div className="group bg-white rounded-2xl overflow-hidden transition-all duration-500 h-full flex flex-col cursor-pointer">
+                  <div className="aspect-[4/2.5] overflow-hidden">
+                    <img
+                      src={event.image}
+                      alt={event.title}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
                   </div>
 
-                  <p className="text-[#333333]/80 text-[15px] leading-relaxed mb-6 line-clamp-2">
-                    {event.description}
-                  </p>
+                  <div className="p-8 flex flex-col flex-grow">
+                    <h3 className="text-[20px] md:text-[20px] font-bold text-[#2B2F31] mb-3 group-hover:text-[#0068B3] transition-colors leading-tight min-h-[50px]">
+                      {event.title}
+                    </h3>
 
-                  <div className="flex items-center gap-2 text-xs md:text-[16px] font-medium text-[#333333] mt-auto">
-                    <MapPin size={16} className="text-[#333333]" />
-                    {event.location}
+                    <div className="flex items-center gap-2 text-xs md:text-[16px] font-medium text-[#333333] mb-4">
+                      <Calendar size={16} className="text-[#333333]" />
+                      {event.date}
+                    </div>
+
+                    <p className="text-[#333333]/80 text-[15px] leading-relaxed mb-6 line-clamp-2">
+                      {event.description}
+                    </p>
+
+                    <div className="flex items-center gap-2 text-xs md:text-[16px] font-medium text-[#333333] mt-auto">
+                      <MapPin size={16} className="text-[#333333]" />
+                      {event.location}
+                    </div>
                   </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
 
         {/* Slider Indicator */}
         <div className="flex justify-center mt-4 gap-3">
