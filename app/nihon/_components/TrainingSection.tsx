@@ -66,7 +66,7 @@ const TrainingSection = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
             <h2 className="text-[#0068B3] font-semibold text-[16px]">
-              Latest Blogs
+              Latest Blog
             </h2>
           </div>
 
