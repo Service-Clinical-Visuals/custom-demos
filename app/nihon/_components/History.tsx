@@ -10,7 +10,7 @@ export default function History() {
       <div className="container mx-auto px-4 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-10">
           {/* Illustration Section */}
-          <div className="flex justify-center lg:justify-start">
+          <div className="flex justify-center lg:justify-start" data-aos="fade-up">
             <img
               src="/nihon/images/about.png"
               alt="Nihon Kohden Wing Illustration"
@@ -19,7 +19,7 @@ export default function History() {
           </div>
 
           {/* Text Content Section */}
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
               <h2 className="text-[#0068B3] font-semibold text-[16px]">
@@ -41,7 +41,7 @@ export default function History() {
 
             {/* Features/Points */}
             <div className="flex flex-col gap-8 mb-10">
-              <div className="flex gap-5">
+              <div className="flex gap-5" data-aos="fade-up">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#0068B3] flex items-center justify-center text-white shadow-lg p-2">
                   <img src="/nihon/images/target.png" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
                 </div>
@@ -53,7 +53,7 @@ export default function History() {
                 </div>
               </div>
 
-              <div className="flex gap-5">
+              <div className="flex gap-5" data-aos="fade-up">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#0068B3] flex items-center justify-center text-white shadow-lg p-2">
                   <img src="/nihon/images/idea.png" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
                 </div>

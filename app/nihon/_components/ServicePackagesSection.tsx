@@ -10,7 +10,7 @@ export default function ServicePackagesSection() {
       <div className="container mx-auto px-4 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Image Section */}
-          <div className="rounded-3xl overflow-hidden shadow-lg aspect-[1.4/1]">
+          <div className="rounded-3xl overflow-hidden shadow-lg aspect-[1.4/1]" data-aos="fade-up">
             <img
               src="/nihon/images/solution-1.png"
               alt="Tailor-Made Service Packages"
@@ -19,7 +19,7 @@ export default function ServicePackagesSection() {
           </div>
 
           {/* Right Content Section */}
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
               <h2 className="text-[#0068B3] font-semibold text-[16px]">

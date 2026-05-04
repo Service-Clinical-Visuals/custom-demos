@@ -61,14 +61,14 @@ export default function Header() {
             </Link>
 
             {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center space-x-6 font-medium text-[16px] tracking-wide">
-              {navLinks.map((link) => {
+            <div className="hidden min-[1300px]:flex items-center space-x-6 font-medium text-[16px] tracking-wide">
+              {navLinks.map((link, i) => {
                 const isActive = pathname === link.href;
                 return (
                   <Link
                     key={link.name}
                     href={link.href}
-                    className={`hover:text-[#0068B3] transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0068B3] hover:after:w-full after:transition-all ${isActive ? "text-[#0068B3] font-bold after:w-full" : "text-[#111]"}`}
+                    className={`hover:text-[#0068B3] ${i === 4 ? "hidden" : ""} transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0068B3] hover:after:w-full after:transition-all ${isActive ? "text-[#0068B3] font-bold after:w-full" : "text-[#111]"}`}
                   >
                     {link.name}
                   </Link>
@@ -78,7 +78,7 @@ export default function Header() {
 
             {/* Right Action / Search & Login */}
             <div className="flex items-center gap-2">
-              <div className="hidden lg:flex items-center gap-2">
+              <div className="hidden min-[1300px]:flex items-center gap-2">
                 <button className="bg-[#0068B3] text-white px-4 py-1.5 rounded-full flex items-center gap-2 text-[16px] font-bold hover:bg-[#00589a] transition-all hover:shadow-md active:scale-95">
                   <span>Search</span>
                   <div className="bg-white/20 rounded-full p-1">
@@ -94,7 +94,7 @@ export default function Header() {
               </div>
 
               <button
-                className="lg:hidden text-[#0068B3] p-2"
+                className="min-[1300px]:hidden text-[#0068B3] p-2"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
                 {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -106,7 +106,7 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed top-[75px] md:top-[80px] left-0 w-full h-[calc(100vh-75px)] bg-[#0068B3] text-white py-10 px-8 flex flex-col space-y-6 animate-in slide-in-from-right duration-500 z-[70]">
+        <div className="min-[1300px]:hidden fixed top-[75px] md:top-[80px] left-0 w-full h-[calc(100vh-75px)] bg-[#0068B3] text-white py-10 px-8 flex flex-col space-y-6 animate-in slide-in-from-right duration-500 z-[70]">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (

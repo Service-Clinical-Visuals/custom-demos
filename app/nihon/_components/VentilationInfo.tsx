@@ -12,8 +12,7 @@ const VentilationInfo = () => {
       <div className="container mx-auto px-4 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div
-          >
+          <div data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
               <h2 className="text-[#0068B3] font-semibold text-[16px]">
@@ -65,8 +64,7 @@ const VentilationInfo = () => {
           </div>
 
           {/* Right Visual Placeholder */}
-          <div
-          >
+          <div data-aos="fade-up">
             <div className="aspect-video w-full h-full rounded-3xl overflow-hidden relative">
               <DynamicVideoPlayer type="short-1" />
             </div>

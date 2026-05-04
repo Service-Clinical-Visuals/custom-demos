@@ -10,7 +10,7 @@ const NewsletterSection = () => {
       <div className="container mx-auto px-4 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           {/* Left Content */}
-          <div className="lg:col-span-9">
+          <div className="lg:col-span-9" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4 ">
               <div className="w-2.5 h-2.5 bg-white"></div>
               <h2 className="text-white font-semibold text-[16px]">

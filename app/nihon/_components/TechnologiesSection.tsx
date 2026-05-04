@@ -35,7 +35,7 @@ const TechnologiesSection = () => {
   return (
     <section className="py-16 lg:py-20 bg-[#D8EFFF]">
       <div className="container mx-auto px-4 md:px-12">
-        <div className="text-center max-w-6xl mx-auto mb-16">
+        <div className="text-center max-w-6xl mx-auto mb-16" data-aos="fade-up">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
             <h2 className="text-[#0068B3] font-semibold text-[16px]">
@@ -55,6 +55,7 @@ const TechnologiesSection = () => {
             <div
               key={tech.title}
               className="flex flex-col group"
+              data-aos="fade-up"
             >
               {/* Card Image Area */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg bg-white mb-6 aspect-[4/3]">
