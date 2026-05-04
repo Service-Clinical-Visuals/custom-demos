@@ -8,7 +8,7 @@ const Footer = () => {
   const footerLinks = [
     {
       title: "Products",
-      links: ["Patient Monitoring", "Resuscitation", "Neurology", "Ventilation", "Medical IT", "Cardiology", "In-vitro Diagnostics", "Accessories"]
+      links: ["Patient Monitoring", "Resuscitation", "Neurology", "Ventilation", "Cardiology", "In-vitro Diagnostics", "Accessories"]
     },
     {
       title: "Solutions",
@@ -25,8 +25,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#E8F4FF] pt-20 pb-6 text-[#1A1A1A]">
-      <div className="container mx-auto px-4 md:px-12">
+    <footer className="bg-[#D8EFFF] pt-20 pb-6 text-[#1A1A1A]">
+      <div className="container mx-auto px-4 md:px-12" data-aos="fade-up">
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 mb-16">
           {/* Brand Column */}
           <div className="xl:col-span-4 flex flex-col gap-8">
@@ -36,8 +36,7 @@ const Footer = () => {
 
             <p className="text-[#333333] text-[16px] leading-relaxed text-justify">
               Nihon Kohden is a global medical devices and patient monitoring technology company operating in the MedTech industry.
-              Founded in Japan, Nihon Kohden develops advanced patient monitoring systems, clinical diagnostic equipment, and healthcare
-              technology solutions that support healthcare professionals in delivering safe, efficient, and data-driven patient care.
+              Founded in Japan, Nihon Kohden develops advanced patient monitoring systems.
             </p>
 
             <div className="flex flex-col gap-4">
@@ -55,20 +54,32 @@ const Footer = () => {
 
           {/* Links Columns */}
           <div className="xl:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
-            {footerLinks.map((column) => (
-              <div key={column.title} className="flex flex-col gap-6">
-                <h4 className="font-semibold text-[18px]">{column.title}</h4>
-                <ul className="flex flex-col gap-3">
-                  {column.links.map((link, i) => (
-                    <li key={i}>
-                      <Link href="#" className="text-[#333333] hover:text-[#0068B3] text-[16px] leading-relaxed transition-colors font-light">
-                        {link}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+            {footerLinks.map((column) => {
+              const showSeeAll = (column.title === "Products" || column.title === "Solutions") && column.links.length > 5;
+              const displayLinks = showSeeAll ? column.links.slice(0, 5) : column.links;
+
+              return (
+                <div key={column.title} className="flex flex-col gap-6">
+                  <h4 className="font-semibold text-[18px]">{column.title}</h4>
+                  <ul className="flex flex-col gap-3">
+                    {displayLinks.map((link, i) => (
+                      <li key={i}>
+                        <Link href="#" className="text-[#333333] hover:text-[#0068B3] text-[16px] leading-relaxed transition-colors font-light">
+                          {link}
+                        </Link>
+                      </li>
+                    ))}
+                    {showSeeAll && (
+                      <li>
+                        <Link href="#" className="text-[#0068B3] font-bold text-[16px] leading-relaxed transition-colors hover:underline">
+                          ...See All
+                        </Link>
+                      </li>
+                    )}
+                  </ul>
+                </div>
+              );
+            })}
           </div>
         </div>
 
