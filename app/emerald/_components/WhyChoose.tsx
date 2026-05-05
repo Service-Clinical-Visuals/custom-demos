@@ -13,7 +13,7 @@ const whyFeatures = [
     icon: "/emerald/images/truck.png"
   },
   {
-    title: "Skilled Product Development Team", // Note: The image shows this repeated, but I'll use different icons/names if logical
+    title: "Skilled Product Development Team",
     icon: "/emerald/images/diamond.png"
   },
   {
@@ -25,17 +25,17 @@ const whyFeatures = [
 const checklist = [
   "Nationwide Distribution Centers",
   "Strong Distributor Relationships",
-  // "Guaranteed In-Stock* Program"
+  "Guaranteed In-Stock* Program"
 ];
 
 const WhyChoose = () => {
   return (
-    <section className="py-12 lg:py-16">
+    <section className="pb-12 lg:pb-16">
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="text-center mb-16 space-y-2">
           <span className="text-[#199A68] font-semibold text-[16px] lg:text-[17px] tracking-wider">Why Choose Emerald Supply?</span>
-          <h2 className="text-[28px] lg:text-[32px] font-bold text-[#014D65] font-albert leading-tight">
+          <h2 className="text-[28px] lg:text-[32px] font-bold text-[#014D65] font-albert leading-tight mt-1">
             We are a seasoned player in the DME field
           </h2>
         </div>
@@ -62,7 +62,7 @@ const WhyChoose = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {whyFeatures.map((feature, index) => (
                 <div key={index} className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-[#F5F5F5] flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded-full bg-[#F5F5F5] flex items-center justify-center shrink-0">
                     <img src={feature.icon} alt={feature.title} className="w-8 h-8 object-contain" />
                   </div>
                   <span className="text-[15px] font-bold text-[#014D65] mt-1 leading-tight">{feature.title}</span>
@@ -78,13 +78,14 @@ const WhyChoose = () => {
                   <span className="text-[15px] text-[#333333] font-medium">{item}</span>
                 </div>
               ))}
+              <div className="py-3">
+                <Button href="#learn" variant="secondary" size="md" rounded="full" className="px-10 bg-[#014D65]" hasArrow={true}>
+                  Learn More
+                </Button>
+              </div>
             </div>
 
-            <div className="pt-2">
-              <Button href="#learn" variant="secondary" size="lg" rounded="full" className="px-10 bg-[#014D65]" hasArrow={true}>
-                Learn More
-              </Button>
-            </div>
+
           </div>
         </div>
       </div>

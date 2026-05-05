@@ -12,10 +12,6 @@ const About = () => {
           {/* Left Side: Image */}
           <div data-aos="fade-right" className="w-full lg:w-1/2">
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative group">
-              {/* 
-                 Placeholder Image - You can replace this with your actual image
-                 src="/emerald/images/about.jpg" 
-               */}
               <img
                 src="/emerald/images/about.png"
                 alt="Hospital Bed"
@@ -28,7 +24,7 @@ const About = () => {
           <div data-aos="fade-left" className="w-full lg:w-1/2 space-y-6">
             <div className="mb-2">
               <span className="text-[#199A68] font-semibold text-base tracking-wider">About Our Company</span>
-              <h2 className="text-[28px] lg:text-[32px] font-semibold text-[#014D65]">
+              <h2 className="text-[28px] lg:text-[32px] font-semibold text-[#014D65] mt-1">
                 A DME Manufacturer You Can Rely On
               </h2>
             </div>
@@ -51,7 +47,7 @@ const About = () => {
             </ul>
 
             <div className="pt-4">
-              <Button href="#more" variant="secondary" size="lg" rounded="full" className="px-10 group bg-[#014D65]" hasArrow={true}>
+              <Button href="#more" variant="secondary" size="md" rounded="full" className="px-10 group bg-[#014D65]" hasArrow={true}>
                 Learn More
               </Button>
             </div>
