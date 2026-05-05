@@ -84,7 +84,7 @@ const NewsSection = () => {
 
               {/* Text Content */}
               <div className="flex flex-col grow">
-                <h3 className="text-slate-900 font-bold text-sm md:text-base leading-snug mb-2 line-clamp-2">
+                <h3 className="text-slate-900 font-bold text-sm md:text-lg leading-snug mb-4 line-clamp-2">
                   {item.title}
                 </h3>
                 <p className="text-slate-400 text-sm md:text-base mb-3">{item.date}</p>
