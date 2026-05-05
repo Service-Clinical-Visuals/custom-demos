@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const CTA = () => {
   return (
-    <section className="py-12 lg:py-16">
+    <section className="">
       <div className="w-[95%] mx-auto bg-[#014D65] rounded-[2rem] p-12 md:p-16 text-center relative overflow-hidden">
         {/* Hexagonal Pattern Background */}
         <div className="absolute inset-0 opacity-10 pointer-events-none">
@@ -20,10 +20,10 @@ const CTA = () => {
             Send us a message and someone from our sales team will reach out to assist you.
           </p>
           <div className="flex flex-wrap justify-center gap-4 pt-4">
-            <Button href="#contact" variant="white" size="lg" rounded="full" className="px-10 !text-[#014D65] font-bold shadow-lg" hasArrow={true}>
+            <Button href="#contact" variant="white" size="md" rounded="full" className="px-10 !text-[#014D65] font-bold shadow-lg" hasArrow={true}>
               Contact Us
             </Button>
-            <Button href="#dealer" variant="white" size="lg" rounded="full" className="px-10 !text-[#014D65] font-bold shadow-lg" hasArrow={true}>
+            <Button href="#dealer" variant="white" size="md" rounded="full" className="px-10 !text-[#014D65] font-bold shadow-lg" hasArrow={true}>
               Become a Dealer
             </Button>
           </div>

@@ -2,6 +2,10 @@
 
 import React from "react";
 import Button from "./Button";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const productCategories = [
   {
@@ -18,6 +22,11 @@ const productCategories = [
     name: "Support Supplies",
     image: "/emerald/images/product-3.png",
     href: "#supplies"
+  },
+  {
+    name: "Mobility Aids",
+    image: "/emerald/images/product-1.png",
+    href: "#mobility"
   }
 ];
 
@@ -34,7 +43,7 @@ const Products = () => {
         <div className="flex flex-col lg:flex-row justify-between items-end mb-10 gap-6">
           <div data-aos="fade-right" className="max-w-2xl space-y-3">
             <span className="text-white font-semibold text-base tracking-wider">Our Product Category</span>
-            <h2 className="text-[28px] lg:text-[32px] font-semibold text-white">
+            <h2 className="text-[28px] lg:text-[32px] font-semibold text-white mt-1">
               A DME Manufacturer You Can Rely On
             </h2>
           </div>
@@ -45,46 +54,88 @@ const Products = () => {
           </div>
         </div>
 
-        {/* Product Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {productCategories.map((product, index) => (
-            <div
-              key={index}
-              data-aos="fade-up"
-              data-aos-delay={index * 100}
-              className="bg-white rounded-[2rem] p-6 flex flex-col items-center text-center shadow-xl group transition-all duration-500"
-            >
-              <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-[#F5F5F5] flex items-center justify-center p-4">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
-                />
-              </div>
+        {/* Product Cards Carousel */}
+        <div className="product-swiper-container">
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            spaceBetween={30}
+            slidesPerView={1}
+            loop={true}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+              el: ".custom-pagination",
+              bulletClass: "custom-bullet",
+              bulletActiveClass: "custom-bullet-active",
+              renderBullet: function (index, className) {
+                return `<span class="${className}"></span>`;
+              },
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+            className="pb-16"
+          >
+            {productCategories.map((product, index) => (
+              <SwiperSlide key={index}>
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                  className="bg-white rounded-[2rem] p-6 flex flex-col items-center text-center shadow-xl group transition-all duration-500 h-full"
+                >
+                  <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden mb-6 flex items-center justify-center p-4">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
+                    />
+                  </div>
 
-              <h3 className="text-[22px] font-bold text-[#014D65] mb-4 font-albert">{product.name}</h3>
+                  <h3 className="text-[22px] font-bold text-[#014D65] mb-4 font-albert">{product.name}</h3>
 
-              <Button
-                href={product.href}
-                variant="primary"
-                size="md"
-                rounded="full"
-                className="group !bg-[#014D65] !px-8 hover:!bg-[#013b4d]"
-                hasArrow={true}
-              >
-                View Products
-              </Button>
-            </div>
-          ))}
-        </div>
+                  <Button
+                    href={product.href}
+                    variant="primary"
+                    size="md"
+                    rounded="full"
+                    className="group !bg-[#014D65] !px-8 hover:!bg-[#013b4d]"
+                    hasArrow={true}
+                  >
+                    View Products
+                  </Button>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
 
-        {/* Carousel Indicators (Static for now) */}
-        <div className="flex justify-center gap-3 mt-12">
-          <div className="w-8 h-2 rounded-full bg-[#059347]"></div>
-          <div className="w-2 h-2 rounded-full bg-white"></div>
-          <div className="w-2 h-2 rounded-full bg-white"></div>
+          {/* Custom Carousel Indicators */}
+          <div className="custom-pagination flex justify-center gap-3 mt-6"></div>
         </div>
       </div>
+
+      <style jsx global>{`
+        .custom-bullet {
+          width: 8px;
+          height: 8px;
+          border-radius: 9999px;
+          background-color: white;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          display: inline-block;
+        }
+        .custom-bullet-active {
+          width: 32px;
+          background-color: #059347;
+        }
+      `}</style>
     </section>
   );
 };

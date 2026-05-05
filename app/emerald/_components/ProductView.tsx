@@ -13,7 +13,7 @@ const ProductView = () => {
           <div data-aos="fade-right" className="w-full lg:w-1/2 space-y-6">
             <div className="">
               <span className="text-[#199A68] font-semibold text-[16px] lg:text-[17px]">SKU #: 61759</span>
-              <h2 className="text-[28px] lg:text-[32px] font-semibold text-[#014D65] leading-tight mb-2">
+              <h2 className="text-[28px] lg:text-[32px] font-semibold text-[#014D65] leading-tight mt-1">
                 Digital Bariatric Alternating Pressure LAL Mattress System
               </h2>
             </div>
@@ -24,10 +24,10 @@ const ProductView = () => {
 
             <div className="w-full h-[1px] bg-[#dddddd]"></div>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button href="#view" variant="primary" size="lg" rounded="full" className="px-10 group !bg-[#014D65]" hasArrow={true}>
+              <Button href="#view" variant="primary" size="md" rounded="full" className="px-10 group !bg-[#014D65]" hasArrow={true}>
                 View Product
               </Button>
-              <Button href="#cart" variant="ghost" size="lg" rounded="full" className="px-10 !bg-[#F5F5F5] !text-[#199A68] border-none group" hasArrow={true} arrowVariant="green">
+              <Button href="#cart" variant="ghost" size="md" rounded="full" className="px-10 !bg-[#F5F5F5] !text-[#199A68] border-none group" hasArrow={true} arrowVariant="green">
                 Add to Cart
               </Button>
             </div>

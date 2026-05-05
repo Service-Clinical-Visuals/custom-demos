@@ -6,7 +6,7 @@ import { Mail, Phone, Send } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="py-12">
+    <footer className="pt-12 lg:pt-16 pb-8 lg:pb-12">
       <div className="w-[95%] mx-auto border border-[#DDDDDD] rounded-[2rem] p-10 md:p-16 md:pb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
           {/* Column 1: Logo & Desc */}
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 pt-6 border-t border-[#F0F0F0] text-center">
+        <div className="mt-16 pt-6 border-t border-[#DDDDDD] text-center">
           <p className="text-[16px] text-[#333333]">
             © Copyright <span className="font-bold text-[#666666]">Emerald Supply</span> 2026. All Rights Reserved.
           </p>

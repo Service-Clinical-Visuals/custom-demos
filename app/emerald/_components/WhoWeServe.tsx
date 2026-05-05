@@ -27,18 +27,18 @@ const services = [
 
 const WhoWeServe = () => {
   return (
-    <section className="py-12 lg:py-16">
+    <section className="pb-12 lg:pb-16">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-6">
           <div data-aos="fade-right" className="space-y-4">
             <span className="text-[#199A68] font-semibold text-[16px] lg:text-[17px] tracking-wider">Who We Serve</span>
-            <h2 className="text-[28px] lg:text-[32px] font-bold text-[#014D65] leading-tight font-albert">
+            <h2 className="text-[28px] lg:text-[32px] font-bold text-[#014D65] leading-tight font-albert mt-1">
               A DME Manufacturer You Can Rely On
             </h2>
           </div>
           <div data-aos="fade-left">
-            <Button href="#more" variant="secondary" size="lg" rounded="full" className="px-10 bg-[#014D65]" hasArrow={true}>
+            <Button href="#more" variant="secondary" size="md" rounded="full" className="px-10 bg-[#014D65]" hasArrow={true}>
               Learn More
             </Button>
           </div>
