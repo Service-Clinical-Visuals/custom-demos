@@ -35,7 +35,6 @@ const Partners = () => {
   return (
     <section className="">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="w-full h-[1px] bg-[#dddddd] mb-8 lg:mb-16"></div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Content */}
           <div data-aos="fade-right" className="lg:col-span-4">
