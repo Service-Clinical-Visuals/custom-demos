@@ -16,8 +16,8 @@ const featureTags = [
 
 const Features = () => {
   return (
-    <section className="py-12 lg:py-16">
-      <div className="w-[95%] mx-auto bg-[#014D65] rounded-[3rem] p-10 md:p-16 lg:p-20 relative overflow-hidden">
+    <section className="pb-12 lg:pb-16">
+      <div className="w-[95%] mx-auto bg-[#014D65] rounded-[3rem] p-10 lg:p-16 relative overflow-hidden">
         {/* Hexagonal Pattern Background */}
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="w-full h-full bg-[url('/emerald/images/bg-frame.jpg')] opacity-40 bg-cover bg-center"></div>
@@ -28,7 +28,7 @@ const Features = () => {
           {/* Header */}
           <div className="text-center mb-12 space-y-2">
             <span className="text-white font-semibold text-base tracking-wider">Our Features</span>
-            <h2 className="text-[28px] lg:text-[32px] font-bold text-white font-albert max-w-4xl mx-auto leading-tight">
+            <h2 className="text-[28px] lg:text-[32px] font-bold text-white font-albert max-w-4xl mx-auto leading-tight mt-1">
               Digital Bariatric Alternating Pressure LAL Mattress System
             </h2>
           </div>
@@ -54,7 +54,7 @@ const Features = () => {
               </div>
 
               <div className="pt-4">
-                <Button href="#learn" variant="white" size="lg" rounded="full" className="px-10 !text-[#014D65] font-bold" hasArrow={true}>
+                <Button href="#learn" variant="white" size="md" rounded="full" className="px-10 !text-[#014D65] font-bold" hasArrow={true}>
                   Learn More
                 </Button>
               </div>

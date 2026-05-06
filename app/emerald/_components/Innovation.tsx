@@ -55,7 +55,7 @@ const Innovation = () => {
           {/* Main Content Cell */}
           <div data-aos="fade-right" className="space-y-4 pr-4">
             <span className="text-white font-semibold lg:text-[17px] text-[16px] tracking-wider">The Ever-evolving DME Market</span>
-            <h2 className="text-[28px] lg:text-[32px] font-semibold text-white">
+            <h2 className="text-[28px] lg:text-[32px] font-semibold text-white mt-1">
               Innovation and Growth
             </h2>
             <p className="text-white lg:text-[17px] text-[16px] leading-relaxed text-justify">
