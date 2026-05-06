@@ -10,23 +10,23 @@ import { FaFacebook } from "react-icons/fa";
 export default function SternFooter() {
 
   return (
-    <footer className="bg-[#f7f7f7] pt-20 pb-8">
+    <footer className="bg-[#f7f7f7] pt-20 pb-8 overflow-hidden">
 
-      <div className="max-w-380 mx-auto px-6">
+      <div className="max-w-380 mx-auto px-4 sm:px-6">
 
         {/* TOP GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-10">
 
           {/* BRAND */}
           <div
             data-aos="fade-right"
-            className=""
+            className="sm:col-span-2 md:col-span-3 lg:col-span-1"
           >
           <div>
             <Image src="/stern-med/sternmed-logo.png" alt="SternMed Logo" width={190} height={120} />
           </div>
 
-            <p className="text-base text-gray-500 leading-relaxed mt-8 max-w-sm">
+            <p className="text-base text-gray-500 leading-relaxed mt-8">
               With our international team of experts, SternMed stands
               for reliable medical technology.
             </p>
@@ -115,12 +115,12 @@ export default function SternFooter() {
           {/* PARTNER */}
           <div
             data-aos="fade-left"
-            className="lg:text-right"
+            className="sm:col-span-2 md:col-span-2 lg:col-span-1 lg:text-right"
           >
           <div>
             <Image src="/stern-med/stern-gha-logo.png" alt="SternMed Logo" width={190} height={120} />
           </div>
-            <p className="text-base text-gray-500 leading-relaxed max-w-[180px] ">
+            <p className="text-base text-gray-500 leading-relaxed max-w-[180px]">
               Member of the German Healthcare Alliance (GHA)
             </p>
           </div>

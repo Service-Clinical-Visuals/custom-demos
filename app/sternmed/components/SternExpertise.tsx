@@ -25,7 +25,7 @@ const cards = [
 ];
 
 export default function SternExpertise() {
-  
+
 
   return (
     <section className="relative bg-[#f3f4f6] py-20 overflow-hidden">
@@ -41,7 +41,7 @@ export default function SternExpertise() {
             Our expertise
           </h2>
 
-          <p className="text-sm text-gray-500 max-w-2xl mx-auto">
+          <p className="text-base text-gray-500 max-w-2xl mx-auto">
             We provide advanced Imaging & Diagnostics, Operating Room solutions,
             and ICU devices, ensuring reliable performance across diagnosis,
             surgery, and critical care.
@@ -49,7 +49,7 @@ export default function SternExpertise() {
         </div>
 
         {/* CARDS */}
-        <div className="grid md:grid-cols-3 gap-6 mb-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -59,7 +59,7 @@ export default function SternExpertise() {
             >
               
               {/* IMAGE PLACEHOLDER */}
-              <div className="w-28 h-24 bg-gray-300 rounded-lg flex-shrink-0">
+              <div className="w-40 h-40 bg-gray-300 rounded-lg flex-shrink-0">
                 <Image src={card.img} alt={card.title} width={150} height={250} className="object-cover w-full h-full rounded-lg"/>
               </div>
 
@@ -87,7 +87,7 @@ export default function SternExpertise() {
 
         {/* CTA */}
         <div data-aos="zoom-in">
-          <button className="inline-flex font-bold items-center gap-2 bg-[#25477F] text-white text-sm px-6 py-3 rounded-md hover:bg-[#102b57] transition">
+          <button className="inline-flex font-bold items-center gap-2 bg-[#1E6FB6] cursor-pointer text-white text-base px-6 py-3 rounded-md hover:bg-[#102b57] transition">
             Explore Features
             <span><ArrowRight/></span>
           </button>

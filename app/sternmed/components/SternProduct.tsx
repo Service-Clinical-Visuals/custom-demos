@@ -8,13 +8,6 @@ import { ArrowRight, CircleCheck } from "lucide-react";
 import { RxDoubleArrowRight } from "react-icons/rx";
 
 export default function SternProduct() {
-  useEffect(() => {
-    AOS.init({
-      duration: 900,
-      once: true,
-      easing: "ease-out-cubic",
-    });
-  }, []);
 
   return (
     <section className="relative py-20 overflow-hidden">
@@ -31,7 +24,7 @@ export default function SternProduct() {
       <div className="relative max-w-380 mx-auto px-6">
 
         {/* TOP SECTION */}
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
 
           {/* LEFT VIDEO */}
           <div data-aos="fade-right">

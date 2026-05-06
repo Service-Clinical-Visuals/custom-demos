@@ -18,15 +18,15 @@ export default function SternTestimonial() {
       {/* OVERLAY */}
       {/* <div className="absolute inset-0 bg-[rgba(30,111,182,0.75)]" /> */}
 
-      <div className="relative max-w-380 mx-auto px-6">
+      <div className="relative max-w-380 mx-auto px-4 sm:px-6">
 
-        <div className="grid md:grid-cols-2 gap-14 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 md:gap-14 items-center">
 
           {/* LEFT IMAGE */}
           <div data-aos="fade-right">
             <div className="rounded-2xl overflow-hidden shadow-lg">
               {/* Placeholder image */}
-              <div className="w-full h-[420px] bg-gray-300">
+              <div className="w-full h-[260px] sm:h-[340px] md:h-[420px] bg-gray-300">
                 <Image src="/stern-med/stern-testimonial.png" alt="Testimonial" width={400} height={420} className="w-full h-full object-cover"/>
               </div>
             </div>
@@ -71,12 +71,12 @@ export default function SternTestimonial() {
             </div>
 
             {/* FOOTER */}
-            <div className="flex items-end justify-between gap-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 sm:gap-6">
 
               {/* AUTHOR */}
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-4"
+                className="flex items-center gap-4 min-w-0"
               >
                 {/* Avatar */}
                 <div className="w-12 h-12 rounded-full bg-[#1E6FB6] flex items-center justify-center text-white text-xl">

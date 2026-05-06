@@ -15,10 +15,10 @@ export default function SternFeatures() {
   }, []);
 
   return (
-    <section className="bg-[#f5f6f7] py-20">
-      <div className="max-w-380 mx-auto px-6">
+    <section className="bg-[#f5f6f7] py-14 md:py-20 overflow-hidden">
+      <div className="max-w-380 mx-auto px-4 sm:px-6">
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
 
           {/* LEFT CONTENT */}
           <div data-aos="fade-right">
@@ -102,7 +102,7 @@ export default function SternFeatures() {
           <div data-aos="fade-left">
             <div className="rounded-xl overflow-hidden">
               {/* Video placeholder */}
-              <div className="w-full h-[320px] md:h-[360px] bg-gray-300">
+              <div className="w-full h-[220px] sm:h-[280px] md:h-[360px] bg-gray-300">
                 <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
               </div>
             </div>

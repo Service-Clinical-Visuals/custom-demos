@@ -60,7 +60,7 @@ export default function SternExpertCard() {
         </div>
 
         {/* CARDS */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {expertiseCards.map((card, index) => (
             <div

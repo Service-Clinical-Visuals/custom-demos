@@ -9,10 +9,10 @@ import { ArrowRight } from "lucide-react";
 export default function SternDecision() {
   
   return (
-    <section className="bg-[#f5f6f7] py-20">
-      <div className="max-w-380 mx-auto px-6">
-        
-        <div className="grid md:grid-cols-3 gap-10 items-center">
+    <section className="bg-[#f5f6f7] py-20 overflow-x-hidden">
+      <div className="max-w-380 mx-auto px-4 sm:px-6">
+
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 items-center">
           
           {/* LEFT TEXT */}
           <div data-aos="fade-right">
@@ -43,14 +43,14 @@ export default function SternDecision() {
           <div data-aos="zoom-in">
             <div className="rounded-xl overflow-hidden">
               {/* Placeholder */}
-              <div className="w-full h-[260px] md:h-[300px] bg-gray-300">
+              <div className="w-full h-[220px] sm:h-[260px] md:h-[300px] bg-gray-300">
                 <Image src="/stern-med/stern-buy.jpg"   alt="Buying medical device" width={400} height={300} className="w-full h-full object-cover"/>
               </div>
             </div>
           </div>
 
           {/* RIGHT CARDS */}
-          <div className="space-y-4">
+          <div className="space-y-4 md:col-span-2 lg:col-span-1">
             
             {/* CARD 1 */}
             <div
