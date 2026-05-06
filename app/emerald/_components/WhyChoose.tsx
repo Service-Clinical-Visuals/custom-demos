@@ -13,7 +13,7 @@ const whyFeatures = [
     icon: "/emerald/images/truck.png"
   },
   {
-    title: "Skilled Product Development Team",
+    title: "Lasting Products You Can Rely On",
     icon: "/emerald/images/diamond.png"
   },
   {
@@ -25,7 +25,8 @@ const whyFeatures = [
 const checklist = [
   "Nationwide Distribution Centers",
   "Strong Distributor Relationships",
-  "Guaranteed In-Stock* Program"
+  "Guaranteed In-Stock* Program",
+  "Efficient Supply Chain Management"
 ];
 
 const WhyChoose = () => {
@@ -69,20 +70,15 @@ const WhyChoose = () => {
                 </div>
               ))}
             </div>
-
+            <div className="w-full h-[1px] bg-[#dddddd]"></div>
             {/* Checklist */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 pt-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6">
               {checklist.map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <img src="/emerald/images/check.png" alt="Check" className="w-5 h-5 object-contain" />
                   <span className="text-[15px] text-[#333333] font-medium">{item}</span>
                 </div>
               ))}
-              <div className="py-3">
-                <Button href="#learn" variant="secondary" size="md" rounded="full" className="px-10 bg-[#014D65]" hasArrow={true}>
-                  Learn More
-                </Button>
-              </div>
             </div>
 
 

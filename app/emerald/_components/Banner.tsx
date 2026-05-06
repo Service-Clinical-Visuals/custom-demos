@@ -19,7 +19,7 @@ export default function Banner() {
           <div className="max-w-3xl text-white">
             <h1
               data-aos="fade-up"
-              className="text-[32px] lg:text-[42px] font-bold leading-[1.1] mb-6 text-white"
+              className="text-[32px] lg:text-[42px] font-bold leading-[1.1] mb-6 text-white text-shadow-xl"
             >
               Complete DME Solutions Designed <br className="hidden lg:block" />
               for Comfort and Reliability
@@ -28,7 +28,7 @@ export default function Banner() {
             <p
               data-aos="fade-up"
               data-aos-delay="100"
-              className="lg:text-[17px] text-[16px] text-white/95 mb-4 max-w-2xl leading-relaxed"
+              className="lg:text-[17px] text-[16px] text-white mb-4 max-w-2xl leading-relaxed text-shadow-md"
             >
               Emerald Supply offers a comprehensive inventory of durable medical equipment (DME) including beds, wheelchairs, support surfaces, and respiratory products, designed with the end user in mind.
             </p>
@@ -48,6 +48,15 @@ export default function Banner() {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .text-shadow-xl {
+          text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+        }
+        .text-shadow-md {
+          text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+      `}</style>
     </section>
   );
 }

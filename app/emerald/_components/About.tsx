@@ -24,7 +24,7 @@ const About = () => {
           <div data-aos="fade-left" className="w-full lg:w-1/2 space-y-6">
             <div className="mb-2">
               <span className="text-[#199A68] font-semibold text-base tracking-wider">About Our Company</span>
-              <h2 className="text-[28px] lg:text-[32px] font-semibold text-[#014D65] mt-1">
+              <h2 className="text-[28px] lg:text-[32px] font-semibold text-[#014D65] mt-1 mb-3">
                 A DME Manufacturer You Can Rely On
               </h2>
             </div>

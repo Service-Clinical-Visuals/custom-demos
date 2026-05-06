@@ -34,7 +34,7 @@ const WhoWeServe = () => {
           <div data-aos="fade-right" className="space-y-4">
             <span className="text-[#199A68] font-semibold text-[16px] lg:text-[17px] tracking-wider">Who We Serve</span>
             <h2 className="text-[28px] lg:text-[32px] font-bold text-[#014D65] leading-tight font-albert mt-1">
-              A DME Manufacturer You Can Rely On
+              Healthcare Solutions for Every Care Environment
             </h2>
           </div>
           <div data-aos="fade-left">

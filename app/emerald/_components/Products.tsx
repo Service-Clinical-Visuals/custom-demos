@@ -24,9 +24,29 @@ const productCategories = [
     href: "#supplies"
   },
   {
-    name: "Mobility Aids",
-    image: "/emerald/images/product-1.png",
-    href: "#mobility"
+    name: "Lift Slings",
+    image: "/emerald/images/product-4.png",
+    href: "#lift-slings"
+  },
+  {
+    name: "Resident Safety",
+    image: "/emerald/images/product-5.png",
+    href: "#resident-safety"
+  },
+  {
+    name: "Rehabilitation",
+    image: "/emerald/images/product-6.png",
+    href: "#rehabilitation"
+  },
+  {
+    name: "Furniture",
+    image: "/emerald/images/product-7.png",
+    href: "#furniture"
+  },
+  {
+    name: "Support Supplies",
+    image: "/emerald/images/product-8.png",
+    href: "#supplies"
   }
 ];
 
@@ -40,11 +60,11 @@ const Products = () => {
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         {/* Section Header */}
-        <div className="flex flex-col lg:flex-row justify-between items-end mb-10 gap-6">
+        <div className="flex flex-col lg:flex-row justify-between items-center mb-10 gap-6">
           <div data-aos="fade-right" className="max-w-2xl space-y-3">
             <span className="text-white font-semibold text-base tracking-wider">Our Product Category</span>
-            <h2 className="text-[28px] lg:text-[32px] font-semibold text-white mt-1">
-              A DME Manufacturer You Can Rely On
+            <h2 className="text-[28px] lg:text-[32px] font-semibold text-white mt-1 max-w-xl">
+              Medical Devices and Equipment for Healthcare Use
             </h2>
           </div>
           <div data-aos="fade-left" className="lg:max-w-md">
@@ -91,7 +111,7 @@ const Products = () => {
                   data-aos-delay={index * 100}
                   className="bg-white rounded-[2rem] p-6 flex flex-col items-center text-center shadow-xl group transition-all duration-500 h-full"
                 >
-                  <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden mb-6 flex items-center justify-center p-4">
+                  <div className="bg-[#B4B4B433]/50 w-full aspect-[4/3] rounded-2xl overflow-hidden mb-6 flex items-center justify-center p-4">
                     <img
                       src={product.image}
                       alt={product.name}
@@ -117,7 +137,7 @@ const Products = () => {
           </Swiper>
 
           {/* Custom Carousel Indicators */}
-          <div className="custom-pagination flex justify-center gap-3 mt-6"></div>
+          <div className="custom-pagination flex justify-center gap-3 lg:mt-10 mt-6"></div>
         </div>
       </div>
 
