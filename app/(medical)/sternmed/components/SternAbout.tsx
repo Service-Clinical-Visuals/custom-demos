@@ -11,7 +11,7 @@ export default function SternAbout() {
   return (
     <section className="bg-[#f5f6f7] py-20 overflow-hidden">
       <div className="max-w-380 mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-stretch">
           
           {/* LEFT CONTENT */}
           <div data-aos="fade-right">
@@ -19,7 +19,7 @@ export default function SternAbout() {
               Together, we make reliable healthcare accessible in your community
             </h2>
 
-            <p className="text-base text-gray-500 leading-[1.9] mb-4">
+            <p className="text-base text-gray-500 leading-[1.9] mb-5">
               SternMed GmbH is a medical device manufacturer and solution provider
               for healthcare projects, with head office in Baden-Württemberg. The
               company was established in 2011, with the idea of manufacturing
@@ -27,7 +27,7 @@ export default function SternAbout() {
               to enhance healthcare globally.
             </p>
 
-            <p className="text-base text-gray-500 leading-[1.9] mb-8">
+            <p className="text-base text-gray-500 leading-[1.9] mb-7">
               We understand that executing a healthcare project and selecting
               appropriate medical devices is a complicated procedure; it requires
               a transparent process based on available resources and recognition
@@ -54,13 +54,9 @@ export default function SternAbout() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div data-aos="fade-left" className="relative">
-            <div className="rounded-xl overflow-hidden shadow-lg">
-              {/* Placeholder (replace with actual image later) */}
-              <div className="w-full h-[240px] sm:h-[300px] md:h-[380px] bg-gray-300">
-                <Image src="/stern-med/stern-about.png" alt="About SternMed" width={500} height={400} className="object-cover w-full h-full" />
-              </div>
-            </div>
+          <div data-aos="fade-left" className="relative self-stretch">
+            <div className="rounded-xl overflow-hidden shadow-lg h-full">
+              <Image src="/stern-med/stern-about.png" alt="About SternMed" width={500} height={400} className="object-cover w-full h-full" />6            </div>
           </div>
 
         </div>

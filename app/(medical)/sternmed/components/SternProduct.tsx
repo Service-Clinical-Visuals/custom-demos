@@ -53,7 +53,7 @@ export default function SternProduct() {
               The versatile electrosurgery devices from SternMed are argon assisted. The automatic adjustment of the cutting and coagulation performance are the further highlights.
             </p>
 
-            <button className="inline-flex items-center gap-2 bg-white text-[#1E6FB6]  cursor-pointer text-base px-5 py-3 rounded-md hover:bg-gray-100 transition">
+            <button className="inline-flex items-center gap-2 bg-white text-[#1E6FB6]  cursor-pointer font-bold text-base px-5 py-3 rounded-md hover:bg-gray-100 transition">
               View Specifications
               <span><ArrowRight /></span>
             </button>
@@ -76,7 +76,7 @@ export default function SternProduct() {
             {/* CARD 1 */}
             <div data-aos="fade-up" className="bg-white/90 rounded-xl shadow-md p-6 relative">
 
-              <div className="absolute top-1 left-1 bg-[#25477F] text-white text-base px-4 py-1 rounded-tl-xl rounded-br-xl">
+              <div className="absolute top-1 left-1 bg-[#25477F] text-white text-lg px-4 py-1 rounded-tl-xl rounded-br-xl">
                 Imaging & Diagnostics
               </div>
 
@@ -91,7 +91,7 @@ export default function SternProduct() {
             {/* CARD 2 */}
             <div data-aos="fade-up" className="bg-white/90 rounded-xl shadow-md p-6 relative">
 
-              <div className="absolute top-1 left-1 bg-[#25477F] text-white text-base px-4 py-1 rounded-tl-xl rounded-br-xl">
+              <div className="absolute top-1 left-1 bg-[#25477F] text-white text-lg px-4 py-1 rounded-tl-xl rounded-br-xl">
                 Optional accessories
               </div>
 

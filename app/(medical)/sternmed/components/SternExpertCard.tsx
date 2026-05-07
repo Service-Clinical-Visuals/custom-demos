@@ -6,10 +6,10 @@ import Image from "next/image";
 
 const expertiseCards = [
   {
-    title: "Medical Imaging",
+    title: "Medical Imaging Systems",
     img: "/stern-med/stern-exp-1.png",
     description:
-      "SternMed core products are the medical imaging devices including Magnetic Resonance Imaging (MRI), Computed Tomography...",
+      "SternMed provides advanced medical imaging solutions including MRI, CT, X-ray, and ultrasound systems designed to meet global healthcare needs with reliable hardware and software technologies."
   },
   {
     title: "OR Solutions",

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ChevronDown, Earth, Menu, X } from "lucide-react";
+import { ArrowRight, ChevronDown, Earth, EarthIcon, Globe, Menu, X } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -59,7 +59,8 @@ export default function SternNavbar() {
             Search <ArrowRight />
           </button>
           <button className="cursor-pointer border p-2 rounded-md bg-[#1E6FB6]">
-            <Earth className="text-white" />
+                       <Globe size={18} strokeWidth={2.3} />
+
           </button>
 
           {/* Hamburger — visible on mobile and tablet */}
