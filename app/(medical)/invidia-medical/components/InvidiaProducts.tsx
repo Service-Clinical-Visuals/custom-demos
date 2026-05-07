@@ -30,7 +30,7 @@ export default function InvidiaProducts() {
         {/* ======================================
             TOP HEADER
         ======================================= */}
-        <div className="flex flex-col justify-between gap-10 lg:flex-row lg:items-start">
+        <div className="flex flex-col justify-between gap-10 lg:flex-row lg:items-center">
           {/* LEFT CONTENT */}
           <div
             data-aos="fade-right"

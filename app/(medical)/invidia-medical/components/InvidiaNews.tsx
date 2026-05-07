@@ -32,7 +32,7 @@ export default function InvidiaNews() {
         {/* ======================================
             TOP SECTION
         ======================================= */}
-        <div className="flex flex-col justify-between gap-12 lg:flex-row lg:items-start">
+        <div className="flex flex-col justify-between gap-12 lg:flex-row lg:items-center">
           {/* LEFT CONTENT */}
           <div
             data-aos="fade-right"
