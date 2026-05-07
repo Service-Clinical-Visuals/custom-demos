@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --strena-primary: #00427C;
+  --strena-secondary: #C5EEFF;
+  --strena-text: #333333;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+p {
+  font-weight: 400;
+  color: var(--strena-text);
+}
