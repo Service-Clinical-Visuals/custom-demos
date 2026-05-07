@@ -37,7 +37,7 @@ export default function SternFooter() {
               {[<BsInstagram/>, <BsLinkedin/>, <FaFacebook/>, <BsYoutube/>].map((item, index) => (
                 <button
                   key={index}
-                  className="w-10 h-10 rounded-full border border-[#0077B5] text-[#0077B5] flex items-center justify-center hover:bg-[#0077B5] hover:text-white transition"
+                  className="w-10 h-10 rounded-full border cursor-pointer border-[#0077B5] text-white bg-[#1E6FB6] flex items-center justify-center hover:bg-[#0077B5] hover:text-white transition"
                 >
                   {item}
                 </button>
@@ -48,7 +48,7 @@ export default function SternFooter() {
 
           {/* QUICK LINKS */}
           <div data-aos="fade-up" data-aos-delay="100">
-            <h3 className="font-semibold text-gray-800 mb-5">
+            <h3 className="font-semibold text-gray-800 mb-5 text-lg">
               Quick Links
             </h3>
 
@@ -63,7 +63,7 @@ export default function SternFooter() {
 
           {/* MEDICAL EQUIPMENT */}
           <div data-aos="fade-up" data-aos-delay="200">
-            <h3 className="font-semibold text-gray-800 mb-5">
+            <h3 className="font-semibold text-gray-800 mb-5 text-lg">
               Medical Equipment
             </h3>
 
@@ -76,7 +76,7 @@ export default function SternFooter() {
 
           {/* COMPANY */}
           <div data-aos="fade-up" data-aos-delay="300">
-            <h3 className="font-semibold text-gray-800 mb-5">
+            <h3 className="font-semibold text-gray-800 mb-5 text-lg">
               Company
             </h3>
 
@@ -89,7 +89,7 @@ export default function SternFooter() {
 
           {/* ADDRESS */}
           <div data-aos="fade-up" data-aos-delay="400">
-            <h3 className="font-semibold text-gray-800 mb-5">
+            <h3 className="font-semibold text-gray-800 mb-5 text-lg">
               Address
             </h3>
 

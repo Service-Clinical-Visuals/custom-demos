@@ -65,7 +65,7 @@ export default function SternExpertise() {
 
               {/* CONTENT */}
               <div>
-                <h3 className="text-sm font-semibold text-gray-800 mb-2">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   {card.title}
                 </h3>
 

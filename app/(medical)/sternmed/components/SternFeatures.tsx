@@ -6,14 +6,6 @@ import "aos/dist/aos.css";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import { ArrowRight, CircleCheck } from "lucide-react";
 export default function SternFeatures() {
-  useEffect(() => {
-    AOS.init({
-      duration: 900,
-      once: true,
-      easing: "ease-out-cubic",
-    });
-  }, []);
-
   return (
     <section className="bg-[#f5f6f7] py-14 md:py-20 overflow-hidden">
       <div className="max-w-380 mx-auto px-4 sm:px-6">
@@ -72,25 +64,11 @@ export default function SternFeatures() {
                   </span>
                   Enhanced cutting current for eschar free incision
                 </li>
-
-                <li className="flex items-start gap-3">
-                  <span>
-                    <CircleCheck size={22} className="fill-[#25477F] text-white " />
-                  </span>
-                  Cutting current with selectable coagulating property for bleeding controlled dissection
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span>
-                    <CircleCheck size={22} className="fill-[#25477F] text-white " />
-                  </span>
-                  Low capacitive coupling by slow BLEND current for endoscopic procedures
-                </li>
               </ul>
             </div>
 
             {/* CTA */}
-            <button className="inline-flex items-center gap-2 bg-[#1E6FB6] text-white text-sm px-5 py-3 rounded-md hover:bg-[#25477F] transition cursor-pointer">
+            <button className="inline-flex font-bold items-center gap-2 bg-[#1E6FB6] text-white text-base px-5 py-3 rounded-md hover:bg-[#25477F] transition cursor-pointer">
               View Product
               <span>
                 <ArrowRight size={18} className="text-white" />

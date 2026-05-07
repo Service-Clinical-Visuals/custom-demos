@@ -17,7 +17,7 @@ export default function SternDecision() {
           {/* LEFT TEXT */}
           <div data-aos="fade-right">
             <p className="text-gray-700 text-lg font-medium mb-2">
-              A crucial decision:
+              A crucial decision
             </p>
 
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 leading-tight mb-4">
@@ -62,7 +62,7 @@ export default function SternDecision() {
               </h3>
               <p className="text-base text-gray-500">
                 Ensuring that our medical device meets the specific needs...{" "}
-                <span className="text-[#1E6FB6] underline font-medium cursor-pointer">
+                <span className="text-[#1E6FB6] underline font-medium cursor-pointer text-xs">
                   READ MORE
                 </span>
               </p>
@@ -79,7 +79,7 @@ export default function SternDecision() {
               </h3>
               <p className="text-base text-gray-500">
                 Verifying that the device is compatible with current healthcare...{" "}
-                <span className="text-[#1E6FB6] underline  font-medium cursor-pointer">
+                <span className="text-[#1E6FB6] underline  font-medium cursor-pointer text-xs">
                   READ MORE
                 </span>
               </p>
@@ -96,7 +96,7 @@ export default function SternDecision() {
               </h3>
               <p className="text-base text-gray-500">
                 We balance the initial cost of our device with its long-term...{" "}
-                <span className="text-[#1E6FB6] underline  font-medium cursor-pointer">
+                <span className="text-[#1E6FB6] underline  font-medium cursor-pointer text-xs">
                   READ MORE
                 </span>
               </p>
