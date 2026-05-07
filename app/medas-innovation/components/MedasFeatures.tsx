@@ -44,15 +44,15 @@ export default function MedasFeatures() {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div data-aos="fade-left" className="w-full md:max-w-xl">
+          <div data-aos="fade-left" className="w-full md:max-w-xl lg:max-w-2xl">
 
             {/* Title */}
-            <h3 className="text-xl md:text-2xl font-semibold text-gray-800">
+            <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mr-[25px]">
               Key Features of Two-Way Silicone Coated Latex Foley Catheter
             </h3>
 
             {/* Description */}
-            <p className="mt-4 text-gray-600 text-base leading-[1.9]">
+            <p className="mt-4 text-gray-600 text-base leading-[1.9]  ">
               This catheter is made from premium medical-grade latex with a smooth
               silicone coating for easy insertion and enhanced patient comfort.
               Its two-way design ensures efficient drainage and secure balloon

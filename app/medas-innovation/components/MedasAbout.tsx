@@ -6,10 +6,10 @@ export default function MedasAbout() {
   return (
     <section className="w-full bg-gray-100 py-20">
       <div className="max-w-380 mx-auto px-6 lg:px-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* LEFT IMAGE */}
-          <div data-aos="fade-right" className="w-full h-full">
+          <div data-aos="fade-right" className="lg:col-span-7 w-full h-full">
             <div className="w-full h-[320px] md:h-[420px] lg:h-[460px] rounded-2xl overflow-hidden">
               <img
                 src="/medas-innovation/assets/medas-about.png"
@@ -20,7 +20,7 @@ export default function MedasAbout() {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div data-aos="fade-left" className="max-w-xl">
+          <div data-aos="fade-left" className="lg:col-span-5 max-w-xl">
             
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
@@ -33,7 +33,7 @@ export default function MedasAbout() {
             </p>
 
             {/* Description */}
-            <div className="mt-4 space-y-3 text-gray-600 text-base leading-[1.9]">
+            <div className="mt-4 space-y-3 text-gray-600 text-base leading-[1.9] max-w-full">
               <p>
                 Our logistic center and headquarters Located in city of Miami,
                 service all over the world offer a wide range of solutions in

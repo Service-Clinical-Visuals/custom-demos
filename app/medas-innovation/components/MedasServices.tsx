@@ -10,7 +10,7 @@ export default function MedasServices() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* LEFT CONTENT */}
-          <div data-aos="fade-right" className="max-w-xl">
+          <div data-aos="fade-right" className="max-w-2xl">
             
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
@@ -25,18 +25,7 @@ export default function MedasServices() {
                 and health care supplies and devices.
               </p>
               <p>
-                Arrive as shortly time possible, the inventory storage conditions
-                must be perform in adequate and properly facilities allow
-                excellent organization inventory and ready when commercial allied
-                request to be dispatch.
-              </p>
-              <p>
-                LOGISTIC: accurate and promptly local or international internal
-                and external logistic grant our quality products must always be
-                on time, otherwise the last AIDC (automatic identification and
-                data capture technology) concede exceptional traceability only
-                whit scanner each product from factory to costumer and easy way
-                to search and find MEDADV products wherever is it.
+               Arrive as shortly time possible, the inventory storage conditions must be perform in adequate and propertly facilities allow excellent organization inventory and ready when commercial allied request to be dispatch. LOGISTIC; accurate and promptly local or international internal and external logistic grant our quality products must always be on time, otherwise the last AIDC ( automatic Identification and data capture technology ) concede exceptional traceability only whit scanner each product from factory to costumer and easy way to search and find MEDADV products wherever is it.
               </p>
             </div>
 

@@ -13,7 +13,7 @@ const cards = [
     title: "Medical Gloves",
     subtitle: "Medical Gloves",
     gradient: "from-purple-900/80 to-pink-500/60",
-    img: "/medas-innovation/assets/medas-project2.jpg",
+    img: "/medas-innovation/assets/medas-project2.png",
   },
   {
     title: "Urology",
@@ -64,7 +64,7 @@ export default function MedasProject() {
               key={i}
               data-aos="fade-up"
               data-aos-delay={i * 150}
-              className="relative rounded-xl overflow-hidden h-[480px] group"
+              className="relative rounded-xl overflow-hidden h-[550px] group"
             >
               
               {/* IMAGE */}

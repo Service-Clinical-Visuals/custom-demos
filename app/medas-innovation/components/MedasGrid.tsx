@@ -27,21 +27,17 @@ export default function MedasGrid() {
           {/* Pattern Overlay */}
           {/* <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div> */}
 
-          <div className="relative p-8 md:p-12 lg:p-16 max-w-3xl ">
+          <div className="relative p-8 md:p-12 lg:p-12 max-w-3xl ">
             <h3 className="text-xl md:text-2xl font-semibold">
               Who We Are?
             </h3>
 
             <p className="mt-4 text-base text-white/80 leading-[1.9]">
-              Located in South Florida, our headquarters in Miami city means something more
-              than vacations or good times. Our privileged location allows us to serve a vast
-              community in healthcare across the US, LATAM, and worldwide.
+              Located in South Florida, our headquarters in Miami city means something more than vacations or good times. Our privileged location allows us to serve a vast community in healthcare across the US, LATAM, and worldwide. We are supported by two principal sea freight ports as well as some of the most important commercial airports on the east coast of the country.
             </p>
 
             <p className="mt-4 text-base text-white/80 leading-[1.9]">
-              First and foremost, our commitment is to healthcare support, with an extensive
-              product portfolio in critical specializations such as interventional cardiology,
-              anesthesia and respiratory therapy.
+             First and foremost, our commitment is to healthcare support, with an extensive product portfolio in critical specializations such as interventional cardiology, anaesthesia and respiratory therapy, vascular access, and other frequently used medical supplies across healthcare sectors.
             </p>
 
             <button className="mt-6 bg-white text-blue-600 px-5 py-2 rounded-md flex items-center gap-2 hover:bg-gray-100 transition">
@@ -58,7 +54,7 @@ export default function MedasGrid() {
           {/* Pattern */}
           {/* <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div> */}
 
-          <div className="relative px-6 lg:px-48 ">
+          <div className="relative px-6 lg:px-36 ">
             <h3 className="text-xl md:text-2xl font-semibold">
               Who We Serve for
             </h3>
@@ -69,8 +65,7 @@ export default function MedasGrid() {
             </p>
 
             <p className="mt-4 text-base text-white/80 leading-[1.9]">
-              First and foremost, our commitment is to healthcare support, with an extensive
-              product portfolio in critical specializations.
+              First and foremost, our commitment is to healthcare support, with an extensive product portfolio in critical specializations such as interventional cardiology, anaesthesia and respiratory therapy, vascular access, and other frequently used medical supplies across healthcare sectors.
             </p>
 
             <button className="mt-6 bg-white text-[#0287C3] px-5 py-2 rounded-md flex items-center gap-2 hover:bg-gray-100 transition">

@@ -46,21 +46,21 @@ export default function MedasNews() {
           {/* PATTERN OVERLAY */}
           <div className="absolute inset-0 opacity-10 bg-[url('/medas-innovation/assets/medas-pattern.png')] bg-repeat"></div>
 
-          <div className="relative p-6 md:p-10 max-w-2xl space-y-4">
+          <div className="relative p-6 md:p-10 max-w-3xl space-y-4">
             
             {/* LABEL */}
-            <p className="text-white/70 text-base">
+            <p className="text-xl md:text-2xl font-semibold text-white/70">
               Our News
             </p>
 
             {/* TITLE */}
-            <h3 className="text-xl md:text-2xl font-semibold">
+            <h3 className="text-xl md:text-xl font-semibold">
               What is a Stent?
             </h3>
 
             {/* DESCRIPTION */}
             <p className="text-sm md:text-base text-white/80 leading-[1.9]">
-                A stent is a tiny wire mesh tube that treat narrowed arteries in the human body. Stents are usually made from metal mesh such as Stainless Steel and CoCr based alloy. Physicians place it in a coronary artery (an artery feeding the heart muscle) to re-establish and improve blood flow in the human body through a procedure called angioplasty. Abnormal, narrow arteries are cause by a build up of fatty deposits called plaque. It can reduce blood flow through arteries to the heart and cause chest pain, shortness of breath and other coronary artery disease.Nowadays stents are coated with medicine that eluting drugs (DES) slowing and continuously to block cell proliferation in the artery. One of this drugs is Sirulimus.
+               A stent is a tiny wire mesh tube that treat narrowed arteries in the human body. Stents are usually made from metal mesh such as Stainless Steel and CoCr based alloy. Physicians place it in a coronary artery (an artery feeding the heart muscle) to re-establish and improve blood flow in the human body through a procedure called angioplasty. Abnormal, narrow arteries are cause by a build up of fatty deposits called plaque. It can reduce blood flow through arteries to the heart and cause chest pain, shortness of breath and other coronary artery disease. Nowadays stents are coated with medicine that eluting drugs (DES) slowing and continuously to block cell proliferation in the artery. One of this drugs is Sirulimus.
             </p>
 
             {/* CTA */}
