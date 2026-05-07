@@ -13,7 +13,22 @@ interface VideoContextType {
   error: string | null;
 }
 
+interface VideoConfigContextType {
+  apiUrl: string;
+}
+
 const VideoContext = createContext<VideoContextType | undefined>(undefined);
+const VideoConfigContext = createContext<VideoConfigContextType>({
+  apiUrl: "https://api.clinicalvisuals.com/admin/custom-business/public/business-media",
+});
+
+export const VideoConfigProvider = ({ children, apiUrl }: { children: ReactNode; apiUrl: string }) => {
+  return (
+    <VideoConfigContext.Provider value={{ apiUrl }}>
+      {children}
+    </VideoConfigContext.Provider>
+  );
+};
 
 // Fallback data to use when API fails or returns error
 export const FALLBACK_VIDEOS: VideoData = {
@@ -33,16 +48,17 @@ export const FALLBACK_VIDEOS: VideoData = {
 };
 
 
-export const VideoProvider = ({ children, website }: { children: ReactNode; website?: string }) => {
-  const [videos, setVideos] = useState<VideoData | null>(null);
+export const VideoProvider = ({ children, website, apiUrl: apiUrlProp }: { children: ReactNode; website?: string; apiUrl?: string }) => {
+  const config = useContext(VideoConfigContext);
+  const resolvedApiUrl = apiUrlProp || config.apiUrl;
 
+  const [videos, setVideos] = useState<VideoData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isFallback, setIsFallback] = useState(false);
   const [showWarning, setShowWarning] = useState(false);
 
   useEffect(() => {
-    // Check if user has already dismissed the warning in this session
     const isDismissed = sessionStorage.getItem("dummy-video-warning-dismissed");
     if (isDismissed) {
       setShowWarning(false);
@@ -55,10 +71,8 @@ export const VideoProvider = ({ children, website }: { children: ReactNode; webs
         setLoading(true);
         setError(null);
 
-        // Determine the business name: Use prop if provided, otherwise extract from URL path
         let resolvedBusinessName = website;
         if (!resolvedBusinessName && typeof window !== 'undefined') {
-          // Extracts "sunset-healthcare" from "/sunset-healthcare/some-page"
           resolvedBusinessName = window.location.pathname.split('/')[1];
         }
 
@@ -68,10 +82,8 @@ export const VideoProvider = ({ children, website }: { children: ReactNode; webs
           setIsFallback(true);
           return;
         }
-        // Live
-        const response = await fetch(`https://api.clinicalvisuals.com/admin/custom-business/public/business-media?businessName=${resolvedBusinessName}`);
-        // Local
-        // const response = await fetch(`http://192.168.1.75:3002/custom-business/public/business-media?businessName=${resolvedBusinessName}`);
+
+        const response = await fetch(`${resolvedApiUrl}?businessName=${resolvedBusinessName}`);
 
 
         if (!response.ok) {
@@ -117,7 +129,7 @@ export const VideoProvider = ({ children, website }: { children: ReactNode; webs
     };
 
     fetchData();
-  }, [website]);
+  }, [website, resolvedApiUrl]);
 
   const closeWarning = () => {
     setShowWarning(false);
@@ -139,7 +151,6 @@ export const VideoProvider = ({ children, website }: { children: ReactNode; webs
     <VideoContext.Provider value={{ videos, loading, error }}>
       {children}
 
-      {/* Fallback Warning Banner */}
       {showWarning && isFallback && (
         <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[200] animate-in fade-in slide-in-from-bottom-4 duration-500">
           <div className="bg-white/90 backdrop-blur-md border border-gray-200 px-6 py-3 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex items-center gap-4">
@@ -168,6 +179,3 @@ export const useVideo = () => {
   }
   return context;
 };
-
-
-
