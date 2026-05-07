@@ -16,7 +16,7 @@ const About = () => {
         <div className="">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="/seiler/about.png" // Replace with your actual image path
+              src="/medical/seiler/about.png" // Replace with your actual image path
               alt="Seiler Medical Equipment Display"
               className="w-full h-auto object-cover"
             />
@@ -61,7 +61,7 @@ const About = () => {
                 className="flex items-center gap-3 text-[#555555]">
                 <div className="w-5 h-5 bg-[#0475BC] rounded-full flex items-center justify-center shrink-0 overflow-hidden">
                   <Image
-                    src="/seiler/check.png"
+                    src="/medical/seiler/check.png"
                     alt="check"
                     width={12}
                     height={12}
@@ -74,7 +74,7 @@ const About = () => {
           </ul>
 
           {/* CTA Button */}
-          <button className="group flex cursor-pointer items-center gap-3 bg-[#0077b6] hover:bg-[#005f92] text-[#FFFFFF] px-8 py-3.5 rounded-full transition-all duration-300 shadow-lg">
+          <button className="group flex cursor-pointer items-center gap-3 bg-[#0077b6] hover:bg-[#005f92] text-[#FFFFFF] px-8 py-2.5 rounded-full transition-all duration-300 shadow-lg">
             <span className="font-semibold">Learn More About Us</span>
             <div className="bg-[#FFFFFF]  rounded-full p-1 group-hover:translate-x-1 transition-transform">
               <ArrowRight className="text-[#0077b6] w-6 h-6" />

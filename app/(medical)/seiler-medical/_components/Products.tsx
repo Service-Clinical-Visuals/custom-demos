@@ -5,19 +5,19 @@ const Products = () => {
   const products = [
     {
       name: "3D Dental Surgical Microscope",
-      image: "/seiler/p-1.png", // Replace with your actual image paths
+      image: "/medical/seiler/p-1.png", // Replace with your actual image paths
     },
     {
       name: "Alpha Air 6 Dental",
-      image: "/seiler/p-2.png",
+      image: "/medical/seiler/p-2.png",
     },
     {
       name: "Alpha Air 3 Dental",
-      image: "/seiler/p-3.png",
+      image: "/medical/seiler/p-3.png",
     },
     {
       name: "Alpha Slim 6 Dental",
-      image: "/seiler/p-4.png",
+      image: "/medical/seiler/p-4.png",
     },
   ];
 
@@ -53,13 +53,13 @@ const Products = () => {
             </div>
 
             {/* Product Info & Action */}
-            <div className="mt-6 flex flex-col items-center text-center pb-8">
-              <h3 className="text-[#0a1d37] font-bold text-sm md:text-base px-4 min-h-12 flex items-center">
+            <div className="mt-2 flex flex-col items-center text-center pb-4">
+              <h3 className="text-[#0a1d37] font-bold text-sm md:text-lg px-4 min-h-12 flex items-center">
                 {product.name}
               </h3>
 
               {/* Circular Arrow Button */}
-              <button className=" cursor-pointer absolute bottom-4 right-4 bg-[#0475BC] p-2.5 rounded-full text-[#FFFFFF] shadow-lg transition-transform hover:scale-110 active:scale-95">
+              <button className="cursor-pointer absolute bottom-4 right-4 bg-[#0475BC] p-2.5 rounded-full text-[#FFFFFF] shadow-lg transition-transform hover:scale-110 active:scale-95">
                 <ArrowUpRight size={18} strokeWidth={2.5} />
               </button>
             </div>
@@ -70,7 +70,7 @@ const Products = () => {
       {/* Footer CTA */}
       <div className="flex justify-center">
         <button className="cursor-pointer flex items-center gap-3 bg-[#0475BC] hover:bg-[#005f92] text-[#FFFFFF] px-8 py-3 rounded-full transition-all duration-300 shadow-lg group">
-          <span className="font-semibold text-sm">View All Products</span>
+          <span className="font-semibold text-base">View All Products</span>
           <div className="bg-[#FFFFFF] rounded-full p-1 group-hover:translate-x-1 transition-transform">
             <ArrowRight className="text-[#0475BC] w-6 h-6" />
           </div>

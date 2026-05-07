@@ -56,17 +56,6 @@ export default function Navbar() {
 
           {/* Desktop right side */}
           <div className="hidden lg:flex flex-col items-end w-full">
-            {/* Top bar */}
-            <div className="flex items-center gap-6 text-base text-[#333333] py-2">
-              <button className="hover:text-[#0475BC] transition-colors">Schedule a Demo</button>
-              <button className="hover:text-[#0475BC] transition-colors">Corporate Site</button>
-              <button className="group inline-flex items-center gap-3 bg-[#0475BC] hover:bg-[#035f98] text-[#FFFFFF] px-4 py-1.5 rounded-full text-base font-semibold transition-all duration-300 cursor-pointer">
-                <span>Search</span>
-                <span className="w-7 h-7 bg-[#FFFFFF] rounded-full flex items-center justify-center transform transition duration-300 group-hover:scale-110">
-                  <ArrowRight className="text-[#0475BC]" size={14} />
-                </span>
-              </button>
-            </div>
 
             {/* Main nav */}
             <nav className="flex items-center gap-8 text-base font-medium text-[#333333] pb-3">

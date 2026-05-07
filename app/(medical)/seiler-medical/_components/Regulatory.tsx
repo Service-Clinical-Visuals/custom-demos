@@ -15,7 +15,7 @@ const Regulatory = () => {
       {/* Wave/DNA graphic simulation */}
       <div
         className="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/seiler/bg-2.jpg')" }} // replace with your image
+        style={{ backgroundImage: "url('/medical/seiler/bg-2.jpg')" }} // replace with your image
       />
 
       <div className="relative z-10 container mx-auto flex flex-col lg:flex-row items-center gap-12">
@@ -52,14 +52,14 @@ const Regulatory = () => {
 
           {/* Download Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="cursor-pointer flex items-center justify-between bg-[#FFFFFF]/90 hover:bg-[#FFFFFF] text-[#333333F0] px-6 py-4 rounded-xl w-full sm:w-64 transition-colors shadow-lg group">
+            <button className="cursor-pointer flex items-center justify-between bg-[#FFFFFF]/90 hover:bg-[#FFFFFF] text-[#333333F0] px-6 py-2 rounded-xl w-full sm:w-64 transition-colors shadow-lg group">
               <span className="font-semibold">FDA Certificate</span>
               <div className="bg-[#0077b6] p-1.5 rounded-full">
                 <Download className="text-[#FFFFFF] w-6 h-6" />
               </div>
             </button>
 
-            <button className="cursor-pointer flex items-center justify-between bg-[#FFFFFF]/90 hover:bg-[#FFFFFF] text-[#333333F0] px-6 py-4 rounded-xl w-full sm:w-64 transition-colors shadow-lg group">
+            <button className="cursor-pointer flex items-center justify-between bg-[#FFFFFF]/90 hover:bg-[#FFFFFF] text-[#333333F0] px-6 py-2 rounded-xl w-full sm:w-64 transition-colors shadow-lg group">
               <span className="font-semibold">ISO Certificate</span>
               <div className="bg-[#0077b6] p-1.5 rounded-full">
                 <Download className="text-[#FFFFFF] w-6 h-6" />
@@ -72,7 +72,7 @@ const Regulatory = () => {
         <div className="w-full lg:w-1/2">
           <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-[#FFFFFF]/10">
             <img
-              src="/seiler/regulatory.png" // Replace with your image
+              src="/medical/seiler/regulatory.png" // Replace with your image
               alt="Medical professionals using Seiler equipment"
               className="w-full h-full object-cover"
             />

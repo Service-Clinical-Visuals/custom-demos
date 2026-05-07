@@ -55,7 +55,7 @@ const ProductSpecs = () => {
           {/* CTA Button */}
           <div className="pt-2">
             <button className="cursor-pointer group flex items-center gap-4 bg-[#0077b6] hover:bg-[#005f92] text-[#FFFFFF] px-7 py-3 rounded-full transition-all duration-300 shadow-md">
-              <span className="font-bold text-sm">Request A Quote</span>
+              <span className="font-bold text-base">Request A Quote</span>
               <div className="bg-[#FFFFFF] rounded-full p-1 group-hover:translate-x-1 transition-transform">
                 <ArrowRight className="text-[#0077b6] w-4.5 h-4.5" />
               </div>

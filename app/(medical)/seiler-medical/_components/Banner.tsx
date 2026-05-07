@@ -20,13 +20,13 @@ export default function Banner() {
         <h1 className="text-[#FFFFFF] text-3xl lg:text-4xl font-semibold leading-tight">
           Precision Optics Trusted for Over 80 Years
         </h1>
-        <h3 className="text-[#FFFFFF] text-3xl lg:text-[24px] font-semibold leading-tight mt-4">
+        <h3 className="text-[#FFFFFF] text-3xl lg:text-xl leading-tight mt-4">
           Advanced microscope solutions designed for medical and dental
           excellence.
         </h3>
 
         <button
-          className="group mt-4 inline-flex items-center gap-3 cursor-pointer bg-[#0475BC] hover:bg-[#035f98] text-white px-6 py-2.5 
+          className="group mt-4 inline-flex items-center gap-3 cursor-pointer bg-[#0475BC] hover:bg-[#035f98] text-white px-6 py-2 
         rounded-full text-base font-semibold transition-all duration-300">
           <span>Learn More</span>
 

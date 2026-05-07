@@ -8,28 +8,28 @@ const NewsSection = () => {
       date: "April 28, 2026",
       description:
         "Seiler Medical is excited to be participating in the upcoming American...",
-      image: "/seiler/news-1.png",
+      image: "/medical/seiler/news-1.png",
     },
     {
       title: "Seiler Colposcopes on Display at ASCCP Meeting",
       date: "April 20, 2026",
       description:
         "Seiler Medical is excited to announce that we will be attending the...",
-      image: "/seiler/news-2.png",
+      image: "/medical/seiler/news-2.png",
     },
     {
       title: "The Star of AAE 2026: The Seiler 3D Dental Microscope",
       date: "April 13, 2026",
       description:
         "This year at the American Association of Endodontists Annual...",
-      image: "/seiler/news-3.png",
+      image: "/medical/seiler/news-3.png",
     },
     {
       title: "Seiler 3D Dental Microscope Showcased at AACD 2026",
       date: "April 7, 2026",
       description:
         "Seiler Medical is thrilled to be part of the AACD Annual Meeting...",
-      image: "/seiler/news-4.png",
+      image: "/medical/seiler/news-4.png",
     },
   ];
 
@@ -39,7 +39,7 @@ const NewsSection = () => {
       <div
         className="absolute inset-0 opacity-10 "
         style={{
-          backgroundImage: `url("/seiler/bg-3.jpg")`,
+          backgroundImage: `url("/medical/seiler/bg-3.jpg")`,
         }}
       />
 
@@ -47,7 +47,7 @@ const NewsSection = () => {
         {/* Header Area */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
           <div className="text-[#FFFFFF] space-y-4 max-w-2xl">
-            <span className="text-[18px] font-medium border-b border-[#FFFFFF]/40 pb-1">
+            <span className="text-[18px] font-medium underline pb-2">
               Latest Updates
             </span>
             <h2 className="text-3xl md:text-[38px] font-semibold">
