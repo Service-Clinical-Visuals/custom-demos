@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#C5EEFF] pt-20 pb-10">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2.5fr_1.5fr_1.5fr_2.5fr_1.5fr_2.5fr] gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-[3fr_1fr_3fr_2fr_3fr] gap-8 mb-16">
           
           {/* Brand Column */}
           <div className="">
@@ -18,18 +18,6 @@ export default function Footer() {
               Strena Medical, with 35+ years of experience, delivers medical devices 
               across Diagnostic Imaging, Gynecology, and Critical Care worldwide.
             </p>
-          </div>
-
-          {/* Quick Links */}
-          <div className="">
-            <h4 className="text-[#00427C] font-semibold mb-6 text-[18px] lg:text-[20px]">Quick Links</h4>
-            <ul className="space-y-4 text-[15px] lg:text-[16px] ">
-              <li><Link href="#" className="hover:text-[#00427C]">Home</Link></li>
-              <li><Link href="#" className="hover:text-[#00427C]">Our Companies</Link></li>
-              <li><Link href="#" className="hover:text-[#00427C]">Product Gallery</Link></li>
-              <li><Link href="#" className="hover:text-[#00427C]">About Us</Link></li>
-              <li><Link href="#" className="hover:text-[#00427C]">Features</Link></li>
-            </ul>
           </div>
 
           {/* Our Brand */}

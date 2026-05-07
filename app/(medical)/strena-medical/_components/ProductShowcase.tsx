@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function ProductShowcase() {
   return (
-    <section className="pb-20 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div 
           data-aos="zoom-in"

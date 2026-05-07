@@ -49,7 +49,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-10 text-[#333333] text-[16px] font-medium">
+        <nav className="hidden lg:flex items-center gap-8 text-[#333333] text-[16px] font-medium">
           {navLinks.map((link) => {
             const isActive = link.name === "Home";
             return (

@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function ProductFeatures() {
   return (
-    <section className="pb-20 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div 
           data-aos="fade-up"
@@ -15,7 +15,7 @@ export default function ProductFeatures() {
           {/* Left: Video Player */}
           <div className="w-full aspect-video relative rounded-3xl overflow-hidden bg-white/10">
             <DynamicVideoPlayer 
-              type="360" 
+              type="short-1" 
               className="absolute inset-0 w-full h-full object-contain" 
             />
           </div>
@@ -33,10 +33,10 @@ export default function ProductFeatures() {
                 productivity increase simplicity has never been seen on such a high-level 
                 ultrasound scanner.
               </p>
-              {/* <p className="text-white! text-[15px] lg:text-[16px] leading-relaxed">Advanced and complete solution for ultrasound users with the most up- to- date Imaging technologies providing impressive image quality in most modalities and applications and ensure the highest level of diagnosis.</p> */}
+              <p className="text-white! text-[15px] lg:text-[16px] leading-relaxed">Advanced and complete solution for ultrasound users with the most up- to- date Imaging technologies providing impressive image quality in most modalities and applications and ensure the highest level of diagnosis.</p>
             </div>
 
-            <ul className="space-y-4 mb-10">
+            {/* <ul className="space-y-4 mb-10">
               <li className="flex items-start gap-3 text-[15px] lg:text-[16px] font-medium">
                 <CheckCircle2 className="text-white shrink-0" size={20} />
                 <span>High-density transducers with frequencies ranging from 1.9 to 17 MHz</span>
@@ -45,7 +45,7 @@ export default function ProductFeatures() {
                 <CheckCircle2 className="text-white shrink-0" size={20} />
                 <span>22- or 24-inch-high-definition LCD monitor with a large imaging area</span>
               </li>
-            </ul>
+            </ul> */}
 
             <Button variant="white" hasArrow>
               View Product Range

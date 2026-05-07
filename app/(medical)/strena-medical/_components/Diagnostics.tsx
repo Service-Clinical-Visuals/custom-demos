@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function Diagnostics() {
   return (
-    <section className="pb-20 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div 
           data-aos="fade-up"
@@ -19,10 +19,10 @@ export default function Diagnostics() {
               <h2 className="text-white text-2xl lg:text-3xl font-bold mb-4">
                 Diagnostics
               </h2>
-              <h3 className="text-white text-xl lg:text-2xl font-bold mb-6">
+              <h3 className="text-white text-xl lg:text-2xl font-semibold mb-6">
                 Adapting to Continuously Evolving Demands
               </h3>
-              <p className="text-white! text-[15px] lg:text-[16px] leading-relaxed mb-8">
+              <p className="text-white! text-[15px] lg:text-[16px] leading-relaxed mb-8 text-justify">
                 The innovative keyboard is designed with all essential routine examination features, 
                 while advanced functions are seamlessly accessed through the 13-inch touchscreen 
                 panel, ensuring a smooth and efficient workflow. It delivers superior image quality, 
@@ -52,13 +52,13 @@ export default function Diagnostics() {
             <div className="bg-white rounded-[30px] p-8 flex flex-col justify-between">
               <ul className="space-y-6 mb-8">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="text-[#00427C] shrink-0 mt-1" size={20} />
+                  <CheckCircle2 className="text-[#00aeef] shrink-0 mt-1" size={20} />
                   <p className="text-[15px] lg:text-[16px] leading-relaxed">
                     5-band adjustable frequency in B mode (fundamental wave and harmonic wave)
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="text-[#00427C] shrink-0 mt-1" size={20} />
+                  <CheckCircle2 className="text-[#00aeef] shrink-0 mt-1" size={20} />
                   <p className="text-[15px] lg:text-[16px] leading-relaxed">
                     Full range of Linear, Convex, Phased Array, endocavity, TEE, 
                     Intraoperative, VoluMeTric, and Biplane TRT probes.
@@ -74,14 +74,14 @@ export default function Diagnostics() {
             <div className="bg-white rounded-[30px] p-8 flex flex-col justify-between">
               <ul className="space-y-6 mb-8">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="text-[#00427C] shrink-0 mt-1" size={20} />
+                  <CheckCircle2 className="text-[#00aeef] shrink-0 mt-1" size={20} />
                   <p className="text-[15px] lg:text-[16px] leading-relaxed">
                     Complete imaging mode: 2D with THI, Colour M, CFM, PDI, PW, HPRF, CW, 
                     Contrast Imaging, Elastography, Stress Echo.
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="text-[#00427C] shrink-0 mt-1" size={20} />
+                  <CheckCircle2 className="text-[#00aeef] shrink-0 mt-1" size={20} />
                   <p className="text-[15px] lg:text-[16px] leading-relaxed">
                     Five active transducer sockets and one pencil socket Ergonomic design 
                     with 13,3-inch touch screen with intuitive user.
