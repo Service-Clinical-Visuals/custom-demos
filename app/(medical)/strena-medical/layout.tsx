@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/app/strena-medical/_components/Navbar";
-import SmoothAos from "@/app/strena-medical/_components/SmoothAos";
+import Navbar from "./_components/Navbar";
+import SmoothAos from "./_components/SmoothAos";
 import { Poppins } from "next/font/google";
-import { VideoProvider } from "../_context/VideoContext";
+import { VideoProvider } from "../../_context/VideoContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
