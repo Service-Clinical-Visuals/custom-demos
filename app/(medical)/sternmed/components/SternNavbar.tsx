@@ -59,8 +59,7 @@ export default function SternNavbar() {
             Search <ArrowRight />
           </button>
           <button className="cursor-pointer border p-2.5 rounded-md bg-[#1E6FB6]">
-                       <Globe size={18} strokeWidth={2.3} />
-
+            <Globe size={18} strokeWidth={2.3} />
           </button>
 
           {/* Hamburger — visible on mobile and tablet */}
