@@ -43,7 +43,7 @@ export default function InvidiaVideo() {
             data-aos="fade-up"
             data-aos-duration="900"
           >
-            <h2 className="text-4xl mb-2 font-semibold leading-[1.08] tracking-[-1.8px] text-[#D3AB00]">
+            <h2 className="text-4xl mb-5 font-semibold leading-[1.08] tracking-[-1.8px] text-[#D3AB00]">
               Advanced Visualization & Illumination System
             </h2>
           </div>
@@ -52,19 +52,17 @@ export default function InvidiaVideo() {
           <div
             data-aos="fade-up"
             data-aos-delay="120"
-            className="mt-3 rounded-[16px] border border-[#D9D9D9] bg-white p-[30px] shadow-[0_10px_28px_rgba(0,0,0,0.08)]"
+            className="mt-1.5 rounded-[16px] border border-[#D9D9D9] bg-white p-[30px] shadow-[0_10px_28px_rgba(0,0,0,0.08)]"
           >
             <h3 className="text-lg font-semibold tracking-[-0.4px] text-[#3A3A3A]">
               ICG/NIR Endoscopic Light Source
             </h3>
 
-            <p className="mt-3 text-base leading-[1.95] text-[#666666]">
+            <p className="mt-1.5 text-base leading-[1.95] text-[#666666]">
               Smart-link to CCU with automatic light
               source switch. Light intensity adjustable
               in 100 steps, plus smart protection to
-              prevent accidental eye damage. Includes a
-              7-inch LCD touchscreen display for easy
-              control.
+              prevent accidental eye damage. 
             </p>
           </div>
 
@@ -72,13 +70,13 @@ export default function InvidiaVideo() {
           <div
             data-aos="fade-up"
             data-aos-delay="220"
-            className="mt-3 rounded-[16px] border border-[#D9D9D9] bg-white p-[30px] shadow-[0_10px_28px_rgba(0,0,0,0.08)]"
+            className="mt-1.5 rounded-[16px] border border-[#D9D9D9] bg-white p-[30px] shadow-[0_10px_28px_rgba(0,0,0,0.08)]"
           >
             <h3 className="text-lg font-semibold tracking-[-0.4px] text-[#3A3A3A]">
               4K LCD Monitor
             </h3>
 
-            <p className="mt-3 text-base leading-[1.95] text-[#666666]">
+            <p className="mt-1.5 text-base leading-[1.95] text-[#666666]">
               Supports both analog and digital signal
               sources from a variety of medical imaging
               modalities. Equipped with a large 32"

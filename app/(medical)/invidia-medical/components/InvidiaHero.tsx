@@ -22,7 +22,6 @@ export default function InvidiaHero() {
           >
             {/* TITLE */}
             <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">
-              Comprehensive solutions supporting modern surgical practices—from traditional procedures and minimally invasive techniques.
             </h1>
 
             {/* CTA */}

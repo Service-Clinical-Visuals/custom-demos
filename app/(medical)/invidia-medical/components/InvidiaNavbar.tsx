@@ -92,9 +92,21 @@ export default function InvidiaNavbar() {
 
           {/* ACCOUNT BUTTON */}
           <button className="flex items-center gap-4 rounded-[4px] bg-[#D3AB00] px-7 py-2.5 text-base font-semibold text-white transition-all duration-300 hover:scale-[1.02] cursor-pointer">
-            <span>Access Account</span>
-            <User size={18} strokeWidth={2.6} />
+            <span className="border-r pr-3">Access Account</span>
+            <User size={18} strokeWidth={2.6} className="" />
           </button>
+
+                      {/* <div
+              className="mt-10"
+            >
+              <button className="group cursor-pointer flex h-[42px] items-center overflow-hidden rounded-[3px] bg-[#D3AB00] pl-5 text-base font-semibold text-white transition-all duration-300 hover:translate-y-[-2px]">
+                <span>Access Account</span>
+
+                <span className="ml-4 flex h-full w-[34px] items-center justify-center bg-white text-[#D3AB00] transition-all duration-300 group-hover:w-[42px]">
+                  <User size={18} strokeWidth={2.6} />
+                </span>
+              </button>
+            </div> */}
         </div>
     </div>
     </header>
