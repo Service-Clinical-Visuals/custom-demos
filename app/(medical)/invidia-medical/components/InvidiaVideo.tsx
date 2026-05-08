@@ -43,8 +43,8 @@ export default function InvidiaVideo() {
             data-aos="fade-up"
             data-aos-duration="900"
           >
-            <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-1.8px] text-[#D3AB00]">
-              4K Fluorescence Imaging Solution
+            <h2 className="text-4xl mb-2 font-semibold leading-[1.08] tracking-[-1.8px] text-[#D3AB00]">
+              Advanced Visualization & Illumination System
             </h2>
           </div>
 

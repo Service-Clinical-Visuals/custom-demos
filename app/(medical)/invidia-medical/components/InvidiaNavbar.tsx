@@ -91,7 +91,7 @@ export default function InvidiaNavbar() {
           </button>
 
           {/* ACCOUNT BUTTON */}
-          <button className="flex items-center gap-4 rounded-full bg-[#D3AB00] px-7 py-2.5 text-base font-semibold text-white transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+          <button className="flex items-center gap-4 rounded-[4px] bg-[#D3AB00] px-7 py-2.5 text-base font-semibold text-white transition-all duration-300 hover:scale-[1.02] cursor-pointer">
             <span>Access Account</span>
             <User size={18} strokeWidth={2.6} />
           </button>

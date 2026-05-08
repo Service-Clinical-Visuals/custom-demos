@@ -21,8 +21,8 @@ export default function InvidiaHero() {
             className="max-w-380 mx-auto px-6 lg:px-0"
           >
             {/* TITLE */}
-            <h1 className="text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">
-              Precisely yours, INVIDIA Medical
+            <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">
+              Comprehensive solutions supporting modern surgical practices—from traditional procedures and minimally invasive techniques.
             </h1>
 
             {/* CTA */}

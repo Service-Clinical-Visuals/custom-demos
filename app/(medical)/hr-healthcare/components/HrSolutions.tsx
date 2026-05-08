@@ -1,13 +1,7 @@
 
 "use client";
 
-import {
-  Target,
-  HandHeart,
-  UsersRound,
-  Building2,
-} from "lucide-react";
-
+import { useState } from "react";
 import "aos/dist/aos.css";
 
 const cards = [
@@ -37,7 +31,20 @@ const cards = [
   },
 ];
 
+const tabs = [
+  {
+    title: "Healthcare Professionals",
+    desc:  "Our comprehensive product portfolio, compassionate Patient Services team, and innovative Loop Care Platform synergistically integrate to provide seamless catheter care coordination, ensuring healthcare professionals have the resources they need for providing efficient, personalized, and dependable urological care. This comprehensive approach supports improving patient satisfaction and outcomes and streamlining healthcare delivery.",
+  },
+  {
+    title: "Patients & Caregivers",
+    desc: "At our company, we pride ourselves on offering a comprehensive range of products designed to meet the diverse needs of our clients. Our dedicated Patient Services team collaborates seamlessly with our innovative Loop Care Platform, creating a powerful synergy that enhances catheter care coordination. This integrated approach ensures that healthcare professionals have access to a wealth of resources, enabling them to provide efficient, personalized, and dependable urological care. By embracing this holistic strategy, we strive not only to improve patient satisfaction and health outcomes but also to streamline the entire healthcare delivery process, making it more effective and responsive to patient needs."
+  }
+
+]
+
 export default function HrSolutions() {
+  const [activeTab, setActiveTab] = useState(0);
 
   return (
     <section className="relative overflow-hidden bg-[#031B35] py-20">
@@ -72,39 +79,34 @@ export default function HrSolutions() {
               data-aos-delay="120"
               className="mt-8 flex flex-wrap gap-4"
             >
-              <button className="flex h-[46px] items-center justify-center rounded-full bg-white px-6 text-[15px] font-medium text-[#041B35] transition-all duration-300 hover:translate-y-[-2px]">
-                Healthcare Professionals
-              </button>
-
-              <button className="flex h-[46px] items-center justify-center rounded-full bg-white px-6 text-[15px] font-medium text-[#041B35] transition-all duration-300 hover:translate-y-[-2px]">
-                Patients & Caregivers
-              </button>
+              {tabs.map((tab, i) => (
+                <button
+                  key={tab.title}
+                  onClick={() => setActiveTab(i)}
+                  className={`flex h-[46px] cursor-pointer items-center justify-center rounded-full px-6 text-[15px] font-medium transition-all duration-300 hover:translate-y-[-2px] ${
+                    activeTab === i
+                      ? "bg-white text-[#041B35]"
+                      : "border border-white/40 bg-transparent text-white/70 hover:border-white hover:text-white"
+                  }`}
+                >
+                  {tab.title}
+                </button>
+              ))}
             </div>
 
             {/* DESCRIPTION */}
             <div data-aos="fade-up" data-aos-delay="200">
               <p className="mt-8 border-b border-white/10 pb-8 text-base leading-[2] text-white/75">
-                At our company, we pride ourselves on offering a comprehensive
-                range of products designed to meet the diverse needs of our
-                clients. Our dedicated Patient Services team collaborates
-                seamlessly with our innovative Loop Care Platform, creating a
-                powerful synergy that enhances catheter care coordination. This
-                integrated approach ensures that healthcare professionals have
-                access to a wealth of resources, enabling them to provide
-                efficient, personalized, and dependable urological care. By
-                embracing this holistic strategy, we strive not only to improve
-                patient satisfaction and health outcomes but also to streamline
-                the entire healthcare delivery process, making it more effective
-                and responsive to patient needs.
+                {tabs[activeTab].desc}
               </p>
             </div>
 
             {/* CTA */}
-            <div data-aos="fade-up" data-aos-delay="300">
+            {/* <div data-aos="fade-up" data-aos-delay="300">
               <button className="mt-7 cursor-pointer flex h-[50px] w-[155px] items-center justify-center rounded-full bg-white text-base font-semibold text-[#041B35] transition-all duration-300 hover:translate-y-[-2px] hover:bg-[#F2F2F2]">
                 Learn More
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* RIGHT IMAGE */}
@@ -139,7 +141,7 @@ export default function HrSolutions() {
                     <img src={card.icon} alt={card.title} />
                 </div>
 
-                <h3 className="text-[18px] font-semibold tracking-[-0.3px] text-[#121212]">
+                <h3 className="text-xl font-semibold tracking-[-0.3px] text-[#121212]">
                   {card.title}
                 </h3>
               </div>

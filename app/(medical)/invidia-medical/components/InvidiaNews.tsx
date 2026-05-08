@@ -100,7 +100,7 @@ export default function InvidiaNews() {
               >
                 <span>Current trade fair</span>
 
-                <span className="ml-4 flex h-full w-[34px] items-center justify-center bg-white text-[#D3B00] transition-all duration-300 group-hover:w-[42px]">
+                <span className="ml-4 flex h-full w-[34px] items-center justify-center bg-white text-[#D3AB00] transition-all duration-300 group-hover:w-[42px]">
                   <ArrowRight
                     size={15}
                     strokeWidth={2.5}

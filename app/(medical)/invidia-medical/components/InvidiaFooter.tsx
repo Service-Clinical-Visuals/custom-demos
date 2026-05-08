@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import {
+  Linkedin,
   Mail,
   Phone,
+  Youtube,
 } from "lucide-react";
 import Image from "next/image";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const quickLinksLeft = [
   "Home",
@@ -48,15 +51,10 @@ export default function InvidiaFooter() {
              <Image src="/invidia/invidia-logo.svg" alt="Invidia Medical Logo" width={100} height={20} />
             </div>
 
-            {/* DESCRIPTION */}
-            <p className="mt-8 text-base leading-[1.95] text-[#666666]">
-              Medicine is art. The art to advocate life
-              and well-being with high standard
-              precision. You only work as precisely as
-              your instruments allow, therefore our aim
-              is to deliver You perfect, flawless
-              products.
-            </p>
+            <div className="flex gap-3 items-center mt-4">
+              <FaYoutube size={30} className="text-[#D3A700] cursor-pointer hover:text-[#D3A900] hover:scale-110" />
+              <FaLinkedin size={30} className="text-[#D3A700] cursor-pointer hover:text-[#D3A900] hover:scale-110" />
+            </div>
           </div>
 
           {/* ======================================

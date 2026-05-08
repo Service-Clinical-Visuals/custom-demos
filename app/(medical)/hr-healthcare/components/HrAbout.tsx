@@ -47,7 +47,7 @@ export default function HrAbout() {
                 key={card.id}
                 onMouseEnter={() => setActiveCard(card.id)}
                 onMouseLeave={() => setActiveCard(null)}
-                className={`cursor-pointer  group relative flex flex-col rounded-[14px] border transition-[transform,background-color,border-color,box-shadow] duration-500 ease-out ${index === 2 ? "md:col-span-2 lg:col-span-1" : ""} ${
+                className={`cursor-pointer  group relative flex flex-col hover:scale-105 rounded-[14px] border transition-[transform,background-color,border-color,box-shadow] duration-500 ease-out ${index === 2 ? "md:col-span-2 lg:col-span-1" : ""} ${
                   isActive
                     ? "translate-y-[-6px] border-[#071B35] bg-[#041A34] shadow-[0_18px_40px_rgba(2,15,35,0.28)]"
                     : "border-[#D9D9D9] bg-[#F7F7F7] shadow-none"

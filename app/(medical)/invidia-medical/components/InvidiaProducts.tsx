@@ -116,7 +116,7 @@ export default function InvidiaProducts() {
               </div>
 
               {/* TITLE */}
-              <h3 className="mt-4 text-lg font-medium tracking-[-0.3px] text-[#353535]">
+              <h3 className="mt-4 text-xl font-medium tracking-[-0.3px] text-[#353535]">
                 {item.title}
               </h3>
             </div>

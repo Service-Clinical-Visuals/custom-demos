@@ -31,7 +31,7 @@ export default function HrProduct() {
               TruCath® Foley Catheters
             </h2>
 
-            <p className="mt-5 max-w-[520px] text-base leading-[1.9] text-white/80">
+            <p className="mt-5 max-w-[600px] text-base leading-[1.9] text-white/80">
               The TruCath® Foley range includes integral and innovative
               configurations to accommodate care. Connect to a TruCath® leg or
               drainage bag for urine collection.
@@ -44,7 +44,7 @@ export default function HrProduct() {
             data-aos-delay="120"
             className="pt-[18px]"
           >
-            <button className="flex h-[48px] w-[142px] items-center justify-center rounded-full bg-[#F3F3F3] text-base cursor-pointer font-medium text-[#061B35] transition-all duration-300 hover:translate-y-[-2px] hover:bg-white">
+            <button className="flex h-[52px] w-[162px]  items-center justify-center rounded-full bg-[#F3F3F3] text-base cursor-pointer font-medium text-[#061B35] transition-all duration-300 hover:translate-y-[-2px] hover:bg-white">
               View Products
             </button>
           </div>

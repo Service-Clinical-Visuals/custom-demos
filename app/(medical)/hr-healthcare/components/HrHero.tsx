@@ -9,13 +9,6 @@ import "aos/dist/aos.css";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function HrHero() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      easing: "ease-out-cubic",
-    });
-  }, []);
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -33,7 +26,7 @@ export default function HrHero() {
           <div className="max-w-[530px] pt-72">
             <div data-aos="fade-up">
               <h1 className=" text-4xl font-semibold leading-[1.08] tracking-[-2px] text-white">
-                Carbomer Free Clinically Trusted.
+                Carbomer-Free. Clinically Trusted.
               </h1>
             </div>
 
@@ -45,7 +38,7 @@ export default function HrHero() {
             </div>
 
             <div data-aos="fade-up" data-aos-delay="250">
-              <button className="mt-5 cursor-pointer flex h-[48px] w-[152px] items-center justify-center rounded-[6px] border border-white/70 bg-transparent text-base font-medium text-white transition-all duration-300 hover:bg-white hover:text-[#0B1D44]">
+              <button className="mt-5 cursor-pointer flex h-[48px] w-[152px] items-center justify-center rounded-full border border-white/70 bg-transparent text-base font-medium text-white transition-all duration-300 hover:bg-white hover:text-[#0B1D44]">
                 Learn More
               </button>
             </div>

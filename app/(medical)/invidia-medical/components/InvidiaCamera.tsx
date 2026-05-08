@@ -42,7 +42,7 @@ export default function InvidiaCamera() {
         >
           {/* TITLE */}
           <div data-aos="fade-up">
-            <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-1.6px] text-[#D3AB00]">
+            <h2 className="text-4xl mb-2 font-semibold leading-[1.08] tracking-[-1.6px] text-[#D3AB00]">
               4K Fluorescence Imaging Solution
             </h2>
           </div>
