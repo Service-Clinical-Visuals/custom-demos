@@ -42,7 +42,7 @@ const Products = () => {
         {products.map((product, index) => (
           <div
             key={index}
-            className="group relative bg-[#f4f6f8] rounded-2xl p-4 transition-all duration-300 hover:shadow-md">
+            className="group cursor-pointer hover:bg-gray-50 relative bg-[#f4f6f8] rounded-2xl p-4 transition-all duration-300 hover:shadow-2xl">
             {/* Image Container */}
             <div className="bg-[#e2eaf1] rounded-xl text-[20px] font-medium overflow-hidden aspect-4/3 flex items-center justify-center p-4">
               <img
@@ -59,9 +59,9 @@ const Products = () => {
               </h3>
 
               {/* Circular Arrow Button */}
-              <button className="cursor-pointer absolute bottom-4 right-4 bg-[#0475BC] p-2.5 rounded-full text-[#FFFFFF] shadow-lg transition-transform hover:scale-110 active:scale-95">
+              {/* <button className="cursor-pointer absolute bottom-4 right-4 bg-[#0475BC] p-2.5 rounded-full text-[#FFFFFF] shadow-lg transition-transform hover:scale-110 active:scale-95">
                 <ArrowUpRight size={18} strokeWidth={2.5} />
-              </button>
+              </button> */}
             </div>
           </div>
         ))}

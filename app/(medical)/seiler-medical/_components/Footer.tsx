@@ -49,7 +49,7 @@ const Footer = () => {
                       height={40}
                     />
             </div>
-            <p className="text-gray-500 text-base leading-relaxed max-w-xs">
+            <p className="text-gray-500 text-base leading-relaxed">
               Seiler Medical provides high quality optics and service to the
               medical and dental industry.
             </p>
