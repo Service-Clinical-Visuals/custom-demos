@@ -12,7 +12,7 @@ export default function Banner() {
       {/* Content */}
       <div
         data-aos="fade-up"
-        className="relative z-10 container mx-auto px-4 lg:px-8 pb-20">
+        className="relative z-10 container mx-auto px-4 lg:px-8 pb-16 lg:pb-20">
         <h1 className="text-[#FFFFFF] text-2xl lg:text-3xl font-semibold leading-tight">
           Reliable Healthcare, Made Accessible
         </h1>

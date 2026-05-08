@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function About() {
   return (
-    <section className="py-20 bg-white">
+    <section className="pt-16 lg:pt-20 pb-10 lg:pb-15 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           {/* Left Content */}
@@ -13,7 +13,7 @@ export default function About() {
               About <span className="text-[#00427C]">Us</span>
             </h2>
             <h3 className="text-[#00427C] text-xl lg:text-2xl font-semibold mb-6">
-              Committed to advancing Healthcare Worldwide...
+              Committed to advancing Healthcare Worldwide
             </h3>
             <div className="text-gray-500 space-y-6 text-[15px] lg:text-[16px] leading-relaxed mb-10">
               <p>

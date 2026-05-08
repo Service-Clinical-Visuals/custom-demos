@@ -21,7 +21,7 @@ const images = [
 
 export default function ProductGallery() {
   return (
-    <section className="pb-24 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-[#00AEEF] text-2xl lg:text-3xl font-bold mb-4">

@@ -28,7 +28,7 @@ const technologies = [
 
 export default function AdvancedTechnologies() {
   return (
-    <section className="pb-24 bg-white overflow-hidden">
+    <section className="pb-16 lg:pb-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch gap-16">
           {/* Left Content */}
@@ -36,11 +36,11 @@ export default function AdvancedTechnologies() {
             <h2 className="text-[#00AEEF] text-2xl lg:text-3xl font-semibold mb-4">
               Advanced <span className="text-[#00427C]">Technologies</span>
             </h2>
-            <h3 className="text-[#00427C] text-xl lg:text-2xl font-semibold mb-10 leading-tight">
+            <h3 className="text-[#00427C] text-xl lg:text-2xl font-semibold mb-6 leading-relaxed">
               Excellent Image quality and colour sensitivity with advanced technologies
             </h3>
 
-            <ul className="space-y-6 mb-12">
+            <ul className="space-y-6 mb-8">
               {technologies.map((tech, index) => (
                 <li key={index} className="flex items-start gap-4">
                   <img src="/strena/images/check-b.png" alt="check-blue" className="w-5 h-5" />
@@ -64,12 +64,12 @@ export default function AdvancedTechnologies() {
           </div>
 
           {/* Right Image Space */}
-          <div data-aos="fade-left" className="relative ">
-            <div className="inset-0 overflow-hidden">
+          <div data-aos="fade-left" className="relative">
+            <div className="inset-0 overflow-hidden rounded-2xl">
                 <img 
-                  src="/strena/images/technologies.jpg" 
+                  src="/strena/images/technologies.png" 
                   alt="Strena Technologies" 
-                  className="w-full  object-cover" 
+                  className="w-full object-cover rounded-2xl" 
                 />
             </div>
           </div>

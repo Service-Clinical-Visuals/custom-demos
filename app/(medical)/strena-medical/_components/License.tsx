@@ -2,7 +2,7 @@
 
 export default function License() {
   return (
-    <section className="pb-24 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Left Content */}
@@ -27,7 +27,7 @@ export default function License() {
             ].map((logo, index) => (
               <div 
                 key={index}
-                className={`bg-white border border-gray-100 rounded-2xl md:rounded-3xl shadow-lg flex items-center justify-center p-4 md:p-6 hover:scale-105 transition-transform duration-300 aspect-square w-full ${
+                className={`bg-white border border-gray-100 rounded-2xl md:rounded-3xl shadow-lg flex items-center justify-center p-4 md:p-8 hover:scale-105 transition-transform duration-300 aspect-square w-full h-[170px] ${
                   index === 2 ? "col-span-2 md:col-span-1 mx-auto max-w-[50%] md:max-w-full" : ""
                 }`}
               >
