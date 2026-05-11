@@ -6,7 +6,7 @@ export default function MotoLayout({
   children: React.ReactNode;
 }) {
   return (
-    <VideoConfigProvider apiUrl="https://demo.servicevisuals.com/api/website-videos">
+    <VideoConfigProvider apiUrl="https://custom.servicevisuals.com/api/website-videos">
       {children}
     </VideoConfigProvider>
   );
