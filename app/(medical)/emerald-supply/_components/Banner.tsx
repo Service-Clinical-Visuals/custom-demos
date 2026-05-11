@@ -5,9 +5,9 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Banner() {
   return (
-    <section className="w-full flex justify-center py-4">
+    <section className="w-full flex justify-center">
       {/* OUTER CONTAINER - 95% width and almost full height */}
-      <div className="w-[95%] rounded-[2rem] overflow-hidden relative h-[85vh] lg:h-[94vh]">
+      <div className="w-[95%] rounded-[2rem] overflow-hidden relative h-[100vh]">
         {/* 🎥 Background Video - Reusing the DynamicVideoPlayer logic from Delphos */}
         <DynamicVideoPlayer
           type="banner"
