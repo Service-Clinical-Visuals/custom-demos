@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #00AE42;
+  --header-height: 120px;
+  --topbar-bg: #4a4a4a;
+  --navbar-bg: #1c1c1c;
+  --text-paragraph: #484848;
+}
+
+.arnott-theme {
+  --font-header: var(--font-big-shoulders), sans-serif;
+  --font-paragraph: var(--font-dm-sans), sans-serif;
+  font-family: var(--font-paragraph);
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-topbar: var(--topbar-bg);
+  --color-navbar: var(--navbar-bg);
+  --font-header: var(--font-header);
+  --font-paragraph: var(--font-paragraph);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: clip;
+}
+
+.arnott-theme p {
+  font-family: var(--font-paragraph);
+  color: var(--text-paragraph);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.arnott-theme h1, 
+.arnott-theme h2, 
+.arnott-theme h3, 
+.arnott-theme h4, 
+.arnott-theme h5, 
+.arnott-theme h6 {
+  font-family: var(--font-header);
+  font-optical-sizing: auto;
+  color: var(--foreground);
+}
