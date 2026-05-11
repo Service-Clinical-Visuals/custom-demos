@@ -7,7 +7,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const partners = ["/arnott/images/partner-1.png", "/arnott/images/partner-2.png", "/arnott/images/partner-3.png", "/arnott/images/partner-1.png"];
+const partners = ["/arnott/images/partner-1.png", "/arnott/images/partner-2.png", "/arnott/images/partner-3.png", "/arnott/images/partner-4.png", "/arnott/images/partner-5.png", "/arnott/images/partner-6.png", "/arnott/images/partner-7.png", "/arnott/images/partner-8.png", "/arnott/images/partner-9.jpeg", "/arnott/images/partner-10.png"];
 
 export default function Partners() {
     return (
