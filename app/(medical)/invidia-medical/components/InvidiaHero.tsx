@@ -22,6 +22,7 @@ export default function InvidiaHero() {
           >
             {/* TITLE */}
             <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">
+              Precisely yours, INVIDIA Medical
             </h1>
 
             {/* CTA */}

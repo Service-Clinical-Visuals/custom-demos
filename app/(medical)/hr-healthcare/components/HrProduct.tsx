@@ -20,7 +20,7 @@ export default function HrProduct() {
   return (
     <section className="relative overflow-hidden bg-[#F3F3F3]">
       {/* TOP DARK AREA */}
-      <div className="relative h-[295px] w-full bg-[#031A34]">
+      <div className="relative h-[275px] w-full bg-[#031A34]">
         <div className="mx-auto flex h-full max-w-380 items-start justify-between px-6 pt-[58px]">
           {/* LEFT CONTENT */}
           <div
