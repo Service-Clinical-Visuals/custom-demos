@@ -21,7 +21,7 @@ export default function InvidiaHero() {
             className="max-w-380 mx-auto px-6 lg:px-0"
           >
             {/* TITLE */}
-            <h1 className="text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">
+            <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">
               Precisely yours, INVIDIA Medical
             </h1>
 

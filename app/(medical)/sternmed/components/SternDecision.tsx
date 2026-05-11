@@ -12,7 +12,7 @@ export default function SternDecision() {
     <section className="bg-[#f5f6f7] py-20 overflow-x-hidden">
       <div className="max-w-380 mx-auto px-4 sm:px-6">
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 items-center">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 items-stretch">
           
           {/* LEFT TEXT */}
           <div data-aos="fade-right">
@@ -40,12 +40,9 @@ export default function SternDecision() {
           </div>
 
           {/* CENTER IMAGE */}
-          <div data-aos="zoom-in">
-            <div className="rounded-xl overflow-hidden">
-              {/* Placeholder */}
-              <div className="w-full h-[220px] sm:h-[260px] md:h-[300px] bg-gray-300">
-                <Image src="/stern-med/stern-buy.jpg"   alt="Buying medical device" width={400} height={300} className="w-full h-full object-cover"/>
-              </div>
+          <div data-aos="zoom-in" className="self-stretch h-full">
+            <div className="rounded-xl overflow-hidden h-full">
+              <Image src="/stern-med/stern-buy.jpg" alt="Buying medical device" width={400} height={300} className="w-full h-full object-cover"/>
             </div>
           </div>
 

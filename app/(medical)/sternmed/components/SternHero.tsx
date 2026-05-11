@@ -15,7 +15,7 @@ export default function SternHero() {
         </div>
 
         {/* DARK OVERLAY */}
-        <div className="absolute inset-0 bg-black/70"></div>
+        {/* <div className="absolute inset-0 bg-black/70"></div> */}
 
         {/* CONTENT */}
         <div className="relative z-10 h-full flex items-end">

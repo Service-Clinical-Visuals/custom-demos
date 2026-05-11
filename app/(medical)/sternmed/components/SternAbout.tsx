@@ -44,12 +44,12 @@ export default function SternAbout() {
                 </span>
               </button>
 
-              <button className="inline-flex font-bold items-center justify-center gap-2 border border-gray-300 text-gray-700 text-base px-5 cursor-pointer py-3 rounded-md hover:bg-gray-100 transition">
+              {/* <button className="inline-flex font-bold items-center justify-center gap-2 border border-gray-300 text-gray-700 text-base px-5 cursor-pointer py-3 rounded-md hover:bg-gray-100 transition">
                 Get in contact with us
                 <span>
                     <ArrowRight/>
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
 

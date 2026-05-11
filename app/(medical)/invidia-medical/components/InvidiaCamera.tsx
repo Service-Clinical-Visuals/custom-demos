@@ -42,7 +42,7 @@ export default function InvidiaCamera() {
         >
           {/* TITLE */}
           <div data-aos="fade-up">
-            <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-1.6px] text-[#D3AB00]">
+            <h2 className="text-4xl mb-5 font-semibold leading-[1.08] tracking-[-1.6px] text-[#D3AB00]">
               4K Fluorescence Imaging Solution
             </h2>
           </div>
@@ -51,7 +51,7 @@ export default function InvidiaCamera() {
           <div
             data-aos="fade-up"
             data-aos-delay="120"
-            className="mt-3 rounded-[16px] border border-[#69717E] bg-[rgba(77,85,96,0.78)] p-[24px] shadow-[0_10px_30px_rgba(0,0,0,0.12)] backdrop-blur-[2px]"
+            className="mt-1.5 rounded-[16px] border border-[#69717E] bg-[rgba(77,85,96,0.78)] p-[24px] shadow-[0_10px_30px_rgba(0,0,0,0.12)] backdrop-blur-[2px]"
           >
             {/* TOP BLOCK */}
             <div>
@@ -70,7 +70,7 @@ export default function InvidiaCamera() {
             </div>
 
             {/* DIVIDER */}
-            <div className="my-3 h-px w-full bg-[#69717E]" />
+            <div className="my-1.5 h-px w-full bg-[#69717E]" />
 
             {/* BOTTOM BLOCK */}
             <div>

@@ -38,9 +38,9 @@ export default function InvidiaProducts() {
             className="max-w-[640px]"
           >
             {/* SUBTITLE */}
-            <span className="text-base font-medium text-[#555555]">
+            {/* <span className="text-base font-medium text-[#555555]">
               Our range of products
-            </span>
+            </span> */}
 
             {/* TITLE */}
             <h2 className="mt-3 text-4xl font-semibold leading-[1.05] tracking-[-2px] text-[#353535]">
@@ -49,12 +49,8 @@ export default function InvidiaProducts() {
 
             {/* DESCRIPTION */}
             <p className="mt-6 max-w-[620px] text-base leading-[1.9] text-[#6A6A6A]">
-              Comprehensive solutions supporting modern
-              surgical practices—from traditional
-              procedures and minimally invasive
-              techniques to advanced visualization
-              systems designed to enhance precision,
-              training, and clinical performance.
+              Comprehensive solutions supporting modern surgical practices—from traditional procedures and minimally invasive techniques.
+
             </p>
           </div>
 
@@ -116,7 +112,7 @@ export default function InvidiaProducts() {
               </div>
 
               {/* TITLE */}
-              <h3 className="mt-4 text-lg font-medium tracking-[-0.3px] text-[#353535]">
+              <h3 className="mt-4 text-xl text-center font-medium tracking-[-0.3px] text-[#353535]">
                 {item.title}
               </h3>
             </div>

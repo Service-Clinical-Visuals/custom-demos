@@ -58,9 +58,8 @@ export default function SternNavbar() {
           <button className="hidden sm:flex bg-[#1E6FB6] text-white gap-1 text-base px-4 py-2 rounded-md hover:bg-[#1E6FB6]/90 cursor-pointer transition">
             Search <ArrowRight />
           </button>
-          <button className="cursor-pointer border p-2 rounded-md bg-[#1E6FB6]">
-                       <Globe size={18} strokeWidth={2.3} />
-
+          <button className="cursor-pointer border p-2.5 rounded-md bg-[#1E6FB6]">
+            <Globe size={18} strokeWidth={2.3} />
           </button>
 
           {/* Hamburger — visible on mobile and tablet */}

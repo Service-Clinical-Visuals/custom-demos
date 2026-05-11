@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import {
+  Linkedin,
   Mail,
   Phone,
+  Youtube,
 } from "lucide-react";
 import Image from "next/image";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const quickLinksLeft = [
   "Home",
@@ -29,7 +32,7 @@ const legalLinks = [
 
 export default function InvidiaFooter() {
   return (
-    <footer className="overflow-hidden bg-[#F5F5F5] pt-[64px]">
+    <footer className="bg-[#F5F5F5] pt-[64px]">
       <div className="mx-auto max-w-380 px-8">
         {/* ======================================
             TOP GRID
@@ -48,15 +51,18 @@ export default function InvidiaFooter() {
              <Image src="/invidia/invidia-logo.svg" alt="Invidia Medical Logo" width={100} height={20} />
             </div>
 
-            {/* DESCRIPTION */}
-            <p className="mt-8 text-base leading-[1.95] text-[#666666]">
-              Medicine is art. The art to advocate life
-              and well-being with high standard
-              precision. You only work as precisely as
-              your instruments allow, therefore our aim
-              is to deliver You perfect, flawless
-              products.
-            </p>
+            <div className="text-black mt-2 ml-2">
+              <h3 className="text-lg font-semibold tracking-[-0.4px] text-[#3A3A3A]">
+             Social Media
+            </h3>
+
+            <div className="mt-1 h-px w-full max-w-[140px] bg-[#D9D9D9]" />
+            </div>
+
+            <div className="flex gap-3 items-center mt-4">
+              <FaYoutube size={30} className="text-[#D3A700] cursor-pointer hover:text-[#D3A900] hover:scale-110" />
+              <FaLinkedin size={30} className="text-[#D3A700] cursor-pointer hover:text-[#D3A900] hover:scale-110" />
+            </div>
           </div>
 
           {/* ======================================
@@ -65,12 +71,13 @@ export default function InvidiaFooter() {
           <div
             data-aos="fade-up"
             data-aos-delay="120"
+            className="lg:-ml-15"
           >
             <h3 className="text-lg font-semibold tracking-[-0.4px] text-[#3A3A3A]">
               Quick Links
             </h3>
 
-            <div className="mt-3 h-px w-full max-w-[140px] bg-[#D9D9D9]" />
+            <div className="mt-1 h-px w-full max-w-[140px] bg-[#D9D9D9]" />
 
             <div className="mt-6 grid grid-cols-2 gap-x-10 gap-y-5">
               {/* LEFT */}
@@ -201,12 +208,9 @@ export default function InvidiaFooter() {
         {/* ======================================
             BOTTOM COPYRIGHT
         ======================================= */}
-        <div
-          data-aos="fade-up"
-          data-aos-delay="520"
-          className="mt-[52px] border-t border-[#DDDDDD] py-6"
-        >
-          <p className="text-center text-base text-[#777777]">
+
+        <div className="border-t border-[#DDDDDD] py-6 mt-10">
+           <p className="text-center text-base text-[#555555]">
             Copyright © 2026 invidia-medical.de. All
             Rights Reserved.
           </p>

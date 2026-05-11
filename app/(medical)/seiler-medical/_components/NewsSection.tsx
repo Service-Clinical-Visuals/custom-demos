@@ -53,10 +53,10 @@ const NewsSection = () => {
             <h2 className="text-3xl md:text-[38px] font-semibold">
               Latest News & Events
             </h2>
-            <p className="text-blue-50 text-sm md:text-base leading-relaxed">
+            {/* <p className="text-blue-50 text-sm md:text-base leading-relaxed">
               Stay informed with the latest announcements, product innovations,
               industry insights, and upcoming events from Seiler Medical.
-            </p>
+            </p> */}
           </div>
 
           <button className="cursor-pointer flex items-center gap-3 bg-[#FFFFFF] text-[#0475BC] px-6 py-2.5 rounded-full hover:bg-blue-50 transition-colors shadow-lg group shrink-0">

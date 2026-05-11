@@ -36,7 +36,7 @@ export default function SternTestimonial() {
           <div data-aos="fade-left">
 
             {/* LABEL */}
-            <p className="text-[#1E6FB6] font-semibold text-base mb-4">
+            <p className="text-[#1E6FB6] font-semibold text-base mb-2">
               Testimonials
             </p>
 
@@ -46,7 +46,7 @@ export default function SternTestimonial() {
             </h2>
 
             {/* STARS */}
-            <div className="flex items-center gap-1 mb-5">
+            <div className="flex items-center gap-1 mb-3">
               {Array.from({ length: 5 }).map((_, i) => (
                 <span
                   key={i}
@@ -58,7 +58,7 @@ export default function SternTestimonial() {
             </div>
 
             {/* TESTIMONIAL */}
-            <div className="space-y-5 text-gray-500 leading-relaxed text-sm md:text-base mb-8">
+            <div className="space-y-5 text-gray-500 leading-relaxed text-sm md:text-base mb-4">
               <p>
                 “We have purchased the SONOS 12 Ultrasound scanner from SternMed
                 in September 2021 and have used it since then to our fullest

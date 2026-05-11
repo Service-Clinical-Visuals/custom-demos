@@ -77,9 +77,9 @@ const ProductOverview = () => {
 
           {/* Right Video Placeholder Column */}
           <div className="w-full lg:w-[60%] flex justify-center lg:justify-end">
-            <div className="w-full aspect-video bg-[#FFFFFF]/90 rounded-3xl shadow-2xl flex items-center justify-center relative overflow-hidden">
+            <div className="w-full aspect-video  rounded-3xl  flex items-center justify-center relative overflow-hidden">
               {/* This represents the checkered area in your image */}
-              <div className="relative h-full bg-[#FFFFFF] rounded-2xl overflow-hidden">
+              <div className="relative h-full  rounded-2xl overflow-hidden">
                 <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
               </div>
             </div>

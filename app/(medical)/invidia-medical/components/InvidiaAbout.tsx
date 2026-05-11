@@ -116,7 +116,7 @@ export default function InvidiaAbout() {
             </Link>
 
             {/* SECONDARY */}
-            <Link
+            {/* <Link
               href="/"
               className="group flex h-[42px] items-center overflow-hidden rounded-[4px] border border-[#D8D8D8] bg-white pl-5 text-base font-semibold text-[#2E2E2E] shadow-sm transition-all duration-300 hover:-translate-y-[2px]"
             >
@@ -128,7 +128,7 @@ export default function InvidiaAbout() {
                   strokeWidth={2.5}
                 />
               </span>
-            </Link>
+            </Link> */}
           </div>
         </div>
 

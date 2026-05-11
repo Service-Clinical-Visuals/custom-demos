@@ -81,7 +81,7 @@ export default function HrAboutCard() {
             </h2>
 
             {/* DESCRIPTION */}
-            <p className="mt-4 max-w-[560px] text-base leading-[2] text-[#6B6B6B]">
+            <p className="mt-4 text-base leading-[2] text-[#6B6B6B]">
               HR HealthCare is a professionally managed, family-owned company
               headquartered in York, PA, that specializes in the development,
               manufacture, and supply of healthcare products with integrated
