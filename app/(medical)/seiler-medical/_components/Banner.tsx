@@ -11,7 +11,7 @@ export default function Banner() {
 
 
       {/* Optional Dark Overlay (improves text readability) */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      {/* <div className="absolute inset-0 bg-black/50"></div> */}
 
       {/* Content */}
       <div
