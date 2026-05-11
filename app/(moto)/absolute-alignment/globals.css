@@ -3,9 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #111111;
-  --primary: #F79F1A; /* Orange color from the design */
+  --primary: #F79F1A;
+  /* Orange color from the design */
   --primary-hover: #E68A00;
-  --secondary: #000B3D; /* Dark blue background */
+  --secondary: #000B3D;
+  /* Dark blue background */
   --text-muted: #666666;
   --border-color: #e5e5e5;
 }
@@ -35,6 +37,15 @@ body {
   @apply antialiased overflow-x-hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading), sans-serif;
+}
+
+section {
+  overflow: hidden !important;
 }

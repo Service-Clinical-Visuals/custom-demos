@@ -12,8 +12,8 @@ export default function Hero() {
       {/* Overlay for better text readability */}
       {/* <div className="absolute inset-0 bg-black/40 z-[1] pointer-events-none"></div> */}
 
-      <div className="container mx-auto px-4 py-16 md:py-24 lg:py-0 relative z-10 min-h-[500px] md:min-h-[600px] lg:h-screen flex items-center">
-        <div 
+      <div className="container mx-auto px-4 py-16 md:py-24 lg:py-0 relative z-10 h-screen flex items-center">
+        <div
           className="max-w-2xl text-white text-center lg:text-left mx-auto lg:mx-0 lg:mt-[15%]"
           data-aos="fade-right"
           data-aos-delay="200"
@@ -28,7 +28,7 @@ export default function Hero() {
 
           <Link
             href="#"
-            className="inline-block bg-primary lg:bg-transparent border-2 border-primary lg:border-white text-white hover:bg-white hover:text-secondary font-bold uppercase tracking-wider py-4 px-10 rounded-tl-[30px] rounded-br-[30px] transition-all text-xs shadow-xl lg:shadow-none"
+            className="inline-block bg-primary lg:bg-transparent border-2 border-primary lg:border-white text-white hover:bg-white hover:text-secondary font-bold uppercase tracking-wider py-4 px-8 rounded-tl-2xl rounded-br-2xl transition-all text-xs shadow-xl lg:shadow-none"
           >
             Explore Our Products
           </Link>

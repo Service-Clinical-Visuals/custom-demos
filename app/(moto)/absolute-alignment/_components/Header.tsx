@@ -42,14 +42,14 @@ export default function Header() {
         <div className="w-full bg-white border-b border-gray-200 hidden lg:block">
           <div className="container mx-auto flex items-center h-20">
             {/* Logo Section */}
-            <div className="flex items-center px-6 h-full border-l border-gray-200">
+            <div className="flex items-center px-6 h-full ">
               <Link href="/" className="relative w-[180px] block transition-transform hover:scale-105">
                 <img src="/absolute-alignment/logo.png" className="w-full h-auto" alt="Absolute Alignment" />
               </Link>
             </div>
 
             {/* Left Links */}
-            <div className="flex items-center gap-6 px-8 h-full border-l border-gray-200">
+            <div className="flex items-center gap-6 px-8 h-full ">
               {topLinks.map((link) => (
                 <Link key={link.name} href={link.href} className="text-gray-600 text-sm font-bold hover:text-primary transition-colors">
                   {link.name}
@@ -61,7 +61,7 @@ export default function Header() {
             <div className="flex-1 h-full"></div>
 
             {/* Phone Section */}
-            <div className="flex items-center gap-4 px-8 h-full border-l border-gray-200">
+            <div className="flex items-center gap-4 px-8 h-full ">
               <div className="w-11 h-11">
                 <img src="/absolute-alignment/home/call.svg" className="w-full h-full" alt="Call Icon" />
               </div>
@@ -72,7 +72,7 @@ export default function Header() {
             </div>
 
             {/* Button Section */}
-            <div className="flex items-center px-8 h-full border-l border-gray-200">
+            <div className="flex items-center px-8 h-full ">
               <Link
                 href="#"
                 className="bg-primary hover:bg-black text-white text-sm font-black uppercase tracking-wider py-4 px-10 rounded-tl-2xl rounded-br-2xl transition-all shadow-md"
@@ -82,7 +82,7 @@ export default function Header() {
             </div>
 
             {/* Search Section */}
-            <div className="flex items-center px-8 border-l border-r border-gray-200 h-full">
+            <div className="flex items-center px-8 h-full">
               <button className="w-12 h-12 bg-primary hover:bg-black rounded-full flex items-center justify-center text-white transition-all shadow-lg">
                 <Search size={22} strokeWidth={3} />
               </button>
@@ -109,7 +109,7 @@ export default function Header() {
         </div>
 
         {/* Bottom Bar - Orange (Fixed on Scroll for Desktop) */}
-        <div className={`w-full bg-primary text-white transition-all duration-300 ${isScrolled
+        <div className={`hidden lg:block w-full bg-primary text-white transition-all duration-300 ${isScrolled
           ? "fixed top-0 left-0 z-50 py-2 lg:py-6 shadow-2xl animate-in slide-in-from-top duration-500"
           : "relative py-3 lg:py-4"
           }`}>

@@ -15,7 +15,7 @@ export default function WhatToSeeCatalog() {
   ];
 
   return (
-    <section className="w-full py-16 md:py-24">
+    <section className="w-full py-9 md:py-12">
       <div className="container mx-auto px-4" data-aos="zoom-in">
         <div className="bg-primary rounded-tl-[50px] rounded-br-[50px] md:rounded-tl-[100px] md:rounded-br-[100px] py-12 md:py-20 px-6 md:px-12 flex flex-col items-center text-center">
 
@@ -56,11 +56,11 @@ export default function WhatToSeeCatalog() {
                         alt={card.title}
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       />
-                      <div className="absolute top-6 right-6 text-white text-3xl font-heading font-bold opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-[-10px] group-hover:translate-y-0 z-20">
+                      <div className="absolute top-6 right-6 text-white text-5xl font-heading font-bold opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-[-10px] group-hover:translate-y-0 z-20">
                         {card.id}
                       </div>
                       <div className="absolute bottom-6 left-6 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-[10px] group-hover:translate-y-0 z-20">
-                        <h3 className="text-xl font-bold font-heading uppercase tracking-wide">{card.title}</h3>
+                        <h3 className="text-3xl font-bold font-heading uppercase tracking-wide">{card.title}</h3>
                       </div>
                     </div>
                   </div>
