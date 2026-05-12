@@ -109,7 +109,7 @@ export default function BioplateProducts() {
             >
               {/* IMAGE */}
               <div className="overflow-hidden rounded-[18px] bg-[#e8e8e8]">
-                <div className="aspect-[4/3] w-full">
+                <div className="aspect-4/4 w-full">
                   {/* IMAGE PLACEHOLDER */}
                   {/* <div className="h-full w-full bg-[linear-gradient(45deg,#ececec_25%,transparent_25%),linear-gradient(-45deg,#ececec_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#ececec_75%),linear-gradient(-45deg,transparent_75%,#ececec_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" /> */}
 
@@ -118,7 +118,7 @@ export default function BioplateProducts() {
                   <img
                     src={product.image}
                     alt={product.title}
-                    className="h-full w-full bg-cover shrink-0 object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                    className="h-full w-full bg-cover shrink-0 object-cover object-top-left transition-transform duration-700 group-hover:scale-[1.03]"
                   />
                  
                 </div>
