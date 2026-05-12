@@ -40,6 +40,8 @@ export default function Advantage() {
                         <div
                             key={index}
                             className="bg-[#545454] p-10 rounded-sm flex flex-col items-center text-center gap-4 hover:bg-[#2a2a2a] transition-colors border border-white/5 h-full"
+                            data-aos="zoom-in"
+                            data-aos-delay={index * 100}
                         >
                             <h3 className="text-[24px] font-semibold text-white!">{adv.title}</h3>
                             <p className="text-white! text-base leading-relaxed">

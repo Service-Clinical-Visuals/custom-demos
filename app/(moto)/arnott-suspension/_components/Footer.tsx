@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer className="bg-[url('/arnott/images/dark-bg.png')] bg-cover bg-center pt-20 pb-6">
             <div className="container mx-auto px-4 md:px-12">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[3.5fr_2.5fr_2.5fr_2.5fr] gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[3.5fr_2.5fr_2.5fr_2.5fr] gap-12 mb-16" data-aos="fade-up">
                     
                     {/* Logo and Newsletter */}
                     <div className="flex flex-col gap-8">

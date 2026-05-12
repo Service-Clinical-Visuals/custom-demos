@@ -8,7 +8,7 @@ export default function Course() {
     return (
         <section className="bg-white relative overflow-hidden">
             {/* Desktop Background Image (Bleeds to right edge) */}
-            <div className="hidden lg:block absolute top-0 bottom-0 right-0 w-1/2 z-0">
+            <div className="hidden lg:block absolute top-0 bottom-0 right-0 w-1/2 z-0" data-aos="fade-left">
                 <img 
                     src="/arnott/images/course.png" 
                     alt="Course Overview" 
@@ -20,7 +20,7 @@ export default function Course() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch">
                     
                     {/* Content Column */}
-                    <div className="py-16 lg:py-20 pr-0 lg:pr-16 order-2 lg:order-1">
+                    <div className="py-16 lg:py-20 pr-0 lg:pr-16 order-2 lg:order-1" data-aos="fade-right">
                         <div className="flex flex-col gap-5">
                             <div>
                                 <span className="text-[#00B341] font-bold text-lg mb-2 block">Course Overview</span>

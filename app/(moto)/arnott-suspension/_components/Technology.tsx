@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import Button from "./Button";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Technology() {
     const [activeTab, setActiveTab] = useState("better");
@@ -33,12 +34,12 @@ export default function Technology() {
             <div className="container mx-auto px-4 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     {/* Left: Video */}
-                    <div className="aspect-video relative overflow-hidden cursor-pointer border border-gray-100">
+                    <div className="aspect-video relative overflow-hidden cursor-pointer border border-gray-100" data-aos="fade-right">
                       <DynamicVideoPlayer type="short-1"/>   
                     </div>
 
                     {/* Right: Content */}
-                    <div className="flex flex-col gap-8">
+                    <div className="flex flex-col gap-8" data-aos="fade-left">
                         {/* Tabs */}
                         <div className="flex flex-wrap gap-2">
                             {["A Better Driving Experience", "Adaptive Ride Control", "eRide Technology"].map((tab, i) => {
@@ -47,7 +48,7 @@ export default function Technology() {
                                     <button 
                                         key={id}
                                         onClick={() => setActiveTab(id)}
-                                        className={`px-6 py-3 text-[15px] font-medium transition-all rounded-none border-none outline-none ${activeTab === id ? 'bg-[#00B341] text-white font-bold!' : 'bg-[#F2F2F2] text-[#171717] hover:bg-gray-200'}`}
+                                        className={`px-6 py-3 text-[15px] font-header transition-all rounded-none border-none outline-none font-semibold! tracking-wider ${activeTab === id ? 'bg-[#00B341] text-white ' : 'bg-[#F2F2F2] text-[#171717] hover:bg-gray-200'}`}
                                     >
                                         {tab}
                                     </button>
@@ -61,9 +62,18 @@ export default function Technology() {
                         </div>
 
                         <div className="min-h-[180px]">
-                            <p className="text-[#666666] text-base lg:text-[17px] leading-relaxed">
-                                {content[activeTab as keyof typeof content].description}
-                            </p>
+                            <AnimatePresence mode="wait">
+                                <motion.p 
+                                    key={activeTab}
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    exit={{ opacity: 0, y: -10 }}
+                                    transition={{ duration: 0.4, ease: "easeInOut" }}
+                                    className="text-[#666666] text-base lg:text-[17px] leading-relaxed text-justify"
+                                >
+                                    {content[activeTab as keyof typeof content].description}
+                                </motion.p>
+                            </AnimatePresence>
                         </div>
 
                         {/* <Button variant="primary" size="lg" className="w-fit">

@@ -52,7 +52,7 @@ export default function About() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                     
                     {/* Left Side: Stats and Image */}
-                    <div className="lg:col-span-6 relative flex items-center min-h-[700px]">
+                    <div className="lg:col-span-6 relative flex items-center min-h-[700px]" data-aos="fade-right">
                         {/* Dark Background Bar (Behind the image) */}
                         <div className="absolute left-0 top-0 bottom-0 w-[45%] z-0 overflow-hidden bg-[url('/arnott/images/dark-bg.png')]">
                             
@@ -82,7 +82,7 @@ export default function About() {
                     </div>
 
                     {/* Right Side: Content */}
-                    <div className="lg:col-span-6 flex flex-col gap-6 pl-0 lg:pl-10">
+                    <div className="lg:col-span-6 flex flex-col gap-6 pl-0 lg:pl-10" data-aos="fade-left">
                         <div>
                             <span className="text-primary font-semibold text-base tracking-wider mb-1 block">About Us</span>
                             <h2 className="text-[28px] md:text-[32px] font-bold text-[#171717] mb-3">Arnott's History</h2>

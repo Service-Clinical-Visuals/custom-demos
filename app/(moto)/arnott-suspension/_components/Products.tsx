@@ -31,7 +31,7 @@ export default function Products() {
 
             <div className="container mx-auto px-4 md:px-12 relative z-10">
                 {/* Header Row */}
-                <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-16">
+                <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-16" data-aos="fade-up">
                     <div className=" text-left">
                         <span className="text-primary font-semibold text-base tracking-wider mb-1 block">Our Product Categories</span>
                         <h2 className="text-[28px] md:text-[32px] font-bold text-white! mb-3">#1 in Replacement Air &  Adaptive Suspension</h2>
@@ -47,11 +47,13 @@ export default function Products() {
                 </div>
 
                 {/* Product Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[100px] md:gap-8 lg:gap-10 ">
                     {categories.map((cat, index) => (
                         <div
                             key={cat.id}
                             className="group relative h-[420px] cursor-pointer overflow-visible"
+                            data-aos="fade-up"
+                            data-aos-delay={index * 100}
                         >
                             {/* Card Border - Displayed only on hover */}
                             <div className="absolute -inset-2 border-2 border-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></div>

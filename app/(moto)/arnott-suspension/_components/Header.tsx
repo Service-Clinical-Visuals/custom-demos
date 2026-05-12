@@ -41,7 +41,7 @@ export default function Header() {
                          style={{ width: 'calc(50% + 210px)', clipPath: 'polygon(0 0, 98% 0, 100% 100%, 0 100%)' }}></div>
                 </div>
 
-                <div className="container mx-auto h-full px-4 md:px-12 relative z-30 flex justify-between items-center text-[16px] text-white">
+                <div className="container mx-auto h-full px-4 md:px-12 relative z-30 flex justify-between items-center lg:text-[16px] text-xs md:text-sm text-white">
                     <div className="flex items-center gap-6">
                         <div className="flex items-center gap-2">
                             <Mail size={16} className="text-white" />
@@ -71,13 +71,13 @@ export default function Header() {
                     <div className="absolute inset-0 bg-white"></div>
                     
                     {/* White Divider Line */}
-                    <div className="absolute top-0 left-0 h-full bg-white z-10" 
-                         style={{ width: 'calc(35% - 76px)', clipPath: 'polygon(0 0, 100% 0, 88.2% 100%, 0 100%)' }}></div>
+                    <div className="absolute top-0 left-0 h-full bg-white z-10 [--logo-width:60%] lg:[--logo-width:35%]" 
+                         style={{ width: 'calc(var(--logo-width) - 76px)', clipPath: 'polygon(0 0, 100% 0, 88.2% 100%, 0 100%)' }}></div>
                     
                     {/* Left Logo Area #171717 */}
-                    <div className="absolute top-0 left-0 h-full z-20" 
+                    <div className="absolute top-0 left-0 h-full z-20 [--logo-width:60%] lg:[--logo-width:35%]" 
                          style={{ 
-                            width: 'calc(35% - 80px)', 
+                            width: 'calc(var(--logo-width) - 80px)', 
                             clipPath: 'polygon(0 0, 100% 0, 88% 100%, 0 100%)',
                             background: "url('/arnott/images/dark-bg.png')"
                          }}>
@@ -90,7 +90,7 @@ export default function Header() {
                     <div className="h-full flex items-center px-4 md:px-12 pr-16 md:pr-24">
                         <Link href="/arnott" className="flex items-center gap-3">
                             <div className="">
-                                <img src="/arnott/images/arnott-logo.png" alt="arnott logo" className="w-35" />
+                                <img src="/arnott/images/arnott-logo.png" alt="arnott logo" className="w-25 lg:w-35" />
                             </div>
                         </Link>
                     </div>
@@ -106,7 +106,7 @@ export default function Header() {
 
                     {/* Contact Button */}
                     <div className="flex items-center gap-4 px-4">
-                        <Button href="#" variant="primary" size="default" className="hidden md:flex rounded-none px-8 py-3.5 font-black text-xs">
+                        <Button href="#" variant="primary" size="default" className="hidden! md:flex rounded-none px-8 py-3.5 font-black text-xs">
                             Contact Us
                         </Button>
                         
@@ -121,7 +121,7 @@ export default function Header() {
                 {mobileMenuOpen && (
                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-t border-gray-100 shadow-xl p-6 flex flex-col gap-4 animate-in fade-in slide-in-from-top-4 z-50">
                         {["Home", "Products", "Air Suspension Academy", "Dealer and Installer Locator", "Info"].map((item) => (
-                            <Link key={item} href="#" className="text-lg font-bold text-[#171717] uppercase">{item}</Link>
+                            <Link key={item} href="#" className="text-md font-semibold text-[#171717]">{item}</Link>
                         ))}
                         <Button href="#" variant="primary" className="w-full mt-4 rounded-none">Contact Us</Button>
                     </div>

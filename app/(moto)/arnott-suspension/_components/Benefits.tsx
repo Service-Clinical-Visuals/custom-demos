@@ -30,7 +30,7 @@ export default function Benefits() {
             <div className="container mx-auto px-4 md:px-12">
                 {/* Top Row: Content and Video */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4" data-aos="fade-right">
                         <div>
                             <span className="text-primary font-semibold text-base tracking-wider mb-1 block">Benefits</span>
                             <h2 className="text-[28px] md:text-[32px] font-bold text-[#171717] mb-3 tracking-tight">Suspension: Features & Benefits</h2>
@@ -48,7 +48,7 @@ export default function Benefits() {
                         </Button>
                     </div>
 
-                    <div className="aspect-video relative rounded-sm overflow-hidden">
+                    <div className="aspect-video relative rounded-sm overflow-hidden" data-aos="fade-left">
                         <DynamicVideoPlayer type="short-2"/>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Benefits() {
                 {/* Bottom Row: Image and Features Grid */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Bottom Left: Large Image Placeholder */}
-                    <div className="bg-[#F2F2F2] overflow-hidden rounded-sm max-h-[400px] lg:max-h-[450px] flex items-center justify-center">
+                    <div className="bg-[#F2F2F2] overflow-hidden rounded-sm max-h-[400px] lg:max-h-[450px] flex items-center justify-center" data-aos="zoom-in">
                         <img src="/arnott/images/suspention.png" alt="" className="w-full h-full object-contain" />
                     </div>
 
@@ -66,6 +66,8 @@ export default function Benefits() {
                             <div
                                 key={index}
                                 className="flex flex-row gap-4 items-start"
+                                data-aos="fade-up"
+                                data-aos-delay={index * 100}
                             >
                                 <div className="w-10 h-10 bg-[#00B341] rounded-full flex items-center justify-center text-white shrink-0">
                                     <Check size={20} strokeWidth={3.5} />

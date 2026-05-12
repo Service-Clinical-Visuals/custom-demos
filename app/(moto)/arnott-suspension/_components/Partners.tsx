@@ -15,7 +15,7 @@ export default function Partners() {
             <div className="container mx-auto px-4 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                     {/* Header Left */}
-                    <div className="lg:col-span-4">
+                    <div className="lg:col-span-4" data-aos="fade-right">
                         <span className="text-primary font-semibold text-base tracking-wider mb-1 block">Our Partners</span>
                         <h2 className="text-[28px] md:text-[32px] font-bold text-[#171717] mb-4">Trusted by Industry Leaders</h2>
                         
@@ -30,7 +30,7 @@ export default function Partners() {
                     </div>
 
                     {/* Logos Right */}
-                    <div className="lg:col-span-8 overflow-hidden">
+                    <div className="lg:col-span-8 overflow-hidden" data-aos="fade-left">
                         <Swiper
                             modules={[Navigation]}
                             spaceBetween={16}

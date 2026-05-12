@@ -2,17 +2,20 @@ import type { Metadata } from "next";
 import { Big_Shoulders, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
+import AosProvider from "./_components/AosProvider";
 
 const bigShoulders = Big_Shoulders({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: "variable",
   variable: "--font-big-shoulders",
-  adjustFontFallback: false,
+  axes: ["opsz"],
+  display: "swap",
+  fallback: ["sans-serif"],
 });
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: "variable",
   variable: "--font-dm-sans",
 });
 
@@ -28,9 +31,11 @@ export default function ArnottLayout({
 }) {
   return (
     <div className={`${bigShoulders.variable} ${dmSans.variable} arnott-theme antialiased`}>
-      <VideoProvider>
-        {children}
-      </VideoProvider>
+      <AosProvider>
+        <VideoProvider>
+          {children}
+        </VideoProvider>
+      </AosProvider>
     </div>
   );
 }

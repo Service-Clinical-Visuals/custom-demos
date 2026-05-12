@@ -8,7 +8,7 @@ export default function SearchFilter() {
     return (
         <section className="py-16 bg-[url('/arnott/images/dark-bg.png')] text-white">
             <div className="container mx-auto px-4 md:px-12">
-                <div className="text-center mb-12">
+                <div className="text-center mb-12" data-aos="fade-up">
                     <div>
                         <span className="text-primary font-semibold text-base tracking-wider mb-1 block">Search Model</span>
                         <h2 className="text-[28px] md:text-[32px] font-bold text-white! mb-3">#1 in Replacement Air & Adaptive Suspension</h2>
@@ -16,11 +16,13 @@ export default function SearchFilter() {
                 </div>
 
                 {/* Filter Grid */}
-                <div className=" mx-auto">
+                <div className=" mx-auto" data-aos="zoom-in">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
                         {["Manufacturer", "Models", "Model Year", "Type"].map((filter) => (
-                            <div key={filter} className="relative group">
-                                <select className="w-full bg-[#f4f4f4] text-[#484848] font-bold px-6 py-5 rounded-sm appearance-none outline-none focus:ring-2 focus:ring-primary transition-all">
+                            <div key={filter} className="relative group pointer-events-none">
+                                <select 
+                                    className="w-full bg-[#f4f4f4] text-[#484848] font-bold px-6 py-5 rounded-sm appearance-none outline-none focus:ring-2 focus:ring-primary transition-all"
+                                >
                                     <option>{filter}</option>
                                     <option>Option 1</option>
                                     <option>Option 2</option>

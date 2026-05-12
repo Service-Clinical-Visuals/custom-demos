@@ -14,7 +14,10 @@ export default function Hero() {
             </div>
 
             {/* Hero Content */}
-            <div className="container mx-auto flex flex-col justify-end pb-40 h-full px-4 md:px-12 w-full text-left text-white relative z-20">
+            <div 
+                className="container mx-auto flex flex-col justify-end pb-40 h-full px-4 md:px-12 w-full text-left text-white relative z-20"
+                data-aos="fade-up"
+            >
                 <div className="max-w-3xl">
                     <h1
                         className="text-xl md:text-3xl lg:text-5xl font-bold leading-[1.4] mb-8 text-white! whitespace-pre-line"
