@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Check } from "lucide-react";
+import { ArrowUpRight, Check, CornerUpRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -18,9 +18,9 @@ export default function BioplateAbout() {
       {/* Bottom Accent Line */}
       <div className="absolute bottom-0 left-0 h-[2px] w-full bg-[#009688]" />
 
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-20 px-8 lg:grid-cols-2 lg:px-16">
+      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-stretch gap-20 px-8 lg:grid-cols-2 lg:px-16">
         {/* ================= LEFT CONTENT ================= */}
-        <div className="max-w-[560px]">
+        <div className="">
           {/* HEADING */}
           <div data-aos="fade-up">
             <h2 className="text-3xl font-semibold tracking-[-1.5px] text-[#202020]">
@@ -32,23 +32,20 @@ export default function BioplateAbout() {
           <div
             data-aos="fade-up"
             data-aos-delay="150"
-            className="mt-4 space-y-6 text-base leading-[1.95] text-[#5e5e5e]"
+            className="mt-2 space-y-3 text-base leading-[1.95] text-[#5e5e5e]"
           >
             <p>
               For over 25 years, we have focused on delivering products that
               help patients who need neurosurgery. Our team is passionate about
               this focused mission. We pride ourselves on being small,
-              collaborative, and friendly. It lets us go the extra mile to keep
-              our customers as happy as possible.
+              collaborative, and friendly. 
             </p>
 
             <p>
               Bioplate designs and manufactures cranial closure and bone
               fixation systems for neurosurgery. The company was founded in 1995
               and continues to share the founders commitment to patient safety
-              and practitioners insight into the needs of their patients. A
-              focus on safety and effectiveness remains at the core of the
-              company’s philosophy.
+              and practitioners insight into the needs of their patients. 
             </p>
           </div>
 
@@ -56,7 +53,7 @@ export default function BioplateAbout() {
           <div
             data-aos="fade-up"
             data-aos-delay="300"
-            className="mt-5 space-y-5"
+            className="mt-3 space-y-3"
           >
             {features.map((feature, index) => (
               <div key={index} className="flex items-start gap-4">
@@ -74,12 +71,12 @@ export default function BioplateAbout() {
           </div>
 
           {/* BUTTON */}
-          <div data-aos="fade-up" data-aos-delay="450" className="mt-12">
-            <button className="group flex h-[56px] items-center gap-5 rounded-[10px] bg-[#61C6C2] px-8 text-[15px] font-semibold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#53b7b3]">
+          <div data-aos="fade-up" data-aos-delay="450" className="mt-6">
+            <button className="cursor-pointer group flex h-[56px] items-center gap-5 rounded-[10px] bg-[#5DC1B9] px-8 text-[15px] font-bold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#53b7b3]">
               Know More
 
               <span className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]">
-                <ArrowUpRight size={18} strokeWidth={2.4} />
+                <CornerUpRight size={18} strokeWidth={2.4} />
               </span>
             </button>
           </div>
@@ -101,7 +98,7 @@ export default function BioplateAbout() {
             />
 
             {/* DARK OVERLAY */}
-            <div className="absolute inset-0 bg-black/18" />
+            {/* <div className="absolute inset-0 bg-black/18" /> */}
 
             {/* SOFT LIGHT GLOW */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.28),transparent_40%)]" />

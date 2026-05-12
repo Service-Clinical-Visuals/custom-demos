@@ -42,7 +42,7 @@ export default function BioplateHero() {
                 data-aos-delay="300"
                 className="mt-6"
               >
-                <button className="cursor-pointer group flex h-[55px] items-center gap-6 rounded-[12px] bg-white px-8 text-base font-semibold text-black transition-all duration-300 hover:scale-[1.03] hover:bg-[#f5f5f5]">
+                <button className="cursor-pointer group flex h-[55px] items-center gap-6 rounded-[12px] bg-white px-8 text-base font-bold text-black transition-all duration-300 hover:scale-[1.03] hover:bg-[#f5f5f5]">
                   Explore Products
 
                   <span className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]">

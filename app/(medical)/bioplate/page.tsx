@@ -9,6 +9,7 @@ import BioplateAbout from "./components/BioplateAbout";
 import BioplateAdvantage from "./components/BioplateAdvantage";
 import BioplateTeamAndSolutions from "./components/BioplateTeamsAndSolutions";
 import BioplateProducts from "./components/BioplateProducts";
+import BioplateFooter from "./components/BioplateFooter";
 
 
 export default function Home() {
@@ -42,6 +43,7 @@ export default function Home() {
     <BioplateAdvantage/>
     <BioplateTeamAndSolutions/>
     <BioplateProducts/>
+    <BioplateFooter/>
     </>
   );
 }

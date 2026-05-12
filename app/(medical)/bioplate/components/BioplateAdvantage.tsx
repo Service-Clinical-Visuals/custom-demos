@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Check } from "lucide-react";
+import { ArrowUpRight, Check, CornerUpRight } from "lucide-react";
 import "aos/dist/aos.css";
 
 const advantages = [
@@ -12,7 +12,7 @@ const advantages = [
   "Includes contourable Biomesh®",
 ];
 
-export default function BioplateAdvantage                  () {
+export default function BioplateAdvantage() {
 
   return (
     <section className="relative overflow-hidden bg-[#006B52] py-24 text-white">
@@ -24,11 +24,11 @@ export default function BioplateAdvantage                  () {
         {/* TOP GRID */}
         {/* ================================================= */}
 
-        <div className="grid items-center gap-20 lg:grid-cols-2">
+        <div className="grid items-stretch gap-20 lg:grid-cols-2">
           {/* LEFT CONTENT */}
-          <div className="max-w-[560px]">
+          <div className="flex h-full flex-col justify-between">
             <div data-aos="fade-up">
-              <h2 className="text-[54px] font-semibold leading-[1.05] tracking-[-2px] text-white">
+              <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-2px] text-white">
                 Maxillofacial System
               </h2>
             </div>
@@ -36,9 +36,9 @@ export default function BioplateAdvantage                  () {
             <div
               data-aos="fade-up"
               data-aos-delay="150"
-              className="mt-8 space-y-7"
+              className="mt-4 space-y-4"
             >
-              <p className="text-[17px] leading-[2] text-white/82">
+              <p className="text-base leading-[2] text-white/82">
                 Discover how our MaxFax™ System is designed to help
                 maxillofacial surgeons and their teams meet the demands and
                 challenges of complex fixation procedures. It’s a lightweight,
@@ -46,7 +46,7 @@ export default function BioplateAdvantage                  () {
                 customizable to a surgeon’s needs.
               </p>
 
-              <p className="text-[17px] leading-[2] text-white/82">
+              <p className="text-base leading-[2] text-white/82">
                 The Bioplate® Maxillofacial Plating System is a precision, high
                 quality modular set that is lightweight and cost effective. The
                 system includes the most frequently used plates in maxillofacial
@@ -57,12 +57,12 @@ export default function BioplateAdvantage                  () {
             </div>
 
             {/* CTA */}
-            <div data-aos="fade-up" data-aos-delay="300" className="mt-12">
-              <button className="group flex h-[58px] items-center gap-5 rounded-[10px] bg-[#6BC9C1] px-8 text-[15px] font-semibold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#5bbab3]">
+            <div data-aos="fade-up" data-aos-delay="300" className="mt-4">
+              <button className="cursor-pointer group flex h-[58px] items-center gap-5 rounded-[10px] bg-[#5DC1B9] px-8 text-base font-bold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#5bbab3]">
                 View Products
 
                 <span className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]">
-                  <ArrowUpRight size={18} strokeWidth={2.4} />
+                  <CornerUpRight size={18} strokeWidth={2.4} />
                 </span>
               </button>
             </div>
@@ -115,7 +115,7 @@ export default function BioplateAdvantage                  () {
         <div>
           {/* TITLE */}
           <div data-aos="fade-up">
-            <h3 className="text-[46px] font-semibold tracking-[-1.5px] text-white">
+            <h3 className="text-4xl font-semibold tracking-[-1.5px] text-white">
               The BIOPLATE ® Advantages
             </h3>
           </div>
@@ -139,7 +139,7 @@ export default function BioplateAdvantage                  () {
                 </div>
 
                 {/* TEXT */}
-                <p className="text-[15px] leading-[1.9] text-[#3d3d3d]">
+                <p className="text-base leading-[1.9] text-[#3d3d3d]">
                   {item}
                 </p>
               </div>

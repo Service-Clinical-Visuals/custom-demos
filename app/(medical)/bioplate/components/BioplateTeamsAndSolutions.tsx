@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
-import { ArrowLeft, ArrowRight, ArrowUpRight, Check } from "lucide-react";
+import { useState, useEffect } from "react";
+import { ArrowLeft, ArrowRight, Check, CornerUpRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,6 +21,16 @@ const teamMembers = [
     role: "Human Resources",
     image: "/bioplate/bioplate-teams-3.png",
   },
+    {
+    name: "Alan Zhu",
+    role: "Global Sales",
+    image: "/bioplate/bioplate-teams-4.png",
+  },
+  {
+    name: "Yoon Choi",
+    role: "Quality & Regulations",
+    image: "/bioplate/bioplate-teams-5.png",
+  },
 ];
 
 const screwItems = [
@@ -33,7 +43,27 @@ const plateItems = [
   "1.5mm and 1.9mm diameter self drilling screws",
 ];
 
+const CARDS_PER_PAGE = 3;
+
 export default function BioplateTeamAndSolutions() {
+  const [startIndex, setStartIndex] = useState(0);
+
+  useEffect(() => {
+    AOS.init({ once: true, duration: 700 });
+  }, []);
+
+  const visibleMembers = teamMembers.slice(startIndex, startIndex + CARDS_PER_PAGE);
+  const canGoBack = startIndex > 0;
+  const canGoForward = startIndex + CARDS_PER_PAGE < teamMembers.length;
+
+  const handlePrev = () => {
+    if (canGoBack) setStartIndex(Math.max(0, startIndex - CARDS_PER_PAGE));
+  };
+
+  const handleNext = () => {
+    if (canGoForward)
+      setStartIndex(Math.min(teamMembers.length - CARDS_PER_PAGE, startIndex + CARDS_PER_PAGE));
+  };
 
   return (
     <section className="overflow-hidden bg-[#f6f6f4]">
@@ -65,11 +95,19 @@ export default function BioplateTeamAndSolutions() {
               data-aos-delay="250"
               className="mt-12 flex items-center gap-3"
             >
-              <button className="flex h-[62px] w-[62px] items-center justify-center rounded-[10px] bg-[#006D53] text-white transition-all duration-300 hover:bg-[#005844]">
+              <button
+                onClick={handlePrev}
+                disabled={!canGoBack}
+                className="cursor-pointer flex h-[62px] w-[62px] items-center justify-center rounded-[10px] bg-[#006D53] text-white transition-all duration-300 hover:bg-[#005844] disabled:opacity-40 disabled:cursor-not-allowed"
+              >
                 <ArrowLeft size={20} strokeWidth={2.5} />
               </button>
 
-              <button className="flex h-[62px] w-[62px] items-center justify-center rounded-[10px] bg-[#006D53] text-white transition-all duration-300 hover:bg-[#005844]">
+              <button
+                onClick={handleNext}
+                disabled={!canGoForward}
+                className="cursor-pointer flex h-[62px] w-[62px] items-center justify-center rounded-[10px] bg-[#006D53] text-white transition-all duration-300 hover:bg-[#005844] disabled:opacity-40 disabled:cursor-not-allowed"
+              >
                 <ArrowRight size={20} strokeWidth={2.5} />
               </button>
             </div>
@@ -77,7 +115,7 @@ export default function BioplateTeamAndSolutions() {
 
           {/* TEAM CARDS */}
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-            {teamMembers.map((member, index) => (
+            {visibleMembers.map((member, index) => (
               <div
                 key={index}
                 data-aos="fade-up"
@@ -97,11 +135,11 @@ export default function BioplateTeamAndSolutions() {
 
                 {/* CONTENT */}
                 <div className="px-6 pb-7 pt-2 text-center">
-                  <h3 className="text-[34px] font-semibold tracking-[-1px] text-[#1f1f1f]">
+                  <h3 className="text-xl font-semibold tracking-[-1px] text-[#1f1f1f]">
                     {member.name}
                   </h3>
 
-                  <p className="mt-2 text-[15px] font-medium text-[#0A8A74]">
+                  <p className="mt-2 text-base font-medium text-[#0A8A74]">
                     {member.role}
                   </p>
                 </div>
@@ -119,14 +157,14 @@ export default function BioplateTeamAndSolutions() {
         {/* SUBTLE DEPTH */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.04),transparent_40%)]" />
 
-        <div className="relative z-10 mx-auto grid max-w-[1600px] items-center gap-10 px-8 lg:grid-cols-[1.1fr_1fr] lg:px-16">
+        <div className="relative z-10 mx-auto grid max-w-[1600px] items-stretch gap-10 px-8 lg:grid-cols-[1.1fr_1fr] lg:px-16">
           {/* LEFT VIDEO AREA */}
           <div
             data-aos="fade-right"
-            className="relative overflow-hidden rounded-[24px]"
+            className="relative h-full overflow-hidden rounded-[24px]"
           >
             {/* VIDEO PLACEHOLDER */}
-            <div className="aspect-[16/9] w-full rounded-[24px] bg-[#d9d9d9]">
+            <div className="h-full min-h-[320px] w-full rounded-[24px] bg-[#d9d9d9]">
               {/* Checker Pattern */}
               <div className="h-full w-full bg-[linear-gradient(45deg,#e7e7e7_25%,transparent_25%),linear-gradient(-45deg,#e7e7e7_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#e7e7e7_75%),linear-gradient(-45deg,transparent_75%,#e7e7e7_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" />
 
@@ -153,14 +191,14 @@ export default function BioplateTeamAndSolutions() {
                 Our Solutions
               </h2>
 
-              <p className="mt-5 max-w-[620px] text-[16px] leading-[1.95] text-white/80">
+              <p className="mt-3 max-w-[620px] text-[16px] leading-[1.95] text-white/80">
                 Explore Our Advanced Range Of Screws, Plates, Drills, Trays, And
                 Instruments Built For Modern Healthcare Solutions.
               </p>
             </div>
 
             {/* CARDS */}
-            <div className="mt-12 grid gap-6 md:grid-cols-2">
+            <div className="mt-4 grid gap-6 md:grid-cols-2">
               {/* SCREWS */}
               <div
                 data-aos="fade-up"
@@ -221,12 +259,12 @@ export default function BioplateTeamAndSolutions() {
             </div>
 
             {/* BUTTON */}
-            <div data-aos="fade-up" data-aos-delay="350" className="mt-10">
-              <button className="cursor-pointer group flex h-[58px] items-center gap-5 rounded-[10px] bg-white px-8 text-[15px] font-semibold text-[#1e1e1e] transition-all duration-300 hover:scale-[1.03]">
+            <div data-aos="fade-up" data-aos-delay="350" className="mt-5">
+              <button className="cursor-pointer group flex h-[58px] items-center gap-5 rounded-[10px] bg-white px-8 text-base font-bold text-[#1e1e1e] transition-all duration-300 hover:scale-[1.03]">
                 Explore Products
 
                 <span className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]">
-                  <ArrowUpRight size={18} strokeWidth={2.4} />
+                  <CornerUpRight size={18} strokeWidth={2.4} />
                 </span>
               </button>
             </div>

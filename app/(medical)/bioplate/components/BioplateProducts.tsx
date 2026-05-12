@@ -9,7 +9,7 @@ import {
   PiggyBank,
   SlidersHorizontal,
 } from "lucide-react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 const products = [
@@ -67,7 +67,7 @@ const surgicalItems = [
 export default function BioplateProducts() {
 
   return (
-    <section className="overflow-hidden bg-[#f5f5f3] py-24">
+    <section className="overflow-hidden bg-[#f5f5f3] pt-24 pb-44">
       <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
         {/* ================================================= */}
         {/* TOP HEADER */}
@@ -83,7 +83,7 @@ export default function BioplateProducts() {
 
           {/* DESCRIPTION */}
           <div data-aos="fade-up" data-aos-delay="150">
-            <p className="max-w-[620px] text-right text-[16px] leading-[1.9] text-[#444444]">
+            <p className="max-w-[620px] text-left xl:text-right text-[16px] leading-[1.9] text-[#444444]">
               Featuring high-precision technology designed specifically for
               neurosurgery, Bioplate® offers a comprehensive product line and
               superior service to the surgical community.
@@ -104,7 +104,7 @@ export default function BioplateProducts() {
               key={index}
               data-aos="fade-up"
               data-aos-delay={index * 120}
-              className="group rounded-[22px] bg-[#CFE1DC] p-5 shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2"
+              className="group flex flex-col rounded-[22px] bg-[#CFE1DC] p-5 shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2"
             >
               {/* IMAGE */}
               <div className="overflow-hidden rounded-[18px] bg-[#e8e8e8]">
@@ -124,13 +124,13 @@ export default function BioplateProducts() {
               </div>
 
               {/* CONTENT */}
-              <div className="px-4 pb-2 pt-7 text-center">
+              <div className="flex flex-1 flex-col px-4 pb-2 pt-7 text-center">
                 <h3 className="mx-auto max-w-[280px] text-lg font-semibold leading-[1.15] tracking-[-1px] text-[#1f1f1f]">
                   {product.title}
                 </h3>
 
                 {/* BUTTON */}
-                <div className="mt-8 flex justify-center">
+                <div className="mt-auto pt-8 flex justify-center">
                   <button className="cursor-pointer group/btn flex h-[54px] items-center gap-5 rounded-full bg-white px-7 text-base font-medium text-[#1f1f1f] shadow-sm transition-all duration-300 hover:scale-[1.03]">
                     View Catalog
 
@@ -182,7 +182,7 @@ export default function BioplateProducts() {
         {/* SURGICAL INDICATION */}
         {/* ================================================= */}
 
-        <div className="mt-28 grid items-center gap-20 lg:grid-cols-2">
+        <div className="mt-28 grid items-stretch gap-20 lg:grid-cols-2">
           {/* LEFT CONTENT */}
           <div>
             {/* TITLE */}
@@ -216,7 +216,7 @@ export default function BioplateProducts() {
                       {item.title}
                     </h4>
 
-                    <p className="mt-3 max-w-[700px] text-[15px] leading-[1.95] text-[#5b5b5b]">
+                    <p className="mt-3 max-w-[700px] text-base leading-[1.95] text-[#5b5b5b]">
                       {item.description}
                     </p>
                   </div>
@@ -226,9 +226,9 @@ export default function BioplateProducts() {
           </div>
 
           {/* RIGHT VIDEO/IMAGE */}
-          <div data-aos="fade-left" className="relative">
-            <div className="overflow-hidden rounded-[24px] bg-[#e8e8e8] shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
-              <div className="aspect-2/2 w-full">
+          <div data-aos="fade-left" className="relative h-full">
+            <div className="h-full overflow-hidden rounded-[24px] bg-[#e8e8e8] shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
+              <div className="h-full w-full">
                 {/* PLACEHOLDER */}
                 <div className="h-full w-full bg-[linear-gradient(45deg,#ececec_25%,transparent_25%),linear-gradient(-45deg,#ececec_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#ececec_75%),linear-gradient(-45deg,transparent_75%,#ececec_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" />
 
