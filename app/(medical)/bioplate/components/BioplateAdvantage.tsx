@@ -2,6 +2,7 @@
 
 import { ArrowUpRight, Check, CornerUpRight } from "lucide-react";
 import "aos/dist/aos.css";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const advantages = [
   "Highly scalable and easy to customize with a wide variety of plate and screw configurations",
@@ -78,26 +79,17 @@ export default function BioplateAdvantage() {
             <div className="relative overflow-hidden rounded-[22px] border-[6px] border-[#4A9D8B] bg-[#d9d9d9] shadow-[0_10px_40px_rgba(0,0,0,0.18)]">
               {/* VIDEO PLACEHOLDER */}
               {/* Replace with video later */}
-              <div className="aspect-[16/10] w-full">
+              <div className=" w-full">
                 {/* Placeholder Grid */}
-                <div className="h-full w-full bg-[linear-gradient(45deg,#e7e7e7_25%,transparent_25%),linear-gradient(-45deg,#e7e7e7_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#e7e7e7_75%),linear-gradient(-45deg,transparent_75%,#e7e7e7_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" />
+                <div className="h-full w-full" />
 
                 {/* Future Video */}
-                {/*
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="h-full w-full object-cover"
-                >
-                  <source src="/videos/maxillo.mp4" type="video/mp4" />
-                </video>
-                */}
+                <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
+
               </div>
 
               {/* LIGHT OVERLAY */}
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.22),transparent_40%)]" />
+              {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.22),transparent_40%)]" /> */}
             </div>
           </div>
         </div>

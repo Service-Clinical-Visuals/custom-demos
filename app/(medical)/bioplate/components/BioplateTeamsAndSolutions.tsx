@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { ArrowLeft, ArrowRight, Check, CornerUpRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const teamMembers = [
   {
@@ -163,23 +164,8 @@ export default function BioplateTeamAndSolutions() {
             data-aos="fade-right"
             className="relative h-full overflow-hidden rounded-[24px]"
           >
-            {/* VIDEO PLACEHOLDER */}
-            <div className="h-full min-h-[320px] w-full rounded-[24px] bg-[#d9d9d9]">
-              {/* Checker Pattern */}
-              <div className="h-full w-full bg-[linear-gradient(45deg,#e7e7e7_25%,transparent_25%),linear-gradient(-45deg,#e7e7e7_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#e7e7e7_75%),linear-gradient(-45deg,transparent_75%,#e7e7e7_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" />
-
-              {/* Future Video */}
-              {/*
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="h-full w-full object-cover"
-              >
-                <source src="/videos/solution.mp4" type="video/mp4" />
-              </video>
-              */}
+            <div className="h-full min-h-[320px] w-full rounded-[24px] overflow-hidden">
+              <DynamicVideoPlayer type="short-1" className="w-full h-full object-cover" />
             </div>
           </div>
 

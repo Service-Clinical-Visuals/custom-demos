@@ -11,19 +11,20 @@ import {
 } from "lucide-react";
 
 import "aos/dist/aos.css";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const products = [
   {
     title: "Osteopore® Bioresorbable Bone Scaffold",
-    image: "/products/product-1.jpg",
+    image: "/bioplate/bioplate-product-1.png",
   },
   {
     title: "Sterile kit",
-    image: "/products/product-2.jpg",
+    image: "/bioplate/bioplate-product-2.png",
   },
   {
     title: "BIOMESH® System",
-    image: "/products/product-3.jpg",
+    image: "/bioplate/bioplate-product-3.png",
   },
 ];
 
@@ -110,16 +111,16 @@ export default function BioplateProducts() {
               <div className="overflow-hidden rounded-[18px] bg-[#e8e8e8]">
                 <div className="aspect-[4/3] w-full">
                   {/* IMAGE PLACEHOLDER */}
-                  <div className="h-full w-full bg-[linear-gradient(45deg,#ececec_25%,transparent_25%),linear-gradient(-45deg,#ececec_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#ececec_75%),linear-gradient(-45deg,transparent_75%,#ececec_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" />
+                  {/* <div className="h-full w-full bg-[linear-gradient(45deg,#ececec_25%,transparent_25%),linear-gradient(-45deg,#ececec_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#ececec_75%),linear-gradient(-45deg,transparent_75%,#ececec_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" /> */}
 
                   {/* FUTURE IMAGE */}
-                  {/*
+                  
                   <img
                     src={product.image}
                     alt={product.title}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full bg-cover shrink-0 object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                   />
-                  */}
+                 
                 </div>
               </div>
 
@@ -227,23 +228,12 @@ export default function BioplateProducts() {
 
           {/* RIGHT VIDEO/IMAGE */}
           <div data-aos="fade-left" className="relative h-full">
-            <div className="h-full overflow-hidden rounded-[24px] bg-[#e8e8e8] shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
+            <div className="h-full overflow-hidden rounded-[24px] shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
               <div className="h-full w-full">
                 {/* PLACEHOLDER */}
-                <div className="h-full w-full bg-[linear-gradient(45deg,#ececec_25%,transparent_25%),linear-gradient(-45deg,#ececec_25%,transparent_25%),linear-gradient(45deg,transparent_75%,#ececec_75%),linear-gradient(-45deg,transparent_75%,#ececec_75%)] bg-[size:40px_40px] bg-[position:0_0,0_20px,20px_-20px,-20px_0px]" />
-
                 {/* FUTURE VIDEO / IMAGE */}
-                {/*
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="h-full w-full object-cover"
-                >
-                  <source src="/videos/surgical.mp4" type="video/mp4" />
-                </video>
-                */}
+                    <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
+                
               </div>
             </div>
           </div>
