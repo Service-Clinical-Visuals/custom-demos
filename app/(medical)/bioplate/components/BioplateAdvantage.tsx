@@ -119,7 +119,7 @@ export default function BioplateAdvantage() {
                 key={index}
                 data-aos="fade-up"
                 data-aos-delay={index * 80}
-                className="group flex min-h-[118px] items-start gap-5 rounded-[18px] bg-[#F3F3F3] px-7 py-7 text-[#2b2b2b] shadow-[0_6px_18px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1"
+                className="group flex min-h-[118px] items-center gap-5 rounded-[18px] bg-[#F3F3F3] px-7 py-7 text-[#2b2b2b] shadow-[0_6px_18px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1"
               >
                 {/* ICON */}
                 <div className="mt-[2px] flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-full bg-[#2E8B73]">

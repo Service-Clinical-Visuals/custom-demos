@@ -68,7 +68,7 @@ const surgicalItems = [
 export default function BioplateProducts() {
 
   return (
-    <section className="overflow-hidden bg-[#f5f5f3] pt-24 pb-44">
+    <section className="overflow-hidden bg-[#ffff] pt-24 pb-44">
       <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
         {/* ================================================= */}
         {/* TOP HEADER */}
@@ -93,7 +93,7 @@ export default function BioplateProducts() {
         </div>
 
         {/* DIVIDER */}
-        <div className="mt-10 h-[1px] w-full bg-[#6EB7AB]" />
+        <div className="mt-10 h-px w-full bg-[#6EB7AB]" />
 
         {/* ================================================= */}
         {/* PRODUCT CARDS */}
@@ -126,7 +126,7 @@ export default function BioplateProducts() {
 
               {/* CONTENT */}
               <div className="flex flex-1 flex-col px-4 pb-2 pt-7 text-center">
-                <h3 className="mx-auto max-w-[280px] text-lg font-semibold leading-[1.15] tracking-[-1px] text-[#1f1f1f]">
+                <h3 className="mx-auto max-w-[280px] text-xl font-semibold leading-[1.15] tracking-[-1px] text-[#1f1f1f]">
                   {product.title}
                 </h3>
 
@@ -151,7 +151,7 @@ export default function BioplateProducts() {
 
         <div
           data-aos="fade-up"
-          className="mt-16 overflow-hidden rounded-[12px] bg-[#2E8B73]"
+          className="mt-16 overflow-hidden rounded-xl bg-[#2E8B73]"
         >
           <div className="grid md:grid-cols-2 xl:grid-cols-4">
             {features.map((feature, index) => {
@@ -170,7 +170,7 @@ export default function BioplateProducts() {
                   <Icon size={36} strokeWidth={1.8} className="text-white" />
 
                   {/* TEXT */}
-                  <h4 className="text-xl font-medium tracking-[-1px] text-white">
+                  <h4 className="text-2xl font-bold tracking-[-1px] text-white">
                     {feature.title}
                   </h4>
                 </div>
@@ -213,7 +213,7 @@ export default function BioplateProducts() {
 
                   {/* CONTENT */}
                   <div>
-                    <h4 className="text-lg font-bold tracking-[-0.8px] text-[#0B7A63]">
+                    <h4 className="text-xl font-bold tracking-[-0.8px] text-[#0B7A63]">
                       {item.title}
                     </h4>
 
@@ -228,7 +228,7 @@ export default function BioplateProducts() {
 
           {/* RIGHT VIDEO/IMAGE */}
           <div data-aos="fade-left" className="relative h-full">
-            <div className="h-full overflow-hidden rounded-[24px] shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
+            <div className="h-full overflow-hidden rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
               <div className="h-full w-full">
                 {/* PLACEHOLDER */}
                 {/* FUTURE VIDEO / IMAGE */}
