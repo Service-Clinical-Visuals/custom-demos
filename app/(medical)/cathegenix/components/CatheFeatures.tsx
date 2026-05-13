@@ -29,7 +29,7 @@ export default function CatheFeatures() {
                 Endura™ Ureteral Stents
               </h2>
 
-              <p className="mt-5 max-w-[520px] text-[16px] leading-[1.9] text-white/82">
+              <p className="mt-5 max-w-[520px] text-[16px] leading-[1.9] text-white">
                 Provides long-term drainage and patient comfort during extended
                 stent placement.
               </p>
@@ -47,7 +47,7 @@ export default function CatheFeatures() {
               {/* FEATURE 1 */}
               <div>
                 <h3 className="text-xl font-bold tracking-[-1px] text-[#0047A6]">
-                  Anti-crusting coating :
+                  Anti-crusting coating
                 </h3>
 
                 <p className="mt-2 text-base leading-[2] text-[#666666]">
@@ -64,7 +64,7 @@ export default function CatheFeatures() {
               {/* FEATURE 2 */}
               <div>
                 <h3 className="text-xl font-bold tracking-[-1px] text-[#0047A6]">
-                  Thin wall for maximum lumen size :
+                  Thin wall for maximum lumen size
                 </h3>
 
                 <p className="mt-2 text-base leading-[2] text-[#666666]">

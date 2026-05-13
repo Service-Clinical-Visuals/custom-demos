@@ -23,7 +23,7 @@ export default function CatheChoose() {
       {/* TOP FEATURE SECTION */}
       {/* ================================================= */}
 
-      <div className="border-b border-black/5 py-24">
+      <div className="border-b border-black/5 py-16">
         <div className="mx-auto grid max-w-[1600px] items-stretch gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-16">
           {/* ================================================= */}
           {/* LEFT VIDEO / IMAGE */}
@@ -101,7 +101,7 @@ export default function CatheChoose() {
       {/* WHY CHOOSE US */}
       {/* ================================================= */}
 
-      <div className="py-24">
+      <div className="py-10">
         <div className="mx-auto grid max-w-[1600px] items-center gap-20 px-8 lg:grid-cols-[0.95fr_1fr] lg:px-16">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
@@ -114,7 +114,7 @@ export default function CatheChoose() {
                 Why Choose Us?
               </h2>
 
-              <p className="mt-8 max-w-[620px] text-[16px] leading-[2] text-[#666666]">
+              <p className="mt-5 max-w-[620px] text-[16px] leading-[2] text-[#666666]">
                 Equipped with advanced precision extrusion systems, certified
                 testing laboratories, large-scale production capacity,
                 exceptional component manufacturing capabilities, and a
@@ -127,12 +127,12 @@ export default function CatheChoose() {
             <div
               data-aos="fade-up"
               data-aos-delay="200"
-              className="mt-12 grid gap-5 md:grid-cols-2"
+              className="mt-6 grid gap-5 md:grid-cols-2"
             >
               {features.map((feature, index) => (
                 <button
                   key={index}
-                  className="flex cursor-pointer items-center justify-center rounded-full bg-[#0047A6] px-8 py-3.5 text-[15px] font-semibold text-white shadow-[0_10px_24px_rgba(0,71,166,0.16)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]"
+                  className="flex cursor-pointer items-center justify-center rounded-full bg-[#0047A6] px-8 py-3.5 text-base font-semibold text-white shadow-[0_10px_24px_rgba(0,71,166,0.16)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]"
                 >
                   {feature}
                 </button>
@@ -149,7 +149,7 @@ export default function CatheChoose() {
             className="relative overflow-hidden rounded-[28px] shadow-[0_14px_35px_rgba(0,0,0,0.08)]"
           >
             {/* IMAGE */}
-            <div className="aspect-[16/10] w-full">
+            <div className="aspect-[16/9] w-full">
               {/* PLACEHOLDER IMAGE */}
               <img
                 src="/cathegenix/cathe-choose.jpg"
@@ -169,7 +169,7 @@ export default function CatheChoose() {
             </div>
 
             {/* SOFT OVERLAY */}
-            <div className="absolute inset-0 bg-black/[0.03]" />
+            {/* <div className="absolute inset-0 bg-black/[0.03]" /> */}
 
             {/* LIGHT DEPTH */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.12),transparent_35%)]" />

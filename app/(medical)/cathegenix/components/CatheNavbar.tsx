@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Menu, X } from "lucide-react";
 import "aos/dist/aos.css";
@@ -15,22 +15,7 @@ const navLinks = [
 ];
 
 export default function CatheNavbar() {
-  const [showNavbar, setShowNavbar] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 80) {
-        setShowNavbar(true);
-      } else {
-        setShowNavbar(false);
-        setMenuOpen(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <main className="overflow-hidden bg-[#f6f6f4]">
@@ -38,13 +23,7 @@ export default function CatheNavbar() {
       {/* FLOATING NAVBAR */}
       {/* ================================================= */}
 
-      <header
-        className={`fixed left-0 top-0 z-50 w-full transition-all duration-500 ${
-          showNavbar
-            ? "translate-y-0 opacity-100"
-            : "-translate-y-full opacity-0"
-        }`}
-      >
+      <header className="fixed left-0 top-0 z-50 w-full">
         <div className="border-b border-black/5 bg-white/92 backdrop-blur-md">
           <div className="mx-auto flex h-[86px] max-w-[1600px] items-center justify-between px-8 lg:px-14">
 
@@ -79,7 +58,6 @@ export default function CatheNavbar() {
             {/* ================================================= */}
             {/* CTA — desktop */}
             {/* ================================================= */}
-
             <button className="hidden lg:flex cursor-pointer relative group h-[46px] items-center bg-[#05429B] overflow-hidden">
               <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
                 Service Portal
@@ -130,7 +108,7 @@ export default function CatheNavbar() {
               </Link>
             ))}
 
-            <button className="mt-4 mb-2 cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden w-full">
+             <button className="mt-4 mb-2 cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden w-full">
               <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
                 Service Portal
               </span>
@@ -140,6 +118,7 @@ export default function CatheNavbar() {
                 </div>
               </span>
             </button>
+
           </nav>
         </div>
       </header>
