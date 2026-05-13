@@ -62,7 +62,7 @@ export default function ProductCategory() {
                 Our Products and Category
               </h2>
               <p className="text-gray-600 text-[16px]">
-                Absolute Alignment is market leader in the supply of wheel aligners to the motor trade. We supply wheel alignment equipment that represents a perfect blend of quality and value, leaving the days of the tracking gauge and laser alignment far behind.
+                Absolute Alignment is market leader in the supply of wheel aligners to the motor trade.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -71,7 +71,7 @@ export default function ProductCategory() {
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
                   className={`${activeCategory === cat ? "bg-primary" : "bg-black"
-                    } hover:opacity-90 text-white text-[11px] font-bold uppercase tracking-wider py-3 px-6 rounded transition-all`}
+                    } hover:opacity-90 text-white text-[12px] font-bold uppercase tracking-wider py-3 px-6 rounded transition-all`}
                 >
                   {cat}
                 </button>
@@ -104,13 +104,13 @@ export default function ProductCategory() {
                       <img src={product.imageSpace} alt="Product Image" className="aspect-[4/3] w-full h-full object-cover" />
                     </div>
                     <div className="p-6 flex flex-col items-center text-center border-t border-gray-100 flex-1">
-                      <h3 className="text-primary font-bold font-heading uppercase tracking-wide mb-2">
+                      <h3 className="text-primary font-bold font-heading uppercase tracking-wide mb-2 text-[18px]">
                         {product.name}
                       </h3>
                       <p className="text-black font-bold mb-6">
                         {product.price}
                       </p>
-                      <button className="mt-auto bg-primary hover:bg-primary-hover text-white text-xs font-bold uppercase py-2 px-6 rounded-full transition-colors">
+                      <button className="mt-auto bg-primary hover:bg-primary-hover text-white text-sm font-bold  py-3 px-6 rounded-tl-2xl rounded-br-2xl transition-colors">
                         Enquire About Product
                       </button>
                     </div>

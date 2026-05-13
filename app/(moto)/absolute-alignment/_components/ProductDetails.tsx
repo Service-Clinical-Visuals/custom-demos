@@ -13,21 +13,21 @@ export default function ProductDetails() {
             </h2>
 
             <div className="mb-5">
-              <h3 className="text-primary font-bold text-[16px] mb-2">Teclink & Wishbone</h3>
+              <h3 className="text-primary font-bold text-[18px] uppercase mb-2">Teclink & Wishbone</h3>
               <p className="text-gray-600 text-[16px] leading-relaxed">
                 The Bluetooth 3D Wheel Aligner comes fully loaded with our special "Wishbone" and "Teclink" programs to speed up alignment and enhance management monitoring.
               </p>
             </div>
 
             <div className="mb-5">
-              <h3 className="text-primary font-bold text-[16px] mb-2">Shoot & Go</h3>
+              <h3 className="text-primary font-bold text-[18px] uppercase mb-2">Shoot & Go</h3>
               <p className="text-gray-600 text-[16px] leading-relaxed">
                 Shoot & Go extension pack speeds up car recognition and reduces errors. Simply photograph the car with your tablet or type in the registration number manually, and our sophisticated system will do the rest. We have a huge international database of vehicles to draw on.
               </p>
             </div>
 
             <div>
-              <h3 className="text-primary font-bold text-[16px] mb-2">All on the Wall</h3>
+              <h3 className="text-primary font-bold text-[18px] uppercase mb-2">All on the Wall</h3>
               <p className="text-gray-600 text-[16px] leading-relaxed">
                 The All on the Wall option allows you to have everything needed for performing wheel alignment operations placed on a convenient wall-mounted panel, freeing up useful space in the workshop.
               </p>

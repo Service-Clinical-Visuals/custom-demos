@@ -26,7 +26,7 @@ export default function FeaturesNews() {
   return (
     <div className="w-full bg-white flex flex-col">
       {/* Top Part: Features */}
-      <section className="w-full py-16 md:py-24">
+      <section className="w-full py-9 md:py-12">
         <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
 
           {/* Left Column - Image Placeholder */}
@@ -58,7 +58,7 @@ export default function FeaturesNews() {
                     </svg>
                   </div>
                   <div>
-                    <span className="text-gray-900 font-bold text-[16px]">{item.title}</span>{" "}
+                    <span className="text-gray-900 font-bold text-[18px]">{item.title}</span>{" "}
                     <span className="text-gray-600 text-[16px]">{item.desc}</span>
                   </div>
                 </li>
@@ -66,7 +66,7 @@ export default function FeaturesNews() {
             </ul>
 
             <div>
-              <button className="bg-primary hover:bg-primary-hover text-white text-sm font-bold uppercase tracking-wider py-3 px-8 rounded transition-colors">
+              <button className="bg-primary hover:bg-primary-hover text-white text-sm font-bold tracking-wider py-3 px-8 rounded transition-colors rounded-tl-2xl rounded-br-2xl">
                 View Product
               </button>
             </div>
@@ -75,7 +75,7 @@ export default function FeaturesNews() {
       </section>
 
       {/* Bottom Part: News */}
-      <section className="w-full py-16 md:py-24 bg-white border-t border-gray-100">
+      <section className="w-full py-9 md:py-12 bg-white border-t border-gray-100">
         <div className="container mx-auto px-4 flex flex-col items-center">
           <h2 className="text-3xl md:text-4xl font-bold font-heading uppercase text-gray-900 mb-4 tracking-tight text-center">
             Check Out Our Latest News Articles
@@ -86,8 +86,8 @@ export default function FeaturesNews() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
             {newsArticles.map((article, idx) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className="bg-white rounded-[30px] md:rounded-[40px] border border-primary/20 overflow-hidden flex flex-col shadow-sm hover:shadow-xl transition-all duration-300 group"
                 data-aos="fade-up"
                 data-aos-delay={idx * 150}
@@ -96,7 +96,7 @@ export default function FeaturesNews() {
                   <img src={article.imageSpace} alt="News Image" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="p-6 md:p-8 flex flex-col flex-1">
-                  <h3 className="text-primary font-bold font-heading uppercase tracking-wide mb-4 text-lg">
+                  <h3 className="text-primary font-bold font-heading uppercase tracking-wide mb-4 text-[18px]">
                     {article.title}
                   </h3>
                   <div className="flex items-center text-gray-400 text-sm mb-4 gap-2">

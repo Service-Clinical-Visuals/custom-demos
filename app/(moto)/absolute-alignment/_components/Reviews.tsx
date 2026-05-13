@@ -34,7 +34,7 @@ export default function Reviews() {
   ];
 
   return (
-    <section className="w-full py-16 md:py-24">
+    <section className="w-full py-9 md:py-12">
       <div className="container mx-auto px-4" data-aos="zoom-in">
         <div className="bg-primary rounded-tl-[50px] rounded-br-[50px] md:rounded-tl-[100px] md:rounded-br-[100px] py-16 md:py-24 px-6 md:px-16 flex flex-col items-center text-center">
 

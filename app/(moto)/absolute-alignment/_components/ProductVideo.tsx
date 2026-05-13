@@ -43,10 +43,10 @@ export default function ProductVideo() {
             </ul>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-primary hover:bg-primary-hover text-white text-sm font-bold uppercase tracking-wider py-3 px-8 rounded transition-colors">
+              <button className="bg-primary hover:bg-primary-hover text-white text-sm font-bold rounded-tl-2xl rounded-br-2xl tracking-wider py-3 px-8 rounded transition-colors">
                 View Product
               </button>
-              <button className="bg-[#1a1a1a] hover:bg-black text-white text-sm font-bold uppercase tracking-wider py-3 px-8 rounded transition-colors">
+              <button className="bg-[#1a1a1a] hover:bg-black text-white text-sm font-bold rounded-tl-2xl rounded-br-2xl tracking-wider py-3 px-8 rounded transition-colors">
                 Add to Cart
               </button>
             </div>
