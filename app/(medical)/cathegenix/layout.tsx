@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Manrope } from "next/font/google"; 
+import { Outfit } from "next/font/google"; 
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 
-const manrope = Manrope({
-  variable: "--font-manrope",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"], // choose weights you need
 });
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${manrope.variable} antialiased`}>
+      <body className={`${outfit.variable} antialiased`}>
         <VideoProvider>
         {children}
         </VideoProvider>

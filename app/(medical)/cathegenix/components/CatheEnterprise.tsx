@@ -1,13 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
-import {
-  ArrowLeft,
-  ArrowRight,
-  Microscope,
-  Syringe,
-} from "lucide-react";
-import AOS from "aos";
+import { useRef } from "react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import "aos/dist/aos.css";
 
 const serviceCards = [
@@ -23,9 +17,22 @@ const serviceCards = [
     title: "Precision-driven, large-scale manufacturing capabilities",
     icon: "/cathegenix/cathe-service-3.png",
   },
+  {
+    title: "High-quality products and exceptional services",
+    icon: "/cathegenix/cathe-service-4.png",
+  },
 ];
 
 export default function CatheEnterprise() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (dir: "left" | "right") => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const card = el.firstElementChild as HTMLElement;
+    const amount = (card?.offsetWidth ?? 280) + 24;
+    el.scrollBy({ left: dir === "right" ? amount : -amount, behavior: "smooth" });
+  };
 
   return (
     <section className="overflow-hidden bg-[#F7F7F5]">
@@ -36,7 +43,6 @@ export default function CatheEnterprise() {
       <div className="relative h-[420px] overflow-hidden md:h-[420px]">
         {/* BACKGROUND IMAGE */}
         <div className="absolute inset-0">
-          {/* PLACEHOLDER IMAGE */}
           <img
             src="/cathegenix/cathe-enterprise.jpg"
             alt="Medical Banner"
@@ -67,17 +73,16 @@ export default function CatheEnterprise() {
 
             {/* BUTTON */}
             <div data-aos="fade-up" data-aos-delay="200" className="mt-10 flex justify-center lg:justify-start">
-               <button className="cursor-pointer relative group flex h-[46px] items-center bg-white overflow-hidden">
+              <button className="cursor-pointer relative group flex h-[46px] items-center bg-white overflow-hidden">
                 <span className="px-6 text-base font-semibold text-black transition-all duration-300 group-hover:pr-12">
-                    Explore More
+                  Explore More
                 </span>
-
                 <span className="absolute right-0 flex h-full items-center justify-center text-white transition-all duration-300 translate-x-full group-hover:-translate-x-1">
-                    <div className="bg-[#9DCA3A] p-2.5">
+                  <div className="bg-[#9DCA3A] p-2.5">
                     <ArrowRight size={18} strokeWidth={2.8} />
-                    </div>
+                  </div>
                 </span>
-            </button>
+              </button>
             </div>
           </div>
         </div>
@@ -113,64 +118,77 @@ export default function CatheEnterprise() {
             <div data-aos="fade-up" data-aos-delay="200" className="mt-12">
               <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
                 <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
-                    Discover Services
+                  Discover Services
                 </span>
-
                 <span className="absolute right-0 flex h-full items-center justify-center text-white transition-all duration-300 translate-x-full group-hover:-translate-x-1">
-                    <div className="bg-[#9DCA3A] p-2.5">
+                  <div className="bg-[#9DCA3A] p-2.5">
                     <ArrowRight size={18} strokeWidth={2.8} />
-                    </div>
+                  </div>
                 </span>
-            </button>
+              </button>
             </div>
           </div>
 
           {/* ================================================= */}
-          {/* RIGHT CARDS */}
+          {/* RIGHT — CAROUSEL */}
           {/* ================================================= */}
 
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center mt-10 lg:mt-0">
             {/* LEFT ARROW — desktop only */}
-            <button className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+            <button
+              onClick={() => scroll("left")}
+              className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+            >
               <ArrowLeft size={20} strokeWidth={2.8} />
             </button>
 
-            {/* CARDS */}
-            <div className="grid flex-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {serviceCards.map((card, index) => {
-                return (
-                  <div
-                    key={index}
-                    data-aos="fade-up"
-                    data-aos-delay={index * 120}
-                    className="group relative rounded-[22px] border border-[#ECECEC] bg-white px-8 pb-10 pt-16 text-center shadow-[0_10px_24px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_18px_40px_rgba(0,0,0,0.08)]"
-                  >
-                    {/* FLOATING ICON */}
-                    <div className="absolute left-1/2 top-0 flex h-[92px] w-[92px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#EAEAEA] bg-white shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
-                      <img src={card.icon} alt="icon" className="w-12 h-auto" />
-                    </div>
-
-                    {/* CONTENT */}
-                    <p className="text-[15px] leading-[1.9] text-[#666666]">
-                      {card.title}
-                    </p>
+            {/* SCROLLABLE CARDS */}
+            <div
+              ref={scrollRef}
+              className="flex flex-1 gap-6 overflow-x-auto pt-[50px] -mt-[50px] pb-2 [&::-webkit-scrollbar]:hidden"
+              style={{ scrollbarWidth: "none" }}
+            >
+              {serviceCards.map((card, index) => (
+                <div
+                  key={index}
+                  data-aos="fade-up"
+                  data-aos-delay={index * 120}
+                  className="group relative flex-shrink-0 rounded-[22px] border border-[#ECECEC] bg-white px-8 pb-10 pt-16 text-center shadow-[0_10px_24px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_18px_40px_rgba(0,0,0,0.08)] w-[calc(100%-2rem)] sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+                >
+                  {/* FLOATING ICON */}
+                  <div className="absolute left-1/2 top-0 flex h-[92px] w-[92px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#EAEAEA] bg-white shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
+                    <img src={card.icon} alt="icon" className="w-12 h-auto" />
                   </div>
-                );
-              })}
+
+                  {/* CONTENT */}
+                  <p className="text-[15px] leading-[1.9] text-[#666666]">
+                    {card.title}
+                  </p>
+                </div>
+              ))}
             </div>
 
             {/* ARROWS — mobile/tablet: shown below cards as a row */}
             <div className="flex justify-center gap-4 lg:contents">
-              <button className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+              <button
+                onClick={() => scroll("left")}
+                className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+              >
                 <ArrowLeft size={20} strokeWidth={2.8} />
               </button>
-              <button className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+              <button
+                onClick={() => scroll("right")}
+                className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+              >
                 <ArrowRight size={20} strokeWidth={2.8} />
               </button>
             </div>
 
             {/* RIGHT ARROW — desktop only */}
-            <button className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+            <button
+              onClick={() => scroll("right")}
+              className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+            >
               <ArrowRight size={20} strokeWidth={2.8} />
             </button>
           </div>

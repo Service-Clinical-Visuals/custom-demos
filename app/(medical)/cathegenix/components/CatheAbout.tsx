@@ -7,7 +7,7 @@ export default function CatheAbout() {
 
 
   return (
-    <section className="overflow-hidden bg-[#f7f7f5] py-24">
+    <section className="overflow-hidden bg-white py-24">
       <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
         {/* ================================================= */}
         {/* MAIN GRID */}
