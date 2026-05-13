@@ -45,11 +45,11 @@ export default function LatestNews() {
               data-aos-delay={index * 100}
             >
               <div>
-                <h3 className="font-bold text-react-text-dark text-xl mb-6 leading-tight group-hover:text-react-purple transition-colors">
+                <h3 className="font-bold text-react-text-dark text-xl mb-6 group-hover:text-react-purple transition-colors leading-relaxed line-clamp-2 min-h-[4rem]">
                   {item.title}
                 </h3>
                 <div className="w-full h-px bg-gray-100 mb-6" />
-                <p className="text-react-text-gray text-[16px] leading-relaxed mb-8 line-clamp-6">
+                <p className="text-react-text-gray text-[16px] leading-relaxed mb-8 line-clamp-5">
                   {item.description}
                 </p>
               </div>

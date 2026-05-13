@@ -19,13 +19,13 @@ export default function SiestaHero() {
 
 
         {/* Hero Content */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-8" data-aos="fade-up" data-aos-delay="200">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-8" data-aos="fade-up" data-aos-delay="200">
           <div className="max-w-2xl">
-            <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+            <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-semibold mb-4">
               The NEW Siesta 2 Nasal Mask
             </h1>
             <p className="text-white/90 text-[16px] md:text-base max-w-xl">
-              The new Siesta 2 Nasal Mask builds on the original Siesta platform with a refined frame, added comfort features, and simplified inventory management. The Siesta 2 Nasal Mask optimizes air flow and offers updated headgear and frame for increased comfort.
+              The new Siesta 2 Nasal Mask builds on the original Siesta platform with a refined frame, added comfort features, and simplified inventory management.
             </p>
           </div>
 
