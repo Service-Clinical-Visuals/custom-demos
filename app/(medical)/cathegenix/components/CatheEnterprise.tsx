@@ -93,7 +93,7 @@ export default function CatheEnterprise() {
       {/* ================================================= */}
 
       <div className="py-16 md:py-24">
-        <div className="mx-auto grid max-w-[1600px] gap-10 px-6 md:px-8 lg:grid-cols-[0.8fr_1.3fr] lg:gap-5 lg:px-16">
+        <div className="mx-auto grid max-w-[1600px] gap-10 px-6 md:px-8 lg:grid-cols-[0.8fr_1.5fr] lg:gap-5 lg:px-16">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
@@ -161,7 +161,7 @@ export default function CatheEnterprise() {
                   </div>
 
                   {/* CONTENT */}
-                  <p className="text-[15px] leading-[1.9] text-[#666666]">
+                  <p className="text-[16px] leading-[1.9] text-[#666666]">
                     {card.title}
                   </p>
                 </div>

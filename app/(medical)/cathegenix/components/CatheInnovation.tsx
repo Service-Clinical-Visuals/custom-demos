@@ -58,7 +58,7 @@ export default function CatheInnovation() {
   const visible = products.slice(activePage * PER_PAGE, (activePage + 1) * PER_PAGE);
 
   return (
-    <section className="relative overflow-hidden bg-[#F7F7F5] py-24">
+    <section className="relative overflow-hidden bg-white py-24">
       {/* ================================================= */}
       {/* TOP BLUE BORDER */}
       {/* ================================================= */}
@@ -73,7 +73,7 @@ export default function CatheInnovation() {
         <div className="mx-auto max-w-[980px] text-center">
           {/* TITLE */}
           <div data-aos="fade-up">
-            <h2 className="text-4xl font-bold tracking-[-2px] text-[#2B2B2B]">
+            <h2 className="text-4xl font-semibold tracking-[-2px] text-[#2B2B2B]">
               Innovation · Quality · Trust
             </h2>
           </div>

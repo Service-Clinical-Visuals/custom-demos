@@ -28,14 +28,14 @@ export default function CatheAbout() {
               <img
                 src="/cathegenix/cathe-about.jpg"
                 alt="CatheGenix Office"
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover object-top"
               />
 
               {/* SOFT OVERLAY */}
-              <div className="absolute inset-0 bg-black/[0.02]" />
+              {/* <div className="absolute inset-0 bg-black/[0.02]" /> */}
 
               {/* DEPTH LIGHT */}
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.16),transparent_35%)]" />
+              {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.16),transparent_35%)]" /> */}
             </div>
           </div>
 
