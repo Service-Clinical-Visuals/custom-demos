@@ -63,7 +63,7 @@ export default function CatheNavbar() {
                 <Link
                   key={item}
                   href="#"
-                  className={`relative text-[14px] font-medium transition-all duration-300 ${
+                  className={`relative text-base font-medium transition-all duration-300 ${
                     index === 0
                       ? "text-[#1d1d1d]"
                       : "text-[#5b5b5b] hover:text-[#004AA5]"

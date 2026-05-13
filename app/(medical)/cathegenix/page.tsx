@@ -9,6 +9,10 @@ import CatheAbout from "./components/CatheAbout";
 import CatheFeatures from "./components/CatheFeatures";
 import CatheInnovation from "./components/CatheInnovation";
 import CatheEnterprise from "./components/CatheEnterprise";
+import CatheChoose from "./components/CatheChoose";
+import CatheGuarantees from "./components/CatheGuarantees";
+import CatheTestimonials from "./components/CatheTestimonials";
+import CatheFooter from "./components/CatheFooter";
 
 
 export default function Home() {
@@ -42,6 +46,11 @@ export default function Home() {
     <CatheFeatures/>
     <CatheInnovation/>  
     <CatheEnterprise/>
+    <CatheChoose/>
+    <CatheGuarantees/>
+    <CatheTestimonials/>
+    <CatheFooter/>
+    {/* <div className="h-screen"></div> */}
     </>
   ); 
 }

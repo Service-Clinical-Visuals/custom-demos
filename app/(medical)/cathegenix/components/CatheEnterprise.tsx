@@ -13,15 +13,15 @@ import "aos/dist/aos.css";
 const serviceCards = [
   {
     title: "Commitment to innovation and clinical research",
-    icon: Microscope,
+    icon: "/cathegenix/cathe-service-1.png",
   },
   {
     title: "Proprietary development of cutting-edge technologies",
-    icon: Syringe,
+    icon: "/cathegenix/cathe-service-2.png",
   },
   {
     title: "Precision-driven, large-scale manufacturing capabilities",
-    icon: Microscope,
+    icon: "/cathegenix/cathe-service-3.png",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function CatheEnterprise() {
         </div>
 
         {/* CONTENT */}
-        <div className="relative z-10 mx-auto flex h-full max-w-[1450px] items-center px-8 lg:px-16">
+        <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-center px-8 ">
           <div className="ml-auto max-w-[520px]">
             {/* TITLE */}
             <div data-aos="fade-up">
@@ -67,17 +67,17 @@ export default function CatheEnterprise() {
 
             {/* BUTTON */}
             <div data-aos="fade-up" data-aos-delay="200" className="mt-10">
-              <button className="group flex h-[54px] items-center overflow-hidden rounded-sm shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
-                {/* LEFT */}
-                <span className="flex h-full items-center bg-white px-7 text-[14px] font-semibold text-[#111111]">
-                  Explore More
+               <button className="cursor-pointer relative group flex h-[46px] items-center bg-white overflow-hidden">
+                <span className="px-6 text-base font-semibold text-black transition-all duration-300 group-hover:pr-12">
+                    Explore More
                 </span>
 
-                {/* RIGHT */}
-                <span className="flex h-full w-[54px] items-center justify-center bg-[#9BCB3B] text-[#111111] transition-all duration-300 group-hover:w-[62px]">
-                  <ArrowRight size={18} strokeWidth={2.8} />
+                <span className="absolute right-0 flex h-full items-center justify-center text-white transition-all duration-300 translate-x-full group-hover:-translate-x-1">
+                    <div className="bg-[#9DCA3A] p-2.5">
+                    <ArrowRight size={18} strokeWidth={2.8} />
+                    </div>
                 </span>
-              </button>
+            </button>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function CatheEnterprise() {
       {/* ================================================= */}
 
       <div className="py-24">
-        <div className="mx-auto grid max-w-[1450px] gap-16 px-8 lg:grid-cols-[0.8fr_1.3fr] lg:px-16">
+        <div className="mx-auto grid max-w-[1600px] gap-16 px-8 lg:grid-cols-[0.8fr_1.3fr] lg:px-16">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
@@ -96,11 +96,11 @@ export default function CatheEnterprise() {
           <div>
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-[58px] font-semibold tracking-[-2px] text-[#2B2B2B]">
+              <h2 className="text-4xl font-semibold tracking-[-2px] text-[#2B2B2B]">
                 Enterprise Services
               </h2>
 
-              <p className="mt-7 max-w-[360px] text-[16px] leading-[2] text-[#666666]">
+              <p className="mt-7 text-[16px] leading-[2] text-[#666666]">
                 Optimizing efficiency, ensuring safety, and simplifying the use
                 of{" "}
                 <span className="font-semibold text-[#0047A6]">
@@ -111,17 +111,17 @@ export default function CatheEnterprise() {
 
             {/* BUTTON */}
             <div data-aos="fade-up" data-aos-delay="200" className="mt-12">
-              <button className="group flex h-[54px] items-center overflow-hidden rounded-sm shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
-                {/* LEFT */}
-                <span className="flex h-full items-center bg-[#0047A6] px-7 text-[14px] font-semibold text-white">
-                  Discover Services
+              <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
+                <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
+                    Discover Services
                 </span>
 
-                {/* RIGHT */}
-                <span className="flex h-full w-[54px] items-center justify-center bg-[#9BCB3B] text-[#111111] transition-all duration-300 group-hover:w-[62px]">
-                  <ArrowRight size={18} strokeWidth={2.8} />
+                <span className="absolute right-0 flex h-full items-center justify-center text-white transition-all duration-300 translate-x-full group-hover:-translate-x-1">
+                    <div className="bg-[#9DCA3A] p-2.5">
+                    <ArrowRight size={18} strokeWidth={2.8} />
+                    </div>
                 </span>
-              </button>
+            </button>
             </div>
           </div>
 
@@ -131,14 +131,14 @@ export default function CatheEnterprise() {
 
           <div className="flex items-center gap-6">
             {/* LEFT ARROW */}
-            <button className="flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+            <button className="cursor-pointer flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
               <ArrowLeft size={20} strokeWidth={2.8} />
             </button>
 
             {/* CARDS */}
             <div className="grid flex-1 gap-6 md:grid-cols-3">
               {serviceCards.map((card, index) => {
-                const Icon = card.icon;
+
 
                 return (
                   <div
@@ -149,11 +149,7 @@ export default function CatheEnterprise() {
                   >
                     {/* FLOATING ICON */}
                     <div className="absolute left-1/2 top-0 flex h-[92px] w-[92px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#EAEAEA] bg-white shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
-                      <Icon
-                        size={44}
-                        strokeWidth={1.8}
-                        className="text-[#3D3D3D]"
-                      />
+                      <img src={card.icon} alt="icon" className="w-12 h-auto" />
                     </div>
 
                     {/* CONTENT */}
@@ -167,16 +163,9 @@ export default function CatheEnterprise() {
 
             {/* RIGHT ARROW */}
 
-               <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
-                <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
-                    Explore Features
-                </span>
-                <span className="absolute right-0 flex h-full items-center justify-center text-white transition-all duration-300 translate-x-full group-hover:-translate-x-1">
-                    <div className="bg-[#9DCA3A] p-2.5">
-                    <ArrowRight size={18} strokeWidth={2.8} />
-                    </div>
-                </span>
-               </button>
+            <button className="cursor-pointer flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+              <ArrowRight size={20} strokeWidth={2.8} />
+            </button>
           </div>
         </div>
       </div>
