@@ -40,8 +40,9 @@ const screwItems = [
 ];
 
 const plateItems = [
-  "1.2mm, 1.5mm, and 2.0mm diameter self tapping screws",
-  "1.5mm and 1.9mm diameter self drilling screws",
+  "Low profile interface with screws for excellent cosmetic result",
+  "Extensive selection of configurations",
+  // "Pure titanium", 
 ];
 
 export default function BioplateTeamAndSolutions() {
@@ -223,7 +224,7 @@ export default function BioplateTeamAndSolutions() {
                         />
                       </div>
 
-                      <p className="text-base leading-[1.8] text-[#303030]">
+                      <p className="text-base leading-[1.6] text-[#303030]">
                         {item}
                       </p>
                     </div>
@@ -252,7 +253,7 @@ export default function BioplateTeamAndSolutions() {
                         />
                       </div>
 
-                      <p className="text-base leading-[1.8] text-[#303030]">
+                      <p className="text-base leading-[1.6] text-[#303030]">
                         {item}
                       </p>
                     </div>

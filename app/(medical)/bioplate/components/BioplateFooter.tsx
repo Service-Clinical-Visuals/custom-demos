@@ -101,7 +101,7 @@ export default function BioplateFooter() {
 
             {/* SOCIAL */}
             <div className="mt-10">
-              <h4 className="text-lg font-semibold tracking-[-1px] text-white">
+              <h4 className="text-xl font-semibold tracking-[-1px] text-white">
                 Social Media
               </h4>
 
@@ -121,7 +121,7 @@ export default function BioplateFooter() {
           {/* ================================================= */}
 
           <div data-aos="fade-up" data-aos-delay="100" className="pt-8">
-            <h4 className="text-lg font-semibold tracking-[-1px] text-white">
+            <h4 className="text-xl font-semibold tracking-[-1px] text-white">
               Products
             </h4>
 
@@ -144,7 +144,7 @@ export default function BioplateFooter() {
           {/* ================================================= */}
 
           <div data-aos="fade-up" data-aos-delay="200" className="pt-8">
-            <h4 className="text-lg font-semibold tracking-[-1px] text-white">
+            <h4 className="text-xl font-semibold tracking-[-1px] text-white">
               About BioPlate
             </h4>
 
@@ -167,7 +167,7 @@ export default function BioplateFooter() {
           {/* ================================================= */}
 
           <div data-aos="fade-up" data-aos-delay="300" className="pt-8">
-            <h4 className="text-lg font-semibold tracking-[-1px] text-white">
+            <h4 className="text-xl font-semibold tracking-[-1px] text-white">
               Contact
             </h4>
 
