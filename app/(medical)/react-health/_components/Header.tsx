@@ -1,11 +1,26 @@
 "use client";
 
 import { Search, Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactHealthButton from "./ReactHealthButton";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show header after scrolling 100px
+      if (window.scrollY > 100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const navLinks = [
     "Home",
@@ -17,7 +32,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
+    <header className={`w-full bg-white border-b border-gray-100 fixed top-0 z-50 transition-all duration-500 ease-in-out ${isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}`}>
       <div className="container mx-auto px-4 relative">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
