@@ -23,7 +23,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="/medical/react-health/logo.jpg"
+              src="/react-health/logo.jpg"
               alt="React Health"
               className="object-contain w-[100px] md:w-[120px]"
             />
@@ -35,11 +35,10 @@ export default function Header() {
               <a
                 key={i}
                 href="#"
-                className={`text-[15px] transition ${
-                  i === 0
+                className={`text-[15px] transition ${i === 0
                     ? "font-semibold underline text-react-purple"
                     : "text-gray-700 hover:text-react-purple"
-                }`}
+                  }`}
               >
                 {item}
               </a>
@@ -55,9 +54,9 @@ export default function Header() {
                 icon={<Search size={16} strokeWidth={3} />}
               />
             </div>
-            
+
             {/* Mobile Menu Toggle */}
-            <button 
+            <button
               className="lg:hidden p-2 text-react-text-dark hover:text-react-purple transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle menu"
@@ -68,10 +67,9 @@ export default function Header() {
         </div>
 
         {/* Mobile Menu Overlay */}
-        <div 
-          className={`lg:hidden fixed inset-0 top-20 bg-white z-40 transition-transform duration-300 ease-in-out ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
-          }`}
+        <div
+          className={`lg:hidden fixed inset-0 top-20 bg-white z-40 transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "translate-x-full"
+            }`}
         >
           <div className="flex flex-col p-6 gap-6 h-[calc(100vh-80px)] overflow-y-auto">
             {navLinks.map((item, i) => (
@@ -85,7 +83,7 @@ export default function Header() {
               </a>
             ))}
             <div className="pt-4 flex flex-col gap-4">
-               <p className="text-sm text-react-text-gray font-medium uppercase tracking-wider">Quick Access</p>
+              <p className="text-sm text-react-text-gray font-medium uppercase tracking-wider">Quick Access</p>
               <ReactHealthButton
                 text="Service Portal"
                 className="w-full"
