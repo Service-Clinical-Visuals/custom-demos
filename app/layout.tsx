@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   },
 };
 
+import AOSProvider from "./_components/AOSProvider";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <AOSProvider>
+          {children}
+        </AOSProvider>
       </body>
     </html>
   );
