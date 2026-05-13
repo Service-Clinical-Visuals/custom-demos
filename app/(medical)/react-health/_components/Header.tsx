@@ -50,9 +50,9 @@ export default function Header() {
               <a
                 key={i}
                 href="#"
-                className={`text-[15px] transition ${i === 0
-                    ? "font-semibold underline text-react-purple"
-                    : "text-gray-700 hover:text-react-purple"
+                className={`text-[16px] transition ${i === 0
+                  ? "font-semibold underline text-react-purple"
+                  : "text-gray-700 hover:text-react-purple"
                   }`}
               >
                 {item}
