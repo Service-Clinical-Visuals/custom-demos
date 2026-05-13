@@ -15,6 +15,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "React Health",
   description: "React Health delivers innovative and accessible sleep and respiratory care solutions designed to help people breathe easier, sleep better, and live healthier.",
+  icons: {
+    icon: "/react-health/logo.jpg"
+  }
 };
 
 export default function Layout({
@@ -32,6 +35,7 @@ export default function Layout({
               <main className="flex-grow">{children}</main>
               <Footer />
             </div>
+
           </VideoProvider>
         </AosProvider>
       </body>

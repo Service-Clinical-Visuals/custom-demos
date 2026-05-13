@@ -1,30 +1,24 @@
 import Hero from "./_components/Hero";
-import History from "./_components/History";
-import VentilationSection from "./_components/VentilationSection";
-import SolutionsSection from "./_components/SolutionsSection";
-import TechnologiesSection from "./_components/TechnologiesSection";
-import VentilationInfo from "./_components/VentilationInfo";
-import ProductsSection from "./_components/ProductsSection";
-import ServicePackagesSection from "./_components/ServicePackagesSection";
-import TrainingSection from "./_components/TrainingSection";
-import NewsletterSection from "./_components/NewsletterSection";
 import AboutReactHealth from "./_components/About";
+import SiestaHero from "./_components/SiestaHero";
+import TechnicalService from "./_components/TechnicalService";
+import FeaturedProducts from "./_components/FeaturedProducts";
+import ProductFeatures from "./_components/ProductFeatures";
+import LatestNews from "./_components/LatestNews";
 
-export default function ReactHealthLayout() {
+export default function ReactHealthPage() {
   return (
-    <main className="relative flex flex-col w-full bg-white ">
+    <main className="relative flex flex-col w-full bg-white">
       <Hero />
       <AboutReactHealth />
-      {/* <History />
-      <VentilationSection />
-      <SolutionsSection />
-      <TechnologiesSection />
-      <VentilationInfo />
-      <ProductsSection />
-      <ServicePackagesSection />
-      <TrainingSection />
-      <NewsletterSection /> */}
-      {/* Add more sections here as needed */}
+      <SiestaHero />
+      <TechnicalService />
+      <FeaturedProducts />
+      <ProductFeatures />
+      <LatestNews />
     </main>
   );
 }
+
+
+

@@ -1,105 +1,101 @@
-// components/Header.tsx
+"use client";
 
-import { Search } from "lucide-react";
+import { Search, Menu, X } from "lucide-react";
+import { useState } from "react";
+import ReactHealthButton from "./ReactHealthButton";
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const navLinks = [
+    "Home",
+    "About",
+    "Sleep",
+    "Oxygen",
+    "Ventilation",
+    "Resources",
+  ];
+
   return (
-    <header className="w-full bg-white">
-
-      <div className="container mx-auto px-14 pt-4">
-
-        {/* TOP ROW */}
-        <div className="flex items-start justify-between">
-
+    <header className="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
+      <div className="container mx-auto px-4 relative">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="w-[220px]">
+          <div className="flex-shrink-0">
             <img
               src="/medical/react-health/logo.jpg"
               alt="React Health"
-              className="w-full object-contain"
+              className="object-contain w-[100px] md:w-[120px]"
             />
           </div>
 
+          {/* Nav Links - Centered Absolutely on Desktop */}
+          <nav className="hidden lg:flex items-center gap-10 absolute left-1/2 -translate-x-1/2">
+            {navLinks.map((item, i) => (
+              <a
+                key={i}
+                href="#"
+                className={`text-[15px] transition ${
+                  i === 0
+                    ? "font-semibold underline text-react-purple"
+                    : "text-gray-700 hover:text-react-purple"
+                }`}
+              >
+                {item}
+              </a>
+            ))}
+          </nav>
+
           {/* Right Section */}
-          <div className="flex flex-col flex-1 ml-60">
-
-            {/* Top Pills */}
-            <div className="flex justify-end gap-6">
-
-              {[
-                "Our Products",
-                "Service Portal",
-                "React Health Connect",
-              ].map((item, i) => (
-                <button
-                  key={i}
-                  className="border border-purple-500 text-gray-700 rounded-full px-8 py-2 text-sm font-medium hover:bg-purple-600 hover:text-white transition"
-                >
-                  {item}
-                </button>
-              ))}
-
+          <div className="flex items-center gap-4">
+            <div className="hidden sm:block">
+              <ReactHealthButton
+                text="Service Portal"
+                size="sm"
+                icon={<Search size={16} strokeWidth={3} />}
+              />
             </div>
-
-            {/* Divider */}
-            <div className="border-t border-gray-200 mt-5 py-4">
-
-              <div className="flex items-center justify-between">
-
-                {/* Nav Links */}
-                <nav className="flex items-center gap-10 ">
-
-                  {[
-                    "Home",
-                    "About",
-                    "Sleep",
-                    "Oxygen",
-                    "Ventilation",
-                    "Resources",
-                  ].map((item, i) => (
-                    <a
-                      key={i}
-                      href="#"
-                      className={`text-[15px] transition  ${
-                        i === 0
-                          ? "font-semibold underline"
-                          : "text-gray-700 hover:text-purple-600"
-                      }`}
-                    >
-                      {item}
-                    </a>
-                  ))}
-
-                </nav>
-
-                {/* CTA */}
-               {/* CTA */}
-                {/* CTA */}
-               <button className="group flex items-center bg-[#7030A0] hover:bg-[#5a2682] rounded-full pl-8 pr-1 py-1 transition-all">
-                  {/* Text Label */}
-                  <span className="text-white text-md font-medium tracking-tight pr-4">
-                    Service Portal
-                  </span>
-
-                  {/* Search Icon Container with 'cutout' border effect */}
-                  <span className="relative flex items-center justify-center w-10 h-10 bg-[#7030A0] rounded-full border-[2px] border-white text-white ">
-                    <Search size={18} strokeWidth={3} />
-                    
-                    {/* This absolute div creates the white crescent gap seen in the image */}
-                    <div className="absolute -left-2 top-0 bottom-0 w-2 bg-transparent  border-white rounded-full"></div>
-                  </span>
-                </button>
-
-              </div>
-
-            </div>
-
+            
+            {/* Mobile Menu Toggle */}
+            <button 
+              className="lg:hidden p-2 text-react-text-dark hover:text-react-purple transition-colors"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
           </div>
-
         </div>
 
+        {/* Mobile Menu Overlay */}
+        <div 
+          className={`lg:hidden fixed inset-0 top-20 bg-white z-40 transition-transform duration-300 ease-in-out ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          }`}
+        >
+          <div className="flex flex-col p-6 gap-6 h-[calc(100vh-80px)] overflow-y-auto">
+            {navLinks.map((item, i) => (
+              <a
+                key={i}
+                href="#"
+                className="text-xl font-medium text-react-text-dark border-b border-gray-50 pb-4 hover:text-react-purple transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item}
+              </a>
+            ))}
+            <div className="pt-4 flex flex-col gap-4">
+               <p className="text-sm text-react-text-gray font-medium uppercase tracking-wider">Quick Access</p>
+              <ReactHealthButton
+                text="Service Portal"
+                className="w-full"
+                icon={<Search size={18} strokeWidth={3} />}
+                onClick={() => setIsMenuOpen(false)}
+              />
+            </div>
+          </div>
+        </div>
       </div>
-
     </header>
   );
 }
