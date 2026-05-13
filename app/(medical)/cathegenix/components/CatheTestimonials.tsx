@@ -121,12 +121,12 @@ export default function CatheTestimonials() {
                 </h3>
 
                 {/* DATE */}
-                <p className="mt-5 text-[15px] font-medium text-[#888888]">
+                <p className="mt-5 text-[16px] font-medium text-[#888888]">
                   February 9, 2026
                 </p>
 
                 {/* DESCRIPTION */}
-                <p className="mt-6 max-w-[760px] text-[15px] leading-[2] text-[#666666]">
+                <p className="mt-6 max-w-[760px] text-[16px] leading-[2] text-[#666666]">
                   CatheGenix will be exhibiting at WHX Dubai 2026 held at the
                   Dubai Exhibition Centre from February 9th to 12th, 2026. We
                   cordially invite you to visit our booth N23 E79 for in-depth

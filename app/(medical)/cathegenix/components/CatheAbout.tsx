@@ -13,7 +13,7 @@ export default function CatheAbout() {
         {/* MAIN GRID */}
         {/* ================================================= */}
 
-        <div className="grid items-center gap-16 lg:grid-cols-[1.05fr_1fr]">
+        <div className="grid items-stretch gap-16 lg:grid-cols-[1.05fr_1fr]">
           {/* ================================================= */}
           {/* LEFT IMAGE */}
           {/* ================================================= */}
@@ -23,12 +23,12 @@ export default function CatheAbout() {
             className="relative overflow-hidden rounded-[24px] shadow-[0_10px_30px_rgba(0,0,0,0.06)]"
           >
             {/* IMAGE */}
-            <div className="relative aspect-[16/9] overflow-hidden rounded-[24px]">
+            <div className="relative h-full min-h-[320px] overflow-hidden rounded-[24px]">
               {/* PLACEHOLDER IMAGE */}
               <img
                 src="/cathegenix/cathe-about.jpg"
                 alt="CatheGenix Office"
-                className="h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover"
               />
 
               {/* SOFT OVERLAY */}
@@ -55,7 +55,7 @@ export default function CatheAbout() {
             <div
               data-aos="fade-up"
               data-aos-delay="150"
-              className="mt-10 space-y-7"
+              className="mt-5 space-y-4"
             >
               <p className="text-[16px] leading-[2] text-[#666666]">
                 Choose CatheGenix — your trusted partner in professionalism and
@@ -81,7 +81,7 @@ export default function CatheAbout() {
             </div>
 
             {/* BUTTON */}
-            <div data-aos="fade-up" data-aos-delay="100" className="mt-12">
+            <div data-aos="fade-up" data-aos-delay="100" className="mt-6">
              <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
                 <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
                     About us

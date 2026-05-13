@@ -33,7 +33,7 @@ export default function CatheEnterprise() {
       {/* HERO BANNER */}
       {/* ================================================= */}
 
-      <div className="relative h-[420px] overflow-hidden">
+      <div className="relative h-[420px] overflow-hidden md:h-[420px]">
         {/* BACKGROUND IMAGE */}
         <div className="absolute inset-0">
           {/* PLACEHOLDER IMAGE */}
@@ -51,11 +51,11 @@ export default function CatheEnterprise() {
         </div>
 
         {/* CONTENT */}
-        <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-center px-8 ">
-          <div className="ml-auto max-w-[520px]">
+        <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-center px-6 md:px-8">
+          <div className="mx-auto max-w-[520px] text-center lg:ml-auto lg:mr-0 lg:text-left">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold leading-[1] tracking-[-2px] text-white">
+              <h2 className="text-3xl font-semibold leading-[1.15] tracking-[-1.5px] text-white md:text-4xl md:tracking-[-2px] md:leading-[1]">
                 Endura™ Ureteral Stents
               </h2>
 
@@ -66,7 +66,7 @@ export default function CatheEnterprise() {
             </div>
 
             {/* BUTTON */}
-            <div data-aos="fade-up" data-aos-delay="200" className="mt-10">
+            <div data-aos="fade-up" data-aos-delay="200" className="mt-10 flex justify-center lg:justify-start">
                <button className="cursor-pointer relative group flex h-[46px] items-center bg-white overflow-hidden">
                 <span className="px-6 text-base font-semibold text-black transition-all duration-300 group-hover:pr-12">
                     Explore More
@@ -87,23 +87,23 @@ export default function CatheEnterprise() {
       {/* ENTERPRISE SERVICES */}
       {/* ================================================= */}
 
-      <div className="py-24">
-        <div className="mx-auto grid max-w-[1600px] gap-16 px-8 lg:grid-cols-[0.8fr_1.3fr] lg:px-16">
+      <div className="py-16 md:py-24">
+        <div className="mx-auto grid max-w-[1600px] gap-10 px-6 md:px-8 lg:grid-cols-[0.8fr_1.3fr] lg:gap-5 lg:px-16">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
 
-          <div>
+          <div className="max-w-full lg:max-w-[440px]">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold tracking-[-2px] text-[#2B2B2B]">
+              <h2 className="text-3xl font-semibold tracking-[-1.5px] text-[#2B2B2B] md:text-4xl md:tracking-[-2px]">
                 Enterprise Services
               </h2>
 
               <p className="mt-7 text-[16px] leading-[2] text-[#666666]">
                 Optimizing efficiency, ensuring safety, and simplifying the use
                 of{" "}
-                <span className="font-semibold text-[#0047A6]">
+                <span className="font-bold text-[#05429B]">
                   advanced medical devices.
                 </span>
               </p>
@@ -129,17 +129,15 @@ export default function CatheEnterprise() {
           {/* RIGHT CARDS */}
           {/* ================================================= */}
 
-          <div className="flex items-center gap-6">
-            {/* LEFT ARROW */}
-            <button className="cursor-pointer flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center mt-10 lg:mt-0">
+            {/* LEFT ARROW — desktop only */}
+            <button className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
               <ArrowLeft size={20} strokeWidth={2.8} />
             </button>
 
             {/* CARDS */}
-            <div className="grid flex-1 gap-6 md:grid-cols-3">
+            <div className="grid flex-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {serviceCards.map((card, index) => {
-
-
                 return (
                   <div
                     key={index}
@@ -161,9 +159,18 @@ export default function CatheEnterprise() {
               })}
             </div>
 
-            {/* RIGHT ARROW */}
+            {/* ARROWS — mobile/tablet: shown below cards as a row */}
+            <div className="flex justify-center gap-4 lg:contents">
+              <button className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+                <ArrowLeft size={20} strokeWidth={2.8} />
+              </button>
+              <button className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+                <ArrowRight size={20} strokeWidth={2.8} />
+              </button>
+            </div>
 
-            <button className="cursor-pointer flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
+            {/* RIGHT ARROW — desktop only */}
+            <button className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105">
               <ArrowRight size={20} strokeWidth={2.8} />
             </button>
           </div>

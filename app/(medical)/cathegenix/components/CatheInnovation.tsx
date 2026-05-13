@@ -28,7 +28,7 @@ const products = [
 export default function CatheInnovation() {
 
   return (
-    <section className="overflow-hidden bg-[#F7F7F5] py-24">
+    <section className="relative overflow-hidden bg-[#F7F7F5] py-24">
       {/* ================================================= */}
       {/* TOP BLUE BORDER */}
       {/* ================================================= */}

@@ -24,7 +24,7 @@ export default function CatheChoose() {
       {/* ================================================= */}
 
       <div className="border-b border-black/5 py-24">
-        <div className="mx-auto grid max-w-[1600px] items-center gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-16">
+        <div className="mx-auto grid max-w-[1600px] items-stretch gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-16">
           {/* ================================================= */}
           {/* LEFT VIDEO / IMAGE */}
           {/* ================================================= */}
@@ -33,7 +33,7 @@ export default function CatheChoose() {
             data-aos="fade-right"
             className="relative overflow-hidden rounded-[26px] bg-white shadow-[0_12px_30px_rgba(0,0,0,0.08)]"
           >
-            <div className="aspect-[16/9] w-full">
+            <div className="h-full w-full min-h-[300px]">
               {/* PLACEHOLDER */}
               <div className="relative h-full w-full">
                 {/* FUTURE VIDEO / IMAGE */}
@@ -58,7 +58,7 @@ export default function CatheChoose() {
             <div
               data-aos="fade-up"
               data-aos-delay="150"
-              className="mt-10 space-y-7"
+              className="mt-5 space-y-4"
             >
               <p className="text-[16px] leading-[2] text-[#666666]">
                 The surfaces of the ureteral stent are treated with a
@@ -80,7 +80,7 @@ export default function CatheChoose() {
             </div>
 
             {/* BUTTON */}
-            <div data-aos="fade-up" data-aos-delay="300" className="mt-12">
+            <div data-aos="fade-up" data-aos-delay="300" className="mt-6">
               <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
                 <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
                     Product Details

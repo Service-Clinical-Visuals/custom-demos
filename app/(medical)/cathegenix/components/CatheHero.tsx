@@ -1,7 +1,5 @@
-import React from 'react'
 
 import { ArrowRight } from "lucide-react";
-import Link from 'next/link';
 import DynamicVideoPlayer from '@/app/_components/DynamicVideoPlayer';
 
 const navLinks = [
@@ -37,7 +35,7 @@ export default function CatheHero() {
           {/* HERO CONTENT */}
           {/* ================================================= */}
 
-          <div className="relative z-10 flex min-h-[780px] max-w-[1600px] mx-auto items-end">
+          <div className="relative z-10 flex min-h-[880px] max-w-[1600px] mx-auto items-end">
             <div className="w-full px-8 pb-24 lg:px-14">
               <div className="max-w-[620px]">
                 {/* HEADING */}

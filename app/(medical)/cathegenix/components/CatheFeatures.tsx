@@ -17,7 +17,7 @@ export default function CatheFeatures() {
         {/* GRID */}
         {/* ================================================= */}
 
-        <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.2fr]">
+        <div className="grid items-stretch gap-10 lg:grid-cols-[0.9fr_1.2fr]">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
@@ -42,15 +42,15 @@ export default function CatheFeatures() {
             <div
               data-aos="fade-up"
               data-aos-delay="200"
-              className="mt-10 rounded-[28px] bg-[#F7F7F5] px-10 py-10 shadow-[0_10px_30px_rgba(0,0,0,0.12)]"
+              className="mt-5 rounded-[28px] bg-[#F7F7F5] px-10 py-5 shadow-[0_10px_30px_rgba(0,0,0,0.12)]"
             >
               {/* FEATURE 1 */}
               <div>
-                <h3 className="text-xl font-semibold tracking-[-1px] text-[#0047A6]">
+                <h3 className="text-xl font-bold tracking-[-1px] text-[#0047A6]">
                   Anti-crusting coating :
                 </h3>
 
-                <p className="mt-5 text-base leading-[2] text-[#666666]">
+                <p className="mt-2 text-base leading-[2] text-[#666666]">
                   Supports long-term urinary drainage with high
                   biocompatibility, while resisting encrustation and minimizing
                   complications. Excellent Biocompatibility: Extended dwelling
@@ -59,15 +59,15 @@ export default function CatheFeatures() {
               </div>
 
               {/* SPACING */}
-              <div className="mt-10" />
+              <div className="mt-5" />
 
               {/* FEATURE 2 */}
               <div>
-                <h3 className="text-xl font-semibold tracking-[-1px] text-[#0047A6]">
+                <h3 className="text-xl font-bold tracking-[-1px] text-[#0047A6]">
                   Thin wall for maximum lumen size :
                 </h3>
 
-                <p className="mt-5 text-base leading-[2] text-[#666666]">
+                <p className="mt-2 text-base leading-[2] text-[#666666]">
                   Advanced thin-wall construction maximizes lumen size for
                   enhanced drainage efficiency, smoother fluid flow, and
                   improved overall performance while helping minimize the risk
@@ -76,7 +76,7 @@ export default function CatheFeatures() {
               </div>
 
               {/* BUTTON */}
-              <div className="mt-12">
+              <div className="mt-6">
                <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
                 <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
                     Explore Features
@@ -99,17 +99,12 @@ export default function CatheFeatures() {
           <div
             data-aos="fade-left"
             data-aos-delay="250"
-            className="relative"
+            className="relative h-full"
           >
             {/* VIDEO CONTAINER */}
-            <div className="relative overflow-hidden rounded-[30px] bg-[#ECECEC] shadow-[0_14px_40px_rgba(0,0,0,0.16)]">
-              {/* VIDEO RATIO */}
-              <div className="aspect-[1/0.78] w-full">
-                {/* PLACEHOLDER */}
-                <div className="relative h-full w-full">
-                 <DynamicVideoPlayer type="360" className="h-full w-full object-cover" />
-                </div>
-              </div>
+            <div className="relative h-full overflow-hidden rounded-[30px] bg-[#ECECEC] shadow-[0_14px_40px_rgba(0,0,0,0.16)]">
+              {/* PLACEHOLDER */}
+              <DynamicVideoPlayer type="360" className="h-full w-full object-cover" />
 
               {/* SOFT LIGHT */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.16),transparent_35%)]" />

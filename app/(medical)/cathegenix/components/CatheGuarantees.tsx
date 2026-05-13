@@ -121,7 +121,7 @@ export default function CatheGuarantees() {
                 </h3>
 
                 {/* DESCRIPTION */}
-                <p className="mt-5 text-[15px] leading-[1.95] text-white/82">
+                <p className="mt-5 text-[16px] leading-[1.95] text-white/82">
                   {service.description}
                 </p>
               </div>

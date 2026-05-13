@@ -48,7 +48,7 @@ export default function CatheFooter() {
             </div>
 
             {/* DESCRIPTION */}
-            <p className="mt-10  text-[15px] leading-[2] text-[#666666]">
+            <p className="mt-10  text-[16px] leading-[2] text-[#666666]">
               Catheter Precision, Inc., a global medical device company, is
               dedicated to empowering healthcare providers to achieve optimal
               patient outcomes through the delivery of impactful and innovative
@@ -117,7 +117,7 @@ export default function CatheFooter() {
             </h3>
 
             {/* SOCIAL */}
-            <div className="mt-8 flex items-center gap-4">
+            <div className="mt-4 flex items-center gap-4">
               {[
                 Instagram,
                 Linkedin,
@@ -127,7 +127,7 @@ export default function CatheFooter() {
               ].map((Icon, index) => (
                 <button
                   key={index}
-                  className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_8px_18px_rgba(0,71,166,0.15)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]"
+                  className="flex cursor-pointer h-[42px] w-[42px] items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_8px_18px_rgba(0,71,166,0.15)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]"
                 >
                   <Icon size={18} strokeWidth={2.2} />
                 </button>
@@ -135,17 +135,17 @@ export default function CatheFooter() {
             </div>
 
             {/* NEWSLETTER */}
-            <div className="mt-12">
+            <div className="mt-6">
               <h4 className="text-[24px] font-semibold tracking-[-0.5px] text-[#2B2B2B]">
                 Newsletter
               </h4>
 
-              <p className="mt-5 max-w-[320px] text-[15px] leading-[1.9] text-[#666666]">
+              <p className="mt-5 max-w-[320px] text-[16px] leading-[1.9] text-[#666666]">
                 Stay Update with our Latest Innovations and News
               </p>
 
               {/* INPUT */}
-              <div className="mt-7">
+              <div className="mt-5">
                 <div className="flex h-[56px] w-full max-w-[320px] items-center overflow-hidden rounded-[12px] border border-[#CFCFCF] bg-white shadow-[0_6px_14px_rgba(0,0,0,0.04)]">
                   <input
                     type="email"
@@ -154,7 +154,7 @@ export default function CatheFooter() {
                   />
 
                   {/* BUTTON */}
-                  <button className="mr-[6px] flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#0047A6] text-white transition-all duration-300 hover:scale-105">
+                  <button className="cursor-pointer mr-[6px] flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#0047A6] text-white transition-all duration-300 hover:scale-105">
                     <ArrowRight size={17} strokeWidth={2.8} />
                   </button>
                 </div>
