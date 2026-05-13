@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { ArrowLeft, ArrowRight, Check, CornerUpRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,26 +44,36 @@ const plateItems = [
   "1.5mm and 1.9mm diameter self drilling screws",
 ];
 
-const CARDS_PER_PAGE = 3;
-
 export default function BioplateTeamAndSolutions() {
-  const [startIndex, setStartIndex] = useState(0);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canGoBack, setCanGoBack] = useState(false);
+  const [canGoForward, setCanGoForward] = useState(true);
 
   useEffect(() => {
     AOS.init({ once: true, duration: 700 });
+    requestAnimationFrame(updateScrollState);
   }, []);
 
-  const visibleMembers = teamMembers.slice(startIndex, startIndex + CARDS_PER_PAGE);
-  const canGoBack = startIndex > 0;
-  const canGoForward = startIndex + CARDS_PER_PAGE < teamMembers.length;
+  const updateScrollState = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanGoBack(el.scrollLeft > 1);
+    setCanGoForward(el.scrollLeft < el.scrollWidth - el.clientWidth - 1);
+  };
+
+  const getScrollAmount = () => {
+    const container = scrollRef.current;
+    if (!container) return 0;
+    const firstCard = container.firstElementChild as HTMLElement;
+    return firstCard ? firstCard.offsetWidth + 32 : container.clientWidth / 3;
+  };
 
   const handlePrev = () => {
-    if (canGoBack) setStartIndex(Math.max(0, startIndex - CARDS_PER_PAGE));
+    scrollRef.current?.scrollBy({ left: -getScrollAmount(), behavior: "smooth" });
   };
 
   const handleNext = () => {
-    if (canGoForward)
-      setStartIndex(Math.min(teamMembers.length - CARDS_PER_PAGE, startIndex + CARDS_PER_PAGE));
+    scrollRef.current?.scrollBy({ left: getScrollAmount(), behavior: "smooth" });
   };
 
   return (
@@ -115,13 +125,19 @@ export default function BioplateTeamAndSolutions() {
           </div>
 
           {/* TEAM CARDS */}
-          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-            {visibleMembers.map((member, index) => (
+          <div className="overflow-hidden">
+            <div
+              ref={scrollRef}
+              onScroll={updateScrollState}
+              className="flex gap-8 overflow-x-auto [&::-webkit-scrollbar]:hidden"
+              style={{ scrollbarWidth: "none" }}
+            >
+            {teamMembers.map((member, index) => (
               <div
                 key={index}
                 data-aos="fade-up"
                 data-aos-delay={index * 120}
-                className="group overflow-hidden rounded-[18px] border border-[#E6E6E6] bg-[#f8f8f8] shadow-[0_6px_20px_rgba(0,0,0,0.06)] transition-all duration-300 hover:-translate-y-2"
+                className="flex-none w-full md:w-[calc((100%-2rem)/2)] xl:w-[calc((100%-4rem)/3)] group overflow-hidden rounded-[18px] border border-[#E6E6E6] bg-[#f8f8f8] shadow-[0_6px_20px_rgba(0,0,0,0.06)] transition-all duration-300 hover:-translate-y-2"
               >
                 {/* IMAGE */}
                 <div className="overflow-hidden p-3">
@@ -146,6 +162,7 @@ export default function BioplateTeamAndSolutions() {
                 </div>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>

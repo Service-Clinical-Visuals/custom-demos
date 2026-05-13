@@ -126,7 +126,7 @@ export default function BioplateProducts() {
 
               {/* CONTENT */}
               <div className="flex flex-1 flex-col px-4 pb-2 pt-7 text-center">
-                <h3 className="mx-auto max-w-[280px] text-xl font-semibold leading-[1.15] tracking-[-1px] text-[#1f1f1f]">
+                <h3 className="mx-auto max-w-[280px] text-2xl font-semibold leading-[1.15] tracking-[-1px] text-[#1f1f1f]">
                   {product.title}
                 </h3>
 
@@ -170,7 +170,7 @@ export default function BioplateProducts() {
                   <Icon size={36} strokeWidth={1.8} className="text-white" />
 
                   {/* TEXT */}
-                  <h4 className="text-2xl font-bold tracking-[-1px] text-white">
+                  <h4 className="text-3xl font-bold tracking-[-1px] text-white">
                     {feature.title}
                   </h4>
                 </div>

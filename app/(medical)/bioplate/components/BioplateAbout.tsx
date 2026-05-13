@@ -63,7 +63,7 @@ export default function BioplateAbout() {
                 </div>
 
                 {/* TEXT */}
-                <p className="max-w-[500px] text-base leading-[1.8] text-[#5f5f5f]">
+                <p className=" text-base leading-[1.8] text-[#5f5f5f]">
                   {feature}
                 </p>
               </div>
