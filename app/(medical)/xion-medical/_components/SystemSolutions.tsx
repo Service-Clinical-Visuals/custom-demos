@@ -43,7 +43,7 @@ export default function SystemSolutions() {
               {/* Main White Card */}
               <div className="relative z-10 bg-white rounded-[40px] px-10 py-16 border border-gray-50 grid items-center justify-items-center text-center transition-all duration-500 group-hover:-translate-y-2 h-full content-center">
                 {/* Icon: Solid Teal Circle */}
-                <div className="w-16 h-16 bg-[#00AFAF] rounded-full mb-10 flex items-center justify-center shadow-lg shadow-[#00AFAF]/20 p-2.5" >
+                <div className="w-20 h-20 bg-[#00AFAF] rounded-full mb-10 flex items-center justify-center shadow-lg shadow-[#00AFAF]/20 p-3" >
                   <img src={item.path} alt={item.title} />
                 </div>
 

@@ -8,7 +8,7 @@ export default function ContactCta() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/30 z-10" />
-        <div className="absolute inset-0 bg-[url('/xion/images/bg.png')]" />
+        <div className="absolute inset-0 bg-[url('/xion/images/bg.png')] bg-center bg-no-repeat bg-cover" />
       </div>
 
       <div data-aos="zoom-in" className="container mx-auto px-4 relative z-20 text-center">
