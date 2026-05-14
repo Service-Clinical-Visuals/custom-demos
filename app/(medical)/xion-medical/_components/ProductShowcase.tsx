@@ -12,7 +12,6 @@ export default function ProductShowcase() {
         <div className="container mx-auto px-4">
           <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-2 justify-between items-start gap-10">
             <div className="max-w-md">
-              <span className="text-white font-bold text-[16px] mb-3 block">Product Showcase</span>
               <h2 className="text-[26px] lg:text-[34px] font-extrabold leading-tight">EndoSTROBE Spectar</h2>
               <p className="text-[18px] font-bold opacity-90 mt-2">The Ultimate Workstation For Phonosurgery</p>
             </div>

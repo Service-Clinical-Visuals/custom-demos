@@ -48,7 +48,7 @@ export default function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-10 ml-auto mr-[25%] z-10">
+            <nav className="hidden lg:flex items-center gap-10 ml-auto mr-[30%] z-10">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
@@ -90,7 +90,7 @@ export default function Header() {
                     <Search size={22} />
                   </button>
                   
-                  <Button href="#contact" className="!text-[16px]">
+                  <Button href="#contact">
                     Contact Us
                   </Button>
                </div>

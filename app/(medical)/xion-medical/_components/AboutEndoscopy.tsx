@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function AboutEndoscopy() {
   return (
-    <section className="py-24 bg-[#f8f9fa] overflow-hidden">
+    <section className="py-16 lg:py-20 bg-[#f8f9fa] overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
           
@@ -29,7 +29,7 @@ export default function AboutEndoscopy() {
               
               {/* Teal Experience Badge (Floating Left) */}
               <div 
-                className="hidden lg:flex absolute -left-12 top-[10%] bg-[#00AFAF] text-white pt-12 pb-10 px-8 z-40 flex flex-col items-center text-center min-w-[210px] shadow-2xl"
+                className="hidden lg:flex absolute -left-12 top-[20%] bg-[#00AFAF] text-white pt-12 pb-10 px-8 z-40 flex flex-col items-center text-center min-w-[210px] shadow-2xl"
               >
                  {/* Precise Tail Implementation (Bottom Left) */}
                  <div className="absolute left-0 bottom-0 translate-y-full w-0 h-0 border-t-[30px] border-t-[#00AFAF] border-l-[30px] border-l-transparent" />

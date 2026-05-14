@@ -46,10 +46,10 @@ const Button: React.FC<ButtonProps> = ({
 
   // Size classes
   const sizeClasses = {
-    sm: "h-[38px] text-[13px]",
-    md: "h-[52px] text-[15px]",
-    lg: "h-[60px] text-[16px]",
-    xl: "h-[68px] text-lg",
+    sm: "h-[38px] text-[14px]",
+    md: "h-[44px] text-[15px]",
+    lg: "h-[46px] text-[16px]",
+    xl: "h-[50px] text-[17px]",
   };
 
   // Rounded classes
@@ -72,7 +72,7 @@ const Button: React.FC<ButtonProps> = ({
 
   const content = (
     <>
-      <span className={`flex-1 ${variant === "primary" ? "px-4 text-center" : "px-6"}`}>{children}</span>
+      <span className={`flex-1 ${variant === "primary" ? "px-8 text-center" : "px-10"}`}>{children}</span>
       {hasArrow && variant === "primary" && (
         <div className="bg-[#00AFAF] h-full aspect-square flex items-center justify-center text-white transition-transform group-hover:bg-[#009a9a]">
            <ChevronRight size={size === "sm" ? 18 : 24} strokeWidth={3} className="group-hover:translate-x-1 transition-transform" />
