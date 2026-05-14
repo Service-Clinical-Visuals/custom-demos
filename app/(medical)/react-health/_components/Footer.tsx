@@ -11,11 +11,9 @@ export default function Footer() {
           {/* Logo & Description */}
           <div className="lg:col-span-1">
             <div className="w-[180px] mb-8">
-              <Image
+              <img
                 src="/react-health/logo.jpg"
                 alt="React Health"
-                width={180}
-                height={60}
                 className="object-contain"
               />
             </div>
