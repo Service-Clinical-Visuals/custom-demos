@@ -140,9 +140,7 @@ export default function CatheFooter() {
                 Newsletter
               </h4>
 
-              <p className="mt-5 max-w-[320px] text-[16px] leading-[1.9] text-[#666666]">
-                Stay Update with our Latest Innovations and News
-              </p>
+    
 
               {/* INPUT */}
               <div className="mt-5">
