@@ -20,7 +20,7 @@ const products = [
     id: 3,
     title: "BiTrac® NIV Nasal Mask",
     image: "/pulmo/pulmo-product-3.png",
-    category: "Anthesia",
+    category: "Anesthesia",
   },
   {
     id: 4,
@@ -176,7 +176,7 @@ export default function PulmoProducts() {
         {/* BOTTOM SECTION */}
         {/* ================================================= */}
 
-        <div className="mt-12 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+        <div className="mt-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
           {/* ================================================= */}
           {/* DESCRIPTION */}
           {/* ================================================= */}

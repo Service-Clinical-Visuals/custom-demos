@@ -105,7 +105,7 @@ export default function PulmoMaskDetails() {
         <div className="mx-auto mt-16 max-w-[980px] text-center">
           {/* TITLE */}
           <div data-aos="fade-up">
-            <h3 className="text-xl font-semibold leading-[1.3] tracking-[-0.8px] text-white sm:text-2xl sm:tracking-[-1.6px] lg:text-3xl">
+            <h3 className="text-xl font-bold leading-[1.3] tracking-[-0.8px] text-white sm:text-2xl sm:tracking-[-1.6px] lg:text-3xl">
               Our Nasal Mask Line Consists Of Two Nasal Masks, The BiTrac® NIV
               Nasal And The ValueTrac™ NIV Ribbed Nasal Mask.
             </h3>
