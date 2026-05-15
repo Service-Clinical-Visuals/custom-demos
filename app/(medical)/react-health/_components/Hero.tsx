@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0" data-aos="zoom-out" data-aos-duration="2000">
         <DynamicVideoPlayer
           type="banner"
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover"
         />
       </div>
 
