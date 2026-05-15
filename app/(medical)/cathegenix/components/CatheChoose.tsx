@@ -23,7 +23,7 @@ export default function CatheChoose() {
       {/* TOP FEATURE SECTION */}
       {/* ================================================= */}
 
-      <div className="border-b border-black/5 py-16">
+      <div className="border-b border-black/5 py-8">
         <div className="mx-auto grid max-w-[1600px] items-stretch gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-16">
           {/* ================================================= */}
           {/* LEFT VIDEO / IMAGE */}

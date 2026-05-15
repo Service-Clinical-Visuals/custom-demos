@@ -22,7 +22,7 @@ export default function AboutReactHealth() {
               <h2 className="text-3xl md:text-4xl font-bold text-react-text-dark mb-6">
                 About React Health
               </h2>
-              <p className="text-react-text-gray max-w-xl">
+              <p className="text-react-text-gray">
                 React Health is a leading U.S. sleep and respiratory device manufacturer and distributor based in the United States. React Health is focused on delivering comprehensive and integrated solutions to improve outcomes and the lives of patients with highly correlated sleep and respiratory conditions.
               </p>
             </div>

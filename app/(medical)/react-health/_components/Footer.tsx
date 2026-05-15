@@ -67,7 +67,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-gray-100 pt-4 flex flex-col md:flex-row justify-center items-center">
-          <p className="text-react-text-gray text-xs text-center">
+          <p className="text-react-text-gray text-base text-center">
             Copyright © 2026 React Health. All Rights Reserved.
           </p>
         </div>

@@ -6,8 +6,8 @@ export default function SystemSolutionsCentric() {
       <div className="container mx-auto px-4">
         {/* Header Content */}
         <div data-aos="fade-up" className="grid justify-items-center text-center mx-auto mb-12">
-          <span className="text-[#00AFAF] font-bold text-[16px] mb-3 block">Our Service</span>
-          <h2 className="text-[30px] lg:text-[34px] font-extrabold leading-tight mb-4">Our System Solutions</h2>
+          <span className="text-[#00AFAF] font-bold text-[16px] mb-3 block">Rigid & Flexible Endoscopes</span>
+          <h2 className="text-[30px] lg:text-[34px] font-extrabold leading-tight mb-4">Smart Systems for Modern Procedures</h2>
           <p className="text-[#666666] text-[16px] leading-[1.8] font-medium">
             The product range includes rigid and flexible endoscopes, light sources, camera systems, equipment trolleys and software for patient management, documentation of findings, video processing and voice analysis. Our expertise in precision mechanics, optics, electronics and software development and close cooperation with leading users enable us to perfectly match technologies. Integrated system solutions allow the physician to work more efficiently, increase patient safety and set new standards in endoscopy.
           </p>

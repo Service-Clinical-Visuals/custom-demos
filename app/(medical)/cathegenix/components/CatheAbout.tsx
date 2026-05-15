@@ -84,7 +84,7 @@ export default function CatheAbout() {
             <div data-aos="fade-up" data-aos-delay="100" className="mt-6">
              <button className="cursor-pointer relative group flex h-[46px] items-center bg-[#05429B] overflow-hidden">
                 <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
-                    About us
+                   Know More
                 </span>
 
                 <span className="absolute right-0 flex h-full items-center justify-center text-white transition-all duration-300 translate-x-full group-hover:-translate-x-1">

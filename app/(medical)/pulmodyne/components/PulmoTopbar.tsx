@@ -13,7 +13,7 @@ export default function PulmoTopbar() {
 
 
   return (
-    <section className="relative overflow-hidden bg-[#0068A8]">
+    <section className="relative hidden lg:block overflow-hidden bg-[#0068A8]">
       {/* ================================================= */}
       {/* SUBTLE DEPTH */}
       {/* ================================================= */}
@@ -41,7 +41,7 @@ export default function PulmoTopbar() {
             </div>
 
             {/* TEXT */}
-            <p className="text-[13px] font-medium tracking-[0.1px] text-white">
+            <p className="text-[16px] font-medium tracking-[0.1px] text-white">
               info@pulmodyne.com
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function PulmoTopbar() {
             </div>
 
             {/* TEXT */}
-            <p className="text-[13px] font-medium tracking-[0.1px] text-white">
+            <p className="text-[16px] font-medium tracking-[0.1px] text-white">
               (317) 900–4093
             </p>
           </div>
@@ -71,12 +71,12 @@ export default function PulmoTopbar() {
           {/* LINKS */}
           <div className="flex items-center">
             {/* LINK */}
-            <button className="cursor-pointer flex h-[52px] items-center border-r border-white/20 px-7 text-[13px] font-medium text-white transition-all duration-300 hover:bg-white/10">
+            <button className="cursor-pointer flex h-[52px] items-center border-r border-white/20 px-7 text-[16px] font-medium text-white transition-all duration-300 hover:bg-white/10">
               Intersurgical
             </button>
 
             {/* LINK */}
-            <button className="cursor-pointer flex h-[52px] items-center border-r border-white/20 px-7 text-[13px] font-medium text-white transition-all duration-300 hover:bg-white/10">
+            <button className="cursor-pointer flex h-[52px] items-center border-r border-white/20 px-7 text-[16px] font-medium text-white transition-all duration-300 hover:bg-white/10">
               Emsairway.com
             </button>
           </div>

@@ -9,7 +9,7 @@ export default function PulmoMaskDetails() {
 
 
   return (
-    <section className="relative overflow-hidden bg-[#0068A8] py-28">
+    <section className="relative overflow-hidden bg-[#0068A8] py-16 lg:py-28">
       {/* ================================================= */}
       {/* BACKGROUND DEPTH */}
       {/* ================================================= */}
@@ -23,20 +23,20 @@ export default function PulmoMaskDetails() {
       {/* CURVED DECORATION */}
       <div className="absolute -bottom-[260px] left-[120px] h-[620px] w-[1100px] rounded-full border border-white/[0.04]" />
 
-      <div className="relative z-10 mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="relative z-10 mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* TOP SECTION */}
         {/* ================================================= */}
 
-        <div className="grid items-start gap-16 lg:grid-cols-[0.95fr_1.05fr]">
+        <div className="grid items-center gap-16 lg:grid-cols-[0.95fr_1.05fr]">
           {/* ================================================= */}
           {/* CONTENT SIDE */}
           {/* ================================================= */}
 
-          <div className="max-w-[560px]">
+          <div className="max-w-full">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold leading-[1.12] tracking-[-2px] text-white">
+              <h2 className="text-2xl font-semibold leading-[1.12] tracking-[-1px] text-white sm:text-3xl sm:tracking-[-2px] lg:text-4xl">
                 Select & Connect In More Ways Than One
               </h2>
             </div>
@@ -105,7 +105,7 @@ export default function PulmoMaskDetails() {
         <div className="mx-auto mt-16 max-w-[980px] text-center">
           {/* TITLE */}
           <div data-aos="fade-up">
-            <h3 className="text-3xl font-semibold leading-[1.3] tracking-[-1.6px] text-white">
+            <h3 className="text-xl font-bold leading-[1.3] tracking-[-0.8px] text-white sm:text-2xl sm:tracking-[-1.6px] lg:text-3xl">
               Our Nasal Mask Line Consists Of Two Nasal Masks, The BiTrac® NIV
               Nasal And The ValueTrac™ NIV Ribbed Nasal Mask.
             </h3>

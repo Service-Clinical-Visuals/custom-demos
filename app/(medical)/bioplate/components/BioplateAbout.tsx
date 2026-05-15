@@ -72,7 +72,7 @@ export default function BioplateAbout() {
 
           {/* BUTTON */}
           <div data-aos="fade-up" data-aos-delay="450" className="mt-6">
-            <button className="cursor-pointer group flex h-[56px] items-center gap-5 rounded-[10px] bg-[#5DC1B9] px-8 text-[15px] font-bold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#53b7b3]">
+            <button className="cursor-pointer group flex h-[56px] items-center gap-5 rounded-[10px] bg-[#006B52] px-8 text-[15px] font-bold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#009688]">
               Know More
 
               <span className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]">

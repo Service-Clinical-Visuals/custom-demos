@@ -11,7 +11,7 @@ const features = [
   "Breathable Headgear",
   "Bayonet-Style Lock",
   "Interchangeable Elbows",
-  "Custom Fit For Each Patient",
+  "Custom Fit",
   "Additional Velcro Tabs",
 ];
 
@@ -19,8 +19,8 @@ export default function PulmoDetails() {
 
 
   return (
-    <section className="overflow-hidden bg-[#F5F5F5] py-28">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+    <section className="overflow-hidden bg-[#F5F5F5] py-16 lg:py-28">
+      <div className="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* TOP GRID */}
         {/* ================================================= */}
@@ -30,10 +30,10 @@ export default function PulmoDetails() {
           {/* LEFT CONTENT */}
           {/* ================================================= */}
 
-          <div className="max-w-[560px]">
+          <div className="max-w-full ">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold tracking-[-2px] text-[#2B2B2B]">
+              <h2 className="text-2xl font-semibold tracking-[-1px] text-[#2B2B2B] sm:text-3xl sm:tracking-[-2px] lg:text-4xl">
                 BiTrac® Full Face
               </h2>
             </div>
@@ -98,14 +98,14 @@ export default function PulmoDetails() {
         {/* BOTTOM GRID */}
         {/* ================================================= */}
 
-        <div className="mt-16 grid items-stretch gap-10 lg:grid-cols-[0.95fr_1.05fr]">
+        <div className="mt-16 grid  items-center gap-5 lg:grid-cols-[0.95fr_1.05fr]">
           {/* ================================================= */}
           {/* GREEN CTA PANEL */}
           {/* ================================================= */}
 
           <div
             data-aos="fade-up"
-            className="relative overflow-hidden rounded-[18px] bg-[#008D70] px-10 py-16 shadow-[0_16px_32px_rgba(0,0,0,0.08)]"
+            className="relative overflow-hidden rounded-[18px] bg-[#008D70] px-7 py-12 shadow-[0_16px_32px_rgba(0,0,0,0.08)] lg:px-10 lg:py-16"
           >
             {/* BACKGROUND DEPTH */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.08),transparent_40%)]" />
@@ -116,7 +116,7 @@ export default function PulmoDetails() {
 
             {/* CONTENT */}
             <div className="relative z-10 flex flex-col items-center text-center">
-              <h3 className="max-w-[500px] text-4xl font-semibold leading-[1.2] tracking-[-1.5px] text-white">
+              <h3 className="max-w-[500px] text-2xl font-semibold leading-[1.2] tracking-[-1px] text-white sm:text-3xl lg:text-4xl lg:tracking-[-1.5px]">
                 BiTrac Full Face Mask With Fixed Anti-Asphyxia Elbow
               </h3>
 
@@ -146,12 +146,12 @@ export default function PulmoDetails() {
             <div
               data-aos="fade-up"
               data-aos-delay="160"
-              className="mt-10 grid gap-4 md:grid-cols-3"
+              className="mt-8 grid gap-4 md:grid-cols-3"
             >
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className="flex min-h-[82px] items-start gap-3 rounded-[8px] border border-[#E7E7E7] bg-white px-5 py-4 shadow-[0_6px_14px_rgba(0,0,0,0.03)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_22px_rgba(0,0,0,0.06)]"
+                  className="flex min-h-[62px] items-start gap-3 rounded-[8px] border border-[#E7E7E7] bg-white px-5 py-4 shadow-[0_6px_14px_rgba(0,0,0,0.03)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_22px_rgba(0,0,0,0.06)]"
                 >
                   {/* ICON */}
                   <div className="mt-[2px] flex h-[24px] w-[24px] shrink-0 items-center justify-center rounded-full border border-[#00A887]">
@@ -163,7 +163,7 @@ export default function PulmoDetails() {
                   </div>
 
                   {/* TEXT */}
-                  <p className="text-[16px] leading-[1.7] text-[#555555]">
+                  <p className="text-[14px] leading-[1.7] text-[#555555]">
                     {feature}
                   </p>
                 </div>

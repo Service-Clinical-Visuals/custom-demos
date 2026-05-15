@@ -15,8 +15,8 @@ const highlights = [
 export default function PulmoAbout() {
 
   return (
-    <section className="overflow-hidden bg-[#F5F5F5] py-28">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+    <section className="overflow-hidden bg-[#F5F5F5] py-16 lg:pb-28 lg:pt-0">
+      <div className="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}
@@ -28,7 +28,7 @@ export default function PulmoAbout() {
 
           <div
             data-aos="fade-right"
-            className="relative overflow-hidden rounded-[24px] shadow-[0_14px_30px_rgba(0,0,0,0.08)]"
+            className="relative min-h-[280px] overflow-hidden rounded-[24px] shadow-[0_14px_30px_rgba(0,0,0,0.08)] sm:min-h-[360px] lg:min-h-0"
           >
             {/* IMAGE */}
             <div className="h-full w-full">
@@ -60,10 +60,10 @@ export default function PulmoAbout() {
           {/* CONTENT SIDE */}
           {/* ================================================= */}
 
-          <div className="max-w-[760px]">
+          <div className="max-w-full">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-2px] text-[#0068A8]">
+              <h2 className="text-2xl font-semibold leading-[1.08] tracking-[-1px] text-[#0068A8] sm:text-3xl sm:tracking-[-2px] lg:text-4xl">
                 Innovation And High Quality Products
               </h2>
             </div>
@@ -98,7 +98,7 @@ export default function PulmoAbout() {
               className="mt-5 space-y-5"
             >
               {highlights.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
+                <div key={index} className="flex items-center gap-4">
                   {/* ICON */}
                   <div className="mt-[2px] flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-[#00A887]">
                     <Check

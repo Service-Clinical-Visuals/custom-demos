@@ -7,26 +7,32 @@ const partners = [
   {
     name: "Bound Tree",
     image: "/pulmo/pulmo-partner-1.png",
+    imgClass: "h-[62px]",
   },
   {
     name: "Emergency Medical Products",
     image: "/pulmo/pulmo-partner-2.png",
+    imgClass: "h-[62px]",
   },
   {
     name: "Henry Schein",
     image: "/pulmo/pulmo-partner-3.png",
+    imgClass: "h-[62px]",
   },
   {
     name: "Life Assist",
     image: "/pulmo/pulmo-partner-4.png",
+    imgClass: "h-[42px]",
   },
   {
     name: "Mckesson",
     image: "/pulmo/pulmo-partner-5.png",
+    imgClass: "h-[42px]",
   },
   {
     name: "EMS",
     image: "/pulmo/pulmo-partner-6.png",
+    imgClass: "h-[42px]",
   },
 ];
 
@@ -47,8 +53,8 @@ export default function PulmoPartners() {
   }
 
   return (
-    <section className="overflow-hidden bg-[#F5F5F5] py-28">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+    <section className="overflow-hidden bg-[#F5F5F5] py-16 lg:py-28">
+      <div className="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}
@@ -92,10 +98,10 @@ export default function PulmoPartners() {
           {/* CONTENT SIDE */}
           {/* ================================================= */}
 
-          <div className="max-w-[760px]">
+          <div className="max-w-full">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-2px] text-[#2B2B2B]">
+              <h2 className="text-2xl font-semibold leading-[1.08] tracking-[-1px] text-[#2B2B2B] sm:text-3xl sm:tracking-[-2px] lg:text-4xl">
                 World Wide Distribution
               </h2>
             </div>
@@ -161,14 +167,14 @@ export default function PulmoPartners() {
                 {visible.map((partner, index) => (
                   <div
                     key={index}
-                    className="group flex min-h-[110px] items-center justify-center rounded-[10px] border border-[#F0F0F0] bg-[#FAFAFA] px-6 py-5 transition-all duration-300 hover:-translate-y-1 hover:border-[#D8E8F4] hover:bg-white hover:shadow-[0_12px_22px_rgba(0,0,0,0.05)]"
+                    className="group flex min-h-[110px] items-center justify-center rounded-[10px]  bg-[#FAFAFA] px-6 py-5 transition-all duration-300 hover:-translate-y-1 hover:border-[#D8E8F4] hover:bg-white hover:shadow-[0_12px_22px_rgba(0,0,0,0.05)]"
                   >
                     {/* LOGO */}
                     <div className="text-center">
                       <img
                         src={partner.image}
                         alt={partner.name}
-                        className="mx-auto h-[42px] w-auto object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100"
+                        className={`mx-auto w-auto object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 ${partner.imgClass}`}
                       />
 
                       {/* FUTURE LOGO */}

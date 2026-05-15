@@ -18,8 +18,8 @@ export default function SystemSolutionsSplit() {
 
           {/* Right Side: Text Content */}
           <div className="text-white">
-            <span className="text-white font-bold text-[16px] mb-3 block">Our Service</span>
-            <h2 className="text-[30px] lg:text-[34px] font-extrabold leading-tight mb-3">Our System Solutions</h2>
+            <span className="text-white font-bold text-[16px] mb-3 block">Innovative Endoscopy</span>
+            <h2 className="text-[30px] lg:text-[34px] font-extrabold leading-tight mb-3">Advanced Diagnostic & Imaging Solutions</h2>
             
             <div className="space-y-6 text-white text-[14px] lg:text-[16px] leading-[1.8] font-medium mb-10">
               <p>
