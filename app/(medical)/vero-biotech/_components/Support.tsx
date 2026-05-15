@@ -20,7 +20,7 @@ export default function Support() {
           <div className="lg:col-span-6 relative group" data-aos="fade-right">
             <div className="relative overflow-hidden">
               <img
-                src="/medical/vero-biotech/home/comprehensive.png"
+                src="/vero-biotech/home/comprehensive.png"
                 alt="Support Team"
                 className="object-cover transition-transform duration-700"
               />
