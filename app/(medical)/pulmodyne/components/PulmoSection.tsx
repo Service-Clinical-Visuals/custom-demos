@@ -91,7 +91,7 @@ export default function PulmoSection() {
                   {/* ACTIONS */}
                   {/* ================================================= */}
 
-                  <div className="mt-10 flex items-center gap-5">
+                  <div className="mt-10 flex flex-col md:flex-row items-center gap-5">
                     {/* VIEW PRODUCTS */}
                     <button className="cursor-pointer flex h-[42px] items-center justify-center rounded-[4px] bg-[#0068A8] px-6 text-[16px] font-semibold text-white shadow-[0_8px_16px_rgba(0,104,168,0.14)] transition-all duration-300 hover:bg-[#00598F]">
                       View Products

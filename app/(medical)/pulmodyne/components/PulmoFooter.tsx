@@ -151,8 +151,8 @@ export default function PulmoFooter() {
                 {contactInfo.map((item, index) => {
                   const Icon = item.icon;
                   return (
-                    <div key={index} className="cursor-pointer flex items-center gap-4">
-                      <div className="flex h-[34px] w-[34px] items-center justify-center rounded-full border border-[#DDEAF3] bg-white text-[#0068A8] shadow-[0_4px_10px_rgba(0,104,168,0.05)]">
+                    <div key={index} className="cursor-pointer flex items-center gap-4 hover:scale-105 transition-all duration-300">
+                      <div className="shrink-0 flex h-[34px] w-[34px] items-center justify-center rounded-full border border-[#DDEAF3] bg-white text-[#0068A8] shadow-[0_4px_10px_rgba(0,104,168,0.05)]">
                         <Icon size={16} strokeWidth={2.2} />
                       </div>
                       <p className="text-[16px] font-medium text-[#555555]">
