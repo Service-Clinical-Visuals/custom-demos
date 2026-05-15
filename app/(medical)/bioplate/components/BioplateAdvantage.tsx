@@ -59,7 +59,7 @@ export default function BioplateAdvantage() {
 
             {/* CTA */}
             <div data-aos="fade-up" data-aos-delay="300" className="mt-4">
-              <button className="cursor-pointer group flex h-[58px] items-center gap-5 rounded-[10px] bg-[#5DC1B9] px-8 text-base font-bold text-white transition-all duration-300 hover:scale-[1.03] hover:bg-[#5bbab3]">
+              <button className="cursor-pointer group flex h-[58px] items-center gap-5 rounded-[10px] bg-[#ffff] px-8 text-base font-bold text-[#006B52] transition-all duration-300 hover:scale-[1.03] hover:bg-[#4A9D8B]">
                 View Products
 
                 <span className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]">

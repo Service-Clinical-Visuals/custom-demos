@@ -20,7 +20,7 @@ export default function BioplateHero() {
         {/* CONTENT */}
         <div className="relative z-10 flex h-full items-center">
           <div className="mx-auto flex w-full max-w-[1600px] items-center px-10">
-            <div className="max-w-[480px] pt-32">
+            <div className="max-w-[480px] pt-96">
               <div
                 data-aos="fade-up"
                 data-aos-delay="100"
