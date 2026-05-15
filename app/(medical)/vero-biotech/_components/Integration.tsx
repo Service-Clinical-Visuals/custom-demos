@@ -19,7 +19,7 @@ export default function Integration() {
             <p className="text-muted mb-8 leading-relaxed">
               The only iNO device with approval for use in all areas of care, without requiring device changes.
             </p>
-            <Link href="#" className="inline-flex items-center gap-2 bg-[#122b34] text-white px-6 py-3 rounded-sm text-[15px] lg:text-[16px] font-medium hover:bg-primary/90 transition-colors rounded-tl-2xl rounded-br-2xl">
+            <Link href="#" className="inline-flex items-center gap-2 bg-[#122b34] text-white px-6 py-3 rounded-sm text-[15px] lg:text-[17px] font-medium hover:bg-primary/90 transition-colors rounded-tl-2xl rounded-br-2xl">
               Request a Demo <ArrowRight className="w-3 h-3 -rotate-45" />
             </Link>
           </div>
@@ -44,8 +44,8 @@ export default function Integration() {
                       <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
                     </div>
                     <div>
-                      <h4 className="text-[#111] font-semibold text-[16px] lg:text-[16px] mb-1 leading-tight">{item.title}</h4>
-                      <p className="text-muted text-[13px] lg:text-[16px] leading-relaxed">{item.desc}</p>
+                      <h4 className="text-[#111] font-semibold text-[17px] lg:text-[17px] mb-1 leading-tight">{item.title}</h4>
+                      <p className="text-muted text-[13px] lg:text-[17px] leading-relaxed">{item.desc}</p>
                     </div>
                   </li>
                 ))}

@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="mb-6">
               <img src="/vero-biotech/logo.png" alt="Vero Logo" className="w-32 lg:w-40" />
             </div>
-            <p className="text-[#666] text-[15px] lg:text-[16px] lg:text-justify leading-relaxed mb-6">
+            <p className="text-[15px] lg:text-[16px] lg:text-justify leading-relaxed mb-6">
               Vero biotech is an emerging biotechnology company focused on the design, development, and commercialization of next generation inhaled nitric oxide (NO) delivery systems to address unmet medical needs of patients with cardiopulmonary conditions.
             </p>
             <div className="flex items-center gap-3">
@@ -28,48 +28,35 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-8 lg:gap-10">
-            {/* Column 2: Quick Links */}
-            <div className="w-[150px]">
-              <h4 className="text-[#122b34] font-bold mb-6 text-[16px] lg:text-[18px]">Quick Links</h4>
-              <ul className="space-y-4 text-[14px] lg:text-[16px] text-[#666]">
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Home</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">About Us</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Products</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Support</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">News & Events</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Contact Us</Link></li>
-              </ul>
-            </div>
+          {/* Column 2: Quick Links */}
+          <div className="w-full sm:w-[200px]">
+            <h4 className="text-[#122b34] font-bold mb-6 text-[16px] lg:text-[18px]">Quick Links</h4>
+            <ul className="space-y-4 text-[14px] lg:text-[16px]">
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">Home</Link></li>
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">About Us</Link></li>
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">Products</Link></li>
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">Support</Link></li>
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">News & Events</Link></li>
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">Prescribing Information</Link></li>
+              <li><Link href="#" className="hover:text-[#122b34] transition-colors">Contact Us</Link></li>
+            </ul>
+          </div>
 
-            {/* Column 3: Contact Info */}
-            <div className="w-full sm:w-[220px]">
-              <h4 className="text-[#122b34] font-bold mb-6 text-[16px] lg:text-[18px]">Contact Info</h4>
-              <ul className="space-y-4 text-[14px] lg:text-[16px] text-[#666] leading-relaxed">
-                <li>387 Nerem Street NW, Suite 125, Atlanta, Georgia 30313</li>
-                <li><a href="mailto:contactus@vero-biotech.com" className="hover:text-[#122b34]">contactus@vero-biotech.com</a></li>
-                <li><a href="tel:877-337-4118" className="hover:text-[#122b34]">877-337-4118</a></li>
-                <li><a href="mailto:support@vero-biotech.com" className="hover:text-[#122b34]">support@vero-biotech.com</a></li>
-              </ul>
-            </div>
-
-            {/* Column 4: Legal Links */}
-            <div className="w-[180px]">
-              <h4 className="text-[#122b34] font-bold mb-6 text-[16px] lg:text-[18px]">Legal Links</h4>
-              <ul className="space-y-4 text-[14px] lg:text-[16px] text-[#666]">
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Privacy Policy</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Terms of Use</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Cookie Settings</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Careers</Link></li>
-                <li><Link href="#" className="hover:text-[#122b34] transition-colors">Prescribing Information</Link></li>
-              </ul>
-            </div>
+          {/* Column 3: Contact Info */}
+          <div className="w-full sm:w-[220px]">
+            <h4 className="text-[#122b34] font-bold mb-6 text-[16px] lg:text-[18px]">Contact Info</h4>
+            <ul className="space-y-4 text-[14px] lg:text-[16px] leading-relaxed">
+              <li>387 Nerem Street NW, Suite 125, Atlanta, Georgia 30313</li>
+              <li><a href="mailto:contactus@vero-biotech.com" className="hover:text-[#122b34]">contactus@vero-biotech.com</a></li>
+              <li><a href="tel:877-337-4118" className="hover:text-[#122b34]">877-337-4118</a></li>
+              <li><a href="mailto:support@vero-biotech.com" className="hover:text-[#122b34]">support@vero-biotech.com</a></li>
+            </ul>
           </div>
 
           {/* Column 5: Medical Inquiries */}
           <div className="w-full lg:max-w-[280px]">
             <h4 className="text-[#122b34] font-bold mb-4 text-[16px] lg:text-[18px]">Medical Inquiries</h4>
-            <p className="text-[#666] text-[15px] lg:text-[16px] mb-5 leading-relaxed">
+            <p className="text-[15px] lg:text-[16px] mb-5 leading-relaxed">
               For medical inquiries, click on the Request Form below.
             </p>
             <Link href="#" className="inline-flex items-center gap-2 bg-[#122b34] text-white px-6 py-2.5 rounded-lg text-[14px] lg:text-[16px] font-medium hover:bg-[#122b34]/90 transition-colors mb-8">
@@ -83,8 +70,14 @@ export default function Footer() {
 
         </div>
 
-        <div className="text-center border-t border-[#d1d5db] pt-8 text-[11px] lg:text-[12px] text-[#777] leading-relaxed">
-          © Copyright 2026 – VERO Biotech. All rights reserved. VERO Biotech and GENOSYL are registered trademarks of VERO Biotech Inc.
+        <div className="border-t border-[#d1d5db] pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] lg:text-[14px] text-[#777] leading-relaxed">
+          <p>© Copyright 2026 – VERO Biotech. All rights reserved.</p>
+
+          <ul className="flex flex-wrap items-center justify-center gap-6 md:gap-8">
+            <li><Link href="#" className="hover:text-[#122b34] transition-colors">Privacy Policy</Link></li>
+            <li><Link href="#" className="hover:text-[#122b34] transition-colors">Terms of Use</Link></li>
+            <li><Link href="#" className="hover:text-[#122b34] transition-colors">Careers</Link></li>
+          </ul>
         </div>
       </div>
     </footer>
