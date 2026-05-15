@@ -41,7 +41,7 @@ export default function Header() {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8 text-[16px] font-medium text-[#444]">
+        <nav className="hidden lg:flex items-center gap-8 text-[17px] font-medium text-[#444]">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -55,7 +55,7 @@ export default function Header() {
 
         <div className="flex items-center gap-4">
           <div className="hidden sm:flex items-center">
-            <Link href="#" className="bg-[#122b34] text-white px-5 lg:px-6 py-2 lg:py-2.5 rounded-sm text-[14px] lg:text-[16px] font-medium hover:bg-primary/90 transition-colors flex items-center gap-2 rounded-tl-2xl rounded-br-2xl">
+            <Link href="#" className="bg-[#122b34] text-white px-5 lg:px-6 py-2 lg:py-2.5 rounded-sm text-[14px] lg:text-[17px] font-medium hover:bg-primary/90 transition-colors flex items-center gap-2 rounded-tl-2xl rounded-br-2xl">
               Explore Solutions <ArrowRight className="w-3 h-3 -rotate-45" />
             </Link>
           </div>
@@ -86,7 +86,7 @@ export default function Header() {
           <div className="pt-4 border-t border-gray-100">
             <Link
               href="#"
-              className="bg-[#122b34] text-white px-6 py-3 rounded-sm text-[16px] font-medium flex items-center justify-between rounded-tl-2xl rounded-br-2xl w-full"
+              className="bg-[#122b34] text-white px-6 py-3 rounded-sm text-[17px] font-medium flex items-center justify-between rounded-tl-2xl rounded-br-2xl w-full"
               onClick={() => setIsMenuOpen(false)}
             >
               Explore Solutions <ArrowRight className="w-4 h-4 -rotate-45" />

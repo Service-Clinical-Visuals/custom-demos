@@ -33,23 +33,31 @@
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-body), sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     @apply antialiased overflow-x-hidden;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-heading), sans-serif;
     font-weight: 600 !important;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 28px !important;
     line-height: 1.2 !important;
   }
 
   @media (min-width: 1024px) {
-    h1, h2 {
+
+    h1,
+    h2 {
       font-size: 34px !important;
     }
   }

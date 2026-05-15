@@ -27,7 +27,7 @@ export default function Mission() {
               </p>
             </div>
 
-            <Link href="#" className="inline-flex items-center gap-2 bg-white text-[#111] px-6 py-3 rounded-sm text-[15px] lg:text-[16px] font-medium hover:bg-gray-100 transition-colors rounded-tl-2xl rounded-br-2xl">
+            <Link href="#" className="inline-flex items-center gap-2 bg-white text-[#111] px-6 py-3 rounded-sm text-[15px] lg:text-[17px] font-medium hover:bg-gray-100 transition-colors rounded-tl-2xl rounded-br-2xl">
               Learn About Our Mission <ArrowRight className="w-3 h-3 -rotate-45" />
             </Link>
           </div>
