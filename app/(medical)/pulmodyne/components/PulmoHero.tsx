@@ -31,7 +31,7 @@ export default function PulmoHero() {
             <div className="max-w-[700px]">
               {/* HEADING */}
               <div data-aos="fade-up">
-                <h2 className="text-2xl font-semibold leading-[1.3] text-white sm:text-3xl lg:text-4xl">
+                <h2 className="text-2xl font-bold leading-[1.4] text-white sm:text-3xl lg:text-4xl">
                   ISO13485 certified medical device manufacturer located in Indianapolis, IN since 1985.
                 </h2>
               </div>
