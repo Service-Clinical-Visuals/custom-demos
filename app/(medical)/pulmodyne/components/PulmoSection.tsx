@@ -29,8 +29,8 @@ const categories = [
 export default function PulmoSection() {
 
   return (
-    <section className="overflow-hidden bg-[#F4F4F4] py-28">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+    <section className="overflow-hidden bg-[#F4F4F4] py-16 lg:py-28">
+      <div className="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* STACKED BACKGROUND LAYERS */}
         {/* ================================================= */}
@@ -46,7 +46,7 @@ export default function PulmoSection() {
           {/* MAIN CONTAINER */}
           {/* ================================================= */}
 
-          <div className="relative overflow-hidden rounded-[36px] bg-[#008D70] px-10 py-12 shadow-[0_18px_40px_rgba(0,0,0,0.12)] lg:px-12 lg:py-14">
+          <div className="relative overflow-hidden rounded-[36px] bg-[#008D70] px-6 py-9 shadow-[0_18px_40px_rgba(0,0,0,0.12)] sm:px-8 sm:py-10 lg:px-12 lg:py-14">
             {/* GRID */}
             <div className="grid gap-6 lg:grid-cols-3">
               {categories.map((item, index) => (
@@ -61,7 +61,7 @@ export default function PulmoSection() {
                   {/* ================================================= */}
 
                   <div className="absolute right-7 top-5">
-                    <span className="text-[55px] font-semibold leading-none tracking-[-4px] text-[#303030]">
+                    <span className="text-[40px] font-semibold leading-none tracking-[-4px] text-[#303030] lg:text-[55px]">
                       {item.id}
                     </span>
                   </div>
@@ -71,7 +71,7 @@ export default function PulmoSection() {
                   {/* ================================================= */}
 
                   <div>
-                    <h3 className="text-3xl font-semibold tracking-[-1px] text-[#0068A8]">
+                    <h3 className="text-2xl font-semibold tracking-[-1px] text-[#0068A8] lg:text-3xl">
                       {item.title}
                     </h3>
 
@@ -83,7 +83,7 @@ export default function PulmoSection() {
                   {/* DESCRIPTION */}
                   {/* ================================================= */}
 
-                  <p className="mt-7 max-w-[310px] text-[16px] leading-[1.95] text-[#666666]">
+                  <p className="mt-7 max-w-full text-[16px] leading-[1.95] text-[#666666]">
                     {item.description}
                   </p>
 

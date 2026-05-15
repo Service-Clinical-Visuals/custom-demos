@@ -36,18 +36,18 @@ const products = [
   },
 ];
 
-const VISIBLE = 3;
 const GAP = 32; // gap-8 = 32px
 
 export default function PulmoProducts() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const maxIndex = products.length - VISIBLE;
+  const maxIndex = products.length - 1;
 
   const scroll = (dir: "left" | "right") => {
     if (!scrollRef.current) return;
     const containerWidth = scrollRef.current.offsetWidth;
-    const step = (containerWidth + GAP) / VISIBLE;
+    const visible = containerWidth >= 1024 ? 3 : containerWidth >= 768 ? 2 : 1;
+    const step = (containerWidth + GAP) / visible;
     scrollRef.current.scrollBy({
       left: dir === "right" ? step : -step,
       behavior: "smooth",
@@ -60,7 +60,7 @@ export default function PulmoProducts() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-[#0065A4] py-24">
+    <section className="relative overflow-hidden bg-[#0065A4] py-16 lg:py-24">
       {/* ================================================= */}
       {/* BACKGROUND DEPTH */}
       {/* ================================================= */}
@@ -74,7 +74,7 @@ export default function PulmoProducts() {
       {/* CURVED SHAPE */}
       <div className="absolute bottom-[-220px] left-[120px] h-[520px] w-[1000px] rounded-full border border-white/[0.04]" />
 
-      <div className="relative z-10 mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="relative z-10 mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* TOP BAR */}
         {/* ================================================= */}
@@ -85,7 +85,7 @@ export default function PulmoProducts() {
           {/* ================================================= */}
 
           <div>
-            <h2 className="text-4xl font-semibold tracking-[-2px] text-white">
+            <h2 className="text-2xl font-semibold tracking-[-1px] text-white sm:text-3xl sm:tracking-[-2px] lg:text-4xl">
               Our Products
             </h2>
           </div>
@@ -126,8 +126,7 @@ export default function PulmoProducts() {
             {products.map((product) => (
               <div
                 key={product.id}
-                className="group flex-shrink-0 overflow-hidden rounded-[18px] bg-[#F5F5F5] shadow-[0_16px_30px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_22px_44px_rgba(0,0,0,0.14)]"
-                style={{ width: `calc((100% - ${GAP * 2}px) / ${VISIBLE})` }}
+                className="group w-[calc(100%-40px)] flex-shrink-0 overflow-hidden rounded-[18px] bg-[#F5F5F5] shadow-[0_16px_30px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_22px_44px_rgba(0,0,0,0.14)] md:w-[calc((100%-32px)/2)] lg:w-[calc((100%-64px)/3)]"
               >
                 {/* ================================================= */}
                 {/* IMAGE */}

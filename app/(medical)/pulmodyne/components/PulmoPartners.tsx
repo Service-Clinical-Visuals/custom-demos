@@ -47,8 +47,8 @@ export default function PulmoPartners() {
   }
 
   return (
-    <section className="overflow-hidden bg-[#F5F5F5] py-28">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+    <section className="overflow-hidden bg-[#F5F5F5] py-16 lg:py-28">
+      <div className="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}
@@ -92,10 +92,10 @@ export default function PulmoPartners() {
           {/* CONTENT SIDE */}
           {/* ================================================= */}
 
-          <div className="max-w-[760px]">
+          <div className="max-w-full">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-2px] text-[#2B2B2B]">
+              <h2 className="text-2xl font-semibold leading-[1.08] tracking-[-1px] text-[#2B2B2B] sm:text-3xl sm:tracking-[-2px] lg:text-4xl">
                 World Wide Distribution
               </h2>
             </div>

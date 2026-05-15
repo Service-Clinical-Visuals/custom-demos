@@ -53,7 +53,7 @@ export default function PulmoFooter() {
       {/* MAIN FOOTER */}
       {/* ================================================= */}
 
-      <div className="relative z-10 mx-auto max-w-[1600px] px-8 pt-14 lg:px-16">
+      <div className="relative z-10 mx-auto max-w-[1600px] px-5 pt-12 sm:px-8 sm:pt-14 lg:px-16">
         {/* ================================================= */}
         {/* TOP AREA */}
         {/* ================================================= */}
@@ -101,7 +101,7 @@ export default function PulmoFooter() {
 
             <div
               data-aos="fade-left"
-              className="ml-auto flex max-w-[400px] overflow-hidden rounded-[8px] bg-[#0068A8] shadow-[0_14px_28px_rgba(0,104,168,0.12)]"
+              className="flex w-full overflow-hidden rounded-[8px] bg-[#0068A8] shadow-[0_14px_28px_rgba(0,104,168,0.12)] sm:ml-auto sm:max-w-[400px]"
             >
               {/* INPUT */}
               <input
@@ -202,7 +202,7 @@ export default function PulmoFooter() {
       {/* ================================================= */}
 
       <div className="relative z-10 mt-16 bg-[#0068A8]">
-        <div className="mx-auto flex max-w-[1600px] flex-col gap-6 px-8 py-5 lg:flex-row lg:items-center lg:justify-between lg:px-16">
+        <div className="mx-auto flex max-w-[1600px] flex-col gap-6 px-5 py-5 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-16">
           {/* COPYRIGHT */}
           <p className="text-base font-medium text-white/90">
             Copyrights – © 2022 Pulmodyne, Inc
