@@ -28,12 +28,12 @@ export default function PulmoMaskDetails() {
         {/* TOP SECTION */}
         {/* ================================================= */}
 
-        <div className="grid items-start gap-16 lg:grid-cols-[0.95fr_1.05fr]">
+        <div className="grid items-center gap-16 lg:grid-cols-[0.95fr_1.05fr]">
           {/* ================================================= */}
           {/* CONTENT SIDE */}
           {/* ================================================= */}
 
-          <div className="max-w-full lg:max-w-[560px]">
+          <div className="max-w-full">
             {/* TITLE */}
             <div data-aos="fade-up">
               <h2 className="text-2xl font-semibold leading-[1.12] tracking-[-1px] text-white sm:text-3xl sm:tracking-[-2px] lg:text-4xl">

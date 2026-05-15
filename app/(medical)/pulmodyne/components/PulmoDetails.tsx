@@ -30,7 +30,7 @@ export default function PulmoDetails() {
           {/* LEFT CONTENT */}
           {/* ================================================= */}
 
-          <div className="max-w-full lg:max-w-[560px]">
+          <div className="max-w-full ">
             {/* TITLE */}
             <div data-aos="fade-up">
               <h2 className="text-2xl font-semibold tracking-[-1px] text-[#2B2B2B] sm:text-3xl sm:tracking-[-2px] lg:text-4xl">

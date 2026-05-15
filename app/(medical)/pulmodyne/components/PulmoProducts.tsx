@@ -100,7 +100,7 @@ export default function PulmoProducts() {
               disabled={currentIndex === 0}
               className="cursor-pointer text-white transition-all hover:scale-90 disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              <ArrowLeftCircle size={35} strokeWidth={2} />
+              <ArrowLeftCircle size={45} strokeWidth={2} />
             </button>
 
             <button
@@ -108,7 +108,7 @@ export default function PulmoProducts() {
               disabled={currentIndex >= maxIndex}
               className="cursor-pointer text-white transition-all hover:scale-90 disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              <ArrowRightCircle size={35} strokeWidth={2} />
+              <ArrowRightCircle size={45} strokeWidth={2} />
             </button>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function PulmoProducts() {
                 <div className="relative overflow-hidden px-8 pt-8">
                   <div className="relative overflow-hidden rounded-[12px] bg-white">
                     {/* CATEGORY BADGE */}
-                    <span className="absolute right-3 top-3 z-10 rounded-full bg-[#0065A4] px-3 py-[5px] text-[10px] font-semibold uppercase tracking-wider text-white">
+                    <span className="absolute left-3 top-3 z-10 rounded-full bg-[#0065A4] px-3 py-[5px] text-[10px] font-semibold uppercase tracking-wider text-white">
                       {product.category}
                     </span>
 
@@ -156,7 +156,7 @@ export default function PulmoProducts() {
 
                 <div className="px-8 pb-8 pt-6 text-center">
                   {/* TITLE */}
-                  <h3 className="text-[30px] font-semibold tracking-[-1px] text-[#2B2B2B]">
+                  <h3 className="text-[25px] font-semibold tracking-[-1px] text-[#2B2B2B]">
                     {product.title}
                   </h3>
 

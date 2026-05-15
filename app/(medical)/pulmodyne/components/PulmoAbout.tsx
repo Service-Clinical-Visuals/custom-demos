@@ -15,7 +15,7 @@ const highlights = [
 export default function PulmoAbout() {
 
   return (
-    <section className="overflow-hidden bg-[#F5F5F5] py-16 lg:py-28">
+    <section className="overflow-hidden bg-[#F5F5F5] py-16 lg:pb-28 lg:pt-0">
       <div className="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-16">
         {/* ================================================= */}
         {/* MAIN GRID */}

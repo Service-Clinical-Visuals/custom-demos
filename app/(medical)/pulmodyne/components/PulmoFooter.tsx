@@ -42,7 +42,7 @@ const contactInfo = [
 export default function PulmoFooter() {
 
   return (
-    <footer className="relative overflow-hidden bg-[#F5F5F5]">
+    <footer className="relative overflow-hidden bg-[#F7F7F7]">
       {/* ================================================= */}
       {/* BACKGROUND DEPTH */}
       {/* ================================================= */}
