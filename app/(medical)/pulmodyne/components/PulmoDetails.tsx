@@ -11,7 +11,7 @@ const features = [
   "Breathable Headgear",
   "Bayonet-Style Lock",
   "Interchangeable Elbows",
-  "Custom Fit For Each Patient",
+  "Custom Fit",
   "Additional Velcro Tabs",
 ];
 
@@ -98,7 +98,7 @@ export default function PulmoDetails() {
         {/* BOTTOM GRID */}
         {/* ================================================= */}
 
-        <div className="mt-16 grid items-stretch gap-10 lg:grid-cols-[0.95fr_1.05fr]">
+        <div className="mt-16 grid  items-center gap-5 lg:grid-cols-[0.95fr_1.05fr]">
           {/* ================================================= */}
           {/* GREEN CTA PANEL */}
           {/* ================================================= */}
@@ -146,12 +146,12 @@ export default function PulmoDetails() {
             <div
               data-aos="fade-up"
               data-aos-delay="160"
-              className="mt-10 grid gap-4 md:grid-cols-3"
+              className="mt-8 grid gap-4 md:grid-cols-3"
             >
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className="flex min-h-[82px] items-start gap-3 rounded-[8px] border border-[#E7E7E7] bg-white px-5 py-4 shadow-[0_6px_14px_rgba(0,0,0,0.03)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_22px_rgba(0,0,0,0.06)]"
+                  className="flex min-h-[62px] items-start gap-3 rounded-[8px] border border-[#E7E7E7] bg-white px-5 py-4 shadow-[0_6px_14px_rgba(0,0,0,0.03)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_22px_rgba(0,0,0,0.06)]"
                 >
                   {/* ICON */}
                   <div className="mt-[2px] flex h-[24px] w-[24px] shrink-0 items-center justify-center rounded-full border border-[#00A887]">
@@ -163,7 +163,7 @@ export default function PulmoDetails() {
                   </div>
 
                   {/* TEXT */}
-                  <p className="text-[16px] leading-[1.7] text-[#555555]">
+                  <p className="text-[14px] leading-[1.7] text-[#555555]">
                     {feature}
                   </p>
                 </div>
