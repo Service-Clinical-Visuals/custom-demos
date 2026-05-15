@@ -98,7 +98,7 @@ export default function PulmoAbout() {
               className="mt-5 space-y-5"
             >
               {highlights.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
+                <div key={index} className="flex items-center gap-4">
                   {/* ICON */}
                   <div className="mt-[2px] flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-[#00A887]">
                     <Check
