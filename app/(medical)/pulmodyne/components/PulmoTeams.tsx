@@ -63,7 +63,7 @@ export default function PulmoTeams() {
         {/* TEAM GRID */}
         {/* ================================================= */}
 
-        <div className="mx-auto mt-12 grid max-w-[1600px] grid-cols-2 gap-5 sm:mt-16 sm:gap-8 lg:mt-20 lg:grid-cols-4">
+        <div className="mx-auto mt-12 grid max-w-[1300px] grid-cols-2 gap-5 sm:mt-16 sm:gap-8 lg:mt-20 lg:grid-cols-4">
           {teamMembers.map((member, index) => (
             <div
               key={member.id}
