@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Outfit } from "next/font/google"; 
+import { Sora } from "next/font/google"; 
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"], // choose weights you need
 });
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     icon: "/cathegenix/cathe-favicon.png",
   },
 };
-
+ 
 export default function RootLayout({
   children,
 }: {
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} antialiased`}>
+      <body className={`${sora.variable} antialiased`}>
         <VideoProvider>
         {children}
         </VideoProvider>

@@ -65,11 +65,11 @@ export default function OptimedNavbar() {
           <div className="flex items-center gap-3">
 
             {/* Search — visible on md+ */}
-            <div className="hidden md:flex items-center relative">
+            <div className="hidden md:flex items-center relative bg-white rounded-full ">
               <input
                 type="text"
                 placeholder="Search Product"
-                className="w-[180px] lg:w-[220px] h-[34px] rounded-full px-4 pr-10 text-[12px] outline-none"
+                className="w-[180px] lg:w-[220px] h-[34px] rounded-full px-4 pr-10 text-[16px] text-black outline-none placeholder:text-gray-500"
               />
               <button className="absolute right-0 w-[42px] h-[42px] rounded-full bg-[#F59B52] flex items-center justify-center shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth={2}>

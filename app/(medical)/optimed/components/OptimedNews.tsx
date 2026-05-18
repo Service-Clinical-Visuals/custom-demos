@@ -34,7 +34,7 @@ export default function OptimedNews() {
           
           <h2
             data-aos="fade-right"
-            className="text-3xl sm:text-4xl font-black tracking-[-1px] text-black"
+            className="text-3xl sm:text-4xl font-semibold tracking-[-1px] text-black"
           >
             News at Optimed
           </h2>
@@ -42,7 +42,7 @@ export default function OptimedNews() {
           {/* CTA */}
           <button
             data-aos="fade-left"
-            className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-white border border-[#e0d2c8] shadow-md hover:scale-[1.02] transition-all duration-300"
+            className="cursor-pointer group flex items-center overflow-hidden rounded-l-xl rounded-r-4xl bg-white border border-[#e0d2c8] shadow-md hover:scale-[1.02] transition-all duration-300"
           >
             
             <span className="px-7 py-4 text-[15px] font-semibold text-black whitespace-nowrap">
@@ -89,7 +89,7 @@ export default function OptimedNews() {
                   
                   <div>
                     
-                    <h3 className="text-xl sm:text-2xl md:text-[28px]  font-black tracking-[-0.5px] text-[#7b7b7b] leading-[1.1]">
+                    <h3 className="text-xl sm:text-2xl md:text-[28px]  font-black tracking-[-0.5px] text-black leading-[1.1]">
                       {item.title}
                     </h3>
 

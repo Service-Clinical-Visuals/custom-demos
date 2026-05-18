@@ -57,14 +57,14 @@ export default function OptimedProducts() {
         <div className="flex items-center justify-between gap-6 flex-wrap">
           <h2
             data-aos="fade-right"
-            className="text-3xl md:text-4xl font-black tracking-[-1px] text-black"
+            className="text-3xl md:text-4xl font-semibold tracking-[-1px] text-black"
           >
             Our Products
           </h2>
 
           <button
             data-aos="fade-left"
-            className="group flex items-center overflow-hidden rounded-full bg-[#f29b58] shadow-md hover:scale-[1.02] transition-all duration-300"
+            className="group flex items-center overflow-hidden rounded-l-xl rounded-r-4xl bg-[#f29b58] shadow-md hover:scale-[1.02] transition-all duration-300"
           >
             <span className="px-7 py-4 text-white text-[15px] font-semibold whitespace-nowrap cursor-pointer">
               View All Products
@@ -78,79 +78,53 @@ export default function OptimedProducts() {
         {/* Divider */}
         <div className="w-full h-px bg-[#dddddd] mt-8"></div>
 
-        {/* Slider */}
-        <div className="mt-10 overflow-hidden">
-          <div
-            className="flex transition-transform duration-500 ease-in-out"
-            style={{ transform: `translateX(-${activePage * 100}%)` }}
-          > 
-            {pages.map((pageProducts, pi) => (
-              <div
-                key={pi}
-                className="w-full flex-shrink-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-16 place-items-start"
-              >
-                {pageProducts.map((product, index) => (
-                  <div
-                    key={index}
-                    data-aos="fade-up"
-                    data-aos-delay={index * 150}
-                    className="relative flex items-center justify-start w-full"
-                  >
-                    {/* Mobile / Tablet Card */}
-                    <div className="xl:hidden w-full rounded-[24px] bg-white border border-[#dddddd] shadow-lg overflow-hidden">
-                      <div className="h-[260px] flex items-center justify-center p-4">
-                        <img
-                          src={product.image}
-                          alt={product.title}
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
-                      <div className="bg-[#f29b58] px-6 py-5 text-center">
-                        <h3 className="text-white text-xl font-black tracking-[-0.5px]">
-                          {product.title}
-                        </h3>
-                        <p className="mt-2 text-white/95 text-[15px] leading-[1.7]">
-                          {product.description}
-                        </p>
-                      </div>
-                    </div>
+         {/* Product Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-10 place-items-start">
+          
+          {pages[activePage].map((product, index) => (
+            <div
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 150}
+              className="relative flex items-center justify-center"
+            >
+              
+              {/* Product Card */}
+              <div className="relative w-[340px] h-[430px] rounded-[24px] bg-white border border-[#dddddd] shadow-lg overflow-visible">
+                
+                {/* Product Image */}
+                <div className="absolute inset-0 flex items-center justify-center p-10">
+                  <img
+                    src={product.image}
+                    alt={product.title}
+                    className="w-full h-full b shrink-0  object-contain"
+                  />
+                </div>
 
-                    {/* Desktop Card */}
-                    <div className="hidden xl:block relative w-[350px] h-[430px] rounded-[24px] bg-white border border-[#dddddd] shadow-lg overflow-visible">
-                      <div className="absolute inset-0 flex items-center justify-center p-3">
-                        <img
-                          src={product.image}
-                          alt={product.title}
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
-                      <div className="absolute -right-40 top-[95px] w-[230px] bg-[#f29b58] rounded-[18px] shadow-xl px-7 py-3 z-20 text-center">
-                        <h3 className="text-white text-xl font-black tracking-[-0.5px]">
-                          {product.title}
-                        </h3>
-                        <p className="mt-2 text-white/95 text-[16px] leading-[1.9]">
-                          {product.description}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
+                {/* Floating Info Card */}
+                <div className="absolute -right-40 text-center top-[80px] w-[230px] bg-[#f29b58] rounded-[18px] shadow-xl px-3 py-6 z-20">
+                  
+                  <h3 className="text-white text-xl font-black tracking-[-0.5px]">
+                    {product.title}
+                  </h3>
+
+                  <p className="mt-3 text-white/95 text-[14px] leading-[1.9]">
+                    {product.description}
+                  </p>
+                </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
 
-        {/* Indicators */}
-        <div className="flex items-center justify-center mt-16 gap-3">
+        {/* Slider Indicator */}
+        <div className="flex items-center justify-center mt-16 gap-3 cursor-pointer">
           {pages.map((_, i) => (
             <button
               key={i}
               onClick={() => setActivePage(i)}
-              aria-label={`Page ${i + 1}`}
-              className={`rounded-full transition-all duration-300 cursor-pointer ${
-                i === activePage
-                  ? "w-[70px] h-[8px] bg-[#f29b58]"
-                  : "w-[28px] h-[8px] bg-[#d7d7d7] hover:bg-[#f29b58]/50"
+              className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
+                activePage === i ? "w-[70px] bg-[#f29b58]" : "w-10 bg-[#d7d7d7]"
               }`}
             />
           ))}

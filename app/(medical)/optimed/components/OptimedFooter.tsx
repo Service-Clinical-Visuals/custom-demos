@@ -27,7 +27,7 @@ export default function OptimedFooter() {
       <div className="max-w-[1600px] mx-auto px-6 pt-16 pb-10">
         
         {/* Top Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[1.2fr_0.8fr_1fr_1fr] gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[1.4fr_0.4fr_0.7fr_0.6fr] gap-14 ">
           
           {/* Brand */}
           <div data-aos="fade-right">
@@ -39,7 +39,7 @@ export default function OptimedFooter() {
             </div>
 
             {/* Description */}
-            <p className="mt-8 text-white/85 text-[16px] leading-[2] max-w-[420px]">
+            <p className="mt-8 text-white/85 text-[16px] leading-[2] max-w-[575px]">
               As a global manufacturer of products in the medical technology
               sector, we at optimed make an important contribution to people's
               health.

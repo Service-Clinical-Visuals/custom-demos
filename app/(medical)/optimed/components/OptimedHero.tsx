@@ -17,7 +17,7 @@ export default function OptimedHero() {
       {/* Content */}
       <div className="relative z-20 h-full flex items-end">
         <div className="max-w-[1600px] mx-auto w-full px-10 pb-24">
-          <div className="max-w-[520px]">
+          <div className="max-w-[620px]">
             
             <h1
               data-aos="fade-up"
@@ -39,17 +39,17 @@ export default function OptimedHero() {
               data-aos-delay="400"
               className="mt-8"
             >
-              <button className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-white hover:bg-[#f8f8f8] transition-all shadow-2xl">
-                
-                <span className="px-8 py-4 text-[15px] font-semibold text-black">
+              <button className="cursor-pointer group flex items-stretch overflow-hidden rounded-l-xl rounded-r-4xl bg-white hover:bg-[#f8f8f8] transition-all shadow-2xl">
+
+                <span className="px-8 py-4 flex items-center text-[16px] font-semibold text-black">
                   Explore More
                 </span>
 
-                <span className="w-[60px] h-[60px] bg-[#F59B52] flex items-center justify-center">
+                <span className="w-[60px] bg-[#F59B52] flex items-center justify-center rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
+                    width="22"
+                    height="22"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="white"

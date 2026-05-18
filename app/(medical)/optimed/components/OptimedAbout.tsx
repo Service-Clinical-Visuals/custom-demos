@@ -1,7 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 import {
@@ -23,7 +22,7 @@ export default function OptimedAbout() {
         
         <h2
           data-aos="fade-up"
-          className="text-3xl md:text-4xl font-black text-black tracking-[-1px]"
+          className="text-3xl md:text-4xl font-semibold text-black tracking-[-1px]"
         >
           About Us
         </h2>
@@ -31,7 +30,7 @@ export default function OptimedAbout() {
         <p
           data-aos="fade-up"
           data-aos-delay="150"
-          className="mt-5 max-w-[980px] mx-auto text-[#8f8f8f] text-[16px] leading-[2]"
+          className="mt-5 max-w-full mx-auto text-[#8f8f8f] text-[16px] leading-[2]"
         >
           Optimed based in Ettlingen, Germany, has been dedicated to the research,
           development, manufacturing, and global distribution of high-quality

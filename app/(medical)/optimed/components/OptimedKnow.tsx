@@ -35,7 +35,7 @@ export default function OptimedKnow() {
           
           <h2
             data-aos="fade-right"
-            className="text-3xl sm:text-4xl font-black tracking-[-1px] text-black"
+            className="text-3xl sm:text-4xl font-semibold tracking-[-1px] text-black"
           >
             Get to Know Optimed
           </h2>
@@ -43,7 +43,7 @@ export default function OptimedKnow() {
           {/* CTA */}
           <button
             data-aos="fade-left"
-            className="group cursor-pointer flex items-center overflow-hidden rounded-full bg-white shadow-md border border-[#e2d5ca] hover:scale-[1.02] transition-all duration-300"
+            className="group cursor-pointer flex items-center overflow-hidden rounded-l-xl rounded-r-4xl bg-white shadow-md border border-[#e2d5ca] hover:scale-[1.02] transition-all duration-300"
           >
             
             <span className="px-7 py-4 text-[16px] font-semibold text-black whitespace-nowrap">

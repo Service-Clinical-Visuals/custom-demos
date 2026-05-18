@@ -21,7 +21,7 @@ export default function OptimedComfort() {
           <div data-aos="fade-right">
 
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl  font-black tracking-[-1.2px] leading-[1.05] text-black">
+            <h2 className="text-3xl md:text-4xl  font-semibold tracking-[-1.2px] leading-[1.05] text-black">
               Advanced Comfort & Reliable Performance
             </h2>
 
@@ -52,7 +52,7 @@ export default function OptimedComfort() {
             {/* CTA */}
             <div className="mt-6">
               
-              <button className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-[#f29b58] shadow-md hover:scale-[1.02] transition-all duration-300">
+              <button className="cursor-pointer group flex items-center overflow-hidden rounded-l-xl rounded-r-4xl bg-[#f29b58] shadow-md hover:scale-[1.02] transition-all duration-300">
                 
                 <span className="px-7 py-4 text-white text-[15px] font-semibold whitespace-nowrap">
                   Explore Products

@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 import {
@@ -9,6 +7,7 @@ import {
   FiArrowRight,
 } from "react-icons/fi";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { Redo2 } from "lucide-react";
 
 
 const icons = [
@@ -39,7 +38,7 @@ export default function OptimedFeatures() {
           <p
             data-aos="fade-up"
             data-aos-delay="150"
-            className="mt-6 max-w-[1100px] mx-auto text-[#8c847d] text-[16px] leading-[2]"
+            className="mt-6 max-w-[1400px] mx-auto text-[#8c847d] text-[16px] leading-[2]"
           >
             OptiSoft Renal Transplantation Ureteral Stents combine innovative
             material technology with a patient-focused design approach. The
@@ -66,7 +65,7 @@ export default function OptimedFeatures() {
               
               {/* Feature */}
               <div className="flex items-start gap-4">
-                <FiArrowUpRight className="text-[#f39b5a] text-[28px] mt-1" />
+                <Redo2 className="text-[#f39b5a] text-[28px] mt-1 shrink-0" />
 
                 <p className="text-[#7e756e] text-[16px] leading-[1.8]">
                   Composed of soft polyurethane for high wearing comfort
@@ -75,7 +74,7 @@ export default function OptimedFeatures() {
 
               {/* Feature */}
               <div className="flex items-start gap-4">
-                <FiArrowUpRight className="text-[#f39b5a] text-[28px] mt-1" />
+                <Redo2 className="text-[#f39b5a] text-[28px] mt-1 shrink-0" />
 
                 <p className="text-[#7e756e] text-[16px] leading-[1.8]">
                   Short lengths with a shaft length of 8 – 14 cm available
@@ -84,7 +83,7 @@ export default function OptimedFeatures() {
 
               {/* Feature */}
               <div className="flex items-start gap-4">
-                <FiArrowUpRight className="text-[#f39b5a] text-[28px] mt-1" />
+                <Redo2 className="text-[#f39b5a] text-[28px] mt-1 shrink-0" />
 
                 <p className="text-[#7e756e] text-[16px] leading-[1.8]">
                   Pigtail configuration: Both ends open
@@ -93,7 +92,7 @@ export default function OptimedFeatures() {
             </div>
 
             {/* Icons */}
-            <div className="flex items-center gap-4 mt-12">
+            <div className="flex items-center gap-4  mt-6">
 
              {
                icons.map((icon, index) => (
@@ -110,6 +109,19 @@ export default function OptimedFeatures() {
                 ))
             }
               
+            </div>
+                <div className="mt-6">
+              
+              <button className="cursor-pointer group flex items-center overflow-hidden rounded-l-xl rounded-r-4xl bg-white shadow-lg border border-[#ddd2c8] hover:scale-[1.02] transition-all duration-300">
+                
+                <span className="px-8 py-4 text-[15px] font-bold text-black whitespace-nowrap">
+                  Explore products
+                </span>
+
+                <span className="w-[58px] h-[58px] rounded-full bg-[#f39b5a] flex items-center justify-center">
+                  <FiArrowRight className="text-white text-[20px] group-hover:translate-x-1 transition" />
+                </span>
+              </button>
             </div>
           </div>
 
@@ -135,7 +147,7 @@ export default function OptimedFeatures() {
                 comfort.
               </p>
 
-              <p className="text-[#7e756e] text-[17px] leading-[2]">
+              <p className="text-[#7e756e] text-[16px] leading-[2]">
                 These stents are specifically developed to accommodate the
                 anatomical peculiarities after kidney transplantation, ensuring
                 efficient urinary drainage and smoother postoperative
@@ -144,19 +156,7 @@ export default function OptimedFeatures() {
             </div>
 
             {/* Button */}
-            <div className="mt-12">
-              
-              <button className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-white shadow-lg border border-[#ddd2c8] hover:scale-[1.02] transition-all duration-300">
-                
-                <span className="px-8 py-4 text-[15px] font-bold text-black whitespace-nowrap">
-                  Explore products
-                </span>
 
-                <span className="w-[58px] h-[58px] rounded-full bg-[#f39b5a] flex items-center justify-center">
-                  <FiArrowRight className="text-white text-[20px] group-hover:translate-x-1 transition" />
-                </span>
-              </button>
-            </div>
           </div>
         </div>
       </div>

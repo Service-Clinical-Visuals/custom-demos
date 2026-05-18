@@ -56,7 +56,7 @@ export default function OptimedPartners() {
           >
             
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl font-black tracking-[-1px] leading-[1.05]">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-[-1px] leading-[1.05]">
               Partnerships
             </h2>
 
@@ -96,7 +96,7 @@ export default function OptimedPartners() {
             {/* CTA */}
             <div className="mt-12">
               
-              <button className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-[#f29b58] shadow-lg hover:scale-[1.02] transition-all duration-300">
+              <button className="cursor-pointer group flex items-center overflow-hidden rounded-xl rounded-r-4xl bg-[#f29b58] shadow-lg hover:scale-[1.02] transition-all duration-300">
                 
                 <span className="px-7 py-4 text-white text-[16px] font-semibold whitespace-nowrap">
                   Our Partners
