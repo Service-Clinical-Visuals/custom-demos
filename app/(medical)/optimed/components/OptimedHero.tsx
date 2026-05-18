@@ -21,7 +21,7 @@ export default function OptimedHero() {
             
             <h1
               data-aos="fade-up"
-              className="text-white text-[52px] leading-[1.08] font-bold"
+              className="text-white text-4xl leading-[1.08] font-bold"
             >
               High Quality Products Driven By German Technology
             </h1>
@@ -39,7 +39,7 @@ export default function OptimedHero() {
               data-aos-delay="400"
               className="mt-8"
             >
-              <button className="group flex items-center overflow-hidden rounded-full bg-white hover:bg-[#f8f8f8] transition-all shadow-2xl">
+              <button className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-white hover:bg-[#f8f8f8] transition-all shadow-2xl">
                 
                 <span className="px-8 py-4 text-[15px] font-semibold text-black">
                   Explore More

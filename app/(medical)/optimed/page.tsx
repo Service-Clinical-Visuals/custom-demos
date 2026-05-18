@@ -8,6 +8,11 @@ import OptimedHero from "./components/OptimedHero";
 import OptimedAbout from "./components/OptimedAbout";
 import OptimedFeatures from "./components/OptimedFeatures";
 import OptimedProducts from "./components/OptimedProducts";
+import OptimedKnow from "./components/OptimedKnow";
+import OptimedPartners from "./components/OptimedPartners";
+import OptimedComfort from "./components/OptimedComfort";
+import OptimedNews from "./components/OptimedNews";
+import OptimedFooter from "./components/OptimedFooter";
 
 export default function Home() {
      AOSInit();
@@ -39,6 +44,11 @@ export default function Home() {
     <OptimedAbout/>
     <OptimedFeatures/>
     <OptimedProducts/>
+    <OptimedKnow/>
+    <OptimedPartners/>
+    <OptimedComfort/>
+    <OptimedNews/>
+    <OptimedFooter/>
     </>
   ); 
 }

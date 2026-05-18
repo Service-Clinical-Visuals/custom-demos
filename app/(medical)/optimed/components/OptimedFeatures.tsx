@@ -31,7 +31,7 @@ export default function OptimedFeatures() {
           
           <h1
             data-aos="fade-up"
-            className="text-[58px] md:text-4xl font-black tracking-[-1.5px] text-black leading-[1.1]"
+            className="text-[28px] sm:text-4xl font-black tracking-[-0.5px] lg:tracking-[-1.5px] text-black leading-[1.1]"
           >
             OptiSoft Renal Transplantation Ureteral Stents
           </h1>
@@ -53,10 +53,10 @@ export default function OptimedFeatures() {
         <div className="w-full h-px bg-[#d7ccc2] mt-10"></div>
 
         {/* Main Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr_320px] gap-10 mt-10 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[320px_1fr_320px] gap-8 lg:gap-10 mt-10 items-start">
           
           {/* Left Features */}
-          <div data-aos="fade-right">
+          <div data-aos="fade-right" className="md:order-2 lg:order-1">
             
             <h2 className="text-3xl font-black text-black">
               Features
@@ -93,22 +93,22 @@ export default function OptimedFeatures() {
             </div>
 
             {/* Icons */}
-            <div className="flex items-center gap-6 mt-12">
+            <div className="flex items-center gap-4 mt-12">
 
              {
                icons.map((icon, index) => (
                 <>
               {/* Card */}
-              <div key={index} className="w-auto h-[100px] rounded-full shadow-md flex flex-col items-center justify-center">
+              <div key={index} className="w-[100px] h-[100px] rounded-full flex flex-col items-center justify-center">
                 <img
                   src={icon}
                   alt={`Feature ${index + 1}`}
-                  className="w-[70px] h-[70px] object-contain"
+                  className="w-[70px] h-[70px] object-contain rounded-full shadow-md"
                 />
               </div>
                 </>        
                 ))
-                }
+            }
               
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function OptimedFeatures() {
           {/* Center Video */}
           <div
             data-aos="zoom-in"
-            className="relative rounded-[22px] overflow-hidden border border-[#d7ccc2] shadow-xl bg-[#e4e0dc] aspect-video"
+            className="relative rounded-[22px] overflow-hidden border border-[#d7ccc2] shadow-xl bg-[#e4e0dc] aspect-video md:col-span-2 lg:col-span-1 md:order-1 lg:order-2"
           >
             
             {/* Replace later with actual video */}
@@ -124,7 +124,7 @@ export default function OptimedFeatures() {
           </div>
 
           {/* Right Content */}
-          <div data-aos="fade-left">
+          <div data-aos="fade-left" className="md:order-3 lg:order-3">
             
             <div className="space-y-8">
               
@@ -146,9 +146,9 @@ export default function OptimedFeatures() {
             {/* Button */}
             <div className="mt-12">
               
-              <button className="group flex items-center overflow-hidden rounded-full bg-white shadow-lg border border-[#ddd2c8] hover:scale-[1.02] transition-all duration-300">
+              <button className="cursor-pointer group flex items-center overflow-hidden rounded-full bg-white shadow-lg border border-[#ddd2c8] hover:scale-[1.02] transition-all duration-300">
                 
-                <span className="cursor-pointer px-8 py-4 text-[15px] font-bold text-black whitespace-nowrap">
+                <span className="px-8 py-4 text-[15px] font-bold text-black whitespace-nowrap">
                   Explore products
                 </span>
 

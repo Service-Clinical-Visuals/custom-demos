@@ -23,7 +23,7 @@ export default function OptimedAbout() {
         
         <h2
           data-aos="fade-up"
-          className="text-[56px] md:text-4xl font-black text-black tracking-[-1px]"
+          className="text-3xl md:text-4xl font-black text-black tracking-[-1px]"
         >
           About Us
         </h2>
@@ -43,7 +43,7 @@ export default function OptimedAbout() {
       </div>
 
       {/* Image Section */}
-      <div className="relative w-full h-[760px] overflow-hidden">
+      <div className="relative w-full h-[520px] md:h-[640px] lg:h-[760px] overflow-hidden">
         
         {/* Background */}
         <div className="absolute inset-0">
@@ -64,13 +64,13 @@ export default function OptimedAbout() {
             
             <h3
               data-aos="fade-up"
-              className="text-white text-[56px] md:text-4xl font-black tracking-[-1px]"
+              className="text-white text-3xl md:text-4xl lg:text-[56px] font-black tracking-[-1px]"
             >
               By The Numbers
             </h3>
 
             {/* Stats */}
-            <div className="mt-14 flex flex-wrap items-center justify-center gap-14 lg:gap-20">
+            <div className="mt-8 md:mt-14 flex flex-wrap items-center justify-center gap-8 md:gap-14 lg:gap-20 px-6">
               
               {/* Card */}
               <div
@@ -78,14 +78,14 @@ export default function OptimedAbout() {
                 data-aos-delay="100"
                 className="flex items-center gap-4"
               >
-                <FiClock className="text-white text-[54px]" />
+                <FiClock className="text-white text-[36px] md:text-[46px] lg:text-[54px]" />
 
                 <div className="text-left">
-                  <h4 className="text-[#CC8552] text-[42px] font-black leading-none">
+                  <h4 className="text-[#CC8552] text-[28px] md:text-[36px] lg:text-[42px] font-black leading-none">
                     30
                   </h4>
 
-                  <p className="text-white text-[24px] font-medium mt-2 whitespace-nowrap">
+                  <p className="text-white text-[16px] md:text-[20px] lg:text-[24px] font-medium mt-2">
                     Years of Experience
                   </p>
                 </div>
@@ -97,14 +97,14 @@ export default function OptimedAbout() {
                 data-aos-delay="250"
                 className="flex items-center gap-4"
               >
-                <FiUsers className="text-white text-[54px]" />
+                <FiUsers className="text-white text-[36px] md:text-[46px] lg:text-[54px]" />
 
                 <div className="text-left">
-                  <h4 className="text-[#CC8552] text-[42px] font-black leading-none">
+                  <h4 className="text-[#CC8552] text-[28px] md:text-[36px] lg:text-[42px] font-black leading-none">
                     200
                   </h4>
 
-                  <p className="text-white text-[24px] font-medium mt-2">
+                  <p className="text-white text-[16px] md:text-[20px] lg:text-[24px] font-medium mt-2">
                     Employees
                   </p>
                 </div>
@@ -116,14 +116,14 @@ export default function OptimedAbout() {
                 data-aos-delay="400"
                 className="flex items-center gap-4"
               >
-                <FiGlobe className="text-white text-[54px]" />
+                <FiGlobe className="text-white text-[36px] md:text-[46px] lg:text-[54px]" />
 
                 <div className="text-left">
-                  <h4 className="text-[#CC8552] text-[42px] font-black leading-none">
+                  <h4 className="text-[#CC8552] text-[28px] md:text-[36px] lg:text-[42px] font-black leading-none">
                     71
                   </h4>
 
-                  <p className="text-white text-[24px] font-medium mt-2">
+                  <p className="text-white text-[16px] md:text-[20px] lg:text-[24px] font-medium mt-2">
                     Countries
                   </p>
                 </div>
@@ -135,14 +135,14 @@ export default function OptimedAbout() {
                 data-aos-delay="550"
                 className="flex items-center gap-4"
               >
-                <HiOutlineBuildingOffice2 className="text-white text-[54px]" />
+                <HiOutlineBuildingOffice2 className="text-white text-[36px] md:text-[46px] lg:text-[54px]" />
 
                 <div className="text-left">
-                  <h4 className="text-[#CC8552] text-[42px] font-black leading-none">
+                  <h4 className="text-[#CC8552] text-[28px] md:text-[36px] lg:text-[42px] font-black leading-none">
                     4
                   </h4>
 
-                  <p className="text-white text-[24px] font-medium mt-2">
+                  <p className="text-white text-[16px] md:text-[20px] lg:text-[24px] font-medium mt-2">
                     Branches
                   </p>
                 </div>
