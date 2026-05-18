@@ -70,10 +70,10 @@ export default function OptimedKnow() {
                 key={index}
                 data-aos="fade-right"
                 data-aos-delay={index * 120}
-                className="bg-[#fcfbfb] rounded-[22px] border border-[#ddd4cb] shadow-md px-7 py-7"
+                className="bg-[#ffff] rounded-[22px] border border-[#ddd4cb] shadow-md px-7 py-7"
               >
                 
-                <h3 className="text-[#f29b58] text-2xl font-black tracking-[-0.5px]">
+                <h3 className="text-[#f29b58] text-2xl font-semibold tracking-[-0.5px]">
                   {card.title}
                 </h3>
 
