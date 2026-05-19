@@ -96,7 +96,7 @@ export default function OptimedFeatures() {
 
              {
                icons.map((icon, index) => (
-                <>
+              <>
               {/* Card */}
               <div key={index} className="w-[100px] h-[100px] rounded-full flex flex-col items-center justify-center">
                 <img
@@ -104,8 +104,8 @@ export default function OptimedFeatures() {
                   alt={`Feature ${index + 1}`}
                   className="w-[70px] h-[70px] object-contain rounded-full shadow-md"
                 />
-              </div>
-                </>        
+              </div>    
+              </> 
                 ))
             }
               

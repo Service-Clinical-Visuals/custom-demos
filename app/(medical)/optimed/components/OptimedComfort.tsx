@@ -68,7 +68,7 @@ export default function OptimedComfort() {
           {/* Right Video Area */}
           <div
             data-aos="fade-left"
-            className="relative rounded-[26px] overflow-hidden border border-[#e3e3e3] bg-[#ececec] shadow-xl aspect-video"
+            className="relative rounded-[26px] overflow-hidden border border-[#e3e3e3] bg-[#ececec] shadow-xl aspect-video xl:aspect-auto"
           >
 
             <DynamicVideoPlayer type="short-1" className="w-full h-full object-cover" />
