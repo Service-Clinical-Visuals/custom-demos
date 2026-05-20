@@ -41,7 +41,7 @@ export default function DeltaFaq() {
     <section className="relative overflow-hidden bg-[#dfe7e3] py-24 lg:py-28">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-10">
         {/* Main Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-[430px_1fr] gap-10 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[630px_1fr] gap-10 lg:gap-12 items-start">
           {/* LEFT SIDE */}
           <div
             className="relative"
@@ -62,13 +62,13 @@ export default function DeltaFaq() {
             </h2>
 
             {/* Description */}
-            <p className="mt-8 text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.9] max-w-[380px]">
+            <p className="mt-4 text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.9] max-w-[380px]">
               Every project has its own distinct characteristics, and we
               understand that you may have several questions before diving in.
             </p>
 
             {/* Image */}
-            <div className="relative mt-10 rounded-[20px] overflow-hidden h-[360px]">
+            <div className="relative mt-5 rounded-[20px] overflow-hidden h-[360px]">
               <img
                 src="/delta/delta-faq.png"
                 alt="FAQ"
@@ -98,7 +98,7 @@ export default function DeltaFaq() {
                     onClick={() => toggleFAQ(index)}
                     className="w-full px-8 py-8 flex items-center justify-between text-left"
                   >
-                    <span className="text-white text-[18px] lg:text-[20px] font-medium tracking-[-0.4px]">
+                    <span className="text-white text-[18px] font-medium tracking-[-0.4px]">
                       {faq.question}
                     </span>
 

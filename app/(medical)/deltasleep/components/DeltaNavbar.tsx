@@ -61,7 +61,7 @@ export default function DeltaNavbar() {
               Products
             </a>
 
-            <button className="bg-[#00695f] text-white px-6 py-3 rounded-xl  font-medium hover:scale-105 transition">
+            <button className="bg-[#00695f] cursor-pointer text-white px-6 py-3 rounded-xl  font-medium hover:scale-105 transition">
               Let’s Talk
             </button>
           </nav>

@@ -25,7 +25,7 @@ export default function DeltaHero() {
               data-aos="fade-up"
               className="max-w-[450px]"
             >
-              <h1 className="text-white text-4xl leading-[0.95] font-semibold tracking-[-3px]">
+              <h1 className="text-white text-5xl leading-[0.95] font-semibold tracking-[-3px]">
                 Sleep Therapy.
                 <br />
                 Simplified.

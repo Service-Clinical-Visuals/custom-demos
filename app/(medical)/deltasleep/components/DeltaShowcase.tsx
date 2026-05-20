@@ -16,7 +16,7 @@ export default function DeltaShowcase() {
               data-aos="fade-right"
               className="relative h-[360px] overflow-hidden bg-[#2d8b82]"
             >
-              <img 
+              <img
                 src="/delta/delta-front-mask.png"
                 alt="Front Mask"
                 className="absolute inset-0 w-full h-full object-cover"
@@ -81,7 +81,7 @@ export default function DeltaShowcase() {
             >
 
                 <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
-                
+
             </div>
 
             {/* CTA */}

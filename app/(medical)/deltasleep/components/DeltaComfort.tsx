@@ -77,14 +77,14 @@ export default function DeltaComfort() {
                   onMouseLeave={() => setHoveredIndex(0)}
                 >
                   {/* Badge */}
-                  <div className="inline-flex items-center justify-center px-5 h-[34px] rounded-[3px] bg-[#00695f]">
-                    <span className="text-white text-[14px] font-medium tracking-[-0.2px]">
+                  <div className="inline-flex items-center justify-center px-6 py-2 rounded-[3px] bg-[#00695f]">
+                    <span className="text-white text-[16px] font-medium tracking-[-0.2px]">
                       {item.badge}
                     </span>
                   </div>
 
                   {/* Title */}
-                  <h3 className="mt-3 text-[#2a2a2a] text-[36px] lg:text-[34px] font-semibold tracking-[-1.4px] leading-none">
+                  <h3 className="mt-3 text-[#2a2a2a] text-xl font-semibold tracking-[-1.4px] leading-none">
                     {item.title}
                   </h3>
 
