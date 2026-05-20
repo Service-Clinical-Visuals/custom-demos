@@ -19,13 +19,13 @@ export default function DeltaFeaturedProduct() {
             data-aos="fade-right"
           >
             {/* Label */}
-            <div className="flex items-center gap-2 mb-5">
+            <div className="flex items-center gap-2 mb-3">
               <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
 
-              <p className="text-[17px] font-medium text-[#8d8d8d] tracking-[-0.3px]">
+              <p className="text-[16px] font-medium text-[#8d8d8d] tracking-[-0.3px]">
                 Full Face Mask F1
               </p>
-            </div>
+            </div>   
 
             {/* Heading */}
             <h2 className="text-[#111111] text-4xl leading-[1.04] tracking-[-2.5px] font-semibold">
@@ -33,7 +33,7 @@ export default function DeltaFeaturedProduct() {
             </h2>
 
             {/* Description */}
-            <div className="mt-8 space-y-7">
+            <div className="mt-4 space-y-4">
               <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95] tracking-[-0.1px]">
                 Full Face Mask F1 is thoughtfully engineered to deliver a
                 softer, quieter, and more comfortable sleep therapy experience.
@@ -59,10 +59,10 @@ export default function DeltaFeaturedProduct() {
             </div>
 
             {/* Divider */}
-            <div className="w-full h-[1px] bg-[#9db5b2] mt-10" />
+            <div className="w-full h-[1px] bg-[#9db5b2] mt-5" />
 
             {/* CTA */}
-            <div className="mt-8">
+            <div className="mt-4">
               <button className="h-[52px] px-7 rounded-[4px] bg-[#00695f] text-white text-[15px] font-medium tracking-[-0.2px] transition-all duration-300 hover:bg-[#00554d] hover:scale-[1.02]">
                 Explore Product
               </button>

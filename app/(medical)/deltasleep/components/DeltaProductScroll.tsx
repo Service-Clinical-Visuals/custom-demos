@@ -3,6 +3,7 @@
 import { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
 import DeltaScrollStrip from "./DeltaScrollStrip";
 
 export default function DeltaProductScroll() {
@@ -12,7 +13,7 @@ export default function DeltaProductScroll() {
 
   useLayoutEffect(() => {
     if (typeof window === "undefined") return;
-    gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger, SplitText);
 
     const ctx = gsap.context(() => {
       // Hide strip elements initially; GSAP reveals them during scroll
@@ -36,8 +37,16 @@ export default function DeltaProductScroll() {
         gsap.set(animImgRef.current, { opacity: 1 });
       });
 
-      // Heading: gray → black as scroll begins
-      tl.to("#delta-heading", { color: "#000000", duration: 1, ease: "none" }, 0);
+      // Words start dim, reveal to full opacity — completes at ~80% of scroll
+      const split = SplitText.create("#delta-heading", { type: "words" });
+      gsap.set(split.words, { opacity: 0.12, y: 18 });
+      tl.to(split.words, {
+        opacity: 1,
+        y: 0,
+        duration: 0.4,
+        stagger: 0.07,
+        ease: "power2.out",
+      }, 0);
 
       // Phase 1: top-right → center-left, slips behind heading text
       tl.to(animImgRef.current, {
@@ -112,7 +121,7 @@ export default function DeltaProductScroll() {
             data-aos="fade-up"
             data-aos-delay="120"
           >
-            <h1 id="delta-heading" className="text-[74px] leading-[1.02] tracking-[-4px] font-semibold" style={{ color: "#9b9b9b" }}>
+            <h1 id="delta-heading" className="text-black text-[74px] leading-[1.02] tracking-[-4px] font-semibold">
               Our Products are designed to help patients with sleep-related
               breathing disorders achieve consistent, restful sleep through
               safe, reliable, and user-friendly technology.

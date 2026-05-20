@@ -15,6 +15,7 @@ import DeltaProductScroll from "./components/DeltaProductScroll";
 import DeltaFeaturedProduct from "./components/DeltaFeaturedProduct";
 import DeltaFaq from "./components/DeltaFaq";
 import DeltaFooter from "./components/DeltaFooter";
+import DeltaShowcase from "./components/DeltaShowcase";
 
 export default function Home() {
   AOSInit();
@@ -49,6 +50,7 @@ export default function Home() {
     <DeltaProductScroll/>
     <DeltaAbout/>
     <DeltaProducts/>
+    <DeltaShowcase/>
     <DeltaComfort/>
     <DeltaTech/>
     <DeltaFeaturedProduct/>
