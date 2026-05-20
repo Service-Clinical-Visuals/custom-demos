@@ -24,7 +24,7 @@ export default function FeaturedProducts() {
 
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div data-aos="fade-right" data-aos-delay="200" className="w-full lg:w-1/2 aspect-[4/2.6] rounded-[24px] overflow-hidden bg-white/10 relative">
-            <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
+            <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
           </div>
           <div data-aos="fade-left" data-aos-delay="300" className="w-full lg:w-1/2">
             <h3 className="text-[24px] font-semibold mb-4">2-Way Foley Catheter</h3>

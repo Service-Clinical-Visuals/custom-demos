@@ -33,7 +33,7 @@ export default function AdvancedSolutions() {
             </ul>
           </div>
           <div className="w-full lg:w-1/2 aspect-[4/2.6] rounded-[24px] overflow-hidden bg-gray-100 relative" data-aos="fade-left" data-aos-delay="200">
-            <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
+            <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
           </div>
         </div>
       </div>

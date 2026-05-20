@@ -49,7 +49,7 @@ function Counter({ target, duration = 3000, suffix = "" }: { target: number; dur
 
 export default function ProcessManagement() {
   const cards = [
-    { title: "Supply\n24-48 Hours", desc: "We have 7,000 m2 with automated processes for the planning and maintenance of high stock levels, giving quick and flexible responses." },
+    { title: "Supply 24-48 Hours", desc: "We have 7,000 m2 with automated processes for the planning and maintenance of high stock levels, giving quick and flexible responses." },
     { title: "Order Processing", desc: "Personalised monitoring of your order with the direct assistance of our sales team and the possibility of sending samples prior to the order." },
     { title: "Products", desc: "Range of products with more than 500 references, present in 98% of national hospitals." }
   ];
@@ -71,7 +71,7 @@ export default function ProcessManagement() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-1 px-4 lg:px-0">
             {cards.map((card, idx) => (
               <div key={idx} data-aos="fade-up" data-aos-delay={100 * (idx + 1)} className="bg-white rounded-tl-[60px] rounded-br-[60px] p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.08)] border border-gray-50 flex flex-col h-full">
-                <h3 className="text-[19px] font-semibold text-[#14387F] mb-4 whitespace-pre-line leading-tight">{card.title}</h3>
+                <h3 className="text-[24px] font-semibold text-[#14387F] mb-4 whitespace-pre-line leading-tight">{card.title}</h3>
                 <p className="text-[16px] text-gray-500 leading-relaxed">{card.desc}</p>
               </div>
             ))}
@@ -86,7 +86,7 @@ export default function ProcessManagement() {
               { stat: <span className="flex items-center justify-center">+<Counter target={24} suffix="K" /></span>, label: "Order lines\nserved per year" }
             ].map((item, idx) => (
               <div key={idx} data-aos="zoom-in" data-aos-delay={100 * idx} className="bg-white rounded-[20px] p-6 text-center shadow-[0_4px_20px_rgba(0,0,0,0.06)] border border-gray-50 flex-1 min-w-[140px] flex flex-col items-center justify-center">
-                <div className="text-[40px] font-bold text-[#14387F] mb-2 leading-none flex items-center justify-center min-h-[38px] font-heading">{item.stat}</div>
+                <div className="text-[30px] font-bold text-[#14387F] mb-2 leading-none flex items-center justify-center min-h-[38px] font-heading">{item.stat}</div>
                 <div className="text-[16px] text-gray-500 whitespace-pre-line tracking-wide">{item.label}</div>
               </div>
             ))}
