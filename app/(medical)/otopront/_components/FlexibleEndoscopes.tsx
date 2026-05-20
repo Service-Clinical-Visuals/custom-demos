@@ -30,9 +30,7 @@ export default function FlexibleEndoscopes() {
               <p>
                 With its front-mounted touchscreen and compact size the device can be incorporated directly into the working area (e.g. at the ENT unit). All functions can be operated conveniently with the use of the touchscreen, allowing the user to work as efficiently as possible.
               </p>
-              <p>
-                Two additional monitors can also be connected to the PILOT screen. So the process of endoscopy can be made easier, for example by placing a monitor for the doctor at an angle behind the patient's chair (removing the need to turn the head).
-              </p>
+              
             </div>
             
             <Button href="#" variant="white" arrowType="circle">

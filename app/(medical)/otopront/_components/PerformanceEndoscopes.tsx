@@ -18,7 +18,7 @@ export default function PerformanceEndoscopes() {
                 The endoscope delivers high-quality imaging while features such as the adjustable ocular and 130° angle of movement allow improved flexibility and control during procedures. Available in multiple diameters, it also includes an integrated light guide and transport case for convenient clinical use and portability.
               </p>
               <p>
-                Designed to deliver precision, comfort, and reliable performance, these flexible ENT endoscopes combine advanced engineering with modern clinical functionality. Built using specialized fiber technology, they provide sharp, high-resolution image quality that supports accurate observation and confident diagnosis during ENT examinations. Their slim and lightweight construction allows for smooth maneuverability, while the ergonomic design ensures comfortable handling and better control for medical professionals during extended procedures. The refined optical system enhances visibility and clarity, making examinations more efficient and dependable in everyday clinical use.
+                Designed to deliver precision, comfort, and reliable performance, these flexible ENT endoscopes combine advanced engineering with modern clinical functionality. Built using specialized fiber technology, they provide sharp, high-resolution image quality that supports accurate observation and confident diagnosis during ENT examinations. Their slim and lightweight construction allows for smooth maneuverability, while the ergonomic design ensures comfortable handling and better control for medical professionals during extended procedures. 
               </p>
             </div>
             

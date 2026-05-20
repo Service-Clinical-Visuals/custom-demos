@@ -28,7 +28,7 @@ export default function AdvancedDiagnostics() {
                 Engineered for accurate ENT diagnostics, these flexible endoscopes are designed to deliver clear visualization, smooth handling, and dependable clinical performance. With high-quality optical imaging and an ergonomic structure, they provide enhanced comfort and precise control during examinations of the nasal cavity, nasopharynx, and related ENT regions.
               </p>
               <p>
-                Available in multiple configurations with diameters of 2.8 mm, 3.4 mm, and 4 mm, each endoscope is designed with a 320 mm working length and a flexible structure that adapts easily to different examination needs. Features such as the adjustable ocular and 130° angle of movement provide greater flexibility and precision during use, helping practitioners achieve better viewing angles with ease.
+                Available in multiple configurations with diameters of 2.8 mm, 3.4 mm, and 4 mm, each endoscope is designed with a 320 mm working length and a flexible structure that adapts easily to different examination needs. Features such as the adjustable ocular and 130° angle of movement provide greater flexibility and precision during use.
               </p>
             </div>
             
