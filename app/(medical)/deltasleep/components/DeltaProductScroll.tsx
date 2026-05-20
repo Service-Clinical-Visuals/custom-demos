@@ -37,11 +37,11 @@ export default function DeltaProductScroll() {
         gsap.set(animImgRef.current, { opacity: 1 });
       });
 
-      // Words start dim, reveal to full opacity — completes at ~80% of scroll
+      // Words start gray, color-transition to black on scroll
       const split = SplitText.create("#delta-heading", { type: "words" });
-      gsap.set(split.words, { opacity: 0.12, y: 18 });
+      gsap.set(split.words, { color: "#9b9b9b", y: 18 });
       tl.to(split.words, {
-        opacity: 1,
+        color: "#000000",
         y: 0,
         duration: 0.4,
         stagger: 0.07,
@@ -116,12 +116,8 @@ export default function DeltaProductScroll() {
           </div>
 
           {/* Main Heading */}
-          <div
-            className="mt-8 max-w-[1450px] relative z-20"
-            data-aos="fade-up"
-            data-aos-delay="120"
-          >
-            <h1 id="delta-heading" className="text-black text-[74px] leading-[1.02] tracking-[-4px] font-semibold">
+          <div className="mt-8 max-w-[1450px] relative z-20">
+            <h1 id="delta-heading" className="text-[#9b9b9b] text-[74px] leading-[1.02] tracking-[-4px] font-semibold">
               Our Products are designed to help patients with sleep-related
               breathing disorders achieve consistent, restful sleep through
               safe, reliable, and user-friendly technology.
