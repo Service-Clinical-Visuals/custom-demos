@@ -1,24 +1,26 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
+import { useState } from "react";
 import "aos/dist/aos.css";
 
 const features = [
   {
     badge: "ISO 13485:2016",
+    hoverImg: "/delta/delta-comfort-1.png",
     title: "ISO Certified",
     description:
       "Our devices meet the rigorous ISO 13485:2016 standards for medical device quality. We maintain MDSAP certification to ensure global regulatory excellence.",
   },
   {
     badge: "Comfort",
+    hoverImg: "/delta/delta-comfort-2.png",
     title: "The Technology",
     description:
       "Automatically maintain constant warmth and moisture to prevent dry throat and congestion, without you touching a settings.",
   },
   {
     badge: "Proudly Canadian",
+    hoverImg: "/delta/delta-comfort-3.png", 
     title: "The Origin",
     description:
       "Licensed by Health Canada. Assembled in Ontario. We combined hospital-grade precision with a direct-to-you model that respects your time, your wallet, and your health",
@@ -26,6 +28,8 @@ const features = [
 ];
 
 export default function DeltaComfort() {
+  const [hoveredIndex, setHoveredIndex] = useState<number>(0);
+  const activeImg = features[hoveredIndex].hoverImg;
 
   return (
     <section className="relative overflow-hidden bg-[#dfe7e3] py-24 lg:py-28">
@@ -66,7 +70,11 @@ export default function DeltaComfort() {
               {features.map((item, index) => (
                 <div
                   key={index}
-                  className="py-3 border-b border-[#b8c0bc]"
+                  className={`py-3 border-b border-[#b8c0bc] px-4 rounded-[10px] cursor-pointer transition-colors duration-200 ${
+                    hoveredIndex === index ? "bg-white" : ""
+                  }`}
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(0)}
                 >
                   {/* Badge */}
                   <div className="inline-flex items-center justify-center px-5 h-[34px] rounded-[3px] bg-[#00695f]">
@@ -94,43 +102,11 @@ export default function DeltaComfort() {
             className="relative rounded-[26px] overflow-hidden h-[620px] bg-[#cfd8d4]"
             data-aos="fade-left"
           >
-            {/* Future Image */}
             <img
-              src="/cpap-device.png"
-              alt="CPAP Device"
-              className="absolute inset-0 w-full h-full object-cover"
+              src={activeImg}
+              alt="Feature Visual"
+              className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
             />
-
-            {/* Future-ready image/video support */}
-            {/*
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="absolute inset-0 w-full h-full object-cover"
-            >
-              <source src="/device-video.mp4" type="video/mp4" />
-            </video>
-            */}
-
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/5" />
-
-            {/* Decorative Glow */}
-            <div className="absolute bottom-5 right-5">
-              <div className="relative w-10 h-10">
-                <span className="absolute inset-0 bg-white/70 blur-xl rounded-full" />
-
-                <svg
-                  viewBox="0 0 100 100"
-                  className="relative w-full h-full"
-                  fill="white"
-                >
-                  <path d="M50 0C55 30 70 45 100 50C70 55 55 70 50 100C45 70 30 55 0 50C30 45 45 30 50 0Z" />
-                </svg>
-              </div>
-            </div>
           </div>
         </div>
       </div>
