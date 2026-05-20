@@ -6,7 +6,7 @@ import { Instagram, Facebook, Twitter, Linkedin, Navigation, Phone, ArrowRight }
 
 export default function Footer() {
   return (
-    <footer className="bg-[#174e8c2b] pt-16 pb-6">
+    <footer className="bg-[#174e8c1c] pt-16 pb-6">
       <div className="container mx-auto px-4 lg:px-12">
         
         {/* Top 5-Column Layout */}
