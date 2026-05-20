@@ -62,11 +62,11 @@ export default function DeltaComfort() {
             </p>
 
             {/* Feature List */}
-            <div className="mt-10 flex flex-col">
+            <div className="mt-5 flex flex-col">
               {features.map((item, index) => (
                 <div
                   key={index}
-                  className="py-8 border-b border-[#b8c0bc]"
+                  className="py-3 border-b border-[#b8c0bc]"
                 >
                   {/* Badge */}
                   <div className="inline-flex items-center justify-center px-5 h-[34px] rounded-[3px] bg-[#00695f]">
@@ -76,12 +76,12 @@ export default function DeltaComfort() {
                   </div>
 
                   {/* Title */}
-                  <h3 className="mt-5 text-[#2a2a2a] text-[36px] lg:text-[34px] font-semibold tracking-[-1.4px] leading-none">
+                  <h3 className="mt-3 text-[#2a2a2a] text-[36px] lg:text-[34px] font-semibold tracking-[-1.4px] leading-none">
                     {item.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="mt-5 text-[#444444] text-[15px] leading-[1.9] ">
+                  <p className="mt-3 text-[#444444] text-[16px] leading-[1.9] ">
                     {item.description}
                   </p>
                 </div>

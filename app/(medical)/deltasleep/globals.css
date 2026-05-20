@@ -2,7 +2,7 @@
 @import "aos/dist/aos.css";
 
 html, body {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 :root {

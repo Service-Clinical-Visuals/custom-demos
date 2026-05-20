@@ -30,7 +30,7 @@ export default function DeltaProducts() {
       <div className="max-w-[1600px] mx-auto px-6 lg:px-10">
         {/* Top Content */}
         <div
-          className="max-w-[1050px] mx-auto text-center"
+          className=" mx-auto text-center"
           data-aos="fade-up"
         >
           {/* Small Label */}

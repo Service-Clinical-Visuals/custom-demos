@@ -33,7 +33,7 @@ export default function DeltaAbout() {
       <div className="max-w-[1600px] mx-auto px-6 lg:px-10">
         {/* Top Heading */}
         <div
-          className="max-w-[980px] mx-auto text-center"
+          className="mx-auto text-center"
           data-aos="fade-up"
         >
           {/* Label */}
@@ -93,7 +93,7 @@ export default function DeltaAbout() {
             data-aos="fade-left"
           >
 
-            <DynamicVideoPlayer type="360" className="absolute top-0 left-0 w-full h-full object-cover" />
+            <DynamicVideoPlayer type="short-1" className="absolute top-0 left-0 w-full h-full object-cover" />
             {/* Soft Fade */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent" />
           </div>

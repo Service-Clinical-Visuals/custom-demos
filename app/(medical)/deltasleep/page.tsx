@@ -3,42 +3,57 @@
 import AOSInit from "../mci/_components/AOSInit";
 import { useEffect } from "react";
 import Lenis from "lenis";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import DeltaNavbar from "./components/DeltaNavbar";
 import DeltaHero from "./components/DeltaHero";
 import DeltaAbout from "./components/DeltaAbout";
 import DeltaProducts from "./components/DeltaProducts";
 import DeltaComfort from "./components/DeltaComfort";
+import DeltaTech from "./components/DeltaTech";
+import DeltaProductScroll from "./components/DeltaProductScroll";
+import DeltaFeaturedProduct from "./components/DeltaFeaturedProduct";
+import DeltaFaq from "./components/DeltaFaq";
+import DeltaFooter from "./components/DeltaFooter";
 
 export default function Home() {
   AOSInit();
 
-   useEffect(() => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
     const lenis = new Lenis({
-      duration: 1.3,   // scroll speed
-      easing: (t : number) => 1 - Math.pow(1 - t, 3), // easing curve
+      duration: 1.3,
+      easing: (t: number) => 1 - Math.pow(1 - t, 3),
       smoothWheel: true,
       syncTouch: true,
-      gestureOrientation: 'vertical',
+      gestureOrientation: "vertical",
     });
 
-    function raf(time: number) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
+    lenis.on("scroll", ScrollTrigger.update);
 
-    requestAnimationFrame(raf);
+    const tickerCb = (time: number) => lenis.raf(time * 1000);
+    gsap.ticker.add(tickerCb);
+    gsap.ticker.lagSmoothing(0);
 
     return () => {
       lenis.destroy();
+      gsap.ticker.remove(tickerCb);
+      ScrollTrigger.getAll().forEach((t) => t.kill());
     };
   }, []);
   return ( 
     <>
     <DeltaNavbar/>
     <DeltaHero/>
+    <DeltaProductScroll/>
     <DeltaAbout/>
     <DeltaProducts/>
     <DeltaComfort/>
+    <DeltaTech/>
+    <DeltaFeaturedProduct/>
+    <DeltaFaq/>
+    <DeltaFooter/>
     </>
   ); 
 }
