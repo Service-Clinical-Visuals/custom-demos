@@ -41,10 +41,10 @@ export default function DeltaFaq() {
     <section className="relative overflow-hidden bg-[#dfe7e3] py-24 lg:py-28">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-10">
         {/* Main Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-[630px_1fr] gap-10 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[630px_1fr] gap-10 lg:gap-12 items-stretch">
           {/* LEFT SIDE */}
           <div
-            className="relative"
+            className="flex flex-col h-full"
             data-aos="fade-right"
           >
             {/* Label */}
@@ -68,7 +68,7 @@ export default function DeltaFaq() {
             </p>
 
             {/* Image */}
-            <div className="relative mt-5 rounded-[20px] overflow-hidden h-[360px]">
+            <div className="relative mt-5 rounded-[20px] overflow-hidden flex-1 min-h-[200px]">
               <img
                 src="/delta/delta-faq.png"
                 alt="FAQ"

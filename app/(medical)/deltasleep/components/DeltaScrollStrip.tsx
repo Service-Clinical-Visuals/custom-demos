@@ -66,7 +66,7 @@ export default function DeltaScrollStrip() {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <button className="h-[62px] px-10 rounded-[4px] bg-[#00695f] text-white text-[20px] font-semibold tracking-[-0.5px] transition-all duration-300 hover:scale-[1.02] hover:bg-[#00544c]">
+              <button className="cursor-pointer h-[62px] px-10 rounded-[4px] bg-[#00695f] text-white text-[20px] font-semibold tracking-[-0.5px] transition-all duration-300 hover:scale-[1.02] hover:bg-[#00544c]">
                 Learn More About Company
               </button>
             </div>

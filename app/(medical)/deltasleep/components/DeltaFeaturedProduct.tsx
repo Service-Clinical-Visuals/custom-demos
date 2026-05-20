@@ -12,7 +12,7 @@ export default function DeltaFeaturedProduct() {
 
       <div className="max-w-[1600px] mx-auto px-6 lg:px-10">
         {/* Main Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-[620px_1fr] gap-8 lg:gap-10 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[620px_1fr] gap-8 lg:gap-10 items-stretch">
           {/* LEFT CONTENT */}
           <div
             className="relative z-10"
@@ -71,7 +71,7 @@ export default function DeltaFeaturedProduct() {
 
           {/* RIGHT VISUAL */}
           <div
-            className="relative rounded-[20px] overflow-hidden h-auto"
+            className="relative rounded-[20px] overflow-hidden h-full"
             data-aos="fade-left"
           >
             <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
