@@ -39,7 +39,7 @@ export default function Divisions() {
             <p className="text-[14px] text-gray-600 mb-4">
               The divisions that form part of Bexen
             </p>
-            <BexenButton size="sm">
+            <BexenButton>
               Discover Our Story
             </BexenButton>
           </div>

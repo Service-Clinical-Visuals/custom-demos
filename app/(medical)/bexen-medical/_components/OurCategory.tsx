@@ -72,7 +72,7 @@ export default function OurCategory() {
                       />
                     </div>
                     <div className="flex items-start justify-between gap-4">
-                      <h3 className="text-[18px] font-semibold text-[#14387F] whitespace-pre-line group-hover:text-[#0ea5e9] transition-colors">{cat.name}</h3>
+                      <h3 className="text-[24px] font-semibold text-[#14387F] whitespace-pre-line group-hover:text-[#0ea5e9] transition-colors">{cat.name}</h3>
                       <div className="w-7 h-7 rounded-full bg-[#14387F] text-white flex items-center justify-center shrink-0 group-hover:bg-[#0ea5e9] transition-colors">
                         <ArrowRight size={14} />
                       </div>

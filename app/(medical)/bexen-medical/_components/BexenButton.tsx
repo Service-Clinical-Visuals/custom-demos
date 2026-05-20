@@ -19,19 +19,19 @@ export default function BexenButton({
 }: BexenButtonProps) {
   const baseClass = "btn-bexen";
   const variantClass = variant === "primary" ? "btn-bexen-primary" : "btn-bexen-secondary";
-  
+
   let sizeClass = "text-[14px]";
   let arrowSize = 14;
-  
+
   if (size === "sm") {
     sizeClass = "text-[13px] py-1.5 pl-5 pr-9";
     arrowSize = 12;
   } else if (size === "lg") {
-    sizeClass = "text-[15px] py-2.5 pl-7 pr-12";
+    sizeClass = "text-[16px] py-3 pl-7 pr-12";
     arrowSize = 16;
   } else {
     // md size (default)
-    sizeClass = "text-[14px] py-2 pl-6 pr-11";
+    sizeClass = "text-[16px] py-3 pl-6 pr-11";
   }
 
   return (

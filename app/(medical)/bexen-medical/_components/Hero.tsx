@@ -23,7 +23,7 @@ export default function Hero() {
             <h1
               data-aos="fade-up"
               data-aos-delay="100"
-              className="text-white text-[32px] md:text-[42px] lg:text-[48px] font-semibold leading-[1.2] tracking-tight mb-8"
+              className="text-white text-[32px] md:text-[38px] lg:text-[38px] font-semibold leading-[1.2] tracking-tight mb-8"
             >
               We generate comprehensive<br />
               solutions for the health sector
