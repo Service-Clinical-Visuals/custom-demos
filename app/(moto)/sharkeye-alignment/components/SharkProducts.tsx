@@ -67,9 +67,20 @@ const tabs = [
   { label: "4X4 2 & 4", category: "Four" },
 ];
 
+const PAGE_SIZE = 3;
+
 export default function SharkProducts() {
   const [activeTab, setActiveTab] = useState("Car");
+  const [page, setPage] = useState(0);
+
   const filtered = products.filter((p) => p.category === activeTab);
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const visible = filtered.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
+
+  function switchTab(category: string) {
+    setActiveTab(category);
+    setPage(0);
+  }
 
   return (
     <section className="w-full bg-[#f3f3f3] py-24 overflow-hidden">
@@ -92,8 +103,8 @@ export default function SharkProducts() {
             {tabs.map((tab) => (
               <button
                 key={tab.category}
-                onClick={() => setActiveTab(tab.category)}
-                className={`h-[58px] px-10 font-bold text-[16px] transition-colors duration-200 ${
+                onClick={() => switchTab(tab.category)}
+                className={` cursor-pointer h-14.5 px-10 font-bold text-[16px] transition-colors duration-200 ${
                   activeTab === tab.category
                     ? "bg-[#f0df32] text-black"
                     : "bg-transparent text-[#232323]"
@@ -108,18 +119,26 @@ export default function SharkProducts() {
         {/* PRODUCT AREA */}
         <div className="relative">
           {/* LEFT ARROW */}
-          <button className="cursor-pointer absolute left-[-26px] top-[40%] -translate-y-1/2 z-20 w-[54px] h-[54px] rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300">
+          <button
+            onClick={() => setPage((p) => p - 1)}
+            disabled={page === 0}
+            className="cursor-pointer absolute -left-6.5 top-[40%] -translate-y-1/2 z-20 w-13.5 h-13.5 rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
+          >
             <ChevronLeft size={24} strokeWidth={2.2} />
           </button>
 
           {/* RIGHT ARROW */}
-          <button className="cursor-pointer absolute right-[-26px] top-[40%] -translate-y-1/2 z-20 w-[54px] h-[54px] rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300">
+          <button
+            onClick={() => setPage((p) => p + 1)}
+            disabled={page >= totalPages - 1}
+            className="cursor-pointer absolute -right-6.5 top-[40%] -translate-y-1/2 z-20 w-13.5 h-13.5 rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
+          >
             <ChevronRight size={24} strokeWidth={2.2} />
           </button>
 
           {/* CARDS */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            {filtered.map((item, index) => (
+            {visible.map((item, index) => (
               <div
                 key={item.title}
                 data-aos="fade-up"
@@ -127,7 +146,7 @@ export default function SharkProducts() {
                 className="group bg-[#efefef] border border-black/5 shadow-[0_6px_18px_rgba(0,0,0,0.12)] hover:-translate-y-2 transition-all duration-500"
               >
                 {/* IMAGE AREA */}
-                <div className="relative h-[390px] bg-[#ececec] overflow-hidden">
+                <div className="relative h-97.5 bg-[#ececec] overflow-hidden">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -156,7 +175,7 @@ export default function SharkProducts() {
           {/* DESCRIPTION */}
           <p
             data-aos="fade-right"
-            className="max-w-[700px] text-[16px] leading-[2] text-[#6c6c6c] font-medium"
+            className="max-w-175 text-[16px] leading-loose text-[#6c6c6c] font-medium"
           >
             We understand the importance of staying up-to-date with the latest
             trends and technologies. That's why we are continually investing in
@@ -167,12 +186,12 @@ export default function SharkProducts() {
           {/* BUTTON */}
           <button
             data-aos="fade-left"
-            className="cursor-pointer relative h-[54px] px-10 bg-[#f0df32] text-black font-bold text-[16px] tracking-wide hover:translate-x-1 transition-all duration-300"
+            className="cursor-pointer relative h-13.5 px-10 bg-[#f0df32] text-black font-bold text-[16px] tracking-wide hover:translate-x-1 transition-all duration-300"
           >
             View All Products
 
             {/* ANGLED EDGE */}
-            <span className="absolute top-0 right-[-18px] border-t-[27px] border-b-[27px] border-l-[18px] border-t-transparent border-b-transparent border-l-[#f0df32]" />
+            <span className="absolute top-0 -right-4.5 border-t-27 border-b-27 border-l-18 border-t-transparent border-b-transparent border-l-[#f0df32]" />
           </button>
         </div>
       </div>
