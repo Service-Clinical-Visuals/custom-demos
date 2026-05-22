@@ -24,17 +24,17 @@ export default function SharkChoose() {
 
   return (
     <section className="w-full bg-[#f5f5f5] py-24 overflow-hidden">
-      <div className="max-w-full mx-auto px-6 lg:px-14">
+      <div className="max-w-380 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.05fr] gap-12 items-start">
           {/* LEFT CONTENT */}
           <div data-aos="fade-right">
             {/* TITLE */}
-            <h2 className="text-[48px] leading-none tracking-[-1.5px] font-medium text-[#242424]">
+            <h2 className="text-4xl leading-none tracking-[-1.5px] font-medium text-[#242424]">
               Why Choose the Sharkeye?
             </h2>
 
             {/* DESCRIPTION */}
-            <p className="mt-8 text-[17px] leading-[2] text-[#727272] font-medium max-w-[620px]">
+            <p className="mt-8 text-[16px] leading-[2] text-[#727272] font-medium">
               Versatile mobile car 4 wheel laser aligner for professional
               garages. This sturdy mobile trolley allows for practical storage
               of aligners and accessories with the added bonus of being able to
@@ -63,9 +63,9 @@ export default function SharkChoose() {
 
                   {/* TEXT */}
                   <div className="">
-                    <h3 className="text-[22px] leading-[1.4] font-sans tracking-[-0.5px] text-[#1f1f1f]">
+                    <h3 className="font-sans text-[22px] leading-[1.4] tracking-[-0.5px] text-[#1f1f1f]">
                       {feature.title}
-                      <span className=" text-[#7a7a7a] font-sans">
+                      <span className="font-sans text-[#7a7a7a]">
                         {" "}
                         — {feature.description}
                       </span>
@@ -83,7 +83,7 @@ export default function SharkChoose() {
                 data-aos-delay="100"
                 className="h-[150px] bg-white border border-black/5 shadow-[0_8px_24px_rgba(0,0,0,0.08)] flex items-center justify-center px-8 text-center"
               >
-                <h4 className="text-[28px] leading-[1.25]  tracking-[-0.8px] text-[#1f1f1f]">
+                <h4 className="text-xl leading-[1.25]  tracking-[-0.8px] text-[#1f1f1f]">
                   Handmade in Sheffield, Yorkshire, England
                 </h4>
               </div>
@@ -94,7 +94,7 @@ export default function SharkChoose() {
                 data-aos-delay="220"
                 className="h-[150px] bg-white border border-black/5 shadow-[0_8px_24px_rgba(0,0,0,0.08)] flex items-center justify-center px-8 text-center"
               >
-                <h4 className="text-[28px] leading-[1.25]  tracking-[-0.8px] text-[#1f1f1f]">
+                <h4 className="text-xl leading-[1.25]  tracking-[-0.8px] text-[#1f1f1f]">
                   25,000 Units Sold Worldwide Without Issue
                 </h4>
               </div>
@@ -102,7 +102,7 @@ export default function SharkChoose() {
 
             {/* BUTTON */}
             <div data-aos="fade-up" data-aos-delay="300">
-              <button className="cursor-pointer relative mt-14 h-[56px] px-12 bg-[#f0df32] text-black font-black text-[15px] tracking-wide hover:translate-x-1 transition-all duration-300">
+              <button className="cursor-pointer relative mt-14 h-[56px] px-12 bg-[#f0df32] text-black font-black text-[16px] tracking-wide hover:translate-x-1 transition-all duration-300">
                 View Product
 
                 {/* ANGLED EDGE */}

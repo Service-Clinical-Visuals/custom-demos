@@ -17,13 +17,13 @@ export default function SharkDistributor() {
       </div>
 
       {/* MAIN CONTENT */}
-      <div className="max-w-full mx-auto px-6 lg:px-14 py-24">
+      <div className="max-w-380 mx-auto  py-24">
         {/* TITLE */}
         <div
           data-aos="fade-up"
           className="text-center"
         >
-          <h2 className="text-[46px] leading-none tracking-[-1px] font-black text-[#1f1f1f]">
+          <h2 className="text-4xl leading-none tracking-[-1px] text-[#1f1f1f]">
             Trusted Products in Countries Worldwide
           </h2>
         </div>

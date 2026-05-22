@@ -15,11 +15,11 @@ export default function SharkRoller() {
           data-aos="fade-up"
           className="max-w-[860px] mx-auto text-center"
         >
-          <h2 className="text-[46px] leading-none tracking-[-1.5px] font-black text-[#242424]">
+          <h2 className="text-4xl leading-none tracking-[-1.5px] text-[#242424]">
             SharkEye Roller Car 4 Wheel Laser Aligner
           </h2>
 
-          <p className="mt-7 text-[17px] leading-[2] text-[#727272] font-medium font-body">
+          <p className="mt-7 text-[16px] leading-[2] text-[#727272] font-medium font-body">
             Versatile mobile car 4 wheel laser aligner for professional garages.
             This sturdy mobile trolley allows for practical storage of aligners
             and accessories with the added bonus of being able to roll it into,

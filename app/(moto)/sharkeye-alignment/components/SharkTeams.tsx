@@ -32,13 +32,13 @@ export default function SharkTeams() {
 
   return (
     <section className="w-full bg-[#ffff] py-24 overflow-hidden">
-      <div className="max-w-full mx-auto px-6 lg:px-14">
+      <div className="max-w-380 mx-auto">
         {/* SECTION TITLE */}
         <div
           data-aos="fade-up"
           className="text-center"
         >
-          <h2 className="text-[48px] leading-none tracking-[-1.5px]  text-[#1f1f1f]">
+          <h2 className="text-4xl leading-none tracking-[-1.5px]  text-[#1f1f1f]">
             Sharkeye UK Team
           </h2>
         </div>

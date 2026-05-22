@@ -28,17 +28,17 @@ export default function SharkWhyChoose() {
 
   return (
     <section className="w-full bg-[#f5f5f5] py-28 overflow-hidden">
-      <div className="max-w-full mx-auto px-6 lg:px-14">
+      <div className="max-w-380 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-16 items-center">
           {/* LEFT CONTENT */}
           <div data-aos="fade-right">
             {/* TITLE */}
-            <h2 className="text-[48px] leading-none tracking-[-1.5px]  text-[#242424]">
+            <h2 className="text-4xl leading-none tracking-[-1.5px]  text-[#242424]">
               Why Choose the Roller?
             </h2>
 
             {/* DESCRIPTION */}
-            <p className="mt-8 text-[17px] leading-[2] text-[#727272] font-medium max-w-[520px]">
+            <p className="mt-8 text-[16px] leading-[2] text-[#727272] font-medium">
               Whether you're running a garage, working on the go, or
               setting up at home, the Roller makes professional wheel
               alignment easy and profitable.

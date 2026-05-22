@@ -54,19 +54,19 @@ export default function SharkAllProducts() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-full mx-auto px-6 lg:px-14">
+      <div className="relative z-10 max-w-380 mx-auto ">
         {/* HEADER */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
           {/* TITLE */}
           <div data-aos="fade-right">
-            <h2 className="text-[44px] leading-none tracking-[-1px] font-medium text-white">
+            <h2 className="text-4xl leading-none tracking-[-1px] font-medium text-white">
               Truck Single & Twin Steer Laser Aligners
             </h2>
           </div>
 
           {/* BUTTON */}
           <div data-aos="fade-left">
-            <button className="relative h-[56px] px-12 bg-[#f0df32] text-black font-black text-[15px] tracking-wide hover:translate-x-1 transition-all duration-300">
+            <button className="cursor-pointer font-black relative h-[56px] px-12 bg-[#f0df32] text-black text-[16px] tracking-wide hover:translate-x-1 transition-all duration-300">
               View All Product
 
               {/* ANGLED EDGE */}

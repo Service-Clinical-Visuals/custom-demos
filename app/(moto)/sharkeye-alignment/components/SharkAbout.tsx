@@ -11,7 +11,7 @@ export default function SharkAbout() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* LEFT CONTENT */}
           <div data-aos="fade-right" className="pt-2">
-            <h2 className="text-[42px] leading-none font-black text-[#242424] tracking-[-1px]">
+            <h2 className="text-4xl leading-none  text-[#242424] tracking-[-1px]">
               About Us
             </h2>
 
@@ -40,7 +40,7 @@ export default function SharkAbout() {
             </div>
 
             {/* BUTTON */}
-            <button className="cursor-pointer group relative mt-10 h-[52px] px-9 bg-[#f0df32] text-black font-bold text-[14px] tracking-wide transition-all duration-300 hover:translate-x-1">
+            <button className="cursor-pointer group relative mt-10 h-[52px] px-9 bg-[#f0df32] text-black font-bold text-[16px] tracking-wide transition-all duration-300 hover:translate-x-1">
               Explore Products
 
               {/* ANGLED EDGE */}
@@ -63,7 +63,7 @@ export default function SharkAbout() {
         <div className="w-full h-[1px] bg-[#d9d9d9] my-20" />
 
         {/* BOTTOM SECTION */}
-        <div className="grid grid-cols-1 lg:grid-cols-[0.7fr_1fr] gap-16 items-center ">
+        <div className="max-w-380 mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-16 items-center ">
           {/* LEFT BANNER */}
           <div
             data-aos="fade-up"
@@ -75,7 +75,7 @@ export default function SharkAbout() {
 
           {/* RIGHT CONTENT */}
           <div data-aos="fade-left">
-            <p className="text-[16px] leading-[2] text-[#707070] font-medium max-w-[520px]">
+            <p className="text-[16px] leading-[2] text-[#707070] font-medium ">
               We understand the importance of staying up-to-date with the latest
               trends and technologies. That's why we are continually investing
               in research and development to ensure our products remain the very
@@ -83,7 +83,7 @@ export default function SharkAbout() {
             </p>
 
             {/* BUTTON */}
-            <button className="cursor-pointer group relative mt-10 h-[52px] px-10 bg-[#f0df32] text-black font-bold text-[14px] tracking-wide transition-all duration-300 hover:translate-x-1">
+            <button className="cursor-pointer group relative mt-10 h-[52px] px-10 bg-[#f0df32] text-black font-bold text-[16px] tracking-wide transition-all duration-300 hover:translate-x-1">
               Get in touch
 
               <span className="absolute top-0 right-[-18px] border-t-[26px] border-b-[26px] border-l-[18px] border-t-transparent border-b-transparent border-l-[#f0df32]" />

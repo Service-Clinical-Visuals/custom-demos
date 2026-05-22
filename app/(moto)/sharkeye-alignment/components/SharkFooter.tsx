@@ -36,7 +36,7 @@ export default function SharkFooter() {
     <footer className="relative overflow-hidden bg-[#f5f5f5]">
       {/* TOP BRAND BAR */}
       <div className="w-full border-b border-black/5 bg-[#F5F5F5]">
-        <div className="max-w-full mx-auto px-6 lg:px-14 py-14">
+        <div className="max-w-380 mx-auto py-14">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             {/* LEFT LOGO */}
             <div
@@ -104,11 +104,11 @@ export default function SharkFooter() {
         </div>
 
         {/* CONTENT */}
-        <div className="relative z-10 max-w-full mx-auto px-6 lg:px-14 py-16">
+        <div className="relative z-10 max-w-380 mx-auto py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-14">
             {/* NEWSLETTER */}
             <div data-aos="fade-up">
-              <h3 className="text-[36px] leading-none tracking-[-1px] font-black text-white">
+              <h3 className="text-2xl leading-none tracking-[-1px]  text-white">
                 Subscribe to our Newsletter
               </h3>
 
@@ -135,7 +135,7 @@ export default function SharkFooter() {
                   (Icon, index) => (
                     <button
                       key={index}
-                      className="w-[42px] h-[42px] bg-white flex items-center justify-center hover:-translate-y-1 transition-all duration-300"
+                      className="cursor-pointer w-[42px] h-[42px] bg-white flex items-center justify-center hover:-translate-y-1 transition-all duration-300"
                     >
                       <Icon
                         size={20}
@@ -153,7 +153,7 @@ export default function SharkFooter() {
               data-aos="fade-up"
               data-aos-delay="120"
             >
-              <h3 className="text-[34px] leading-none tracking-[-1px] font-black text-white">
+              <h3 className="text-2xl leading-none tracking-[-1px]  text-white">
                 My Accounts
               </h3>
 
@@ -174,7 +174,7 @@ export default function SharkFooter() {
               data-aos="fade-up"
               data-aos-delay="240"
             >
-              <h3 className="text-[34px] leading-none tracking-[-1px] font-black text-white">
+              <h3 className="text-2xl leading-none tracking-[-1px] text-white">
                 Company
               </h3>
 
@@ -195,7 +195,7 @@ export default function SharkFooter() {
               data-aos="fade-up"
               data-aos-delay="360"
             >
-              <h3 className="text-[34px] leading-none tracking-[-1px] font-black text-white">
+              <h3 className="text-2xl leading-none tracking-[-1px] text-white">
                 Product Support & Warranty
               </h3>
 

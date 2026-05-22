@@ -22,13 +22,13 @@ export default function SharkNavbar() {
 
   return (
     <header
-      className={`fixed top-[34px] left-0 z-50 w-full bg-[#f3f3f3] transition-all duration-700 ${
+      className={`fixed top-[34px] left-0 z-50 w-full bg-[#ffff] transition-all duration-700 ${
         visible
           ? "translate-y-0 opacity-100"
           : "-translate-y-full opacity-0"
       }`}
     >
-      <nav className="h-[68px]  max-w-380 mx-auto border-b border-black/5 flex items-center justify-between shadow-sm">
+      <nav className="h-[78px] max-w-380 mx-auto border-b border-black/5 flex items-center justify-between">
         {/* LEFT */}
         <div className="flex items-center gap-12">
           {/* LOGO */}
@@ -38,7 +38,7 @@ export default function SharkNavbar() {
 
           {/* MENU */}
           <ul className="hidden lg:flex items-center gap-8 text-[16px] text-[#444] font-medium font-body">
-            <li className="text-black">Home</li>
+            <li className="text-black font-semibold">Home</li>
 
             <li className="flex items-center gap-1 cursor-pointer">
               Wheel Aligners
@@ -62,12 +62,12 @@ export default function SharkNavbar() {
         {/* RIGHT */}
         <div className="flex items-center gap-5">
           <ShoppingBag
-            size={18}
-            className="text-neutral-500 hidden md:block"
+            size={24}
+            className="text-neutral-500 hidden md:block cursor-pointer"
             strokeWidth={1.7}
           />
 
-          <button className="cursor-pointer bg-[#1d1719] hover:bg-black transition-all duration-300 text-white h-[40px] px-8 text-[12px] font-semibold">
+          <button className="cursor-pointer bg-[#1d1719] hover:bg-black transition-all duration-300 text-white h-[40px] px-8 text-[16px] font-semibold">
             Contact Us
           </button>
         </div>
