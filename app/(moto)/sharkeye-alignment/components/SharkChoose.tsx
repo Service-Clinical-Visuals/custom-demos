@@ -114,64 +114,9 @@ export default function SharkChoose() {
           {/* RIGHT IMAGE AREA */}
           <div
             data-aos="fade-left"
-            className="relative bg-[#efefef] min-h-[760px] overflow-hidden"
+            className="relative min-h-[760px] overflow-hidden"
           >
-            {/* LOGO */}
-            <div className="absolute top-8 left-8 z-20">
-              <div className="bg-black text-[#f0df32] px-5 py-2 rounded-full text-[34px] font-black tracking-tight shadow-lg">
-                ROLLER
-              </div>
-            </div>
-
-            {/* MACHINE MOCKUP */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="relative scale-[1.1]">
-                {/* MAIN BODY */}
-                <div className="relative w-[170px] h-[420px] bg-[#1f2937] shadow-[0_30px_60px_rgba(0,0,0,0.35)]">
-                  {/* TOP ARM */}
-                  <div className="absolute top-[120px] left-[-95px] w-[340px] h-[18px] bg-[#ff4b2b]" />
-
-                  {/* BOTTOM ARM */}
-                  <div className="absolute bottom-[85px] left-[-100px] w-[350px] h-[20px] bg-[#ff4b2b]" />
-
-                  {/* CENTER PANELS */}
-                  <div className="absolute left-1/2 -translate-x-1/2 top-[40px] w-[55px] h-[150px] bg-black border border-yellow-400" />
-
-                  <div className="absolute left-1/2 -translate-x-1/2 bottom-[80px] w-[55px] h-[120px] bg-black border border-yellow-400" />
-
-                  {/* RED SUPPORT */}
-                  <div className="absolute left-[-12px] top-[70px] w-[10px] h-[380px] bg-[#ff4b2b]" />
-
-                  {/* BASE */}
-                  <div className="absolute bottom-[-42px] left-[-40px] w-[250px] h-[42px] bg-[#ff4b2b]" />
-
-                  {/* SMALL DETAILS */}
-                  <div className="absolute left-[-55px] top-[160px] w-[55px] h-[14px] bg-[#ff4b2b]" />
-
-                  <div className="absolute right-[-55px] top-[160px] w-[55px] h-[14px] bg-[#ff4b2b]" />
-                </div>
-
-                {/* WHEELS */}
-                <div className="absolute bottom-[-58px] left-[-20px] w-[24px] h-[24px] rounded-full bg-neutral-400 shadow-md" />
-                <div className="absolute bottom-[-58px] right-[-20px] w-[24px] h-[24px] rounded-full bg-neutral-400 shadow-md" />
-
-                {/* SIDE CONTROL PANEL */}
-                <div className="absolute right-[-110px] bottom-[-10px] w-[46px] h-[220px] bg-[#181818] rounded-md shadow-xl">
-                  <div className="absolute inset-x-0 top-3 flex flex-col items-center gap-4">
-                    <div className="w-7 h-7 rounded bg-yellow-400" />
-                    <div className="w-7 h-7 rounded bg-yellow-400" />
-                    <div className="text-[#f0df32] text-[40px] font-black leading-none">
-                      3
-                    </div>
-                    <div className="w-8 h-8 rounded-full bg-red-500" />
-                    <div className="w-8 h-8 rounded-full bg-blue-500" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* LIGHT OVERLAY */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-black/[0.04]" />
+            <img src="/moto/shark/shark-choose.png" alt="choose" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>

@@ -4,7 +4,28 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const products = [1, 2, 3];
+const products = [
+  {
+    title: "Truck Single & Twin Steer Laser Aligners",
+    amount: "₹254,326.80",
+    image: "/moto/shark/shark-truck-1.png",
+  },
+  {
+    title: "SharkEye Zubra TWIN STEER Laser truck wheel alignment tool - HGTSLA",
+    amount: "₹373,755.20",
+    image: "/moto/shark/shark-truck-2.png",
+  },
+  {
+    title : "SharkEye Rhino Laser 2 Wheel Alignment Gauges for HGV, PSV & LCV - HG02WLA",
+    amount : "₹129,948.00",
+    image : "/moto/shark/shark-truck-3.png",
+  },
+  {
+    title : "SharkEye Ceros Laser wheel alignment tool - HGSS2WLA",
+    amount : "₹179,452.00",
+    image : "/moto/shark/shark-truck-4.png",
+  }
+];
 
 export default function SharkAllProducts() {
   useEffect(() => {
@@ -28,7 +49,7 @@ export default function SharkAllProducts() {
               />
             ))}
           </div>
-        </div>
+        </div> 
 
         {/* DOT PATTERN */}
         <div className="absolute top-[90px] right-[30px] grid grid-cols-5 gap-8 opacity-40">
@@ -72,65 +93,29 @@ export default function SharkAllProducts() {
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
           {products.map((item, index) => (
             <div
-              key={item}
+              key={item.title}
               data-aos="fade-up"
               data-aos-delay={index * 150}
               className="group bg-[#efefef] border border-black/5 shadow-[0_12px_30px_rgba(0,0,0,0.35)] hover:-translate-y-2 transition-all duration-500"
             >
               {/* IMAGE AREA */}
               <div className="relative h-97.5 bg-[#ededed] overflow-hidden">
-                {/* LOGO */}
-                <div className="absolute top-7 left-7 z-10">
-                  <div className="bg-black text-[#f0df32] text-[18px] font-black px-4 py-1 rounded-full tracking-tight">
-                    BIGEYE
-                  </div>
-                </div>
-
-                {/* MACHINE MOCKUP */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="relative scale-[1.02]">
-                    {/* MAIN MACHINE */}
-                    <div className="relative w-30 h-57.5 bg-[#1f2937] shadow-2xl">
-                      {/* TOP ORANGE BAR */}
-                      <div className="absolute -top-4 -left-12 w-53.75 h-4 bg-[#ff5a2f]" />
-
-                      {/* LOWER BAR */}
-                      <div className="absolute bottom-10.5 -left-14.5 w-58.75 h-4.5 bg-[#ff5a2f]" />
-
-                      {/* CENTER COLUMN */}
-                      <div className="absolute left-1/2 -translate-x-1/2 top-4.5 w-10.5 h-43.75 bg-[#ff5a2f] shadow-[0_0_30px_rgba(255,90,47,0.4)]" />
-
-                      {/* SCREEN */}
-                      <div className="absolute -left-13.75 top-19.5 w-10.5 h-3.5 bg-black border border-yellow-400" />
-
-                      {/* WHEELS */}
-                      <div className="absolute -bottom-3 left-2.5 w-3.5 h-3.5 rounded-full bg-neutral-600" />
-                      <div className="absolute -bottom-3 right-2.5 w-3.5 h-3.5 rounded-full bg-neutral-600" />
-                    </div>
-
-                    {/* SIDE CONTROL PANEL */}
-                    <div className="absolute -right-17 bottom-0 w-7.5 h-31.25 bg-[#232323] rounded-sm">
-                      <div className="absolute inset-x-0 top-2 flex flex-col items-center gap-2">
-                        <div className="w-4 h-4 rounded-full bg-yellow-400" />
-                        <div className="w-4 h-4 rounded-full bg-yellow-400" />
-                        <div className="w-4 h-4 rounded-full bg-red-500" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* LIGHT OVERLAY */}
-                <div className="absolute inset-0 bg-linear-to-br from-white/25 via-transparent to-black/3" />
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full bg-cover object-contain group-hover:scale-105 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-black/20" />
               </div>
 
               {/* CONTENT */}
               <div className="px-6 py-7">
                 <h3 className="text-[20px] leading-[1.35] font-black tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
-                  SharkEye BigEye 4 Wheel Laser Aligner - BE4WLA
+                  {item.title}
                 </h3>
 
                 <p className="mt-5 text-[20px] font-black text-[#8a8a8a]">
-                  ₹31,875.20
+                  {item.amount}
                 </p>
               </div>
             </div>
