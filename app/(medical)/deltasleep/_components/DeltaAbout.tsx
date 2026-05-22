@@ -40,13 +40,13 @@ export default function DeltaAbout() {
           <div className="flex items-center justify-center gap-2 mb-6">
             <span className="w-[7px] h-[7px] rounded-full bg-[#00695f]" />
 
-            <p className="text-[16px] font-medium text-[#8a8a8a] tracking-[-0.2px]">
+            <p className="text-[16px] font-medium text-[#8a8a8a]">
               About Us
             </p>
           </div>
 
           {/* Main Title */}
-          <h2 className="text-[#222222] font-semibold tracking-[-2.8px] leading-[1.5] text-[38px] sm:text-[52px] lg:text-4xl">
+          <h2 className="text-[#222222] font-semibold leading-[1.5] text-[38px] sm:text-[52px] lg:text-4xl">
             DeltaSleep Diagnostics & Therapy Inc. is a Canadian leader in
             respiratory innovation, specializing in the engineering and
             manufacture of advanced CPAP, APAP, and BiPAP systems.
@@ -72,7 +72,7 @@ export default function DeltaAbout() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-[#2a2a2a] text-2xl  font-semibold tracking-[-1.5px] leading-none">
+                <h3 className="text-[#2a2a2a] text-2xl  font-semibold leading-none">
                   {card.title}
                 </h3>
 

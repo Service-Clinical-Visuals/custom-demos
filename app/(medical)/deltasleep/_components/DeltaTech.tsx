@@ -42,11 +42,11 @@ export default function DeltaTech() {
         <div className="text-center max-w-[900px] mx-auto" data-aos="fade-up">
           <div className="flex items-center justify-center gap-2 mb-5">
             <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
-            <p className="text-[16px] font-medium text-[#8c8c8c] tracking-[-0.2px]">
+            <p className="text-[16px] font-medium text-[#8c8c8c]  ">
               Next-Gen Solutions
             </p>
           </div>
-          <h2 className="text-[#232323] text-4xl font-semibold leading-[1.08] tracking-[-2.6px]">
+          <h2 className="text-[#232323] text-4xl font-semibold leading-[1.08]">
             Next-Generation Sleep Therapy System
           </h2>
         </div>
@@ -60,7 +60,7 @@ export default function DeltaTech() {
               data-aos="fade-right"
               className="bg-[#d3e1dd] rounded-[18px] p-8 min-h-[290px] flex flex-col justify-between"
             >
-              <h3 className="text-[#00695f] text-[24px] font-semibold tracking-[-2px] leading-none">
+              <h3 className="text-[#00695f] text-[24px] font-semibold   leading-none">
                 ≤26.0db
               </h3>
               <p className="text-[#303030] text-[16px] leading-[1.85] max-w-[290px]">
@@ -76,7 +76,7 @@ export default function DeltaTech() {
               data-aos-delay="120"
               className="bg-[#006f67] rounded-[18px] p-8 min-h-[220px] text-white flex flex-col justify-between"
             >
-              <h3 className="text-[24px] font-semibold tracking-[-2px] leading-none">
+              <h3 className="text-[24px] font-semibold   leading-none">
                 1.65kg
               </h3>
               <p className="text-[16px] leading-[1.9] text-white/95 max-w-[300px]">
@@ -94,7 +94,7 @@ export default function DeltaTech() {
               data-aos="zoom-in"
               className="bg-[#006f67] rounded-[20px] px-10 pt-10 relative overflow-hidden flex flex-col min-h-[540px]"
             >
-              <h3 className="text-white text-center text-3xl font-semibold tracking-[-2.8px] leading-[1.08]">
+              <h3 className="text-white text-center text-3xl font-semibold leading-[1.08]">
                 NOTTE Series Technical Performance Overview
               </h3>
 
@@ -114,7 +114,7 @@ export default function DeltaTech() {
               data-aos="fade-left"
               className="bg-[#d3e1dd] rounded-[18px] p-8 flex flex-col justify-between min-h-[540px]"
             >
-              <h3 className="text-[#232323] text-[28px] font-semibold tracking-[-2px] leading-[1.05]">
+              <h3 className="text-[#232323] text-[28px] font-semibold   leading-[1.05]">
                 Adaptive Airway Algorithms.
               </h3>
 
@@ -125,7 +125,7 @@ export default function DeltaTech() {
                   { stat: "EPR™", desc: "Exhale Pressure Relief drops pressure during exhalation for a natural breathing feel." },
                 ].map(({ stat, desc }) => (
                   <div key={stat} className="border-t border-[#b5cec8] pt-5">
-                    <p className="text-[#00695f] text-[15px] font-semibold tracking-[-0.3px]">{stat}</p>
+                    <p className="text-[#00695f] text-[15px] font-semibold">{stat}</p>
                     <p className="mt-1 text-[#3d3d3d] text-[14px] leading-[1.75]">{desc}</p>
                   </div>
                 ))}
@@ -152,7 +152,7 @@ export default function DeltaTech() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
             <div className="absolute bottom-5 left-5">
-              <p className="text-white text-[18px] font-medium tracking-[-0.4px]">
+              <p className="text-white text-[18px] font-medium">
                 Engineered for comfort.
               </p>
             </div>
@@ -182,7 +182,7 @@ export default function DeltaTech() {
                 key={index}
                 className="flex-shrink-0 bg-[#006f67] h-[58px] rounded-[6px] flex items-center justify-center px-7 min-w-[200px]"
               >
-                <p className="text-white text-[14px] lg:text-[15px] font-semibold tracking-[-0.2px] leading-snug whitespace-nowrap">
+                <p className="text-white text-[14px] lg:text-[15px] font-semibold   leading-snug whitespace-nowrap">
                   {item}
                 </p>
               </div>

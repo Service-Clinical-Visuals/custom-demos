@@ -22,19 +22,19 @@ export default function DeltaFeaturedProduct() {
             <div className="flex items-center gap-2 mb-3">
               <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
 
-              <p className="text-[16px] font-medium text-[#8d8d8d] tracking-[-0.3px]">
+              <p className="text-[16px] font-medium text-[#8d8d8d]">
                 Full Face Mask F1
               </p>
-            </div>   
+            </div>
 
             {/* Heading */}
-            <h2 className="text-[#111111] text-4xl leading-[1.04] tracking-[-2.5px] font-semibold">
+            <h2 className="text-[#111111] text-4xl leading-[1.04] font-semibold">
               Our Featured Product
             </h2>
 
             {/* Description */}
             <div className="mt-4 space-y-4">
-              <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95] tracking-[-0.1px]">
+              <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95]">
                 Full Face Mask F1 is thoughtfully engineered to deliver a
                 softer, quieter, and more comfortable sleep therapy experience.
                 Its lightweight elastic silicone cushion gently adapts to facial
@@ -45,7 +45,7 @@ export default function DeltaFeaturedProduct() {
                 television before sleep without feeling restricted.
               </p>
 
-              <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95] tracking-[-0.1px]">
+              <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95]">
                 Built for convenience and peaceful performance, the F1 features
                 advanced quiet air dispersion technology that minimizes airflow
                 disturbance and creates a calmer sleeping environment for both
@@ -63,7 +63,7 @@ export default function DeltaFeaturedProduct() {
 
             {/* CTA */}
             <div className="mt-4">
-              <button className="h-[52px] px-7 rounded-[4px] bg-[#00695f] text-white text-[15px] font-medium tracking-[-0.2px] transition-all duration-300 hover:bg-[#00554d] hover:scale-[1.02]">
+              <button className="h-[52px] px-7 rounded-[4px] bg-[#00695f] text-white text-[15px] font-medium   transition-all duration-300 hover:bg-[#00554d] hover:scale-[1.02]">
                 Explore Product
               </button>
             </div>
@@ -75,7 +75,7 @@ export default function DeltaFeaturedProduct() {
             data-aos="fade-left"
           >
             <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
-         </div>
+          </div>
         </div>
       </div>
     </section>

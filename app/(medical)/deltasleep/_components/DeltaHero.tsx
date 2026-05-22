@@ -8,11 +8,11 @@ export default function DeltaHero() {
 
   return (
     <section className=" min-h-screen bg-[#dfe7e3] px-8 pt-5 pb-8">
-      <div className="relative overflow-hidden rounded-[24px] w-full h-[88vh] min-h-[760px]">
+      <div className="relative overflow-hidden rounded-[24px] w-full h-screen">
         {/* Future Video Support */}
         {/* Replace image with video anytime */}
         <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover" />
-    
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-between h-full">
           {/* Top Space */}
@@ -23,11 +23,10 @@ export default function DeltaHero() {
             {/* Left Content */}
             <div
               data-aos="fade-up"
-              className="max-w-[450px]"
+              className="max-w-[550px]"
             >
-              <h1 className="text-white text-5xl leading-[0.95] font-semibold tracking-[-3px]">
+              <h1 className="text-white text-5xl font-semibold">
                 Sleep Therapy.
-                <br />
                 Simplified.
                 Canadian
               </h1>

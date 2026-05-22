@@ -20,7 +20,7 @@ const features = [
   },
   {
     badge: "Proudly Canadian",
-    hoverImg: "/delta/delta-comfort-3.png", 
+    hoverImg: "/delta/delta-comfort-3.png",
     title: "The Origin",
     description:
       "Licensed by Health Canada. Assembled in Ontario. We combined hospital-grade precision with a direct-to-you model that respects your time, your wallet, and your health",
@@ -43,13 +43,13 @@ export default function DeltaComfort() {
           <div className="flex items-center justify-center gap-2 mb-5">
             <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
 
-            <p className="text-[16px] text-[#8a8a8a] font-medium tracking-[-0.3px]">
+            <p className="text-[16px] text-[#8a8a8a] font-medium">
               Comfort solutions
             </p>
           </div>
 
           {/* Heading */}
-          <h2 className="text-[#232323] text-4xl  leading-[1.08] tracking-[-2.5px] font-semibold">
+          <h2 className="text-[#232323] text-4xl  leading-[1.08] font-semibold">
             Your Journey to Restful Nights Begins Here.
           </h2>
         </div>
@@ -70,21 +70,20 @@ export default function DeltaComfort() {
               {features.map((item, index) => (
                 <div
                   key={index}
-                  className={`py-3 border-b border-[#b8c0bc] px-4 rounded-[10px] cursor-pointer transition-colors duration-200 ${
-                    hoveredIndex === index ? "bg-white" : ""
-                  }`}
+                  className={`py-3 border-b border-[#b8c0bc] px-4 rounded-[10px] cursor-pointer transition-colors duration-200 ${hoveredIndex === index ? "bg-white" : ""
+                    }`}
                   onMouseEnter={() => setHoveredIndex(index)}
                   onMouseLeave={() => setHoveredIndex(0)}
                 >
                   {/* Badge */}
                   <div className="inline-flex items-center justify-center px-6 py-2 rounded-[3px] bg-[#00695f]">
-                    <span className="text-white text-[16px] font-medium tracking-[-0.2px]">
+                    <span className="text-white text-[16px] font-medium">
                       {item.badge}
                     </span>
                   </div>
 
                   {/* Title */}
-                  <h3 className="mt-3 text-[#2a2a2a] text-xl font-semibold tracking-[-1.4px] leading-none">
+                  <h3 className="mt-3 text-[#2a2a2a] text-xl font-semibold leading-none">
                     {item.title}
                   </h3>
 

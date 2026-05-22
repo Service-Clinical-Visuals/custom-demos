@@ -76,11 +76,11 @@ export default function DeltaShowcase() {
             <div className="text-center max-w-[760px]" data-aos="fade-up">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <span className="w-[8px] h-[8px] rounded-full bg-white" />
-                <p className="text-white/85 text-[16px] font-medium tracking-[-0.3px]">
+                <p className="text-white/85 text-[16px] font-medium ">
                   Our Product
                 </p>
               </div>
-              <h2 className="text-white text-4xl leading-[1.04] tracking-[-2.6px] font-semibold">
+              <h2 className="text-white text-4xl leading-[1.04] font-semibold">
                 Full Face Mask FM-1
               </h2>
               <p className="mt-3 text-white/90 text-[15px] lg:text-[16px] leading-[1.9] max-w-[700px] mx-auto">
@@ -106,7 +106,7 @@ export default function DeltaShowcase() {
 
             {/* CTA */}
             <div className="mt-10" data-aos="fade-up" data-aos-delay="200">
-              <button className="cursor-pointer h-[52px] px-10 rounded-[6px] bg-white text-[#006d63] text-[15px] font-medium tracking-[-0.2px] transition-all duration-300 hover:scale-[1.03] hover:bg-[#f2f2f2]">
+              <button className="cursor-pointer h-[52px] px-10 rounded-[6px] bg-white text-[#006d63] text-[15px] font-medium   transition-all duration-300 hover:scale-[1.03] hover:bg-[#f2f2f2]">
                 View Product
               </button>
             </div>

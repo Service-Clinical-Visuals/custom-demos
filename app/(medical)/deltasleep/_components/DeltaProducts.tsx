@@ -37,13 +37,13 @@ export default function DeltaProducts() {
           <div className="flex items-center justify-center gap-2 mb-7">
             <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
 
-            <p className="text-[16px] font-medium text-[#8d8d8d] tracking-[-0.3px]">
+            <p className="text-[16px] font-medium text-[#8d8d8d] ">
               Clinical Pedigree
             </p>
           </div>
 
           {/* Heading */}
-          <h2 className="text-[#222222] text-4xl font-semibold leading-[1.5] tracking-[-2.8px]">
+          <h2 className="text-[#222222] text-4xl font-semibold leading-[1.5]">
             DeltaSleep is governed by a management collective with over two
             decades of cross-functional expertise in sleep medicine,
             medical-device manufacturing, and global healthcare operations.
@@ -77,7 +77,7 @@ export default function DeltaProducts() {
 
               {/* Content */}
               <div className="px-6 pb-7">
-                <h3 className="text-white text-[34px] sm:text-[36px] lg:text-[30px] font-semibold tracking-[-1.3px] leading-none">
+                <h3 className="text-white text-[34px] sm:text-[36px] lg:text-[30px] font-semibold   leading-none">
                   {product.title}
                 </h3>
 

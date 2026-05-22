@@ -22,12 +22,13 @@ const faqData = [
   },
   {
     question: "Is the device travel-friendly?",
-    answer:"Yes. The entire system (including the integrated humidifier) weighs just 3.6 lbs (1.65 kg). Its compact footprint ($10.7 \times 5.4 \times 4.3$) fits easily on a hotel nightstand , and the heated tube support ensures comfort even in varying room temperatures."  },
+    answer: "Yes. The entire system (including the integrated humidifier) weighs just 3.6 lbs (1.65 kg). Its compact footprint ($10.7 \times 5.4 \times 4.3$) fits easily on a hotel nightstand , and the heated tube support ensures comfort even in varying room temperatures."
+  },
   {
     question: "Where is the device manufactured?",
     answer:
-    "We are a Canadian manufacturer. Every Notte device is assembled, tested for quality, and packaged right here in Woodbridge, Ontario. This means local support and faster shipping, without waiting."
- },
+      "We are a Canadian manufacturer. Every Notte device is assembled, tested for quality, and packaged right here in Woodbridge, Ontario. This means local support and faster shipping, without waiting."
+  },
 ];
 
 export default function DeltaFaq() {
@@ -51,13 +52,13 @@ export default function DeltaFaq() {
             <div className="flex items-center gap-2 mb-5">
               <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
 
-              <p className="text-[18px] font-medium text-[#8f8f8f] tracking-[-0.3px]">
+              <p className="text-[18px] font-medium text-[#8f8f8f]">
                 FAQ
               </p>
             </div>
 
             {/* Heading */}
-            <h2 className="text-[#1f1f1f] text-4xl font-semibold tracking-[-2px] leading-[1.04]">
+            <h2 className="text-[#1f1f1f] text-4xl font-semibold leading-[1.04]">
               Frequently asked questions.
             </h2>
 
@@ -98,25 +99,23 @@ export default function DeltaFaq() {
                     onClick={() => toggleFAQ(index)}
                     className="w-full px-8 py-8 flex items-center justify-between text-left"
                   >
-                    <span className="text-white text-[18px] font-medium tracking-[-0.4px]">
+                    <span className="text-white text-[18px] font-medium">
                       {faq.question}
                     </span>
 
                     <ChevronDown
-                      className={`text-white transition-transform duration-500 ${
-                        isActive ? "rotate-180" : ""
-                      }`}
+                      className={`text-white transition-transform duration-500 ${isActive ? "rotate-180" : ""
+                        }`}
                       size={28}
                     />
                   </button>
 
                   {/* Answer */}
                   <div
-                    className={`grid transition-all duration-500 ease-in-out ${
-                      isActive
+                    className={`grid transition-all duration-500 ease-in-out ${isActive
                         ? "grid-rows-[1fr] opacity-100"
                         : "grid-rows-[0fr] opacity-0"
-                    }`}
+                      }`}
                   >
                     <div className="overflow-hidden">
                       <div className="px-8 pb-8">

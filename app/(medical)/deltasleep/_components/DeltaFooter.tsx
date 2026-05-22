@@ -28,7 +28,7 @@ export default function DeltaFooter() {
             data-aos="fade-right"
             className="max-w-[720px]"
           >
-            <p className="text-[#2e2e2e] text-[16px] leading-[1.85] tracking-[-0.1px]">
+            <p className="text-[#2e2e2e] text-[16px] leading-[1.85]  ">
               Stay informed on respiratory innovation. Subscribe for technical
               updates, clinical insights, and DeltaSleep product launches
               delivered directly to your inbox. Join our network of healthcare
@@ -63,16 +63,16 @@ export default function DeltaFooter() {
         <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr_180px_140px] gap-12 pt-10 items-start">
           {/* Contact */}
           <div data-aos="fade-up">
-            <h3 className="text-[#00695f] text-3xl font-semibold tracking-[-1.3px]">
+            <h3 className="text-[#00695f] text-3xl font-semibold  ">
               Stay Connected.
             </h3>
 
             <div className="mt-6">
-              <p className="text-[#111111] text-5xl leading-[1.05] tracking-[-2px] font-medium">
+              <p className="text-[#111111] text-5xl leading-[1.05]   font-medium">
                 info@deltasleep.ca
               </p>
 
-              <p className="mt-3 text-[#111111] text-4xl tracking-[-1px] font-medium">
+              <p className="mt-3 text-[#111111] text-4xl   font-medium">
                 (514) 974-7142
               </p>
             </div>
@@ -85,13 +85,13 @@ export default function DeltaFooter() {
           >
             <div className="flex items-center gap-5">
 
-                <img src="/delta/delta-logo.png" alt="logo" className="w-80 h-auto" />
+              <img src="/delta/delta-logo.png" alt="logo" className="w-80 h-auto" />
             </div>
           </div>
 
           {/* Quick Links */}
           <div data-aos="fade-up">
-            <h4 className="text-[#00695f] text-[28px] font-semibold tracking-[-1px]">
+            <h4 className="text-[#00695f] text-[28px] font-semibold  ">
               Quick Links
             </h4>
 
@@ -110,7 +110,7 @@ export default function DeltaFooter() {
 
           {/* Socials */}
           <div data-aos="fade-up">
-            <h4 className="text-[#00695f] text-[28px] font-semibold tracking-[-1px]">
+            <h4 className="text-[#00695f] text-[28px] font-semibold  ">
               Socials
             </h4>
 
@@ -133,7 +133,7 @@ export default function DeltaFooter() {
           data-aos="fade-up"
           className="mt-16 text-center"
         >
-          <p className="text-[#3b3b3b] text-[16px] tracking-[-0.2px]">
+          <p className="text-[#3b3b3b] text-[16px]  ">
             © Copyright 2026 –{" "}
             <span className="text-[#00695f] underline underline-offset-4">
               Delta Sleep.
