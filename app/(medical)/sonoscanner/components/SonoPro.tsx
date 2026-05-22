@@ -21,12 +21,12 @@ export default function SonoPro() {
       {/* RADIAL GLOW */}
       <div className="absolute top-0 right-0 w-[700px] h-[700px] bg-[radial-gradient(circle,rgba(255,255,255,0.08),transparent_70%)]" />
 
-      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-16">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-12">
         {/* TOP ROW */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
           {/* LEFT */}
           <div data-aos="fade-up">
-            <h2 className="max-w-[760px] text-white text-4xl leading-[1.12] tracking-[-2px] font-semibold">
+            <h2 className="max-w-[900px] text-white text-4xl leading-[1.4] tracking-[1px] font-semibold">
               Discover The New, Unique Handheld Ultrasound Scanner: The U-Lite
               PRO.
             </h2>
@@ -41,7 +41,7 @@ export default function SonoPro() {
               Advanced Imaging with Intelligent Performance
             </p>
 
-            <button className="group bg-white hover:bg-[#f2f2f2] transition-all duration-300 h-[58px] px-10 rounded-full flex items-center gap-5 text-[#123f88] text-[16px] font-semibold shadow-xl">
+            <button className="group bg-white hover:bg-[#f2f2f2] transition-all duration-300 h-[50px] px-10 rounded-full flex items-center gap-5 text-[#14387F] text-[16px] font-semibold shadow-xl">
               Get a quote
 
               <div className="transition-transform duration-300 group-hover:translate-x-1">
@@ -67,7 +67,7 @@ export default function SonoPro() {
           <div className="pt-2">
             {/* DESCRIPTION */}
             <div
-              className="space-y-5"
+              className="space-y-3"
               data-aos="fade-up"
               data-aos-delay="150"
             >
@@ -94,27 +94,60 @@ export default function SonoPro() {
               data-aos="fade-up"
               data-aos-delay="250"
             >
-              <h3 className="text-white text-[24px] font-semibold tracking-[-1px]">
+              <h3 className="text-white text-[24px] tracking-[-1px]">
                 Power On, Scan, Diagnose.
               </h3>
             </div>
 
             {/* FEATURE PILLS */}
             <div
-              className="mt-4 grid grid-cols-2 gap-4"
+              className="mt-5 grid grid-cols-2 gap-4"
               data-aos="fade-up"
               data-aos-delay="350"
             >
-              {features.map((item, index) => (
+            {features.map((item, index) => {
+              const roundedClass =
+                index === 0
+                  ? "rounded-tl-[18px] rounded-tr-[18px]"
+                  : index === 1
+                  ? "rounded-tr-[18px] rounded-tl-[18px]"
+                  : index === 2
+                  ? "rounded-bl-[18px] rounded-br-[18px]"
+                  : "rounded-br-[18px] rounded-bl-[18px]";
+
+              return (
                 <div
                   key={index}
-                  className="h-[64px] rounded-[18px] bg-[#1E66B3]/80 border border-white/5 backdrop-blur-sm flex items-center justify-center text-center px-5 shadow-lg"
+                  className={`
+                    relative overflow-hidden
+                    h-[42px]
+                    ${roundedClass}
+                    
+                    bg-[#1a5fb1]
+                    
+                    
+                    flex items-center justify-center
+                    px-4
+                  `}
                 >
-                  <p className="text-white text-[16px] font-medium leading-snug">
+                  {/* glossy top line */}
+                  
+
+                  <p
+                    className="
+                      text-white
+                      text-[16px]
+                      font-normal
+                      tracking-[0.1px]
+                      leading-none
+                      text-center
+                    "
+                  >
                     {item}
                   </p>
                 </div>
-              ))}
+              );
+            })}
             </div>
 
             {/* CTA */}
@@ -123,7 +156,7 @@ export default function SonoPro() {
               data-aos="fade-up"
               data-aos-delay="450"
             >
-              <button className="cursor-pointer group bg-white hover:bg-[#f2f2f2] transition-all duration-300 h-[58px] px-9 rounded-full flex items-center gap-5 text-[#123f88] text-[16px] font-semibold shadow-xl">
+              <button className="cursor-pointer group bg-white hover:bg-[#f2f2f2] transition-all duration-300 h-[50px] px-9 rounded-full flex items-center gap-5 text-[#14387F] text-[16px] font-semibold shadow-xl">
                 Discover Our Story
 
                 <div className="transition-transform duration-300 group-hover:translate-x-1">

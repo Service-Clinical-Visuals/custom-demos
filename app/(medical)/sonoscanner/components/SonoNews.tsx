@@ -30,18 +30,18 @@ export default function SonoNews() {
   return (
     <section className="relative overflow-hidden bg-[#f5f6f8] py-24">
       {/* SOFT TOP BORDER */}
-      <div className="absolute top-0 left-0 w-full h-[2px] bg-[#123f88]" />
+      <div className="absolute top-0 left-0 w-full h-[2px] bg-[#14387F]" />
 
       {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(18,63,136,0.04),transparent_55%)]" />
 
-      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-16">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-11">
         {/* HEADER */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
           {/* LEFT */}
           <div className="max-w-[760px]">
             <div data-aos="fade-up">
-              <h2 className="text-[#123f88] text-4xl leading-none tracking-[-2px] font-semibold">
+              <h2 className="text-[#14387F] text-4xl leading-none tracking-[-2px] font-semibold">
                 Latest News & Blog
               </h2>c8b111e40bfcfe594a1a3c8440d7abce636d47a2
             </div>
@@ -61,7 +61,7 @@ export default function SonoNews() {
             className="pt-3"
             data-aos="fade-left"
           >
-            <button className="group bg-[#123f88] hover:bg-[#0d326d] transition-all duration-300 text-white rounded-full h-[58px] px-10 flex items-center gap-5 shadow-lg">
+            <button className="group bg-[#14387F] hover:bg-[#0d326d] transition-all duration-300 text-white rounded-full h-[50px] px-10 flex items-center gap-5 shadow-lg">
               <span className="text-[16px] font-semibold">
                 Explore Articles
               </span>
@@ -93,17 +93,17 @@ export default function SonoNews() {
                 {/* CONTENT */}
                 <div className="flex flex-col flex-1 px-6 pb-6">
                   {/* TITLE */}
-                  <h3 className="text-[#123f88] text-lg leading-[1.3] tracking-[-1px] font-semibold">
+                  <h3 className="text-[#14387F] text-lg leading-[1.3] tracking-[-1px] font-semibold">
                     {article.title}
                   </h3>
 
                   {/* DESCRIPTION */}
-                  <p className="mt-5 text-[#6f6f6f] text-[16px] leading-[1.9]">
+                  <p className="mt-5 mb-5 text-[#6f6f6f] text-[16px] leading-[1.9]">
                     {article.description}
                   </p>
 
                   {/* DIVIDER */}
-                  <div className="w-full h-[1px] bg-[#e7e7e7] mt-auto pt-7 mb-5" />
+                  <div className="w-full h-[1px] bg-[#e7e7e7] mt-auto  mb-5" />
 
                   {/* FOOTER */}
                   <div className="flex items-center justify-between">
@@ -111,12 +111,12 @@ export default function SonoNews() {
                       Article
                     </span>
 
-                    <button className="group/read flex items-center gap-3 text-[#123f88]">
+                    <button className="group/read flex items-center gap-3 text-[#14387F]">
                       <span className="text-[16px] font-semibold">
                         Read More
                       </span>
 
-                      <div className="w-7 h-7 rounded-full bg-[#123f88] flex items-center justify-center transition-transform duration-300 group-hover/read:translate-x-1">
+                      <div className="w-7 h-7 rounded-full bg-[#14387F] flex items-center justify-center transition-transform duration-300 group-hover/read:translate-x-1">
                         <FiArrowRight className="text-white text-[14px]" />
                       </div>
                     </button>

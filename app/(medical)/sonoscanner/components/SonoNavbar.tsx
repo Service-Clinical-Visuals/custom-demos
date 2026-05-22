@@ -66,7 +66,7 @@ export default function SonoNavbar() {
             </nav>
                       {/* RIGHT */}
           <div className="flex items-center gap-5">
-            <button className="bg-[#123f88] hover:bg-[#0d326e] transition-all duration-300 text-white rounded-full h-[44px] px-7 flex items-center gap-3 text-[13px] font-semibold shadow-sm">
+            <button className="bg-[#123f88] hover:bg-[#0d326e] transition-all duration-300 text-white rounded-full h-[50px] px-7 flex items-center gap-3 text-[13px] font-semibold shadow-sm">
               Request a Demo
               <FiArrowRight className="text-[15px]" />
             </button>

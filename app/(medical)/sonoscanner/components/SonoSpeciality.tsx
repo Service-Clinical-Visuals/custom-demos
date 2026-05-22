@@ -50,19 +50,19 @@ export default function SonoSpeciality() {
       {/* SOFT BACKGROUND GLOW */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(18,63,136,0.04),transparent_55%)]" />
 
-      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-16">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-11">
         {/* TOP HEADER */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
           {/* LEFT */}
-          <div className="max-w-[760px]">
+          <div className="max-w-[1000px]">
             <div data-aos="fade-up">
-              <h2 className="text-[#123f88] text-4xl leading-none tracking-[-2px] font-semibold">
+              <h2 className="text-[#14387F] text-4xl leading-none tracking-[-2px] font-semibold">
                 Your Specialty
               </h2>
             </div>
 
             <div data-aos="fade-up" data-aos-delay="120">
-              <p className="mt-6 text-[#6f6f6f] text-[16px] leading-[1.9] max-w-[780px]">
+              <p className="mt-6 text-[#6f6f6f] text-[16px] leading-[1.9]">
                 Sonoscanner ultrasound scanners adapt to every specialty with
                 dedicated probes and customizable settings, delivering precise
                 imaging and reliable performance for a wide range of clinical
@@ -73,7 +73,7 @@ export default function SonoSpeciality() {
 
           {/* RIGHT BUTTON */}
           <div className="pt-3" data-aos="fade-left">
-            <button className="group bg-[#123f88] hover:bg-[#0d326d] transition-all duration-300 text-white rounded-full h-[58px] px-10 flex items-center gap-5 shadow-lg">
+            <button className="group bg-[#14387F] hover:bg-[#0d326d] transition-all duration-300 text-white rounded-full h-[50px] px-10 flex items-center gap-5 shadow-lg">
               <span className="text-[15px] font-semibold">
                 Discover Our Story
               </span>
@@ -106,7 +106,7 @@ export default function SonoSpeciality() {
 
                 {/* TITLE */}
                 <div className="pt-8 pb-5 text-center">
-                  <h3 className="text-[#123f88] text-xl leading-[1.35] tracking-[-1px] font-semibold">
+                  <h3 className="text-[#14387F] text-xl leading-[1.35] tracking-[-1px] font-semibold">
                     {item.title}
                   </h3>
                 </div>
@@ -127,7 +127,7 @@ export default function SonoSpeciality() {
               onClick={() => setPage(i)}
               className={`h-[8px] rounded-full transition-all duration-300 ${
                 i === page
-                  ? "w-[52px] bg-[#123f88]"
+                  ? "w-[52px] bg-[#14387F]"
                   : "w-[52px] bg-[#d8d8d8] hover:bg-[#a0a0a0]"
               }`}
             />

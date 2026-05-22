@@ -28,9 +28,9 @@ const features = [
 
 export default function SonoImage() {
   return (
-    <section className="relative overflow-hidden bg-[#14387F] py-20">
+    <section className="relative overflow-hidden  bg-[url('/sono-scanner/Advanced_image.jpg')] bg-cover bg-no-repeat bg-center py-20">
       {/* BACKGROUND LAYERS */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-10 bg-black/40" >
         {/* GRID */}
         <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(rgba(255,255,255,0.4)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.4)_1px,transparent_1px)] bg-[size:80px_80px]" />
 
@@ -41,13 +41,13 @@ export default function SonoImage() {
         <div className="absolute left-0 top-0 w-[450px] h-full opacity-[0.04] bg-[radial-gradient(circle_at_left,white_1px,transparent_1px)] [background-size:18px_18px]" />
       </div>
 
-      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-16">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-11">
         <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 items-start">
           {/* LEFT CONTENT */}
           <div>
             {/* HEADING */}
             <div data-aos="fade-up">
-              <h2 className="max-w-[700px] text-white text-4xl leading-[1.12] tracking-[-2px] font-semibold">
+              <h2 className="max-w-[700px] text-white text-[34px] leading-[1.12] tracking-[-2px] font-semibold">
                 Experience Unmatched Image Quality In An Ultraportable Format
               </h2>
             </div>
@@ -82,7 +82,7 @@ export default function SonoImage() {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <button className="cursor-pointer group bg-white hover:bg-[#f2f2f2] transition-all duration-300 h-[58px] px-10 rounded-full flex items-center gap-5 text-[#123f88] text-[16px] font-semibold shadow-xl">
+              <button className="cursor-pointer group bg-white hover:bg-[#f2f2f2] transition-all duration-300 h-[50px] px-10 rounded-full flex items-center gap-5 text-[#14387F] text-[16px] font-semibold shadow-xl">
                 See Product Range
 
                 <div className="transition-transform duration-300 group-hover:translate-x-1">
@@ -94,7 +94,7 @@ export default function SonoImage() {
 
           {/* RIGHT FEATURE PANEL */}
           <div
-            className="rounded-[26px] bg-[#12479E]/95 border border-white/5 shadow-[0_20px_50px_rgba(0,0,0,0.18)] p-6 lg:p-7 backdrop-blur-md"
+            className="rounded-[15px] bg-[#002b84f2]/95 border border-white/5 shadow-[0_20px_50px_rgba(0,0,0,0.18)] p-6 lg:p-7 backdrop-blur-md"
             data-aos="fade-left"
           >
             {/* PANEL TITLE */}
@@ -118,7 +118,7 @@ export default function SonoImage() {
                   <div className="flex items-start justify-between gap-5">
                     {/* TEXT */}
                     <div>
-                      <h4 className="text-[#123f88] text-[22px] leading-[1.3] tracking-[-0.5px] font-semibold">
+                      <h4 className="text-[#14387F] text-[22px] leading-[1.3] tracking-[-0.5px] font-semibold">
                         {feature.title}
                       </h4>
 
@@ -128,7 +128,7 @@ export default function SonoImage() {
                     </div>
 
                     {/* ICON */}
-                    <button className="min-w-[50px] h-[50px] rounded-full bg-[#123f88] flex items-center justify-center shadow-md">
+                    <button className="min-w-[50px] h-[50px] rounded-full bg-[#14387F] flex items-center justify-center shadow-md">
                       <FiChevronDown className="text-white text-[20px]" />
                     </button>
                   </div>

@@ -16,10 +16,10 @@ export default function SonoHero() {
 
       {/* HERO CONTENT */}
       <div className="relative z-10 h-full flex items-end">
-        <div className="max-w-[1600px] w-full mx-auto px-20 pb-28">
-          <div className="max-w-[650px]">
+        <div className="max-w-[1600px] w-full mx-auto px-10 pb-28">
+          <div className="max-w-[775px]">
             <div data-aos="fade-up">
-              <h1 className="text-white text-4xl leading-[1.12] font-semibold tracking-[-2px]">
+              <h1 className="text-white text-4xl leading-[1.4] font-semibold tracking-[1px] [word-spacing:3px]">
                 Ultrasound Machine: Sonoscanner, Premium Diagnostic Ultrasound
               </h1>
             </div>

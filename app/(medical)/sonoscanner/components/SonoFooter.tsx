@@ -37,18 +37,18 @@ const socialIcons = [
 
 export default function SonoFooter() {
   return (
-    <footer className="relative overflow-hidden bg-[#14387F] pt-20 pb-10">
+    <footer className="relative overflow-hidden bg-[#14387F] pt-20 pb-5">
       {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.06),transparent_45%)]" />
 
-      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-16">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-11">
         {/* TOP GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[1.2fr_0.6fr_0.6fr_0.9fr] gap-14">
           {/* LOGO + DESCRIPTION */}
           <div data-aos="fade-up">
             {/* LOGO */}
-            <div className="flex items-center gap-4">
-              <img src="/sono-scanner/sono-footer.png" alt="logo" />
+            <div className="flex items-center gap-4 ">
+              <img src="/sono-scanner/sono-footer.png" alt="logo" width={'225px'}/>
             </div>
 
             {/* DESCRIPTION */}
@@ -90,7 +90,7 @@ export default function SonoFooter() {
               {socialIcons.map((item, index) => (
                 <button
                   key={index}
-                  className="cursor-pointer w-[44px] h-[44px] rounded-full bg-[#1f5ebf] hover:bg-white hover:text-[#123f88] transition-all duration-300 flex items-center justify-center text-white text-[16px] shadow-lg"
+                  className="cursor-pointer w-[44px] h-[44px] rounded-full bg-[#1f5ebf] hover:bg-white hover:text-[#14387F] transition-all duration-300 flex items-center justify-center text-white text-[16px] shadow-lg"
                 >
                   {item.icon}
                 </button>
@@ -116,7 +116,7 @@ export default function SonoFooter() {
                 className="w-full h-[62px] rounded-[16px] border border-white/30 bg-transparent px-6 pr-16 text-white placeholder:text-white/60 outline-none focus:border-white transition-all duration-300"
               />
 
-              <button className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 w-[44px] h-[44px] rounded-full bg-[#1f5ebf] hover:bg-white hover:text-[#123f88] transition-all duration-300 flex items-center justify-center text-white shadow-lg">
+              <button className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 w-[44px] h-[44px] rounded-full bg-[#1f5ebf] hover:bg-white hover:text-[#14387F] transition-all duration-300 flex items-center justify-center text-white shadow-lg">
                 <FiArrowRight className="text-[18px]" />
               </button>
             </div>
@@ -124,7 +124,7 @@ export default function SonoFooter() {
         </div>
 
         {/* DIVIDER */}
-        <div className="w-full h-[1px] bg-white/20 mt-20 mb-8" />
+        <div className="w-full h-[1px] bg-white/20 mt-15 mb-5" />
 
         {/* COPYRIGHT */}
         <div
