@@ -68,11 +68,11 @@ export default function DeltaFooter() {
             </h3>
 
             <div className="mt-6">
-              <p className="text-[#111111] text-5xl leading-[1.05]   font-medium">
+              <p className="text-[#111111] font-bold text-5xl leading-[1.05]">
                 info@deltasleep.ca
               </p>
 
-              <p className="mt-3 text-[#111111] text-4xl   font-medium">
+              <p className="mt-3 text-[#111111] text-4xl font-bold">
                 (514) 974-7142
               </p>
             </div>

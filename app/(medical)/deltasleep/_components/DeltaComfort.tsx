@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "aos/dist/aos.css";
+import DeltaScrollRevealText from "./DeltaScrollRevealText";
 
 const features = [
   {
@@ -49,9 +50,8 @@ export default function DeltaComfort() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-[#232323] text-4xl  leading-[1.08] font-semibold">
-            Your Journey to Restful Nights Begins Here.
-          </h2>
+          <DeltaScrollRevealText text="Your Journey to Restful Nights Begins Here." className="text-[#232323] text-4xl  leading-[1.08] font-semibold">
+          </DeltaScrollRevealText>
         </div>
 
         {/* Main Layout */}

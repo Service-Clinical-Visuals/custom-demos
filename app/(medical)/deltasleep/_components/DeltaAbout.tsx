@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DeltaScrollRevealText from "./DeltaScrollRevealText";
 
 const cards = [
   {
@@ -46,11 +47,10 @@ export default function DeltaAbout() {
           </div>
 
           {/* Main Title */}
-          <h2 className="text-[#222222] font-semibold leading-[1.5] text-[38px] sm:text-[52px] lg:text-4xl">
-            DeltaSleep Diagnostics & Therapy Inc. is a Canadian leader in
-            respiratory innovation, specializing in the engineering and
-            manufacture of advanced CPAP, APAP, and BiPAP systems.
-          </h2>
+          <DeltaScrollRevealText
+            text="DeltaSleep Diagnostics & Therapy Inc. is a Canadian leader in respiratory innovation, specializing in the engineering and manufacture of advanced CPAP, APAP, and BiPAP systems."
+            className="text-[#222222] font-semibold leading-[1.5] text-4xl lg:text-4xl"
+          />
         </div>
 
         {/* Bottom Layout */}

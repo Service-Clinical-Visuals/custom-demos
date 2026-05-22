@@ -1,6 +1,7 @@
 "use client";
 
 import "aos/dist/aos.css";
+import DeltaScrollRevealText from "./DeltaScrollRevealText";
 
 const products = [
   {
@@ -43,11 +44,10 @@ export default function DeltaProducts() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-[#222222] text-4xl font-semibold leading-[1.5]">
-            DeltaSleep is governed by a management collective with over two
-            decades of cross-functional expertise in sleep medicine,
-            medical-device manufacturing, and global healthcare operations.
-          </h2>
+          <DeltaScrollRevealText
+            text="DeltaSleep is governed by a management collective with over two decades of cross-functional expertise in sleep medicine, medical-device manufacturing, and global healthcare operations."
+            className="text-[#222222] text-4xl font-semibold leading-[1.5]"
+          />
         </div>
 
         {/* Product Grid */}
@@ -81,7 +81,7 @@ export default function DeltaProducts() {
                   {product.title}
                 </h3>
 
-                <p className="mt-4 text-white/92 text-[14px] leading-[1.75] font-light">
+                <p className="mt-4 text-white/92 text-[16px] leading-[1.75] font-light">
                   {product.description}
                 </p>
               </div>

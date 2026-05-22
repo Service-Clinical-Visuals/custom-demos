@@ -1,44 +1,12 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import DeltaScrollStrip from "./DeltaScrollStrip";
-
-gsap.registerPlugin(ScrollTrigger);
+import DeltaScrollRevealText from "./DeltaScrollRevealText";
 
 const HEADING_TEXT =
-  "Our Products are designed to help patients with sleep-related breathing disorders achieve consistent, restful sleep through safe, reliable, and user-friendly technology.";
-
-const DIM = "rgb(180,180,180)";
-const BRIGHT = "rgb(35,35,35)";
+  " Our Products are designed to help patients with sleep-related breathing disorders achieve consistent, restful sleep through safe, reliable, and user-friendly technology.";
 
 export default function DeltaProductScroll() {
-  const headingRef = useRef<HTMLHeadingElement>(null);
-
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      const chars = gsap.utils.toArray<HTMLSpanElement>(
-        headingRef.current!.querySelectorAll(".delta-char")
-      );
-
-      gsap.to(chars, {
-        color: BRIGHT,
-        duration: 0.4,
-        stagger: { each: 0.012 },
-        ease: "none",
-        scrollTrigger: {
-          trigger: headingRef.current,
-          start: "top 85%",
-          end: "bottom 30%",
-          scrub: 1,
-          // markers: true
-        },
-      });
-    }, headingRef);
-
-    return () => ctx.revert();
-  }, []);
 
   return (
     <>
@@ -52,24 +20,11 @@ export default function DeltaProductScroll() {
               </p>
             </div>
 
-            <h1
-              ref={headingRef}
-              id="delta-heading"
-              className="mt-6 text-4xl lg:text-7xl font-semibold leading-[1.25]"
-            >
-              {HEADING_TEXT.split("").map((char, i) => (
-                <span
-                  key={i}
-                  className="delta-char"
-                  style={{
-                    color: DIM,
-                    whiteSpace: char === " " ? "pre" : undefined,
-                  }}
-                >
-                  {char}
-                </span>
-              ))}
-            </h1>
+            <DeltaScrollRevealText
+              as="h1"
+              text={HEADING_TEXT}
+              className="mt-6 text-[#232323] text-4xl lg:text-7xl font-semibold leading-[1.25]"
+            />
           </div>
         </div>
       </section>

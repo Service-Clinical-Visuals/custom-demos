@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import "aos/dist/aos.css";
 import { ChevronDown } from "lucide-react";
+import DeltaScrollRevealText from "./DeltaScrollRevealText";
 
 const faqData = [
   {
@@ -58,9 +59,8 @@ export default function DeltaFaq() {
             </div>
 
             {/* Heading */}
-            <h2 className="text-[#1f1f1f] text-4xl font-semibold leading-[1.04]">
-              Frequently asked questions.
-            </h2>
+            <DeltaScrollRevealText text="Frequently asked questions." className="text-[#1f1f1f] text-4xl font-semibold leading-[1.04]">
+            </DeltaScrollRevealText>
 
             {/* Description */}
             <p className="mt-4 text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.9] max-w-[380px]">
@@ -113,15 +113,15 @@ export default function DeltaFaq() {
                   {/* Answer */}
                   <div
                     className={`grid transition-all duration-500 ease-in-out ${isActive
-                        ? "grid-rows-[1fr] opacity-100"
-                        : "grid-rows-[0fr] opacity-0"
+                      ? "grid-rows-[1fr] opacity-100"
+                      : "grid-rows-[0fr] opacity-0"
                       }`}
                   >
                     <div className="overflow-hidden">
                       <div className="px-8 pb-8">
                         <div className="w-full h-[1px] bg-white/15 mb-6" />
 
-                        <p className="text-white/90 text-[15px] leading-[1.9] max-w-[90%]">
+                        <p className="text-white/90 text-[16px] leading-[1.9] max-w-[90%]">
                           {faq.answer}
                         </p>
                       </div>

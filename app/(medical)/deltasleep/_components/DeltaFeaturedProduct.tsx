@@ -2,6 +2,7 @@
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import "aos/dist/aos.css";
+import DeltaScrollRevealText from "./DeltaScrollRevealText";
 
 export default function DeltaFeaturedProduct() {
 
@@ -28,9 +29,8 @@ export default function DeltaFeaturedProduct() {
             </div>
 
             {/* Heading */}
-            <h2 className="text-[#111111] text-4xl leading-[1.04] font-semibold">
-              Our Featured Product
-            </h2>
+            <DeltaScrollRevealText text="Our Featured Product" className="text-[#111111] text-4xl leading-[1.04] font-semibold">
+            </DeltaScrollRevealText>
 
             {/* Description */}
             <div className="mt-4 space-y-4">
