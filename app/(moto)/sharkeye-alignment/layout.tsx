@@ -16,10 +16,10 @@ const fontBody = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Absolute Alignment",
+  title: "SharkEye Alignment",
   description: "Wheel Alignment Equipment Experts",
   icons: {
-    icon: "/absolute-alignment/logo.png",
+    icon: "/shark/shark-favicon.png",
   },
 };
 
