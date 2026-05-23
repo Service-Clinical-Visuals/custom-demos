@@ -1,10 +1,58 @@
 "use client";
 
 import "aos/dist/aos.css";
+import { useState } from "react";
 
-const products = [1, 2, 3];
+const products = [
+  {
+    title : "SharkEye BigEye 4 Wheel Laser Aligner - BE4WLA",
+    amount : "₹311,875.20",
+    image : "/moto/shark/shark-trust-1.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE USA",
+  },
+  {
+    title : "SharkEye Hawk SC4WLA 4 Wheel Laser Alignment Gauges. UK Made",
+    amount : "₹203,585.20 ",
+    image : "/moto/shark/shark-trust-2.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE EUROPE",
+  },
+  {
+    title : "SharkEye Zubra TWIN STEER Laser truck wheel alignment tool - HGTSLA",
+    amount : "₹₹373,755.20",
+    image : "/moto/shark/shark-trust-3.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE AUSTRALIA",
+  },
+  {
+    title : "SharkEye Roller Car 4 Wheel Laser Aligner - RO4WLA",
+    amount : "₹251,851.60",
+    image : "/moto/shark/shark-trust-4.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE INDIA",
+  },
+  {
+    title : "SharkEye Falcon 4 Wheel Laser Aligner for Car & Van - LC4WLA",
+    amount : "₹162,125.60 ",
+    image : "/moto/shark/shark-trust-5.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE AFRICA",
+  },
+  {
+    title : "SharkEye Eagle 4 Wheel Laser Alignment Gauges - PC4WLA",
+    amount : "₹227,099.60",
+    image : "/moto/shark/shark-trust-6.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE GLOBALLY",
+  },
+  {
+    title : "SharkEye Roller Car 4 Wheel Laser Aligner - RO4WLA",
+    amount : "₹251,851.60",
+    image : "/moto/shark/shark-trust-7.png",
+    thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE UK",
+  }
+];
+
+const ITEMS_PER_PAGE = 3;
 
 export default function SharkDistributor() {
+  const [page, setPage] = useState(0);
+  const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
 
   return (
     <section className="w-full overflow-hidden bg-[#f5f5f5]">
@@ -16,8 +64,8 @@ export default function SharkDistributor() {
         <img src="/moto/shark/shark-distributor.png" alt="distributor" className="w-full h-full object-cover" />
       </div>
 
-      {/* MAIN CONTENT */} 
-      <div className="max-w-380 mx-auto  py-24">
+      {/* MAIN CONTENT */}
+      <div className="max-w-380 mx-auto py-24">
         {/* TITLE */}
         <div
           data-aos="fade-up"
@@ -28,83 +76,71 @@ export default function SharkDistributor() {
           </h2>
         </div>
 
-        {/* PRODUCT GRID */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-          {products.map((item, index) => (
-            <div
-              key={item}
-              data-aos="fade-up"
-              data-aos-delay={index * 140}
-              className="group"
-            >
-              {/* IMAGE STAGE */}
-              <div className="relative h-[420px] bg-[#e6e6e6] overflow-hidden">
-                {/* CENTER PRODUCT CARD */}
-                <div className="absolute left-1/2 top-[58%] -translate-x-1/2 -translate-y-1/2 w-[58%] h-[62%] bg-[#f3f3f3] shadow-[0_12px_30px_rgba(0,0,0,0.08)]">
-                  {/* LOGO */}
-                  <div className="absolute top-4 left-4">
-                    <div className="bg-black text-[#f0df32] text-[14px] font-black px-3 py-1 rounded-full tracking-tight">
-                      EAGLE
-                    </div>
-                  </div>
+        {/* PRODUCT SLIDER */}
+        <div className="mt-16 overflow-hidden">
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${page * 100}%)` }}
+          >
+            {Array.from({ length: totalPages }).map((_, pageIndex) => (
+              <div
+                key={pageIndex}
+                className="w-full flex-shrink-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5"
+              >
+                {products
+                  .slice(pageIndex * ITEMS_PER_PAGE, (pageIndex + 1) * ITEMS_PER_PAGE)
+                  .map((item, index) => (
+                    <div
+                      key={item.title + pageIndex}
+                      data-aos="fade-up"
+                      data-aos-delay={index * 140}
+                      className="group"
+                    >
+                      {/* IMAGE STAGE */}
+                      <div className="relative h-[420px] bg-[#e6e6e6] overflow-hidden">
+                        {/* THUMBNAIL TEXT */}
+                        <p className="absolute top-10 left-0 right-0 text-center text-[22px] font-bold tracking-[1.4px] text-[#F5EA47] uppercase z-10 px-4">
+                          {item.thumbnailText}
+                        </p>
 
-                  {/* MACHINE */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="relative scale-[0.82]">
-                      {/* MAIN BODY */}
-                      <div className="relative w-[120px] h-[250px] bg-[#1f2937] shadow-2xl">
-                        {/* TOP BAR */}
-                        <div className="absolute top-[85px] left-[-55px] w-[230px] h-[14px] bg-[#ff4b2b]" />
-
-                        {/* LOWER BAR */}
-                        <div className="absolute bottom-[55px] left-[-65px] w-[250px] h-[16px] bg-[#ff4b2b]" />
-
-                        {/* CENTER */}
-                        <div className="absolute left-1/2 -translate-x-1/2 top-[30px] w-[38px] h-[180px] bg-black border border-yellow-400" />
-
-                        {/* WHEELS */}
-                        <div className="absolute bottom-[-10px] left-[12px] w-[14px] h-[14px] rounded-full bg-neutral-500" />
-                        <div className="absolute bottom-[-10px] right-[12px] w-[14px] h-[14px] rounded-full bg-neutral-500" />
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
 
-                      {/* SIDE PANEL */}
-                      <div className="absolute right-[-55px] bottom-0 w-[26px] h-[110px] bg-[#181818] rounded-sm">
-                        <div className="absolute inset-x-0 top-2 flex flex-col items-center gap-2">
-                          <div className="w-3 h-3 rounded-full bg-yellow-400" />
-                          <div className="w-3 h-3 rounded-full bg-yellow-400" />
-                          <div className="w-3 h-3 rounded-full bg-red-500" />
-                        </div>
+                      {/* PRODUCT INFO */}
+                      <div className="pt-6">
+                        <h3 className="text-[21px] leading-[1.35] tracking-[-0.4px] text-[#1f1f1f] max-w-85">
+                          {item.title}
+                        </h3>
+
+                        <p className="mt-5 text-[20px] font-black text-[#8a8a8a]">
+                          {item.amount}
+                        </p>
                       </div>
                     </div>
-                  </div>
-
-                  {/* OVERLAY */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-black/[0.03]" />
-                </div>
+                  ))}
               </div>
-
-              {/* PRODUCT INFO */}
-              <div className="pt-6">
-                <h3 className="text-[21px] leading-[1.35] tracking-[-0.4px]  text-[#1f1f1f] max-w-[340px]">
-                  SharkEye BigEye 4 Wheel Laser Aligner - BE4WLA
-                </h3>
-
-                <p className="mt-5 text-[20px] font-black text-[#8a8a8a]">
-                  ₹31,875.20
-                </p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        {/* SLIDER INDICATOR */}
+        {/* SLIDER INDICATORS */}
         <div
           data-aos="fade-up"
           className="mt-16 flex items-center justify-center gap-3"
         >
-          <div className="w-[38px] h-[6px] bg-black" />
-
-          <div className="w-[38px] h-[6px] bg-[#d7d7d7]" />
+          {Array.from({ length: totalPages }).map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setPage(i)}
+              className={`cursor-pointer w-9.5 h-1.5 transition-colors duration-300 ${
+                i === page ? "bg-black" : "bg-[#d7d7d7]"
+              }`}
+            />
+          ))}
         </div>
       </div>
 

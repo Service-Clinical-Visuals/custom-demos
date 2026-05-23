@@ -22,7 +22,7 @@ export default function SharkNavbar() {
 
   return (
     <header
-      className={`fixed top-[34px] left-0 z-50 w-full bg-[#ffff] transition-all duration-700 ${
+      className={`fixed top-12 left-0 z-50 w-full bg-[#ffff] transition-all duration-700 ${
         visible
           ? "translate-y-0 opacity-100"
           : "-translate-y-full opacity-0"
@@ -38,7 +38,7 @@ export default function SharkNavbar() {
 
           {/* MENU */}
           <ul className="hidden lg:flex items-center gap-8 text-[16px] text-[#444] font-medium font-body">
-            <li className="text-black font-semibold">Home</li>
+            <li className="text-black font-semibold cursor-pointer">Home</li>
 
             <li className="flex items-center gap-1 cursor-pointer">
               Wheel Aligners
