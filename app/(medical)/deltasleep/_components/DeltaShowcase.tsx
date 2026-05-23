@@ -57,7 +57,7 @@ export default function DeltaShowcase() {
         const vw = window.innerWidth;
         const vh = window.innerHeight;
         const isMobile = vw < 640;
-        const isTablet = vw >= 640 && vw < 1280;
+        const isTablet = vw >= 640 && vw < 1536;
 
         // Read actual strip width from the rendered element (0 on mobile where strips are hidden)
         const stripW = leftRef.current?.offsetWidth ?? 0;
@@ -79,7 +79,7 @@ export default function DeltaShowcase() {
         { y: "-38vh", xPercent: 0, scale: 1 },
         {
           y: "-75vh",
-          xPercent: () => (window.innerWidth < 1280 ? -130 : -215),
+          xPercent: () => (window.innerWidth < 1536 ? -130 : -215),
           scale: 1.4,
           ease: "power2.in",
           duration: 3,
@@ -90,7 +90,7 @@ export default function DeltaShowcase() {
         { y: "-38vh", xPercent: 0, scale: 1 },
         {
           y: "10vh",
-          xPercent: () => (window.innerWidth < 1280 ? 130 : 215),
+          xPercent: () => (window.innerWidth < 1536 ? 130 : 215),
           scale: 1.4,
           ease: "power2.in",
           duration: 3,
@@ -213,7 +213,7 @@ export default function DeltaShowcase() {
       {/* LEFT STRIP — hidden on mobile and tablet, full on desktop */}
       <div
         ref={leftRef}
-        className="absolute top-0 left-0 z-30 flex-col gap-12 hidden xl:flex xl:w-[360px]"
+        className="absolute top-0 left-0 z-30 flex-col gap-12 hidden xl:flex xl:w-[200px] 2xl:w-[360px]"
       >
         {LEFT_IMAGES.map((img, i) => (
           <div
@@ -229,7 +229,7 @@ export default function DeltaShowcase() {
       {/* RIGHT STRIP — hidden on mobile and tablet, full on desktop */}
       <div
         ref={rightRef}
-        className="absolute top-0 right-0 z-30 flex-col gap-12 hidden xl:flex xl:w-[360px]"
+        className="absolute top-0 right-0 z-30 flex-col gap-12 hidden xl:flex xl:w-[200px] 2xl:w-[360px]"
       >
         {RIGHT_IMAGES.map((img, i) => (
           <div
