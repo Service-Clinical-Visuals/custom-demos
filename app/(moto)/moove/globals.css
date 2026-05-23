@@ -52,6 +52,10 @@
   font-weight: 700;
 }
 
+.font-heading {
+  font-family: var(--font-heading), sans-serif !important;
+}
+
 .brands-swiper .swiper-wrapper {
   align-items: stretch;
 }
@@ -62,11 +66,15 @@
 
 /* Hide scrollbar while keeping scroll functionality */
 .scrollbar-hide {
-  -ms-overflow-style: none;  /* IE / Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none;
+  /* IE / Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
+
 .scrollbar-hide::-webkit-scrollbar {
-  display: none;             /* Chrome / Safari */
+  display: none;
+  /* Chrome / Safari */
 }
 
 section {

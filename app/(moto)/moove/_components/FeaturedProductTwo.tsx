@@ -23,8 +23,9 @@ export default function FeaturedProductTwo() {
   const items = activeTab === "features" ? KEY_FEATURES : APPLICATIONS;
 
   return (
-    <section className="w-full bg-[#001C46] py-16 md:py-24">
-      <div className="container mx-auto px-4 md:px-8">
+    <section className="w-full relative bg-[url('/moove/home/bg.jpg')] bg-cover bg-no-repeat bg-center py-16 md:py-24">
+      <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/80" />
+      <div className="container relative z-1 mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* Left: Video */}
@@ -57,8 +58,8 @@ export default function FeaturedProductTwo() {
               <div className="flex">
                 <button
                   onClick={() => setActiveTab("features")}
-                  className={`px-6 py-3 text-sm font-bold transition-colors ${activeTab === "features"
-                    ? "bg-white text-[#001C46]"
+                  className={`px-6 py-3 text-[16px] font-bold transition-colors font-heading ${activeTab === "features"
+                    ? "bg-white text-[#0d2a5c] underline"
                     : "bg-[#0d2a5c] text-gray-300 hover:text-white"
                     }`}
                 >
@@ -66,8 +67,8 @@ export default function FeaturedProductTwo() {
                 </button>
                 <button
                   onClick={() => setActiveTab("applications")}
-                  className={`px-6 py-3 text-sm font-bold transition-colors ${activeTab === "applications"
-                    ? "bg-white text-[#001C46]"
+                  className={`px-6 py-3 text-[16px] font-bold transition-colors font-heading ${activeTab === "applications"
+                    ? "bg-white text-[#001C46] underline"
                     : "bg-[#0d2a5c] text-gray-300 hover:text-white"
                     }`}
                 >

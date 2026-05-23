@@ -93,7 +93,7 @@ export default function BrandsCatalogue() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-[#001C46]/65" />
-            <p className="absolute bottom-6 left-6 right-6 text-white text-sm font-bold leading-relaxed z-10">
+            <p className="absolute bottom-6 left-6 right-6 text-white text-sm font-bold leading-relaxed z-10 font-heading">
               {sideText}
             </p>
           </div>
@@ -109,7 +109,7 @@ export default function BrandsCatalogue() {
                   <button
                     key={tab}
                     onClick={() => handleTabChange(tab)}
-                    className={`px-4 sm:px-5 py-[13px] text-sm font-bold whitespace-nowrap border border-gray-200 -ml-px first:ml-0 transition-colors shrink-0 ${activeTab === tab
+                    className={`px-4 sm:px-5 py-[13px] text-sm font-bold font-heading whitespace-nowrap border border-gray-200 -ml-px first:ml-0 transition-colors shrink-0 ${activeTab === tab
                       ? "bg-[#006CA5] text-white border-[#006CA5] relative z-10"
                       : "bg-white text-[#001C46] hover:bg-gray-50"
                       }`}

@@ -21,8 +21,8 @@ const brandsData = [
 ];
 export default function About() {
   return (
-    <section className="relative w-full bg-[url('/moove/home/bg.jpg')] background-size-contain background-no-repeat background-position-center text-white py-16">
-      <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/70 z-0" />
+    <section className="relative w-full bg-[url('/moove/home/bg.jpg')] bg-cover bg-no-repeat bg-center text-white py-16">
+      <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/80" />
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] mb-10">
 
@@ -48,7 +48,7 @@ export default function About() {
                 href="#"
                 className="inline-flex items-center bg-white text-[var(--moove-text-dark)] hover:bg-gray-100 transition-colors"
               >
-                <span className="px-5 py-2.5 text-[16px] font-bold">Learn More</span>
+                <span className="px-5 py-2 text-[16px] font-bold">Learn More</span>
                 <div className="bg-[var(--moove-blue)] text-white px-3 py-2.5 border border-white">
                   <ArrowRight className="w-4 h-4" />
                 </div>

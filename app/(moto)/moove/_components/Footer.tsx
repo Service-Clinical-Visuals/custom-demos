@@ -1,7 +1,11 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { Linkedin } from "lucide-react";
+import { Linkedin, LinkedinIcon } from "lucide-react";
+import { LiaLinkedinIn } from "react-icons/lia";
+import { BsLinkedin } from "react-icons/bs";
+import { CiLinkedin } from "react-icons/ci";
+import { PiLinkedinLogoFill } from "react-icons/pi";
 
 const footerLogos = [
   { src: "/moove/home/footer-1.png", alt: "IAAF" },
@@ -14,11 +18,12 @@ const footerLogos = [
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#102A43] text-white pt-16 pb-8 border-t border-white/10">
-      <div className="container mx-auto px-4 md:px-8">
+    <footer className="w-full relative bg-[url('/moove/home/bg.jpg')] bg-cover bg-no-repeat bg-center text-white pt-16 pb-8 border-t border-white/40">
+      <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/80" />
+      <div className="container relative z-1 mx-auto px-4 md:px-8">
 
         {/* Top Section: Logo & Newsletter */}
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-12 border-b border-white/10">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-12 border-b border-white/40">
           {/* Logo */}
           <Link href="/moove" className="flex items-center">
             <img
@@ -49,7 +54,7 @@ export default function Footer() {
 
           {/* Col 1 */}
           <div>
-            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/10 mb-4">
+            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/40 mb-4">
               Quick Links
             </h4>
             <ul className="flex flex-col gap-3 text-xs md:text-[16px] text-gray-300">
@@ -63,7 +68,7 @@ export default function Footer() {
 
           {/* Col 2 */}
           <div>
-            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/10 mb-4">
+            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/40 mb-4">
               Product Information
             </h4>
             <ul className="flex flex-col gap-3 text-xs md:text-[16px] text-gray-300">
@@ -82,7 +87,7 @@ export default function Footer() {
 
           {/* Col 3 */}
           <div>
-            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/10 mb-4">
+            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/40 mb-4">
               Policies & Legislation
             </h4>
             <ul className="flex flex-col gap-3 text-xs md:text-[16px] text-gray-300">
@@ -102,15 +107,15 @@ export default function Footer() {
 
           {/* Col 4 */}
           <div>
-            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/10 mb-4">
+            <h4 className="text-[22px]! font-bold uppercase tracking-wider text-gray-300 pb-3 border-b border-white/40 mb-4">
               Social Media
             </h4>
             <div className="flex gap-2">
               <Link
                 href="#"
-                className="bg-white text-[#102A43] p-2 hover:bg-gray-100 transition-colors inline-block rounded-sm"
+                className="bg-white text-[#102A43] hover:bg-gray-100 transition-colors inline-block rounded-sm"
               >
-                <Linkedin className="w-5 h-5 fill-current" />
+                <PiLinkedinLogoFill className="w-8 h-8 fill-current" />
               </Link>
             </div>
           </div>
@@ -118,11 +123,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section: Brands, Copyright & Accreditation Logos */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 pt-8 border-t border-white/10 text-center lg:text-left">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 pt-8 border-t border-white/40 text-center lg:text-left">
 
           {/* Left: Our Brands */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <span className="text-xs font-bold uppercase tracking-wider text-gray-400">
+            <span className="text-[16px] font-bold uppercase tracking-wider text-gray-400 font-heading">
               Our brands
             </span>
             <div className="flex items-center gap-4">
@@ -139,7 +144,7 @@ export default function Footer() {
           </div>
 
           {/* Center: Copyright */}
-          <div className="text-xs text-gray-400 font-medium">
+          <div className="text-md text-gray-400 font-medium">
             &copy; 2025 Moove Lubricants Limited
           </div>
 
