@@ -151,15 +151,15 @@ export default function SharkProducts() {
                     .map((item) => (
                       <div
                         key={item.title}
-                        className="group bg-[#efefef] border border-black/5 shadow-[0_6px_18px_rgba(0,0,0,0.12)] hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)] transition-all duration-500 ease-out"
+                        className="group bg-[#ffff] border border-black/5 shadow-[0_6px_18px_rgba(0,0,0,0.12)]  hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)] transition-all duration-500 ease-out"
                       >
                         {/* IMAGE AREA */}
-                        <div className="relative h-64 sm:h-80 lg:h-97.5 bg-[#ececec] overflow-hidden">
+                        <div className="relative h-64 sm:h-80 lg:h-97.5 bg-[#f1f1f1] overflow-hidden">
                           <Image
                             src={item.image}
                             alt={item.title}
                             fill
-                            className="object-contain group-hover:scale-105 transition-all duration-700 ease-out"
+                            className="object-contain  transition-all duration-700 ease-out"
                           />
                         </div>
 

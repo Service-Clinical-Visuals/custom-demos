@@ -32,7 +32,7 @@ export default function SharkAllProducts() {
   return (
     <section className="relative w-full overflow-hidden bg-[#181315] py-24">
 
-      <div className="absolute inset-0 z-[1] bg-[#231f2072]"></div>
+      <div className="absolute inset-0 z-[10] bg-[#231f2072]"></div>
       {/* BACKGROUND */}
       <div className="absolute inset-0">
        <img src="/moto/shark/shark-products-bg.jpg" alt="bg" className="w-full h-full object-cover"/>
@@ -70,16 +70,15 @@ export default function SharkAllProducts() {
               key={item.title}
               data-aos="fade-up"
               data-aos-delay={index * 150}
-              className="group bg-[#efefef] border border-black/5 shadow-[0_12px_30px_rgba(0,0,0,0.35)] hover:-translate-y-3 hover:shadow-[0_28px_55px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out"
+              className="group bg-[#ffff] border border-black/5 shadow-[0_12px_30px_rgba(0,0,0,0.35)] hover:-translate-y-3 hover:shadow-[0_28px_55px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out"
             >
               {/* IMAGE AREA */}
-              <div className="relative h-97.5 bg-[#ededed] overflow-hidden">
+              <div className="relative h-97.5 bg-[#f1f1f1] overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full bg-cover object-contain group-hover:scale-110 transition-all duration-700 ease-out"
+                  className="w-full h-full bg-cover object-contain transition-all duration-700 ease-out"
                 />
-                <div className="absolute inset-0 bg-black/20" />
               </div>
 
               {/* YELLOW ACCENT BAR */}
