@@ -136,7 +136,7 @@ export default function DeltaScrollStrip() {
                   {feature.number}
                 </span>
               </div>
-              <p className="mt-4 text-[#2f2f2f] text-[15px] lg:text-[16px] leading-[1.75] max-w-[360px]">
+              <p className="mt-4 text-[#666666] text-[15px] lg:text-[16px] leading-[1.75] max-w-[360px]">
                 {feature.description}
               </p>
             </div>

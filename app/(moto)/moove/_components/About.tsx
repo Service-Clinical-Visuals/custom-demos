@@ -59,7 +59,7 @@ export default function About() {
           {/* Right: image within container */}
           <div className="relative h-[300px] lg:h-auto min-h-[300px] my-8 overflow-hidden rounded-sm">
             <img
-              src="/moto/moove/home/who-1.png"
+              src="/moove/home/who-1.png"
               alt="Who We Are - Moove"
               className="absolute inset-0 w-full h-full object-cover"
             />

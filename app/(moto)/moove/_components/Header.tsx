@@ -34,7 +34,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/moove" className="flex items-center">
           <img
-            src="/moto/moove/logo.png"
+            src="/moove/logo.png"
             alt="Moove"
             className="h-10 w-auto object-contain"
           />
@@ -84,9 +84,8 @@ export default function Header() {
 
       {/* Mobile Drawer */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-300 bg-white border-t border-gray-100 ${
-          menuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`lg:hidden overflow-hidden transition-all duration-300 bg-white border-t border-gray-100 ${menuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <nav className="flex flex-col px-4 md:px-8 py-4 gap-1">
           {navLinks.map(({ label, bold }) => (
@@ -94,9 +93,8 @@ export default function Header() {
               key={label}
               href="#"
               onClick={() => setMenuOpen(false)}
-              className={`py-3 border-b border-gray-100 text-[16px] transition-colors hover:text-blue-600 ${
-                bold ? "font-bold text-[var(--moove-text-dark)]" : "font-medium text-gray-600"
-              }`}
+              className={`py-3 border-b border-gray-100 text-[16px] transition-colors hover:text-blue-600 ${bold ? "font-bold text-[var(--moove-text-dark)]" : "font-medium text-gray-600"
+                }`}
             >
               {label}
             </Link>

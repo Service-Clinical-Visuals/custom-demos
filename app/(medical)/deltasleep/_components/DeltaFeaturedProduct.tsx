@@ -34,27 +34,12 @@ export default function DeltaFeaturedProduct() {
 
             {/* Description */}
             <div className="mt-4 space-y-4">
-              <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95]">
-                Full Face Mask F1 is thoughtfully engineered to deliver a
-                softer, quieter, and more comfortable sleep therapy experience.
-                Its lightweight elastic silicone cushion gently adapts to facial
-                contours, helping reduce pressure marks while maintaining a
-                secure and comfortable seal throughout the night. Designed
-                without a forehead brace, the F1 creates an open field of
-                vision, allowing users to comfortably read, relax, or watch
-                television before sleep without feeling restricted.
+              <p className="text-[#666666] text-[15px] lg:text-[16px] leading-[1.95] text-justify">
+                Full Face Mask F1 is thoughtfully engineered to deliver a softer, quieter, and more comfortable sleep therapy experience. Its lightweight elastic silicone cushion gently adapts to facial contours, helping reduce pressure marks while maintaining a secure and comfortable seal throughout the night. Designed without a forehead brace, the F1 creates an open field of vision, allowing users to comfortably read, relax, or watch television before sleep without feeling restricted.
               </p>
 
-              <p className="text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.95]">
-                Built for convenience and peaceful performance, the F1 features
-                advanced quiet air dispersion technology that minimizes airflow
-                disturbance and creates a calmer sleeping environment for both
-                users and their partners. The innovative 360° rotatable elbow
-                enhances flexibility by allowing natural movement during sleep
-                while simplifying tube management and quick removal. Combining
-                ergonomic comfort with practical functionality, the DeltaSleep
-                Full Face Mask F1 is crafted to support restful, uninterrupted
-                therapy night after night.
+              <p className="text-[#666666] text-[15px] lg:text-[16px] leading-[1.95] text-justify">
+                Built for convenience and peaceful performance, the F1 features advanced quiet air dispersion technology that minimizes airflow disturbance and creates a calmer sleeping environment for both users and their partners. The innovative 360° rotatable elbow enhances flexibility by allowing natural movement during sleep while simplifying tube management and quick removal. Combining ergonomic comfort with practical functionality, the DeltaSleep Full Face Mask F1 is crafted to support restful, uninterrupted therapy night after night.
               </p>
             </div>
 

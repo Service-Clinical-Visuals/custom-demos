@@ -46,7 +46,7 @@ export default function DeltaProducts() {
           {/* Heading */}
           <DeltaScrollRevealText
             text="DeltaSleep is governed by a management collective with over two decades of cross-functional expertise in sleep medicine, medical-device manufacturing, and global healthcare operations."
-            className="text-[#222222] text-4xl font-semibold leading-[1.5]"
+            className="text-[#222222] text-4xl lg:text-[50px] font-semibold leading-[1.35]"
           />
         </div>
 
@@ -76,8 +76,8 @@ export default function DeltaProducts() {
               </div>
 
               {/* Content */}
-              <div className="px-6 pb-7">
-                <h3 className="text-white text-[34px] sm:text-[36px] lg:text-[30px] font-semibold   leading-none">
+              <div className="px-6 pb-7 pt-4">
+                <h3 className="text-white text-[20px] lg:text-[24px] font-semibold   leading-none">
                   {product.title}
                 </h3>
 

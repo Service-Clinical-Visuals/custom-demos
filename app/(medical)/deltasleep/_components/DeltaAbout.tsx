@@ -49,7 +49,7 @@ export default function DeltaAbout() {
           {/* Main Title */}
           <DeltaScrollRevealText
             text="DeltaSleep Diagnostics & Therapy Inc. is a Canadian leader in respiratory innovation, specializing in the engineering and manufacture of advanced CPAP, APAP, and BiPAP systems."
-            className="text-[#222222] font-semibold leading-[1.5] text-4xl lg:text-4xl"
+            className="text-[#222222] font-semibold leading-[1.35] text-4xl lg:text-[50px]"
           />
         </div>
 
@@ -80,7 +80,7 @@ export default function DeltaAbout() {
                 <div className="w-full h-[1px] bg-[#dddddd] my-5" />
 
                 {/* Description */}
-                <p className="text-[#444444] text-[16px] leading-[1.8] max-w-[95%]">
+                <p className="text-[#666666] text-[16px] leading-[1.8] max-w-[95%]">
                   {card.description}
                 </p>
               </div>

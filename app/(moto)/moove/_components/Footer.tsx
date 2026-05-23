@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Linkedin } from "lucide-react";
 
 const footerLogos = [
-  { src: "/moto/moove/home/footer-1.png", alt: "IAAF" },
-  { src: "/moto/moove/home/footer-2.png", alt: "VLS" },
-  { src: "/moto/moove/home/footer-3.png", alt: "UKLA" },
-  { src: "/moto/moove/home/footer-4.png", alt: "Accredited" },
-  { src: "/moto/moove/home/footer-5.png", alt: "ISO" },
-  { src: "/moto/moove/home/footer-6.png", alt: "Certification" },
+  { src: "/moove/home/footer-1.png", alt: "IAAF" },
+  { src: "/moove/home/footer-2.png", alt: "VLS" },
+  { src: "/moove/home/footer-3.png", alt: "UKLA" },
+  { src: "/moove/home/footer-4.png", alt: "Accredited" },
+  { src: "/moove/home/footer-5.png", alt: "ISO" },
+  { src: "/moove/home/footer-6.png", alt: "Certification" },
 ];
 
 export default function Footer() {
@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Logo */}
           <Link href="/moove" className="flex items-center">
             <img
-              src="/moto/moove/logo-white.png"
+              src="/moove/logo-white.png"
               alt="Moove"
               className="h-10 w-auto object-contain"
             />

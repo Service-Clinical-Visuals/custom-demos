@@ -13,19 +13,19 @@ const newsArticles = [
     title: "Max Verstappen wins his 4th World Championship",
     desc: "As Mobil 1 celebrates 50 years of excellence in motorsport, Max Verstappen becomes a four-time Formula 1 World Champion. Together, we've made history.",
     buttonText: "Celebrate with Us",
-    imgSrc: "/moto/moove/home/news-1.png",
+    imgSrc: "/moove/home/news-1.png",
   },
   {
     title: "Greggs and MyComma Team Up for Tasty Rewards",
     desc: "We're excited to announce a brand new collaboration between MyComma and Greggs! This means that workshop owners using MyComma can now unlock exclusive Greggs treats as part of their rewards, bringing one of the UK's favorite brands straight to our hardworking workshop owners and mechanic teams.",
     buttonText: "Sign up to MyCommand",
-    imgSrc: "/moto/moove/home/news-2.png",
+    imgSrc: "/moove/home/news-2.png",
   },
   {
     title: "Moove by Moovers",
     desc: "Who better to talk about Moove than our Moovers? Moove is a global lubricant solutions company. We continuously evolve. Our high-performance global team drives consistent growth in a unique environment that brings out the best in each other. To tell this story, we've invited our Moovers to share.",
     buttonText: "See them on LinkedIn Page",
-    imgSrc: "/moto/moove/home/news-3.png",
+    imgSrc: "/moove/home/news-3.png",
   }
 ];
 
