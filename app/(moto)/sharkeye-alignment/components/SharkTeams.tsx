@@ -50,7 +50,7 @@ export default function SharkTeams() {
               key={member.name}
               data-aos="fade-up"
               data-aos-delay={index * 140}
-              className="group bg-[#efefef] border border-black/5 shadow-[0_10px_28px_rgba(0,0,0,0.12)] hover:-translate-y-2 transition-all duration-500"
+              className="group bg-[#efefef] border border-black/5 shadow-[0_10px_28px_rgba(0,0,0,0.12)] hover:-translate-y-3 hover:shadow-[0_24px_48px_rgba(0,0,0,0.20)] transition-all duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
             >
               {/* IMAGE AREA */}
               <div className="relative h-[420px] overflow-hidden bg-white">
@@ -59,12 +59,12 @@ export default function SharkTeams() {
                   <img
                     src={member.img}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] group-hover:scale-105"
                   />
                 </div>
 
-                {/* SOFT OVERLAY */}
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/[0.02]" />
+                {/* SOFT OVERLAY — deepens slightly on hover */}
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/[0.02] group-hover:to-black/[0.12] transition-all duration-500" />
               </div>
 
               {/* CONTENT */}
