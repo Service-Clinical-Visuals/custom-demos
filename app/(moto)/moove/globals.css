@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --moove-dark-blue: #001333;
+  /* For hero background and footer bg */
+  --moove-blue: #1B395B;
+  /* For the "Who we are" background */
+  --moove-light-blue: #204672;
+  /* For the search banner */
+  --moove-text-dark: #1B395B;
+  /* For nav text */
+  --moove-bg-grey: #F9FAFB;
+  /* For sections with light background */
+}
+
+@utility moove-container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  @media (min-width: 768px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+.moove-theme {
+  font-family: var(--font-body), sans-serif;
+}
+
+.moove-theme p {
+  font-family: var(--font-body), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.moove-theme h1,
+.moove-theme h2,
+.moove-theme h3,
+.moove-theme h4,
+.moove-theme h5,
+.moove-theme h6 {
+  font-family: var(--font-heading), sans-serif;
+  font-size: clamp(22px, 5vw, 36px);
+  font-weight: 700;
+}
+
+.brands-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.brands-swiper .swiper-slide {
+  height: auto;
+}
+
+/* Hide scrollbar while keeping scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE / Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;             /* Chrome / Safari */
+}
+
+section {
+  overflow: hidden;
+}

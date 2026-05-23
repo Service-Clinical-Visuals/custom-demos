@@ -14,7 +14,7 @@ export default function DeltaNavbar() {
         </div>
 
         {/* Nav */}
-        <nav className="hidden md:flex items-center gap-8 text-[15px]">
+        <nav className="hidden md:flex items-center gap-8 text-[16px]">
           <a
             href="#"
             className="font-semibold text-[#00695f] hover:text-[#00544c] transition-colors"

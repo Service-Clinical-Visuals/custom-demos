@@ -19,7 +19,7 @@ const socials = [
 export default function DeltaFooter() {
 
   return (
-    <footer className="relative overflow-hidden w-full bg-[#dfe7e3] pt-8 pb-6">
+    <footer className="relative overflow-hidden w-full bg-[#d6ebe8] pt-8">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-10">
         {/* Top Row */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-8 items-start">
@@ -28,7 +28,7 @@ export default function DeltaFooter() {
             data-aos="fade-right"
             className="max-w-[720px]"
           >
-            <p className="text-[#2e2e2e] text-[16px] leading-[1.85]  ">
+            <p className="text-[#666666] text-[16px] leading-[1.85]  ">
               Stay informed on respiratory innovation. Subscribe for technical
               updates, clinical insights, and DeltaSleep product launches
               delivered directly to your inbox. Join our network of healthcare
@@ -68,11 +68,11 @@ export default function DeltaFooter() {
             </h3>
 
             <div className="mt-6">
-              <p className="text-[#111111] font-bold text-5xl leading-[1.05]">
+              <p className="text-[#444444] font-bold text-5xl leading-[1.05]">
                 info@deltasleep.ca
               </p>
 
-              <p className="mt-3 text-[#111111] text-4xl font-bold">
+              <p className="mt-3 text-[#444444] text-4xl font-bold">
                 (514) 974-7142
               </p>
             </div>
@@ -100,7 +100,7 @@ export default function DeltaFooter() {
                 <a
                   key={index}
                   href="#"
-                  className="text-[#2d2d2d] text-[16px] hover:text-[#00695f] transition-colors duration-300"
+                  className="text-[#666666] text-[16px] font-bold hover:text-[#00695f] transition-colors duration-300"
                 >
                   {item}
                 </a>
@@ -119,7 +119,7 @@ export default function DeltaFooter() {
                 <a
                   key={index}
                   href="#"
-                  className="text-[#2d2d2d] text-[16px] hover:text-[#00695f] transition-colors duration-300"
+                  className="text-[#666666] text-[16px] font-bold hover:text-[#00695f] transition-colors duration-300"
                 >
                   {item}
                 </a>
@@ -129,17 +129,21 @@ export default function DeltaFooter() {
         </div>
 
         {/* Bottom Copyright */}
-        <div
-          data-aos="fade-up"
-          className="mt-16 text-center"
-        >
-          <p className="text-[#3b3b3b] text-[16px]  ">
-            © Copyright 2026 –{" "}
-            <span className="text-[#00695f] underline underline-offset-4">
-              Delta Sleep.
-            </span>{" "}
-            All rights reserved.
-          </p>
+
+      </div>
+      <div className="bg-[#edfaf7] mt-10">
+        <div className="max-w-[1600px] mx-auto px-6 lg:px-10 py-3">
+          <div
+            className=" text-center"
+          >
+            <p className="text-[#3b3b3b] text-[16px]  ">
+              © Copyright 2026 –{" "}
+              <span className="text-[#00695f] underline underline-offset-4">
+                Delta Sleep.
+              </span>{" "}
+              All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

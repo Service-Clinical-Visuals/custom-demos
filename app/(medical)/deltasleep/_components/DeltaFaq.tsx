@@ -63,7 +63,7 @@ export default function DeltaFaq() {
             </DeltaScrollRevealText>
 
             {/* Description */}
-            <p className="mt-4 text-[#4b4b4b] text-[15px] lg:text-[16px] leading-[1.9] max-w-[380px]">
+            <p className="mt-4 text-[#666666] text-[15px] lg:text-[16px] leading-[1.9] max-w-[380px]">
               Every project has its own distinct characteristics, and we
               understand that you may have several questions before diving in.
             </p>
@@ -99,7 +99,7 @@ export default function DeltaFaq() {
                     onClick={() => toggleFAQ(index)}
                     className="w-full px-8 py-8 flex items-center justify-between text-left"
                   >
-                    <span className="text-white text-[18px] font-medium">
+                    <span className="text-white text-[18px] font-bold">
                       {faq.question}
                     </span>
 
