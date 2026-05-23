@@ -31,7 +31,7 @@ export default function Footer() {
       
       {/* Schematic HUD backdrop mask */}
       <div 
-        className="absolute inset-0 bg-[url('/bm-catalysts/images/footer-backdrop.jpg')] pointer-events-none bg-cover bg-center"
+        className="absolute inset-0 bg-[url('/bm-catalysts/images/dpf-bg.png')] pointer-events-none bg-cover bg-center"
       />
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
@@ -54,7 +54,7 @@ export default function Footer() {
 
           {/* Column 2: Quick Links split dual grid (lg:col-span-4) */}
           <div className="lg:col-span-4 space-y-6">
-            <h3 className="text-lg lg:text-[19px] font-extrabold text-white font-oxanium uppercase tracking-wider">
+            <h3 className="text-lg lg:text-[19px] font-extrabold text-white font-oxanium tracking-wider">
               Quick Links
             </h3>
             <hr className="w-12 border-t-2 border-white/90 my-3" />
@@ -86,7 +86,7 @@ export default function Footer() {
 
           {/* Column 3: Contact details (lg:col-span-2) */}
           <div className="lg:col-span-2 space-y-6">
-            <h3 className="text-lg lg:text-[19px] font-extrabold text-white font-oxanium uppercase tracking-wider">
+            <h3 className="text-lg lg:text-[19px] font-extrabold text-white font-oxanium tracking-wider">
               Contact
             </h3>
             <hr className="w-12 border-t-2 border-white/90 my-3" />
@@ -106,7 +106,7 @@ export default function Footer() {
 
           {/* Column 4: Address details (lg:col-span-2) */}
           <div className="lg:col-span-2 space-y-6">
-            <h3 className="text-lg lg:text-[19px] font-extrabold text-white font-oxanium uppercase tracking-wider">
+            <h3 className="text-lg lg:text-[19px] font-extrabold text-white font-oxanium tracking-wider">
               Company Address
             </h3>
             <hr className="w-12 border-t-2 border-white/90 my-3" />

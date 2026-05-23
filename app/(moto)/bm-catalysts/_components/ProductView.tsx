@@ -11,7 +11,11 @@ export default function ProductView() {
       <div className="container mx-auto px-4 lg:px-8 relative z-10 flex flex-col items-center">
         
         {/* 🎥 Video Container on Top (exact 1:1 rounded ratio aspect-video centered) */}
-        <div className="w-full max-w-5xl aspect-video rounded-[2.5rem] overflow-hidden shadow-2xl relative bg-black/40 border border-white/10 mb-8">
+        <div 
+          className="w-full max-w-5xl aspect-video rounded-[2.5rem] overflow-hidden shadow-2xl relative bg-black/40 border border-white/10 mb-8"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           
           <DynamicVideoPlayer
             type="360"
@@ -21,7 +25,12 @@ export default function ProductView() {
         </div>
 
         {/* Text and Actions on the Bottom */}
-        <div className="w-full text-center flex flex-col items-center">
+        <div 
+          className="w-full text-center flex flex-col items-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
           
           <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-bold text-white font-oxanium mb-2">
             Diesel Particulate Filters
@@ -31,8 +40,8 @@ export default function ProductView() {
           <div className="w-20 h-[1.5px] bg-white/80 mb-4"></div>
 
           {/* Centered Paragraph Copy */}
-          <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] leading-relaxed font-exo2 font-medium mx-auto mb-4 tracking-wide">
-            Diesel Vehicles Have Become Increasingly Popular As Diesel Engine Technology Continues To Advance Due To Their Superior Fuel Economy. The Drawback Of Diesel Vehicles Is Their Higher Emissions Compared To Petrol Vehicles. In Response To This, Euro Emissions Standards Were Tightened And Greater Environmentally Friendly Initiatives Developed. Diesel Particulate Filters (DPFs) Help Reduce Harmful Particulate Emissions From Exhaust Gases.
+          <p className="text-white text-[14px] md:text-[15px] lg:text-[17px] leading-relaxed font-exo2 font-medium mx-auto mb-4 tracking-wide">
+            Diesel vehicles have become increasingly popular as diesel engine technology continues to advance due to their superior fuel economy. The drawback of diesel vehicles is their higher emissions compared to petrol vehicles. In response to this, Euro Emissions Standards were tightened and greater environmentally friendly initiatives developed. Diesel particulate filters (DPFs) help reduce harmful particulate emissions from exhaust gases.
           </p>
 
           {/* Centered White Pill Button */}
