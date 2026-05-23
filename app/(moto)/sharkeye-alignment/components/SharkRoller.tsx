@@ -1,19 +1,17 @@
 "use client";
 
-
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import "aos/dist/aos.css";
-import { Play } from "lucide-react";
 
 export default function SharkRoller() {
 
   return (
-    <section className="w-full bg-[#f5f5f5] py-28 overflow-hidden">
+    <section className="w-full bg-[#ffff] py-20 overflow-hidden">
       <div className="max-w-full mx-auto px-6 lg:px-14">
         {/* TOP CONTENT */}
         <div
           data-aos="fade-up"
-          className="max-w-[860px] mx-auto text-center"
+          className="max-w-[1100px] mx-auto text-center"
         >
           <h2 className="text-4xl leading-none tracking-[-1.5px] text-[#242424]">
             SharkEye Roller Car 4 Wheel Laser Aligner

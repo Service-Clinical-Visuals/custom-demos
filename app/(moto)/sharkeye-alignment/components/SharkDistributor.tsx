@@ -55,11 +55,11 @@ export default function SharkDistributor() {
   const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
 
   return (
-    <section className="w-full overflow-hidden bg-[#f5f5f5]">
+    <section className="w-full overflow-hidden bg-[#F9F9F9]">
       {/* TOP DISTRIBUTOR BANNER */}
       <div
         data-aos="fade-down"
-        className="relative w-full h-[160px] bg-white overflow-hidden border-b border-black/5"
+        className="relative w-full h-[200px] bg-white overflow-hidden border-b border-black/5"
       >
         <img src="/moto/shark/shark-distributor.png" alt="distributor" className="w-full h-full object-cover" />
       </div>
@@ -94,7 +94,7 @@ export default function SharkDistributor() {
                       key={item.title + pageIndex}
                       data-aos="fade-up"
                       data-aos-delay={index * 140}
-                      className="group"
+                      className="group cursor-pointer"
                     >
                       {/* IMAGE STAGE */}
                       <div className="relative h-[420px] bg-[#e6e6e6] overflow-hidden">
@@ -106,17 +106,20 @@ export default function SharkDistributor() {
                         <img
                           src={item.image}
                           alt={item.title}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                         />
+
+                        {/* HOVER OVERLAY */}
+                        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out" />
                       </div>
 
                       {/* PRODUCT INFO */}
-                      <div className="pt-6">
-                        <h3 className="text-[21px] leading-[1.35] tracking-[-0.4px] text-[#1f1f1f] max-w-85">
+                      <div className="pt-6 transition-transform duration-400 ease-out group-hover:-translate-y-1">
+                        <h3 className="text-[21px] leading-[1.35] tracking-[-0.4px] text-[#1f1f1f] max-w-85 transition-colors duration-300 group-hover:text-[#3a3a3a]">
                           {item.title}
                         </h3>
 
-                        <p className="mt-5 text-[20px] font-black text-[#8a8a8a]">
+                        <p className="mt-5 text-[20px] font-black text-[#8a8a8a] transition-colors duration-300 group-hover:text-[#1f1f1f]">
                           {item.amount}
                         </p>
                       </div>

@@ -23,7 +23,7 @@ const features = [
 export default function SharkChoose() {
 
   return (
-    <section className="w-full bg-[#f5f5f5] py-24 overflow-hidden">
+    <section className="w-full bg-[#ffff] py-20 overflow-hidden">
       <div className="max-w-380 mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.05fr] gap-12 items-start">
           {/* LEFT CONTENT */}
@@ -106,7 +106,7 @@ export default function SharkChoose() {
                 View Product
 
                 {/* ANGLED EDGE */}
-                <span className="absolute top-0 right-[-18px] border-t-[28px] border-b-[28px] border-l-[18px] border-t-transparent border-b-transparent border-l-[#f0df32]" />
+                <span className="absolute top-0 right-[-18px] border-t-[28px] border-b-[28px] border-l-[18px] border-t-[#f0df32] border-b-transparent border-l-[#f0df32]" />
               </button>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function SharkChoose() {
           {/* RIGHT IMAGE AREA */}
           <div
             data-aos="fade-left"
-            className="relative min-h-[760px] overflow-hidden"
+            className="relative h-auto md:min-h-[760px] overflow-hidden"
           >
             <img src="/moto/shark/shark-choose.png" alt="choose" className="w-full h-full object-cover" />
           </div>
