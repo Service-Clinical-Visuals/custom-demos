@@ -48,7 +48,7 @@ export default function SonoFooter() {
           <div data-aos="fade-up">
             {/* LOGO */}
             <div className="flex items-center gap-4 ">
-              <img src="/sono-scanner/sono-footer.png" alt="logo" width={'225px'}/>
+              <img src="/sono-scanner/sono-footer.png" alt="logo" className="w-[180px] sm:w-[225px]" />
             </div>
 
             {/* DESCRIPTION */}

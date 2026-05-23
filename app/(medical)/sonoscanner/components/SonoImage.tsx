@@ -47,7 +47,7 @@ export default function SonoImage() {
           <div>
             {/* HEADING */}
             <div data-aos="fade-up">
-              <h2 className="max-w-[700px] text-white text-[34px] leading-[1.12] tracking-[-2px] font-semibold">
+              <h2 className="max-w-[700px] text-white text-2xl sm:text-[28px] lg:text-[34px] leading-[1.2] tracking-[-2px] font-semibold">
                 Experience Unmatched Image Quality In An Ultraportable Format
               </h2>
             </div>
@@ -122,7 +122,7 @@ export default function SonoImage() {
                         {feature.title}
                       </h4>
 
-                      <p className="mt-4 text-[#6f6f6f] text-[16px] leading-[1.9]">
+                      <p className="mt-4 text-[#6f6f6f] text-[16px] leading-[1.9] sm:max-w-[300px]">
                         {feature.description}
                       </p>
                     </div>

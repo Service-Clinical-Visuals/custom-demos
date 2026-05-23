@@ -41,9 +41,9 @@ export default function SonoNews() {
           {/* LEFT */}
           <div className="max-w-[760px]">
             <div data-aos="fade-up">
-              <h2 className="text-[#14387F] text-4xl leading-none tracking-[-2px] font-semibold">
+              <h2 className="text-[#14387F] text-3xl lg:text-4xl leading-none tracking-[-2px] font-semibold">
                 Latest News & Blog
-              </h2>c8b111e40bfcfe594a1a3c8440d7abce636d47a2
+              </h2>
             </div>
 
             <div data-aos="fade-up" data-aos-delay="120">

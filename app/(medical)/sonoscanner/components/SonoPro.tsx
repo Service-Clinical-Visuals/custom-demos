@@ -26,7 +26,7 @@ export default function SonoPro() {
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
           {/* LEFT */}
           <div data-aos="fade-up">
-            <h2 className="max-w-[900px] text-white text-4xl leading-[1.4] tracking-[1px] font-semibold">
+            <h2 className="max-w-[900px] text-white text-2xl sm:text-3xl lg:text-4xl leading-[1.4] tracking-[1px] font-semibold">
               Discover The New, Unique Handheld Ultrasound Scanner: The U-Lite
               PRO.
             </h2>

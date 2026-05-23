@@ -56,7 +56,7 @@ export default function SonoSpeciality() {
           {/* LEFT */}
           <div className="max-w-[1000px]">
             <div data-aos="fade-up">
-              <h2 className="text-[#14387F] text-4xl leading-none tracking-[-2px] font-semibold">
+              <h2 className="text-[#14387F] text-3xl lg:text-4xl leading-none tracking-[-2px] font-semibold">
                 Your Specialty
               </h2>
             </div>

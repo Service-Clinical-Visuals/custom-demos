@@ -25,7 +25,7 @@ export default function SonoCompany() {
 
             {/* HEADING */}
             <div data-aos="fade-up" data-aos-delay="100">
-              <h2 className="mt-5 text-[#14387F] text-4xl leading-[1] font-semibold tracking-[-1.8px] max-w-[620px]">
+              <h2 className="mt-5 text-[#14387F] text-3xl lg:text-4xl leading-[1.1] font-semibold tracking-[-1.8px] max-w-[620px]">
                 Innovation Is At The Heart Of Our DNA
               </h2>
             </div>

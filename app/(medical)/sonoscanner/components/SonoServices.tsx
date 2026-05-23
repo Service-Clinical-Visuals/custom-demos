@@ -81,7 +81,7 @@ export default function SonoServices() {
                       className="relative"
                     >
                       {/* FLOATING ICON */}
-                      <div className="absolute left-1/4 -translate-x-1/2 -top-[52px] z-20">
+                      <div className="absolute left-1/2 sm:left-1/4 -translate-x-1/2 -top-[52px] z-20">
                         <div className="w-[128px] h-[128px] rounded-full bg-[#14387F] shadow-[0_4px_1px_rgba(0,0,0,0.12)] border-[10px] border-[#f5f5f5] flex items-center justify-center">
                           <div className="text-white">
                             <img src={service.icon} alt="" className="w-15" />
@@ -92,7 +92,7 @@ export default function SonoServices() {
                       {/* CARD */}
                       <div className="bg-white rounded-[28px] pt-12 pb-14 px-10 shadow-[0_10px_25px_rgba(0,0,0,0.06)] border border-[#ececec] text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_18px_40px_rgba(0,0,0,0.08)]">
                         {/* TITLE */}
-                        <h3 className="text-[#14387F] text-[22px] font-semibold tracking-[-0.5px] ml-30">
+                        <h3 className="text-[#14387F] text-[22px] font-semibold tracking-[-0.5px] sm:ml-30">
                           {service.title}
                         </h3>
 
