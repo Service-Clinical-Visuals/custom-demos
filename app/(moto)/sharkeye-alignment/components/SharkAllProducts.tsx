@@ -20,17 +20,14 @@ const products = [
     amount : "₹129,948.00",
     image : "/moto/shark/shark-truck-3.png",
   },
-  {
-    title : "SharkEye Ceros Laser wheel alignment tool - HGSS2WLA",
-    amount : "₹179,452.00",
-    image : "/moto/shark/shark-truck-4.png",
-  }
+  // {
+  //   title : "SharkEye Ceros Laser wheel alignment tool - HGSS2WLA",
+  //   amount : "₹179,452.00",
+  //   image : "/moto/shark/shark-truck-4.png",
+  // }
 ];
 
 export default function SharkAllProducts() {
-  useEffect(() => {
-    AOS.init({ once: true });
-  }, []);
 
   return (
     <section className="relative w-full overflow-hidden bg-[#181315] py-24">
@@ -110,7 +107,7 @@ export default function SharkAllProducts() {
 
               {/* CONTENT */}
               <div className="px-6 py-7">
-                <h3 className="text-[20px] leading-[1.35] font-black tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
+                <h3 className="text-[20px] leading-[1.35]  tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
                   {item.title}
                 </h3>
 

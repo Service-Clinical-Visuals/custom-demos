@@ -48,7 +48,7 @@ export default function SharkChoose() {
                   key={index}
                   data-aos="fade-up"
                   data-aos-delay={index * 120}
-                  className="flex items-start gap-5"
+                  className="flex items-start gap-5 text-[16px]"
                 >
                   {/* ICON */}
                   <div className="mt-1 flex-shrink-0">
@@ -63,7 +63,7 @@ export default function SharkChoose() {
 
                   {/* TEXT */}
                   <div className="">
-                    <h3 className="font-sans text-[22px] leading-[1.4] tracking-[-0.5px] text-[#1f1f1f]">
+                    <h3 className="font-sans leading-[1.4] tracking-[-0.5px] text-[#1f1f1f]">
                       {feature.title}
                       <span className="font-sans text-[#7a7a7a]">
                         {" "}

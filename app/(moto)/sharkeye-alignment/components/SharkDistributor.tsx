@@ -16,7 +16,7 @@ export default function SharkDistributor() {
         <img src="/moto/shark/shark-distributor.png" alt="distributor" className="w-full h-full object-cover" />
       </div>
 
-      {/* MAIN CONTENT */}
+      {/* MAIN CONTENT */} 
       <div className="max-w-380 mx-auto  py-24">
         {/* TITLE */}
         <div
@@ -85,7 +85,7 @@ export default function SharkDistributor() {
 
               {/* PRODUCT INFO */}
               <div className="pt-6">
-                <h3 className="text-[21px] leading-[1.35] tracking-[-0.4px] font-black text-[#1f1f1f] max-w-[340px]">
+                <h3 className="text-[21px] leading-[1.35] tracking-[-0.4px]  text-[#1f1f1f] max-w-[340px]">
                   SharkEye BigEye 4 Wheel Laser Aligner - BE4WLA
                 </h3>
 

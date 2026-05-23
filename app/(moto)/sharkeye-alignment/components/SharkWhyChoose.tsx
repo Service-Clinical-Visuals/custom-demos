@@ -66,7 +66,7 @@ export default function SharkWhyChoose() {
 
                   {/* TEXT */}
                   <div>
-                    <h3 className="text-[21px] leading-[1.55] tracking-[-0.4px] text-[#1f1f1f]">
+                    <h3 className=" leading-[1.55] tracking-[-0.4px] text-[#1f1f1f]">
                       <span className="font-sans font-semibold">
                         {feature.title}
                       </span>
