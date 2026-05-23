@@ -10,7 +10,7 @@ export default function SharkHero() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-20 flex items-end min-h-screen pb-24 max-w-380 mx-auto">
+      <div className="relative z-20 flex items-end min-h-screen pb-24 max-w-380 mx-auto px-4 sm:px-6">
         <div
           data-aos="fade-up"
           className="max-w-[420px] text-white"

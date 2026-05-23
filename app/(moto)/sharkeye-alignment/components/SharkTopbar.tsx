@@ -20,7 +20,7 @@ export default function SharkTopbar() {
         visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
-      <div className="max-w-380 mx-auto text-white h-12 flex items-center justify-between  text-[16px] tracking-wide">
+      <div className="max-w-380 px-4 sm:px-6 mx-auto text-white h-12 flex items-center justify-between  text-[16px] tracking-wide">
       <p className="font-medium">Welcome Guest!</p>
 
       <div className="flex items-center gap-4">

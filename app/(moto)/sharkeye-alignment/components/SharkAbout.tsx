@@ -6,7 +6,7 @@ export default function SharkAbout() {
 
   return (
     <section className="w-full bg-[#f3f3f3] py-24 overflow-hidden">
-      <div className="max-w-380 mx-auto ">
+      <div className="max-w-380 mx-auto px-4 sm:px-6">
         {/* TOP SECTION */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* LEFT CONTENT */}
@@ -63,7 +63,7 @@ export default function SharkAbout() {
         <div className="w-full h-[1px] bg-[#d9d9d9] my-20" />
 
         {/* BOTTOM SECTION */}
-        <div className="max-w-380 mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-16 items-center ">
+        <div className="max-w-380 mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-16 items-center ">
           {/* LEFT BANNER */}
           <div
             data-aos="fade-up"

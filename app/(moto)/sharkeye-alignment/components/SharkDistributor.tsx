@@ -65,7 +65,7 @@ export default function SharkDistributor() {
       </div>
 
       {/* MAIN CONTENT */}
-      <div className="max-w-380 mx-auto py-24">
+      <div className="max-w-380 mx-auto py-24 px-4 sm:px-6">
         {/* TITLE */}
         <div
           data-aos="fade-up"

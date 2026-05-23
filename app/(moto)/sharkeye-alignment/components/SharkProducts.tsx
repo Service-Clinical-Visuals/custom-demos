@@ -66,7 +66,7 @@ const tabs = [
   { label: "Car 2 & 4", category: "Car" },
   { label: "4X4 2 & 4", category: "Four" },
 ];
-
+ 
 const PAGE_SIZE = 3;
 
 export default function SharkProducts() {
@@ -83,28 +83,28 @@ export default function SharkProducts() {
   }
 
   return (
-    <section className="w-full bg-[#f3f3f3] py-24 overflow-hidden">
-      <div className="max-w-380 mx-auto ">
+    <section className="w-full bg-[#f3f3f3] py-14 sm:py-20 lg:py-24 overflow-hidden">
+      <div className="max-w-380 mx-auto px-4 sm:px-6">
         {/* TOP HEADER */}
-        <div className="flex items-center justify-between mb-10">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-5 mb-8 sm:mb-10">
           {/* TITLE */}
           <h2
             data-aos="fade-right"
-            className="text-4xl tracking-[-1px] text-[#232323] leading-none"
+            className="text-2xl sm:text-3xl lg:text-4xl tracking-[-1px] text-[#232323] leading-tight"
           >
             latest Featured Wheel Aligners
           </h2>
- 
+
           {/* TABS */}
           <div
             data-aos="fade-left"
-            className="flex items-center overflow-hidden border border-black/5"
+            className="flex items-center self-start overflow-hidden border border-black/5"
           >
             {tabs.map((tab) => (
               <button
                 key={tab.category}
                 onClick={() => switchTab(tab.category)}
-                className={` cursor-pointer h-14.5 px-10 font-bold text-[16px] transition-colors duration-200 ${
+                className={`cursor-pointer h-12 sm:h-14.5 px-6 sm:px-10 font-bold text-[14px] sm:text-[16px] transition-colors duration-200 ${
                   activeTab === tab.category
                     ? "bg-[#f0df32] text-black"
                     : "bg-transparent text-[#232323]"
@@ -118,26 +118,26 @@ export default function SharkProducts() {
 
         {/* PRODUCT AREA */}
         <div className="relative">
-          {/* LEFT ARROW */}
+          {/* LEFT ARROW — desktop only (avoids overflow-hidden clipping on mobile) */}
           <button
             onClick={() => setPage((p) => p - 1)}
             disabled={page === 0}
-            className="cursor-pointer absolute -left-6.5 top-[40%] -translate-y-1/2 z-20 w-13.5 h-13.5 rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
+            className="cursor-pointer hidden lg:flex absolute -left-6.5 top-[40%] -translate-y-1/2 z-20 w-13.5 h-13.5 rounded-full bg-[#f0df32] items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
           >
             <ChevronLeft size={24} strokeWidth={2.2} />
           </button>
 
-          {/* RIGHT ARROW */}
+          {/* RIGHT ARROW — desktop only */}
           <button
             onClick={() => setPage((p) => p + 1)}
             disabled={page >= totalPages - 1}
-            className="cursor-pointer absolute -right-6.5 top-[40%] -translate-y-1/2 z-20 w-13.5 h-13.5 rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
+            className="cursor-pointer hidden lg:flex absolute -right-6.5 top-[40%] -translate-y-1/2 z-20 w-13.5 h-13.5 rounded-full bg-[#f0df32] items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
           >
             <ChevronRight size={24} strokeWidth={2.2} />
           </button>
 
           {/* CARDS */}
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {visible.map((item, index) => (
               <div
                 key={item.title}
@@ -146,7 +146,7 @@ export default function SharkProducts() {
                 className="group bg-[#efefef] border border-black/5 shadow-[0_6px_18px_rgba(0,0,0,0.12)] hover:-translate-y-2 transition-all duration-500"
               >
                 {/* IMAGE AREA */}
-                <div className="relative h-97.5 bg-[#ececec] overflow-hidden">
+                <div className="relative h-64 sm:h-80 lg:h-97.5 bg-[#ececec] overflow-hidden">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -156,26 +156,47 @@ export default function SharkProducts() {
                 </div>
 
                 {/* CONTENT */}
-                <div className="px-6 py-7">
-                  <h3 className="text-[20px] leading-[1.35] tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
+                <div className="px-5 sm:px-6 py-6 sm:py-7">
+                  <h3 className="text-[17px] sm:text-[20px] leading-[1.35] tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
                     {item.title}
                   </h3>
 
-                  <p className="mt-5 text-[20px] font-black text-[#8a8a8a]">
+                  <p className="mt-4 sm:mt-5 text-[18px] sm:text-[20px] font-black text-[#8a8a8a]">
                     {item.amount}
                   </p>
                 </div>
               </div>
             ))}
           </div>
+
+          {/* MOBILE / TABLET NAVIGATION */}
+          <div className="flex lg:hidden items-center justify-center gap-5 mt-8">
+            <button
+              onClick={() => setPage((p) => p - 1)}
+              disabled={page === 0}
+              className="cursor-pointer w-11 h-11 rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
+            >
+              <ChevronLeft size={20} strokeWidth={2.2} />
+            </button>
+            <span className="text-sm font-semibold text-[#6c6c6c]">
+              {page + 1} / {totalPages}
+            </span>
+            <button
+              onClick={() => setPage((p) => p + 1)}
+              disabled={page >= totalPages - 1}
+              className="cursor-pointer w-11 h-11 rounded-full bg-[#f0df32] flex items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 disabled:opacity-30 disabled:cursor-default disabled:hover:scale-100"
+            >
+              <ChevronRight size={20} strokeWidth={2.2} />
+            </button>
+          </div>
         </div>
 
         {/* BOTTOM AREA */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-12 mt-16">
+        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 sm:gap-12 mt-12 sm:mt-16">
           {/* DESCRIPTION */}
           <p
             data-aos="fade-right"
-            className="max-w-175 text-[16px] leading-loose text-[#6c6c6c] font-medium"
+            className="max-w-175 text-[15px] sm:text-[16px] leading-loose text-[#6c6c6c] font-medium"
           >
             We understand the importance of staying up-to-date with the latest
             trends and technologies. That's why we are continually investing in

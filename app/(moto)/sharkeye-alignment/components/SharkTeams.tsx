@@ -32,7 +32,7 @@ export default function SharkTeams() {
 
   return (
     <section className="w-full bg-[#ffff] py-24 overflow-hidden">
-      <div className="max-w-380 mx-auto">
+      <div className="max-w-380 mx-auto px-4 sm:px-6">
         {/* SECTION TITLE */}
         <div
           data-aos="fade-up"

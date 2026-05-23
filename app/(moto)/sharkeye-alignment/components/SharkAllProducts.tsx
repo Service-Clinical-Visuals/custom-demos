@@ -35,34 +35,9 @@ export default function SharkAllProducts() {
       <div className="absolute inset-0">
        <img src="/moto/shark/shark-products-bg.jpg" alt="bg" className="w-full h-full object-cover"/>
         </div>
-
-        {/* LARGE SHAPES */}
-        <div className="absolute right-[-140px] bottom-[-120px] rotate-[28deg] opacity-[0.04]">
-          <div className="grid grid-cols-2 gap-10">
-            {Array.from({ length: 4 }).map((_, i) => (
-              <div
-                key={i}
-                className="w-[220px] h-[220px] bg-white"
-              />
-            ))}
-          </div>
-        </div> 
-
-        {/* DOT PATTERN */}
-        <div className="absolute top-[90px] right-[30px] grid grid-cols-5 gap-8 opacity-40">
-          {Array.from({ length: 20 }).map((_, i) => (
-            <span
-              key={i}
-              className="w-[10px] h-[10px] rounded-full bg-[#8f7442]"
-            />
-          ))}
-        </div>
-
-        {/* BOTTOM GOLDEN GLOW */}
-        <div className="absolute bottom-[-120px] left-1/3 w-[240px] h-[240px] rounded-full bg-[#8f7442]/20 blur-[100px]" />
-
+        
       {/* CONTENT */}
-      <div className="relative z-10 max-w-380 mx-auto ">
+      <div className="relative z-10 max-w-380 mx-auto px-4 sm:px-6">
         {/* HEADER */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
           {/* TITLE */}

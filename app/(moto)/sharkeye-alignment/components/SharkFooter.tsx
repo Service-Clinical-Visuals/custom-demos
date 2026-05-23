@@ -36,7 +36,7 @@ export default function SharkFooter() {
     <footer className="relative overflow-hidden bg-[#f5f5f5]">
       {/* TOP BRAND BAR */}
       <div className="w-full border-b border-black/5 bg-[#F5F5F5]">
-        <div className="max-w-380 mx-auto py-14">
+        <div className="max-w-380 mx-auto py-14 px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             {/* LEFT LOGO */}
             <div
@@ -104,7 +104,7 @@ export default function SharkFooter() {
         </div>
 
         {/* CONTENT */}
-        <div className="relative z-10 max-w-380 mx-auto py-16">
+        <div className="relative z-10 max-w-380 mx-auto py-16 px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-14">
             {/* NEWSLETTER */}
             <div data-aos="fade-up">
