@@ -209,7 +209,7 @@ export default function SharkProducts() {
           {/* DESCRIPTION */}
           <p
             data-aos="fade-right"
-            className="max-w-175 text-[15px] sm:text-[16px] leading-loose text-[#6c6c6c] font-medium"
+            className="max-w-200 text-[15px] sm:text-[16px] leading-loose text-[#6c6c6c] font-medium"
           >
             Equip your workshop with SharkEye’s premium range of commercial-grade laser aligners. From the versatile Falcon to the heavy-duty BigEye, our systems deliver rapid, pinpoint accuracy to optimize vehicle handling, reduce tire wear, and maximize your shop's throughput.
           </p>
