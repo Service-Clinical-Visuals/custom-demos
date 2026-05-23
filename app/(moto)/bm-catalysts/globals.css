@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #1B1537;
+    --primary-light: #261e4d;
+    --accent: #00e5ff;
+    --text-dark: #1B1537;
+    --bg-light: #f8f9fd;
+  }
+
+  html,
+  body {
+    @apply font-exo2 text-[17px] text-[#6E777D] bg-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-oxanium), sans-serif;
+  }
+
+  p {
+    font-family: var(--font-exo2), sans-serif;
+    @apply text-[16px] lg:text-[17px];
+    font-weight: 400;
+    line-height: 1.6;
+  }
+}
+
+section {
+  overflow: hidden;
+}
+
+@theme {
+  --font-oxanium: var(--font-oxanium);
+  --font-exo2: var(--font-exo2);
+}
