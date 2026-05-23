@@ -114,7 +114,7 @@ export default function SharkChoose() {
           {/* RIGHT IMAGE AREA */}
           <div
             data-aos="fade-left"
-            className="relative min-h-[760px] overflow-hidden"
+            className="relative h-auto md:min-h-[760px] overflow-hidden"
           >
             <img src="/moto/shark/shark-choose.png" alt="choose" className="w-full h-full object-cover" />
           </div>

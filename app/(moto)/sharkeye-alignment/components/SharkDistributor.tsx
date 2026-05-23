@@ -59,7 +59,7 @@ export default function SharkDistributor() {
       {/* TOP DISTRIBUTOR BANNER */}
       <div
         data-aos="fade-down"
-        className="relative w-full h-[160px] bg-white overflow-hidden border-b border-black/5"
+        className="relative w-full h-[200px] bg-white overflow-hidden border-b border-black/5"
       >
         <img src="/moto/shark/shark-distributor.png" alt="distributor" className="w-full h-full object-cover" />
       </div>
