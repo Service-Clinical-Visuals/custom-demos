@@ -15,7 +15,7 @@ export default function SharkHero() {
           data-aos="fade-up"
           className="max-w-[420px] text-white"
         >
-          <h1 className="text-[34px] leading-[1.1]  tracking-[-1px]">
+          <h1 className="text-[44px] leading-[1.1]  tracking-[-1px]">
             Trusted Wheel Alignment Solutions
           </h1>
 
@@ -23,7 +23,7 @@ export default function SharkHero() {
             Explore Products
 
             {/* ANGLED EDGE */}
-            <span className="absolute right-[-18px] top-0 border-t-[24px] border-b-[24px] border-l-[18px] border-t-transparent border-b-transparent border-l-[#f0df32]" />
+            <span className="absolute right-[-18px] top-0 border-t-[24px] border-b-[24px] border-l-[18px] border-t-[#f0df32] border-b-transparent border-l-[#f0df32]" />
           </button>
         </div>
       </div>

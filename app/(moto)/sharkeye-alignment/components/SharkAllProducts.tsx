@@ -31,11 +31,13 @@ export default function SharkAllProducts() {
 
   return (
     <section className="relative w-full overflow-hidden bg-[#181315] py-24">
+
+      <div className="absolute inset-0 z-[1] bg-[#231f2072]"></div>
       {/* BACKGROUND */}
       <div className="absolute inset-0">
        <img src="/moto/shark/shark-products-bg.jpg" alt="bg" className="w-full h-full object-cover"/>
         </div>
-        
+
       {/* CONTENT */}
       <div className="relative z-10 max-w-380 mx-auto px-4 sm:px-6">
         {/* HEADER */}
@@ -53,7 +55,7 @@ export default function SharkAllProducts() {
               View All Product
 
               {/* ANGLED EDGE */}
-              <span className="absolute top-0 -right-4.5 border-t-28 border-b-28 border-l-18 border-t-transparent border-b-transparent border-l-[#f0df32]" />
+              <span className="absolute top-0 -right-4.5 border-t-28 border-b-28 border-l-18 border-t-[#f0df32] border-b-transparent border-l-[#f0df32]" />
             </button>
           </div>
         </div>
@@ -68,17 +70,20 @@ export default function SharkAllProducts() {
               key={item.title}
               data-aos="fade-up"
               data-aos-delay={index * 150}
-              className="group bg-[#efefef] border border-black/5 shadow-[0_12px_30px_rgba(0,0,0,0.35)] hover:-translate-y-2 transition-all duration-500"
+              className="group bg-[#efefef] border border-black/5 shadow-[0_12px_30px_rgba(0,0,0,0.35)] hover:-translate-y-3 hover:shadow-[0_28px_55px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out"
             >
               {/* IMAGE AREA */}
               <div className="relative h-97.5 bg-[#ededed] overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full bg-cover object-contain group-hover:scale-105 transition-all duration-500"
+                  className="w-full h-full bg-cover object-contain group-hover:scale-110 transition-all duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-black/20" />
               </div>
+
+              {/* YELLOW ACCENT BAR */}
+              <div className="h-[3px] bg-[#f0df32] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-left" />
 
               {/* CONTENT */}
               <div className="px-6 py-7">
