@@ -25,22 +25,22 @@ const ScalesIcon = () => (
 const stats = [
   {
     stat: "200M",
-    text: "We Manufacture Automotive Parts For Over 200 Million Vehicles Across Europe, Delivering Reliable Performance And Trusted Aftermarket Solutions Worldwide.",
+    text: "We manufacture automotive parts for over 200 million vehicles across Europe, delivering reliable performance and trusted aftermarket solutions worldwide.",
     icon: <img src="/bm-catalysts/images/parts-1.png" alt="Globe Icon" className="w-9 h-9 object-contain" />
   },
   {
     stat: "14%",
-    text: "Everything We Do Is Focussed On Exceeding Quality Standards As Well As Delivering Value E.G. Our Lambda Sensor Ports Are 14% Thicker Than Other Suppliers",
+    text: "Everything we do is focussed on exceeding quality standards as well as delivering value e.g. our lambda sensor ports are 14% thicker than other suppliers",
     icon: <img src="/bm-catalysts/images/parts-2.png" alt="Caliper Icon" className="w-9 h-9 object-contain" />
   },
   {
     stat: "409",
-    text: "We Manufacture Most Of Our Parts From Premium 409 Grade Stainless Steel Due To Its Strength And Resistance To Corrosion.",
+    text: "We manufacture most of our parts from premium 409 grade stainless steel due to its strength and resistance to corrosion.",
     icon: <PistonIcon />
   },
   {
     stat: "30%",
-    text: "On Average, We Can Reduce Your Stock Holdings By Up To 30% Whilst Actually Improving Your Car Parc Coverage - Ultimately Increasing Your Profits",
+    text: "On average, we can reduce your stock holdings by up to 30% whilst actually improving your car parc coverage - ultimately increasing your profits",
     icon: <ScalesIcon />
   }
 ];
@@ -51,14 +51,18 @@ export default function OurParts() {
       <div className="container mx-auto px-4 lg:px-8">
         
         {/* Header Block: Grid for perfect responsiveness and alignment */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16">
+        <div 
+          className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="lg:col-span-9">
             <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-bold text-[#333333] font-oxanium mb-2">
               Our Parts
             </h2>
             <hr className="w-20 border-t-2 border-[#1B1537]/80 my-3" />
             <p className="text-[#6E777D] font-medium leading-relaxed mt-4 font-exo2 max-w-4xl">
-              Delivering High-Quality, Durable, And Performance-Driven Automotive Solutions Designed To Meet The Evolving Demands Of The Automotive Aftermarket Industry. With Extensive Vehicle Coverage, Premium-Grade Materials, And Precision Engineering, Our Products Are Built To Provide Exceptional Reliability, Efficiency, And Long-Lasting Performance.
+              Delivering high-quality, durable, and performance-driven automotive solutions designed to meet the evolving demands of the automotive aftermarket industry. With extensive vehicle coverage, premium-grade materials, and precision engineering, our products are built to provide exceptional reliability, efficiency, and long-lasting performance.
             </p>
           </div>
           
@@ -83,6 +87,9 @@ export default function OurParts() {
               key={index}
               className="bg-white rounded-[2rem] p-8 pb-20 flex flex-col items-center text-center relative group hover:scale-[1.02] transition-all duration-300"
               style={{ boxShadow: "0px 3px 8px 0px #0000003D" }}
+              data-aos="fade-up"
+              data-aos-delay={index * 150}
+              data-aos-duration="1000"
             >
               {/* Stat Value */}
               <span className="text-[36px] lg:text-[40px] font-bold text-[#1B1537] font-oxanium leading-tight mb-4 group-hover:scale-105 transition-transform duration-300 block">
@@ -107,13 +114,17 @@ export default function OurParts() {
         </div>
 
         {/* Centered Separation Horizontal Divider & Big Quote */}
-        <div className="mt-12">
+        <div 
+          className="mt-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <hr className="border-t border-gray-200/80 my-16" />
           
           <h3
             className="text-center text-[20px] md:text-xl lg:text-[26px] font-extrabold text-[#281B68] font-oxanium max-w-5xl mx-auto leading-relaxed px-4 tracking-wider italic"
           >
-            "Delivering High-Quality Automotive Parts With Exceptional Coverage, Durable Engineering, And Trusted Performance Across Europe."
+            "Delivering high-quality automotive parts with exceptional coverage, durable engineering, and trusted performance across Europe."
           </h3>
         </div>
 

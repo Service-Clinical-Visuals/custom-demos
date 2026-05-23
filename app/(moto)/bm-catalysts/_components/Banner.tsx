@@ -18,28 +18,40 @@ export default function Banner() {
         <div className="relative z-20 container mx-auto h-full flex items-end pb-20 px-8 lg:px-12">
           <div className="max-w-3xl text-white">
             <h1
-              className="text-[32px] lg:text-[42px] xl:text-[48px] font-bold leading-[1.1] mb-6 text-white text-shadow-xl"
+              className="text-[32px] lg:text-[42px] xl:text-[48px] font-bold leading-[1.1] mb-6 text-white text-shadow-xl font-oxanium"
+              data-aos="fade-up"
+              data-aos-duration="1000"
             >
               Those Who Know <br className="hidden lg:block" />
               Quality, Know BM
             </h1>
 
             <p
-              className="lg:text-[17px] text-[16px] text-white mb-4 max-w-2xl leading-relaxed text-shadow-md"
+              className="lg:text-[17px] text-[16px] text-white mb-4 max-w-2xl leading-relaxed text-shadow-md font-exo2"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
             >
               Europe's Leading Manufacturer Of Aftermarket Hot End Emissions Products
             </p>
 
-            <Button
-              href="#products"
-              variant="white"
-              size="md"
-              rounded="full"
-              hasArrow
-              className="px-10 shadow-xl font-bold hover:bg-white/95"
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              className="inline-block"
             >
-              Learn More
-            </Button>
+              <Button
+                href="#products"
+                variant="white"
+                size="md"
+                rounded="full"
+                hasArrow
+                className="px-10 shadow-xl font-bold hover:bg-white/95"
+              >
+                Learn More
+              </Button>
+            </div>
           </div>
         </div>
       </div>

@@ -58,14 +58,14 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`relative py-1 text-white hover:text-white transition-all font-semibold font-exo2 tracking-wide ${
+                className={`relative py-1 text-white hover:text-white transition-all font-semibold font-exo2 tracking-wide group ${
                   isActive ? "text-white" : "text-white/70"
                 }`}
               >
                 {link.name}
-                {isActive && (
-                  <span className="absolute bottom-0 left-0 w-full h-[2.5px] bg-white rounded-full transition-all duration-300" />
-                )}
+                <span className={`absolute bottom-0 left-0 h-[2.5px] bg-white rounded-full transition-all duration-300 ${
+                  isActive ? "w-full" : "w-0 group-hover:w-full"
+                }`} />
               </Link>
             );
           })}

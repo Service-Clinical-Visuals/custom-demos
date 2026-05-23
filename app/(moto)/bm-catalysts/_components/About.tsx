@@ -10,7 +10,11 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-18 items-center">
           
           {/* Left Column: Custom Rounded Image Grid (1:1 with design) */}
-          <div className="w-full flex flex-col gap-6">
+          <div 
+            className="w-full flex flex-col gap-6"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             
             {/* Top Wide Image - Factory Aerial view */}
             <div className="rounded-[2.5rem] overflow-hidden shadow-lg relative group aspect-[2.1/1] bg-slate-100">
@@ -46,7 +50,11 @@ export default function About() {
           </div>
 
           {/* Right Column: High-Fidelity Text Content */}
-          <div className="w-full flex flex-col justify-center">
+          <div 
+            className="w-full flex flex-col justify-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             
             {/* Title Section */}
             <div>
@@ -59,19 +67,19 @@ export default function About() {
             {/* Paragraphs */}
             <div className="space-y-4 text-[#6E777D] leading-relaxed font-exo2">
               <p>
-                As Europe's Leading Manufacturer Of Aftermarket Hot End Emissions Products, You Would Expect Us To Deliver A Wide Range Of Quality Focussed Parts That Are Easy To Order. What You May Not Expect Is A Company That Has An Ethos Of Continual Investment And Improvement To Deliver The Best Possible Working Partnerships.
+                As Europe’s leading manufacturer of aftermarket hot end emissions products, you would expect us to deliver a wide range of quality focussed parts that are easy to order. What you may not expect is a company that has an ethos of continual investment and improvement to deliver the best possible working partnerships.
               </p>
               <p>
-                When You Work With Us, You Will Find That Our Approach Is Focussed On Exceeding The Aftermarket's Expectations On Quality. However, We Also Believe In Working In Partnership, Helping You To Increase Your Profits, Offer A Wider Range And Reduce Your Stock Holdings So That You Can Ensure Your Customers Have The Very Best Choice Available.
+                When you work with us, you will find that our approach is focussed on exceeding the aftermarket’s expectations on quality. However, we also believe in working in partnership, helping you to increase your profits, offer a wider range and reduce your stock holdings so that you can ensure your customers have the very best choice available.
               </p>
               <p>
-                By Aligning Our Business To Suit Your Needs, We Can Offer Bespoke Solutions That Are Specific To Your Customers. We Know That Details Matter So We Invest In Quality With Our Own Best-In-Class Manufacturing Processes.
+                By aligning our business to suit your needs, we can offer bespoke solutions that are specific to your customers. We know that details matter so we invest in quality with our own best-in-class manufacturing processes.
               </p>
               {/* <p>
                 We Lead The Way In Providing Practical And Fitting Support As Well As Cataloguing Assistance. From Product Guidance To Specialist Sector Support And Education, We Can Help You Every Step Of The Way. Visit Our Products Page For More Information And To See Our Ever-Expanding Range.
               </p> */}
               <p>
-                BM Catalysts Bring Precision Engineering And Partner-First Service To Your Business.
+                BM Catalysts bring precision engineering and partner-first service to your business.
               </p>
             </div>
 

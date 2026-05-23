@@ -14,7 +14,11 @@ export default function LargestRange() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* Left Column: Heading and Trigger Button */}
-          <div className="lg:col-span-6 flex flex-col justify-center space-y-8">
+          <div 
+            className="lg:col-span-6 flex flex-col justify-center space-y-8"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h2 className="text-[30px] md:text-[34px] lg:text-[38px] font-bold text-white font-oxanium mb-4 max-w-3xl">
               Our Largest Range In Europe Covering Over 90% Of The Car Parc Sites
             </h2>
@@ -34,7 +38,11 @@ export default function LargestRange() {
           </div>
 
           {/* Right Column: Vehicles Silhouette Image */}
-          <div className="lg:col-span-6 flex justify-center items-center">
+          <div 
+            className="lg:col-span-6 flex justify-center items-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div className="w-full max-w-lg lg:max-w-xl">
               <img 
                 src="/bm-catalysts/images/vehicles.png" 

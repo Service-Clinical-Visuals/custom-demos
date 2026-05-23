@@ -13,7 +13,11 @@ export default function QualityStandard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-12">
           
           {/* Left Column: Rounded Branded Warehouse Photo */}
-          <div className="w-full">
+          <div 
+            className="w-full"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="rounded-[2.5rem] overflow-hidden shadow-2xl relative group aspect-[1.45/1] bg-slate-100">
               <img
                 src="/bm-catalysts/images/quality.jpg"
@@ -24,7 +28,11 @@ export default function QualityStandard() {
           </div>
 
           {/* Right Column: Copywriting content and promise trigger */}
-          <div className="w-full flex flex-col justify-center">
+          <div 
+            className="w-full flex flex-col justify-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             
             <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-bold text-[#333333] font-oxanium mb-2">
               Make Us Part Of Your Quality Standard
@@ -85,16 +93,19 @@ export default function QualityStandard() {
           {/* Card 1: Fit and Performance */}
           <div
             className="relative z-10 bg-white rounded-[2rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.02)] border border-gray-100/60 flex flex-col md:flex-row items-start gap-6 hover:shadow-[0_15px_45px_rgb(0,0,0,0.06)] transition-all duration-300"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
           >
             <div className="w-12 h-12 rounded-full bg-[#1B1537]/5 flex items-center justify-center shrink-0 text-[#1B1537] shadow-sm">
               <img src="/bm-catalysts/images/tyre.png" alt="Fit and Performance" className="w-6 h-6" />
             </div>
             <div>
               <h4 className="text-lg font-bold text-[#333333] font-oxanium mb-2 tracking-wide">
-                High-Quality Products With Superior Fit And Performance
+                High-quality products with superior fit and performance
               </h4>
               <p className="text-[#6E777D] text-[16px] leading-relaxed font-exo2">
-                Our Products Are Engineered For Exceptional Fitment, Durability, And Reliable Performance, Delivering Consistent Quality And Efficiency For Demanding Automotive Applications.
+                Our products are engineered for exceptional fitment, durability, and reliable performance, delivering consistent quality and efficiency for demanding automotive applications.
               </p>
             </div>
           </div>
@@ -102,16 +113,19 @@ export default function QualityStandard() {
           {/* Card 2: Exceed Standards */}
           <div
             className="relative z-10 bg-white rounded-[2rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.02)] border border-gray-100/60 flex flex-col md:flex-row items-start gap-6 hover:shadow-[0_15px_45px_rgb(0,0,0,0.06)] transition-all duration-300"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
           >
             <div className="w-12 h-12 rounded-full bg-[#1B1537]/5 flex items-center justify-center shrink-0 text-[#1B1537] shadow-sm">
               <img src="/bm-catalysts/images/tyre.png" alt="Fit and Performance" className="w-6 h-6" />
             </div>
             <div>
               <h4 className="text-lg font-bold text-[#333333] font-oxanium mb-2 tracking-wide">
-                Rigorously Tested To Exceed Quality Standards
+                Rigorously tested to exceed quality standards
               </h4>
               <p className="text-[#6E777D] text-[16px] leading-relaxed font-exo2">
-                Every Component Undergoes Rigorous Testing And Detailed Quality Assurance Processes To Ensure Exceptional Durability, Reliability, Efficiency, And Long-Lasting Aftermarket Performance.
+                Every component undergoes rigorous testing and detailed quality assurance processes to ensure exceptional durability, reliability, efficiency, and long-lasting aftermarket performance.
               </p>
             </div>
           </div>
