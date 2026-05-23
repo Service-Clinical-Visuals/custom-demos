@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
           
           {/* Column 1: Brand Info */}
-          <div className="flex flex-col lg:col-span-4" data-aos="fade-up" data-aos-delay="0">
+          <div className="flex flex-col lg:col-span-4">
             <div className="mb-8">
               {/* Logo text - mimicking the visual style */}
               <img src="/otopront/images/footer-logo.png" alt="otopront-logo" className="w-64 lg:w-80" />
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="flex flex-col lg:col-span-2" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex flex-col lg:col-span-2">
             <h4 className="text-[#111111] font-bold mb-6 text-[18px] lg:text-[22px]">Quick Links</h4>
             <ul className="space-y-4">
               {["Home", "About Us", "Our Products", "News", "Service Request"].map((link, index) => (
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Services */}
-          <div className="flex flex-col lg:col-span-3" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex flex-col lg:col-span-3">
             <h4 className="text-[#111111] font-bold mb-6 text-[18px] lg:text-[22px]">Services</h4>
             <ul className="space-y-4">
               {["Customer Service", "Practice planning", "IT service & integration", "Training center"].map((link, index) => (
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Customer Service */}
-          <div className="flex flex-col lg:col-span-3" data-aos="fade-up" data-aos-delay="300">
+          <div className="flex flex-col lg:col-span-3">
             <h4 className="text-[#111111] font-bold mb-6 text-[18px] lg:text-[22px]">Customer Service Germany</h4>
             <p className="text-[#484848] leading-relaxed mb-6">
               Eduard Martens,<br />
@@ -80,7 +80,7 @@ export default function Footer() {
         <div className="w-full h-[1px] bg-gray-200 mb-6"></div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6" data-aos="fade-up" data-aos-delay="400">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           
           {/* Left: Legal & Copyright */}
           <div className="flex flex-col items-center md:items-start space-y-2">

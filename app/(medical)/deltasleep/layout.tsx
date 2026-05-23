@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Geist } from "next/font/google"; 
+import { Geist } from "next/font/google";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 const geist = Geist({
@@ -10,13 +10,13 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Deltasleep.com",
+  title: "Deltasleep",
   description: "Deltasleep",
   icons: {
-    icon: "/cathegenix/cathe-favicon.png",
+    icon: "/delta/delta-logo.png",
   },
 };
- 
+
 export default function RootLayout({
   children,
 }: {
@@ -24,9 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geist.variable} antialiased`}>
+      <body className={`${geist.variable} font-sans antialiased`}>
         <VideoProvider>
-        {children}
+          {children}
         </VideoProvider>
       </body>
     </html>

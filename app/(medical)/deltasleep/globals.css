@@ -1,7 +1,32 @@
 @import "tailwindcss";
 @import "aos/dist/aos.css";
 
-html, body {
+@font-face {
+  font-family: 'AvantGarde Bk BT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('AvantGarde Bk BT'), url('https://fonts.cdnfonts.com/s/13880/AVGARDN_2.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvantGarde Bk BT';
+  font-style: normal;
+  font-weight: 700;
+  src: local('AvantGarde Bk BT'), url('https://fonts.cdnfonts.com/s/13880/AVGARDD_2.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvantGarde Bk BT';
+  font-style: italic;
+  font-weight: 700;
+  src: local('AvantGarde Bk BT'), url('https://fonts.cdnfonts.com/s/13880/AVGARDDO_2.woff') format('woff');
+  font-display: swap;
+}
+
+html,
+body {
   scroll-behavior: auto;
 }
 
@@ -13,7 +38,7 @@ html, body {
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sora: var(--font-sora);
+  --font-sans: 'AvantGarde Bk BT', var(--font-geist, sans-serif);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,5 +51,6 @@ html, body {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sora);
+  font-family: 'AvantGarde Bk BT', var(--font-geist, sans-serif);
 }
+

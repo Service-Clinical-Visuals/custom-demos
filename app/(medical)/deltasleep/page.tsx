@@ -5,17 +5,17 @@ import { useEffect } from "react";
 import Lenis from "lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import DeltaNavbar from "./components/DeltaNavbar";
-import DeltaHero from "./components/DeltaHero";
-import DeltaAbout from "./components/DeltaAbout";
-import DeltaProducts from "./components/DeltaProducts";
-import DeltaComfort from "./components/DeltaComfort";
-import DeltaTech from "./components/DeltaTech";
-import DeltaProductScroll from "./components/DeltaProductScroll";
-import DeltaFeaturedProduct from "./components/DeltaFeaturedProduct";
-import DeltaFaq from "./components/DeltaFaq";
-import DeltaFooter from "./components/DeltaFooter";
-import DeltaShowcase from "./components/DeltaShowcase";
+import DeltaNavbar from "./_components/DeltaNavbar";
+import DeltaHero from "./_components/DeltaHero";
+import DeltaAbout from "./_components/DeltaAbout";
+import DeltaProducts from "./_components/DeltaProducts";
+import DeltaComfort from "./_components/DeltaComfort";
+import DeltaTech from "./_components/DeltaTech";
+import DeltaProductScroll from "./_components/DeltaProductScroll";
+import DeltaFeaturedProduct from "./_components/DeltaFeaturedProduct";
+import DeltaFaq from "./_components/DeltaFaq";
+import DeltaFooter from "./_components/DeltaFooter";
+import DeltaShowcase from "./_components/DeltaShowcase";
 
 export default function Home() {
   AOSInit();
@@ -43,19 +43,19 @@ export default function Home() {
       ScrollTrigger.getAll().forEach((t) => t.kill());
     };
   }, []);
-  return ( 
+  return (
     <>
-    <DeltaNavbar/>
-    <DeltaHero/>
-    <DeltaProductScroll/>
-    <DeltaAbout/>
-    <DeltaProducts/>
-    <DeltaShowcase/>
-    <DeltaComfort/>
-    <DeltaTech/>
-    <DeltaFeaturedProduct/>
-    <DeltaFaq/>
-    <DeltaFooter/>
+      <DeltaNavbar />
+      <DeltaHero />
+      <DeltaProductScroll />
+      <DeltaAbout />
+      <DeltaProducts />
+      <DeltaShowcase />
+      <DeltaComfort />
+      <DeltaTech />
+      <DeltaFeaturedProduct />
+      <DeltaFaq />
+      <DeltaFooter />
     </>
-  ); 
+  );
 }
