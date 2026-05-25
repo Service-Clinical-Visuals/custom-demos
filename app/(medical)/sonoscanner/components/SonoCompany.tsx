@@ -11,7 +11,7 @@ const features = [
 
 export default function SonoCompany() {
   return (
-    <section className="relative bg-[#f5f5f5] py-24 overflow-hidden">
+    <section className="relative bg-[#f5f5f5] py-8 md:py-24 sm:py-12 overflow-hidden">
       <div className="max-w-[1600px] mx-auto px-8 lg:px-11">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* LEFT CONTENT */}

@@ -19,11 +19,11 @@ const features = [
     description:
       "Experience the most beautiful ultrasound image in any condition, with the optimized full-screen interface.",
   },
-  {
-    title: "UNIQUE ACTIVEPROBE TECHNOLOGY :",
-    description:
-      "The U-Lite Pro's ultra-light Full HD probes incorporate an exclusive image optimization system.",
-  },
+  // {
+  //   title: "UNIQUE ACTIVEPROBE TECHNOLOGY :",
+  //   description:
+  //     "The U-Lite Pro's ultra-light Full HD probes incorporate an exclusive image optimization system.",
+  // },
 ];
 
 export default function SonoImage() {
