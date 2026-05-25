@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="lg:col-span-4 flex flex-col items-start gap-4">
             <Link href="#" className="flex items-center group">
               <img
-                src="/medical/o-two/logo.png"
+                src="/o-two/logo.png"
                 alt="O-Two Medical Technologies"
                 className="w-[250px] object-contain brightness-0 invert"
               />

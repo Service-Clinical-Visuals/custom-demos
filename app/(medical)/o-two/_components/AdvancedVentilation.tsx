@@ -24,7 +24,7 @@ export default function AdvancedVentilation() {
   ];
 
   return (
-    <section className="py-12 md:py-20 lg:py-24 text-white relative overflow-hidden bg-[url('/medical/o-two/home/bg.jpg')] bg-cover bg-center" id="ventilation">
+    <section className="py-12 md:py-20 lg:py-24 text-white relative overflow-hidden bg-[url('/o-two/home/bg.jpg')] bg-cover bg-center" id="ventilation">
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#0091d5]/80 " />
 

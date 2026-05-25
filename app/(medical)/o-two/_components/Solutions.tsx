@@ -5,27 +5,27 @@ export default function Solutions() {
     {
       title: "eAdvantage",
       description: "Meet the revolutionary analgesia device that is set to redefine patient care standards with reliable performance and fast, effective pain relief for healthcare environments.",
-      imageSrc: "/medical/o-two/home/section-2-1.png",
+      imageSrc: "/o-two/home/section-2-1.png",
       imageAlt: "eAdvantage Product",
     },
     {
       title: "e700 Ventilator",
       description: "Discover the game-changing power of the e700 Transport Ventilator – unlocking unmatched performance and precision in patient care.",
-      imageSrc: "/medical/o-two/home/section-2-2.png",
+      imageSrc: "/o-two/home/section-2-2.png",
       imageAlt: "e700 Ventilator Product",
     },
     {
       title: "Single Use CPAP",
       description: "Award-winning, compact, low-flow ventilation designed for respiratory distressed patients with reliable care across emergency and critical care settings.",
-      imageSrc: "/medical/o-two/home/section-2-3.png",
+      imageSrc: "/o-two/home/section-2-3.png",
       imageAlt: "Single Use CPAP Product",
     },
   ];
 
   return (
-    <section className="py-12 md:py-16 lg:py-24 relative overflow-hidden bg-[url('/medical/o-two/home/bg.jpg')] bg-cover bg-center" id="products">
+    <section className="py-12 md:py-16 lg:py-24 relative overflow-hidden bg-[url('/o-two/home/bg.jpg')] bg-cover bg-center" id="products">
       {/* Overlay */}
-      <div className="absolute inset-0 bg-white/80 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 bg-[#97deff] opacity-80 backdrop-blur-[2px]" />
 
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
@@ -54,7 +54,7 @@ export default function Solutions() {
               data-aos-delay={index * 150}
             >
               <div>
-                <div className="aspect-square rounded-[2rem] overflow-hidden mb-6">
+                <div className="aspect-square rounded-[2rem] overflow-hidden mb-6 bg-[#def5ff]">
                   <img
                     src={card.imageSrc}
                     alt={card.imageAlt}

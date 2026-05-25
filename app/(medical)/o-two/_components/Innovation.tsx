@@ -33,7 +33,7 @@ export default function Innovation() {
             data-aos-delay="200"
           >
             <img
-              src="/medical/o-two/home/section-1-1.jpg"
+              src="/o-two/home/section-1-1.jpg"
               alt="O-Two Exhibition Booth"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -45,7 +45,7 @@ export default function Innovation() {
             data-aos-delay="300"
           >
             <img
-              src="/medical/o-two/home/section-1-2.jpg"
+              src="/o-two/home/section-1-2.jpg"
               alt="O-Two Product Display"
               className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
             />
