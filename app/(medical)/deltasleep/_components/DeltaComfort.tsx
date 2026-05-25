@@ -29,8 +29,10 @@ const features = [
 ];
 
 export default function DeltaComfort() {
-  const [hoveredIndex, setHoveredIndex] = useState<number>(0);
-  const activeImg = features[hoveredIndex].hoverImg;
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const displayIndex = hoveredIndex ?? activeIndex;
+  const activeImg = features[displayIndex].hoverImg;
 
   return (
     <section className="relative overflow-hidden bg-[#dfe7e3] py-24 lg:py-28">
@@ -55,7 +57,7 @@ export default function DeltaComfort() {
         </div>
 
         {/* Main Layout */}
-        <div className="mt-20 grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10 items-start">
+        <div className="mt-20 grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10 items-center">
           {/* Left Content */}
           <div data-aos="fade-right">
             {/* Intro Paragraph */}
@@ -66,29 +68,31 @@ export default function DeltaComfort() {
             </p>
 
             {/* Feature List */}
-            <div className="mt-5 flex flex-col">
+            <div className="mt-5 flex flex-col gap-8">
               {features.map((item, index) => (
                 <div
                   key={index}
-                  className={`py-3 border-b border-[#b8c0bc] px-4 rounded-[10px] cursor-pointer transition-colors duration-200 ${hoveredIndex === index ? "bg-white" : ""
+                  className={`py-3 px-4 rounded-[10px] border border-[#979797] cursor-pointer transition-colors duration-200 ${displayIndex === index ? "bg-[#00695f]" : ""
                     }`}
                   onMouseEnter={() => setHoveredIndex(index)}
-                  onMouseLeave={() => setHoveredIndex(0)}
+                  onMouseLeave={() => { setActiveIndex(index); setHoveredIndex(null); }}
                 >
                   {/* Badge */}
-                  <div className="inline-flex items-center justify-center px-6 py-2 rounded-[3px] bg-[#00695f]">
-                    <span className="text-white text-[16px] font-medium">
-                      {item.badge}
-                    </span>
-                  </div>
 
                   {/* Title */}
-                  <h3 className="mt-3 text-[#2a2a2a] text-xl font-semibold leading-none">
-                    {item.title}
-                  </h3>
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className={`mt-3 text-[#2a2a2a] text-xl font-semibold leading-none ${displayIndex === index ? "text-white" : "text-[#2a2a2a]"}`}>
+                      {item.title}
+                    </h3>
+                    <div className={`inline-flex items-center justify-center px-3 py-2 rounded-full ${displayIndex === index ? "bg-white" : "bg-[#00695f]"}`}>
+                      <span className={`text-[14px] font-bold ${displayIndex === index ? "text-[#00695f]" : "text-white"}`}>
+                        {item.badge}
+                      </span>
+                    </div>
+                  </div>
 
                   {/* Description */}
-                  <p className="mt-3 text-[#444444] text-[16px] leading-[1.9] ">
+                  <p className={`mt-3 text-[#666666] text-[16px] leading-[1.9] ${displayIndex === index ? "text-white" : "text-[#666666]"}`}>
                     {item.description}
                   </p>
                 </div>

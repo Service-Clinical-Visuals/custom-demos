@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontHeading.variable} ${fontBody.variable} antialiased`}>
-        <VideoProvider website="absolute-alignment">
+        <VideoProvider website="sharkeye-alignment">
           {children}
         </VideoProvider>
       </body>

@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import {
   Facebook,
@@ -76,33 +74,11 @@ export default function SharkFooter() {
       {/* MAIN FOOTER */}
       <div className="relative bg-[#181315] overflow-hidden">
         {/* BACKGROUND */}
-        <div className="absolute inset-0">
-          {/* DARK GRADIENT */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.04),transparent_45%),linear-gradient(to_right,#171214,#1d1719,#161214)]" />
-
-          {/* LARGE SHAPES */}
-          <div className="absolute right-[-180px] top-[-40px] rotate-[28deg] opacity-[0.04]">
-            <div className="grid grid-cols-2 gap-10">
-              {Array.from({ length: 4 }).map((_, i) => (
-                <div
-                  key={i}
-                  className="w-[220px] h-[220px] bg-white"
-                />
-              ))}
-            </div>
-          </div>
-
-          {/* DOT PATTERN */}
-          <div className="absolute top-[10px] right-[20px] grid grid-cols-6 gap-8 opacity-40">
-            {Array.from({ length: 18 }).map((_, i) => (
-              <span
-                key={i}
-                className="w-[10px] h-[10px] rounded-full bg-[#8f7442]"
-              />
-            ))}
-          </div>
+       <div className="absolute inset-0 z-[1] bg-[#231f20df]"></div>
+      {/* BACKGROUND */}
+      <div className="absolute inset-0">
+       <img src="/moto/shark/shark-products-bg.jpg" alt="bg" className="w-full h-full object-cover"/>
         </div>
-
         {/* CONTENT */}
         <div className="relative z-10 max-w-380 mx-auto py-16 px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-14">
@@ -122,11 +98,11 @@ export default function SharkFooter() {
               </div>
 
               {/* BUTTON */}
-              <button className="relative mt-5 h-[56px] px-12 bg-[#f0df32] text-black font-black text-[15px] tracking-wide hover:translate-x-1 transition-all duration-300">
+              <button className="relative mt-5 h-[56px] px-12 bg-[#f0df32] text-black font-black text-[15px] cursor-pointer tracking-wide hover:translate-x-1 transition-all duration-300">
                 Subscribe
 
                 {/* ANGLED EDGE */}
-                <span className="absolute top-0 right-[-18px] border-t-[28px] border-b-[28px] border-l-[18px] border-t-transparent border-b-transparent border-l-[#f0df32]" />
+                <span className="absolute top-0 right-[-18px] border-t-[28px] border-b-[28px] border-l-[18px] border-t-[#f0df32] border-b-transparent border-l-[#f0df32]" />
               </button>
 
               {/* SOCIALS */}

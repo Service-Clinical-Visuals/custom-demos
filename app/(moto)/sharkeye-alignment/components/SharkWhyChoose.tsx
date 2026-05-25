@@ -27,9 +27,9 @@ const features = [
 export default function SharkWhyChoose() {
 
   return (
-    <section className="w-full bg-[#f5f5f5] py-28 overflow-hidden">
+    <section className="w-full bg-[#ffff] py-16 overflow-hidden">
       <div className="max-w-380 mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[0.7fr_1.1fr] gap-16 items-center">
           {/* LEFT CONTENT */}
           <div data-aos="fade-right">
             {/* TITLE */}
@@ -90,7 +90,7 @@ export default function SharkWhyChoose() {
                 View Product
 
                 {/* ANGLED EDGE */}
-                <span className="absolute top-0 right-[-18px] border-t-[28px] border-b-[28px] border-l-[18px] border-t-transparent border-b-transparent border-l-[#f0df32]" />
+                <span className="absolute top-0 right-[-18px] border-t-[28px] border-b-[28px] border-l-[18px] border-t-[#f0df32] border-b-transparent border-l-[#f0df32]" />
               </button>
             </div>
           </div>

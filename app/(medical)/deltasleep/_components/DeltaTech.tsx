@@ -71,7 +71,7 @@ export default function DeltaTech() {
               className="bg-[#d3e1dd] rounded-[18px] p-8 min-h-[290px] flex flex-col justify-between"
             >
               <h3 className="text-[#00695f] text-[24px] font-semibold leading-none">≤26.0db</h3>
-              <p className="text-[#303030] text-[16px] leading-[1.85] max-w-[290px]">
+              <p className="text-[#666666] text-[16px] leading-[1.85] max-w-[290px]">
                 Operating noise level at 10 hPa. Engineered with high-performance fans to be
                 quieter than a whisper, minimizing disturbance for you and your bed partner.
               </p>
@@ -125,11 +125,11 @@ export default function DeltaTech() {
                 ].map(({ stat, desc }) => (
                   <div key={stat} className="border-t border-[#b5cec8] pt-5">
                     <p className="text-[#00695f] text-[18px] font-semibold">{stat}</p>
-                    <p className="mt-1 text-[#3d3d3d] text-[16px] leading-[1.75]">{desc}</p>
+                    <p className="mt-1 text-[#666666] text-[16px] leading-[1.75]">{desc}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-[#3d3d3d] text-[16px] leading-[1.85] border-t border-[#b5cec8] pt-5">
+              <p className="text-[#666666] text-[16px] leading-[1.85] border-t border-[#b5cec8] pt-5">
                 Automatically maintain constant warmth and moisture to prevent dry throat and
                 congestion, without you touching a setting.
               </p>

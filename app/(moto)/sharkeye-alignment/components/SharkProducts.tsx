@@ -67,7 +67,7 @@ const tabs = [
   { label: "4X4 2 & 4", category: "Four" },
 ];
  
-const PAGE_SIZE = 3;
+const PAGE_SIZE = 3;          
 
 export default function SharkProducts() {
   const [activeTab, setActiveTab] = useState("Car");
@@ -75,7 +75,6 @@ export default function SharkProducts() {
 
   const filtered = products.filter((p) => p.category === activeTab);
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  const visible = filtered.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
 
   function switchTab(category: string) {
     setActiveTab(category);
@@ -83,7 +82,7 @@ export default function SharkProducts() {
   }
 
   return (
-    <section className="w-full bg-[#f3f3f3] py-14 sm:py-20 lg:py-24 overflow-hidden">
+    <section className="w-full bg-[#F5F5F5] py-14 sm:py-20 lg:py-24 overflow-hidden">
       <div className="max-w-380 mx-auto px-4 sm:px-6">
         {/* TOP HEADER */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-5 mb-8 sm:mb-10">
@@ -118,7 +117,7 @@ export default function SharkProducts() {
 
         {/* PRODUCT AREA */}
         <div className="relative">
-          {/* LEFT ARROW — desktop only (avoids overflow-hidden clipping on mobile) */}
+          {/* LEFT ARROW — desktop only */}
           <button
             onClick={() => setPage((p) => p - 1)}
             disabled={page === 0}
@@ -136,37 +135,51 @@ export default function SharkProducts() {
             <ChevronRight size={24} strokeWidth={2.2} />
           </button>
 
-          {/* CARDS */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {visible.map((item, index) => (
-              <div
-                key={item.title}
-                data-aos="fade-up"
-                data-aos-delay={index * 150}
-                className="group bg-[#efefef] border border-black/5 shadow-[0_6px_18px_rgba(0,0,0,0.12)] hover:-translate-y-2 transition-all duration-500"
-              >
-                {/* IMAGE AREA */}
-                <div className="relative h-64 sm:h-80 lg:h-97.5 bg-[#ececec] overflow-hidden">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-all duration-500"
-                  />
-                </div>
+          {/* CARDS — sliding carousel */}
+          <div className="overflow-hidden">
+            <div
+              className="flex transition-transform duration-500 ease-in-out"
+              style={{ transform: `translateX(-${page * 100}%)` }}
+            >
+              {Array.from({ length: totalPages }).map((_, pageIdx) => (
+                <div
+                  key={pageIdx}
+                  className="w-full shrink-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                >
+                  {filtered
+                    .slice(pageIdx * PAGE_SIZE, pageIdx * PAGE_SIZE + PAGE_SIZE)
+                    .map((item) => (
+                      <div
+                        key={item.title}
+                        className="group bg-[#ffff] border border-black/5 shadow-[0_6px_18px_rgba(0,0,0,0.12)]  hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)] transition-all duration-500 ease-out"
+                      >
+                        {/* IMAGE AREA */}
+                        <div className="relative h-64 sm:h-80 lg:h-97.5 bg-[#f1f1f1] overflow-hidden">
+                          <Image
+                            src={item.image}
+                            alt={item.title}
+                            fill
+                            className="object-contain  transition-all duration-700 ease-out"
+                          />
+                        </div>
 
-                {/* CONTENT */}
-                <div className="px-5 sm:px-6 py-6 sm:py-7">
-                  <h3 className="text-[17px] sm:text-[20px] leading-[1.35] tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
-                    {item.title}
-                  </h3>
+                        {/* YELLOW ACCENT BAR */}
+                        <div className="h-[3px] bg-[#f0df32] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-left" />
 
-                  <p className="mt-4 sm:mt-5 text-[18px] sm:text-[20px] font-black text-[#8a8a8a]">
-                    {item.amount}
-                  </p>
+                        {/* CONTENT */}
+                        <div className="px-5 sm:px-6 py-6 sm:py-7">
+                          <h3 className="text-[17px] sm:text-[20px] leading-[1.35] tracking-[-0.5px] text-[#1f1f1f] max-w-[320px]">
+                            {item.title}
+                          </h3>
+                          <p className="mt-4 sm:mt-5 text-[18px] sm:text-[20px] font-black text-[#8a8a8a]">
+                            {item.amount}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* MOBILE / TABLET NAVIGATION */}
@@ -196,12 +209,9 @@ export default function SharkProducts() {
           {/* DESCRIPTION */}
           <p
             data-aos="fade-right"
-            className="max-w-175 text-[15px] sm:text-[16px] leading-loose text-[#6c6c6c] font-medium"
+            className="max-w-200 text-[15px] sm:text-[16px] leading-loose text-[#6c6c6c] font-medium"
           >
-            We understand the importance of staying up-to-date with the latest
-            trends and technologies. That's why we are continually investing in
-            research and development to ensure our products remain the very best
-            on the market.
+            Equip your workshop with SharkEye’s premium range of commercial-grade laser aligners. From the versatile Falcon to the heavy-duty BigEye, our systems deliver rapid, pinpoint accuracy to optimize vehicle handling, reduce tire wear, and maximize your shop's throughput.
           </p>
 
           {/* BUTTON */}
@@ -212,7 +222,7 @@ export default function SharkProducts() {
             View All Products
 
             {/* ANGLED EDGE */}
-            <span className="absolute top-0 -right-4.5 border-t-27 border-b-27 border-l-18 border-t-transparent border-b-transparent border-l-[#f0df32]" />
+            <span className="absolute top-0 -right-4.5 border-t-27 border-b-27 border-l-18 border-t-[#f0df32] border-b-transparent border-l-[#f0df32]" />
           </button>
         </div>
       </div>
