@@ -6,6 +6,13 @@ import Lenis from "lenis";
 import TimescoNavbar from "./components/TimescoNavbar";
 import TimescoHero from "./components/TimescoHero";
 import TimescoAbout from "./components/TimescoAbout";
+import TimescoOptima from "./components/TimescoOptima";
+import TimescoWhoWeAre from "./components/TimescoWhoWeAre";
+import TimescoSpecification from "./components/TimescoSpecification";
+import TimescoWhy from "./components/TimescoWhy";
+import TimescoFeatures from "./components/TimescoFeatures";
+import TimescoNews from "./components/TimescoNews";
+import TimescoFooter from "./components/TimescoFooter";
 
 export default function Home() {
      AOSInit();
@@ -35,7 +42,13 @@ export default function Home() {
     <TimescoNavbar/>
     <TimescoHero/>
     <TimescoAbout/>
-    <div className="h-screen"></div>
+    <TimescoOptima/>
+    <TimescoWhoWeAre/>
+    <TimescoSpecification/>
+    <TimescoWhy/>
+    <TimescoFeatures/>
+    <TimescoNews/>
+    <TimescoFooter/>
     </>
   ); 
 }
