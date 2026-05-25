@@ -36,7 +36,7 @@ export default function SonoServices() {
   const [activePage, setActivePage] = useState(0);
 
   return (
-    <section className="relative bg-[#ffffff] py-28 overflow-hidden">
+    <section className="relative bg-[#ffffff] py-8 md:py-24 sm:py-12 overflow-hidden">
       {/* SOFT BACKGROUND */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(18,63,136,0.03),transparent_55%)]" />
 
@@ -61,7 +61,7 @@ export default function SonoServices() {
         </div>
 
         {/* CARDS SLIDER */}
-        <div className="mt-14 overflow-x-hidden">
+        <div className="mt-14 overflow-hidden">
           <div
             className="flex transition-transform duration-700 ease-in-out"
             style={{ transform: `translateX(-${activePage * 100}%)` }}
@@ -81,8 +81,8 @@ export default function SonoServices() {
                       className="relative"
                     >
                       {/* FLOATING ICON */}
-                      <div className="absolute left-1/2 sm:left-1/4 -translate-x-1/2 -top-[52px] z-20">
-                        <div className="w-[128px] h-[128px] rounded-full bg-[#14387F] shadow-[0_4px_1px_rgba(0,0,0,0.12)] border-[10px] border-[#f5f5f5] flex items-center justify-center">
+                      <div className="absolute left-1/2 sm:left-1/4 -translate-x-1/2 -top-[52px]  z-20">
+                        <div className="w-[128px] h-[128px] rounded-full bg-[#14387F] shadow-[0_4px_1px_rgba(0,0,0,0.12)] border-[10px] border-[#ffffff] flex items-center justify-center">
                           <div className="text-white">
                             <img src={service.icon} alt="" className="w-15" />
                           </div>
