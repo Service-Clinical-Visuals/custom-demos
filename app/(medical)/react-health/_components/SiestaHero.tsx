@@ -11,9 +11,9 @@ export default function SiestaHero() {
 
       <div className="react-container relative z-10">
         {/* Main Product Container - Image */}
-        <div className="bg-white/10 backdrop-blur-sm rounded-[2.5rem] mb-12 shadow-2xl border border-white/20" data-aos="fade-up">
-          <div className="relative aspect-[21/9] w-full rounded-[2rem] overflow-hidden">
-            <DynamicVideoPlayer type="360" className="w-full h-full object-cover rounded-[2rem]" />
+        <div className="bg-white/10 backdrop-blur-sm rounded-[2.5rem] mb-12 shadow-2xl border border-white/20 max-w-6xl mx-auto" data-aos="fade-up">
+          <div className="relative rounded-[2rem] overflow-hidden">
+            <DynamicVideoPlayer type="360" className="w-full h-full object-cover rounded-[2rem] aspect-video" />
           </div>
         </div>
 

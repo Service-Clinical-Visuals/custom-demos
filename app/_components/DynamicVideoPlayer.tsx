@@ -83,6 +83,14 @@ export default function DynamicVideoPlayer({
       onEnded={handleVideoEnd}
       className={className}
       src={activeVideos[currentIndex]}
+      // Prevent right-click context menu
+      onContextMenu={(e) => e.preventDefault()}
+      // Prevent drag-to-save
+      onDragStart={(e) => e.preventDefault()}
+      // Remove download controls (if controls are ever enabled)
+      controlsList="nodownload"
+      // Disables picture-in-picture (harder to screen record)
+      disablePictureInPicture
     />
   );
 }
