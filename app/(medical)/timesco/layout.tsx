@@ -10,7 +10,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Optimed Medizinische Instrumente GmbH. ",
+  title: "Timesco | Home",
   description: "CatheGenix | Investing in Science, Innovating For Patients",
   icons: {
     icon: "/cathegenix/cathe-favicon.png",
