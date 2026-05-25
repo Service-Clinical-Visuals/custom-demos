@@ -1,11 +1,10 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
-import { ChevronRight } from "lucide-react";
-import { useEffect } from "react";
+import { ChevronsRight } from "lucide-react";
 
 const features = [
   "Built-in 7.5GB storage, which can store approx. 10 hours of video or 70k+ pictures",
@@ -22,7 +21,7 @@ export default function TimescoFeatures() {
 
   return (
     <section className="w-full bg-[#edf4ee] py-24">
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-12 px-8 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-stretch gap-12 px-8 lg:grid-cols-[1.05fr_0.95fr]">
         
         {/* LEFT FEATURE CARD */}
         <div
@@ -32,8 +31,8 @@ export default function TimescoFeatures() {
             border-2
             border-[#0c6b2f]
             bg-[#edf4ee]
-            px-10
-            py-10
+            px-8
+            py-8
             shadow-[0_10px_40px_rgba(0,0,0,0.08)]
           "
         >
@@ -48,16 +47,16 @@ export default function TimescoFeatures() {
             Features
           </h2>
 
-          <div className="mt-8 space-y-5">
+          <div className="mt-4 space-y-3">
             {features.map((item, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4"
+                className="flex items-start gap-3"
               >
-                <ChevronRight
+                <ChevronsRight
                   size={20}
                   className="
-                    mt-[2px]
+                    mt-[6px]
                     shrink-0
                     text-[#0a8d34]
                   "
@@ -91,7 +90,7 @@ export default function TimescoFeatures() {
               shadow-[0_20px_60px_rgba(0,0,0,0.08)]
             "
           >
-            <div className="relative h-[520px] w-full">
+            <div className="relative h-[500px] w-full">
               <DynamicVideoPlayer 
                 type="360"
                 className="absolute top-0 left-0 w-full h-full object-cover"

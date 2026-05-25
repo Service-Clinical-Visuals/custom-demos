@@ -15,7 +15,7 @@ export default function TimescoAbout() {
         {/* LEFT CONTENT */}
         <div
           data-aos="fade-right"
-          className="max-w-[620px]"
+          className=""
         >
           <h2 className="text-4xl font-semibold tracking-[-0.02em] text-[#004510]">
             Learn About Us

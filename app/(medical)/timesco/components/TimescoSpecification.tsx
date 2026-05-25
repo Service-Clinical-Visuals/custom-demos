@@ -4,7 +4,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronRight, ChevronsRight } from "lucide-react";
 import { useEffect } from "react";
 
 const specifications = [
@@ -46,7 +46,7 @@ export default function TimescoSpecification() {
         {/* RIGHT CONTENT */}
         <div
           data-aos="fade-left"
-          className="max-w-[620px]"
+          className=""
         >
           <h2
             className="
@@ -81,16 +81,9 @@ export default function TimescoSpecification() {
             {specifications.map((item, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4"
+                className="flex items-center gap-2"
               >
-                <ChevronRight
-                  size={22}
-                  className="
-                    mt-1
-                    shrink-0
-                    text-[#0a8d34]
-                  "
-                />
+                <ChevronsRight size={18} className="text-[#0a8d34] shrink-0" />
                 <p
                   className="
                     text-[16px]

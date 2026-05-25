@@ -2,7 +2,7 @@
 
 import "aos/dist/aos.css";
 
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronRight, ChevronsRight } from "lucide-react";
 
 const promises = [
   [
@@ -30,16 +30,16 @@ export default function TimescoWhoWeAre() {
       <div className="mx-auto max-w-[1600px] px-8">
         
         {/* TOP SECTION */}
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_1.05fr]">
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_1.05fr] items-stretch">
           
           {/* LEFT CONTENT */}
-          <div data-aos="fade-right">
+          <div data-aos="fade-right" className="flex flex-col justify-center">
             
             {/* WHO WE ARE */}
             <div>
               <h2
                 className="
-                  text-4xl
+                  text-2xl
                   font-semibold
                   leading-tight
                   tracking-[-0.03em]
@@ -52,7 +52,6 @@ export default function TimescoWhoWeAre() {
               <p
                 className="
                   mt-4
-                  max-w-[650px]
                   text-[17px]
                   leading-[2]
                   text-[#555]
@@ -71,7 +70,7 @@ export default function TimescoWhoWeAre() {
             <div className="mt-7">
               <h2          
                 className="
-                  text-4xl
+                  text-2xl
                   font-semibold
                   leading-tight
                   tracking-[-0.03em]
@@ -84,7 +83,6 @@ export default function TimescoWhoWeAre() {
               <p
                 className="
                   mt-4
-                  max-w-[650px]
                   text-[17px]
                   leading-[2]
                   text-[#555]
@@ -137,11 +135,12 @@ export default function TimescoWhoWeAre() {
           {/* RIGHT IMAGES */}
           <div
             data-aos="fade-left"
-            className="relative flex items-start justify-center"
+            className="relative flex items-stretch justify-center"
           >
             {/* Main Image */}
             <div
               className="
+                w-full
                 overflow-hidden
                 rounded-[30px]
               "
@@ -150,9 +149,9 @@ export default function TimescoWhoWeAre() {
                 src="/timesco/timesco-who.png"
                 alt="Lab"
                 className="
-                  h-[650px]
-                  w-[760px]
-                  object-contain
+                  h-full
+                  w-full
+                  object-cover
                   transition-transform
                   duration-700
                 "
@@ -172,7 +171,7 @@ export default function TimescoWhoWeAre() {
             data-aos="fade-up"
             className="
               text-center
-              text-4xl
+              text-2xl
               font-semibold
               tracking-[-0.03em]
               text-[#0d4f20]
@@ -210,16 +209,15 @@ export default function TimescoWhoWeAre() {
                   hover:shadow-xl
                 "
               >
-                <div className="space-y-6">
+                <div className="space-y-3">
                   {group.map((item) => (
                     <div
                       key={item}
                       className="flex items-center gap-3"
                     >
-                      <ChevronRight
-                        size={18}
-                        className="text-[#0a8d34]"
-                      />
+
+                      <ChevronsRight size={18} className="text-[#0a8d34]"/>
+
                       <p
                         className="
                           text-[18px]

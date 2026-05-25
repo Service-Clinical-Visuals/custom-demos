@@ -30,7 +30,7 @@ export default function TimescoOptima() {
         {/* RIGHT CONTENT */}
         <div
           data-aos="fade-left"
-          className="max-w-[520px]"
+          className=""
         >
           <h2
             className="
@@ -44,7 +44,7 @@ export default function TimescoOptima() {
             Optima View Video Laryngoscope Handle RU
           </h2>
 
-          <div className="mt-8 space-y-7">
+          <div className="mt-8 space-y-5">
             <p
               className="
                 text-[16px]

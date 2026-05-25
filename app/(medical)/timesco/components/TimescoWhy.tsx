@@ -44,7 +44,7 @@ export default function TimescoWhy() {
         {/* HEADER */}
         <div
           data-aos="fade-up"
-          className="mx-auto max-w-[980px] text-center"
+          className="mx-auto max-w-1600 text-center"
         >
           <h2
             className="
@@ -59,9 +59,7 @@ export default function TimescoWhy() {
 
           <p
             className="
-              mx-auto
               mt-6
-              max-w-[900px]
               text-[16px]
               leading-[2]
               text-white/85
