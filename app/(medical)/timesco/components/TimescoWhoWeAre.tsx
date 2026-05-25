@@ -149,7 +149,7 @@ export default function TimescoWhoWeAre() {
                 src="/timesco/timesco-who.png"
                 alt="Lab"
                 className="
-                  h-full
+                  h-auto
                   w-full
                   object-cover
                   transition-transform

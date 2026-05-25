@@ -20,9 +20,9 @@ export default function TimescoOptima() {
           className="relative overflow-hidden rounded-[28px]"
         >
           {/* Future Video */}
-          <div className="relative h-[520px] w-full overflow-hidden rounded-[28px] bg-[#d9d9d9]">
+          <div className="relative aspect-video w-full overflow-hidden rounded-[28px] bg-[#d9d9d9]">
             
-           <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
+           <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
 
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function TimescoOptima() {
             className="
               text-4xl
               font-semibold
-              leading-[1.08]
+              leading-[1.6]
               tracking-[-0.03em]
               text-white
             "
@@ -44,7 +44,7 @@ export default function TimescoOptima() {
             Optima View Video Laryngoscope Handle RU
           </h2>
 
-          <div className="mt-8 space-y-5">
+          <div className="mt-4 space-y-3">
             <p
               className="
                 text-[16px]
@@ -89,7 +89,7 @@ export default function TimescoOptima() {
             className="
               cursor-pointer
               group
-              mt-10
+              mt-5
               inline-flex
               items-center
               gap-3

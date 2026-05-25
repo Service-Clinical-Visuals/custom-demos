@@ -95,7 +95,7 @@ export default function TimescoAbout() {
               src="/timesco/timesco-about.png"
               alt="Warehouse"
               className="
-                h-[620px]
+                h-auto
                 w-full
                 object-cover
                 transition-transform

@@ -60,7 +60,7 @@ export default function TimescoNavbar() {
                   relative text-[16px] font-medium transition-all cursor-pointer
                   ${
                     index === 0
-                      ? "rounded-full border border-[#0c9444] px-6 py-2 text-black"
+                      ? "rounded-full border border-[#0c9444] px-6 py-2 text-black font-semibold"
                       : "text-black/80 hover:text-black"
                   }
                 `}
@@ -116,7 +116,7 @@ export default function TimescoNavbar() {
                 w-full text-left py-3 px-4 rounded-lg text-[16px] font-medium transition-all cursor-pointer
                 ${
                   index === 0
-                    ? "border border-[#0c9444] text-black"
+                    ? "border border-[#0c9444] text-black font-bold"
                     : "text-black/80 hover:bg-[#008b45]/10 hover:text-black"
                 }
               `}
