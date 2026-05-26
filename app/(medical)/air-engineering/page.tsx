@@ -10,6 +10,9 @@ import AirTechnology from "./components/AirTechnology";
 import AirSection from "./components/AirSection";
 import AirChoose from "./components/AirChoose";
 import AirProducts from "./components/AirProducts";
+import AirSolutions from "./components/AirSolutions";
+import AirNews from "./components/AirNews";
+import AirFooter from "./components/AirFooter";
 
 
 export default function Home() {
@@ -37,7 +40,6 @@ export default function Home() {
   }, []);
   return (
     <>
-
     <AirNavbar/>
     <AirHero/>
     <AirAbout/>
@@ -45,7 +47,9 @@ export default function Home() {
     <AirSection/>
     <AirChoose/>
     <AirProducts/>
-    <div className="h-screen"></div>
+    <AirSolutions/>
+    <AirNews/>
+    <AirFooter/>
     </>
   ); 
 }
