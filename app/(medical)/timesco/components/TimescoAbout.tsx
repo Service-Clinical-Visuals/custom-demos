@@ -41,10 +41,7 @@ export default function TimescoAbout() {
             <p className="leading-[2]">
               We control every aspect of our product and service offering,
               from manufacturing to delivery, to ensure that our customers
-              receive the highest quality products and support. Our
-              experienced customer service team has gained knowledge and
-              expertise over many years of service, providing exceptional
-              support to our customers.
+              receive the highest quality products and support.
             </p>
           </div>
 

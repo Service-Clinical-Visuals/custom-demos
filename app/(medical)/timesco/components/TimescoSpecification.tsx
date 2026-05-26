@@ -62,7 +62,7 @@ export default function TimescoSpecification() {
 
           <p
             className="
-              mt-5
+              mt-3
               text-[16px]
               leading-[2]
               text-[#5d5d5d]
@@ -77,7 +77,7 @@ export default function TimescoSpecification() {
           </p>
 
           {/* SPEC LIST */}
-          <div className="mt-5 space-y-3">
+          <div className="mt-4 space-y-3">
             {specifications.map((item, index) => (
               <div
                 key={index}
@@ -101,7 +101,7 @@ export default function TimescoSpecification() {
           <button
             className="
               group
-              mt-5
+              mt-4
               inline-flex
               items-center
               gap-3

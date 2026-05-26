@@ -51,7 +51,7 @@ export default function TimescoWhoWeAre() {
 
               <p
                 className="
-                  mt-4
+                  mt-3
                   text-[17px]
                   leading-[2]
                   text-[#555]
@@ -82,7 +82,7 @@ export default function TimescoWhoWeAre() {
 
               <p
                 className="
-                  mt-4
+                  mt-3
                   text-[17px]
                   leading-[2]
                   text-[#555]
@@ -91,8 +91,7 @@ export default function TimescoWhoWeAre() {
                 We have a skilled Direct Sales Team and Customer Support Teams
                 to market our products directly to the NHS and Private
                 Sectors. Our Hospital Sales Team Territory Managers have
-                specialist knowledge and are supported by a skilled Support
-                Team to provide personalized service to our customers.
+                specialist knowledge.
               </p>
 
               {/* CTA */}

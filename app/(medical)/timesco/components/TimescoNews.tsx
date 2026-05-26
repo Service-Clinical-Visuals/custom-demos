@@ -114,14 +114,9 @@ export default function TimescoNews() {
                 xl:w-[calc(25%-24px)]
                 overflow-hidden
                 rounded-[24px]
-                border
-                border-[#e1e1e1]
                 bg-white
-                shadow-[0_10px_30px_rgba(0,0,0,0.08)]
                 transition-all
                 duration-300
-                hover:-translate-y-2
-                hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]
                 cursor-pointer
               "
             >
@@ -135,14 +130,6 @@ export default function TimescoNews() {
                     w-full
                     object-cover
                     transition-transform
-                  "
-                />
-
-                {/* OVERLAY */}
-                <div
-                  className="
-                    absolute
-                    inset-0
                   "
                 />
               </div>
