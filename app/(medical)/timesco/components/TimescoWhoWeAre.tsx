@@ -98,7 +98,7 @@ export default function TimescoWhoWeAre() {
               <button
                 className="
                   group
-                  mt-10
+                  mt-5
                   inline-flex
                   items-center
                   gap-3

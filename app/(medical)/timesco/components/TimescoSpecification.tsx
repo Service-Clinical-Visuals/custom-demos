@@ -101,7 +101,7 @@ export default function TimescoSpecification() {
           <button
             className="
               group
-              mt-4
+              mt-3
               inline-flex
               items-center
               gap-3
