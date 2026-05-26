@@ -44,7 +44,7 @@ export default function TimescoNavbar() {
       `}
     >
       <div className="bg-[#EDFFF1] backdrop-blur-md border-b border-[#d7e8da]">
-        <div className="mx-auto flex h-[72px] max-w-[1600px] items-center justify-between px-6 lg:px-10">
+        <div className="mx-auto flex h-[72px] max-w-[1600px] items-center justify-between px-6">
 
           {/* Logo */}
           <div>

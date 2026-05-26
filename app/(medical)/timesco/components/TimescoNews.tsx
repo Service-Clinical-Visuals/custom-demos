@@ -90,13 +90,15 @@ export default function TimescoNews() {
           className="
             mt-16
             flex
+            flex-col
             gap-8
-            overflow-x-auto
-            scroll-smooth
-            snap-x
-            snap-mandatory
-            [scrollbar-width:none]
-            [&::-webkit-scrollbar]:hidden
+            md:flex-row
+            md:overflow-x-auto
+            md:scroll-smooth
+            md:snap-x
+            md:snap-mandatory
+            md:[scrollbar-width:none]
+            md:[&::-webkit-scrollbar]:hidden
           "
         >
           {news.map((item, index) => (
@@ -105,10 +107,10 @@ export default function TimescoNews() {
               data-aos="fade-up"
               data-aos-delay={index * 120}
               className="
-                flex-none
-                w-[calc(50%-16px)]
-                snap-start
+                w-full
+                md:flex-none
                 md:w-[calc(50%-16px)]
+                md:snap-start
                 xl:w-[calc(25%-24px)]
                 overflow-hidden
                 rounded-[24px]
@@ -200,8 +202,9 @@ export default function TimescoNews() {
         <div
           data-aos="fade-up"
           className="
+            hidden
+            md:flex
             mt-16
-            flex
             items-center
             justify-center
             gap-2

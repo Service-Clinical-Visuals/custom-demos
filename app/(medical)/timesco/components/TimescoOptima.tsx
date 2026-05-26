@@ -44,7 +44,7 @@ export default function TimescoOptima() {
             Optima View Video Laryngoscope Handle RU
           </h2>
 
-          <div className="mt-4 space-y-3">
+          <div className="mt-2 space-y-3">
             <p
               className="
                 text-[16px]

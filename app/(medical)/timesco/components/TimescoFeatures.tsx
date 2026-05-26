@@ -22,7 +22,7 @@ export default function TimescoFeatures() {
 
   return (
     <section className="w-full bg-[#edf4ee] py-24">
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-stretch gap-12 px-8 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-stretch gap-12 px-8 lg:grid-cols-[1fr_1fr]">
         
         {/* LEFT FEATURE CARD */}
         <div
