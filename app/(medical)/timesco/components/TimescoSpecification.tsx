@@ -1,16 +1,16 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
-import { ArrowRight, ChevronRight, ChevronsRight } from "lucide-react";
-import { useEffect } from "react";
+import { ArrowRight,  ChevronsRight } from "lucide-react";
+
 
 const specifications = [
   "Convenient rechargeable battery to allow ongoing use, lasting for over 2 hours",
   "Crystal clear colour correct image quality with a 3.75” LCD high resolution screen. Resolution ratio: 800 x 480RGB",
-  "The screen rotates 180° from left to right and tilts 110° up and down. It also has a view angle of 160° making it convenient for teaching with multiple viewers",
+  // "The screen rotates 180° from left to right and tilts 110° up and down. It also has a view angle of 160° making it convenient for teaching with multiple viewers",
 ];
 
 export default function TimescoSpecification() {
@@ -34,7 +34,7 @@ export default function TimescoSpecification() {
             "
           >
             {/* Future Video */}
-            <div className="relative h-[520px] w-full">
+            <div className="relative aspect-video w-full">
                 <DynamicVideoPlayer 
                 type="short-2"
                 className="absolute top-0 left-0 w-full h-full object-cover"
@@ -52,18 +52,18 @@ export default function TimescoSpecification() {
             className="
               text-4xl
               font-semibold
-              leading-[1.08]
+              leading-[1.15]
               tracking-[-0.03em]
               text-[#0d4f20]
             "
           >
-            Video Laryngoscopy Specification
+            Optima View Video Laryngoscope specifications
           </h2>
 
           <p
             className="
-              mt-5
-              text-[17px]
+              mt-3
+              text-[16px]
               leading-[2]
               text-[#5d5d5d]
             "
@@ -77,13 +77,13 @@ export default function TimescoSpecification() {
           </p>
 
           {/* SPEC LIST */}
-          <div className="mt-5 space-y-5">
+          <div className="mt-4 space-y-3">
             {specifications.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2"
+                className="flex gap-2 items-start"
               >
-                <ChevronsRight size={18} className="text-[#0a8d34] shrink-0" />
+                <ChevronsRight size={18} className="text-[#0a8d34] shrink-0 mt-2" />
                 <p
                   className="
                     text-[16px]
@@ -101,7 +101,7 @@ export default function TimescoSpecification() {
           <button
             className="
               group
-              mt-5
+              mt-3
               inline-flex
               items-center
               gap-3

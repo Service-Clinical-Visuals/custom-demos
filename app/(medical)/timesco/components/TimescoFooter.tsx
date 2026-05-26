@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 
 import { useEffect } from "react";
+import { LocationIcon } from "../../future-med/_components/Icons";
 
 const quickLinks = [
   "Home",
@@ -144,7 +145,7 @@ export default function TimescoFooter() {
       </div>
 
       {/* MAIN FOOTER */}
-      <div className="py-20">
+      <div className="py-12">
         <div
           className="
             mx-auto
@@ -153,7 +154,7 @@ export default function TimescoFooter() {
             grid-cols-1
             gap-16
             px-8
-            lg:grid-cols-[1.3fr_0.7fr_0.7fr_1fr]
+            lg:grid-cols-[2fr_0.5fr_0.7fr_1fr]
           "
         >
           
@@ -287,9 +288,8 @@ export default function TimescoFooter() {
             <div className="mt-8 space-y-7">
               
               <div className="flex items-start gap-4">
-                <MapPin
-                  size={20}
-                  className="mt-1 shrink-0 text-[#0a8d34]"
+                <LocationIcon
+                  className="mt-1 shrink-0  fill-[#008A20] w-7"
                 />
 
                 <p
@@ -311,8 +311,8 @@ export default function TimescoFooter() {
 
               <div className="flex items-center gap-4">
                 <Phone
-                  size={18}
-                  className="text-[#0a8d34]"
+                  size={20}
+                  className="fill-[#0a8d34]"
                 />
 
                 <p className="text-[16px] text-[#5e5e5e] cursor-pointer">
@@ -322,7 +322,7 @@ export default function TimescoFooter() {
 
               <div className="flex items-center gap-4">
                 <Mail
-                  size={18}
+                  size={20}
                   className="text-[#0a8d34]"
                 />
 
@@ -338,7 +338,7 @@ export default function TimescoFooter() {
         <div
           className="
             mx-auto
-            mt-16
+            mt-10
             max-w-[1600px]
             border-t
             border-[#d9d9d9]

@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef, useState, useEffect } from "react";
 import "aos/dist/aos.css";
 
 const news = [
@@ -30,6 +31,27 @@ const news = [
 ];
 
 export default function TimescoNews() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const scrollToPage = (page: number) => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const target = page === 0 ? 0 : container.scrollWidth - container.clientWidth;
+    container.scrollTo({ left: target, behavior: "smooth" });
+    setActiveIndex(page);
+  };
+
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const onScroll = () => {
+      const mid = (container.scrollWidth - container.clientWidth) / 2;
+      setActiveIndex(container.scrollLeft > mid ? 1 : 0);
+    };
+    container.addEventListener("scroll", onScroll, { passive: true });
+    return () => container.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <section className="w-full bg-[#f4f4f4] py-24">
@@ -62,15 +84,21 @@ export default function TimescoNews() {
           </p>
         </div>
 
-        {/* NEWS GRID */}
+        {/* NEWS CAROUSEL */}
         <div
+          ref={scrollRef}
           className="
             mt-16
-            grid
-            grid-cols-1
+            flex
+            flex-col
             gap-8
-            md:grid-cols-2
-            xl:grid-cols-4
+            md:flex-row
+            md:overflow-x-auto
+            md:scroll-smooth
+            md:snap-x
+            md:snap-mandatory
+            md:[scrollbar-width:none]
+            md:[&::-webkit-scrollbar]:hidden
           "
         >
           {news.map((item, index) => (
@@ -79,16 +107,16 @@ export default function TimescoNews() {
               data-aos="fade-up"
               data-aos-delay={index * 120}
               className="
+                w-full
+                md:flex-none
+                md:w-[calc(50%-16px)]
+                md:snap-start
+                xl:w-[calc(25%-24px)]
                 overflow-hidden
                 rounded-[24px]
-                border
-                border-[#e1e1e1]
                 bg-white
-                shadow-[0_10px_30px_rgba(0,0,0,0.08)]
                 transition-all
                 duration-300
-                hover:-translate-y-2
-                hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]
                 cursor-pointer
               "
             >
@@ -104,14 +132,6 @@ export default function TimescoNews() {
                     transition-transform
                   "
                 />
-
-                {/* OVERLAY */}
-                <div
-                  className="
-                    absolute
-                    inset-0
-                  "
-                />
               </div>
 
               {/* CONTENT */}
@@ -120,7 +140,7 @@ export default function TimescoNews() {
                 <h3
                   className="
                     line-clamp-3
-                    text-base
+                    text-lg
                     font-medium
                     leading-[1.4]
                     text-black
@@ -169,30 +189,31 @@ export default function TimescoNews() {
         <div
           data-aos="fade-up"
           className="
+            hidden
+            md:flex
             mt-16
-            flex
             items-center
             justify-center
             gap-2
           "
         >
-          <div
-            className="
-              h-[6px]
-              w-[80px]
-              rounded-full
-              bg-[#0a8d34]
-            "
-          />
-
-          <div
-            className="
-              h-[8px]
-              w-[8px]
-              rounded-full
-              bg-[#9c9c9c]
-            "
-          />
+          {[0, 1].map((page) => (
+            <button
+              key={page}
+              onClick={() => scrollToPage(page)}
+              aria-label={`Go to page ${page + 1}`}
+              className={`
+                rounded-full
+                transition-all
+                duration-300
+                cursor-pointer
+                ${activeIndex === page
+                  ? "h-[8px] w-[80px] bg-[#0a8d34]"
+                  : "h-[8px] w-[28px] bg-[#9c9c9c] hover:bg-[#0a8d34]"
+                }
+              `}
+            />
+          ))}
         </div>
       </div>
     </section>

@@ -95,8 +95,8 @@ export default function TimescoWhy() {
                 border
                 border-white/40
                 bg-white/5
-                px-10
-                py-10
+                px-5
+                py-5
                 text-center
                 backdrop-blur-md
                 transition-all

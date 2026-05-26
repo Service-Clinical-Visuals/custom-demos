@@ -26,7 +26,7 @@ const promises = [
 export default function TimescoWhoWeAre() {
 
   return (
-    <section className="w-full bg-[#f4f4f4] py-20">
+    <section className="w-full bg-[#ffff] py-20">
       <div className="mx-auto max-w-[1600px] px-8">
         
         {/* TOP SECTION */}
@@ -51,7 +51,7 @@ export default function TimescoWhoWeAre() {
 
               <p
                 className="
-                  mt-4
+                  mt-3
                   text-[17px]
                   leading-[2]
                   text-[#555]
@@ -82,7 +82,7 @@ export default function TimescoWhoWeAre() {
 
               <p
                 className="
-                  mt-4
+                  mt-3
                   text-[17px]
                   leading-[2]
                   text-[#555]
@@ -91,15 +91,14 @@ export default function TimescoWhoWeAre() {
                 We have a skilled Direct Sales Team and Customer Support Teams
                 to market our products directly to the NHS and Private
                 Sectors. Our Hospital Sales Team Territory Managers have
-                specialist knowledge and are supported by a skilled Support
-                Team to provide personalized service to our customers.
+                specialist knowledge.
               </p>
 
               {/* CTA */}
               <button
                 className="
                   group
-                  mt-10
+                  mt-5
                   inline-flex
                   items-center
                   gap-3
@@ -149,7 +148,7 @@ export default function TimescoWhoWeAre() {
                 src="/timesco/timesco-who.png"
                 alt="Lab"
                 className="
-                  h-full
+                  h-auto
                   w-full
                   object-cover
                   transition-transform

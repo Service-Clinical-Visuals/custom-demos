@@ -24,7 +24,7 @@ export default function TimescoHero() {
         <div className="w-full lg:w-[38%]">
 
           <div data-aos="fade-up">
-            <h1 className="font-serif text-5xl font-bold leading-[1.1] text-white">
+            <h1 className="text-4xl font-bold leading-[1.1] text-white">
               Instruments For Life
             </h1>
 

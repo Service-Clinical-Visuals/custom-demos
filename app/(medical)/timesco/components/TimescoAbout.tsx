@@ -21,7 +21,7 @@ export default function TimescoAbout() {
             Learn About Us
           </h2>
 
-          <div className="mt-8 space-y-5 text-[#36454F] text-[16px]">
+          <div className="mt-4 space-y-3 text-[#36454F] text-[16px]">
             <p className="leading-[2]">
               Since 1964, Timesco™ has been a trusted manufacturer and
               distributor of high quality medical supplies for healthcare
@@ -41,10 +41,7 @@ export default function TimescoAbout() {
             <p className="leading-[2]">
               We control every aspect of our product and service offering,
               from manufacturing to delivery, to ensure that our customers
-              receive the highest quality products and support. Our
-              experienced customer service team has gained knowledge and
-              expertise over many years of service, providing exceptional
-              support to our customers.
+              receive the highest quality products and support.
             </p>
           </div>
 
@@ -52,7 +49,7 @@ export default function TimescoAbout() {
             className="
               cursor-pointer
               group
-              mt-10
+              mt-5
               inline-flex
               items-center
               gap-3
@@ -95,7 +92,7 @@ export default function TimescoAbout() {
               src="/timesco/timesco-about.png"
               alt="Warehouse"
               className="
-                h-[620px]
+                h-auto
                 w-full
                 object-cover
                 transition-transform
