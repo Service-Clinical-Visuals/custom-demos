@@ -38,38 +38,37 @@ export default function AdvancedVentilation() {
               type="short-1"
               className="absolute inset-0 w-full h-full object-cover z-0"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10 pointer-events-none" />
           </div>
 
           <div className="lg:col-span-6 flex flex-col items-start" data-aos="fade-left">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-4 md:mb-6 font-display">
               Advanced Ventilation Solutions
             </h2>
-            <p className="text-[14px] md:text-[15px] lg:text-[17px] text-white/90 leading-relaxed mb-6 md:mb-8 max-w-xl">
+            <p className="text-[14px] md:text-[15px] lg:text-[17px] text-white/90 leading-relaxed mb-6 md:mb-8">
               Advanced and lightweight ventilation solutions designed for rapid deployment, simplified operation, and reliable respiratory
               support across emergency and critical care environments.
             </p>
 
-            <div className="flex gap-3 md:gap-4 mb-5 md:mb-6 items-start">
+            <div className="flex gap-3 md:gap-4 mb-5 md:mb-6 items-start w-full">
               <div className="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-white flex items-center justify-center text-[#0091d5] shadow-sm mt-1">
                 <Check size={12} strokeWidth={3} />
               </div>
               <div>
                 <h4 className="text-[15px] md:text-[17px] lg:text-[18px] font-bold text-white mb-1 font-display">Long-lasting 18–24 Hour Replaceable Battery</h4>
-                <p className="text-[13px] md:text-[15px] lg:text-[17px] text-white/80 leading-relaxed max-w-lg">
+                <p className="text-[13px] md:text-[15px] lg:text-[17px] text-white/80 leading-relaxed">
                   Equipped with a durable and easily replaceable battery system that provides extended operating time for uninterrupted
                   patient care during transport and emergency situations.
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-3 md:gap-4 mb-6 md:mb-8 items-start">
+            <div className="flex gap-3 md:gap-4 mb-6 md:mb-8 items-start w-full">
               <div className="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-white flex items-center justify-center text-[#0091d5] shadow-sm">
                 <Check size={12} strokeWidth={3} />
               </div>
               <div>
                 <h4 className="text-[15px] md:text-[17px] lg:text-[18px] font-bold text-white mb-1 font-display">Lightweight and Compact Design</h4>
-                <p className="text-[13px] md:text-[15px] lg:text-[17px] text-white/80 leading-relaxed max-w-lg">
+                <p className="text-[13px] md:text-[15px] lg:text-[17px] text-white/80 leading-relaxed">
                   Designed with portability in mind, the ventilators feature a compact and lightweight structure for easy handling and mobility
                   across healthcare environments.
                 </p>
@@ -79,10 +78,10 @@ export default function AdvancedVentilation() {
             <div className="inline-block">
               <a
                 href="#products"
-                className="group inline-flex items-center bg-white text-[#0091d5] font-bold rounded-full py-2.5 pl-6 pr-10 transition-all duration-300 hover:bg-white/95 hover:shadow-xl hover:scale-105 active:scale-100 relative"
+                className="group inline-flex items-center bg-white text-[#0091d5] font-bold rounded-full py-2.5 pl-6 pr-10 transition-all duration-300 hover:bg-white/95  active:scale-100 relative"
               >
                 <span className="text-[15px] tracking-wide mr-4">View Medical Solutions</span>
-                <span className="absolute right-0.5 flex items-center justify-center rounded-r-full w-10 h-[calc(100%-4px)] bg-[#0091d5] text-white transition-transform duration-300 group-hover:translate-x-1">
+                <span className="absolute right-0.5 flex items-center justify-center rounded-r-full w-10 h-[calc(100%-4px)] bg-[#0091d5] text-white transition-transform duration-300">
                   <ArrowRight size={18} strokeWidth={2.5} />
                 </span>
               </a>
@@ -102,7 +101,7 @@ export default function AdvancedVentilation() {
                 <Check size={12} strokeWidth={3} />
               </div>
               <div>
-                <h4 className="text-[15px] md:text-[17px] lg:text-[18px] font-bold text-white mb-1 md:mb-2 leading-snug font-display">
+                <h4 className="text-[15px] md:text-[17px] lg:text-[22px] font-bold text-white mb-1 md:mb-2 leading-snug font-display">
                   {card.title}
                 </h4>
                 <p className="text-[13px] md:text-[15px] lg:text-[17px] text-white/80 leading-relaxed font-sans">

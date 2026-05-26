@@ -45,9 +45,9 @@ export default function Flexibility() {
       `}</style>
 
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center mb-10 md:mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-[53%_47%] gap-8 lg:gap-14 items-center mb-10 md:mb-16">
           <div
-            className="h-[240px] sm:h-[340px] md:h-[400px] lg:h-[420px] rounded-3xl md:rounded-4xl bg-black overflow-hidden relative shadow-lg"
+            className="aspect-[16/10] rounded-3xl md:rounded-4xl bg-black overflow-hidden relative shadow-lg"
             data-aos="fade-right"
           >
             <DynamicVideoPlayer
@@ -77,10 +77,10 @@ export default function Flexibility() {
             <div className="inline-block">
               <a
                 href="#products"
-                className="group inline-flex items-center bg-[#0091d5] text-white font-bold rounded-full py-2.5 pl-6 pr-10 transition-all duration-300 hover:bg-[#007bb8] hover:shadow-lg hover:scale-105 active:scale-100 relative"
+                className="group inline-flex items-center bg-[#0091d5] text-white font-bold rounded-full py-2.5 pl-6 pr-10 transition-all duration-300 hover:bg-[#007bb8] hover:shadow-lg active:scale-100 relative"
               >
                 <span className="text-[15px] tracking-wide mr-4">View Products</span>
-                <span className="absolute right-0.5 flex items-center justify-center rounded-r-full w-10 h-[calc(100%-4px)] bg-white text-[#0091d5] transition-transform duration-300 group-hover:translate-x-1">
+                <span className="absolute right-0.5 flex items-center justify-center rounded-r-full w-10 h-[calc(100%-4px)] bg-white text-[#0091d5] transition-transform duration-300">
                   <ArrowRight size={18} strokeWidth={2.5} />
                 </span>
               </a>
@@ -104,7 +104,7 @@ export default function Flexibility() {
             className="accessories-swiper"
           >
             {accessories.map((accessory, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={index} className="pb-8">
                 <div className="bg-white border border-gray-100 rounded-3xl md:rounded-4xl shadow-sm hover:shadow-md transition-all duration-300 aspect-square overflow-hidden relative group">
                   <img
                     src={accessory.imageSrc}

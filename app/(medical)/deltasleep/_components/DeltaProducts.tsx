@@ -45,8 +45,8 @@ export default function DeltaProducts() {
 
           {/* Heading */}
           <DeltaScrollRevealText
-            text="DeltaSleep is governed by a management collective with over two decades of cross-functional expertise in sleep medicine, medical-device manufacturing, and global healthcare operations."
-            className="text-[#222222] text-4xl lg:text-[50px] font-semibold leading-[1.35]"
+            text="DeltaSleep is governed by a management collective with over two decades of cross-functional expertise in sleep medicine, medical-device manufacturing."
+            className="text-[#222222] text-4xl lg:text-[58px] font-bold leading-[1.15] tracking-[-0.5px]"
           />
         </div>
 

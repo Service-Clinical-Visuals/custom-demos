@@ -80,7 +80,7 @@ export default function LatestNews() {
       <div className="container mx-auto px-6 md:px-8 lg:px-12">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2
-            className="text-2xl md:text-4xl font-extrabold tracking-tight text-gray-900 mb-6 font-display"
+            className="text-2xl md:text-4xl font-extrabold tracking-tight text-gray-900 mb-4 font-display"
             data-aos="fade-up"
           >
             Latest <span className="text-[#0091d5]">News</span>, <span className="text-[#0091d5]">Blogs</span> and <span className="text-[#0091d5]">Articles</span>
@@ -111,7 +111,7 @@ export default function LatestNews() {
             className="news-swiper"
           >
             {blogs.map((blog) => (
-              <SwiperSlide key={blog.title}>
+              <SwiperSlide key={blog.title} className="pb-4">
                 <div className="bg-white border border-gray-100 rounded-4xl p-5 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02] flex flex-col justify-between group h-full">
                   <div>
                     <div className="aspect-4/3 w-full rounded-3xl overflow-hidden mb-5">
@@ -134,7 +134,7 @@ export default function LatestNews() {
                   <div className="pt-2">
                     <a
                       href="#blog"
-                      className="inline-flex items-center text-[13px] font-bold text-gray-800 hover:text-[#0091d5] transition-colors duration-300 gap-1.5 group/link"
+                      className="inline-flex items-center text-[15px] font-bold text-gray-800 hover:text-[#0091d5] transition-colors duration-300 gap-1.5 group/link"
                     >
                       <span>Read More</span>
                       <span className="flex items-center justify-center rounded-full w-5 h-5 bg-[#0091d5]/10 text-[#0091d5] transition-all duration-300 group-hover/link:bg-[#0091d5] group-hover/link:text-white">

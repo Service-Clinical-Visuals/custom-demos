@@ -49,7 +49,7 @@ export default function DeltaAbout() {
           {/* Main Title */}
           <DeltaScrollRevealText
             text="DeltaSleep Diagnostics & Therapy Inc. is a Canadian leader in respiratory innovation, specializing in the engineering and manufacture of advanced CPAP, APAP, and BiPAP systems."
-            className="text-[#222222] font-semibold leading-[1.35] text-4xl lg:text-[50px]"
+            className="text-[#222222] font-semibold text-4xl lg:text-[58px] leading-[1.15] tracking-[-0.5px]"
           />
         </div>
 
