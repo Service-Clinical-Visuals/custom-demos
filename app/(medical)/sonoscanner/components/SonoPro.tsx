@@ -12,7 +12,7 @@ const features = [
 
 export default function SonoPro() {
   return (
-    <section className="relative overflow-hidden bg-[#14387F] py-24">
+    <section className="relative overflow-hidden bg-[#14387F] py-8 md:py-24 sm:py-12">
       {/* DOT PATTERN BACKGROUND */}
       <div className="absolute inset-0 opacity-[0.06]">
         <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:18px_18px]" />

@@ -1,11 +1,11 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
-import { ArrowRight, ChevronRight, ChevronsRight } from "lucide-react";
-import { useEffect } from "react";
+import { ArrowRight,  ChevronsRight } from "lucide-react";
+
 
 const specifications = [
   "Convenient rechargeable battery to allow ongoing use, lasting for over 2 hours",
@@ -52,18 +52,18 @@ export default function TimescoSpecification() {
             className="
               text-4xl
               font-semibold
-              leading-[1.08]
+              leading-[1.15]
               tracking-[-0.03em]
               text-[#0d4f20]
             "
           >
-            Video Laryngoscopy Specification
+            Optima View Video Laryngoscope specifications
           </h2>
 
           <p
             className="
               mt-5
-              text-[17px]
+              text-[16px]
               leading-[2]
               text-[#5d5d5d]
             "
@@ -77,13 +77,13 @@ export default function TimescoSpecification() {
           </p>
 
           {/* SPEC LIST */}
-          <div className="mt-5 space-y-5">
+          <div className="mt-5 space-y-3">
             {specifications.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2"
+                className="flex gap-2 items-start"
               >
-                <ChevronsRight size={18} className="text-[#0a8d34] shrink-0" />
+                <ChevronsRight size={18} className="text-[#0a8d34] shrink-0 mt-2" />
                 <p
                   className="
                     text-[16px]

@@ -12,16 +12,17 @@ const features = [
   "One-click button suitably placed on the ergonomic handle for photography and video recording",
   "Quick data transfer via USB",
   "The 2.0 megapixel, high resolution camera features a 50°–60° lens angle",
-  "Anti-fog camera lens",
-  "HDMI connectivity to external monitor or TV screen",
-  "The sterile, single-use blade simply slides and clips onto the Optima View system",
+  // "Anti-fog camera lens",
+  // "HDMI connectivity to external monitor or TV screen",
+  // "The sterile, single-use blade simply slides and clips onto the Optima View system",
 ];
+
 
 export default function TimescoFeatures() {
 
   return (
     <section className="w-full bg-[#edf4ee] py-24">
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-stretch gap-12 px-8 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-stretch gap-12 px-8 lg:grid-cols-[1fr_1fr]">
         
         {/* LEFT FEATURE CARD */}
         <div
@@ -47,7 +48,7 @@ export default function TimescoFeatures() {
             Features
           </h2>
 
-          <div className="mt-4 space-y-3">
+          <div className="mt-4 space-y-5">
             {features.map((item, index) => (
               <div
                 key={index}
@@ -90,7 +91,7 @@ export default function TimescoFeatures() {
               shadow-[0_20px_60px_rgba(0,0,0,0.08)]
             "
           >
-            <div className="relative h-[500px] w-full">
+            <div className="relative aspect-video w-full">
               <DynamicVideoPlayer 
                 type="360"
                 className="absolute top-0 left-0 w-full h-full object-cover"
