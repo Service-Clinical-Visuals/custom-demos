@@ -36,7 +36,7 @@ export default function TimescoOptima() {
             className="
               text-4xl
               font-semibold
-              leading-[1.08]
+              leading-none
               tracking-[-0.03em]
               text-white
             "

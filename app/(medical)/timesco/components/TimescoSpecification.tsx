@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const specifications = [
   "Convenient rechargeable battery to allow ongoing use, lasting for over 2 hours",
   "Crystal clear colour correct image quality with a 3.75” LCD high resolution screen. Resolution ratio: 800 x 480RGB",
-  "The screen rotates 180° from left to right and tilts 110° up and down. It also has a view angle of 160° making it convenient for teaching with multiple viewers",
+  // "The screen rotates 180° from left to right and tilts 110° up and down. It also has a view angle of 160° making it convenient for teaching with multiple viewers",
 ];
 
 export default function TimescoSpecification() {
@@ -34,7 +34,7 @@ export default function TimescoSpecification() {
             "
           >
             {/* Future Video */}
-            <div className="relative h-[520px] w-full">
+            <div className="relative aspect-video w-full">
                 <DynamicVideoPlayer 
                 type="short-2"
                 className="absolute top-0 left-0 w-full h-full object-cover"
