@@ -26,7 +26,7 @@ const promises = [
 export default function TimescoWhoWeAre() {
 
   return (
-    <section className="w-full bg-[#f4f4f4] py-20">
+    <section className="w-full bg-[#ffff] py-20">
       <div className="mx-auto max-w-[1600px] px-8">
         
         {/* TOP SECTION */}
