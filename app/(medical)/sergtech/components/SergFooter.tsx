@@ -18,7 +18,7 @@ export default function SergFooter() {
   return (
     <footer className="relative overflow-hidden bg-[#252f8d] px-6 pt-16 pb-10">
       {/* MAIN CONTAINER */}
-      <div className="max-w-[1750px] mx-auto">
+      <div className="max-w-[1700px] mx-auto">
         {/* TOP GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 lg:gap-10">
           {/* LEFT BRAND */}
@@ -44,12 +44,12 @@ export default function SergFooter() {
             {/* SOCIALS */}
             <div className="flex items-center gap-4 mt-8">
               {/* INSTAGRAM */}
-              <button className="w-[42px] h-[42px] rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#252f8d] transition-all duration-300">
+              <button className="cursor-pointer w-[42px] h-[42px] rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#252f8d] transition-all duration-300">
                 <Instagram size={18} />
               </button>
 
               {/* LINKEDIN */}
-              <button className="w-[42px] h-[42px] rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#252f8d] transition-all duration-300">
+              <button className="cursor-pointer w-[42px] h-[42px] rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#252f8d] transition-all duration-300">
                 <Linkedin size={18} />
               </button>
             </div>

@@ -23,19 +23,25 @@ export default function SergSection() {
       description:
         "Our intelligent automation platform provides instant feedback, advanced analytics, and high-resolution symptom scoring to support accurate DBS programming and optimized Parkinson’s treatment decisions.",
     },
+    {
+      title: "Personalized Care",
+      description:
+        "By leveraging comprehensive patient data and advanced analytics, our platform enables personalized Parkinson’s care, optimizing treatment plans and improving patient outcomes.",
+    }
   ];
 
   return (
-    <section className="relative overflow-hidden bg-[#0f4ea9] py-24 px-6">
+    <section className="relative overflow-hidden bg-[#1A237E] py-24 px-6">
       {/* BACKGROUND DESIGN */}
       <div className="absolute inset-0 overflow-hidden">
+        <img src="/sergtech/serg-section-bg.png" alt="Background 1" className="absolute top-[-20%] left-[-10%] w-[400px] h-[400px] opacity-30 clip-path-hexagon" />
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-[1750px] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 items-start">
+      <div className="relative z-10 max-w-[1700px] mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.8fr] gap-8 items-stretch">
           {/* LEFT SIDE */}
-          <div data-aos="fade-right">
+          <div data-aos="fade-right" className="flex flex-col h-full">
             <h2 className="text-white text-4xl leading-[1.1] tracking-[-1.8px] font-bold max-w-[680px]">
               This is why we built StimSense
             </h2>
@@ -50,18 +56,18 @@ export default function SergSection() {
                 bradykinesia, and dyskinesia.
               </p>
 
-              <p className="text-white/90 text-[16px] leading-[2] font-medium">
+              {/* <p className="text-white/90 text-[16px] leading-[2] font-medium">
                 The platform provides fast, secure, and intelligent symptom
                 analysis with instant feedback and high-resolution scoring,
                 helping clinicians optimize DBS settings and deliver more
                 personalized Parkinson&apos;s care.
-              </p>
+              </p> */}
             </div>
 
             {/* VIDEO CONTAINER */}
             <div
               data-aos="zoom-in"
-              className="mt-10 relative aspect-video rounded-[28px] overflow-hidden bg-[#f2f2f2]"
+              className="mt-10 aspect-video relative flex-1 min-h-0 rounded-[28px] overflow-hidden"
             >
              <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
             </div>
@@ -75,7 +81,7 @@ export default function SergSection() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-[#f7f7f7] rounded-[26px] px-8 py-7 shadow-[0_10px_28px_rgba(0,0,0,0.12)] border border-white/30"
+                className="bg-[#f7f7f7] rounded-[26px] px-8 py-4 shadow-[0_10px_28px_rgba(0,0,0,0.12)] border border-white/30"
               >
                 <div className="flex items-start gap-4">
                   {/* ICON */}
@@ -85,11 +91,11 @@ export default function SergSection() {
 
                   {/* CONTENT */}
                   <div>
-                    <h3 className="text-[#313131] text-[24px] leading-tight font-bold">
+                    <h3 className="text-[#313131] text-xl leading-tight font-bold">
                       {feature.title}
                     </h3>
 
-                    <p className="mt-3 text-[#6f6f6f] text-[14px] leading-[1.9] font-medium">
+                    <p className="mt-2 text-[#6f6f6f] text-[16px] leading-[1.9] font-medium">
                       {feature.description}
                     </p>
                   </div>
@@ -99,7 +105,7 @@ export default function SergSection() {
 
             {/* BUTTON */}
             <button className="cursor-pointer group mt-2 w-fit h-[56px] rounded-full bg-white hover:bg-[#f4f4f4] transition-all duration-300 pl-8 pr-3 flex items-center shadow-[0_12px_30px_rgba(0,0,0,0.18)]">
-              <span className="text-[#313131] text-[14px] font-bold tracking-wide">
+              <span className="text-[#313131] text-[16px] font-bold tracking-wide">
                 View Product Details
               </span>
 

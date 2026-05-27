@@ -8,7 +8,7 @@ export default function SergInnovation() {
 
   return (
     <section className="w-full bg-[#f5f5f5] py-16 px-6 overflow-hidden">
-      <div className="max-w-[1750px] mx-auto">
+      <div className="max-w-[1700px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-[1.02fr_0.98fr] gap-14 items-center">
           {/* LEFT IMAGE SECTION */}
           <div
@@ -75,7 +75,7 @@ export default function SergInnovation() {
 
             {/* CTA BUTTON */}
             <button className="cursor-pointer group mt-5 h-[56px] rounded-full bg-[#252f8d] hover:bg-[#3340ba] transition-all duration-300 pl-8 pr-3 flex items-center shadow-[0_12px_28px_rgba(37,47,141,0.18)]">
-              <span className="text-white text-[14px] font-semibold tracking-wide">
+              <span className="text-white text-[16px] font-semibold tracking-wide">
                 Discover Our Range
               </span>
 

@@ -7,8 +7,9 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function SergHero() {
 
   return (
+    <div className="w-full px-4 sm:px-6 lg:px-10">
     <section
-      className="relative max-w-[1800px] mx-auto mt-4 rounded-[24px] overflow-hidden h-[820px] shadow-[0_8px_25px_rgba(0,0,0,0.18)]"
+      className="relative max-w-[1750px] mx-auto mt-4 rounded-[24px] overflow-hidden h-[820px] shadow-[0_8px_25px_rgba(0,0,0,0.18)]"
       data-aos="zoom-in"
     >
       {/* VIDEO READY CONTAINER */}
@@ -39,5 +40,6 @@ export default function SergHero() {
         </div>
       </div>
     </section>
+    </div>
   );
 }

@@ -10,7 +10,7 @@ export default function SergAbout() {
 
 
   return (
-    <section className="max-w-[1750px] mx-auto px-5 py-[70px]">
+    <section className="max-w-[1700px] mx-auto px-5 py-[70px]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
         {/* LEFT IMAGE */}
         <div

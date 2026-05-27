@@ -32,7 +32,7 @@ export default function SergTeams() {
 
   return (
     <section className="w-full bg-[#f6f6f6] py-24 px-6 overflow-hidden">
-      <div className="max-w-[1750px] mx-auto">
+      <div className="max-w-[1700px] mx-auto">
         {/* HEADER */}
         <div
           data-aos="fade-up"
@@ -42,7 +42,7 @@ export default function SergTeams() {
             The SERG Team
           </h2>
 
-          <p className="mt-8 max-w-[1200px] mx-auto text-[#6f6f6f] text-[15px] leading-[2] font-medium">
+          <p className="mt-8 max-w-[1200px] mx-auto text-[#6f6f6f] text-[16px] leading-[2] font-medium">
             At SERG Technologies, our team brings together experts in
             bio-mechatronics, clinical neurology, AI, and digital healthcare to
             develop innovative solutions for Parkinson&apos;s care. Driven by
