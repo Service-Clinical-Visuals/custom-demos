@@ -28,7 +28,7 @@ export default function Solutions() {
       <div className="absolute inset-0 bg-[#97deff] opacity-80 backdrop-blur-[2px]" />
 
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-5xl mx-auto text-center mb-16">
           <h2
             className="text-2xl md:text-4xl font-extrabold tracking-tight text-gray-900 mb-6 font-display"
             data-aos="fade-up"
@@ -36,7 +36,7 @@ export default function Solutions() {
             Innovative Respiratory Care Solutions
           </h2>
           <p
-            className="text-[14px] md:text-[17px] text-gray-600 leading-relaxed max-w-2xl mx-auto"
+            className="text-[14px] md:text-[17px] text-gray-600 leading-relaxed  mx-auto"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -54,11 +54,11 @@ export default function Solutions() {
               data-aos-delay={index * 150}
             >
               <div>
-                <div className="aspect-square rounded-[2rem] overflow-hidden mb-6 bg-[#def5ff]">
+                <div className="aspect-[16/11] rounded-[2rem] overflow-hidden mb-6 bg-[#def5ff]">
                   <img
                     src={card.imageSrc}
                     alt={card.imageAlt}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-90 transition-transform duration-500"
                   />
                 </div>
 
@@ -66,7 +66,7 @@ export default function Solutions() {
                   {card.title}
                 </h3>
 
-                <div className="w-full h-[1px] bg-white/60 mb-4" />
+                <div className="w-full h-[1px] bg-gray-500 mb-4" />
               </div>
 
               <p className="text-[17px] text-gray-600 leading-relaxed mt-2 font-sans">

@@ -23,7 +23,7 @@ export default function DeltaProductScroll() {
             <DeltaScrollRevealText
               as="h1"
               text={HEADING_TEXT}
-              className="mt-6 text-[#232323] text-4xl lg:text-7xl font-semibold leading-[1.25]"
+              className="mt-6 text-[#232323] text-4xl lg:text-7xl font-semibold leading-[1.15] tracking-[-0.5px]"
             />
           </div>
         </div>

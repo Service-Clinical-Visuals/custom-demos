@@ -37,10 +37,10 @@ export default function JustBreathe() {
 
             <a
               href="#products"
-              className="group inline-flex items-center bg-[#0091d5] text-white font-bold rounded-full py-2.5 pl-6 pr-10 transition-all duration-300 hover:bg-[#007bb8] hover:shadow-lg hover:scale-105 active:scale-100 relative"
+              className="group inline-flex items-center bg-[#0091d5] text-white font-bold rounded-full py-2.5 pl-6 pr-10 transition-all duration-300 hover:bg-[#007bb8] hover:shadow-lg active:scale-100 relative"
             >
               <span className="text-[15px] tracking-wide mr-4">Discover Innovation</span>
-              <span className="absolute right-0.5 flex items-center justify-center rounded-r-full w-10 h-[calc(100%-4px)] bg-white text-[#0091d5] transition-transform duration-300 group-hover:translate-x-1">
+              <span className="absolute right-0.5 flex items-center justify-center rounded-r-full w-10 h-[calc(100%-4px)] bg-white text-[#0091d5] transition-transform duration-300">
                 <ArrowRight size={18} strokeWidth={2.5} />
               </span>
             </a>

@@ -113,7 +113,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#0082c3] hover:bg-[#0070a8] text-white flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-sm"
               >
-                <Youtube size={16} strokeWidth={2.5} />
+                <Youtube size={20} strokeWidth={2.5} />
               </a>
               <a
                 href="https://linkedin.com"
@@ -121,7 +121,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#0082c3] hover:bg-[#0070a8] text-white flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-sm"
               >
-                <Linkedin size={16} strokeWidth={2.5} />
+                <Linkedin size={20} strokeWidth={2.5} />
               </a>
               <a
                 href="https://twitter.com"
@@ -129,7 +129,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#0082c3] hover:bg-[#0070a8] text-white flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-sm"
               >
-                <Twitter size={16} strokeWidth={2.5} />
+                <Twitter size={20} strokeWidth={2.5} />
               </a>
             </div>
           </div>
