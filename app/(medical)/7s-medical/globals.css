@@ -1,0 +1,44 @@
+@layer base {
+  :root {
+    font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C10230;
+  --color-primary-hover: #9B0124;
+  --color-dark: #1A1A1A;
+  --color-text: #4A4A4A;
+  --color-muted: #6B7280;
+  --color-light: #F9FAFB;
+  --color-border: #E5E7EB;
+
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+.paragraph {
+  font-size: 16px !important;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-dark);
+  font-weight: 600;
+}
