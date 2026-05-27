@@ -88,7 +88,7 @@ export default function AirChoose() {
             {/* DESCRIPTION */}
             <p
               className="
-                mt-7
+                mt-5
                 text-[16px]
                 leading-[2]
                 text-[#6f6f6f]
@@ -104,7 +104,7 @@ export default function AirChoose() {
             </p>
 
             {/* BUTTON GRID */}
-            <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2">
+            <div className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2">
               {industries.map((item, index) => (
                 <button
                   key={index}
@@ -125,7 +125,7 @@ export default function AirChoose() {
                     hover:-translate-y-1
                     hover:shadow-[0_8px_20px_rgba(0,166,223,0.25)]
                   "
-                >
+                > 
                   {/* TEXT */}
                   <span
                     className="

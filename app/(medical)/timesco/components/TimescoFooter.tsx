@@ -308,7 +308,7 @@ export default function TimescoFooter() {
                   United Kingdom
                 </p>
               </div>
-
+ 
               <div className="flex items-center gap-4">
                 <Phone
                   size={20}

@@ -78,6 +78,7 @@ export default function AirFooter() {
 
               <button
                 className="
+                  cursor-pointer
                   flex
                   h-[48px]
                   w-[58px]
@@ -99,6 +100,7 @@ export default function AirFooter() {
             <div className="mt-7 flex items-center gap-4">
               <button
                 className="
+                  cursor-pointer
                   flex
                   h-[48px]
                   w-[48px]
@@ -120,6 +122,7 @@ export default function AirFooter() {
 
               <button
                 className="
+                  cursor-pointer
                   flex
                   h-[48px]
                   w-[48px]
@@ -165,6 +168,7 @@ export default function AirFooter() {
                 <li key={index}>
                   <button
                     className="
+                      cursor-pointer
                       text-left
                       text-[15px]
                       font-medium
@@ -205,6 +209,7 @@ export default function AirFooter() {
                 <li key={index}>
                   <button
                     className="
+                      cursor-pointer
                       text-left
                       text-[15px]
                       font-medium
@@ -283,6 +288,7 @@ export default function AirFooter() {
 
                 <p
                   className="
+                    cursor-pointer
                     text-[15px]
                     font-medium
                     text-[#555]

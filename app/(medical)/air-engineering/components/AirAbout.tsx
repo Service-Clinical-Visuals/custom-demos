@@ -66,11 +66,11 @@ export default function AirAbout() {
                 />
               </div>
 
-              <h3 className="mb-4 text-[18px] font-bold leading-tight text-[#1f1f1f]">
+              <p className="mb-4 text-[18px] font-bold leading-tight text-[#1f1f1f]">
                 {item.title}
-              </h3>
+              </p>
 
-              <p className="text-[14px] leading-[1.9] text-[#757575]">
+              <p className="text-[16px] leading-[1.9] text-[#757575]">
                 {item.description}
               </p>
             </div>
@@ -100,7 +100,7 @@ export default function AirAbout() {
             className="flex flex-col justify-center"
           >
             {/* SUBTITLE */}
-            <span className="mb-4 text-[15px] font-semibold text-[#ff3b30]">
+            <span className="mb-4 text-[16px] font-semibold text-[#ff3b30]">
               About AEG
             </span>
 
@@ -108,7 +108,7 @@ export default function AirAbout() {
             <h2
               className="
                 max-w-[640px]
-                text-[34px]
+                text-4xl
                 font-bold
                 leading-[1.45]
                 tracking-[-0.6px]
@@ -122,9 +122,8 @@ export default function AirAbout() {
             {/* DESCRIPTION */}
             <p
               className="
-                mt-7
-                max-w-[620px]
-                text-[15px]
+                mt-4
+                text-[16px]
                 leading-[2]
                 text-[#6f6f6f]
               "
@@ -136,13 +135,13 @@ export default function AirAbout() {
               has been involved in the design, assembly and supply of bespoke
               pneumatics technologies and compressed air equipment. Whatever
               the application, our team can design and provide an effective
-              solution.
+              solution.                         
             </p>
 
             {/* TABS */}
             <div
               className="
-                mt-9
+                mt-4
                 flex
                 overflow-hidden
                 border
@@ -193,9 +192,8 @@ export default function AirAbout() {
             {/* TAB CONTENT */}
             <p
               className="
-                mt-8
-                max-w-[620px]
-                text-[15px]
+                mt-4
+                text-[16px]
                 leading-[2]
                 text-[#6d6d6d]
               "
@@ -209,7 +207,7 @@ export default function AirAbout() {
             </p>
 
             {/* BUTTON */}
-            <div className="mt-10">
+            <div className="mt-5">
               <button
                 className="
                   group
@@ -218,7 +216,7 @@ export default function AirAbout() {
                   bg-[#00A6E6]
                   px-10
                   py-4
-                  text-[14px]
+                  text-[16px]
                   font-semibold
                   uppercase
                   tracking-[0.5px]

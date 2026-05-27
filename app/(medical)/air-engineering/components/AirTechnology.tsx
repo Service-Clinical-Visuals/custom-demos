@@ -4,31 +4,61 @@
 
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import { useRef, useState } from "react";
 
 const cards = [
   {
     title: "Custom Fluid Manifolds",
     desc: "Our OEM Fluid Technology Division delivers custom fluid manifold solutions tailored to your specific needs.",
     image: "/ae/ae-tech-1.png",
+    content: "Custom Manifolds"
   },
   {
     title: "Chassis Plates",
     desc: "AEG specialise in designing and manufacturing pneumatic and fluid control chassis assemblies that are fully integrated into your device.",
     image: "/ae/ae-tech-2.png",
+    content: "Chassis Assembly"
   },
   {
     title: "Fluid Control Panels",
     desc: "Expertise in designing and manufacturing pneumatic and fluid control panels tailored to meet the unique needs of OEMs.",
     image: "/ae/ae-tech-3.png",
+    content: "Fluid Control Panels"
   },
   {
-    title: "Fluid Control Panels",
-    desc: "Expertise in designing and manufacturing pneumatic and fluid control panels tailored to meet the unique needs of OEMs.",
+    title: "Additive Manufacturing",
+    desc: "Advanced additive manufacturing technologies, including FDM and SLA, to create high-precision, scalable solutions for OEMs.",
     image: "/ae/ae-tech-4.png",
+    content: "Additive Solutions"
   },
+  {
+    title: "Subtractive Manufacturing",
+    desc: "Our subtractive manufacturing services deliver precision-engineered custom components using advanced CNC machining techniques.",
+    image: "/ae/ae-tech-5.png",
+    content: "Subtractive Solutions"
+  },
+  {
+    title : "Injection Moulding",
+    desc: "Precision injection moulding services for custom components, supporting both low and high-volume production with quality results.",
+    image: "/ae/ae-tech-6.png",
+    content: "Moulding Solutions"
+  }
 ];
 
 export default function AirTechnology() {
+  const [activeDot, setActiveDot] = useState(0);
+  const trackRef = useRef<HTMLDivElement>(null);
+
+  const goToPage = (page: number) => {
+    if (!trackRef.current) return;
+    setActiveDot(page);
+    const track = trackRef.current;
+    track.scrollTo({
+      left: page === 0 ? 0 : track.scrollWidth - track.clientWidth,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section
       className="
@@ -109,13 +139,15 @@ export default function AirTechnology() {
         ===================================== */}
 
         <div
+          ref={trackRef}
           className="
             mt-[70px]
-            grid
-            grid-cols-1
+            flex
             gap-6
-            md:grid-cols-2
-            xl:grid-cols-4
+            overflow-x-auto
+            [scrollbar-width:none]
+            [-ms-overflow-style:none]
+            [&::-webkit-scrollbar]:hidden
           "
         >
           {cards.map((item, index) => (
@@ -124,6 +156,10 @@ export default function AirTechnology() {
               data-aos="fade-up"
               data-aos-delay={index * 120}
               className="
+                flex-shrink-0
+                w-[280px]
+                md:w-[calc(50%-12px)]
+                xl:w-[calc(25%-18px)]
                 cursor-pointer
                 group
                 overflow-hidden
@@ -190,7 +226,7 @@ export default function AirTechnology() {
                       hover:text-[#00A7DE]
                     "
                   >
-                    View More
+                   {item.content}
                   </button>
 
                   <button
@@ -226,9 +262,15 @@ export default function AirTechnology() {
           data-aos-delay="450"
           className="mt-[60px] flex justify-center gap-2"
         >
-          <div className="h-[5px] w-[34px] skew-x-[-25deg] bg-[#9CCB3B]" />
+          <div
+            onClick={() => goToPage(0)}
+            className={`h-[8px] w-[34px] skew-x-[-25deg] cursor-pointer transition-colors duration-300 ${activeDot === 0 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
+          />
 
-          <div className="h-[5px] w-[34px] skew-x-[-25deg] bg-[#d9d9d9]" />
+          <div
+            onClick={() => goToPage(1)}
+            className={`h-[8px] w-[34px] skew-x-[-25deg] cursor-pointer transition-colors duration-300 ${activeDot === 1 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
+          />
         </div>
       </div>
     </section>
