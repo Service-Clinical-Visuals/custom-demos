@@ -1,66 +1,101 @@
 "use client";
 
 import React from "react";
-import Button from "./Button";
 
 export default function AboutUs() {
+  const listItems = [
+    "Founded on March 15, 2003, with a vision to deliver innovative orthopaedic solutions",
+    "Works closely with leading orthopaedic surgeons to create advanced medical technologies",
+    "Celebrated its 20th anniversary in 2023, marking a major milestone in innovation and growth",
+    "Trusted by healthcare professionals in more than 35 countries across Europe and beyond"
+  ];
+
   return (
-    <section className="py-16 md:py-20">
-      <div className="container mx-auto px-4 lg:px-12">
-        <div className="flex flex-col">
-          {/* Row 1: About Us */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch">
-            {/* Left: Image */}
-            <div className="w-full" data-aos="fade-right">
-              <img 
-                src="/alivecor/images/about.png" 
-                alt="About Us - Doctor and Patient" 
-                className="w-full h-full aspect-[4/1.5] object-cover rounded-[32px] lg:rounded-br-none" 
-              />
-            </div>
+    <section className="py-20 md:py-28 bg-white overflow-hidden">
+      <div className="container mx-auto px-6 lg:px-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          
+          {/* Left Column: Text Content */}
+          <div className="lg:col-span-7 flex flex-col justify-center" data-aos="fade-right">
             
-            {/* Right: Text */}
-            <div className="flex flex-col items-start justify-center py-4 lg:py-6 lg:pl-8" data-aos="fade-left">
-              <h2 className="text-[28px] md:text-[32px] font-semibold text-[#004B87] mb-4">
-                About Us
-              </h2>
-              <p className="text-[15px] leading-relaxed mb-6 font-light text-[#484848]">
-                AliveCor, Inc. is transforming cardiological care using deep learning. The FDA-cleared KardiaMobile device is the most clinically-validated personal ECG solution in the world. KardiaMobile 6L provides instant detection of Atrial Fibrillation, Bradycardia, Tachycardia, Sinus Rhythm with Supraventricular Ectopy, Sinus Rhythm with Premature Ventricular Contractions, Sinus Rhythm with Wide QRS, and Normal Sinus Rhythm in an ECG.
+            {/* Subhead label with Journey Line */}
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-[#E33587] font-semibold text-sm md:text-[15px] tracking-wider uppercase">
+                Our Journey
+              </span>
+              <span className="h-[2px] w-12 bg-[#E33587] rounded-full"></span>
+            </div>
+
+            {/* Main Section Title */}
+            <h2 className="text-[32px] md:text-[40px] lg:text-[46px] font-bold text-[#212121] mb-8 leading-tight tracking-tight">
+              The History of Group
+            </h2>
+
+            {/* Paragraphs */}
+            <div className="space-y-6 text-[#6D6B6B] font-light leading-relaxed text-[15px] md:text-[16px] mb-8">
+              <p>
+                X.NOV is an independent French family group originally formed by a triumvirate of creative enthusiasts with complementary academic and professional backgrounds in the medical sector. The founders decided to unite their know-how and ideas in the service of the patient in the field of orthopaedic surgery. In order to reduce the risks of contamination and to facilitate the work of the personnel in the operating theatre, they develop the first disposable ancillary for the hip.
               </p>
-              <p className="text-[15px] leading-relaxed font-light text-[#484848]">
-                AliveCor protects its customers with stringent data security and compliance practices, achieving ISO 27001 Certification, SOC 2 Type 2 Certification and HIPAA compliance attestation. AliveCor is a privately-held company headquartered in Mountain View, Calif.
+              
+              <p>
+                At the same time they designed the KAPS® solution for partial knee arthroplasty, which allows the surgeon to adapt to the patient's clinical situation during the operation thanks to an innovative ancillary.
+                <br />
+                <span className="font-semibold text-[#212121] mt-1 block">
+                  These two inventions won awards!
+                </span>
               </p>
+
+              <p>
+                In 2003, the founders won the national competition for the creation of innovative technology companies organised by the Ministry of Research with the collaboration of Anvar (now BPI).
+              </p>
+            </div>
+
+            {/* Checklist items */}
+            <div className="flex flex-col gap-4 mb-10">
+              {listItems.map((item, idx) => (
+                <div key={idx} className="flex items-start gap-4">
+                  {/* Filled Pink Circle Checkmark */}
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E33587] flex items-center justify-center mt-0.5 shadow-sm shadow-[#E33587]/30">
+                    <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <p className="text-[14px] md:text-[15px] text-[#6D6B6B] font-normal leading-relaxed">
+                    {item}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Story CTA Button */}
+            <div>
+              <button className="group inline-flex items-center gap-3 bg-[#E33587] hover:bg-[#c2226d] text-white font-semibold py-3.5 px-8 rounded-full shadow-lg shadow-[#E33587]/20 hover:shadow-xl hover:shadow-[#E33587]/30 hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer select-none">
+                <span className="text-[15px] tracking-wide">Our Story</span>
+                <svg 
+                  className="w-4 h-4 transform group-hover:translate-x-1.5 transition-transform duration-300" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor" 
+                  strokeWidth={3}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+
+          </div>
+
+          {/* Right Column: Headquarter Building Image */}
+          <div className="lg:col-span-5 flex items-center justify-center lg:justify-end" data-aos="fade-left">
+            <div className="relative w-full aspect-[4/3] lg:aspect-[1/1.1] rounded-[32px] overflow-hidden shadow-2xl transition-all duration-500 hover:scale-[1.01]">
+              <img 
+                src="/medical/x-nov/about.jpg" 
+                alt="X.NOV Headquarter Building" 
+                className="w-full h-full object-cover object-center" 
+              />
             </div>
           </div>
 
-          {/* Row 2: Our Solutions */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch mt-8 lg:mt-0">
-            {/* Left: Text */}
-            <div className="flex flex-col items-start justify-center py-4 lg:py-6 lg:pr-8 order-2 lg:order-1" data-aos="fade-right">
-              <h2 className="text-[28px] md:text-[32px] font-semibold text-[#004B87] mb-4">
-                 Our solutions
-              </h2>
-              <h3 className="text-[24px] font-semibold text-[#004B87] mb-2">
-                Heart disease is the leading cause of death in the United States
-              </h3>
-              
-              <p className="text-[15px] leading-relaxed mb-8 font-light text-[#484848]">
-                AliveCor was founded on the strength of our proprietary technologies: AI-enabled, machine learning-powered ECG sensors that deliver medical-grade heart data anytime, anywhere. Our digital tools help patients access, manage and share their data and connect with cardiologists to better understand and manage their heart health.
-              </p>
-              <Button variant="outline" size="sm">
-                Our Legacy
-              </Button>
-            </div>
-            
-            {/* Right: Image */}
-            <div className="w-full order-1 lg:order-2" data-aos="fade-left">
-              <img 
-                src="/alivecor/images/our-solution.png" 
-                alt="Our Solutions - People holding KardiaMobile" 
-                className="w-full h-full aspect-[4/1.5] object-cover rounded-[32px] lg:rounded-tl-none" 
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>

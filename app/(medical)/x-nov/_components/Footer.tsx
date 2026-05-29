@@ -2,122 +2,95 @@
 
 import React from "react";
 import Link from "next/link";
-import { Instagram, Facebook, Twitter, Linkedin, Navigation, Phone, ArrowRight } from "lucide-react";
+import { Linkedin, ArrowRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#174e8c1c] pt-16 pb-6">
-      <div className="container mx-auto px-4 lg:px-12">
+    <footer className="bg-white pt-20 pb-8 relative overflow-hidden">
+      {/* Subtle top background wave/curve (Optional, adds to premium feel) */}
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-pink-100 to-transparent opacity-50" />
+      
+      <div className="container mx-auto px-6 lg:px-16">
         
-        {/* Top 5-Column Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[5fr_2fr_2fr_2fr_4fr] gap-8 lg:gap-6 mb-12">
+        {/* Main Footer Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
           
-          {/* Column 1: AliveCor Logo & Description */}
-          <div className="lg:col-span-1 flex flex-col items-start">
-            <Link href="/alivecor" className="flex items-center mb-6">
-              <img src="/alivecor/images/alivecor-footer.png" alt="Footer Logo" className="w-40" />
+          {/* Column 1: Logo & Description (Wide) */}
+          <div className="lg:col-span-4 flex flex-col items-start">
+            <Link href="/x-nov" className="mb-6 block">
+              {/* Note: The logo path is public/medical/x-nov/x-nov_logo.png as checked previously */}
+              <img src="/medical/x-nov/x-nov_logo.png" alt="X.NOV Logo" className="h-12 w-auto object-contain" />
             </Link>
-            <p className="font-sans text-[12px] leading-relaxed font-light mb-6 pr-4">
-              We are advancing our mission with end-to-end cardiological care and services for consumers, patients, providers, and payers that use state-of-the-art tools to improve diagnosis and treatment and help reduce disparities in care.
+            <p className="text-[#6D6B6B] font-light text-[14px] leading-relaxed mb-8 pr-4 lg:pr-10">
+              X.NOV is a European very fast growing company specialized in orthopedic industry (Hip & Knee). We are focused on creativity, innovation and are committed to provide the best services to our customers.
             </p>
-            <div className="flex items-center gap-4 text-black">
-              <a href="#" className="hover:text-[#004B87] transition-colors"><Instagram size={18} /></a>
-              <a href="#" className="hover:text-[#004B87] transition-colors"><Facebook size={18} /></a>
-              <a href="#" className="hover:text-[#004B87] transition-colors"><Twitter size={18} /></a>
-              <a href="#" className="hover:text-[#004B87] transition-colors"><Linkedin size={18} /></a>
+            <div>
+              <h5 className="text-[#212121] font-semibold text-[15px] mb-4">Social Media Links</h5>
+              <div className="flex items-center gap-4 text-[#0077B5]">
+                <a href="#" aria-label="LinkedIn" className="hover:text-[#005582] transition-colors">
+                  <Linkedin size={22} fill="currentColor" />
+                </a>
+              </div>
             </div>
           </div>
           
           {/* Column 2: Quick Links */}
-          <div className="flex flex-col items-start lg:pl-6">
-            <h4 className="text-[20px] font-semibold text-[#004B87] mb-6">
+          <div className="lg:col-span-2 flex flex-col items-start">
+            <h4 className="text-[16px] font-bold text-[#212121] mb-6">
               Quick Links
             </h4>
-            <ul className="flex flex-col gap-6 font-sans text-[16px] font-medium text-[#666666]">
-              <li><Link href="#" className="hover:text-[#004B87]">Home</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">About Us</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">Products</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">Newsroom</Link></li>
+            <ul className="flex flex-col gap-4 font-light text-[14px] text-[#6D6B6B]">
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Home</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Company</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Events</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">patients</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Quality</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Contact</Link></li>
             </ul>
           </div>
           
-          {/* Column 3: Support */}
-          <div className="flex flex-col items-start">
-            <h4 className="text-[20px] font-semibold text-[#004B87] mb-6">
-              Support
+          {/* Column 3: About */}
+          <div className="lg:col-span-2 flex flex-col items-start">
+            <h4 className="text-[16px] font-bold text-[#212121] mb-6">
+              About
             </h4>
-            <ul className="flex flex-col gap-6 font-sans text-[16px] font-medium text-[#666666]">
-              <li><Link href="#" className="hover:text-[#004B87]">FAQs</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">User Manual</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">Compatibility</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">Shipping</Link></li>
+            <ul className="flex flex-col gap-4 font-light text-[14px] text-[#6D6B6B]">
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Legal information</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Privacy</Link></li>
+              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Sitemap</Link></li>
             </ul>
           </div>
           
-          {/* Column 4: Kardia Products */}
-          <div className="flex flex-col items-start">
-            <Link href="#" className="flex items-center mb-6">
-              <img src="/alivecor/images/kardia-footer.png" alt="Kardia Logo" className="w-40" />
-            </Link>
-            <ul className="flex flex-col gap-6 font-sans text-[16px] font-medium text-[#666666]">
-              <li><Link href="#" className="hover:text-[#004B87]">KardiaMobile Card</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">KardiaMobile 6L</Link></li>
-              <li><Link href="#" className="hover:text-[#004B87]">KardiaMobile</Link></li>
-              <li><Link href="#" className="text-[#004B87] hover:underline">See All</Link></li>
-            </ul>
-          </div>
-          
-          {/* Column 5: Connect With Us */}
-          <div className="flex flex-col items-start">
-            <h4 className="text-[20px] font-semibold text-[#004B87] mb-6">
-              Connect With Us
+          {/* Column 4: Newsletter (Wide) */}
+          <div className="lg:col-span-4 flex flex-col items-start lg:pl-6">
+            <h4 className="text-[18px] font-semibold text-[#E33587] mb-6">
+              Ready to shape the future with us?
             </h4>
             
             {/* Newsletter Input */}
-            <div className="flex w-full mb-6 relative shadow-sm">
+            <div className="flex w-full mb-6 relative">
               <input 
                 type="email" 
-                placeholder="Enter your E-mail id" 
-                className="w-full bg-white text-[13px] font-sans text-[#333] px-4 py-3 rounded-l-md outline-none border border-transparent focus:border-[#004B87]/30 transition-colors"
+                placeholder="Please Enter Your Email" 
+                className="w-full bg-[#f4f6f9] text-[14px] font-light text-[#333] px-6 py-4 rounded-full outline-none border border-transparent focus:border-[#E33587]/30 transition-colors placeholder:text-gray-400"
               />
-              <button className="bg-[#004B87] text-white px-4 rounded-r-md flex items-center justify-center hover:bg-[#003561] transition-colors">
+              <button className="absolute right-2 top-2 bottom-2 aspect-square bg-[#4a4a4a] text-white rounded-full flex items-center justify-center hover:bg-[#333333] transition-colors shadow-sm">
                 <ArrowRight size={18} />
               </button>
             </div>
             
-            {/* Address */}
-            <div className="mb-4 w-full">
-              <h5 className="text-[18px] font-semibold text-[#004B87] mb-2">Address</h5>
-              <div className="flex items-start gap-2 text-[#484848] font-sans text-[12px] leading-relaxed">
-                <Navigation size={14} className="mt-1 flex-shrink-0" />
-                <p className="text-[16px]!">444 Castro St, 6th Floor, Mountain View,<br/>CA 94041, US</p>
-              </div>
-            </div>
-            
-            {/* Phone */}
-            <div className="w-full">
-              <h5 className="text-[18px] font-semibold text-[#004B87] mb-2">Phone</h5>
-              <div className="flex items-center gap-2 text-[#484848] font-sans text-[12px]">
-                <Phone size={14} className="flex-shrink-0" />
-                <p className="text-[16px]!">(855) 338-8800</p>
-              </div>
-            </div>
-            
+            <p className="text-[#6D6B6B] font-light text-[14px] leading-relaxed">
+              Stay connected with X.NOV for the latest updates, innovations, and orthopaedic solutions.
+            </p>
           </div>
           
         </div>
         
-        {/* Bottom Row: Copyright & Legal */}
-        <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-sans text-[14px]!">
-            Copyrights@2026 Alivecor.All rights reserved
+        {/* Bottom Row: Copyright */}
+        <div className="border-t border-gray-200 pt-8 flex justify-center items-center">
+          <p className="font-light text-[13px] text-[#6D6B6B]">
+            Copyright 2026, All Rights Reserved
           </p>
-          <div className="flex items-center gap-6 font-sans text-[14px]">
-            <Link href="#" className="hover:text-[#004B87]">Privacy Policy</Link>
-            <Link href="#" className="hover:text-[#004B87]">Terms</Link>
-            <Link href="#" className="hover:text-[#004B87]">Security</Link>
-            <Link href="#" className="hover:text-[#004B87]">Accessibility</Link>
-          </div>
         </div>
         
       </div>

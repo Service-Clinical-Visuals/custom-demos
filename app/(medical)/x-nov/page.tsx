@@ -1,11 +1,11 @@
 import Header from "./_components/Header";
 import HeroVideo from "./_components/HeroVideo";
 import AboutUs from "./_components/AboutUs";
-import Kardia12L from "./_components/Kardia12L";
-import OneCableDesign from "./_components/OneCableDesign";
-import ComparisonVideo from "./_components/ComparisonVideo";
-import OurCustomers from "./_components/OurCustomers";
-import Newsroom from "./_components/Newsroom";
+import MercuryHipImplant from "./_components/MercuryHipImplant";
+import ProductRange from "./_components/ProductRange";
+import Manufacturer from "./_components/Manufacturer";
+import OurValues from "./_components/OurValues";
+import OurEvents from "./_components/OurEvents";
 import Footer from "./_components/Footer";
 
 export default function AlivecorPage() {
@@ -23,20 +23,20 @@ export default function AlivecorPage() {
       {/* About Us and Our Solutions Section */}
       <AboutUs />
 
-      {/* Kardia 12L Section */}
-      <Kardia12L />
+      {/* Mercury Hip Implant Section */}
+      <MercuryHipImplant />
 
-      {/* One Cable Design & Workflow Section */}
-      <OneCableDesign />
+      {/* Product Range Carousel Section */}
+      <ProductRange />
 
-      {/* Comparison to Conventional 12-lead Results Section */}
-      <ComparisonVideo />
+      {/* Manufacturer Video Section */}
+      <Manufacturer />
 
-      {/* Our Customers Section */}
-      <OurCustomers />
+      {/* Our Values Section */}
+      <OurValues />
 
-      {/* Newsroom Section */}
-      <Newsroom />
+      {/* Our Events Section */}
+      <OurEvents />
 
       {/* Footer Section */}
       <Footer />
