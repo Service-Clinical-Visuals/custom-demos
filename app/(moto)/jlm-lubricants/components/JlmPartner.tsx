@@ -186,7 +186,7 @@ export default function JlmPartner() {
                 />
 
                 <div>
-                  <h4 className="font-semibold font-black">
+                  <h4 className="font-semibold text-black">
                     Optimal Performance and Reliability
                   </h4>
 
@@ -204,7 +204,7 @@ export default function JlmPartner() {
                 />
 
                 <div>
-                  <h4 className="font-semibold font-black">
+                  <h4 className="font-semibold text-black">
                     Customer Satisfaction and Trust
                   </h4>
 

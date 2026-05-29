@@ -30,9 +30,6 @@ export default function JlmLatestStories() {
 
   return (
     <section className="bg-[#F4F4F4]">
-      {/* Top Yellow Line */}
-      <div className="h-[3px] w-full bg-[#F4B400]" />
-
       <div className="mx-auto max-w-[1600px] px-6 py-20">
         {/* Heading */}
         <div
