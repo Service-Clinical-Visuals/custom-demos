@@ -30,7 +30,7 @@ export default function JlmHero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-end pb-16 ">
+      <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-end px-6 pb-16 ">
         <div
           data-aos="fade-right"
           data-aos-delay="300"

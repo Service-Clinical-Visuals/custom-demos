@@ -32,8 +32,9 @@ export default function JlmNavbar() {
   return (
     <>
       {/* Yellow Strip */}
-      <div className="fixed top-0 left-0 z-50 h-[36px] w-full bg-[#F4B400]">
-        <div className="mx-auto flex h-full max-w-[1600px] px-6 justify-between items-center">
+      <div className={`fixed top-0 left-0 z-50 h-[36px] w-full bg-[#F4B400]           transition-all duration-500
+          ${visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}`}>
+        <div className="mx-auto flex h-full max-w-[1600px] px-8 justify-between items-center">
           <div className="flex gap-6">
             <div className="hidden sm:flex gap-3 items-center border-r border-white pr-6">
               <Phone size={18} className="text-white cursor-pointer" />
@@ -98,7 +99,7 @@ export default function JlmNavbar() {
               <p className="text-[12px] text-gray-400">Welcome,</p>
               <p className="text-white">John Doe</p>
             </div>
-            <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white">
+            <div className="cursor-pointer flex h-12 w-12 items-center justify-center rounded-full border-2 border-white">
               <svg
                 className="h-7 w-7 text-white"
                 fill="none"

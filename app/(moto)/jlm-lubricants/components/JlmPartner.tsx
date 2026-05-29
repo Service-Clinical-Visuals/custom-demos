@@ -14,7 +14,7 @@ export default function JlmPartner() {
             grid
             items-center
             gap-10
-            lg:grid-cols-[52%_48%]
+            lg:grid-cols-[52fr_48fr]
           "
         >
           {/* TEXT */}
@@ -126,7 +126,7 @@ export default function JlmPartner() {
             grid
             items-center
             gap-10
-            lg:grid-cols-[48%_52%]
+            lg:grid-cols-[48fr_52fr]
           "
         >
           {/* IMAGE */}

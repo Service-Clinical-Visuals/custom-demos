@@ -38,6 +38,7 @@ export default function JlmTradeCard({
         src={image}
         alt=""
         className="
+          cursor-pointer
           absolute
           inset-0
           h-full
@@ -48,7 +49,7 @@ export default function JlmTradeCard({
         "
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+      {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
 
       <div
         className="
@@ -74,7 +75,7 @@ export default function JlmTradeCard({
           size={18}
           className="text-[#F7B500]"
         />
-      </div>
+      </div> */}
     </div>
   );
 }
