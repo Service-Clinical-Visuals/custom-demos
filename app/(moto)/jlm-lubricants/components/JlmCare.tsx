@@ -73,7 +73,7 @@ export default function JlmCare() {
                 mt-5
                 text-[16px]
                 leading-8
-                text-white/80
+                text-white/80 
               "
             >
               The JLM Car Care range delivers professional exterior and interior cleaning. Inspired by the extreme conditions of FIA ERC rallying, these high-performance products are tough on dirt, safe on vehicle surfaces and kind to the environment. From foam cleaners to iron removers, all products are engineered with JLM’s trade-trusted expertise keeping every vehicle driven hard and cleaned right.

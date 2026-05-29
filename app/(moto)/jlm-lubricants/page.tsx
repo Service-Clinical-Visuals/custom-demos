@@ -9,6 +9,9 @@ import JlmTradeSection from "./components/JlmTradeSection";
 import JlmAbout from "./components/JlmAbout";
 import JlmPremium from "./components/JlmPremium";
 import JlmCare from "./components/JlmCare";
+import JlmEngine from "./components/JlmEngine";
+import JlmPartner from "./components/JlmPartner";
+import JlmFeaturedProducts from "./components/JlmFeaturedProducts";
 
 
 export default function AbsoluteAlignment() {
@@ -42,6 +45,9 @@ export default function AbsoluteAlignment() {
         <JlmAbout/>
         <JlmPremium/>
         <JlmCare/>
+        <JlmEngine/>
+        <JlmPartner/>
+        <JlmFeaturedProducts/>
         <div className="h-screen">
 
         </div>
