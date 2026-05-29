@@ -12,9 +12,6 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/medical/7s-medical/favicon.ico",
-  },
   title: "7S Medical - Swiss Experts in Orthopedics",
   description: "Swiss Experts in Orthopedics. 7S Medical International AG distributes surgical instruments and implants and organizes versatile hybrid educational events.",
 };

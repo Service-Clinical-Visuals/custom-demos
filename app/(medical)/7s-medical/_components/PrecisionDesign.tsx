@@ -25,7 +25,7 @@ export default function PrecisionDesign() {
   ];
 
   return (
-    <section className="py-16 lg:py-20 bg-[#F9FAFB] border-t border-gray-100" data-aos="fade-up">
+    <section className="py-16 lg:py-20 bg-[#F9F9F9]" data-aos="fade-up">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ChevronDown, Send, MapPin, Phone, Mail, Instagram, Linkedin, Facebook } from "lucide-react";
+import Button from "./Button";
 
 export default function Footer() {
   return (
@@ -14,12 +15,14 @@ export default function Footer() {
           <h2 className="text-[28px] md:text-[30px] lg:text-[32px] font-bold mb-4 text-white!">
             Start Your Professional Learning Journey with <br className="hidden lg:block" /> Expert-Led Educational Programs
           </h2>
-          <Link 
+          <Button 
             href="#contact" 
-            className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-[#CE112D] font-semibold text-[14px] px-10 py-3 rounded-[3px] transition-all shadow-[0_4px_15px_rgba(0,0,0,0.1)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] transform hover:-translate-y-0.5"
+            variant="white" 
+            size="lg" 
+            className="px-10"
           >
             Get in touch
-          </Link>
+          </Button>
         </div>
       </div>
 

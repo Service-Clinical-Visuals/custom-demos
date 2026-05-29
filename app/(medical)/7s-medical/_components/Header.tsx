@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Button from "./Button";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,12 +73,9 @@ export default function Header() {
 
           {/* Contact Button & Mobile Toggle */}
           <div className="flex items-center gap-4">
-            <Link
-              href="#contact"
-              className="hidden md:inline-flex items-center justify-center px-6 h-[44px] bg-[#CE112D] hover:bg-[#A70F25] text-white text-[13px] font-semibold tracking-wider rounded-[3px] uppercase transition-colors duration-300 shadow-[0_2px_10px_rgba(193,2,48,0.3)]"
-            >
+            <Button href="#contact" className="hidden md:inline-flex">
               Contact Us
-            </Link>
+            </Button>
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -131,13 +129,14 @@ export default function Header() {
               </Link>
             ))}
             
-            <Link
+            <Button
               href="#contact"
               onClick={() => setMobileMenuOpen(false)}
-              className="mt-4 w-full inline-flex items-center justify-center px-6 h-[44px] bg-[#CE112D] hover:bg-[#A70F25] text-white text-[13px] font-semibold tracking-wider rounded-[3px] uppercase transition-colors"
+              fullWidth
+              className="mt-4"
             >
               Contact Us
-            </Link>
+            </Button>
           </div>
         </div>
       </header>
