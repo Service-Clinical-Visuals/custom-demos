@@ -71,10 +71,10 @@ export default function JlmPartner() {
                 transition-all
                 duration-300
                 hover:scale-105
+                font-medium
               "
             >
-              Find a Charger
-
+             Read More
               <span
                 className="
                   flex
@@ -87,7 +87,7 @@ export default function JlmPartner() {
                 "
               >
                 <ArrowUpRight
-                  size={14}
+                  size={20 }
                   className="text-black"
                 />
               </span>

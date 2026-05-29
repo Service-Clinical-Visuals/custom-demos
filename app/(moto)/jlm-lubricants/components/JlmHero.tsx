@@ -64,9 +64,10 @@ export default function JlmHero() {
               text-base
               text-white
               shadow-lg
+              font-bold
             "
           >
-            Find a Charger
+            Explore Products
 
             <span
               className="

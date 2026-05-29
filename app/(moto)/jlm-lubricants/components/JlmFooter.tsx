@@ -60,10 +60,7 @@ export default function JlmFooter() {
                 text-white/70
               "
             >
-              JLM Lubricants is the trusted choice for
-              professional motor mechanics, car
-              technicians and automotive enthusiasts
-              across the globe.
+            JLM Lubricants is the trusted choice for professional motor mechanics, car technicians, and automotive enthusiasts across the globe. From workshops to  racetracks, JLM keeps the wheels turning and the standards soaring.
             </p>
           </div>
 
@@ -212,8 +209,8 @@ export default function JlmFooter() {
                   href="#"
                   className="
                     flex
-                    h-8
-                    w-8
+                    h-10
+                    w-10
                     items-center
                     justify-center
                     rounded-full
@@ -228,8 +225,8 @@ export default function JlmFooter() {
                   href="#"
                   className="
                     flex
-                    h-8
-                    w-8
+                    h-10
+                    w-10 
                     items-center
                     justify-center
                     rounded-full
@@ -244,8 +241,8 @@ export default function JlmFooter() {
                   href="#"
                   className="
                     flex
-                    h-8
-                    w-8
+                    h-10
+                    w-10
                     items-center
                     justify-center
                     rounded-full

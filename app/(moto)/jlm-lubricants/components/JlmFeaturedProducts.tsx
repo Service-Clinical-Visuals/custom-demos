@@ -10,9 +10,9 @@ export default function JlmFeaturedProducts() {
   const [startIndex, setStartIndex] = useState(0);
 
   const products = [
-    { title: "JLM Diesel Extreme Clean", image: "/jlm/jlm-engine-1.png" },
-    { title: "Diesel Roetfilter ( DPF ) Reiniging Pakket", image: "/jlm/jlm-engine-2.png" },
-    { title: "JLM Diesel DPF Particulate Filter Cleaner", image: "/jlm/jlm-engine-3.png" },
+    { title: "JLM 5W30 Premium Grade Performance Oil", image: "/jlm/jlm-engine-1.png" },
+    { title: "JLM 5W40 Premium Grade Performance Oil", image: "/jlm/jlm-engine-2.png" },
+    { title: "JLM Automatic Transmission Fluid ATF Stop Leak & Conditioner ", image: "/jlm/jlm-engine-3.png" },
     { title: "JLM Automatic Transmission Flush", image: "/jlm/jlm-engine-4.png" },
     { title: "JLM Bortec Oil Additive – Engine Friction Reduction", image: "/jlm/jlm-engine-5.png" },
     { title: "JLM Ceramic Engine Protector", image: "/jlm/jlm-engine-6.png" },

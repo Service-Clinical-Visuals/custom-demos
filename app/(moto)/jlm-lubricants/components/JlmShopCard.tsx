@@ -37,7 +37,7 @@ export default function ShopCard({
         className="
           mt-4
           text-center
-          text-[26px]
+          text-[22px]
           font-medium
           text-white
         "

@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function JlmCare() {
   return (
-    <section className="relative">
+    <section className="relative overflow-hidden">
       {/* Top Divider */}
       <div className="h-px w-full bg-white" />
 
@@ -109,6 +109,7 @@ export default function JlmCare() {
                 transition-all
                 duration-300
                 hover:scale-105
+                font-medium
               "
             >
               Read More
@@ -125,7 +126,7 @@ export default function JlmCare() {
                 "
               >
                 <ArrowUpRight
-                  size={15}
+                  size={20}
                   className="text-white"
                 />
               </span>

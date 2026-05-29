@@ -329,6 +329,7 @@ export default function JlmShopSection() {
               py-3
               text-white
               cursor-pointer
+              font-medium
             "
           >
             View All Products

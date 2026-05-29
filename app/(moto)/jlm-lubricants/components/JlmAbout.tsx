@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function JlmAbout() {
   return (
-    <section className="bg-[#F4F4F4] py-20">
+    <section className="bg-[#ffff] py-20">
       <div
         className="
           mx-auto
@@ -13,7 +13,7 @@ export default function JlmAbout() {
           grid-cols-1
           gap-10
           px-6
-          lg:grid-cols-[55%_45%]
+          lg:grid-cols-[55fr_45fr]
           lg:items-center
         "
       >
@@ -134,10 +134,10 @@ export default function JlmAbout() {
               transition-all
               duration-300
               hover:scale-105
+              font-medium
             "
           >
-            Find a Charger
-
+            More About Us
             <span
               className="
                 flex

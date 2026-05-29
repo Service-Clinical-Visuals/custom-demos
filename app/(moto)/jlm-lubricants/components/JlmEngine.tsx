@@ -15,7 +15,7 @@ export default function JlmEngine() {
             items-center
             gap-10
             px-6
-            lg:grid-cols-[55%_45%]
+            lg:grid-cols-[55fr_45fr]
           "
         >
           {/* VIDEO */}
@@ -107,6 +107,7 @@ export default function JlmEngine() {
                 transition-all
                 duration-300
                 hover:scale-105
+                font-medium
               "
             >
               View Product
@@ -172,6 +173,7 @@ export default function JlmEngine() {
               transition-all
               duration-300
               hover:scale-105
+              font-medium
             "
           >
             Get Quote

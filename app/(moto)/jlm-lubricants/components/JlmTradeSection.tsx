@@ -21,13 +21,13 @@ export default function JlmTradeSection() {
   ];
 
   return (
-    <section className="bg-[#f4f4f4] py-24">
+    <section className="bg-[#F5F5F5] py-24">
       <div className="mx-auto max-w-[1600px] px-6">
         <h2
           data-aos="fade-up"
           className="
             text-center
-            text-[44px]
+            text-4xl
             font-bold
             text-[#20252d]
           "
