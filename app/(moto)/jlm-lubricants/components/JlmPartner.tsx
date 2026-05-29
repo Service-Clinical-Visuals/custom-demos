@@ -21,7 +21,7 @@ export default function JlmPartner() {
 
           <div
             data-aos="fade-right"
-            className="max-w-[470px]"
+            className=""
           >
             <h2
               className="
@@ -101,7 +101,7 @@ export default function JlmPartner() {
             className="overflow-hidden"
           >
             <img
-              src="/jlm/jlm-about.png"
+              src="/jlm/jlm-partner-1.png"
               alt=""
               className="
                 h-full
@@ -136,7 +136,7 @@ export default function JlmPartner() {
             className="overflow-hidden"
           >
             <img
-              src="/jlm/jlm-about-2.png"
+              src="/jlm/jlm-partner-2.png"
               alt=""
               className="
                 h-full
@@ -153,7 +153,7 @@ export default function JlmPartner() {
 
           <div
             data-aos="fade-left"
-            className="max-w-[500px]"
+            className=""
           >
             <h2
               className="
@@ -178,12 +178,15 @@ export default function JlmPartner() {
 
             <div className="mt-6 space-y-6">
               <div className="flex gap-4">
-                <span className="mt-1 text-[#F4B400]">
-                  ⊕
-                </span>
+
+                <img
+                  src="/jlm/jlm-wheel.png"
+                  alt="wheel-icon"
+                  className="h-8 w-8 shrink-0 object-contain"
+                />
 
                 <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold font-black">
                     Optimal Performance and Reliability
                   </h4>
 
@@ -194,12 +197,14 @@ export default function JlmPartner() {
               </div>
 
               <div className="flex gap-4">
-                <span className="mt-1 text-[#F4B400]">
-                  ⊕
-                </span>
- 
+                <img
+                  src="/jlm/jlm-wheel.png"
+                  alt="wheel-icon"
+                  className="h-8 w-8 shrink-0 object-contain"
+                />
+
                 <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold font-black">
                     Customer Satisfaction and Trust
                   </h4>
 

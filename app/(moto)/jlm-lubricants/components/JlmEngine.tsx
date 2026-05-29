@@ -1,7 +1,7 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, LifeBuoy } from "lucide-react";
 
 export default function JlmEngine() {
   return (
@@ -60,8 +60,14 @@ export default function JlmEngine() {
             </p>
 
             <div className="mt-6 space-y-5">
-              <div className="flex gap-3">
-                <span className="text-[#F4B400]">⊕</span>
+              <div className="flex gap-3 items-start">
+               <span>
+                <img
+                  src="/jlm/jlm-wheel.png"
+                  alt="wheel-icon"
+                  className="h-auto w-8 shrink-0"
+                />
+               </span>
 
                 <p className="text-[16px] leading-7 text-black">
                   <strong>Low Fuel Consumption:</strong>
@@ -69,8 +75,14 @@ export default function JlmEngine() {
                 </p>
               </div>
 
-              <div className="flex gap-3">
-                <span className="text-[#F4B400]">⊕</span>
+              <div className="flex gap-3 items-start">
+                <span>
+                  <img
+                    src="/jlm/jlm-wheel.png"
+                    alt="bolt-icon"
+                    className="h-auto w-10 shrink-0"
+                  />
+                </span>
 
                 <p className="text-[16px] leading-7 text-black">
                   <strong>Low Ash Content:</strong>
@@ -97,7 +109,7 @@ export default function JlmEngine() {
                 hover:scale-105
               "
             >
-              Find a Charger
+              View Product
 
               <span
                 className="

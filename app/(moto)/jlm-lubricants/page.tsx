@@ -12,6 +12,9 @@ import JlmCare from "./components/JlmCare";
 import JlmEngine from "./components/JlmEngine";
 import JlmPartner from "./components/JlmPartner";
 import JlmFeaturedProducts from "./components/JlmFeaturedProducts";
+import JlmLatestStories from "./components/JlmLatestStories";
+import JlmFooter from "./components/JlmFooter";
+import JlmShopSection from "./components/JlmShopSection";
 
 
 export default function AbsoluteAlignment() {
@@ -43,14 +46,14 @@ export default function AbsoluteAlignment() {
         <JlmHero/>
         <JlmTradeSection/>
         <JlmAbout/>
+        <JlmShopSection/>
         <JlmPremium/>
         <JlmCare/>
         <JlmEngine/>
         <JlmPartner/>
         <JlmFeaturedProducts/>
-        <div className="h-screen">
-
-        </div>
+        <JlmLatestStories/>
+        <JlmFooter/>
     </main>
   );
 }

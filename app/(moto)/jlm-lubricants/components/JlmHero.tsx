@@ -1,6 +1,7 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { ArrowUpRight } from "lucide-react";
 
 export default function JlmHero() {
   return (
@@ -29,16 +30,16 @@ export default function JlmHero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-center ">
+      <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-end pb-16 ">
         <div
           data-aos="fade-right"
           data-aos-delay="300"
-          className="mt-52"
+          className=""
         >
           <h1
             className="
-              max-w-[420px]
-              text-[52px]
+              max-w-[620px]
+              text-4xl
               font-semibold
               leading-[1.05]
               text-white
@@ -51,6 +52,7 @@ export default function JlmHero() {
             data-aos="fade-up"
             data-aos-delay="500"
             className="
+              cursor-pointer
               mt-8
               flex
               items-center
@@ -59,7 +61,7 @@ export default function JlmHero() {
               bg-[#F4B400]
               px-6
               py-3
-              text-sm
+              text-base
               text-white
               shadow-lg
             "
@@ -68,6 +70,7 @@ export default function JlmHero() {
 
             <span
               className="
+                cursor-pointer
                 flex h-8 w-8
                 items-center
                 justify-center
@@ -76,16 +79,13 @@ export default function JlmHero() {
                 text-black
               "
             >
-              ↗
+              <ArrowUpRight size={16} className="text-black" />
             </span>
           </button>
         </div>
       </div>
 
-      {/* Bottom Right Indicator */}
-      <div className="absolute bottom-10 right-10 text-white">
-        <span className="text-2xl">↗</span>
-      </div>
+    
     </section>
   );
 }

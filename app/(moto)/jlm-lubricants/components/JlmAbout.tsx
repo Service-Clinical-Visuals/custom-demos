@@ -91,9 +91,7 @@ export default function JlmAbout() {
                 text-[#5B5B5B]
               "
             >
-              At JLM Lubricants, we live and breathe cars.
-              Our passion fuels our relentless pursuit to
-              keep them performing at their best.
+             At JLM Lubricants, we live and breathe cars. Our passion fuels our relentless pursuit to keep them performing at their best, ensuring tomorrow outpaces today. 
             </p>
           </div>
 
@@ -116,9 +114,7 @@ export default function JlmAbout() {
                 text-[#5B5B5B]
               "
             >
-              Rooted in Dutch values—honesty, precision,
-              and reliability—our products reflect a
-              tradition of excellence.
+              Rooted in Dutch values—honesty, precision, and reliability—our products reflect a tradition of excellence, blending cutting-edge technology with meticulous craftsmanship. We don’t settle for less; we raise the bar.
             </p>
           </div>
 

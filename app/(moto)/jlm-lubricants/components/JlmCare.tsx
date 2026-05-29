@@ -4,9 +4,21 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function JlmCare() {
   return (
-    <section className="bg-black">
+    <section className="relative">
       {/* Top Divider */}
       <div className="h-px w-full bg-white" />
+
+      <div
+        className="
+          absolute inset-0
+          bg-cover bg-center
+          opacity-40
+        "
+        style={{
+          backgroundImage:
+            "url('/moto/jlm/jlm-shop-bg.png')",
+        }}
+      />
 
       <div className="mx-auto max-w-[1600px] px-6 py-24">
         <div
@@ -28,7 +40,7 @@ export default function JlmCare() {
             }}
           >
             <img
-              src="/jlm/jlm-about.png"
+              src="/jlm/jlm-care.png"
               alt=""
               className="
                 h-full
@@ -92,14 +104,14 @@ export default function JlmCare() {
                 bg-white
                 px-5
                 py-2.5
-                text-sm
+                text-base
                 text-black
                 transition-all
                 duration-300
                 hover:scale-105
               "
             >
-              Find a Charger
+              Read More
 
               <span
                 className="

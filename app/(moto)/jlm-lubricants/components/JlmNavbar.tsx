@@ -1,6 +1,8 @@
 "use client";
 
+import { Mail, Phone, Search, User } from "lucide-react";
 import { useEffect, useState } from "react";
+import { MdEmail } from "react-icons/md";
 
 export default function JlmNavbar() {
   const [visible, setVisible] = useState(false);
@@ -24,11 +26,34 @@ export default function JlmNavbar() {
   return (
     <>
       {/* Yellow Strip */}
-      <div className="fixed top-0 left-0 z-50 h-[26px] w-full bg-[#F4B400]" />
+      <div className="fixed top-0 left-0 z-50 h-[36px] w-full bg-[#F4B400]">
+        <div className="mx-auto flex h-full max-w-[1600px] px-6 justify-between items-center">
+          <div className="flex gap-6">
+            <div className="flex gap-3 items-center border-r border-white pr-6">
+              <Phone size={20} className="text-white cursor-pointer" />
+              <span className="text-[16px] leading-none text-white">
+                +31(0)20 2014995
+              </span>
+            </div>
+            <div className="flex gap-3 items-center ">
+              <Mail size={20} className="text-white cursor-pointer" />
+              <span className="text-[16px] leading-none text-white">
+                info@jlmlubricants.com
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="border-r border-white pr-2 flex items-center">
+              <User size={20} className="text-white cursor-pointer" />
+            </span>
+            <Search size={20} className="text-white cursor-pointer" />
+          </div>
+        </div>
+      </div>
 
       <header
         className={`
-          fixed left-0 top-[26px]
+          fixed left-0 top-[36px]
           z-50 w-full bg-black
           transition-all duration-500
           ${
@@ -41,29 +66,26 @@ export default function JlmNavbar() {
         <div className="mx-auto flex h-16 max-w-[1600px] items-center justify-between px-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="h-10 w-10 rounded-full border-4 border-white" />
-
-            <div>
-              <h3 className="text-4xl font-black text-white">JLM</h3>
-              <p className="-mt-1 text-[9px] tracking-[2px] text-[#F4B400]">
-                LIQUID TOOLS
-              </p>
-            </div>
+            <img
+              src="/jlm/jlm-icon.png"
+              alt="JLM"
+              className="w-[150px]"
+            />
           </div>
 
           {/* Menu */}
           <nav className="flex items-center gap-10">
-            <a className="text-sm font-semibold text-[#F4B400]">Home</a>
-            <a className="text-sm text-white">Shop</a>
-            <a className="text-sm text-white">Problem Solver</a>
-            <a className="text-sm text-white">World of JLM</a>
-            <a className="text-sm text-white">Store Locator</a>
+            <a className="text-base font-semibold text-[#F4B400] hover:text-white hover:cursor-pointer">Home</a>
+            <a className="text-base text-white hover:cursor-pointer hover:text-white/80">Shop</a>
+            <a className="text-base text-white hover:cursor-pointer hover:text-white/80">Problem Solver</a>
+            <a className="text-base text-white hover:cursor-pointer hover:text-white/80">World of JLM</a>
+            <a className="text-base text-white hover:cursor-pointer hover:text-white/80">Store Locator</a>
           </nav>
 
           {/* User */}
           <div className="flex items-center gap-4">
             <div className="text-right">
-              <p className="text-[11px] text-gray-400">Welcome,</p>
+              <p className="text-[12px] text-gray-400">Welcome,</p>
               <p className="text-white">John Doe</p>
             </div>
 

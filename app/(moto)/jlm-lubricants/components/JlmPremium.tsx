@@ -35,10 +35,7 @@ export default function JlmPremium() {
               text-center
             "
           >
-            Specially formulated for modern downsized petrol
-            and diesel engines, JLM Premium Grade 5W30
-            Performance Oil combines superior protection,
-            efficiency, and performance.
+           Specially formulated for modern downsized petrol and diesel engines, JLM Premium Grade 5W30 Performance Oil combines superior protection, efficiency, and performance. Designed to meet the demanding requirements of today’s powerful yet compact engines, this fully synthetic oil delivers exceptional wear resistance and fuel economy.
           </p>
         </div>
 
