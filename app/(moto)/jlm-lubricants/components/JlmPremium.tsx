@@ -49,7 +49,8 @@ export default function JlmPremium() {
             className="
               relative
               w-full
-              h-[700px]
+              h-auto
+              aspect-video
               overflow-hidden
               rounded-xl
               bg-[#ECECEC]

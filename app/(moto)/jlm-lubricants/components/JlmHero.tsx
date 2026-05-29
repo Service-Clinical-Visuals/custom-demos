@@ -5,14 +5,14 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function JlmHero() {
   return (
-    <section className="relative h-screen overflow-hidden bg-[#02005F]">
+    <section className="relative h-screen overflow-hidden">
       {/* Future Video */}
       <div className="absolute inset-0">
        <DynamicVideoPlayer type="banner" className="absolute inset-0 w-full h-full object-cover z-0" />
       </div>
 
       {/* 3D Object Placeholder */}
-      <div
+      {/* <div
         data-aos="zoom-in"
         data-aos-duration="1500"
         className="absolute inset-0 flex items-center justify-center"
@@ -27,7 +27,7 @@ export default function JlmHero() {
             translate-y-4
           "
         />
-      </div>
+      </div> */}
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-end px-6 pb-16 ">
