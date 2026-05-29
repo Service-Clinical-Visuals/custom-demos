@@ -2,19 +2,20 @@
 
 import Link from "next/link";
 import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
+import Button from "./Button";
 
 export default function ProductSection() {
   return (
-    <section className="relative w-full py-16 lg:py-20 bg-white overflow-hidden">
+    <section className="relative w-full py-16 lg:py-20 bg-[#F9F9F9] overflow-hidden">
       <div className="container mx-auto px-6 md:px-12">
         
         {/* Split Grid Layout (Video on the left, product details on the right) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center mb-20">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 lg:gap-16 items-center mb-20">
           
           {/* Left Column: Responsive 360° Dynamic Video Player */}
           <div 
             data-aos="fade-right"
-            className="lg:col-span-7 relative w-full aspect-[16/10] md:aspect-[16/9] rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 shadow-[0_15px_45px_rgba(0,0,0,0.06)] group"
+            className="xl:col-span-7 relative w-full aspect-[16/10] md:aspect-[16/9] rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 shadow-[0_15px_45px_rgba(0,0,0,0.06)] group"
           >
 
             {/* Video Player */}
@@ -30,7 +31,7 @@ export default function ProductSection() {
           {/* Right Column: Product Content & Description */}
           <div 
             data-aos="fade-left"
-            className="lg:col-span-5 flex flex-col items-start"
+            className="xl:col-span-5 flex flex-col items-start"
           >
             <h2 className="text-[28px] md:text-[30px] lg:text-[32px] font-bold mb-4">
               HERACLES Proximal Femur Nail
@@ -47,12 +48,9 @@ export default function ProductSection() {
             </div>
 
             {/* Explore Products Button */}
-            <Link
-              href="#products"
-              className="inline-flex items-center justify-center px-8 h-[44px] bg-[#CE112D] hover:bg-[#A70F25] text-white text-[13px] font-semibold tracking-wider rounded-[3px] uppercase transition-all duration-300 shadow-[0_2px_10px_rgba(193,2,48,0.3)] hover:shadow-[0_4px_15px_rgba(193,2,48,0.4)] transform hover:-translate-y-0.5"
-            >
+            <Button href="#products" className="px-8">
               Explore Our Products
-            </Link>
+            </Button>
           </div>
 
         </div>

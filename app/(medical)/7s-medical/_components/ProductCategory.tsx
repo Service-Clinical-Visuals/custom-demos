@@ -1,14 +1,19 @@
 "use client";
 
+import { useState, useRef } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
+import Button from "./Button";
 
 export default function ProductCategory() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const swiperRef = useRef<SwiperType | null>(null);
+
   const products = [
     {
       title: "Clavicula & Humerus",
@@ -44,11 +49,9 @@ export default function ProductCategory() {
 
   return (
     <section 
-      className="relative w-full py-24 bg-[url('/7s-medical/product-bg.png')] bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col justify-center shadow-inner"
+      className="relative w-full py-16 lg:py-20 bg-[url('/7s-medical/product-bg.png')] bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col justify-center shadow-inner"
       data-aos="fade-up"
     >
-
-
       <div className="relative z-10 container mx-auto px-6 md:px-12">
         
         {/* Title */}
@@ -61,7 +64,9 @@ export default function ProductCategory() {
         {/* Swiper Slider Wrapper */}
         <div data-aos="fade-up" data-aos-delay="200" className="relative w-full">
           <Swiper
-            modules={[Pagination, Autoplay]}
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+            modules={[Autoplay]}
             spaceBetween={30}
             slidesPerView={1}
             breakpoints={{
@@ -70,11 +75,7 @@ export default function ProductCategory() {
             }}
             loop={true}
             autoplay={{ delay: 5000, disableOnInteraction: false }}
-            pagination={{
-              clickable: true,
-              bulletClass: "swiper-pagination-bullet !mx-1.5",
-            }}
-            className="product-swiper !pb-16"
+            className="product-swiper !pb-8"
           >
             {products.map((product, idx) => (
               <SwiperSlide key={idx} className="h-auto">
@@ -86,7 +87,7 @@ export default function ProductCategory() {
                       <img
                         src={product.image}
                         alt={product.title}
-                        className="absolute inset-0 w-full h-full object-contain p-4 transform transition-transform duration-700 group-hover:rotate-1 rounded-lg"
+                        className="absolute inset-0 w-full h-full object-contain transform transition-transform duration-700 group-hover:rotate-1 rounded-lg"
                       />
                     </div>
 
@@ -97,43 +98,34 @@ export default function ProductCategory() {
                   </div>
 
                   {/* Bottom: Action Button */}
-                  <Link
-                    href={product.link}
-                    className="w-full text-center inline-flex items-center justify-center bg-[#CE112D] hover:bg-[#A70F25] text-white text-[13px] font-semibold tracking-wider rounded-[3px] py-3 uppercase transition-colors duration-300 shadow-[0_2px_8px_rgba(193,2,48,0.2)]"
-                  >
+                  <Button href={product.link} fullWidth>
                     View Products
-                  </Link>
+                  </Button>
 
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
+
+          {/* Custom 2-Button Pagination */}
+          <div className="flex justify-center items-center gap-3 mt-8 relative z-20">
+            <button 
+              onClick={() => swiperRef.current?.slideToLoop(0)}
+              className={`w-9 h-1 rounded-sm transition-all duration-300 cursor-pointer ${
+                activeIndex < 3 ? 'bg-white' : 'bg-white/40 hover:bg-white/60'
+              }`}
+              aria-label="View first 3 products"
+            />
+            <button 
+              onClick={() => swiperRef.current?.slideToLoop(3)}
+              className={`w-9 h-1 rounded-sm transition-all duration-300 cursor-pointer ${
+                activeIndex >= 3 ? 'bg-white' : 'bg-white/40 hover:bg-white/60'
+              }`}
+              aria-label="View next 3 products"
+            />
+          </div>
         </div>
-
       </div>
-
-      {/* Custom Styles for swiper dots to look like horizontal slider segments */}
-      <style jsx global>{`
-        .product-swiper .swiper-pagination {
-          bottom: 0px !important;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .product-swiper .swiper-pagination-bullet {
-          width: 36px !important;
-          height: 4px !important;
-          border-radius: 2px !important;
-          background: rgba(255, 255, 255, 0.4) !important;
-          opacity: 1 !important;
-          transition: all 0.3s ease !important;
-          cursor: pointer;
-        }
-        .product-swiper .swiper-pagination-bullet-active {
-          background: #ffffff !important;
-          width: 36px !important;
-        }
-      `}</style>
     </section>
   );
 }

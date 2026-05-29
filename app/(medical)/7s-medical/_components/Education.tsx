@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Button from "./Button";
 
 export default function Education() {
   return (
@@ -16,12 +17,9 @@ export default function Education() {
             Online Courses and Hybrid Education to <br className="hidden lg:block"/> help you elevate your skills
           </h2>
 
-          <Link
-            href="#contact"
-            className="inline-flex items-center justify-center px-8 h-[44px] bg-white hover:bg-gray-100 text-[#CE112D] hover:text-[#A70F25] text-[13px] font-semibold tracking-wider rounded-[3px] uppercase transition-all duration-300 shadow-[0_4px_15px_rgba(0,0,0,0.15)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.2)] transform hover:-translate-y-0.5"
-          >
+          <Button href="#contact" variant="white" className="px-8">
             Get in touch
-          </Link>
+          </Button>
         </div>
       </section>
 
@@ -54,7 +52,7 @@ export default function Education() {
               />
               
               {/* Sleek Gradient Overlay for text contrast */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none transition-opacity duration-300 group-hover:opacity-95" />
+              <div className="absolute inset-0 bg-black/25 pointer-events-none transition-opacity duration-300 group-hover:opacity-95" />
 
               {/* Card Footer Info */}
               <div className="relative z-10 flex items-end justify-between w-full">
@@ -102,7 +100,7 @@ export default function Education() {
               />
               
               {/* Sleek Gradient Overlay for text contrast */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none transition-opacity duration-300 group-hover:opacity-95" />
+              <div className="absolute inset-0 bg-black/25 pointer-events-none transition-opacity duration-300 group-hover:opacity-95" />
 
               {/* Card Footer Info */}
               <div className="relative z-10 flex items-end justify-between w-full">
@@ -150,7 +148,7 @@ export default function Education() {
               />
               
               {/* Sleek Gradient Overlay for text contrast */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none transition-opacity duration-300 group-hover:opacity-95" />
+              <div className="absolute inset-0 bg-black/25 pointer-events-none transition-opacity duration-300 group-hover:opacity-95" />
 
               {/* Card Footer Info */}
               <div className="relative z-10 flex items-end justify-between w-full">
@@ -189,12 +187,9 @@ export default function Education() {
 
           {/* Learn More Button */}
           <div className="flex justify-center" data-aos="fade-up" data-aos-delay="400">
-            <Link
-              href="#about"
-              className="inline-flex items-center justify-center px-8 h-[44px] bg-[#CE112D] hover:bg-[#A70F25] text-white text-[13px] font-semibold tracking-wider rounded-[3px] uppercase transition-all duration-300 shadow-[0_2px_10px_rgba(193,2,48,0.3)] hover:shadow-[0_4px_15px_rgba(193,2,48,0.4)] transform hover:-translate-y-0.5"
-            >
+            <Button href="#about" className="px-8">
               Learn More About Us
-            </Link>
+            </Button>
           </div>
 
         </div>

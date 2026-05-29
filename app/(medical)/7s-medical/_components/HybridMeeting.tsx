@@ -91,11 +91,11 @@ export default function HybridMeeting() {
           </Swiper>
 
           {/* Custom Navigation Arrows */}
-          <button className="hybrid-prev absolute top-1/2 -left-4 md:-left-6 -translate-y-1/2 z-10 w-12 h-12 bg-[#CE112D] text-white flex items-center justify-center shadow-xl hover:bg-[#A70F25] transition-colors rounded-sm opacity-0 group-hover:opacity-100 duration-300">
+          <button className="hybrid-prev absolute top-1/2 -left-4 md:-left-6 -translate-y-1/2 z-10 w-12 h-12 bg-[#CE112D] text-white flex items-center justify-center shadow-xl hover:bg-[#A70F25] transition-colors rounded-sm">
             <ChevronLeft size={24} strokeWidth={2.5} />
           </button>
           
-          <button className="hybrid-next absolute top-1/2 -right-4 md:-right-6 -translate-y-1/2 z-10 w-12 h-12 bg-[#CE112D] text-white flex items-center justify-center shadow-xl hover:bg-[#A70F25] transition-colors rounded-sm opacity-0 group-hover:opacity-100 duration-300">
+          <button className="hybrid-next absolute top-1/2 -right-4 md:-right-6 -translate-y-1/2 z-10 w-12 h-12 bg-[#CE112D] text-white flex items-center justify-center shadow-xl hover:bg-[#A70F25] transition-colors rounded-sm">
             <ChevronRight size={24} strokeWidth={2.5} />
           </button>
         </div>

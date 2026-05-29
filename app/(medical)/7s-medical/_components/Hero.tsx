@@ -2,6 +2,7 @@
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import { useVideo } from "../../../_context/VideoContext";
+import Button from "./Button";
 
 export default function Hero() {
 
@@ -28,14 +29,14 @@ export default function Hero() {
           Your Swiss Partner in Osteosynthesis
         </h1>
 
-        <button
+        <Button
           onClick={handleScrollDown}
           data-aos="fade-up"
           data-aos-delay="400"
-          className="inline-flex items-center justify-center px-8 h-[48px] bg-[#CE112D] hover:bg-[#A70F25] text-white text-[14px] font-semibold tracking-wider rounded-[3px] uppercase transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 shadow-[0_4px_15px_rgba(193,2,48,0.3)]"
+          size="lg"
         >
           Explore Portfolio
-        </button>
+        </Button>
       </div>
     </section>
   );
