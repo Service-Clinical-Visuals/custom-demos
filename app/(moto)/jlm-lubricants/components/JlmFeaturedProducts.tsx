@@ -35,7 +35,7 @@ export default function JlmFeaturedProducts() {
             className="
               cursor-pointer flex items-center gap-3
               rounded-full bg-[#F4B400] px-5 py-2.5
-              text-[16px] text-white transition-all duration-300 hover:scale-105
+              text-[16px] text-white transition-all duration-300 hover:scale-105 font-medium
             "
           >
             View All Products
