@@ -21,7 +21,7 @@ export default function SergHero() {
       <div className="relative z-20 h-full flex items-end">
         <div className="pb-20 pl-12">
           <div data-aos="fade-up">
-            <h1 className="text-white text-4xl leading-[1.1] font-bold max-w-[700px] tracking-[-1.5px]">
+            <h1 className="text-white text-4xl leading-[1.4] font-bold max-w-[700px] tracking-[-1.5px]">
               Intelligent Digital Solutions
               <br />
               Redefining Parkinson’s Care
