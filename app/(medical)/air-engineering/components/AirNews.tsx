@@ -52,14 +52,14 @@ export default function AirNews() {
           <h2
             className="
               mt-4
-              text-4xl
+              text-[32px]
               font-bold
               leading-[1.18]
               tracking-[-1px]
               text-[#343434]
             "
           >
-            OEM Fluid Technology Division
+            Check Our Recent Events
           </h2>
         </div>
 

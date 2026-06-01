@@ -202,7 +202,7 @@ export default function AirFooter() {
                 text-[#333]
               "
             >
-              USEFUL LINKS
+              Useful Links
             </h3>
 
             <ul className="mt-7 space-y-4">
@@ -273,7 +273,7 @@ export default function AirFooter() {
                   text-[#333]
                 "
               >
-                CONTACT US
+                Contact Us
               </h4>
 
               <div className="mt-6 space-y-4">

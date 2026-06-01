@@ -103,12 +103,12 @@ export default function AirTechnology() {
           <h2
             className="
               mt-5
-              text-4xl
+              text-[36px]
               font-bold
               leading-[1.35]
               tracking-[-0.6px]
               text-white
-              md:text-[48px]
+              md:text-[36px]
             "
           >
             In AEG, You Have a True End-To-End fluid

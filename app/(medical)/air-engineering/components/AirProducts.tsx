@@ -7,7 +7,7 @@ import Image from "next/image";
 const products = [
   {
     title: "Pneumatic Valves",
-    image: "/ae/ae-product-1.png",
+    image: "/ae/ae-product-7.png",
   },
   {
     title: "Pneumatic Cylinders",
@@ -60,14 +60,14 @@ export default function AirProducts() {
           <h2
             className="
               mt-4
-              text-[48px]
+              text-[32px]
               font-bold
               leading-[1.18]
               tracking-[-1px]
               text-[#343434]
             "
           >
-            OEM Fluid Technology Division
+            The Widest range of Compressed Air Products And Components
           </h2>
         </div>
 
