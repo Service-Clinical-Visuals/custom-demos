@@ -1,17 +1,17 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
-import { ArrowRight } from "lucide-react";
+import Button from "./Button";
 
 export default function HeroBanner() {
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative h-[calc(100vh-80px)] mt-[80px] overflow-hidden">
       <div className="absolute inset-0 z-0">
         <DynamicVideoPlayer type="banner" className="absolute inset-0 w-full h-full object-cover" />
       </div>
 
       {/* Content */}
-      <div className="relative z-20 h-full max-w-[1400px] mx-auto px-8 flex items-end pb-28">
+      <div className="relative z-20 h-full container mx-auto px-6 lg:px-16 flex items-end pb-28">
         <div data-aos="fade-up" className="max-w-[620px]">
           <h1 className="text-white text-[40px] leading-tight font-bold">
             Our Technical Skills
@@ -23,10 +23,9 @@ export default function HeroBanner() {
             the field of medical device research and development (R&D).
           </p>
 
-          <button className="mt-10 flex items-center gap-4 border border-white text-white h-[58px] px-8 rounded-xl transition-all hover:bg-white hover:text-black">
+          <Button variant="outline" size="xl" rounded="xl" className="mt-10" arrowIcon="arrow">
             Explore More
-            <ArrowRight size={20} />
-          </button>
+          </Button>
         </div>
       </div>
     </section>

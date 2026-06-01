@@ -1,12 +1,13 @@
 "use client";
 
 import React from "react";
+import Button from "./Button";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import { ArrowRight } from "lucide-react";
 
 export default function MercuryHipImplant() {
   return (
-    <section className="py-20 md:py-28 bg-[#fdf2f7] relative overflow-hidden">
+    <section className="py-16 md:py-20 bg-[url('/x-nov/mercury-bg.png')] relative overflow-hidden">
       {/* Optional subtle background pattern can be added here */}
       
       <div className="container mx-auto px-6 lg:px-16 relative z-10">
@@ -16,14 +17,14 @@ export default function MercuryHipImplant() {
           <div className="flex flex-col" data-aos="fade-right">
             {/* Subhead label */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#E33587] font-semibold text-sm md:text-[15px] tracking-wider">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
                 Mercury
               </span>
-              <span className="h-[2px] w-12 bg-[#E33587] rounded-full"></span>
+              <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>
             </div>
 
             {/* Main Title */}
-            <h2 className="text-[32px] md:text-[40px] font-bold text-[#212121] mb-6 leading-tight tracking-tight">
+            <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-semibold text-[#212121] mb-6 leading-tight tracking-tight">
               The Mercury Hip Implant
             </h2>
 
@@ -41,15 +42,15 @@ export default function MercuryHipImplant() {
           {/* Right Column */}
           <div className="flex flex-col h-full lg:pt-0 pt-8" data-aos="fade-left">
             {/* Pink Bordered Card */}
-            <div className="border border-[#E33587]/30 rounded-[24px] p-8 md:p-10 flex-grow flex flex-col bg-white/30 backdrop-blur-sm">
-              <h3 className="text-[#E33587] text-[20px] font-semibold text-center mb-8 underline decoration-2 underline-offset-4">
+            <div className="border border-[#EC4899]/30 rounded-[24px] p-8 md:p-10 flex-grow flex flex-col bg-white/30 backdrop-blur-sm">
+              <h3 className="text-[#EC4899] text-[20px] font-semibold text-center mb-8 underline decoration-2 underline-offset-4">
                 The range:
               </h3>
 
               <div className="flex flex-col gap-5 flex-grow">
                 {/* Range Item 1 */}
                 <div className="bg-white rounded-[16px] p-6 shadow-sm shadow-pink-100/50 flex items-start gap-4">
-                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#E33587] flex items-center justify-center mt-0.5">
+                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#EC4899] flex items-center justify-center mt-0.5">
                     <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
@@ -61,7 +62,7 @@ export default function MercuryHipImplant() {
 
                 {/* Range Item 2 */}
                 <div className="bg-white rounded-[16px] p-6 shadow-sm shadow-pink-100/50 flex items-start gap-4">
-                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#E33587] flex items-center justify-center mt-0.5">
+                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#EC4899] flex items-center justify-center mt-0.5">
                     <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
@@ -73,7 +74,7 @@ export default function MercuryHipImplant() {
 
                 {/* Range Item 3 */}
                 <div className="bg-white rounded-[16px] p-6 shadow-sm shadow-pink-100/50 flex items-start gap-4">
-                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#E33587] flex items-center justify-center mt-0.5">
+                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#EC4899] flex items-center justify-center mt-0.5">
                     <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
@@ -87,18 +88,9 @@ export default function MercuryHipImplant() {
 
             {/* Explore Specifications Button */}
             <div className="mt-8 flex justify-start lg:ml-8">
-              <button className="group inline-flex items-center gap-2 bg-[#E33587] hover:bg-[#c2226d] text-white font-semibold py-3 px-6 rounded-full shadow-lg shadow-[#E33587]/20 hover:shadow-xl hover:shadow-[#E33587]/30 hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer select-none">
-                <span className="text-[14px] tracking-wide">Explore Specifications</span>
-                <svg 
-                  className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor" 
-                  strokeWidth={2.5}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
+              <Button>
+                Explore Specifications
+              </Button>
             </div>
             
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Button from "./Button";
 
 export default function OurEvents() {
   const events = [
@@ -31,7 +32,7 @@ export default function OurEvents() {
   ];
 
   return (
-    <section className="py-20 md:py-28 bg-[#fdf2f7] relative overflow-hidden">
+    <section className="py-16 md:py-20 bg-[url('/x-nov/events-bg.png')] relative overflow-hidden">
       {/* Background radial lines placeholder - keeping it soft pink as requested */}
       
       <div className="container mx-auto px-6 lg:px-16 relative z-10">
@@ -39,7 +40,15 @@ export default function OurEvents() {
           
           {/* Left Column: Text and Events Grid */}
           <div className="flex flex-col" data-aos="fade-right">
-            <h2 className="text-[32px] md:text-[40px] font-bold text-[#212121] mb-6 leading-tight tracking-tight">
+            {/* Subhead label */}
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
+                Events
+              </span>
+              <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>
+            </div>
+
+            <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-semibold text-[#212121] mb-6 leading-tight tracking-tight">
               Our Events
             </h2>
             
@@ -53,7 +62,7 @@ export default function OurEvents() {
                   key={idx} 
                   className="bg-white rounded-xl p-4 shadow-sm border border-pink-50 hover:shadow-md transition-shadow duration-300"
                 >
-                  <p className="text-[#E33587] font-semibold text-[14px] mb-1">
+                  <p className="text-[#EC4899]! font-semibold! text-[15px]! mb-1">
                     {event.month}
                   </p>
                   <p className="text-[#6D6B6B] font-light text-[13px] leading-snug">
@@ -65,18 +74,9 @@ export default function OurEvents() {
 
             {/* CTA Button */}
             <div>
-              <button className="group inline-flex items-center gap-2 bg-[#E33587] hover:bg-[#c2226d] text-white font-semibold py-3 px-6 rounded-full shadow-lg shadow-[#E33587]/20 hover:shadow-xl hover:shadow-[#E33587]/30 hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer select-none">
-                <span className="text-[14px] tracking-wide">Explore Events</span>
-                <svg 
-                  className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor" 
-                  strokeWidth={2.5}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
+              <Button>
+                Explore Events
+              </Button>
             </div>
           </div>
 

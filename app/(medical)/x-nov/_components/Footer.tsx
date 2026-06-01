@@ -25,7 +25,7 @@ export default function Footer() {
               X.NOV is a European very fast growing company specialized in orthopedic industry (Hip & Knee). We are focused on creativity, innovation and are committed to provide the best services to our customers.
             </p>
             <div>
-              <h5 className="text-[#212121] font-semibold text-[15px] mb-4">Social Media Links</h5>
+              <h5 className="text-[#212121] font-semibold text-[18px] lg:text-[20px] mb-4">Social Media Links</h5>
               <div className="flex items-center gap-4 text-[#0077B5]">
                 <a href="#" aria-label="LinkedIn" className="hover:text-[#005582] transition-colors">
                   <Linkedin size={22} fill="currentColor" />
@@ -36,34 +36,34 @@ export default function Footer() {
           
           {/* Column 2: Quick Links */}
           <div className="lg:col-span-2 flex flex-col items-start">
-            <h4 className="text-[16px] font-bold text-[#212121] mb-6">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold text-[#212121] mb-6">
               Quick Links
             </h4>
-            <ul className="flex flex-col gap-4 font-light text-[14px] text-[#6D6B6B]">
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Home</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Company</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Events</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">patients</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Quality</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Contact</Link></li>
+            <ul className="flex flex-col gap-4 font-light text-[17px] text-[#6D6B6B]">
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Home</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Company</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Events</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">patients</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Quality</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Contact</Link></li>
             </ul>
           </div>
           
           {/* Column 3: About */}
           <div className="lg:col-span-2 flex flex-col items-start">
-            <h4 className="text-[16px] font-bold text-[#212121] mb-6">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold text-[#212121] mb-6">
               About
             </h4>
-            <ul className="flex flex-col gap-4 font-light text-[14px] text-[#6D6B6B]">
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Legal information</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Privacy</Link></li>
-              <li><Link href="#" className="hover:text-[#E33587] transition-colors">Sitemap</Link></li>
+            <ul className="flex flex-col gap-4 font-light text-[17px] text-[#6D6B6B]">
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Legal information</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Privacy</Link></li>
+              <li><Link href="#" className="hover:text-[#EC4899] hover:font-semibold transition-all duration-300">Sitemap</Link></li>
             </ul>
           </div>
           
           {/* Column 4: Newsletter (Wide) */}
           <div className="lg:col-span-4 flex flex-col items-start lg:pl-6">
-            <h4 className="text-[18px] font-semibold text-[#E33587] mb-6">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold text-[#EC4899] mb-6">
               Ready to shape the future with us?
             </h4>
             
@@ -72,7 +72,7 @@ export default function Footer() {
               <input 
                 type="email" 
                 placeholder="Please Enter Your Email" 
-                className="w-full bg-[#f4f6f9] text-[14px] font-light text-[#333] px-6 py-4 rounded-full outline-none border border-transparent focus:border-[#E33587]/30 transition-colors placeholder:text-gray-400"
+                className="w-full bg-[#f4f6f9] text-[14px] font-light text-[#333] px-6 py-4 rounded-full outline-none border border-transparent focus:border-[#EC4899]/30 transition-colors placeholder:text-gray-400"
               />
               <button className="absolute right-2 top-2 bottom-2 aspect-square bg-[#4a4a4a] text-white rounded-full flex items-center justify-center hover:bg-[#333333] transition-colors shadow-sm">
                 <ArrowRight size={18} />
@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
         
         {/* Bottom Row: Copyright */}
-        <div className="border-t border-gray-200 pt-8 flex justify-center items-center">
+        <div className="border-t border-gray-300 pt-8 flex justify-center items-center">
           <p className="font-light text-[13px] text-[#6D6B6B]">
             Copyright 2026, All Rights Reserved
           </p>

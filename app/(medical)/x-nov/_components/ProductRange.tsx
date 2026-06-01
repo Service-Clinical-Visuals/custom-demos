@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
+import Button from "./Button";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -13,27 +14,27 @@ export default function ProductRange() {
     { name: "Naos®", image: "/medical/x-nov/product-2.png" },
     { name: "P130®", image: "/medical/x-nov/product-3.png" },
     { name: "Xcup®", image: "/medical/x-nov/product-4.png" },
-    { name: "Product 5®", image: "/medical/x-nov/product-5.png" },
-    { name: "Product 6®", image: "/medical/x-nov/product-6.png" },
-    { name: "Product 7®", image: "/medical/x-nov/product-7.png" },
-    { name: "Product 8®", image: "/medical/x-nov/product-8.png" },
+    { name: "novium®", image: "/medical/x-nov/product-5.png" },
+    { name: "MERCURY®", image: "/medical/x-nov/product-6.png" },
+    { name: "MERCURY® PRESS-FIT", image: "/medical/x-nov/product-7.png" },
+    { name: "mobility®", image: "/medical/x-nov/product-8.png" },
   ];
 
   return (
-    <section className="py-20 md:py-28 bg-white relative overflow-hidden">
+    <section className="py-16 md:py-20 bg-white relative overflow-hidden">
       <div className="container mx-auto px-6 lg:px-16 relative z-10">
         <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-3xl" data-aos="fade-right">
             {/* Subhead label */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#E33587] font-semibold text-sm md:text-[15px] tracking-wider">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
                 Products
               </span>
-              <span className="h-[2px] w-12 bg-[#E33587] rounded-full"></span>
+              <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>
             </div>
 
             {/* Main Title */}
-            <h2 className="text-[32px] md:text-[40px] font-bold text-[#212121] mb-6 leading-tight tracking-tight">
+            <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-semibold text-[#212121] mb-6 leading-tight tracking-tight">
               Our Product Range
             </h2>
 
@@ -45,25 +46,21 @@ export default function ProductRange() {
 
           {/* Button aligned to right */}
           <div data-aos="fade-left" className="pb-2">
-            <button className="group inline-flex items-center gap-2 bg-[#E33587] hover:bg-[#c2226d] text-white font-semibold py-3.5 px-7 rounded-full shadow-lg shadow-[#E33587]/20 hover:shadow-xl hover:shadow-[#E33587]/30 hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer select-none whitespace-nowrap">
-              <span className="text-[14px] tracking-wide">Product Overview</span>
-              <svg 
-                className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" 
-                fill="none" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor" 
-                strokeWidth={2.5}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+            <Button className="whitespace-nowrap">
+              Product Overview
+            </Button>
           </div>
         </div>
 
         {/* Carousel */}
         <div data-aos="fade-up">
           <Swiper
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
             spaceBetween={24}
             slidesPerView={1}
             pagination={{ clickable: true, el: ".custom-swiper-pagination" }}
@@ -101,7 +98,7 @@ export default function ProductRange() {
           </Swiper>
           
           {/* Custom Pagination Container */}
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-12">
             <div className="custom-swiper-pagination flex gap-2 justify-center items-center"></div>
           </div>
         </div>
@@ -120,7 +117,7 @@ export default function ProductRange() {
           cursor: pointer;
         }
         .custom-swiper-pagination .swiper-pagination-bullet-active {
-          background-color: #E33587;
+          background-color: #EC4899;
           width: 40px;
         }
       `}} />
