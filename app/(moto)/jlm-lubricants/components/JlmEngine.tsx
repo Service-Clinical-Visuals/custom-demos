@@ -6,7 +6,7 @@ import { ArrowUpRight, LifeBuoy } from "lucide-react";
 export default function JlmEngine() {
   return (
     <>
-      <section className="bg-[#F4F4F4] py-20">
+      <section className="bg-[#ffffff] py-20">
         <div
           className="
             mx-auto

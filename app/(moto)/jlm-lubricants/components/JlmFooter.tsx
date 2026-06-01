@@ -23,19 +23,13 @@ export default function JlmFooter() {
 
       <div
         className="
-          absolute inset-0
-          bg-cover bg-center
-          opacity-50
+          absolute inset-0 bg-black
         "
-        style={{
-          backgroundImage:
-            "url('/moto/jlm/jlm-shop-bg.png')",
-        }}
       />
       <div className="relative z-10 mx-auto max-w-[1600px] px-6 py-12">
         <div
           className="
-            grid
+                        grid
             gap-10
             md:grid-cols-2
             lg:grid-cols-[1.8fr_1fr_1fr_1.4fr]
@@ -44,7 +38,7 @@ export default function JlmFooter() {
           {/* BRAND */}
           <div
             data-aos="fade-up"
-            className=""
+            className="flex-1"
           >
             <img
               src="/jlm/jlm-icon.png"
@@ -68,6 +62,7 @@ export default function JlmFooter() {
           <div
             data-aos="fade-up"
             data-aos-delay="100"
+            className="flex-1 xl:ml-20"
           >
             <h3
               className="
@@ -102,6 +97,7 @@ export default function JlmFooter() {
           <div
             data-aos="fade-up"
             data-aos-delay="200"
+            className="flex-1"
           >
             <h3
               className="
@@ -152,6 +148,7 @@ export default function JlmFooter() {
           <div
             data-aos="fade-up"
             data-aos-delay="300"
+            className="flex-1"
           >
             <h3
               className="
