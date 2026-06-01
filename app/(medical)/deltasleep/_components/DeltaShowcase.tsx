@@ -173,8 +173,12 @@ export default function DeltaShowcase() {
         className="absolute z-20 top-[8%] sm:top-[10%] left-1/2 -translate-x-1/2 text-center w-full px-4 sm:px-6 max-w-[92vw] sm:max-w-[680px]"
       >
         <div className="flex items-center justify-center gap-2 mb-1 sm:mb-2">
-          <span className="w-[7px] h-[7px] sm:w-[8px] sm:h-[8px] rounded-full bg-white" />
-          <p className="text-white/85 text-[13px] sm:text-[16px] font-medium">Our Product</p>
+         <div className="flex items-center gap-3 pl-6" data-aos="fade-up">
+              <span className="w-[8px] h-[8px] rounded-full bg-[#ffffff]" />
+              <p className="text-[22px] font-semibold text-[#faffff]">
+              Our Products
+              </p>
+            </div>
         </div>
         <DeltaScrollRevealText
           text="Full Face Mask FM-1"
