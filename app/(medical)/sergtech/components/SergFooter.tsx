@@ -20,7 +20,8 @@ export default function SergFooter() {
       {/* MAIN CONTAINER */}
       <div className="max-w-[1700px] mx-auto">
         {/* TOP GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 lg:gap-10">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 lg:gap-10"> */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2.0fr_0.7fr_0.7fr_1.2fr] gap-14 lg:gap-10">
           {/* LEFT BRAND */}
           <div data-aos="fade-right">
             {/* LOGO */}

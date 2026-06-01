@@ -34,35 +34,35 @@ export default function SergInnovation() {
               Pioneering new digital health solutions
             </h2>
 
-            <div className="mt-8 space-y-6">
-            <p className="text-[16px] leading-[2] text-[#707070] font-medium">
+            <div className="mt-8 space-y-5">
+            <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
                 The future of healthcare is bright: wearable sensing, the
                 Internet of Things (IoT), digital medicine, and AI... but how
                 can these technologies radically change Parkinson&apos;s care?
               </p>
 
-              <p className="text-[16px] leading-[2] text-[#707070] font-medium">
+              <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
                 At SERG Technologies, we combine expertise in
                 bio-mechatronics and clinical neurology to develop innovative
                 technologies that support smarter Parkinson&apos;s monitoring,
                 personalized treatment, and improved patient care.
               </p>
 
-              <p className="text-[16px] leading-[2] text-[#707070] font-medium">
+              <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
                 We are advancing proprietary sensing technologies and
                 intelligent algorithms to accurately monitor Parkinsonian motor
                 symptoms both inside and outside the clinic, enabling better
                 patient insights and personalized care.
               </p>
 
-              <p className="text-[16px] leading-[2] text-[#707070] font-medium">
+              <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
                 Our advanced technology enhances every stage of
                 Parkinson&apos;s care by supporting accurate symptom tracking,
                 optimized DBS programming, medication management, and
                 associated therapies.
               </p>
 
-              <p className="text-[16px] leading-[2] text-[#707070] font-medium">
+              <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
                 Through intelligent monitoring and data-driven insights, we
                 help healthcare professionals deliver more precise,
                 personalized, and effective treatment for improved patient
