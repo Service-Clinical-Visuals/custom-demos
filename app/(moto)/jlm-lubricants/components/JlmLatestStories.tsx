@@ -29,7 +29,7 @@ export default function JlmLatestStories() {
   ];
 
   return (
-    <section className="bg-[#F4F4F4]">
+    <section className="bg-[#FFFFFF]">
       <div className="mx-auto max-w-[1600px] px-6 py-20">
         {/* Heading */}
         <div

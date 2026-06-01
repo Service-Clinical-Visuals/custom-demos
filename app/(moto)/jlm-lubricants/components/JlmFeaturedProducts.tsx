@@ -28,7 +28,7 @@ export default function JlmFeaturedProducts() {
         {/* Header */}
         <div data-aos="fade-up" className="flex items-center justify-between">
           <h2 className="text-4xl font-bold text-[#161616]">
-            Exceptional Engine Protection
+            Our Products
           </h2>
 
           <button
