@@ -10,7 +10,7 @@ export default function VascularGraft() {
       <div className="container mx-auto px-4 lg:px-2">
         {/* Section Header */}
         <div className="w-full text-center mb-12 md:mb-16" data-aos="fade-up">
-          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-extrabold text-white leading-tight">
+          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-bold text-white leading-tight">
             Spiral Flow™ Peripheral Vascular Graft
           </h2>
         </div>
@@ -40,7 +40,7 @@ export default function VascularGraft() {
               </div>
             </div>
 
-            <p className="text-white font-extrabold pt-2">
+            <p className="text-white font-extrabold pt-2 text-[18px]!">
               Contact us today to find out how Spiral Laminar Flow can be integrated into your medical device technology.
             </p>
 

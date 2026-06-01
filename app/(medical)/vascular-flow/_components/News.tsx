@@ -18,17 +18,19 @@ const newsItems = [
 
 export default function News() {
   return (
-    <section id="news" className="w-full py-16 lg:py-20 bg-slate-50">
+    <section id="news" className="w-full py-16 lg:py-20 bg-[#f1f1f1]">
       <div className="container mx-auto px-4 lg:px-2">
         {/* Header */}
-        <div className="text-center max-w-6xl mx-auto mb-12 md:mb-16" data-aos="fade-up">
-          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-extrabold text-[#212121] leading-tight mb-4">
+        <div className="text-center max-w-6xl mx-auto" data-aos="fade-up">
+          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-bold text-[#212121] leading-tight mb-4">
             News
           </h2>
           <p>
             Stay updated with our latest innovations, medical advancements, and industry insights shaping the future of cardiovascular care.
           </p>
         </div>
+
+        <div className="w-full h-px bg-slate-500/70 my-7"></div>
 
         {/* Responsive Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

@@ -28,7 +28,7 @@ export default function CardiovascularSolutions() {
             className="flex flex-col items-start order-1 xl:order-2"
             data-aos="fade-left"
           >
-            <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-extrabold text-[#212121] leading-tight mb-6 text-left">
+            <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-bold text-[#212121] leading-tight mb-6 text-left">
               Innovative Spiral Flow™ Cardiovascular Solutions
             </h2>
             

@@ -33,7 +33,7 @@ export default function AboutUs() {
             className="flex flex-col items-start"
             data-aos="fade-left"
           >
-            <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-extrabold text-[#212121] leading-tight mb-6">
+            <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-bold text-[#212121] leading-tight mb-6">
               About Us
             </h2>
             
