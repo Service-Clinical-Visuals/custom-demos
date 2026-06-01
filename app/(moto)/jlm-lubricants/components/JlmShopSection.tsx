@@ -36,7 +36,7 @@ export default function JlmShopSection() {
         },
         {
           title: "Hydraulic Valve Lifter",
-          img: "/jlm/jlm-oils-3.png" 
+          img: "/jlm/jlm-oils-4.png" 
         }
       ] 
     },
@@ -115,11 +115,11 @@ export default function JlmShopSection() {
           img: "/jlm/jlm-service-3.png"
         },
         {
-          title: "Rusted bolts nuts,screws",
+          title: "Brakes",
           img: "/jlm/jlm-service-4.png"
         },
         {
-          title: "Brakes",
+          title: "UnderBody",
           img: "/jlm/jlm-service-5.png"
         } 
       ]

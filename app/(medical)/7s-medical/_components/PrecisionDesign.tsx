@@ -36,15 +36,15 @@ export default function PrecisionDesign() {
           
           {/* Right Side: Precision Design Features */}
           <div className="flex flex-col justify-center">
-            <h2 className="text-[28px] md:text-[30px] lg:text-[32px] font-bold mb-4 text-[#212529]">
+            <h2 className="text-[28px] md:text-[30px] lg:text-[32px] font-bold text-[#212529]">
               Precision Design & Surgical Efficiency
             </h2>
-            <p className="md: mb-8 leading-relaxed font-light">
+            <p className="md: mb-2 leading-relaxed font-light">
               Designed to support flexible treatment approaches, the HERACLES system offers stable fixation solutions for different patient needs, including osteoporotic bone support and lag screw configurations.
             </p>
 
             {/* Feature List */}
-            <div className="space-y-6">
+            <div className="space-y-4">
               {features.map((feature, idx) => (
                 <div key={idx} className="flex flex-col gap-1">
                   <div className="flex items-center gap-3">

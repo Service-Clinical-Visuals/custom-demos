@@ -31,33 +31,33 @@ export default function SergDBSection() {
             What is DBS (Deep Brain Stimulation)?
           </h2>
 
-          <div className="mt-6 md:mt-8 space-y-5 md:space-y-6">
-            <p className="text-[15px] md:text-[16px] leading-[1.8] md:leading-[2] text-[#767676]">
+          <div className="mt-8 space-y-6">
+            <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
               DBS is the cornerstone of advanced Parkinson&apos;s Therapy. It
               delivers an inhibitory current to the parts of the brain affected
               by Parkinson&apos;s to drastically reduce the most severe motor
               symptoms.
             </p>
 
-            <p className="text-[15px] md:text-[16px] leading-[1.8] md:leading-[2] text-[#767676]">
+            <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
               Without StimSense, it can take 4 to 5 hours to program one DBS
               stimulator unit. In practice, this means that a clinician can only
               see one patient a day.
             </p>
 
-            <p className="text-[15px] md:text-[16px] leading-[1.8] md:leading-[2] text-[#767676]">
+            <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
               As symptoms fluctuate with disease progression, programs need to
               be reviewed in response to these changes.
             </p>
 
-            <p className="text-[15px] md:text-[16px] leading-[1.8] md:leading-[2] text-[#767676]">
+            <p className="text-[16px] leading-[1.9] text-[#707070] font-medium">
               DBS works, but the established support infrastructure around it is
               limited.
             </p>
           </div>
 
           {/* DIVIDER */}
-          <div className="mt-6 md:mt-8 w-full h-[1px] bg-[#e3e3e3]" />
+          <div className="mt-5 md:mt-7 w-full h-[1px] bg-[#e3e3e3]" />
 
           {/* BUTTON */}
           <button className="cursor-pointer group mt-6 md:mt-8 h-[50px] md:h-[54px] rounded-full bg-[#252f8d] hover:bg-[#313cb0] transition-all duration-300 pl-6 md:pl-8 pr-3 flex items-center shadow-[0_10px_25px_rgba(37,47,141,0.18)]">
@@ -83,13 +83,13 @@ export default function SergDBSection() {
             Pilot Study & Evidence
           </h3>
 
-          <div className="mt-5 md:mt-7 space-y-4 md:space-y-5">
-            <p className="text-[15px] md:text-[16px] leading-[1.8] md:leading-[2] text-[#767676]">
+          <div className="mt-8 space-y-6">
+            <p className="text-[16px] leading-[1.8] text-[#707070] font-medium">
               We completed a pilot study in collaboration with Boston
               Scientific to test StimSense inside live DBS programming sessions.
             </p>
 
-            <p className="text-[15px] md:text-[16px] leading-[1.8] md:leading-[2] text-[#767676]">
+            <p className="text-[16px] leading-[1.8] text-[#707070] font-medium">
               The aim was to evaluate its impact on session efficiency,
               decision making and clinical outcomes.
             </p>

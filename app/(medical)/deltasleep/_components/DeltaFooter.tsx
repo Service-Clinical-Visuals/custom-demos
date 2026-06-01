@@ -1,7 +1,7 @@
 "use client";
 
 import "aos/dist/aos.css";
-import { Send } from "lucide-react";
+import { ArrowRight, Send } from "lucide-react";
 
 const quickLinks = [
   "Home",
@@ -60,19 +60,19 @@ export default function DeltaFooter() {
         <div className="w-full h-[1px] bg-[#8ea8a3] mt-8" />
 
         {/* Main Footer */}
-        <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr_180px_140px] gap-12 pt-10 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr_180px_140px] gap-12 pt-10 items-start">
           {/* Contact */}
           <div data-aos="fade-up">
             <h3 className="text-[#00695f] text-3xl font-semibold  ">
               Stay Connected.
             </h3>
 
-            <div className="mt-6">
-              <p className="text-[#444444] font-bold text-5xl leading-[1.05]">
-                info@deltasleep.ca
+            <div className="mt-5">
+              <p className="flex items-center gap-3 text-[#444444] font-bold text-[34px] leading-[1.05] underline underline-offset-10 decoration-[#00695f]">
+                info@deltasleep.ca <ArrowRight className="w-8 h-8 -rotate-45 text-[#00695f]" />
               </p>
 
-              <p className="mt-3 text-[#444444] text-4xl font-bold">
+              <p className="mt-5 text-[#444444] text-2xl font-extrabold ">
                 (514) 974-7142
               </p>
             </div>

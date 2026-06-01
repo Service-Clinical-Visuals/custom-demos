@@ -21,11 +21,12 @@ export default function DeltaFeaturedProduct() {
           >
             {/* Label */}
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
-
-              <p className="text-[16px] font-medium text-[#8d8d8d]">
-                Full Face Mask F1
-              </p>
+              <div className="flex items-center justify-center gap-2 mb-5">
+                <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
+                <p className="text-[22px] font-medium text-[#00695f]">
+                  Full Face Mask F1
+                </p>
+              </div>
             </div>
 
             {/* Heading */}

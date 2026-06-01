@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function JlmPartner() {
   return (
-    <section className="bg-[#F4F4F4] py-20">
+    <section className="bg-[#FFFFFF] py-20">
       <div className="mx-auto max-w-[1600px] px-6">
 
         {/* BLOCK 01 */}

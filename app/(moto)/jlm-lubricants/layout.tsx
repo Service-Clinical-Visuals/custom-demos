@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Righteous, Poppins } from "next/font/google";
+import { Righteous, Poppins, Wix_Madefor_Display } from "next/font/google";
 import "./globals.css";
 
-const fontHeading = Righteous({
+const fontHeading = Wix_Madefor_Display({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["400"],
   
 });
 
-const fontBody = Poppins({
+const fontBody = Wix_Madefor_Display({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {

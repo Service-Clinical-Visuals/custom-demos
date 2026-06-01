@@ -34,7 +34,7 @@ export default function SergSection() {
     <section className="relative overflow-hidden bg-[#1A237E] py-24 px-6">
       {/* BACKGROUND DESIGN */}
       <div className="absolute inset-0 overflow-hidden">
-        <img src="/sergtech/serg-section-bg.png" alt="Background 1" className="absolute top-[-20%] left-[-10%] w-[400px] h-[400px] opacity-30 clip-path-hexagon" />
+        <img src="/sergtech/serg-section-bg.png" alt="Background 1" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
 
       {/* CONTENT */}
@@ -95,7 +95,7 @@ export default function SergSection() {
                       {feature.title}
                     </h3>
 
-                    <p className="mt-2 text-[#6f6f6f] text-[16px] leading-[1.9] font-medium">
+                    <p className="mt-2 text-[#707070] text-[16px] leading-[1.9] font-medium">
                       {feature.description}
                     </p>
                   </div>
