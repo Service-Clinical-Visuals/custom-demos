@@ -151,6 +151,7 @@ export default function AirFooter() {
           <div
             data-aos="fade-up"
             data-aos-delay="100"
+            className="xl:ml-14"
           >
             <h3
               className="
