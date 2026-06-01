@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function HeroVideo() {
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-slate-950 flex items-center">
+    <section className="relative w-full h-screen overflow-hidden flex items-center">
       {/* Background Video / Image Placement */}
       <div className="absolute inset-0 z-0 select-none">
         <DynamicVideoPlayer 
@@ -22,7 +22,7 @@ export default function HeroVideo() {
           data-aos="fade-up" 
           data-aos-delay="200"
         >
-          <h1 className="text-[38px] md:text-[45px] lg:text-[50px] font-semibold text-white leading-[1.4] tracking-tight mb-8">
+          <h1 className="text-[32px] md:text-[36px] lg:text-[40px] font-semibold text-white leading-[1.4] tracking-tight mb-8">
             Talk to us, We will listen, <br />
             We will help
           </h1>

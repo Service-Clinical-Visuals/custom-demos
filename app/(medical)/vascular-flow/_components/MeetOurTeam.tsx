@@ -31,7 +31,7 @@ export default function MeetOurTeam() {
       <div className="container mx-auto px-4 lg:px-2">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16" data-aos="fade-up">
-          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-extrabold text-white leading-tight mb-4">
+          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-bold text-white leading-tight mb-4">
             Meet Our Team
           </h2>
           <p className="text-white!">We are the team behind the technology that restores the natural pattern of blood flow.</p>

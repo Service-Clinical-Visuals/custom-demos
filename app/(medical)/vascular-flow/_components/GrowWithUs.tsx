@@ -14,7 +14,7 @@ export default function GrowWithUs() {
           data-aos="fade-up"
         >
           {/* Slogan */}
-          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-extrabold tracking-wide max-w-2xl leading-wide text-left text-white!">
+          <h2 className="text-[26px] md:text-[30px] lg:text-[34px] font-bold max-w-2xl leading-wide text-left text-white!">
             Grow with us through innovation <br className="hidden md:block" />
             and dedicated service.
           </h2>

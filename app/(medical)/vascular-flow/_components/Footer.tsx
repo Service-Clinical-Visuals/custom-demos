@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Column 1: About Company (Spans 4 columns) */}
           <div className="lg:col-span-4 space-y-5">
-            <h3 className="text-[20px] font-semibold tracking-wide uppercase border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
+            <h3 className="text-[20px] font-semibold tracking-wide border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
               About Company
             </h3>
             <p className="text-white! text-[16px] leading-relaxed">
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Column 2: Our Services (Spans 3 columns) */}
           <div className="lg:col-span-3 space-y-5">
-            <h3 className="text-[20px] font-semibold tracking-wide uppercase border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
+            <h3 className="text-[20px] font-semibold tracking-wide border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
               Our Services
             </h3>
             <ul className="space-y-3 text-[16px] text-white">
@@ -72,7 +72,7 @@ export default function Footer() {
 
           {/* Column 3: Contract Manufacturing (Spans 3 columns) */}
           <div className="lg:col-span-3 space-y-5">
-            <h3 className="text-[20px] font-semibold tracking-wide uppercase border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
+            <h3 className="text-[20px] font-semibold tracking-wide border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
               Contract Manufacturing
             </h3>
             <ul className="space-y-3 text-[16px] text-white">
@@ -88,7 +88,7 @@ export default function Footer() {
 
           {/* Column 4: Company (Spans 2 columns) */}
           <div className="lg:col-span-2 space-y-5">
-            <h3 className="text-[20px] font-semibold tracking-wide uppercase border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
+            <h3 className="text-[20px] font-semibold tracking-wide border-b-2 border-[#00A0E0] pb-2 w-fit text-white!">
               Company
             </h3>
             <ul className="space-y-3 text-[16px] text-white">
@@ -101,7 +101,7 @@ export default function Footer() {
               ))}
             </ul>
             <div className="space-y-2.5 pt-2">
-              <span className="block text-[16px] font-bold uppercase tracking-wider text-wide!">
+              <span className="block text-[16px] font-bold tracking-wider text-wide!">
                 Socials
               </span>
               <a
