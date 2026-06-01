@@ -264,12 +264,12 @@ export default function AirTechnology() {
         >
           <div
             onClick={() => goToPage(0)}
-            className={`h-[8px] w-[34px] skew-x-[-25deg] cursor-pointer transition-colors duration-300 ${activeDot === 0 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
+            className={`h-[8px] w-[70px] skew-x-[-35deg] cursor-pointer transition-colors duration-300 ${activeDot === 0 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
           />
 
           <div
             onClick={() => goToPage(1)}
-            className={`h-[8px] w-[34px] skew-x-[-25deg] cursor-pointer transition-colors duration-300 ${activeDot === 1 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
+            className={`h-[8px] w-[70px] skew-x-[-35deg] cursor-pointer transition-colors duration-300 ${activeDot === 1 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
           />
         </div>
       </div>

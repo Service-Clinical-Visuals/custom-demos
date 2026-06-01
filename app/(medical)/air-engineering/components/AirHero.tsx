@@ -19,12 +19,13 @@ export default function AirHero() {
             {/* LABEL */}
             <div
               data-aos="fade-right"
-              className="mb-8 inline-flex items-center overflow-hidden"
+              className="mb-8 inline-flex items-center"
             >
-              <div className="bg-[#4F67A8]/95 px-5 py-[10px] text-[16px] font-semibold tracking-wide text-white">
+              <div className="relative bg-white/10 backdrop-blur-sm px-6 py-[12px] text-[16px] md:text-[18px] font-semibold tracking-wide text-white shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
+                <div className="absolute top-0 left-0 w-[4px] h-1/2 bg-[#E32A20]"></div>
                 Air Engineering Group
+                <div className="absolute bottom-0 right-0 w-[4px] h-1/2 bg-[#E32A20]"></div>
               </div>
-
             </div>
 
             {/* HEADING */}

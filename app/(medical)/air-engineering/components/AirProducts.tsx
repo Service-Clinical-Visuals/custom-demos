@@ -104,7 +104,7 @@ export default function AirProducts() {
                   ANGLED BACKGROUND SHAPE
               ====================================== */}
 
-              <div
+              {/* <div
                 className="
                   absolute
                   inset-y-0
@@ -113,7 +113,7 @@ export default function AirProducts() {
                   skew-x-[-28deg]
                   bg-[#e4e5e7]
                 "
-              />
+              /> */}
 
               {/* =====================================
                   PRODUCT IMAGE
@@ -133,7 +133,7 @@ export default function AirProducts() {
                   className="
                     relative
                     z-10
-                    h-[180px]
+                    h-full
                     w-[260px]
                     transition-transform
                     duration-500

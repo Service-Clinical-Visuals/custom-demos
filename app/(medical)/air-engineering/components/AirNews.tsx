@@ -85,7 +85,7 @@ export default function AirNews() {
               className="
                 group
                 overflow-hidden
-                bg-[#DDDDDD]
+                bg-[#F9F9F9]
                 transition-all
                 duration-500
                 hover:-translate-y-2

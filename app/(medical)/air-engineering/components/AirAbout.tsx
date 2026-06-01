@@ -31,8 +31,9 @@ const features = [
 
 export default function AirAbout() {
   return (
-    <section className="w-full bg-[#f3f3f3] py-[70px]">
-      <div className="mx-auto max-w-[1600px] px-5">
+    <>
+      <section className="w-full bg-[#f1f1f1] py-[70px]">
+        <div className="mx-auto max-w-[1600px] px-5">
         {/* ======================================
             TOP FEATURE CARDS
         ====================================== */}
@@ -76,12 +77,16 @@ export default function AirAbout() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
 
+    <section className="w-full bg-white py-[70px]">
+      <div className="mx-auto max-w-[1600px] px-5">
         {/* ======================================
             MAIN ABOUT GRID
         ====================================== */}
 
-        <div className="mt-[90px] grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-10">
+        <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-10">
           {/* LEFT IMAGE */}
           <div data-aos="fade-right" className="relative">
             <div className="relative w-full h-full overflow-hidden">
@@ -107,7 +112,6 @@ export default function AirAbout() {
             {/* HEADING */}
             <h2
               className="
-                max-w-[640px]
                 text-4xl
                 font-bold
                 leading-[1.45]
@@ -246,6 +250,7 @@ export default function AirAbout() {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 }
