@@ -1,7 +1,7 @@
 "use client";
 
 import "aos/dist/aos.css";
-import { Send } from "lucide-react";
+import { ArrowRight, Send } from "lucide-react";
 
 const quickLinks = [
   "Home",
@@ -68,11 +68,11 @@ export default function DeltaFooter() {
             </h3>
 
             <div className="mt-6">
-              <p className="text-[#444444] font-bold text-5xl leading-[1.05]">
-                info@deltasleep.ca
+              <p className="flex items-center gap-3 text-[#444444] font-bold text-3xl leading-[1.05] underline underline-offset-8 decoration-[#00695f]">
+                info@deltasleep.ca <ArrowRight className="w-6 h-6 font-bold -rotate-45 text-[#00695f]" />
               </p>
 
-              <p className="mt-3 text-[#444444] text-4xl font-bold">
+              <p className="mt-3 text-[#444444] text-xl font-bold">
                 (514) 974-7142
               </p>
             </div>
