@@ -24,7 +24,7 @@ export default function SergFooter() {
           {/* LEFT BRAND */}
           <div data-aos="fade-right">
             {/* LOGO */}
-            <div className="relative w-[190px] h-[70px]">
+            <div className="relative w-[180px] h-[70px]">
               {/* Replace with actual logo later */}
 
               <Image
@@ -36,21 +36,28 @@ export default function SergFooter() {
             </div>
 
             {/* DESCRIPTION */}
-            <p className="mt-8 text-white/90 text-[16px] leading-[2] font-medium max-w-[300px]">
+            <p className="mt-8 text-white/90 text-[16px] leading-[2] font-medium max-w-[520px]">
               SERG Technologies is a digital health and care solutions provider
               for people living with neurodegenerative movement disorders.
             </p>
 
             {/* SOCIALS */}
-            <div className="flex items-center gap-4 mt-8">
+            <div className="flex items-center gap-3 mt-8">
               {/* INSTAGRAM */}
-              <button className="cursor-pointer w-[42px] h-[42px] rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#252f8d] transition-all duration-300">
-                <Instagram size={18} />
-              </button>
+              <button className="cursor-pointer w-[42px] h-[42px] rounded-full bg-white border border-white flex items-center justify-center hover:bg-transparent transition-all duration-300 group">
+              <Instagram
+                size={18}
+                className="text-[#252f8d] group-hover:text-white"
+              />
+            </button>
+
 
               {/* LINKEDIN */}
-              <button className="cursor-pointer w-[42px] h-[42px] rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#252f8d] transition-all duration-300">
-                <Linkedin size={18} />
+              <button className="cursor-pointer w-[42px] h-[42px] rounded-full bg-white border border-white flex items-center justify-center hover:bg-transparent transition-all duration-300 group">
+                <Linkedin
+                  size={18}
+                  className="text-[#252f8d] group-hover:text-white"
+                />
               </button>
             </div>
           </div>
@@ -64,7 +71,7 @@ export default function SergFooter() {
               Quick Links
             </h3>
 
-            <div className="mt-8 flex flex-col gap-5">
+            <div className="mt-8 flex flex-col gap-4">
               {quickLinks.map((link, index) => (
                 <Link
                   key={index}
@@ -92,7 +99,7 @@ export default function SergFooter() {
               </p>
 
               <p className="text-white/90 text-[16px] leading-[2] font-medium">
-                124 Barby Road, North Kensington,
+                124 Barby Road, North <br /> Kensington,
                 <br />
                 London, W10 6BL
               </p>
@@ -116,7 +123,7 @@ export default function SergFooter() {
                 info@sergtechnologies.com
               </Link>
 
-              <p className="text-white/90 text-[16px] leading-[2] font-medium max-w-[330px]">
+              <p className="text-white/90 text-[16px] leading-[2] font-medium max-w-[420px]">
                 SERG Technologies Ltd is a company registered in England &
                 Wales with company number 11844476.
               </p>
