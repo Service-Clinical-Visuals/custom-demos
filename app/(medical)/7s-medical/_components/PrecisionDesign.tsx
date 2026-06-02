@@ -49,7 +49,7 @@ export default function PrecisionDesign() {
                 <div key={idx} className="flex flex-col gap-1">
                   <div className="flex items-center gap-3">
                     <CheckCircle2 className="w-[20px] h-[20px] text-gray-700 flex-shrink-0" strokeWidth={2} />
-                    <h4 className="text-[18px] md:text-[20px] font-semibold text-[#CE112D]!">
+                    <h4 className="text-[18px] md:text-[19px] font-semibold text-[#CE112D]!">
                       {feature.title}
                     </h4>
                   </div>

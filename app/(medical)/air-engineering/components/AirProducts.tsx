@@ -2,12 +2,10 @@
 
 "use client";
 
-import Image from "next/image";
-
 const products = [
   {
     title: "Pneumatic Valves",
-    image: "/ae/ae-product-7.png",
+    image: "/ae/ae-product-1.png",
   },
   {
     title: "Pneumatic Cylinders",
@@ -140,10 +138,9 @@ export default function AirProducts() {
                     group-hover:scale-105
                   "
                 >
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.title}
-                    fill
                     className="object-contain"
                   />
                 </div>

@@ -3,7 +3,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import "aos/dist/aos.css";
 
@@ -93,11 +92,10 @@ export default function AirAbout() {
           {/* LEFT IMAGE */}
           <div data-aos="fade-right" className="relative">
             <div className="relative w-full h-full overflow-hidden">
-              <Image
-                fill
+              <img
                 src="/ae/ae-about-2.png"
                 alt="Industrial Machine"
-                className="object-contain w-auto h-full"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>

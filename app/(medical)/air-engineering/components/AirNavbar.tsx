@@ -3,7 +3,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
@@ -92,12 +91,10 @@ export default function AirNavbar() {
             {/* LOGO */}
             <div className="flex items-center gap-5">
               <div className="relative h-[44px] w-[225px]">
-                <Image
+                <img
                   src="/ae/ae-logo.png"
                   alt="AEG Logo"
-                  fill
-                  className="object-contain"
-                  priority
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>

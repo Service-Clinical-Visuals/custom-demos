@@ -2,7 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { CheckCircle2, Play } from "lucide-react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 

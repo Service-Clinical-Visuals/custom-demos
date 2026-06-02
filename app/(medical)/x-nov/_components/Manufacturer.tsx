@@ -8,7 +8,7 @@ export default function Manufacturer() {
     <section className="relative py-16 md:py-20 overflow-hidden bg-[url('/x-nov/manufacturer-bg.png')]">
 
       <div className="container mx-auto px-6 lg:px-16 relative z-10">
-        <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-12" data-aos="fade-up">
           {/* Subhead label */}
           <div className="flex items-center justify-center gap-3 mb-4">
             <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
@@ -25,7 +25,7 @@ export default function Manufacturer() {
           </p>
         </div>
 
-        <div className="w-full max-w-5xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+        <div className="w-full max-w-6xl mx-auto" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full aspect-video rounded-[32px] overflow-hidden shadow-2xl bg-white/50 border border-white/40 backdrop-blur-sm p-2">
             <div className="w-full h-full rounded-[24px] overflow-hidden relative">
               <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />

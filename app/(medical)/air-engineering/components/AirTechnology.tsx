@@ -2,7 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { useRef, useState } from "react";
 
@@ -172,11 +171,12 @@ export default function AirTechnology() {
             >
               {/* IMAGE */}
               <div className="relative h-[230px] overflow-hidden">
-                <Image
+                <img
                   src={item.image}
                   alt={item.title}
-                  fill
                   className="
+                    w-full
+                    h-full
                     object-cover
                     grayscale
                     transition-transform
