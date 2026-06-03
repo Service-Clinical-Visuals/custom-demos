@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Globe2, Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const topLinks = ["Home", "About Us", "Products", "Part Search"];
@@ -30,17 +30,17 @@ export default function CarePumpNavbar() {
   return (
     <header className={`w-full flex justify-center z-50 transition-all duration-300 ${isScrolled ? "sticky top-0 pt-0 px-0" : "relative pt-4 px-[2.5%]"}`}>
       <div className={`bg-[#004f70] shadow-lg transition-all duration-300 w-full flex justify-center ${isScrolled ? "rounded-none" : "rounded-2xl"}`}>
-        <div className="w-full container mx-auto px-3 md:px-6 py-2 pb-3">
+        <div className="w-full container mx-auto py-6 pb-4">
           <div className="flex justify-between items-center">
             <img
               src="/carepump/images/carepumpicon.png"
               alt="logo"
-              width={150} height={150}
+              width={200} height={200}
             />
 
             {/* Desktop */}
             <div className="hidden lg:flex flex-col text-white ml-auto items-end">
-              <div className="flex items-center justify-end gap-8 text-sm border-b border-[#1b7695] pb-2 pl-40">
+              <div className="flex items-center justify-end gap-8 text-md border-b border-[#1b7695] pb-2 pl-40">
                 {topLinks.map((item) => (
                   <Link key={item} href="#">
                     {item}
@@ -73,7 +73,7 @@ export default function CarePumpNavbar() {
                 </button>
               </div>
 
-              <div className="flex gap-6 pt-2 text-sm">
+              <div className="flex gap-6 pt-2 text-md">
                 {bottomLinks.map((item) => (
                   <Link
                     key={item}

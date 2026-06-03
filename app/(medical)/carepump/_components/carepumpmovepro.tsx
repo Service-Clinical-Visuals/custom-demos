@@ -26,7 +26,7 @@ export default function CarePumpMovePro() {
         />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-0 relative z-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-start">
           <div data-aos="fade-right" className="order-1 lg:order-1 lg:col-span-7 flex flex-col gap-8">
             <div className="max-w-4xl">
@@ -66,15 +66,15 @@ export default function CarePumpMovePro() {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="order-2 lg:order-2 lg:col-span-5 flex flex-col gap-6 ">
+          <div data-aos="fade-left" className="order-2 lg:order-2 lg:col-span-4 lg:col-start-9 flex flex-col gap-6 lg:gap-4 mt-5">
 
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-2 gap-3 lg:gap-4">
               {heroImages.map((src, idx) => (
                 <div
                   key={idx}
                   data-aos="zoom-in"
                   data-aos-delay={idx * 100}
-                  className="relative overflow-hidden rounded-2xl bg-white shadow-lg"
+                  className="relative overflow-hidden rounded-xl shadow-lg bg-[#f4f4f4]"
                 >
                   <div className="aspect-[4/3] relative">
                     <img
@@ -87,7 +87,7 @@ export default function CarePumpMovePro() {
               ))}
             </div>
 
-            <div className="flex items-center gap-3 rounded-2xl border border-white/80 bg-white/90 px-4 py-3 shadow-md">
+            <div className="flex items-center gap-3 rounded-2xl border border-white/80 bg-white/90 px-4 py-3 mb-3 shadow-md">
               <img
                 src="/carepump/images/medal 1.png"
                 alt="Certification Badge"

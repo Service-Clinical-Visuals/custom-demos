@@ -27,7 +27,7 @@ const benefits = [
 export default function BenefitsSection() {
   return (
     <section className="w-full bg-[#f7f7f7] py-12 md:py-16 lg:py-20">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto">
 
         {/* Heading */}
         <div className="text-center max-w-4xl mx-auto">
@@ -61,7 +61,7 @@ export default function BenefitsSection() {
         </div>
 
         {/* Cards */}
-        <div className="mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="mt-15 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {benefits.map((item, index) => (
             <div
               key={index}
@@ -121,7 +121,7 @@ export default function BenefitsSection() {
         </div>
 
         {/* CTA */}
-        <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center mt-14">
+        <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center mt-18">
           <PrimaryButton text="Discover Benefits" />
         </div>
 

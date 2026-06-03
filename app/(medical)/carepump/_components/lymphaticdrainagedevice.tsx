@@ -12,20 +12,20 @@ export default function LymphaticDrainageDevice() {
 
   return (
     <section className="w-full py-12 md:py-16 lg:py-20">
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-[45%_55%] gap-8 lg:gap-12 items-start">
+      <div className="container mx-auto">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 
           {/* Left Image */}
-          <div data-aos="fade-right" className="overflow-hidden rounded-[24px]">
+          <div data-aos="fade-right" className="overflow-hidden rounded-[24px] lg:col-span-5">
             <img
               src="/carepump/images/homecarepump.png"
               alt="CarePump"
-              className="w-full max-w-[600px] rounded-[24px] mx-auto"
+              className="w-full rounded-[24px] mx-auto"
             />
           </div>
 
           {/* Right Content */}
-          <div data-aos="fade-left">
+          <div data-aos="fade-left" className="lg:col-span-7">
             <h2 className="
                 text-[24px]
                 sm:text-[28px]
@@ -79,7 +79,7 @@ export default function LymphaticDrainageDevice() {
                 lg:text-[28px]
                 font-bold
                 text-[#333]
-                mb-1
+                mb-2
                 ">
               Innovation, Experience, and Trusted Patient Care
             </h3>

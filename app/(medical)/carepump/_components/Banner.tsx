@@ -6,7 +6,7 @@ import PrimaryButton from "./Button";
 export default function Banner() {
 
   return (
-    <section className="w-full flex justify-center mt-10 mb-10">
+    <section className="w-full flex justify-center mt-5 mb-5">
       {/* OUTER */}
       <div className="w-[95%] rounded-3xl overflow-hidden relative h-screen">
         {/* 🎥 Background Video */}
@@ -20,7 +20,7 @@ export default function Banner() {
           <div className="max-w-3xl text-white">
             <h1
               data-aos="fade-up"
-              className="text-[32px] font-semibold! leading-snug mb-6 font-sora">
+              className="text-[36px] font-semibold! leading-snug mb-6 font-overpass">
               Effective post-exercise
               <br />
               regeneration

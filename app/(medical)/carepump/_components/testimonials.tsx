@@ -2,10 +2,12 @@
 
 import PrimaryButton from "./Button";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import Image from "next/image";
 
+// @ts-ignore: side-effect CSS import without type declarations
 import 'swiper/css';
+// @ts-ignore: side-effect CSS import without type declarations
 import 'swiper/css/pagination';
 import { useState } from "react";
 
@@ -59,8 +61,8 @@ export default function TestimonialSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="w-full py-12 md:py-16 lg:py-20">
-      <div className="container mx-auto px-6">
+    <section className="w-full py-16 md:py-18 lg:py-20">
+      <div className="container mx-auto">
         <div
           className="relative overflow-hidden rounded-[24px] px-8 py-14 lg:px-14 lg:py-16"
           style={{
@@ -104,7 +106,7 @@ export default function TestimonialSection() {
             </div>
           </div>
 
-          <div className="grid lg:grid-cols-[40%_60%] gap-10 lg:gap-14 items-center">
+          <div className="grid lg:grid-cols-[50%_50%] gap-10 lg:gap-14 items-center">
 
             {/* Left Content */}
             <div data-aos="fade-right" className="text-center lg:text-left">
@@ -152,12 +154,16 @@ export default function TestimonialSection() {
             <div data-aos="fade-left" className="relative flex justify-center w-full min-w-0 pb-10 lg:pb-0 lg:pr-6">
               <div className="relative w-full max-w-[520px]">
                 <Swiper
-                  modules={[Pagination]}
+                  modules={[Pagination, Autoplay]}
                   pagination={{
                     clickable: true,
                     // dynamicBullets: true,
                     // dynamicMainBullets: 3,
                     el: ".custom-swiper-pagination",
+                  }}
+                  autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
                   }}
                   spaceBetween={30}
                   slidesPerView={1}
@@ -186,16 +192,25 @@ export default function TestimonialSection() {
                         />
 
                         <p className="
-                text-[#777]
-                text-[14px]
-                sm:text-[15px]
-                md:text-[16px]
-                lg:text-[17px]
-                leading-7
-                lg:leading-8
-                max-w-[380px] mx-auto
-                ">
-                          {item.text}
+                        text-[#777]
+                        text-[14px]
+                        sm:text-[15px]
+                        md:text-[16px]
+                        lg:text-[17px]
+                        leading-7
+                        lg:leading-8
+                        max-w-[450px] mx-auto
+                        ">
+                          {item.text.includes("See More >>") ? (
+                            <>
+                              {item.text.split("See More >>")[0]}
+                              <span className="text-[#0077cc] font-medium hover:underline cursor-pointer">
+                                See More &gt;&gt;
+                              </span>
+                            </>
+                          ) : (
+                            item.text
+                          )}
                         </p>
 
                         <h4 className="mt-8 text-[22px] md:text-[24px] font-bold text-[#333]">

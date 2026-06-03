@@ -15,7 +15,7 @@ export default function ProductInnovation() {
 
   return (<>
     <section className="w-full py-12 md:py-16 lg:py-20">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto">
 
         {/* Heading */}
         <div data-aos="fade-up" className="text-center max-w-6xl mx-auto mb-14">

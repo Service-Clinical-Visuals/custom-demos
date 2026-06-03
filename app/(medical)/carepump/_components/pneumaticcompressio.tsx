@@ -15,11 +15,11 @@ export default function TherapyGuideSection() {
       </div>
 
       {/* Content Section */}
-      <div className="container mx-auto px-4 lg:px-8 relative">
-        <div className="grid lg:grid-cols-[40%_60%] gap-8 -mt-20 relative z-10">
+      <div className="container mx-auto px-6 relative">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 -mt-20 relative z-10 items-start">
 
           {/* Left Content */}
-          <div data-aos="fade-right" className="pt-24 lg:pt-28">
+          <div data-aos="fade-right" className="pt-24 lg:pt-28 lg:col-span-5">
             <h2 className="
                 text-[24px]
                 sm:text-[28px]
@@ -35,12 +35,12 @@ export default function TherapyGuideSection() {
 
             <PrimaryButton
               text="Explore Therapy Guide"
-              className="mt-8"
+              className="mt-4"
             />
           </div>
 
           {/* Right Floating Card */}
-          <div data-aos="fade-up" className="bg-white rounded-4xl shadow-lg p-8 lg:p-10 lg:-mt-20 mt-3 self-start relative z-20">
+          <div data-aos="fade-up" className="bg-white rounded-4xl shadow-lg p-8 lg:p-10 lg:-mt-20 mt-3 self-start relative z-20 lg:col-span-6 lg:col-start-7">
             <p className="
                 text-[#777]
                 text-[14px]
