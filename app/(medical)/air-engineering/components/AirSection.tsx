@@ -2,7 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { CheckCircle2, Play } from "lucide-react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
@@ -62,14 +61,14 @@ export default function AirSection() {
             <h2
               className="
                 mt-4
-                text-4xl
+                text-[32px]
                 font-bold
                 leading-[1.2]
                 tracking-[-0.8px]
                 text-[#2c2c2c]
               "
             >
-              OEM Fluid Technology Division
+              {/* OEM Fluid Technology Division */}
             </h2>
 
             {/* DESCRIPTION */}
@@ -185,7 +184,7 @@ export default function AirSection() {
         >
           <h3
             className="
-              text-3xl
+              text-[28px]
               font-bold
               uppercase
               tracking-[-0.5px]

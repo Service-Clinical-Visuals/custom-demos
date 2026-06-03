@@ -60,7 +60,7 @@ export default function AirSolutions() {
               mx-auto
               mt-5
               max-w-[1120px]
-              text-4xl
+              text-[32px]
               font-bold
               leading-[1.35]
               tracking-[-0.8px]

@@ -51,11 +51,12 @@ export default function DeltaFaq() {
           >
             {/* Label */}
             <div className="flex items-center gap-2 mb-5">
-              <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
-
-              <p className="text-[18px] font-medium text-[#8f8f8f]">
-                FAQ
-              </p>
+              <div className="flex items-center justify-center gap-2 mb-5">
+            <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
+            <p className="text-[22px] font-medium text-[#00695f]">
+              FAQ
+            </p>
+          </div>
             </div>
 
             {/* Heading */}

@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight, Play } from "lucide-react";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import Link from "next/link";
 
 export default function HybridMeeting() {
   const videos = [
@@ -56,14 +57,12 @@ export default function HybridMeeting() {
               prevEl: ".hybrid-prev",
               nextEl: ".hybrid-next",
             }}
-            className="hybrid-swiper rounded-2xl overflow-hidden shadow-2xl"
+            className="hybrid-swiper rounded-2xl overflow-hidden "
           >
             {videos.map((video, idx) => (
               <SwiperSlide key={idx}>
-                <a 
-                  href={video.youtubeLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                <Link 
+                  href="#" 
                   className="block relative w-full aspect-[16/10] overflow-hidden group/slide cursor-pointer"
                 >
                   <img
@@ -85,7 +84,7 @@ export default function HybridMeeting() {
                       {video.title}
                     </h3>
                   </div>
-                </a>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>

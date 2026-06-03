@@ -74,7 +74,7 @@ export default function AirChoose() {
             <h2
               className="
                 mt-4
-                text-4xl
+                text-[32px]
                 font-bold
                 leading-[1.18]
                 tracking-[-1px]
@@ -206,7 +206,7 @@ export default function AirChoose() {
             z-10
             mx-auto
             flex
-            max-w-[980px]
+            max-w-7xl
             flex-col
             items-center
             px-6
@@ -217,7 +217,7 @@ export default function AirChoose() {
           <h3
             className="
               max-w-[1180px]
-              text-[42px]
+              text-[32px]
               font-bold
               uppercase
               leading-[1.45]

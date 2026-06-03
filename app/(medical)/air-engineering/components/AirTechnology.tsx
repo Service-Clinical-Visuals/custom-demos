@@ -2,7 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { useRef, useState } from "react";
 
@@ -103,12 +102,12 @@ export default function AirTechnology() {
           <h2
             className="
               mt-5
-              text-4xl
+              text-[36px]
               font-bold
               leading-[1.35]
               tracking-[-0.6px]
               text-white
-              md:text-[48px]
+              md:text-[36px]
             "
           >
             In AEG, You Have a True End-To-End fluid
@@ -172,11 +171,12 @@ export default function AirTechnology() {
             >
               {/* IMAGE */}
               <div className="relative h-[230px] overflow-hidden">
-                <Image
+                <img
                   src={item.image}
                   alt={item.title}
-                  fill
                   className="
+                    w-full
+                    h-full
                     object-cover
                     grayscale
                     transition-transform
@@ -264,12 +264,12 @@ export default function AirTechnology() {
         >
           <div
             onClick={() => goToPage(0)}
-            className={`h-[8px] w-[34px] skew-x-[-25deg] cursor-pointer transition-colors duration-300 ${activeDot === 0 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
+            className={`h-[8px] w-[70px] skew-x-[-35deg] cursor-pointer transition-colors duration-300 ${activeDot === 0 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
           />
 
           <div
             onClick={() => goToPage(1)}
-            className={`h-[8px] w-[34px] skew-x-[-25deg] cursor-pointer transition-colors duration-300 ${activeDot === 1 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
+            className={`h-[8px] w-[70px] skew-x-[-35deg] cursor-pointer transition-colors duration-300 ${activeDot === 1 ? "bg-[#9CCB3B]" : "bg-[#d9d9d9]"}`}
           />
         </div>
       </div>

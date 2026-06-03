@@ -2,7 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
@@ -52,14 +51,14 @@ export default function AirNews() {
           <h2
             className="
               mt-4
-              text-4xl
+              text-[32px]
               font-bold
               leading-[1.18]
               tracking-[-1px]
               text-[#343434]
             "
           >
-            OEM Fluid Technology Division
+            Check Our Recent Events
           </h2>
         </div>
 
@@ -85,7 +84,7 @@ export default function AirNews() {
               className="
                 group
                 overflow-hidden
-                bg-[#DDDDDD]
+                bg-[#F9F9F9]
                 transition-all
                 duration-500
                 hover:-translate-y-2
@@ -96,11 +95,12 @@ export default function AirNews() {
               ====================================== */}
 
               <div className="relative h-[300px] overflow-hidden">
-                <Image
+                <img
                   src={item.image}
                   alt={item.title}
-                  fill
                   className="
+                    w-full
+                    h-full
                     object-cover
                     transition-transform
                     duration-700

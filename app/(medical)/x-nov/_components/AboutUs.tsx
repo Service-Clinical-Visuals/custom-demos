@@ -8,7 +8,7 @@ export default function AboutUs() {
     "Founded on March 15, 2003, with a vision to deliver innovative orthopaedic solutions",
     "Works closely with leading orthopaedic surgeons to create advanced medical technologies",
     "Celebrated its 20th anniversary in 2023, marking a major milestone in innovation and growth",
-    "Trusted by healthcare professionals in more than 35 countries across Europe and beyond"
+    // "Trusted by healthcare professionals in more than 35 countries across Europe and beyond"
   ];
 
   return (

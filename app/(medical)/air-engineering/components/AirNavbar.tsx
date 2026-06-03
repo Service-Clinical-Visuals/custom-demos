@@ -3,7 +3,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
@@ -48,7 +47,7 @@ export default function AirNavbar() {
         }`}
       >
         {/* BLACK TOP BAR */}
-        <div className="w-full bg-black">
+        <div className="w-full bg-black py-1.5">
           <div className="mx-auto flex h-[30px] max-w-[1600px] items-center justify-end px-6 xl:px-12">
             <nav className="hidden items-center gap-9 text-[16px] font-medium tracking-wide text-white lg:flex font-dm-sans">
               <button className="flex items-center gap-1 transition hover:text-neutral-300">
@@ -87,28 +86,26 @@ export default function AirNavbar() {
         </div>
 
         {/* WHITE BAR */}
-        <div className="border-b border-neutral-200 bg-white">
+        <div className="border-b border-neutral-200 bg-white py-1.5">
           <div className="mx-auto flex h-[62px] max-w-[1600px] items-center justify-between px-6 xl:px-12">
             {/* LOGO */}
             <div className="flex items-center gap-5">
               <div className="relative h-[44px] w-[225px]">
-                <Image
+                <img
                   src="/ae/ae-logo.png"
                   alt="AEG Logo"
-                  fill
-                  className="object-contain"
-                  priority
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
 
             {/* SEARCH */}
             <div className="hidden items-center md:flex">
-              <div className="flex h-[34px] overflow-hidden border border-neutral-300">
+              <div className="flex h-[40px] overflow-hidden">
                 <input
                   type="text"
                   placeholder="Search for everything"
-                  className="w-[310px] px-4 text-[16px] text-black outline-none"
+                  className="w-[310px] px-4 text-[16px] text-black outline-none bg-[#F1F1F1]"
                 />
 
                 <button className="cursor-pointer flex w-[92px] items-center justify-center bg-[#00A3D9] text-[16px] font-semibold text-white transition hover:bg-[#0090c0]">

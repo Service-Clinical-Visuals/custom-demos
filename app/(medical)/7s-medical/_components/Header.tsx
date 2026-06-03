@@ -45,7 +45,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link, index) => (
               <Link
                 key={index}
@@ -73,13 +73,13 @@ export default function Header() {
 
           {/* Contact Button & Mobile Toggle */}
           <div className="flex items-center gap-4">
-            <Button href="#contact" className="hidden md:inline-flex">
+            <Button href="#contact" className="hidden! lg:inline-flex!">
               Contact Us
             </Button>
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 text-gray-600 hover:text-[#CE112D] transition-colors"
+              className="lg:hidden p-2 text-gray-600 hover:text-[#CE112D] transition-colors"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (

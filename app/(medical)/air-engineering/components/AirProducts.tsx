@@ -2,8 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
-
 const products = [
   {
     title: "Pneumatic Valves",
@@ -60,14 +58,14 @@ export default function AirProducts() {
           <h2
             className="
               mt-4
-              text-[48px]
+              text-[32px]
               font-bold
               leading-[1.18]
               tracking-[-1px]
               text-[#343434]
             "
           >
-            OEM Fluid Technology Division
+            The Widest range of Compressed Air Products And Components
           </h2>
         </div>
 
@@ -104,7 +102,7 @@ export default function AirProducts() {
                   ANGLED BACKGROUND SHAPE
               ====================================== */}
 
-              <div
+              {/* <div
                 className="
                   absolute
                   inset-y-0
@@ -113,7 +111,7 @@ export default function AirProducts() {
                   skew-x-[-28deg]
                   bg-[#e4e5e7]
                 "
-              />
+              /> */}
 
               {/* =====================================
                   PRODUCT IMAGE
@@ -133,17 +131,16 @@ export default function AirProducts() {
                   className="
                     relative
                     z-10
-                    h-[180px]
+                    h-full
                     w-[260px]
                     transition-transform
                     duration-500
                     group-hover:scale-105
                   "
                 >
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.title}
-                    fill
                     className="object-contain"
                   />
                 </div>

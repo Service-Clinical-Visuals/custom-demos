@@ -39,12 +39,16 @@ export default function DeltaAbout() {
         >
           {/* Label */}
           <div className="flex items-center justify-center gap-2 mb-6">
-            <span className="w-[7px] h-[7px] rounded-full bg-[#00695f]" />
 
-            <p className="text-[16px] font-medium text-[#8a8a8a]">
-              About Us
-            </p>
+           <div className="flex items-center gap-3 pl-6" data-aos="fade-up">
+              <span className="w-[8px] h-[8px] rounded-full bg-[#00695f]" />
+              <p className="text-[22px] font-semibold text-[#00695f]">
+                About Us
+              </p>
+            </div>
           </div>
+
+          
 
           {/* Main Title */}
           <DeltaScrollRevealText

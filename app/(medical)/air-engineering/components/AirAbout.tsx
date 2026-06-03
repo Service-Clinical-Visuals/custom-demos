@@ -2,7 +2,7 @@
 
 "use client";
 
-import Image from "next/image";
+import { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import "aos/dist/aos.css";
 
@@ -30,9 +30,12 @@ const features = [
 ];
 
 export default function AirAbout() {
+  const [activeTab, setActiveTab] = useState("mission");
+
   return (
-    <section className="w-full bg-[#f3f3f3] py-[70px]">
-      <div className="mx-auto max-w-[1600px] px-5">
+    <>
+      <section className="w-full bg-[#f1f1f1] py-[70px]">
+        <div className="mx-auto max-w-[1600px] px-5">
         {/* ======================================
             TOP FEATURE CARDS
         ====================================== */}
@@ -76,20 +79,23 @@ export default function AirAbout() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
 
+    <section className="w-full bg-white py-[70px]">
+      <div className="mx-auto max-w-[1600px] px-5">
         {/* ======================================
             MAIN ABOUT GRID
         ====================================== */}
 
-        <div className="mt-[90px] grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-10">
+        <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-10">
           {/* LEFT IMAGE */}
           <div data-aos="fade-right" className="relative">
             <div className="relative w-full h-full overflow-hidden">
-              <Image
-                fill
+              <img
                 src="/ae/ae-about-2.png"
                 alt="Industrial Machine"
-                className="object-contain w-auto h-full"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -107,8 +113,7 @@ export default function AirAbout() {
             {/* HEADING */}
             <h2
               className="
-                max-w-[640px]
-                text-4xl
+                text-[32px]
                 font-bold
                 leading-[1.45]
                 tracking-[-0.6px]
@@ -149,62 +154,110 @@ export default function AirAbout() {
               "
             >
               <button
-                className="
+                onClick={() => setActiveTab("mission")}
+                className={`
                   relative
                   flex-1
-                  bg-white
                   px-8
                   py-5
                   text-[16px]
                   font-semibold
-                  text-[#242424]
-                "
+              </p>
+                  transition-all
+                  duration-300
+                  ${
+                    activeTab === "mission"
+                      ? "bg-white text-[#242424]"
+                      : "bg-[#f8f8f8] text-[#242424]"
+                  }
+                `}
               >
-                <span
-                  className="
-                    absolute
-                    left-0
-                    top-0
-                    h-[3px]
-                    w-full
-                    bg-[#ff3b30]
-                  "
-                />
+                {activeTab === "mission" && (
+                  <span
+                    className="
+                      absolute
+                      left-0
+                      top-0
+                      h-[3px]
+                      w-full
+                      bg-[#ff3b30]
+                    "
+                  />
+                )}
 
                 Our Mission
               </button>
 
               <button
-                className="
+                onClick={() => setActiveTab("commitment")}
+                className={`
                   flex-1
-                  bg-[#f8f8f8]
                   px-8
                   py-5
                   text-[16px]
                   font-semibold
-                  text-[#242424]
-                "
+                  transition-all
+                  duration-300
+                  ${
+                    activeTab === "commitment"
+                      ? "bg-white text-[#242424] relative"
+                      : "bg-[#f8f8f8] text-[#242424]"
+                  }
+                `}
               >
+                {activeTab === "commitment" && (
+                  <span
+                    className="
+                      absolute
+                      left-0
+                      top-0
+                      h-[3px]
+                      w-full
+                      bg-[#ff3b30]
+                    "
+                  />
+                )}
+
                 Our Commitment
               </button>
             </div>
 
             {/* TAB CONTENT */}
-            <p
-              className="
-                mt-4
-                text-[16px]
-                leading-[2]
-                text-[#6d6d6d]
-              "
-            >
-              Our mission is to deliver innovative and sustainable, fluid and
-              air control solutions that empower industries to operate at their
-              best. We strive to build long-term partnerships with our clients,
-              providing high-quality, reliable systems that optimise
-              performance, enhance productivity, and contribute to a greener
-              future.
-            </p>
+            {activeTab === "mission" && (
+              <p
+                className="
+                  mt-4
+                  text-[16px]
+                  leading-[2]
+                  text-[#6d6d6d]
+                "
+              >
+                Our mission is to deliver innovative and sustainable, fluid and
+                air control solutions that empower industries to operate at their
+                best. We strive to build long-term partnerships with our clients,
+                providing high-quality, reliable systems that optimise
+                performance, enhance productivity, and contribute to a greener
+                future.
+              </p>
+            )}
+
+            {activeTab === "commitment" && (
+              <p
+                className="
+                  mt-4
+                  text-[16px]
+                  leading-[2]
+                  text-[#6d6d6d]
+                  animate-fadeIn
+                "
+              >
+                A focus on quality and a high level of service from a strong and knowledgeable 
+                team has allowed AEG to continue to break into new industries and develop innovative 
+                solutions for a variety of applications. The international certification we have been 
+                awarded provides our customers with a continuous monitor on all of our processes and 
+                their effectiveness.
+              </p>
+            )}
 
             {/* BUTTON */}
             <div className="mt-5">
@@ -246,6 +299,7 @@ export default function AirAbout() {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 }

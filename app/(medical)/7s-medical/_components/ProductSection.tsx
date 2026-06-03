@@ -69,13 +69,7 @@ export default function ProductSection() {
           >
             {/* Header Icon + Title */}
             <div className="flex items-center gap-3.5 mb-4">
-              <div className="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-[#CE112D] flex-shrink-0">
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A5 5 0 0 0 8 8c0 1 .3 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
-                  <path d="M9 18h6" />
-                  <path d="M10 22h4" />
-                </svg>
-              </div>
+              <img src="/7s-medical/innovation.png" alt="Innovation" className="w-10 h-10" />
               <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
                 Innovation
               </h3>
@@ -95,17 +89,7 @@ export default function ProductSection() {
           >
             {/* Header Icon + Title */}
             <div className="flex items-center gap-3.5 mb-4">
-              <div className="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-[#CE112D] flex-shrink-0">
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="3" />
-                  <circle cx="6" cy="6" r="2" />
-                  <circle cx="18" cy="6" r="2" />
-                  <circle cx="12" cy="20" r="2" />
-                  <line x1="7.5" y1="7.5" x2="10" y2="10" />
-                  <line x1="16.5" y1="7.5" x2="14" y2="10" />
-                  <line x1="12" y1="18" x2="12" y2="15" />
-                </svg>
-              </div>
+              <img src="/7s-medical/anodization.png" alt="Type II Anodization" className="w-8 h-8" />
               <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
                 Type II Anodization
               </h3>
@@ -125,13 +109,7 @@ export default function ProductSection() {
           >
             {/* Header Icon + Title */}
             <div className="flex items-center gap-3.5 mb-4">
-              <div className="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-[#CE112D] flex-shrink-0">
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  <path d="M12 8v8" />
-                  <path d="M9 12h6" />
-                </svg>
-              </div>
+              <img src="/7s-medical/osteoporotic-bone.png" alt="Osteoporotic Bone" className="w-8 h-8" />
               <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
                 Osteoporotic Bone
               </h3>

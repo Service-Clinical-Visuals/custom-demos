@@ -40,7 +40,7 @@ export default function ProductRange() {
 
             {/* Description */}
             <p className="text-[#6D6B6B] font-light leading-relaxed text-[15px] md:text-[16px]">
-              We strongly encourage surgeons to carefully read the instructions for use and thoroughly review the surgical techniques supplied with the implants before any procedure. Following the recommended guidelines helps ensure proper implant handling, accurate positioning, enhanced patient safety, and optimal surgical performance and long-term clinical outcomes.
+              We strongly encourage surgeons to carefully read the instructions for use and thoroughly review the surgical techniques supplied with the implants before any procedure.
             </p>
           </div>
 

@@ -2,7 +2,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { ArrowRight, Linkedin, ShoppingCart } from "lucide-react";
 
 const quickLinks = [
@@ -48,12 +47,10 @@ export default function AirFooter() {
           <div data-aos="fade-right">
             {/* LOGO */}
             <div className="relative h-[56px] w-[250px]">
-              <Image
+              <img
                 src="/ae/ae-logo.png"
                 alt="AEG Logo"
-                fill
-                className="object-contain object-left"
-                priority
+                className="w-full h-full object-contain object-left"
               />
             </div>
 
@@ -151,6 +148,7 @@ export default function AirFooter() {
           <div
             data-aos="fade-up"
             data-aos-delay="100"
+            className="xl:ml-14"
           >
             <h3
               className="
@@ -201,7 +199,7 @@ export default function AirFooter() {
                 text-[#333]
               "
             >
-              USEFUL LINKS
+              Useful Links
             </h3>
 
             <ul className="mt-7 space-y-4">
@@ -272,7 +270,7 @@ export default function AirFooter() {
                   text-[#333]
                 "
               >
-                CONTACT US
+                Contact Us
               </h4>
 
               <div className="mt-6 space-y-4">
