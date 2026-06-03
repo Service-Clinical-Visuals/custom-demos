@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Aleo, Inter } from "next/font/google";
+import { League_Spartan } from "next/font/google";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 
-const fontHeading = Aleo({
+const fontHeading = League_Spartan({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
-const fontBody = Inter({
+const fontBody = League_Spartan({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {

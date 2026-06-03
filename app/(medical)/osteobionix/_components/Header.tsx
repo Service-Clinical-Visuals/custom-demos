@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Menu, X, ArrowRight } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Button from "./Button";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,28 +29,7 @@ export default function Header() {
     { name: "Contact", href: "#contact" },
   ];
 
-  const Logo = () => (
-    <div className="flex items-center gap-2">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="16" cy="16" r="3" fill="#237B64" />
-        <circle cx="16" cy="8" r="2" fill="#237B64" opacity="0.8" />
-        <circle cx="16" cy="24" r="2" fill="#237B64" opacity="0.8" />
-        <circle cx="8" cy="16" r="2" fill="#237B64" opacity="0.8" />
-        <circle cx="24" cy="16" r="2" fill="#237B64" opacity="0.8" />
-        <circle cx="10.5" cy="10.5" r="1.5" fill="#237B64" opacity="0.6" />
-        <circle cx="21.5" cy="21.5" r="1.5" fill="#237B64" opacity="0.6" />
-        <circle cx="10.5" cy="21.5" r="1.5" fill="#237B64" opacity="0.6" />
-        <circle cx="21.5" cy="10.5" r="1.5" fill="#237B64" opacity="0.6" />
-        <path d="M16 12V4" stroke="#237B64" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 2" />
-        <path d="M16 28V20" stroke="#237B64" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 2" />
-        <path d="M4 16H12" stroke="#237B64" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 2" />
-        <path d="M20 16H28" stroke="#237B64" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 2" />
-      </svg>
-      <span className="font-heading text-2xl tracking-wide text-[#237B64]">
-        osteobionix
-      </span>
-    </div>
-  );
+
 
   return (
     <AnimatePresence>
@@ -65,7 +45,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex flex-col justify-center">
               <Link href="/osteobionix" className="flex flex-col">
-                <Logo />
+                <img src="/osteobionix/osteobionix-logo.png" alt="logo" className="w-32 h-auto" />
               </Link>
             </div>
 
@@ -84,15 +64,9 @@ export default function Header() {
 
             {/* Right Actions */}
             <div className="hidden xl:flex items-center gap-6">
-              <Link
-                href="#contact"
-                className="group flex items-center gap-2 bg-[#237B64] text-white px-5 py-2.5 rounded hover:bg-[#1f5c53] transition-colors font-medium text-sm"
-              >
+              <Button variant="secondary" href="#contact">
                 Get in Touch
-                <span className="bg-white/20 p-0.5 rounded group-hover:translate-x-1 transition-transform">
-                  <ArrowRight className="w-4 h-4 text-white" />
-                </span>
-              </Link>
+              </Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -114,7 +88,9 @@ export default function Header() {
               >
                 <div className="flex justify-between items-center mb-12">
                   <div className="flex flex-col">
-                    <Logo />
+                    <Link href="/osteobionix" className="flex flex-col">
+                      <img src="/osteobionix/osteobionix-logo.png" alt="logo" className="w-32 h-auto" />
+                    </Link>
                   </div>
                   <button onClick={() => setMobileMenuOpen(false)} className="text-[#111111]"><X size={32} /></button>
                 </div>
@@ -129,14 +105,11 @@ export default function Header() {
                       {link.name}
                     </Link>
                   ))}
-                  <Link 
-                    href="#contact" 
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="flex items-center justify-center gap-2 bg-[#237B64] text-white px-5 py-3 rounded mt-4"
-                  >
-                    Get in Touch
-                    <ArrowRight className="w-4 h-4 text-white" />
-                  </Link>
+                  <div className="mt-4 flex justify-center">
+                    <Button variant="secondary" href="#contact" onClick={() => setMobileMenuOpen(false)}>
+                      Get in Touch
+                    </Button>
+                  </div>
                 </div>
               </motion.div>
             )}

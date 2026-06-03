@@ -89,7 +89,7 @@ export default function HelpSection() {
           {/* Right Column: Image */}
           <div className="w-full aspect-[4/3] relative rounded-2xl overflow-hidden shadow-md" data-aos="fade-left">
             <img
-              src="/osteobionix/rehab.png"
+              src="/osteobionix/help.png"
               alt="Patient Rehabilitation"
               className="absolute inset-0 w-full h-full object-cover"
             />

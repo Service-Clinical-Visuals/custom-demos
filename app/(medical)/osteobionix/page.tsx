@@ -1,7 +1,9 @@
 import Header from "./_components/Header";
 import HeroVideo from "./_components/HeroVideo";
 import AboutUs from "./_components/AboutUs";
+import WhyOsteobionix from "./_components/WhyOsteobionix";
 import CmfImplants from "./_components/CmfImplants";
+import ClinicalCases from "./_components/ClinicalCases";
 import Technology from "./_components/Technology";
 import CmfSolutions from "./_components/CmfSolutions";
 import HelpSection from "./_components/HelpSection";
@@ -16,8 +18,10 @@ export default function OsteobionixPage() {
       <Header />
       <HeroVideo />
       <AboutUs />
-      <Technology />
+      <WhyOsteobionix />
       <CmfImplants />
+      <ClinicalCases />
+      <Technology />
       <CmfSolutions />
       <HelpSection />
       <Products />

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import Button from "./Button";
 
 export default function Technology() {
   return (
@@ -38,31 +38,36 @@ export default function Technology() {
           </div>
 
           {/* Right Column: Visuals */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 h-full" data-aos="fade-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 h-full min-h-[400px] lg:min-h-[500px]" data-aos="fade-left">
             {/* Image Box */}
-            <div className="w-full h-[300px] sm:h-full min-h-[400px] rounded-2xl overflow-hidden border border-gray-200 shadow-sm relative bg-white">
+            <div className="w-full h-full rounded-2xl overflow-hidden border border-gray-200 shadow-sm relative bg-white">
               <img
-                src="/osteobionix/xray.png"
+                src="/osteobionix/tech.png"
                 alt="Medical Professional examining X-Ray"
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
             
-            {/* Dark Green Card */}
-            <div className="w-full h-[300px] sm:h-full min-h-[400px] bg-[#103A31] rounded-2xl p-8 flex flex-col justify-center items-center text-center shadow-md">
-              <h3 className="text-white font-heading text-2xl lg:text-3xl leading-snug font-medium mb-8">
-                We combine 3D printing technology with clinical expertise to create unique solutions that transform lives.
-              </h3>
-              
-              <Link
-                href="#"
-                className="group flex items-center gap-3 bg-white text-[#103A31] px-5 py-2.5 rounded hover:bg-gray-100 transition-all font-bold text-sm"
-              >
-                Explore Device
-                <span className="bg-[#103A31] text-white p-1 rounded-sm group-hover:translate-x-1 transition-transform">
-                  <ArrowRight className="w-4 h-4" />
+            {/* Right Stack */}
+            <div className="flex flex-col gap-6 h-full">
+              {/* Experience Card */}
+              <div className="bg-white rounded-2xl border border-[#317d71]/40 py-8 px-6 flex items-center justify-center gap-5 shadow-sm shrink-0 w-full">
+                <span className="text-[56px] font-bold text-[#317d71] font-heading leading-none">5+</span>
+                <span className="text-[22px] font-bold text-gray-900 font-heading leading-tight">
+                  Years of<br />Experience
                 </span>
-              </Link>
+              </div>
+
+              {/* Dark Green Card */}
+              <div className="w-full flex-1 bg-[#317d71] rounded-2xl p-6 sm:p-8 flex flex-col justify-center items-center text-center shadow-md">
+                <h3 className="text-white font-heading text-2xl lg:text-[26px] leading-snug font-medium mb-8">
+                  We combine 3D printing technology with clinical expertise to create unique solutions that transform lives.
+                </h3>
+                
+                <Button variant="primary" href="#">
+                  Get in Touch
+                </Button>
+              </div>
             </div>
           </div>
 

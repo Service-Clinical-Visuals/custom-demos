@@ -42,7 +42,7 @@ export default function Footer() {
             <Link href="/osteobionix" className="mb-6 inline-block w-fit">
               <Logo />
             </Link>
-            <p className="text-white/80 text-sm leading-relaxed max-w-sm mb-8 font-medium">
+            <p className="text-white/80! text-sm leading-relaxed max-w-sm mb-8 font-medium">
               At osteobionix, we believe that personalized medicine should mean exactly that: solutions tailored to your unique anatomy and clinical condition.
             </p>
             <div className="flex flex-col gap-3">
@@ -109,9 +109,9 @@ export default function Footer() {
         <hr className="border-t border-white/20 mb-6" />
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-white/60">
-          <p>Copyrights © 2026 Osteobionix . All Rights Reserved</p>
-          <div className="flex flex-wrap items-center justify-center gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium">
+          <p className="text-white!">Copyrights © 2026 Osteobionix . All Rights Reserved</p>
+          <div className="flex flex-wrap items-center justify-center gap-6 text-white text-[16px]">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-white transition-colors">Cookies</Link>
             <Link href="#" className="hover:text-white transition-colors">Transparency</Link>

@@ -2,12 +2,32 @@
 
 export default function SupportedBy() {
   const partners = [
-    { name: "Financiado por la Unión Europea", subtitle: "NextGenerationEU", icon: "🇪🇺" },
-    { name: "Plan de Recuperación,", subtitle: "Transformación y Resiliencia", icon: "R" },
-    { name: "CDTI", subtitle: "INNOVACIÓN", icon: "✔️" },
-    { name: "Gobierno de Canarias", subtitle: "", icon: "👑" },
-    { name: "Cofinanciado por la Unión Europea", subtitle: "", icon: "🇪🇺" },
-    { name: "Fondos Europeos", subtitle: "", icon: "🇪🇺" },
+    { 
+      name: "Financiado por la Unión Europea", 
+      subtitle: "NextGenerationEU", 
+      path: "/osteobionix/logo-1.jpg" 
+    },
+    { 
+      name: "Plan de Recuperación,", 
+      subtitle: "Transformación y Resiliencia",
+      path: "/osteobionix/logo-2.jpg" 
+    },
+    { 
+      name: "CDTI", 
+      subtitle: "INNOVACIÓN",
+      path: "/osteobionix/logo-3.jpg" },
+    { 
+      name: "Gobierno de Canarias", 
+      subtitle: "",
+      path: "/osteobionix/logo-4.jpg" },
+    { 
+      name: "Cofinanciado por la Unión Europea", 
+      subtitle: "",
+      path: "/osteobionix/logo-5.jpg" },
+    { 
+      name: "Fondos Europeos", 
+      subtitle: "",
+      path: "/osteobionix/logo-6.jpg" },
   ];
 
   return (
@@ -31,22 +51,8 @@ export default function SupportedBy() {
               key={index}
               className="bg-white rounded-xl shadow-[0_2px_15px_rgb(0,0,0,0.04)] border border-gray-100 flex items-center justify-center p-4 w-40 md:w-56 h-20 transition-transform hover:-translate-y-1"
             >
-              <div className="flex items-center gap-3 w-full">
-                {/* Fake Logo Icon */}
-                <div className="text-2xl text-[#003399] bg-blue-50/50 p-2 rounded shrink-0">
-                  {partner.icon}
-                </div>
-                {/* Text Content */}
-                <div className="flex flex-col flex-1 min-w-0">
-                  <span className="text-[#003399] font-bold text-[10px] md:text-xs leading-tight truncate">
-                    {partner.name}
-                  </span>
-                  {partner.subtitle && (
-                    <span className="text-gray-400 text-[8px] md:text-[10px] leading-tight truncate mt-0.5">
-                      {partner.subtitle}
-                    </span>
-                  )}
-                </div>
+              <div className="flex items-center gap-3 w-full h-20">
+                  <img src={partner.path} alt={partner.name} className="w-full h-full object-contain" />
               </div>
             </div>
           ))}

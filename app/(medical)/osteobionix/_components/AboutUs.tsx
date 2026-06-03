@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import Button from "./Button";
 
 export default function AboutUs() {
   return (
@@ -26,21 +26,15 @@ export default function AboutUs() {
               Osteobionix was founded in 2018 as a spin-off of the Canary Islands Institute of Technology (ITC), one of Spain's leading public research institutions. However, our journey began long before that. Since 2006, ITC's Biomedical Engineering Department has led pioneering research on bone and cartilage regeneration. In 2011, it designed and implanted one of the first custom porous titanium implants. That same team now powers Osteobionix, building on over a decade of successful collaborations with surgeons across Europe and the rest of the world to deliver innovative, customized medical solutions.
             </p>
 
-            <Link
-              href="#"
-              className="group flex items-center gap-3 bg-[#237B64] text-white px-6 py-3 rounded hover:bg-[#1f5c53] transition-all font-medium"
-            >
+            <Button variant="secondary" href="#">
               Our Legacy
-              <span className="bg-white text-[#237B64] p-1 rounded-sm group-hover:translate-x-1 transition-transform">
-                <ArrowRight className="w-4 h-4" />
-              </span>
-            </Link>
+            </Button>
           </div>
 
           {/* Image Content */}
           <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] rounded-[2rem] overflow-hidden border-[12px] border-[#237B64]" data-aos="fade-left">
             <img
-              src="/osteobionix/meeting.png"
+              src="/osteobionix/abt.png"
               alt="Osteobionix Team Meeting"
               className="w-full h-full object-cover"
             />

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import Button from "./Button";
 import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function CmfSolutions() {
@@ -62,15 +62,9 @@ export default function CmfSolutions() {
             </div>
 
             <div className="mt-2">
-              <Link
-                href="#"
-                className="group inline-flex items-center gap-3 bg-[#237B64] text-white px-5 py-2.5 rounded hover:bg-[#1f5c53] transition-all font-bold text-sm"
-              >
+              <Button variant="secondary" href="#">
                 Explore More
-                <span className="bg-white text-[#237B64] p-0.5 rounded-sm group-hover:translate-x-1 transition-transform">
-                  <ArrowRight className="w-4 h-4" />
-                </span>
-              </Link>
+              </Button>
             </div>
           </div>
 

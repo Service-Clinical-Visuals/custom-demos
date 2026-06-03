@@ -5,17 +5,17 @@ import Link from "next/link";
 export default function News() {
   const newsItems = [
     {
-      image: "/osteobionix/news1.png",
+      image: "/osteobionix/news-1.png",
       date: "Mar 7, 2025",
       title: "DACH Thorax (DGT), Annual Meeting, Bregenz, Austria, September 17-19, 2025",
     },
     {
-      image: "/osteobionix/news2.png",
+      image: "/osteobionix/news-2.png",
       date: "Mar 7, 2025",
       title: "ESTS, 33rd Annual Meeting, Budapest, Hungary, May 25-27, 2025",
     },
     {
-      image: "/osteobionix/news3.png",
+      image: "/osteobionix/news-3.png",
       date: "Ene 16, 2025",
       title: "EMSOS, 37th Annual Meeting, Padova, Italy, April 28-30, 2025",
     }

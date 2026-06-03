@@ -6,18 +6,22 @@ export default function Products() {
   const products = [
     {
       title: "Orthopaedic & Trauma Surgery",
+      src: "/osteobionix/product-1.png",
       description: "Orthopedic and trauma surgery encompass a wide range of complex procedures, where standard off-the-shelf implants may not always provide the best clinical outcomes.",
     },
     {
       title: "Cranio-Maxillofacial Implants",
+      src: "/osteobionix/product-2.png",
       description: "At osteobionix, we leverage advanced digital planning, patient-specific design and cutting-edge manufacturing technologies to deliver highly precise CMF solutions. Cranio-maxillofacial (CMF) surgery demands exceptional accuracy...",
     },
     {
       title: "Custom Thoracic Implants",
+      src: "/osteobionix/product-3.png",
       description: "Chest wall reconstruction is a complex surgical challenge and, despite the variety of existing solutions, none has proven to be universally optimal. Traditional implants often come with limitations that compromise their effectiveness.",
     },
     {
       title: "Custom Spine Surgery Implants",
+      src: "/osteobionix/product-4.png",
       description: "Standard off-the-shelf spinal implants effectively address most conditions that spine surgeons encounter in their daily practice. However, some cases present unique challenges that require a patient-specific approach.",
     }
   ];
@@ -34,7 +38,7 @@ export default function Products() {
           <h2 className="text-white font-heading font-bold text-3xl md:text-4xl mb-6">
             Our Products
           </h2>
-          <p className="text-white/90 text-sm md:text-base leading-relaxed">
+          <p className="text-white! text-sm md:text-base leading-relaxed">
             We design and manufacture innovative, proven and cost-effective patient-specific solutions for complex bone and cartilage reconstruction and regeneration in orthopedic, trauma, spine, CMF and thoracic surgery. Using advanced 3D printing and bioengineered materials, our implants preserve anatomy, support tissue regeneration and improve surgical outcomes.
           </p>
         </div>
@@ -51,7 +55,7 @@ export default function Products() {
               {/* Product Image Placeholder */}
               <div className="w-full sm:w-2/5 aspect-square relative bg-white border border-gray-100 rounded-xl overflow-hidden shrink-0 flex items-center justify-center">
                 <img
-                  src="/osteobionix/product.png"
+                  src={product.src}
                   alt={product.title}
                   className="absolute inset-0 w-full h-full object-cover p-2"
                 />
