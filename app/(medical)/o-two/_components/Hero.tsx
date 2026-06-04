@@ -7,7 +7,7 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 
 export default function Hero() {
   return (
-    <VideoProvider website="bm-catalysts">
+    <VideoProvider website="o-two">
       <section className="w-full flex justify-center mt-2">
         {/* OUTER CONTAINER - 95% width and full height like bm-catalysts */}
         <div className="w-[95%] rounded-[2.5rem] overflow-hidden relative h-[100vh] shadow-premium">
