@@ -23,6 +23,16 @@ export default function SupportedBy() {
       subtitle: "Transformación y Resiliencia",
       path: "/osteobionix/logo-2.jpg"
     },
+    {
+      name: "Plan de Recuperación,",
+      subtitle: "Transformación y Resiliencia",
+      path: "/osteobionix/logo-5.jpg"
+    },
+    {
+      name: "Plan de Recuperación,",
+      subtitle: "Transformación y Resiliencia",
+      path: "/osteobionix/logo-6.jpg"
+    },
   ];
 
   return (
@@ -39,18 +49,26 @@ export default function SupportedBy() {
           </p>
         </div>
 
-        {/* Logos Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="100">
-          {partners.map((partner, index) => (
-            <div
-              key={index}
-              className="bg-white shadow-[0_2px_15px_rgb(0,0,0,0.04)] border border-gray-100 flex items-center justify-center p-6 lg:p-8 w-full h-[140px] transition-transform hover:-translate-y-1"
-            >
-              <div className="flex items-center justify-center w-full h-full">
-                <img src={partner.path} alt={partner.name} className="max-w-full max-h-full object-contain" />
+        {/* Logos Marquee */}
+        <div className="w-full overflow-hidden relative py-4" data-aos="fade-up" data-aos-delay="100">
+          {/* Fading Edges for seamless effect */}
+          <div className="absolute top-0 left-0 w-16 lg:w-32 h-full bg-gradient-to-r from-[#fafafa] to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute top-0 right-0 w-16 lg:w-32 h-full bg-gradient-to-l from-[#fafafa] to-transparent z-10 pointer-events-none"></div>
+
+          <div className="flex w-max animate-marquee gap-4 lg:gap-6">
+            {[...partners, ...partners].map((partner, index) => (
+              <div
+                key={index}
+                className="bg-white shadow-[0_2px_15px_rgb(0,0,0,0.04)] border border-gray-100 flex-shrink-0 flex items-center justify-center p-6 lg:p-8 w-[260px] md:w-[300px] h-[140px] transition-transform hover:-translate-y-1"
+              >
+                <img
+                  src={partner.path}
+                  alt={partner.name}
+                  className="max-h-full max-w-full object-contain transition-all duration-300"
+                />
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
       </div>

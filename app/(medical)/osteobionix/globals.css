@@ -32,11 +32,13 @@ body {
   @apply antialiased;
 }
 
-p {
-  font-family: var(--font-body), sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444444;
+@layer base {
+  p {
+    font-family: var(--font-body), sans-serif;
+    font-size: 18px !important;
+    line-height: 1.6;
+    color: #444444;
+  }
 }
 
 /* h1,
@@ -109,4 +111,17 @@ html.lenis body {
 
 .animate-fade-in-up {
   animation: fade-in-up 1s ease-out forwards;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
 }
