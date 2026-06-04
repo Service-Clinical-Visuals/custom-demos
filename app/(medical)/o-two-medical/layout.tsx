@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
       <body className="font-sans antialiased overflow-x-hidden bg-white text-gray-950">
-        <VideoProvider website="o-two">
+        <VideoProvider website="o-two-medical">
           <AOSProvider>
             <div className="flex flex-col min-h-screen">
               <Header />
