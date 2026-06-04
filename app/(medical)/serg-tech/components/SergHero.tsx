@@ -5,14 +5,6 @@ import "aos/dist/aos.css";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function SergHero() {
-  //  <section
-  //       className="relative max-w-[1750px] mx-auto mt-4 rounded-[24px] overflow-hidden w-full aspect-[4/3] md:aspect-video shadow-[0_8px_25px_rgba(0,0,0,0.18)]"
-  //       data-aos="zoom-in"
-  //     >
-  //       {/* VIDEO READY CONTAINER */}
-  //       <div className="absolute inset-0 bg-black">
-  //         <DynamicVideoPlayer type="banner" className="object-cover w-full h-full" />
-  //       </div>
 
   return (
     <div className="w-full px-4 sm:px-6 lg:px-10">
