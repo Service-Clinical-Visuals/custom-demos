@@ -14,7 +14,7 @@ export default function HeroVideo() {
 
       {/* Content Overlay */}
       <div className="relative z-20 w-full container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl animate-fade-in-up">
+        <div className="max-w-3xl" data-aos="fade-up" data-aos-duration="1000">
           <h1 className="text-white font-heading text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] mb-6">
             Advancing the standards<br />of care for people
           </h1>

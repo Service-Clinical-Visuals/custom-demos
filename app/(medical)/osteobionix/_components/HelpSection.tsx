@@ -10,23 +10,25 @@ export default function HelpSection() {
     setOpenAccordion(openAccordion === index ? -1 : index);
   };
 
-  const BulletIcon = () => (
-    <svg width="12" height="12" viewBox="0 0 24 24" fill="white" className="mt-1 flex-shrink-0 opacity-90" xmlns="http://www.w3.org/2000/svg">
-      <path d="M5 3L19 12L5 21V3Z" />
-    </svg>
+  const CheckIcon = () => (
+    <img
+      src="/osteobionix/checkbox-icon.png"
+      alt="check"
+      className="w-4 h-4 mt-1 flex-shrink-0"
+    />
   );
 
   return (
-    <section className="w-full py-16 lg:py-20 bg-[#fafafa]">
+    <section className="w-full py-16 lg:py-20">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
-          
+
           {/* Left Column: Text & Accordion */}
           <div className="flex flex-col" data-aos="fade-right">
-            <h2 className="text-[#237B64] font-heading font-bold text-3xl md:text-4xl mb-2">
+            <h2 className="text-primary font-heading font-semibold text-3xl md:text-4xl mb-4">
               How we can help you
             </h2>
-            <h3 className="font-heading italic text-lg md:text-xl text-gray-800 mb-8 font-medium">
+            <h3 className="font-heading text-xl md:text-2xl text-gray-800 mb-6 font-medium">
               "One Patient. One Condition. One Implant."
             </h3>
 
@@ -35,30 +37,55 @@ export default function HelpSection() {
               <div className="flex flex-col rounded-xl overflow-hidden shadow-sm">
                 <button
                   onClick={() => toggleAccordion(1)}
-                  className="w-full flex items-center justify-between p-5 bg-[#103A31] text-white hover:bg-[#112d27] transition-colors"
+                  className="w-full flex items-center justify-between p-5 bg-[#2B786E] text-white transition-colors"
                 >
                   <span className="font-bold text-left">It is important to know that:</span>
-                  <div className="bg-white rounded-full p-0.5 text-[#103A31]">
+                  <div className="bg-white rounded-full p-0.5 text-primary">
                     {openAccordion === 1 ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                   </div>
                 </button>
-                
+
+
                 {openAccordion === 1 && (
-                  <div className="p-6 bg-[#34534D] border-t border-[#46655f]">
-                    <ul className="flex flex-col gap-4">
-                      <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
-                        <BulletIcon />
-                        <span>Only your surgeon can determine whether a customized implant is right for you</span>
-                      </li>
-                      <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
-                        <BulletIcon />
-                        <span>Osteobionix will only design and manufacture a custom implant following a surgeon's formal prescription</span>
-                      </li>
-                      <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
-                        <BulletIcon />
-                        <span>Only your surgeon can provide the information you need to make an informed decision about your treatment options.</span>
-                      </li>
-                    </ul>
+                  <div className="px-3 pb-3 bg-[#177D70]">
+                    <div
+                      className="rounded-[14px] border border-white/70 bg-white/20 backdrop-blur-[2px] p-5"
+                    >
+                      <ul className="flex flex-col gap-4">
+                        <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
+                          <img
+                            src="/osteobionix/Vector.png"
+                            alt="check"
+                            className="w-4 h-4 mt-1 flex-shrink-0"
+                          />
+                          <span>
+                            Only your surgeon can determine whether a customized implant is right for you
+                          </span>
+                        </li>
+
+                        <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
+                          <img
+                            src="/osteobionix/Vector.png"
+                            alt="check"
+                            className="w-3 h-3 mt-1 flex-shrink-0"
+                          />
+                          <span>
+                            Osteobionix will only design and manufacture a custom implant following a surgeon's formal prescription
+                          </span>
+                        </li>
+
+                        <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
+                          <img
+                            src="/osteobionix/Vector.png"
+                            alt="check"
+                            className="w-4 h-4 mt-1 flex-shrink-0"
+                          />
+                          <span>
+                            Only your surgeon can provide the information you need to make an informed decision about your treatment options.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 )}
               </div>
@@ -67,19 +94,45 @@ export default function HelpSection() {
               <div className="flex flex-col rounded-xl overflow-hidden shadow-sm">
                 <button
                   onClick={() => toggleAccordion(2)}
-                  className="w-full flex items-center justify-between p-5 bg-[#103A31] text-white hover:bg-[#112d27] transition-colors"
+                  className="w-full flex items-center justify-between p-5 bg-[#2B786E] text-white transition-colors"
                 >
                   <span className="font-bold text-left">What makes a patient-specific implant different?</span>
                   <div className="bg-white rounded-full p-0.5 text-[#103A31]">
                     {openAccordion === 2 ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                   </div>
                 </button>
-                
+
                 {openAccordion === 2 && (
-                  <div className="p-6 bg-[#34534D] border-t border-[#46655f]">
-                    <p className="text-white/90 text-sm md:text-base leading-relaxed">
-                      Unlike standard off-the-shelf implants, patient-specific implants are designed and manufactured based on the unique anatomical data of each individual patient, resulting in a perfect fit and optimal biomechanical function.
-                    </p>
+                  <div className="px-3 pb-3 bg-[#177D70]">
+                    <div
+                      className="rounded-[14px] border border-white/70 bg-white/20 backdrop-blur-[2px] p-5"
+                    >
+                      <ul className="flex flex-col gap-4">
+                        <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
+                          <img
+                            src="/osteobionix/Vector.png"
+                            alt="check"
+                            className="w-4 h-4 mt-1 flex-shrink-0"
+                          />
+                          <span>
+                            Patient-specific implants are designed based on your specific medical imaging data, such as a CT scan. That, along with an in-depth briefing on your condition, provided by your surgeon, enables us to create a solution that fits your anatomy precisely, potentially improving clinical outcomes.
+                          </span>
+                        </li>
+
+                        <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
+                          <img
+                            src="/osteobionix/Vector.png"
+                            alt="check"
+                            className="w-3 h-3 mt-1 flex-shrink-0"
+                          />
+                          <span>
+                            Whether it is for trauma, tumor resection, revision surgery, or congenital deformity, your surgeon may consider a custom-made implant when conventional options are not ideal to treat your condition.
+                          </span>
+                        </li>
+
+
+                      </ul>
+                    </div>
                   </div>
                 )}
               </div>

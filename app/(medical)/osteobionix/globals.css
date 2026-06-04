@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #1c1c1c;
-  --primary: #237B64;
+  --primary: #2B786E;
   --secondary: #e2f0ed;
   --text-muted: #666666;
 }
@@ -39,10 +39,15 @@ p {
   color: #444444;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading), serif;
   color: #111111;
-}
+} */
 
 /* Ensure absolute brand utility overrides are respected */
 .text-white {
@@ -80,6 +85,7 @@ html.lenis body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -94,6 +100,7 @@ html.lenis body {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

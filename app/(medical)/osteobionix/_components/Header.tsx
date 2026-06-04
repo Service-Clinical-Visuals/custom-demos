@@ -41,11 +41,11 @@ export default function Header() {
           transition={{ duration: 0.4, ease: "easeOut" }}
           className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm h-[90px]"
         >
-          <div className="container mx-auto h-full flex items-center justify-between px-4 lg:px-8">
+          <div className="container mx-auto h-full grid grid-cols-[1fr_auto_1fr] items-center px-4 lg:px-8">
             {/* Logo Area */}
             <div className="flex-shrink-0 flex flex-col justify-center">
               <Link href="/osteobionix" className="flex flex-col">
-                <img src="/osteobionix/osteobionix-logo.png" alt="logo" className="w-32 h-auto" />
+                <img src="/osteobionix/osteobionix-logo.png" alt="logo" className="w-60 h-auto" />
               </Link>
             </div>
 
@@ -55,7 +55,7 @@ export default function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-sm font-bold text-gray-800 hover:text-primary transition-colors uppercase tracking-wider"
+                  className="text-md font-semibold text-gray-800 hover:text-primary transition-colors tracking-wider"
                 >
                   {link.name}
                 </Link>
@@ -63,7 +63,7 @@ export default function Header() {
             </nav>
 
             {/* Right Actions */}
-            <div className="hidden xl:flex items-center gap-6">
+            <div className="hidden xl:flex justify-self-end">
               <Button variant="secondary" href="#contact">
                 Get in Touch
               </Button>
@@ -71,9 +71,9 @@ export default function Header() {
 
             {/* Mobile Menu Button */}
             <div className="lg:hidden flex items-center gap-4">
-               <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="text-[#111111]">
-                  {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-               </button>
+              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="text-[#111111]">
+                {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+              </button>
             </div>
           </div>
 
@@ -96,9 +96,9 @@ export default function Header() {
                 </div>
                 <div className="flex flex-col gap-6">
                   {navLinks.map((link) => (
-                    <Link 
-                      key={link.name} 
-                      href={link.href} 
+                    <Link
+                      key={link.name}
+                      href={link.href}
                       onClick={() => setMobileMenuOpen(false)}
                       className="font-bold text-gray-800 uppercase tracking-wider border-b pb-4"
                     >

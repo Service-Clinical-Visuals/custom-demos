@@ -5,40 +5,78 @@ import Button from "./Button";
 import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function CmfSolutions() {
-  const BulletIcon = () => (
-    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" className="text-gray-800 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg">
-      <path d="M5 3L19 12L5 21V3Z" />
+
+
+  const CheckboxIcon = ({ className = "" }) => (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+    >
+      <rect
+        x="3"
+        y="3"
+        width="18"
+        height="18"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="2"
+      />
+      <path
+        d="M7 12L10 15L17 8"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 
   return (
-    <section className="w-full py-16 lg:py-20 bg-white">
+    <section className="w-full py-16 lg:py-20 bg-[#f9f9f9]">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
-          
-          {/* Left Column: Video */}
-          <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] relative rounded-2xl overflow-hidden bg-white shadow-sm border border-gray-100" data-aos="fade-right">
-            <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
+
+          {/* Left Column: Video & Text */}
+          <div className="flex flex-col gap-8" data-aos="fade-right">
+            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] relative rounded-2xl overflow-hidden bg-white shadow-sm border border-gray-100">
+              <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
+            </div>
+
+            <div className="flex flex-col items-center text-center gap-6 px-2 lg:px-4">
+              <p className="text-[#237B64] font-semibold text-2xl md:text-3xl leading-relaxed text-center">
+                <span className="text-[#237B64] font-semibold text-xl md:text-2xl">Thanks to 3D printing in titanium and biopolymers,</span>
+                <br />
+                <span className="text-[#237B64] font-semibold text-xl md:text-2xl">we create highly personalized solutions...</span>
+              </p>
+
+              <Button variant="secondary" href="#">
+                Read More
+              </Button>
+            </div>
           </div>
 
           {/* Right Column: Text and Cards */}
           <div className="flex flex-col gap-6" data-aos="fade-left">
-            <h2 className="text-[#237B64] font-heading font-bold text-2xl md:text-3xl lg:text-4xl mb-2">
-              Our CMF solutions include:
+            <h2 className="text-primary font-heading font-semibold text-3xl md:text-4xl mb-4">
+              Our CMF Solutions
             </h2>
 
             {/* Card 1 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
-              <h4 className="text-[#237B64] font-bold text-lg font-heading">
+              {/* <h4 className="text-[#237B64] font-semibold text-lg font-heading"> */}
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] ">
                 Temporo-mandibular joint (TMJ) reconstruction
-              </h4>
+              </h3>
               <ul className="flex flex-col gap-3">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <BulletIcon />
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
                   <span>Customized TMJ implant designed for individual patient anatomy .</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <BulletIcon />
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
                   <span>Available in a patented minimally invasive design to reduce surgical trauma and recovery time.</span>
                 </li>
               </ul>
@@ -46,25 +84,37 @@ export default function CmfSolutions() {
 
             {/* Card 2 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
-              <h4 className="text-[#237B64] font-bold text-lg font-heading">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] ">
                 Trauma reconstructive surgery
-              </h4>
+              </h3>
               <ul className="flex flex-col gap-3">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <BulletIcon />
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
                   <span>Custom solutions for fracture stabilization, bone loss reconstruction and facial symmetry restoration.</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <BulletIcon />
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
                   <span>3D-printed titanium implants and surgical jigs for enhanced procedural accuracy.</span>
                 </li>
               </ul>
             </div>
 
-            <div className="mt-2">
-              <Button variant="secondary" href="#">
-                Explore More
-              </Button>
+            {/* Card 3 */}
+            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] ">
+                Oncologic reconstructive surgery
+              </h3>
+              <ul className="flex flex-col gap-3">
+                <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
+
+                  <span>Patient-specific implants including 3D-printed titanium scaffolds to restore bone structures affected by tumors.</span>
+                </li>
+                <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
+                  <span>Cutting and positioning guides to enhance precision and streamline complex resections and reconstructions.</span>
+                </li>
+              </ul>
             </div>
           </div>
 

@@ -8,17 +8,17 @@ export default function CmfImplants() {
     <section id="product" className="w-full py-16 lg:py-24 bg-[#317d71]">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
-          
+
           {/* Text Content (Left) */}
           <div className="flex flex-col items-start" data-aos="fade-right">
-            <h2 className="text-white font-heading font-bold text-3xl md:text-4xl mb-6">
+            <h2 className="text-white font-heading font-semibold text-3xl md:text-4xl mb-6">
               Cranio-Maxillofacial Implants
             </h2>
-            
-            <p className="text-white mb-6 leading-relaxed text-sm md:text-base">
+
+            <p className="text-white mb-4 leading-relaxed text-sm md:text-base">
               At osteobionix, we believe every clinical case is unique, because every patient is unique. That's why we work hand-in-hand with surgeons to develop personalized treatment options that enhance surgical outcomes and improve lives. Our mission is to advance the global standard of care for people affected by trauma, cancer, or degenerative diseases, offering safe, effective alternatives to conventional implants. We are proud to support a growing number of surgeons and patients around the world, with hundreds of osteobionix implants already in use worldwide.
             </p>
-            
+
             <p className="text-white mb-8 leading-relaxed text-sm md:text-base">
               At osteobionix, we leverage advanced digital planning, patient-specific design and cutting-edge manufacturing technologies to deliver highly precise CMF solutions. Our custom implants and surgical guides ensure an optimal anatomical fit and enable surgeons to achieve unmatched precision in every case.
             </p>
