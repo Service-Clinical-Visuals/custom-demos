@@ -21,11 +21,23 @@
   --color-accent: var(--accent);
   --color-white: var(--white);
   --font-sans: var(--font-primary);
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
 }
 
 @layer components {
   .container {
     @apply px-4 lg:px-8;
+  }
+  @media (min-width: 1920px) {
+    .container {
+      max-width: 1720px;
+    }
+  }
+  @media (min-width: 2560px) {
+    .container {
+      max-width: 2000px;
+    }
   }
 
   /* Utility: force white text regardless of global p rule */

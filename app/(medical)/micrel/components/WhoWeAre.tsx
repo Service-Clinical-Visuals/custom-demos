@@ -25,7 +25,7 @@ export default function WhoWeAre({
 
           {/* Image - takes ~58% */}
           <div
-            className="relative w-full lg:w-[58%] h-[260px] sm:h-[320px] lg:h-[354px] rounded-[30px] overflow-hidden shadow-[0px_3px_8px_0px_#0000003D] group flex-shrink-0"
+            className="relative w-full lg:w-[58%] h-[260px] sm:h-[320px] lg:h-[354px] xl:h-[400px] 2xl:h-[450px] 3xl:h-[520px] rounded-[30px] overflow-hidden shadow-[0px_3px_8px_0px_#0000003D] group flex-shrink-0"
             data-aos="fade-right"
           >
             <div className="absolute inset-0 bg-slate-100 animate-pulse rounded-[30px]" />
@@ -115,7 +115,7 @@ export default function WhoWeAre({
 
           {/* Image - takes ~58% (right on desktop) */}
           <div
-            className="relative w-full lg:w-[58%] h-[260px] sm:h-[320px] lg:h-[354px] rounded-[30px] overflow-hidden shadow-[0px_3px_8px_0px_#0000003D] group order-1 lg:order-2 flex-shrink-0"
+            className="relative w-full lg:w-[58%] h-[260px] sm:h-[320px] lg:h-[354px] xl:h-[400px] 2xl:h-[450px] 3xl:h-[520px] rounded-[30px] overflow-hidden shadow-[0px_3px_8px_0px_#0000003D] group order-1 lg:order-2 flex-shrink-0"
             data-aos="fade-left"
           >
             <div className="absolute inset-0 bg-slate-100 animate-pulse rounded-[30px]" />

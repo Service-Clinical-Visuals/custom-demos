@@ -20,8 +20,8 @@ export default function Footer({ data = footerContent }: FooterProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 lg:gap-15 pb-12 border-b border-white/20">
 
           {/* Column 1: Brand Info */}
-          <div className="lg:col-span-2 space-y-6 flex flex-col items-start">
-            <Link href="#home" className="relative block h-60 w-100">
+          <div className="lg:col-span-2 space-y-6 flex flex-col items-start w-full">
+            <Link href="#home" className="relative block h-60 w-full max-w-[250px]">
               <Image
                 src={data.logoUrl}
                 alt={data.logoAlt}
