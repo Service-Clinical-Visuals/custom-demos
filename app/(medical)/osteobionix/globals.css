@@ -21,7 +21,26 @@
 
 @layer components {
   .container {
-    @apply px-4 lg:px-8 mx-auto max-w-7xl;
+    @apply px-4 lg:px-8 xl:px-12 2xl:px-16 mx-auto w-full;
+    max-width: 1280px;
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1440px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .container {
+      max-width: 2300px !important;
+    }
   }
 }
 
@@ -39,17 +58,31 @@ body {
     line-height: 1.6;
     color: #444444;
   }
+
+  /* Responsive Paragraph Sizes */
+  /* @media (min-width: 1280px) {
+    p {
+      font-size: 18px !important;
+      line-height: 1.5 !important;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    p {
+      font-size: 22px !important;
+      line-height: 1.5 !important;
+    }
+  } */
+
+  @media (min-width: 2560px) {
+    p {
+      font-size: 28px !important;
+      line-height: 1.6 !important;
+    }
+  }
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading), serif;
-  color: #111111;
-} */
+
 
 /* Ensure absolute brand utility overrides are respected */
 .text-white {
@@ -114,8 +147,13 @@ html.lenis body {
 }
 
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-marquee {
@@ -124,4 +162,55 @@ html.lenis body {
 
 .animate-marquee:hover {
   animation-play-state: paused;
+}
+
+/* Global Responsive Adjustments for xl and 2xl */
+
+
+
+@media (min-width: 2560px) {
+
+  h1,
+  .lg\:text-6xl {
+    font-size: 5rem !important;
+    line-height: 0.8 !important;
+  }
+
+  h2.md\:text-4xl,
+  .md\:text-4xl {
+    font-size: 4rem !important;
+    line-height: 0.8 !important;
+  }
+
+  h3.md\:text-2xl,
+  .md\:text-2xl {
+    font-size: 2.5rem !important;
+    line-height: 0.8 !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 2rem !important;
+  }
+
+  h4 {
+    font-size: 1.7rem !important;
+    line-height: 1 !important;
+  }
+
+  .lg\:text-\[26px\] {
+    font-size: 3rem !important;
+  }
+
+  /* Scale up section paddings appropriately */
+  .lg\:py-20 {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+  }
+
+  .lg\:py-24 {
+    padding-top: 11rem !important;
+    padding-bottom: 11rem !important;
+  }
+
+  .gap-16 {
+    gap: 9rem !important;
+  }
 }

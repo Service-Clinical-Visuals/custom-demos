@@ -15,7 +15,7 @@ export default function Technology() {
               Our Technology
             </h2>
 
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-1">
               <h3 className="font-heading text-xl md:text-2xl text-gray-800 mb-1 font-medium">Biomimetic, osteoconductive titanium scaffolds</h3>
               <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base">
                 Engineered to mimic natural bone structure, these scaffolds combine ultra-high porosity (up to 90%) with exceptional mechanical properties. The result is a material that behaves mechanically like bone, optimizing load distribution and promoting bone regeneration through enhanced cell adhesion and vascularization.

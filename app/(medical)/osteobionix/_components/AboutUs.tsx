@@ -18,7 +18,7 @@ export default function AboutUs() {
               "A Legacy of Personalized Medical Innovation"
             </h3>
 
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base">
+            <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base ">
               We are a medical device company dedicated to transforming care for people facing severe bone and joint conditions. We design and manufacture clinically validated, high-quality, cost-effective patient-specific implants and instruments for orthopedic, trauma, spine, thoracic, and craniomaxillofacial surgery. Our expertise lies in tackling complex, individualized clinical challenges, especially where standard implants fall short.
             </p>
 

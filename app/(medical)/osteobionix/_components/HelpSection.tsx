@@ -32,14 +32,14 @@ export default function HelpSection() {
               "One Patient. One Condition. One Implant."
             </h3>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 [@media(min-width:2560px)]:gap-10">
               {/* Accordion Item 1 */}
               <div className="flex flex-col rounded-xl overflow-hidden shadow-sm">
                 <button
                   onClick={() => toggleAccordion(1)}
-                  className="w-full flex items-center justify-between p-5 bg-[#2B786E] text-white transition-colors"
+                  className="w-full flex items-center justify-between p-5 [@media(min-width:2560px)]:py-10 [@media(min-width:2560px)]:px-12 bg-[#2B786E] text-white transition-colors"
                 >
-                  <span className="font-bold text-left">It is important to know that:</span>
+                  <span className="font-semibold text-left text-md 2xl:text-3xl">It is important to know that:</span>
                   <div className="bg-white rounded-full p-0.5 text-primary">
                     {openAccordion === 1 ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                   </div>
@@ -58,7 +58,7 @@ export default function HelpSection() {
                             alt="check"
                             className="w-4 h-4 mt-1 flex-shrink-0"
                           />
-                          <span>
+                          <span className="text-md 2xl:text-2xl">
                             Only your surgeon can determine whether a customized implant is right for you
                           </span>
                         </li>
@@ -69,7 +69,7 @@ export default function HelpSection() {
                             alt="check"
                             className="w-3 h-3 mt-1 flex-shrink-0"
                           />
-                          <span>
+                          <span className="text-md 2xl:text-2xl">
                             Osteobionix will only design and manufacture a custom implant following a surgeon's formal prescription
                           </span>
                         </li>
@@ -80,7 +80,7 @@ export default function HelpSection() {
                             alt="check"
                             className="w-4 h-4 mt-1 flex-shrink-0"
                           />
-                          <span>
+                          <span className="text-md 2xl:text-2xl">
                             Only your surgeon can provide the information you need to make an informed decision about your treatment options.
                           </span>
                         </li>
@@ -94,9 +94,9 @@ export default function HelpSection() {
               <div className="flex flex-col rounded-xl overflow-hidden shadow-sm">
                 <button
                   onClick={() => toggleAccordion(2)}
-                  className="w-full flex items-center justify-between p-5 bg-[#2B786E] text-white transition-colors"
+                  className="w-full flex items-center justify-between p-5 [@media(min-width:2560px)]:py-10 [@media(min-width:2560px)]:px-12 bg-[#2B786E] text-white transition-colors"
                 >
-                  <span className="font-bold text-left">What makes a patient-specific implant different?</span>
+                  <span className="font-semibold text-left text-md 2xl:text-3xl">What makes a patient-specific implant different?</span>
                   <div className="bg-white rounded-full p-0.5 text-[#103A31]">
                     {openAccordion === 2 ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                   </div>
@@ -114,7 +114,7 @@ export default function HelpSection() {
                             alt="check"
                             className="w-4 h-4 mt-1 flex-shrink-0"
                           />
-                          <span>
+                          <span className="text-md 2xl:text-2xl">
                             Patient-specific implants are designed based on your specific medical imaging data, such as a CT scan. That, along with an in-depth briefing on your condition, provided by your surgeon, enables us to create a solution that fits your anatomy precisely, potentially improving clinical outcomes.
                           </span>
                         </li>
@@ -125,7 +125,7 @@ export default function HelpSection() {
                             alt="check"
                             className="w-3 h-3 mt-1 flex-shrink-0"
                           />
-                          <span>
+                          <span className="text-md 2xl:text-2xl">
                             Whether it is for trauma, tumor resection, revision surgery, or congenital deformity, your surgeon may consider a custom-made implant when conventional options are not ideal to treat your condition.
                           </span>
                         </li>

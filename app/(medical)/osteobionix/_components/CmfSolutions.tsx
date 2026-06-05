@@ -41,7 +41,7 @@ export default function CmfSolutions() {
 
           {/* Left Column: Video & Text */}
           <div className="flex flex-col gap-8" data-aos="fade-right">
-            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] relative rounded-2xl overflow-hidden bg-white shadow-sm border border-gray-100">
+            <div className="w-full aspect-video relative rounded-2xl overflow-hidden bg-white shadow-sm border border-gray-100">
               <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
             </div>
 
@@ -65,54 +65,53 @@ export default function CmfSolutions() {
             </h2>
 
             {/* Card 1 */}
-            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
+            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1">
               {/* <h4 className="text-[#237B64] font-semibold text-lg font-heading"> */}
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] ">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] 2xl:text-2xl">
                 Temporo-mandibular joint (TMJ) reconstruction
               </h3>
               <ul className="flex flex-col gap-3">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
                   <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span>Customized TMJ implant designed for individual patient anatomy .</span>
+                  <span className="text-md 2xl:text-xl">Customized TMJ implant designed for individual patient anatomy .</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
                   <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span>Available in a patented minimally invasive design to reduce surgical trauma and recovery time.</span>
+                  <span className="text-md 2xl:text-xl">Available in a patented minimally invasive design to reduce surgical trauma and recovery time.</span>
                 </li>
               </ul>
             </div>
 
             {/* Card 2 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] ">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] 2xl:text-2xl">
                 Trauma reconstructive surgery
               </h3>
               <ul className="flex flex-col gap-3">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
                   <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span>Custom solutions for fracture stabilization, bone loss reconstruction and facial symmetry restoration.</span>
+                  <span className="text-md 2xl:text-xl">Custom solutions for fracture stabilization, bone loss reconstruction and facial symmetry restoration.</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
                   <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span>3D-printed titanium implants and surgical jigs for enhanced procedural accuracy.</span>
+                  <span className="text-md 2xl:text-xl">3D-printed titanium implants and surgical jigs for enhanced procedural accuracy.</span>
                 </li>
               </ul>
             </div>
 
             {/* Card 3 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] ">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] 2xl:text-2xl">
                 Oncologic reconstructive surgery
               </h3>
               <ul className="flex flex-col gap-3">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
                   <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-
-                  <span>Patient-specific implants including 3D-printed titanium scaffolds to restore bone structures affected by tumors.</span>
+                  <span className="text-md 2xl:text-xl">Patient-specific implants including 3D-printed titanium scaffolds to restore bone structures affected by tumors.</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
                   <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span>Cutting and positioning guides to enhance precision and streamline complex resections and reconstructions.</span>
+                  <span className="text-md 2xl:text-xl">Cutting and positioning guides to enhance precision and streamline complex resections and reconstructions.</span>
                 </li>
               </ul>
             </div>

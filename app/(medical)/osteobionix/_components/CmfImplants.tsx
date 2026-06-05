@@ -29,7 +29,7 @@ export default function CmfImplants() {
           </div>
 
           {/* Video Placeholder Content (Right) */}
-          <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] relative rounded-2xl overflow-hidden bg-white/10" data-aos="fade-left">
+          <div className="w-full relative aspect-video rounded-2xl overflow-hidden bg-white/10" data-aos="fade-left">
             {/* Dynamic Video Player acts as the 360 VIDEO placeholder */}
             <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
           </div>

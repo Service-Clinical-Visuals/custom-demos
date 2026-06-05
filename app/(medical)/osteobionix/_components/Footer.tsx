@@ -59,11 +59,11 @@ export default function Footer() {
             <div className="col-span-1 md:col-span-12 lg:col-start-7 lg:col-span-6 grid grid-cols-1 sm:grid-cols-3 gap-8">
               {/* Quick Links Col */}
               <div className="flex flex-col gap-5">
-                <h4 className="text-white font-heading font-semibold text-lg">Quick Links</h4>
+                <h4 className="text-white font-heading font-semibold text-lg 2xl:!text-3xl">Quick Links</h4>
                 <ul className="flex flex-col gap-4">
                   {['Home', 'Products', 'Technology', 'Patients', 'News'].map((link) => (
                     <li key={link}>
-                      <Link href={`#${link.toLowerCase()}`} className="text-white text-[16px] hover:text-gray-200 transition-colors font-medium">
+                      <Link href={`#${link.toLowerCase()}`} className="text-white text-[16px] hover:text-gray-200 transition-colors font-medium 2xl:!text-2xl">
                         {link}
                       </Link>
                     </li>
@@ -73,11 +73,11 @@ export default function Footer() {
 
               {/* Contact Col */}
               <div className="flex flex-col gap-5">
-                <h4 className="text-white font-heading font-semibold text-lg">Contact</h4>
+                <h4 className="text-white font-heading font-semibold text-lg 2xl:!text-3xl">Contact</h4>
                 <ul className="flex flex-col gap-5">
                   <li className="flex items-start gap-4">
                     <MapPin className="text-white w-5 h-5 shrink-0 mt-0.5" />
-                    <span className="text-white text-[15px] leading-relaxed">
+                    <span className="text-white text-[15px] leading-relaxed 2xl:!text-2xl">
                       ICT Facilities,<br />
                       La Punta, s/n Pozo Izquierdo<br />
                       35119 Santa Lucia de Tirajana Spain
@@ -85,13 +85,13 @@ export default function Footer() {
                   </li>
                   <li className="flex items-center gap-4">
                     <Phone className="text-white w-5 h-5 shrink-0" />
-                    <a href="tel:+34928652347" className="text-white text-[15px] hover:text-gray-200 transition-colors">
+                    <a href="tel:+34928652347" className="text-white text-[15px] hover:text-gray-200 transition-colors 2xl:!text-2xl">
                       +34 928 652 347
                     </a>
                   </li>
                   <li className="flex items-center gap-4">
                     <Mail className="text-white w-5 h-5 shrink-0" />
-                    <a href="mailto:info@osteobionix.com" className="text-white text-[15px] hover:text-gray-200 transition-colors">
+                    <a href="mailto:info@osteobionix.com" className="text-white text-[15px] hover:text-gray-200 transition-colors 2xl:!text-2xl">
                       info@osteobionix.com
                     </a>
                   </li>
@@ -100,13 +100,13 @@ export default function Footer() {
 
               {/* Social Links Col */}
               <div className="flex flex-col gap-5 justify-self-end">
-                <h4 className="text-white font-heading font-semibold text-lg">Social Links</h4>
+                <h4 className="text-white font-heading font-semibold text-lg 2xl:!text-3xl">Social Links</h4>
                 <div className="flex items-center gap-4">
                   <a href="#" className="hover:opacity-80 transition-opacity" aria-label="Instagram">
-                    <img src="/osteobionix/insta.png" alt="Instagram" className="h-[22px] w-auto object-contain" />
+                    <img src="/osteobionix/insta.png" alt="Instagram" className="h-[22px] w-auto object-contain 2xl:!h-[40px]" />
                   </a>
                   <a href="#" className="hover:opacity-80 transition-opacity" aria-label="X (Twitter)">
-                    <img src="/osteobionix/twitter.png" alt="X" className="h-[22px] w-auto object-contain" />
+                    <img src="/osteobionix/twitter.png" alt="X" className="h-[22px] w-auto object-contain 2xl:!h-[40px]" />
                   </a>
                 </div>
               </div>
@@ -119,11 +119,11 @@ export default function Footer() {
       {/* Bottom Bar (White Background) */}
       <div className="bg-white py-5 border-t border-gray-200 w-full" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
         <div className="container mx-auto px-4 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[16px] font-medium text-primary">
-          <span className="text-primary">Copyrights @ 2026 Osteobionix . All Rights Reserved</span>
+          <span className="text-primary 2xl:!text-xl">Copyrights @ 2026 Osteobionix . All Rights Reserved</span>
           <div className="flex flex-wrap items-center justify-center gap-6">
-            <Link href="#" className="hover:text-black transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-black transition-colors">Cookies</Link>
-            <Link href="#" className="hover:text-black transition-colors">Transparency</Link>
+            <Link href="#" className="hover:text-black transition-colors 2xl:!text-xl">Privacy Policy</Link>
+            <Link href="#" className="hover:text-black transition-colors 2xl:!text-xl">Cookies</Link>
+            <Link href="#" className="hover:text-black transition-colors 2xl:!text-xl">Transparency</Link>
           </div>
         </div>
       </div>

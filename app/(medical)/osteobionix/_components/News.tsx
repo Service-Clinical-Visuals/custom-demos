@@ -52,11 +52,12 @@ export default function News() {
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <span className="text-gray-500 text-xs font-medium">{item.date}</span>
+              <span className="text-gray-500 text-xs font-medium 2xl:!text-lg">{item.date}</span>
               <hr className="border-t border-gray-200 w-full my-3" />
-              <h3 className="text-[#237B64] font-semibold font-heading text-base md:text-lg leading-snug">
+              {/* <h3 className="text-[#237B64] font-semibold font-heading text-base md:text-lg leading-snug"> */}
+              <h4 className="text-[#317d71] font-semibold font-heading text-base md:text-lg  2xl:!text-xl">
                 {item.title}
-              </h3>
+              </h4>
             </Link>
           ))}
         </div>
