@@ -52,7 +52,7 @@ export default function Products() {
               data-aos-delay={index * 100}
             >
               {/* Product Image */}
-              <div className="w-full sm:w-[35%] h-[200px] sm:h-[230px] [@media(min-width:2560px)]:h-[400px] relative bg-[#f4f5f6] rounded-xl overflow-hidden shrink-0">
+              <div className="w-full sm:w-[35%] h-[200px] sm:h-[250px] [@media(min-width:2560px)]:h-[400px] relative bg-[#f4f5f6] rounded-xl overflow-hidden shrink-0">
                 <img
                   src={product.src}
                   alt={product.title}
@@ -61,16 +61,16 @@ export default function Products() {
               </div>
 
               {/* Product Info */}
-              <div className="w-full sm:w-[65%] flex flex-col justify-center items-start text-left py-3 pr-3 sm:pr-5 2xl:!py-8 2xl:pr-10!">
-                <h3 className="text-black font-semibold font-heading text-lg xl:text-xl 2xl:text-3xl mb-3">
+              <div className="w-full sm:w-[65%] flex flex-col justify-center items-start text-left py-3 pr-3 sm:pr-5 min-[2560px]:!py-8 min-[2560px]:!pr-10">
+                <h3 className="text-black font-semibold font-heading text-lg xl:text-xl min-[2560px]:text-3xl mb-3">
                   {product.title}
                 </h3>
-                <p className="text-gray-600 mb-2 leading-relaxed text-sm md:text-base 2xl:!text-lg">
+                <p className="text-gray-600 mb-2 leading-relaxed text-sm md:text-base min-[2560px]:!text-lg">
                   {product.description}
                 </p>
                 <Link
                   href="#"
-                  className="text-black underline font-[500] text-sm 2xl:text-xl mt-2"
+                  className="text-black underline font-[500] text-sm min-[2560px]:text-xl mt-2"
                 >
                   View Product
                 </Link>

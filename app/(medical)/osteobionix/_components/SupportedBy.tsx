@@ -36,7 +36,7 @@ export default function SupportedBy() {
   ];
 
   return (
-    <section className="w-full py-16 lg:py-20 bg-[#fafafa]">
+    <section className="w-full py-16 lg:py-18 bg-[#fafafa]">
       <div className="container mx-auto px-4 lg:px-8">
 
         {/* Header Section */}
