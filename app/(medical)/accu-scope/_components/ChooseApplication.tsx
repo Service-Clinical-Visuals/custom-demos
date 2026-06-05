@@ -78,7 +78,7 @@ export default function ChooseApplicationSection() {
           >
             Explore microscopy solutions tailored for clinical,
             educational, research, veterinary, industrial,
-            and OEM needs designed <br></br> to deliver precision and
+            and OEM needs designed to deliver precision and
             performance across every field.
           </p>
         </div>

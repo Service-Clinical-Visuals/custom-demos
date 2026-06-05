@@ -8,12 +8,8 @@ export default function ProductCategorySection() {
       <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div data-aos="fade-right">
-            <p className="text-[#333333] font-semibold text-[16px] tracking-wide">
-              PRODUCT CATEGORY
-            </p>
-
             <h2 className="text-[38px] font-bold mt-1 text-[#333333]">
-              3079
+              ACCU-SCOPE 3079-LED
             </h2>
 
             <p className="text-[16px] mt-1 text-[#666666] leading-7">
@@ -60,10 +56,6 @@ export default function ProductCategorySection() {
               </div>
             </div>
 
-            <button className="mt-4 bg-[#0068A7] text-white px-6 py-3 rounded-full inline-flex items-center gap-2 font-semibold hover:bg-[#005a8f] transition-colors">
-              Explore Categories
-              <ArrowRight size={18} />
-            </button>
           </div>
 
         <div
