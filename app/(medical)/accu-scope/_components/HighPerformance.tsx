@@ -1,31 +1,32 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 const products = [
   {
     id: 1,
     title: "RC500",
-    image: "/products/rc500.png",
+    image: "/accu-scope/products/mc1.png",
     description:
       "The ACCU-SCOPE RC500 remote collaboration system enables seamless communication."
   },
   {
     id: 2,
     title: "EXC-500",
-    image: "/products/exc500.png",
+    image: "/accu-scope/products/mc2.png",
     description:
       "Flagship microscope offering best-in-class performance and value."
   },
   {
     id: 3,
     title: "EXC-400",
-    image: "/products/exc400.png",
+    image: "/accu-scope/products/mc3.png",
     description:
       "Designed for a broad range of microscopy applications."
   },
   {
     id: 4,
     title: "EXC-360",
-    image: "/products/exc360.png",
+    image: "/accu-scope/products/mc4.png",
     description:
       "Exceptional optical performance and versatility."
   },
@@ -33,44 +34,31 @@ const products = [
 
 export default function HighPerformanceSection() {
   return (
-   <section className="py-24 bg-[#f7f7f7]">
-  <div className="max-w-[1400px] mx-auto px-6">
+   <section className="py-24 bg-[#f9f9f9]">
 
-    <div className="grid lg:grid-cols-[1fr_380px] gap-12">
+    <div className="max-w-[1560px] mx-auto px-6 grid lg:grid-cols-[55%_45%] gap-8">
 
       {/* LEFT CONTENT */}
-      <div>
+      <div data-aos="fade-right">
 
         {/* Preview Area */}
         <div
-          className="
-            overflow-hidden
-            rounded-[24px]
-            shadow-lg
-            bg-black
-            aspect-[16/9]
-          "
+          data-aos="zoom-in"
+          className="aspect-video relative flex-1 min-h-0 rounded-[28px] overflow-hidden"
         >
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover"
-          >
-            <source src="/videos/microscope.mp4" />
-          </video>
+          <DynamicVideoPlayer type="360" className="absolute inset-0 object-cover" />
         </div>
 
         {/* Content */}
-        <div className="mt-10 max-w-[900px]">
+        <div className="mt-8 max-w-[900px]">
 
           <span
             className="
               uppercase
               tracking-[2px]
-              text-sm
-              font-semibold
+              text-[16px]
+              line-height-[28px]
+              font-bold
               text-[#3d3d3d]
             "
           >
@@ -80,9 +68,9 @@ export default function HighPerformanceSection() {
           <h2
             className="
               mt-4
-              text-[56px]
+              text-[38px]
               font-bold
-              leading-tight
+              line-height-[60px]
               text-[#2d2d2d]
             "
           >
@@ -91,24 +79,22 @@ export default function HighPerformanceSection() {
 
           <p
             className="
-              mt-6
-              text-[18px]
-              leading-[34px]
+              mt-4
+              text-[16px]
+              line-height-[28px]
               text-[#6b6b6b]
             "
           >
-            ACCU-SCOPE upright microscopes deliver top quality optics
-            for bright, crisp images. Designed for laboratories,
-            pathology, microbiology, education and research.
+            ACCU-SCOPE upright microscopes deliver top quality optics for bright, crisp images. Sometimes referred to as compound microscopes, our upright microscopes are favorites across a wide range of laboratories including clinical, veterinary, pharmaceutical, research, university, and education. Some of the disciplines utilizing our upright microscopes include pathology, hematology, microbiology, cytology and histology. 
           </p>
 
           <button
             className="
-              mt-8
+              mt-4
               bg-[#005FA3]
               text-white
               rounded-full
-              h-[58px]
+              h-[48px]
               px-10
               flex items-center
               gap-4
@@ -117,36 +103,22 @@ export default function HighPerformanceSection() {
               transition-all
             "
           >
-            View Product →
+            View Product <ArrowRight size={18} />
           </button>
 
         </div>
       </div>
 
       {/* RIGHT PRODUCT LIST */}
-      <div className="space-y-4">
+      <div data-aos="fade-left" className="space-y-8 ">
 
         {products.map((product) => (
-          <button
-            key={product.id}
-            className="
-              w-full
-              text-left
-              bg-white
-              rounded-[24px]
-              p-4
-              shadow-md
-              hover:shadow-xl
-              transition-all
-              group
-            "
-          >
-            <div className="flex gap-5">
+            <div className="flex gap-5 items-center" key={product.id}>
 
               <div
                 className="
-                  w-[120px]
-                  h-[120px]
+                  w-[180px]
+                  h-[180px]
                   rounded-xl
                   overflow-hidden
                   bg-[#fafafa]
@@ -185,14 +157,13 @@ export default function HighPerformanceSection() {
               </div>
 
             </div>
-          </button>
+
         ))}
 
       </div>
 
     </div>
 
-  </div>
 </section>
   );
 }

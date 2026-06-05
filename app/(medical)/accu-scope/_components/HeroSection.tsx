@@ -1,5 +1,6 @@
 "use client";
 
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import { ArrowRight } from "lucide-react";
 
 export default function HeroBanner() {
@@ -7,55 +8,43 @@ export default function HeroBanner() {
     <section className="relative h-screen overflow-hidden">
       
       {/* Video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        poster="/hero-poster.jpg"
-        className="
-          absolute inset-0
-          w-full h-full
-          object-cover
-        "
-      >
-        <source src="/hero-video.mp4" type="video/mp4" />
-      </video>
+        <div className="absolute inset-0 bg-black">
+          <DynamicVideoPlayer type="banner" className="object-cover w-full h-full" />
+        </div>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" />
 
       {/* Content */}
       <div className="relative z-10 h-full">
-        <div className="max-w-[1400px] mx-auto h-full px-8">
+        <div className="max-w-[1550px] mx-auto h-full px-8">
 
           <div
             className="
               absolute
-              left-8
+              left-40
               bottom-24
-              max-w-[650px]
+              max-w-[450px]
             "
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <h1
               className="
-                text-white
-                text-[64px]
+                text-[#FFFFFF]!
+                text-[48px]
                 leading-[1.15]
-                font-[700]
+                font-[600]
                 tracking-[-2px]
               "
             >
-              Empowering discovery.
-              <br />
-              Advancing results.
+              Empowering discovery, Advancing 
+              results.
             </h1>
 
             <button
               className="
-                mt-10
+                mt-6
                 h-[56px]
                 px-8
                 rounded-full
@@ -76,7 +65,7 @@ export default function HeroBanner() {
       </div>
 
       {/* Bottom Progress Line */}
-      <div
+      {/* <div
         className="
           absolute
           bottom-8
@@ -87,7 +76,7 @@ export default function HeroBanner() {
         "
       >
         <div className="w-[120px] h-full bg-white" />
-      </div>
+      </div> */}
     </section>
   );
 }

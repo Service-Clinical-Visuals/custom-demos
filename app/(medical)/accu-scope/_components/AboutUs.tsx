@@ -3,72 +3,30 @@ import { ArrowRight } from "lucide-react";
 
 export default function AboutSection() {
   return (
-  <section className="relative py-24 bg-[#f7f7f7] overflow-hidden">
-  <div className="max-w-[1400px] mx-auto px-6">
+  <section className="relative py-24 bg-[#ffffff] overflow-hidden">
+  <div className="max-w-[1560px] mx-auto px-6">
 
-    <div className="grid lg:grid-cols-2 gap-16 items-center">
+    <div className="grid lg:grid-cols-2 gap-10">
 
-      {/* LEFT SIDE */}
-      <div className="relative">
 
-        {/* Decorative Circle */}
+
         <div
+          data-aos="fade-right"
           className="
-            absolute
-            left-[-120px]
-            top-[180px]
-            w-[500px]
-            h-[500px]
-            rounded-full
-            bg-gradient-to-br
-            from-[#0077B6]
-            to-[#B8F2E6]
-            opacity-70
-            blur-sm
-            -z-10
+            overflow-hidden
+            
           "
-        />
-
-        <div className="grid gap-8">
-
-          {/* Top Image */}
-          <div
-            data-aos="fade-right"
-            className="
-              overflow-hidden
-              rounded-[28px]
-              h-[440px]
-            "
-          >
-            <img
-              src="/about-microscope.jpg"
-              alt=""
-              className="w-full h-full object-cover"
-            />
-          </div>
-
-          {/* Bottom Image */}
-          <div
-            data-aos="fade-right"
-            data-aos-delay="200"
-            className="
-              overflow-hidden
-              rounded-[28px]
-              h-[220px]
-              w-[85%]
-            "
-          >
-            <img
-              src="/scientist.jpg"
-              alt=""
-              className="w-full h-full object-cover"
-            />
-          </div>
+        >
+          <img
+            src="/accu-scope/AboutGroup.png"
+            alt=""
+            className="w-full h-full object-cover"
+          />
         </div>
-      </div>
+
 
       {/* RIGHT SIDE */}
-      <div data-aos="fade-left">
+      <div data-aos="fade-left" className="flex flex-col justify-center">
 
         <span
           className="
@@ -84,8 +42,9 @@ export default function AboutSection() {
 
         <h2
           className="
-            mt-5
-            text-[54px]
+            mt-1
+            text-[38px]
+            line-height-[60px]
             leading-[1.25]
             font-bold
             text-[#333]
@@ -94,7 +53,7 @@ export default function AboutSection() {
           A Legacy of Quality and Value in Microscopy
         </h2>
 
-        <div className="mt-8 space-y-6">
+        <div className="mt-3 space-y-6">
           <p className="text-[18px] leading-[34px] text-[#6c6c6c]">
             Driven by a passion for scientific discovery for more than
             a century, we have embarked on a mission to create optical
@@ -115,48 +74,49 @@ export default function AboutSection() {
         </div>
 
         {/* Statistics */}
-        <div className="grid md:grid-cols-2 gap-5 mt-10">
+        <div className="grid md:grid-cols-2 gap-3 mt-8">
 
           <div
             className="
               rounded-[24px]
-              p-10
+              p-1
               text-center
-              text-white
+              text-[#FFFFFF]!
+              h-[197px]
               bg-gradient-to-br
               from-[#005FA3]
               to-[#00B5A5]
             "
           >
-            <h3 className="text-6xl font-bold">
+            <h3 className="text-[57px] font-bold text-[#FFFFFF]!">
               10,000+
             </h3>
 
-            <p className="mt-4 text-2xl font-semibold leading-relaxed">
-              Microscopes <br />
-              in Stock
-            </p>
+            <h3 className="text-[32px] lineheight-[150%] font-bold text-[#FFFFFF]!">
+              Microscopes <br></br> in stock
+            </h3>
           </div>
 
           <div
             className="
               rounded-[24px]
-              p-10
+              p-1
               text-center
-              text-white
+             text-[#FFFFFF]!
+              h-[197px]
               bg-gradient-to-br
               from-[#005FA3]
               to-[#00B5A5]
             "
           >
-            <h3 className="text-6xl font-bold">
+            <h3 className="text-[57px] font-bold text-[#FFFFFF]!">
               2,000,000+
             </h3>
 
-            <p className="mt-4 text-2xl font-semibold leading-relaxed">
-              Microscopes <br />
+            <h3 className="text-[32px] lineheight-[150%] font-bold text-[#FFFFFF]!">
+              Microscopes <br></br>
               Delivered
-            </p>
+            </h3>
           </div>
 
         </div>
@@ -165,20 +125,21 @@ export default function AboutSection() {
         <button
           className="
             mt-8
-            h-[58px]
+            h-[48px]
+            w-[250px]
             px-8
             rounded-full
             bg-[#005FA3]
             text-white
             font-semibold
             flex items-center
-            gap-3
+            gap-1
             hover:scale-105
             transition-all
           "
         >
           Read More About Me
-          <span className="text-xl">→</span>
+          <ArrowRight size={18} />
         </button>
 
       </div>

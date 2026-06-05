@@ -1,39 +1,49 @@
 "use client";
 
+import { useState } from "react";
+
 const applications = [
   {
     title: "Clinical",
-    image: "/applications/clinical.jpg",
+    image: "/accu-scope/application/Clinical.png",
+    imagehover: "/accu-scope/application/ClinicalHover.png",
   },
   {
     title: "Education",
-    image: "/applications/education.jpg",
+    image: "/accu-scope/application/Education.png",
+    imagehover: "/accu-scope/application/EducationHover.png",
   },
   {
     title: "Research",
-    image: "/applications/research.jpg",
+    image: "/accu-scope/application/Research.png",
+    imagehover: "/accu-scope/application/ResearchHover.png",
   },
   {
     title: "Veterinary",
-    image: "/applications/veterinary.jpg",
+    image: "/accu-scope/application/Veterinary.png",
+    imagehover: "/accu-scope/application/VeterinaryHover.png",
   },
   {
     title: "Industrial",
-    image: "/applications/industrial.jpg",
+    image: "/accu-scope/application/Industrial.png",
+    imagehover: "/accu-scope/application/IndustrialHover.png",
   },
   {
     title: "OEM",
-    image: "/applications/oem.jpg",
+    image: "/accu-scope/application/OEM.png",
+    imagehover: "/accu-scope/application/OEMHover.png",
   },
 ];
 
 export default function ChooseApplicationSection() {
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+
   return (
     <section
       className="
         relative
         overflow-hidden
-        py-24 lg:py-32
+        py-18
         bg-gradient-to-b
         from-[#005F97]
         via-[#007FA3]
@@ -49,11 +59,10 @@ export default function ChooseApplicationSection() {
         >
           <h2
             className="
-              text-white
-              text-[48px]
-              lg:text-[64px]
+              text-[#FFFFFF]!
+              text-[38px]
+              line-height-[60px]
               font-bold
-              leading-tight
             "
           >
             Choose Your Application
@@ -61,15 +70,15 @@ export default function ChooseApplicationSection() {
 
           <p
             className="
-              mt-6
-              text-white/90
-              text-lg
-              leading-8
+              mt-4
+              text-[#FFFFFF]!
+              text-[16px]
+              line-height-[26px]
             "
           >
             Explore microscopy solutions tailored for clinical,
             educational, research, veterinary, industrial,
-            and OEM needs designed to deliver precision and
+            and OEM needs designed <br></br> to deliver precision and
             performance across every field.
           </p>
         </div>
@@ -95,6 +104,8 @@ export default function ChooseApplicationSection() {
                 cursor-pointer
                 text-center
               "
+              onMouseEnter={() => setHoveredItem(item.title)}
+              onMouseLeave={() => setHoveredItem(null)}
             >
               {/* Image Card */}
               <div
@@ -107,7 +118,7 @@ export default function ChooseApplicationSection() {
                 "
               >
                 <img
-                  src={item.image}
+                  src={hoveredItem === item.title ? item.imagehover : item.image}
                   alt={item.title}
                   className="
                     w-full
@@ -125,7 +136,7 @@ export default function ChooseApplicationSection() {
                     absolute
                     inset-0
                     bg-black/10
-                    group-hover:bg-black/30
+                    group-hover:bg-white/30
                     transition-all
                   "
                 />
@@ -135,7 +146,7 @@ export default function ChooseApplicationSection() {
               <h3
                 className="
                   mt-5
-                  text-white
+                 text-[#FFFFFF]!
                   text-[28px]
                   font-bold
                 "

@@ -3,28 +3,33 @@ import { ArrowRight } from "lucide-react";
 
 export default function WhyChooseUsSection() {
   return (
-    <section className="py-24 bg-gradient-to-r from-[#0068A7] to-[#00B5A6]">
-      <div className="max-w-7xl mx-auto px-4 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+    <section className="py-24 bg-gradient-to-b from-[#00609C] to-[#00AF9A]">
+      <div className="max-w-[1560px] mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-2 items-center">
           <Image
-            src="/images/why-us.jpg"
+            src="/accu-scope/WorkWithUs.png"
             alt=""
             width={700}
-            height={500}
+            height={400}
             className="rounded-2xl"
           />
 
-          <div className="text-white">
-            <h2 className="text-4xl font-bold">
+          <div className="text-white" data-aos="fade-left">
+            <p className="text-[#FFFFFF]! font-semibold text-[16px] tracking-wide">
+              Why Choose Us
+            </p>
+            <h2 className="text-4xl text-[#FFFFFF]! font-bold mt-3">
               Work with ACCU-SCOPE
             </h2>
 
-            <p className="mt-6 leading-8 opacity-90">
-              Trusted microscopy solutions backed by
-              decades of innovation and service.
+            <p className="mt-4 text-[#FFFFFF]! leading-8 opacity-90">
+              Why choose ACCU-SCOPE? We blend precision, performance and outstanding value to deliver optical instrumentation and microscopy innovations that help advance the work our customers perform everyday.
+            </p>
+            <p className="mt-4 text-[#FFFFFF]! leading-8 opacity-90">
+              With a strong commitment to innovation, quality control, and user-focused design, ACCU-SCOPE empowers professionals to work more efficiently and achieve better outcomes in research, education, and clinical environments.            
             </p>
 
-            <button className="mt-8 bg-white text-[#0068A7] px-6 py-3 rounded-full inline-flex items-center gap-2">
+            <button className="mt-6 bg-[#00609C] text-[#FFFFFF]! px-6 py-3 rounded-full inline-flex items-center gap-2">
               Talk To An Expert
               <ArrowRight size={18} />
             </button>
