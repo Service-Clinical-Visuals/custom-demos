@@ -13,7 +13,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mb-10 lg:mb-14 items-center">
           {/* Text Content */}
           <div className="flex flex-col justify-center">
-            <h2 className="text-3xl md:text-[32px] font-semibold !text-primary mb-4 flex items-center gap-3">
+            <h2 className="text-3xl md:text-[34px] font-semibold !text-primary mb-4 flex items-center gap-3">
               <span className="text-primary text-2xl leading-none pb-1">&bull;</span> About Us
             </h2>
             <p className="text-gray-500 mb-6 text-[15px] leading-[1.8]">
@@ -50,7 +50,7 @@ export default function About() {
           {/* Text Content */}
           <div className="flex flex-col items-start order-1 lg:order-2">
             <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center gap-3">
-              <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Designed with a Strong Focus
+              <span className="text-primary text-2xl leading-none pb-1">&bull;</span> Designed with a Strong Focus
             </h2>
             <p className="text-gray-500 mb-6 text-[15px] leading-[1.8]">
               Established in 1976, we build on a long history of experience and innovation. We were the creators of ENT treatment units as we see them in the market today. Thanks to our extensive knowledge of the field, we understand how ENT specialists work. Our treatment units are specifically designed to facilitate their work procedures, with a strong focus on ergonomics, hygiene, quality and safety.

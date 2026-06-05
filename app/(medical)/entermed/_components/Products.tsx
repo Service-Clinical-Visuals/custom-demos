@@ -34,7 +34,7 @@ export default function Products() {
         {/* Header */}
         <div className="text-center max-w-8xl mx-auto mb-16">
           <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center justify-center gap-3">
-            <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Our Products
+            <span className="text-primary text-2xl leading-none pb-1">&bull;</span> Our Products
           </h2>
           <p className="text-gray-500 text-[15px] leading-[1.8]">
             Entermed ENT treatment units are hand built to the highest standards by a team of highly skilled craftsmen. Every attention is paid to the smallest detail during the fabrication process resulting in beautifully crafted custom made ENT treatment units and complementary furniture.
