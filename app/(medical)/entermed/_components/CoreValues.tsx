@@ -28,7 +28,7 @@ export default function CoreValues() {
       <div className="container mx-auto px-4 md:px-8">
 
         <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-10 flex items-center gap-3">
-          <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Our Core Values
+          <span className="text-primary text-2xl leading-none pb-1">&bull;</span> Our Core Values
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Left Content - Image */}
@@ -44,12 +44,12 @@ export default function CoreValues() {
 
             <div className="flex flex-col gap-4 mb-10">
               {values.map((val, idx) => (
-                <div key={idx} className="bg-white rounded-[16px] p-6 flex gap-6 shadow-[0_2px_15px_rgba(0,0,0,0.04)] border border-gray-50 items-start transition-transform hover:-translate-y-1 duration-300">
-                  <div className="flex-shrink-0 mt-1">
+                <div key={idx} className="bg-white rounded-[16px] p-6 flex items-center gap-6 shadow-[0_2px_15px_rgba(0,0,0,0.04)] border border-gray-50 transition-transform hover:-translate-y-1 duration-300">
+                  <div className="flex-shrink-0">
                     {val.icon}
                   </div>
-                  <div className="flex flex-col">
-                    <h4 className="text-gray-800 font-bold text-[17px] mb-2">{val.title}</h4>
+                  <div className="flex flex-col gap-1.5">
+                    <h4 className="text-gray-800 font-bold text-[17px]">{val.title}</h4>
                     <p className="text-gray-500 text-[14.5px] leading-[1.6]">
                       {val.description}
                     </p>

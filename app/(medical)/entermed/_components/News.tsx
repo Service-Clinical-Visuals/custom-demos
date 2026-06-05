@@ -25,7 +25,7 @@ export default function News() {
         {/* Header */}
         <div className="text-center max-w-8xl mx-auto mb-16">
           <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center justify-center gap-3">
-            <span className="!text-primary text-4xl leading-none pb-1">&bull;</span> Latest News
+            <span className="!text-primary text-2xl leading-none pb-1">&bull;</span> Latest News
           </h2>
           <p className="text-gray-500 text-[15px] leading-[1.8]">
             Explore our latest news, updates, and achievements as we continue to innovate and deliver excellence across every project.

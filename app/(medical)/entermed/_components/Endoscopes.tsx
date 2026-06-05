@@ -20,7 +20,7 @@ export default function Endoscopes() {
           {/* Left Content */}
           <div className="flex flex-col">
             <h2 className="text-3xl md:text-[34px] font-bold mb-6 flex items-center gap-3 !text-white">
-              <span className="text-white! text-4xl leading-none pb-1">&bull;</span> Flexible Endoscopes
+              <span className="text-white! text-2xl leading-none pb-1">&bull;</span> Flexible Endoscopes
             </h2>
             <p className="text-white! mb-4 text-[15px] leading-[1.8]">
               The flexible Naso-Pharyngo-Laryngoscope is manufactured in Germany to the highest of standards. It is highly suitable for both adult and paediatric use. The high resolution, crystal clear optics ensure sharp image quality. The flexible tip can be moved 150° using the scope&apos;s mechanism.

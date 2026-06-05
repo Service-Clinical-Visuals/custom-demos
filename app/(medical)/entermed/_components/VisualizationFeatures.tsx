@@ -25,8 +25,8 @@ export default function VisualizationFeatures() {
 
           {/* Right Content */}
           <div className="flex flex-col">
-            <h2 className="text-3xl md:text-[34px] font-bold text-primary mb-5 flex items-center gap-3">
-              <span className="!text-primary text-4xl leading-none pb-1">&bull;</span> Advanced Visualization Features
+            <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-5 flex items-center gap-3">
+              <span className="!text-primary text-2xl leading-none pb-1">&bull;</span> Advanced Visualization Features
             </h2>
 
             {/* Features List */}
