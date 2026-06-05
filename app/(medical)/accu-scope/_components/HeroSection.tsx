@@ -23,6 +23,7 @@ export default function HeroBanner() {
             className="
               absolute
               left-40
+              2xl:left-70
               bottom-24
               max-w-[450px]
             "
@@ -51,6 +52,7 @@ export default function HeroBanner() {
                 bg-[#005FA3]
                 text-white
                 font-semibold
+                2xl:text-[20px]
                 flex items-center gap-3
                 hover:scale-105
                 transition-all duration-300
@@ -63,20 +65,6 @@ export default function HeroBanner() {
           </div>
         </div>
       </div>
-
-      {/* Bottom Progress Line */}
-      {/* <div
-        className="
-          absolute
-          bottom-8
-          right-0
-          w-[420px]
-          h-[2px]
-          bg-white/20
-        "
-      >
-        <div className="w-[120px] h-full bg-white" />
-      </div> */}
     </section>
   );
 }

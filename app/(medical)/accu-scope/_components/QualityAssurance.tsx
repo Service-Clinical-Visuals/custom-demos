@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function QualityAssuranceSection() {
   return (
     <section className="py-24 bg-[#ffffff]">
-      <div className="max-w-[1560px] mx-auto px-6">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
 
         <div
           className="

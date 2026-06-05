@@ -23,14 +23,14 @@ const products = [
 export default function ProductsSection() {
   return (
     <section className="py-24 bg-[#f9f9f9]">
-      <div className="max-w-[1560px] mx-auto px-6">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="text-center" data-aos="fade-up">
           <h2 className="text-[38px] text-[#161616] font-bold">
             Featured Products
           </h2>
         </div>
 
-        <p className="text-[18px] leading-[34px] text-[#161616] text-center mt-4 max-w-[700px] mx-auto" data-aos="fade-up" data-aos-delay="100">
+        <p className="text-[18px] leading-[34px] text-[#161616] text-center mt-4 max-w-[700px] 2xl:max-w-[1000px] mx-auto" data-aos="fade-up" data-aos-delay="100">
           Explore microscopy solutions tailored for clinical, educational, research, veterinary, industrial, and OEM needs designed to deliver precision and performance across every field.
         </p>
 

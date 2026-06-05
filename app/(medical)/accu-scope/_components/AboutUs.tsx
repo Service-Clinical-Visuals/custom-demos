@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function AboutSection() {
   return (
   <section className="relative py-24 bg-[#ffffff] overflow-hidden">
-  <div className="max-w-[1560px] mx-auto px-6">
+  <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
 
     <div className="grid lg:grid-cols-2 gap-10">
 
@@ -35,6 +35,7 @@ export default function AboutSection() {
             text-[#00A99D]
             font-semibold
             text-sm
+            2xl:text-[20px]
           "
         >
           About Me

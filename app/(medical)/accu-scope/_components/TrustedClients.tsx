@@ -30,7 +30,7 @@ const clients = [
 export default function TrustedClientsSection() {
   return (
     <section className="py-24 bg-[#f5f5f5]">
-      <div className="max-w-[1560px] mx-auto px-6">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="text-center" data-aos="fade-up">
           <h2 className="text-[38px] text-[#333333] font-bold">
             Trusted by these fine institutions

@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
-      <div className="max-w-[1560px] mx-auto px-6 justify-center">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6 justify-center">
         <div className="h-[72px] flex items-center justify-between">
           
           {/* Logo */}
@@ -34,7 +34,7 @@ export default function Header() {
               <Link
                 key={item}
                 href="#"
-                className={`font-medium text-[15px] transition-colors
+                className={`font-medium text-[15px] 2xl:text-[20px] transition-colors
                 ${
                   index === 0
                     ? "text-[#00A99D]"
@@ -71,6 +71,7 @@ export default function Header() {
                 text-white
                 flex items-center gap-3
                 font-semibold
+                2xl:text-[20px]
                 hover:scale-105
                 transition-all
               "

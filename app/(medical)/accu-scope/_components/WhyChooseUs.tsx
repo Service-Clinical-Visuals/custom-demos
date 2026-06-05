@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function WhyChooseUsSection() {
   return (
     <section className="py-24 bg-gradient-to-b from-[#00609C] to-[#00AF9A]">
-      <div className="max-w-[1560px] mx-auto px-6">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-2 items-center">
           <Image
             src="/accu-scope/WorkWithUs.png"

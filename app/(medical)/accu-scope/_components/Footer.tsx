@@ -7,7 +7,7 @@ import { Instagram, Facebook, Twitter, Linkedin, Navigation, Phone, ArrowRight, 
 export default function Footer() {
   return (
     <footer className="bg-[#E3E3E3] pt-16 pb-6">
-      <div className="container mx-auto px-4 lg:px-12">
+      <div className="container 2xl:max-w-[80%] mx-auto px-4 lg:px-12">
         
         {/* Top 5-Column Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[5fr_2fr_2fr_2.5fr_2fr] gap-8 lg:gap-6 mb-12">

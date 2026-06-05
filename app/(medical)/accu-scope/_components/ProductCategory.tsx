@@ -5,7 +5,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function ProductCategorySection() {
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-[1560px] mx-auto px-6">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div data-aos="fade-right">
             <p className="text-[#333333] font-semibold text-[16px] tracking-wide">

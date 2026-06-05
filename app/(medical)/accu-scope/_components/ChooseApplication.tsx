@@ -50,7 +50,7 @@ export default function ChooseApplicationSection() {
         to-[#00B3A4]
       "
     >
-      <div className="max-w-[1500px] mx-auto px-6">
+      <div className="max-w-[1500px] 2xl:max-w-[80%] mx-auto px-6">
 
         {/* Header */}
         <div

@@ -36,7 +36,7 @@ export default function HighPerformanceSection() {
   return (
    <section className="py-24 bg-[#f9f9f9]">
 
-    <div className="max-w-[1560px] mx-auto px-6 grid lg:grid-cols-[55%_45%] gap-8">
+    <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6 grid lg:grid-cols-[55%_45%] gap-8">
 
       {/* LEFT CONTENT */}
       <div data-aos="fade-right">

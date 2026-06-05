@@ -5,7 +5,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function FluorescenceSection() {
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-[1560px] mx-auto px-6">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* <Image
             src="/images/fluorescence.jpg"
