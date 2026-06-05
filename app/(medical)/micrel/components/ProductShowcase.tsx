@@ -27,22 +27,12 @@ export default function ProductShowcase({ data = productShowcaseContent }: Produ
 
 
             {/* Left: 360 Deg Video Placeholder */}
-            <div className="lg:col-span-6 relative w-full aspect-[16/9] sm:aspect-[4/3] rounded-2xl overflow-hidden bg-white border border-gray-100 flex items-center justify-center shadow-sm">
+            <div className="lg:col-span-6 relative w-full aspect-[16/9] sm:aspect-[4/3] rounded-2xl overflow-hidden flex items-center justify-center shadow-sm">
 
               {/* Checkerboard Pattern Background */}
               <div
                 className="absolute inset-0"
-                style={{
-                  backgroundColor: "#ffffff",
-                  backgroundImage: `
-                    linear-gradient(45deg, #f3f4f6 25%, transparent 25%), 
-                    linear-gradient(-45deg, #f3f4f6 25%, transparent 25%), 
-                    linear-gradient(45deg, transparent 75%, #f3f4f6 75%), 
-                    linear-gradient(-45deg, transparent 75%, #f3f4f6 75%)
-                  `,
-                  backgroundSize: "24px 24px",
-                  backgroundPosition: "0 0, 0 12px, 12px -12px, -12px 0px"
-                }}
+                
               />
               <DynamicVideoPlayer
                 type="360"
@@ -66,9 +56,10 @@ export default function ProductShowcase({ data = productShowcaseContent }: Produ
                 Designed with patient lifestyles in mind, these advanced solutions help make therapy more seamless, discreet, and convenient, enabling greater mobility, independence, and an improved quality of life during long-term treatment.
               </p>
 
-              <p className={textStyles.boldTagline}>
+             
+                <p className="font-bold text-black text-2xl font-semibold ">
                 With Rythmic™ Serena, you can offer your patients the confidence, peace of mind and dignity they deserve.
-              </p>
+            </p> 
 
 
 
@@ -95,12 +86,12 @@ export default function ProductShowcase({ data = productShowcaseContent }: Produ
 
           {/* Bottom Half: Center Callout Card */}
           <div className="mx-auto text-center space-y-4 flex flex-col items-center">
-            <h3 className="text-xl sm:text-2xl md:text-[28px] font-bold text-primary tracking- leading-tight">
+            <h3 className="text-2xl sm:text-2xl lg:text-4xl md:text-[28px] font-semibold text-primary tracking-wide leading-tight">
               See how Rythmic {" "}
               <span className="text-secondary font-bold"> ™ </span>{" "}
               Serena empowers you to elevate parenteral nutrition
             </h3>
-            <p className="text-sm sm:text-base text-secondary max-w-[75%] mx-auto leading-relaxed font-medium">
+            <p className="text-sm sm:text-base text-secondary max-w-[70%] mx-auto leading-relaxed font-normal">
               Rythmic™ Serena provides the level of comfort, safety and efficiency that patients who require parenteral nutritional support, their caregivers and healthcare professionals deserve. Built for both homecare and clinical environments, Rythmic™ Serena simplifies daily treatment management for caregivers and healthcare professionals, improving overall patient experience and supporting high-quality nutritional care.
             </p>
             <div className="pt-2">

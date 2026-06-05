@@ -62,14 +62,7 @@ section {
   overflow: hidden;
 }
 
-p {
-  font-family: var(--font-primary), sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  vertical-align: middle;
-  color: #555555;
-}
+
 
 /* Background Context Color Rules */
 .bg-\[\#3363AC\] h1,
