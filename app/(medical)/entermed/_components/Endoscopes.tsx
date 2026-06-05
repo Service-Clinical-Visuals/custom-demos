@@ -19,7 +19,7 @@ export default function Endoscopes() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <div className="flex flex-col">
-            <h2 className="text-3xl md:text-[34px] font-bold mb-6 flex items-center gap-3">
+            <h2 className="text-3xl md:text-[34px] font-bold mb-6 flex items-center gap-3 !text-white">
               <span className="text-white! text-4xl leading-none pb-1">&bull;</span> Flexible Endoscopes
             </h2>
             <p className="text-white! mb-4 text-[15px] leading-[1.8]">
@@ -28,11 +28,11 @@ export default function Endoscopes() {
             <p className="text-white! mb-10 text-[15px] leading-[1.8]">
               This superior flexible endoscope is manufactured in Germany to the highest of standards. It is highly suitable for both adult and paediatric use.
             </p>
-            
+
             {/* Features Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
               {features.map((feature, idx) => (
-                <div key={idx} className="bg-white rounded-md py-3 px-4 flex items-center gap-3 shadow-sm">
+                <div key={idx} className="bg-white rounded-lg py-3 px-4 flex items-center gap-3 shadow-sm">
                   <div className="bg-gray-800 text-white rounded-full p-1 flex-shrink-0">
                     <Star className="w-3 h-3 fill-white" strokeWidth={0} />
                   </div>
@@ -46,7 +46,7 @@ export default function Endoscopes() {
 
           {/* Right Content - 360 Video Placeholder */}
           <div className="rounded-[20px] shadow-lg aspect-video relative overflow-hidden flex items-center justify-center">
-            <DynamicVideoPlayer type="360" className=""/>
+            <DynamicVideoPlayer type="360" className="" />
           </div>
         </div>
       </div>

@@ -20,12 +20,12 @@ export default function News() {
 
   return (
     <section className="bg-white py-16 md:py-24" id="news">
-      <div className="container mx-auto px-4 md:px-8">
-        
+      <div className="container mx-auto px-4 md:px-8 w-full">
+
         {/* Header */}
-        <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-[34px] font-bold text-primary mb-6 flex items-center justify-center gap-3">
-            <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Latest News
+        <div className="text-center max-w-8xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center justify-center gap-3">
+            <span className="!text-primary text-4xl leading-none pb-1">&bull;</span> Latest News
           </h2>
           <p className="text-gray-500 text-[15px] leading-[1.8]">
             Explore our latest news, updates, and achievements as we continue to innovate and deliver excellence across every project.
@@ -33,22 +33,29 @@ export default function News() {
         </div>
 
         {/* News Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
           {newsItems.map((item, idx) => (
-            <div key={idx} className="bg-[#FCF9F9] rounded-[24px] p-6 flex flex-col sm:flex-row gap-6 items-center shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div key={idx} className="bg-[#F5333F0D] rounded-[24px] p-6 flex flex-col sm:flex-row gap-6 items-center shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
               {/* Image */}
               <div className="w-full sm:w-[260px] md:w-[280px] h-[180px] flex-shrink-0 bg-white rounded-[16px] shadow-sm border border-gray-200 flex items-center justify-center overflow-hidden relative">
-                 <img src={item.path} alt={item.title} className="w-full h-full object-cover" />
+                <img src={item.path} alt={item.title} className="w-full h-full object-cover" />
               </div>
-              
+
               {/* Content */}
               <div className="flex flex-col flex-grow py-2">
                 <h3 className="text-gray-900 font-bold text-[18px] mb-3 leading-snug">{item.title}</h3>
                 <p className="text-gray-500 text-[14.5px] leading-[1.7] mb-6 flex-grow">
                   {item.description}
                 </p>
-                
-                <Button variant="primary-outline" size="sm">Read More</Button>
+
+                {/* <Button variant="primary-outline" size="sm">Read More</Button> */}
+                <Button
+                  variant="primary-outline"
+                  size="sm"
+                  className="!bg-secondary! hover:!bg-secondary"
+                >
+                  Read More
+                </Button>
               </div>
             </div>
           ))}

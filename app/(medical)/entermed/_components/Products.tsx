@@ -30,10 +30,10 @@ export default function Products() {
   return (
     <section className="bg-white py-16 md:py-24" id="products">
       <div className="container mx-auto px-4 md:px-8">
-        
+
         {/* Header */}
-        <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-[34px] font-bold text-primary mb-6 flex items-center justify-center gap-3">
+        <div className="text-center max-w-8xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center justify-center gap-3">
             <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Our Products
           </h2>
           <p className="text-gray-500 text-[15px] leading-[1.8]">
@@ -44,19 +44,19 @@ export default function Products() {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {products.map((product, idx) => (
-            <div key={idx} className="flex flex-col rounded-[20px] border border-primary overflow-hidden shadow-sm hover:shadow-md transition-shadow group h-full">
+            <div key={idx} className="flex flex-col rounded-4xl border border-primary overflow-hidden shadow-sm hover:shadow-md transition-shadow group h-full">
               {/* Image Top Half */}
               <div className="bg-white aspect-[4/3] p-6 flex items-center justify-center relative max-h-[280px]">
                 <img src={product.path} alt={product.title} className="w-full h-full object-contain" />
               </div>
-              
+
               {/* Content Bottom Half */}
-              <div className="bg-primary p-6 flex flex-col flex-grow relative pb-16">
+              <div className="bg-primary p-6 flex flex-col flex-grow relative  rounded-4xl">
                 <h3 className="text-white! font-bold text-lg mb-3">{product.title}</h3>
                 <p className="text-white! text-[14px] leading-relaxed">
                   {product.description}
                 </p>
-                
+
                 {/* Arrow Icon Button */}
                 <div className="absolute bottom-5 right-5 w-8 h-8 rounded-full bg-white flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-sm cursor-pointer">
                   <ArrowRight className="w-4 h-4 text-primary transform -rotate-45" strokeWidth={2.5} />

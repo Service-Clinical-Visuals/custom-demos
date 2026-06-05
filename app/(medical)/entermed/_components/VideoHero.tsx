@@ -26,7 +26,7 @@ export default function VideoHero() {
           <p className="text-white! text-base md:text-[17px] mb-8 leading-[1.7] drop-shadow-sm max-w-lg">
             The company concentrates its resources on acquiring, developing and inventing quality equipment hospitals and private clinics alike.
           </p>
-          
+
           <Button variant="hero">Explore More</Button>
         </div>
       </div>

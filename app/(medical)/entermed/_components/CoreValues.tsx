@@ -7,37 +7,37 @@ import Button from "./Button";
 export default function CoreValues() {
   const values = [
     {
-      icon: <Target className="w-7 h-7 text-primary" strokeWidth={2} />,
+      icon: <img src="/entermed/logo-1.png" alt="core-values" className="w-7 h-7 text-primary" />,
       title: "Dedication",
       description: "Our customers define our products. The ENT treatment units are designed based on their needs."
     },
     {
-      icon: <Brain className="w-7 h-7 text-primary" strokeWidth={2} />,
+      icon: <img src="/entermed/logo-2.png" alt="core-values" className="w-7 h-7 text-primary" />,
       title: "Innovation",
       description: "Our products are based on years of innovation. Continuous development defines who we are."
     },
     {
-      icon: <Shield className="w-7 h-7 text-primary" strokeWidth={2} />,
+      icon: <img src="/entermed/logo-3.png" alt="core-values" className="w-7 h-7 text-primary" />,
       title: "Safety guaranteed",
       description: "We put safety for doctors and patients first. All of our products are hand built to the highest safety and quality standards."
     }
   ];
 
   return (
-    <section className="bg-[#FCFAFA] py-16 md:py-24">
+    <section className="bg-[#F5333F0D] py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          {/* Left Content - Image Placeholder */}
-          <div className="rounded-[20px] shadow-md aspect-square bg-gray-200 flex items-center justify-center overflow-hidden border border-gray-100 relative w-full h-full min-h-[500px]">
-            <img src="/entermed/core-values.png" alt="core-values" className="w-full h-full object-cover" />
+        <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-10 flex items-center gap-3">
+          <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Our Core Values
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+          {/* Left Content - Image */}
+          <div className="rounded-[20px] shadow-md bg-gray-200 overflow-hidden border border-gray-100 relative w-full lg:h-full">
+            <img src="/entermed/core-values.png" alt="core-values" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Right Content */}
           <div className="flex flex-col justify-center h-full">
-            <h2 className="text-3xl md:text-[34px] font-bold text-primary mb-12 flex items-center gap-3">
-              <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Our Core Values
-            </h2>
             <p className="text-gray-600 mb-8 text-[15px] leading-[1.8] pr-4">
               Driven by dedication, powered by innovation, and committed to safety, we deliver reliable solutions that meet the highest standards of quality and excellence.
             </p>
