@@ -50,11 +50,10 @@ export default function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`relative pb-1 font-semibold text-[17px] transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-primary after:transition-transform after:duration-300 ${
-                    link.active 
-                      ? "text-primary after:scale-x-100" 
-                      : "text-[#555555] hover:text-primary after:scale-x-0 hover:after:scale-x-100"
-                  }`}
+                  className={`relative pb-1 font-semibold text-[17px] transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-primary after:transition-transform after:duration-300 ${link.active
+                    ? "text-primary after:scale-x-100"
+                    : "text-[#555555] hover:text-primary after:scale-x-0 hover:after:scale-x-100"
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -108,16 +107,15 @@ export default function Header() {
                     <X size={28} />
                   </button>
                 </div>
-                
+
                 <div className="flex flex-col gap-5 overflow-y-auto pb-6">
                   {navLinks.map((link) => (
                     <Link
                       key={link.name}
                       href={link.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className={`font-bold text-lg pb-3 border-b border-gray-100 ${
-                        link.active ? "text-primary" : "text-gray-800"
-                      }`}
+                      className={`font-bold text-lg pb-3 border-b border-gray-100 ${link.active ? "text-primary" : "text-gray-800"
+                        }`}
                     >
                       {link.name}
                     </Link>
@@ -126,7 +124,7 @@ export default function Header() {
                     <input
                       type="text"
                       placeholder="Search Product..."
-                      className="w-full pl-5 pr-12 py-3 rounded-full bg-gray-100 border-none outline-none text-sm focus:ring-2 focus:ring-primary/20 transition-all"
+                      className="w-full pl-1 pr-12 py-3 px-4 rounded-full bg-gray-100 border-none outline-none text-sm focus:ring-2 focus:ring-primary/20 transition-all"
                     />
                     <button className="absolute right-1.5 top-1.5 bottom-1.5 aspect-square rounded-full bg-primary flex items-center justify-center text-white">
                       <Search size={18} />

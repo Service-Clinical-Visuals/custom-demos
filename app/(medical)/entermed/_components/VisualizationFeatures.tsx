@@ -17,26 +17,26 @@ export default function VisualizationFeatures() {
     <section className="bg-[#F9FAFB] py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          
+
           {/* Left Content - Video Placeholder */}
-          <div className="rounded-[20px] shadow-sm aspect-[4/3] md:aspect-video lg:aspect-[4/3] relative overflow-hidden flex items-center justify-center border border-gray-100">
+          <div className="rounded-[20px] shadow-sm aspect-video md:aspect-video lg:aspect-video relative overflow-hidden flex items-center justify-center border border-gray-100">
             <DynamicVideoPlayer type="short-1" className="" />
           </div>
 
           {/* Right Content */}
           <div className="flex flex-col">
-            <h2 className="text-3xl md:text-[34px] font-bold text-primary mb-10 flex items-center gap-3">
-              <span className="text-primary text-4xl leading-none pb-1">&bull;</span> Advanced Visualization Features
+            <h2 className="text-3xl md:text-[34px] font-bold text-primary mb-5 flex items-center gap-3">
+              <span className="!text-primary text-4xl leading-none pb-1">&bull;</span> Advanced Visualization Features
             </h2>
-            
+
             {/* Features List */}
-            <div className="flex flex-col gap-6 mb-10">
+            <div className="flex flex-col gap-2">
               {features.map((feature, idx) => (
                 <div key={idx} className="flex gap-4 items-start">
                   <div className="bg-gray-800 text-white rounded-full p-1 flex-shrink-0 mt-1 shadow-sm">
                     <Star className="w-3 h-3 fill-white" strokeWidth={0} />
                   </div>
-                  <p className="text-gray-500 text-[14.5px] leading-[1.7] pr-4">
+                  <p className="text-gray-500 text-[15px] leading-[1.7] pr-4">
                     {feature}
                   </p>
                 </div>
