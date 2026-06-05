@@ -60,58 +60,64 @@ export default function CmfSolutions() {
 
           {/* Right Column: Text and Cards */}
           <div className="flex flex-col gap-6" data-aos="fade-left">
-            <h2 className="text-primary font-heading font-semibold text-3xl md:text-4xl mb-4">
+            <h2 className="text-primary font-heading font-semibold text-3xl md:text-4xl ">
               Our CMF Solutions
             </h2>
 
             {/* Card 1 */}
-            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1">
+            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1 min-[2560px]:gap-3">
               {/* <h4 className="text-[#237B64] font-semibold text-lg font-heading"> */}
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] 2xl:text-2xl">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] min-[2560px]:text-3xl min-[2560px]:gap-3">
                 Temporo-mandibular joint (TMJ) reconstruction
               </h3>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-1 min-[2560px]:gap-2">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span className="text-md 2xl:text-xl">Customized TMJ implant designed for individual patient anatomy .</span>
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1 min-[2560px]:w-[24px]
+    min-[2560px]:h-[24px] " />
+                  <span className="text-md min-[2560px]:text-2xl">Customized TMJ implant designed for individual patient anatomy .</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span className="text-md 2xl:text-xl">Available in a patented minimally invasive design to reduce surgical trauma and recovery time.</span>
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1 min-[2560px]:w-[24px]
+    min-[2560px]:h-[24px]" />
+                  <span className="text-md min-[2560px]:text-2xl">Available in a patented minimally invasive design to reduce surgical trauma and recovery time.</span>
                 </li>
               </ul>
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] 2xl:text-2xl">
+            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] min-[2560px]:text-3xl min-[2560px]:gap-3">
                 Trauma reconstructive surgery
               </h3>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-1 min-[2560px]:gap-2">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span className="text-md 2xl:text-xl">Custom solutions for fracture stabilization, bone loss reconstruction and facial symmetry restoration.</span>
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1 min-[2560px]:w-[24px]
+    min-[2560px]:h-[24px]" />
+                  <span className="text-md min-[2560px]:text-2xl">Custom solutions for fracture stabilization, bone loss reconstruction and facial symmetry restoration.</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span className="text-md 2xl:text-xl">3D-printed titanium implants and surgical jigs for enhanced procedural accuracy.</span>
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1 min-[2560px]:w-[24px]
+    min-[2560px]:h-[24px]" />
+                  <span className="text-md min-[2560px]:text-2xl">3D-printed titanium implants and surgical jigs for enhanced procedural accuracy.</span>
                 </li>
               </ul>
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-4">
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] 2xl:text-2xl">
+            <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] min-[2560px]:text-3xl min-[2560px]:gap-3">
                 Oncologic reconstructive surgery
               </h3>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-1 min-[2560px]:gap-2">
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span className="text-md 2xl:text-xl">Patient-specific implants including 3D-printed titanium scaffolds to restore bone structures affected by tumors.</span>
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1 min-[2560px]:w-[24px]
+    min-[2560px]:h-[24px]" />
+                  <span className="text-md min-[2560px]:text-2xl">Patient-specific implants including 3D-printed titanium scaffolds to restore bone structures affected by tumors.</span>
                 </li>
                 <li className="flex items-start gap-3 text-gray-600 text-sm md:text-base leading-relaxed">
-                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1" />
-                  <span className="text-md 2xl:text-xl">Cutting and positioning guides to enhance precision and streamline complex resections and reconstructions.</span>
+                  <CheckboxIcon className="text-[#555555] flex-shrink-0 mt-1 min-[2560px]:w-[24px]
+    min-[2560px]:h-[24px]" />
+                  <span className="text-md min-[2560px]:text-2xl">Cutting and positioning guides to enhance precision and streamline complex resections and reconstructions.</span>
                 </li>
               </ul>
             </div>

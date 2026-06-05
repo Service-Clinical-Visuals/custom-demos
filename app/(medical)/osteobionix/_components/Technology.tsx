@@ -16,22 +16,22 @@ export default function Technology() {
             </h2>
 
             <div className="flex flex-col gap-1">
-              <h3 className="font-heading text-xl md:text-2xl text-gray-800 mb-1 font-medium">Biomimetic, osteoconductive titanium scaffolds</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base">
+              <h3 className="font-heading text-xl md:text-2xl text-gray-800  font-medium">Biomimetic, osteoconductive titanium scaffolds</h3>
+              <p className="text-gray-600 leading-relaxed text-sm md:text-base">
                 Engineered to mimic natural bone structure, these scaffolds combine ultra-high porosity (up to 90%) with exceptional mechanical properties. The result is a material that behaves mechanically like bone, optimizing load distribution and promoting bone regeneration through enhanced cell adhesion and vascularization.
               </p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <h3 className="font-heading text-xl md:text-2xl text-gray-800 mb-1 font-medium">Flexible titanium structures</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base">
+              <h3 className="font-heading text-xl md:text-2xl text-gray-800  font-medium">Flexible titanium structures</h3>
+              <p className="text-gray-600  leading-relaxed text-sm md:text-base">
                 Designed to replicate the biomechanical properties of non-rigid musculoskeletal tissue, these structures offer greater compliance and adaptability, making them ideal for dynamic implants. A patented technology that bridges the gap between rigid metal implants and the natural movement of the human body.
               </p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <h3 className="font-heading text-xl md:text-2xl text-gray-800 mb-1 font-medium">Easier and safer fixation mechanisms</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base">
+              <h3 className="font-heading text-xl md:text-2xl text-gray-800  font-medium">Easier and safer fixation mechanisms</h3>
+              <p className="text-gray-600 leading-relaxed text-sm md:text-base">
                 A patented polyaxial locking screw mechanism self-aligns plate and screw threads. A technology that helps reduce complications from misalignment, which can be a challenge in fracture fixation, and improves both surgical flexibility and implant longevity.
               </p>
             </div>
@@ -59,8 +59,8 @@ export default function Technology() {
               </div>
 
               {/* Dark Green Card */}
-              <div className="w-full flex-1 bg-[#317d71] rounded-2xl p-6 sm:p-8 flex flex-col justify-center items-center text-center shadow-md">
-                <h2 className="text-white font-heading text-2xl lg:text-[26px] leading-snug font-medium mb-8">
+              <div className="w-full flex-1 bg-[#317d71] rounded-2xl p-3 sm:p-8 flex flex-col justify-center items-center text-center shadow-md">
+                <h2 className="text-white font-heading text-2xl lg:text-[26px] leading-snug font-medium mb-5">
                   We combine 3D printing technology with clinical expertise to create unique solutions that transform lives.
                 </h2>
 
