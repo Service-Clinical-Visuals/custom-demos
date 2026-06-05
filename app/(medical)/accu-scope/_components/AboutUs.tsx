@@ -87,15 +87,16 @@ export default function AboutSection() {
               bg-gradient-to-br
               from-[#005FA3]
               to-[#00B5A5]
+              flex flex-col items-center justify-center
             "
           >
-            <h3 className="text-[57px] font-bold text-[#FFFFFF]!">
+            <h3 className="text-[52px] font-bold text-[#FFFFFF]!">
               10,000+
             </h3>
 
-            <h3 className="text-[32px] lineheight-[150%] font-bold text-[#FFFFFF]!">
-              Microscopes <br></br> in stock
-            </h3>
+            <h4 style={{ lineHeight: "35px" }} className="text-[32px] w-[180px] font-bold text-[#FFFFFF]!">
+              Microscopes in stock
+            </h4>
           </div>
 
           <div
@@ -108,16 +109,16 @@ export default function AboutSection() {
               bg-gradient-to-br
               from-[#005FA3]
               to-[#00B5A5]
+              flex flex-col items-center justify-center
             "
           >
-            <h3 className="text-[57px] font-bold text-[#FFFFFF]!">
+            <h3 className="text-[52px] font-bold text-[#FFFFFF]!">
               2,000,000+
             </h3>
 
-            <h3 className="text-[32px] lineheight-[150%] font-bold text-[#FFFFFF]!">
-              Microscopes <br></br>
-              Delivered
-            </h3>
+            <h4 style={{ lineHeight: "35px" }} className="text-[32px] w-[180px] font-bold text-[#FFFFFF]!">
+              Microscopes Delivered
+            </h4>
           </div>
 
         </div>
