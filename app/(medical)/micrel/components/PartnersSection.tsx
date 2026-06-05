@@ -139,16 +139,16 @@ export default function PartnersSection({ data = partnersContent }: PartnersSect
       {/* Partner Section */}
       <div className="relative -mt-6 z-20">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-6" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-0" data-aos="fade-up" data-aos-delay="100">
 
             {/* We Partner With Badge */}
-            <div className="shrink-0 self-center mr-8 translate-y-5">
+            <div className="shrink-0 self-center lg:mr-8 lg:translate-y-5 mb-4 lg:mb-0">
               <div className="relative bg-[#3568B8] text-white rounded-[7px] px-10 py-6 font-semibold text-[20px] whitespace-nowrap">
                 We Partner With
 
                 {/* Sharp Triangle */}
                 <div
-                  className="absolute top-1/2 -translate-y-1/2 -right-6 w-0 h-0"
+                  className="hidden lg:block absolute top-1/2 -translate-y-1/2 -right-6 w-0 h-0"
                   style={{
                     borderTop: "18px solid transparent",
                     borderBottom: "18px solid transparent",
@@ -159,7 +159,7 @@ export default function PartnersSection({ data = partnersContent }: PartnersSect
             </div>
 
             {/* Partner Cards */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5 3xl:gap-8 w-full lg:w-auto">
               {data.partners.map((partner, index) => (
                 <div
                   key={index}
@@ -172,8 +172,11 @@ export default function PartnersSection({ data = partnersContent }: PartnersSect
               hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)]
               transition-all
               duration-300
-             w-[200px]
-  h-[220px]
+              w-full
+              max-w-[200px]
+              3xl:max-w-[220px]
+              h-[220px]
+              3xl:h-[240px]
             
               flex
               flex-col

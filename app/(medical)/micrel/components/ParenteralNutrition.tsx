@@ -12,12 +12,12 @@ interface ParenteralNutritionProps {
 
 export default function ParenteralNutrition({ data = parenteralNutritionContent }: ParenteralNutritionProps) {
   return (
-    <section className="w-full h-[698px] bg-[#3363AC] text-white flex items-center">
+    <section className="w-full lg:h-[550px] xl:h-[620px] 2xl:h-[698px] 3xl:h-[750px] bg-[#3363AC] text-white flex items-center py-12 md:py-16 lg:py-0">
       <div className="container mx-auto px-4">
-        <div className="flex items-center gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
 
           {/* Left Column: Text */}
-          <div className="flex-1 space-y-5 flex flex-col items-start" data-aos="fade-right">
+          <div className="flex-1 space-y-5 flex flex-col items-start w-full" data-aos="fade-right">
             <h2 className={`${textStyles.heading} !text-white`}>
               {data.title}
             </h2>
@@ -39,7 +39,7 @@ export default function ParenteralNutrition({ data = parenteralNutritionContent 
           </div>
 
           {/* Right Column: Video */}
-          <div className="w-[820px] h-[520px] flex-shrink-0" data-aos="fade-left">
+          <div className="w-full max-w-[820px] aspect-[820/520] lg:w-[48%] xl:w-[52%] 2xl:w-[820px] 2xl:h-[520px] 3xl:w-[900px] 3xl:h-[570px] flex-shrink-0" data-aos="fade-left">
             <div className="relative w-full h-full rounded-[30px] overflow-hidden flex items-center justify-center shadow-md">
               <div
                 className="absolute inset-0"

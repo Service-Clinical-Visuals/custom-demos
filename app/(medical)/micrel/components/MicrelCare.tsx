@@ -206,7 +206,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
 
           {/* Right Column: Active Content Card (7 cols) */}
           <div className="lg:col-span-7" data-aos="fade-left">
-            <div className="bg-white border border-slate-100 rounded-3xl  sm:p-8 md:p-10 shadow-lg space-y-8">
+            <div className="bg-white border border-slate-100 rounded-3xl p-6 sm:p-8 md:p-10 shadow-lg space-y-8">
 
 
 
