@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { Typography } from "./ui/Typography";
+import { Button } from "./ui/Button";
 
 const portfolioItems = [
   {
@@ -14,50 +15,74 @@ const portfolioItems = [
 
 export default function ProductCategorySection() {
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+    <section className="py-24 bg-white font-outfit">
+      <div className="container mx-auto px-4 lg:px-6">
 
-        {/* Header row */}
-        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
-          <div>
-            <h2 className="text-[38px] font-bold text-[#222222] leading-[1.2]">
+        {/* Header Row: Left aligned texts, Right aligned CTA */}
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 pb-6">
+          <div className="flex-1 max-w-[800px]">
+            <Typography
+              variant="h2"
+              as="h2"
+              color="text-[#222222]"
+              weight="bold"
+              className="text-[28px] sm:text-[34px] md:text-[38px] leading-tight mb-3"
+            >
               Enhance Your Portfolio
-            </h2>
-            <p className="mt-2 text-[16px] leading-[26px] text-[#555555] max-w-[560px]">
-              Discover our OEM-compatible implants and instruments — designed so that our partners
-              can complement and elevate your product range with quality, precision, and reliable performance.
-            </p>
+            </Typography>
+            <Typography
+              variant="body-sm"
+              color="text-[#555555]"
+              className="leading-[26px] text-[14px] sm:text-[15px]"
+            >
+              Discover our CE-certified supplementary solutions for hip and knee implants—designed to perfectly complement and elevate your product range with quality, precision, and reliable performance.
+            </Typography>
           </div>
-          <button className="flex-shrink-0 h-[44px] px-6 rounded-full border border-[#099F94] text-[#099F94] font-semibold text-[14px] flex items-center gap-2 hover:bg-[#099F94] hover:text-white transition-all">
-            Inspire Collections <ArrowRight size={16} />
-          </button>
+          <div className="flex-shrink-0">
+            <Button
+              variant="primary"
+              size="md"
+              href="#"
+            >
+              Explore Collection
+            </Button>
+          </div>
         </div>
 
-        {/* Portfolio cards */}
-        <div className="grid md:grid-cols-2 gap-6 mt-10">
+        {/* Separator line */}
+        <hr className="border-gray-200 mb-10" />
+
+        {/* Portfolio Cards Grid */}
+        <div className="grid md:grid-cols-2 gap-8">
           {portfolioItems.map((item, index) => (
             <div
               key={index}
               data-aos="zoom-in-up"
               data-aos-delay={index * 100}
-              className="relative overflow-hidden rounded-[20px] group cursor-pointer"
-              style={{ aspectRatio: "16/9" }}
+              className="bg-[#F5F5F5] rounded-[24px] pt-6 px-6 pb-12 sm:pt-8 sm:px-8 sm:pb-16 xl:pb-20 flex flex-col items-center  relative w-full"
             >
-              <Image
-                src={item.image}
-                alt={item.label}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-all" />
-              {/* Label button */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 flex justify-center">
-                <button className="h-[52px] px-12 rounded-full bg-[#099F94] text-white font-bold text-[18px] flex items-center gap-2 hover:bg-[#07877e] transition-all shadow-lg">
-                  {item.label}
-                </button>
+              {/* Inner white wrapper containing image */}
+              <div className="rounded-[20px]   flex items-center justify-center aspect-[16/10] w-full relative  overflow-hidden z-0">
+                <Image
+                  src={item.image}
+                  alt={item.label}
+                  fill
+                  className="object-contain  transition-transform duration-700 z-10 hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  priority
+                />
               </div>
+
+              {/* Overlapping bottom category button (no arrow) */}
+              <Button
+                variant="primary"
+                size="md"
+                showArrow={false}
+                fullWidth
+                className="!w-full max-w-[605px] !h-[54px] sm:!h-[72px] xl:!h-[90px] -mt-[27px] sm:-mt-[36px] xl:-mt-[45px] !text-[16px] sm:!text-[20px] xl:!text-[24px] font-bold shadow-md bg-[#099F94] hover:bg-[#07877e] transition-all duration-200 !rounded-[15px] z-10"
+              >
+                {item.label}
+              </Button>
             </div>
           ))}
         </div>

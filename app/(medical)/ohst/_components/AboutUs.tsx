@@ -17,7 +17,7 @@ export default function AboutSection() {
             className="overflow-hidden rounded-[24px] shadow-lg aspect-[4/3] relative"
           >
             <Image
-              src="/medical/ohst/factory.png"
+              src="/medical/ohst/factory.jpg"
               alt="OHST Factory"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -91,7 +91,7 @@ export default function AboutSection() {
             className="md:col-span-2 overflow-hidden rounded-[20px] aspect-[16/10] relative shadow-md"
           >
             <Image
-              src="/medical/ohst/two_people.png"
+              src="/medical/ohst/twopeople.jpg"
               alt="OHST Management Team"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -106,7 +106,7 @@ export default function AboutSection() {
             className="md:col-span-1 overflow-hidden rounded-[20px] aspect-[4/5] md:aspect-auto relative shadow-md min-h-[200px]"
           >
             <Image
-              src="/medical/ohst/person1.png"
+              src="/medical/ohst/person1.jpg"
               alt="OHST Team Member"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -121,7 +121,7 @@ export default function AboutSection() {
             className="md:col-span-1 overflow-hidden rounded-[20px] aspect-[4/5] md:aspect-auto relative shadow-md min-h-[200px]"
           >
             <Image
-              src="/medical/ohst/person2.png"
+              src="/medical/ohst/person2.jpg"
               alt="OHST Team Member"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"

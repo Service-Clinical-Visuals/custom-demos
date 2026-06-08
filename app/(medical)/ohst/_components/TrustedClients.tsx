@@ -1,52 +1,73 @@
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { Typography } from "./ui/Typography";
+import { Button } from "./ui/Button";
 
 const supporters = [
   { image: "/medical/ohst/supports/horizont.png", alt: "Horizont e.V." },
-  { image: "/medical/ohst/supports/havelland.png", alt: "Havelland" },
+  { image: "/medical/ohst/supports/havelland.png", alt: "Musik- und Kunstschule Havelland" },
   { image: "/medical/ohst/supports/plan_intl.png", alt: "Plan International" },
-  { image: "/medical/ohst/supports/fsv.png", alt: "FSV" },
+  { image: "/medical/ohst/supports/fsv.png", alt: "FSV Optik Rathenow" },
 ];
 
 export default function TrustedClientsSection() {
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+    <section className="py-24 bg-[#EAF9F8] font-outfit">
+      <div className="container mx-auto px-4 lg:px-6">
 
-        <div className="text-center" data-aos="fade-up">
-          <h2 className="text-[38px] font-bold text-[#222222]">
+        {/* Centered Header */}
+        <div className="text-center max-w-[840px] mx-auto mb-8" data-aos="fade-up">
+          <Typography
+            variant="h2"
+            as="h2"
+            color="text-[#222222]"
+            weight="bold"
+            className="text-[28px] sm:text-[34px] md:text-[38px] leading-tight mb-4"
+          >
             OHST supports
-          </h2>
-          <p className="mt-4 text-[16px] leading-[28px] text-[#555555] max-w-[700px] mx-auto">
-            OHST proudly supports organizations and initiatives dedicated to community development,
-            education, culture, and crafting positive social impact through meaningful partnerships,
-            social responsibility, and long-term community engagement.
-          </p>
+          </Typography>
+          <Typography
+            variant="body-sm"
+            color="text-[#555555]"
+            className="leading-[26px] text-[14px] sm:text-[15px]"
+          >
+            OHST proudly supports organizations and initiatives dedicated to community development, education, culture, and creating positive social impact through meaningful partnerships, social responsibility, and long-term community engagement.
+          </Typography>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-14 items-center">
+        {/* Separator line */}
+        <hr className="border-gray-200 mb-10" />
+
+        {/* Supporter Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {supporters.map((supporter, index) => (
             <div
               key={index}
               data-aos="zoom-in-up"
-              data-aos-delay={index * 100}
-              className="flex items-center justify-center group"
+              data-aos-delay={index * 80}
+              className="bg-white rounded-[16px] border border-gray-100 p-8 flex items-center justify-center aspect-[16/9] shadow-sm hover:shadow-md transition-all duration-300 group"
             >
-              <Image
-                src={supporter.image}
-                alt={supporter.alt}
-                width={200}
-                height={100}
-                className="object-contain transition-all duration-500 group-hover:scale-110"
-              />
+              <div className="relative w-full h-full max-h-[200px]">
+                <Image
+                  src={supporter.image}
+                  alt={supporter.alt}
+                  fill
+                  className="object-contain transition-all duration-500 group-hover:scale-105"
+                  sizes="(max-w-768px) 50vw, 20vw"
+                />
+              </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 flex justify-center" data-aos="fade-up">
-          <button className="h-[48px] px-8 rounded-full bg-[#099F94] text-white font-semibold flex items-center gap-2 hover:bg-[#07877e] hover:scale-105 transition-all duration-300 shadow-md">
-            Get Support <ArrowRight size={18} />
-          </button>
+        {/* Bottom Button */}
+        <div className="flex justify-center" data-aos="fade-up">
+          <Button
+            variant="primary"
+            size="md"
+            href="#"
+          >
+            Get Support
+          </Button>
         </div>
 
       </div>
