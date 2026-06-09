@@ -21,7 +21,7 @@ export default function ClinicalCases() {
       ]
     },
     {
-      title: "Severe Scoliosis Correction with a Custom Spinal Implant",
+      title: "Sternum and Rib Reconstruction After Oncologic Resection",
       patient: "30-Year-Old Male With Multiple Skull And Jaw Fractures",
       problem: "Severe bone loss compromising facial symmetry and chewing function.",
       solutions: [
@@ -37,27 +37,27 @@ export default function ClinicalCases() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {cases.map((c, idx) => (
             <div key={idx} className="bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-gray-200 flex flex-col" data-aos="fade-up" data-aos-delay={idx * 150}>
-              <h4 className="text-[#317d71] font-semibold text-center font-heading text-[18px] min-[2560px]:text-lg mb-4 min-h-[48px] flex items-center justify-center max-w-[85%] mx-auto">
+              <h4 className="text-[#317d71] font-semibold text-center font-heading text-[21px] md:text-[23px] xl:text-[24px] min-[2560px]:text-4xl mb-4 min-h-[64px] flex items-center justify-center max-w-[95%] mx-auto">
                 {c.title}
               </h4>
               <hr className="border-t border-[#317d71]/40 w-full mb-6" />
 
-              <div className="flex flex-col gap-4 text-sm text-gray-600 flex-1">
-                <p>
-                  <span className="font-medium text-gray-900">Patient:</span> {c.patient}
-                </p>
-                <p>
-                  <span className="font-medium text-gray-900">Problem:</span> {c.problem}
-                </p>
+              <div className="flex flex-col gap-4 text-[16px] md:text-[18px] text-gray-600 flex-1">
                 <div>
-                  <p>
+                  <span className="font-medium text-gray-900">Patient:</span> {c.patient}
+                </div>
+                <div>
+                  <span className="font-medium text-gray-900">Problem:</span> {c.problem}
+                </div>
+                <div>
+                  <div className="mb-1">
                     <span className="font-medium text-gray-900">Solutions:</span>
-                    <ul className="list-disc pl-5 flex flex-col gap-1">
-                      {c.solutions.map((sol, i) => (
-                        <li key={i}>{sol}</li>
-                      ))}
-                    </ul>
-                  </p>
+                  </div>
+                  <ul className="list-disc pl-5 flex flex-col gap-1.5">
+                    {c.solutions.map((sol, i) => (
+                      <li key={i} className="text-[15px] md:text-[17px]">{sol}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>

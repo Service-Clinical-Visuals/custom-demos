@@ -7,7 +7,7 @@ export default function AboutUs() {
   return (
     <section id="about" className="w-full py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-stretch">
 
           {/* Text Content */}
           <div className="flex flex-col items-start" data-aos="fade-right">
@@ -32,11 +32,11 @@ export default function AboutUs() {
           </div>
 
           {/* Image Content */}
-          <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] rounded-[2rem] overflow-hidden border-[12px] border-[#237B64]" data-aos="fade-left">
+          <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-auto rounded-[2rem] overflow-hidden border-[12px] border-[#237B64]" data-aos="fade-left">
             <img
               src="/osteobionix/abt.png"
               alt="Osteobionix Team Meeting"
-              className="w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
 

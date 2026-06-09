@@ -7,7 +7,7 @@ export default function Technology() {
   return (
     <section id="technology" className="w-full py-16 lg:py-20">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-stretch">
 
           {/* Left Column: Text Content */}
           <div className="flex flex-col gap-6" data-aos="fade-right">
@@ -40,7 +40,7 @@ export default function Technology() {
           {/* Right Column: Visuals */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 h-full lg:min-h-[500px]" data-aos="fade-left">
             {/* Image Box */}
-            <div className="w-full h-[95%] rounded-2xl overflow-hidden relative ">
+            <div className="w-full h-full min-h-[300px] rounded-2xl overflow-hidden relative">
               <img
                 src="/osteobionix/techs.png"
                 alt="Medical Professional examining X-Ray"
