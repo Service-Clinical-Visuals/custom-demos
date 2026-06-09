@@ -4,10 +4,10 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 export default function HelpSection() {
-  const [openAccordion, setOpenAccordion] = useState<number>(1);
+  const [openAccordion, setOpenAccordion] = useState(1);
 
   const toggleAccordion = (index: number) => {
-    setOpenAccordion(openAccordion === index ? -1 : index);
+    setOpenAccordion(index);
   };
 
   const CheckIcon = () => (
@@ -28,9 +28,6 @@ export default function HelpSection() {
             <h2 className="text-primary font-heading font-semibold text-3xl md:text-4xl mb-4">
               How we can help you
             </h2>
-            <h3 className="font-heading text-xl md:text-2xl text-gray-800 mb-6 font-medium">
-              "One Patient. One Condition. One Implant."
-            </h3>
 
             <div className="flex flex-col gap-4 [@media(min-width:2560px)]:gap-10">
               {/* Accordion Item 1 */}
