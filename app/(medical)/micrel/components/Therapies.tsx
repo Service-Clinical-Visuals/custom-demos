@@ -73,25 +73,39 @@ export default function Therapies({ data = therapiesContent }: TherapiesProps) {
               disabled={page === 0}
               aria-label="Previous"
               className="
-                flex-shrink-0
-                w-12 h-12
-                xl:w-14 xl:h-14
-                3xl:w-16 3xl:h-16
-                4xl:w-20 4xl:h-20
-                bg-[#3363AC]
-                hover:bg-[#2a529a]
-                disabled:opacity-30
-                text-white
-                items-center justify-center
-                transition-all
-                duration-300
-                cursor-pointer
-                shadow-md
-              "
-            >
-              <ChevronLeft className="w-5 h-5 xl:w-6 xl:h-6 3xl:w-7 3xl:h-7 4xl:w-9 4xl:h-9" />
-            </button>
+    hidden lg:inline-flex
+    items-center justify-center
+    flex-shrink-0
 
+    w-10 h-10
+    xl:w-12 xl:h-12
+    2xl:w-14 2xl:h-14
+    3xl:w-16 3xl:h-16
+    4xl:w-20 4xl:h-20
+
+    bg-[#3363AC]
+    hover:bg-[#2a529a]
+    disabled:opacity-30
+
+    text-white
+    rounded-md
+    shadow-md
+    transition-all duration-300
+  "
+            >
+              <ChevronLeft
+                className="
+      w-4 h-4
+      xl:w-5 xl:h-5
+      2xl:w-6 2xl:h-6
+      3xl:w-7 3xl:h-7
+      4xl:w-8 4xl:h-8
+
+      flex-shrink-0
+    "
+                strokeWidth={2.5}
+              />
+            </button>
             {/* Slider */}
             <div className="flex-1 min-w-0">
               <Swiper
@@ -163,72 +177,83 @@ export default function Therapies({ data = therapiesContent }: TherapiesProps) {
               disabled={page === totalPages - 1}
               aria-label="Next"
               className="
-                flex-shrink-0
-                w-12 h-12
-                xl:w-14 xl:h-14
-                3xl:w-16 3xl:h-16
-                4xl:w-20 4xl:h-20
-                bg-[#3363AC]
-                hover:bg-[#2a529a]
-                disabled:opacity-30
-                text-white
-                items-center justify-center
-                transition-all
-                duration-300
-                cursor-pointer
-                shadow-md
-              "
+    hidden lg:inline-flex
+    items-center justify-center
+    flex-shrink-0
+    w-10 h-10
+    xl:w-12 xl:h-12
+    2xl:w-14 2xl:h-14
+    3xl:w-16 3xl:h-16
+    4xl:w-20 4xl:h-20
+    bg-[#3363AC]
+    hover:bg-[#2a529a]
+    disabled:opacity-30
+    text-white
+    rounded-md
+    shadow-md
+    transition-all duration-300
+  "
             >
-              <ChevronRight className="w-5 h-5 xl:w-6 xl:h-6 3xl:w-7 3xl:h-7 4xl:w-9 4xl:h-9" />
+              <ChevronRight
+                className="
+      w-4 h-4
+      xl:w-5 xl:h-5
+      2xl:w-6 2xl:h-6
+      3xl:w-7 3xl:h-7
+      4xl:w-8 4xl:h-8
+      flex-shrink-0
+    "
+                strokeWidth={2.5}
+              />
             </button>
           </div>
 
           {/* Mobile Version (Only one card at a time) */}
           <div className="lg:hidden w-full">
-            <Swiper
-              onSwiper={(swiper) => {
-                mobileSwiperRef.current = swiper;
-              }}
-              onSlideChange={(swiper) => {
-                setMobilePage(swiper.activeIndex);
-              }}
-              spaceBetween={16}
-              slidesPerView={1}
-              className="w-full"
-            >
-              {data.items.map((item, index) => (
-                <SwiperSlide key={index}>
-                  <TherapyCard
-                    item={item}
-                    className="aspect-[4/3] sm:aspect-[1.5/1]"
-                  />
-                </SwiperSlide>
-              ))}
-            </Swiper>
+              <Swiper
+                onSwiper={(swiper) => {
+                  mobileSwiperRef.current = swiper;
+                }}
+                onSlideChange={(swiper) => {
+                  setMobilePage(swiper.activeIndex);
+                }}
+                spaceBetween={16}
+                slidesPerView={1}
+                className="w-full"
+              >
+                {data.items.map((item, index) => (
+                  <SwiperSlide key={index}>
+                    <TherapyCard
+                      item={item}
+                      className="aspect-[4/3] sm:aspect-[1.5/1]"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
 
-            {/* Mobile Navigation Arrows */}
-            <div className="flex items-center justify-center gap-4 mt-6">
-              <button
-                onClick={mobilePrev}
-                disabled={mobilePage === 0}
-                className="w-10 h-10 bg-[#3363AC] hover:bg-[#2a529a] disabled:opacity-30 text-white flex items-center justify-center rounded-md transition-all duration-200 cursor-pointer"
-                aria-label="Previous"
-              >
-                <ChevronLeft size={20} />
-              </button>
-              <button
-                onClick={mobileNext}
-                disabled={mobilePage === mobileTotalPages - 1}
-                className="w-10 h-10 bg-[#3363AC] hover:bg-[#2a529a] disabled:opacity-30 text-white flex items-center justify-center rounded-md transition-all duration-200 cursor-pointer"
-                aria-label="Next"
-              >
-                <ChevronRight size={20} />
-              </button>
+              {/* Mobile Navigation Arrows */}
+              <div className="flex items-center justify-center gap-4 mt-6">
+                <button
+                  onClick={mobilePrev}
+                  disabled={mobilePage === 0}
+                  className="w-10 h-10 bg-[#3363AC] hover:bg-[#2a529a] disabled:opacity-30 text-white flex items-center justify-center rounded-md transition-all duration-200 cursor-pointer"
+                  aria-label="Previous"
+                >
+                  <ChevronLeft size={20} />
+                </button>
+                <button
+                  onClick={mobileNext}
+                  disabled={mobilePage === mobileTotalPages - 1}
+                  className="w-10 h-10 bg-[#3363AC] hover:bg-[#2a529a] disabled:opacity-30 text-white flex items-center justify-center rounded-md transition-all duration-200 cursor-pointer"
+                  aria-label="Next"
+                >
+                  <ChevronRight size={20} />
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
-      </div>
+        </div>
     </section>
   );
 }
