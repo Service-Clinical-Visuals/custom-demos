@@ -117,6 +117,11 @@ export const therapiesContent: TherapiesData = {
     { title: "Parenteral Nutrition", imageUrl: "/micrel/help_image4.png", imageAlt: "Woman outdoors looking thoughtful" },
     { title: "Oncology", imageUrl: "/micrel/help_image2.png", imageAlt: "Mother cuddling happy child" },
     { title: "Palliative Care", imageUrl: "/micrel/help_image5.png", imageAlt: "Older man and young boy laughing" },
+    { title: "Thalassemia", imageUrl: "/micrel/help_image6.png", imageAlt: "An oldman enjoying wiht kids" },
+    { title: "Immunoglobulin Therapy", imageUrl: "/micrel/help_image7.png", imageAlt: "two people" },
+    { title: "Antibiotic Therapy", imageUrl: "/micrel/help_image8.png", imageAlt: "two people in a couch " },
+    { title: "Other Infusion Therapies", imageUrl: "/micrel/help_image9.png", imageAlt: "an old man" },
+
   ],
 };
 
