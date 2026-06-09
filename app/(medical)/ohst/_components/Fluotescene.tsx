@@ -44,7 +44,7 @@ export default function FluorescenceSection() {
         <hr className="border-gray-200 mb-10" />
 
         {/* Two-column layout */}
-        <div className="grid lg:grid-cols-[38%_58%] gap-[4%] items-start">
+        <div className="grid lg:grid-cols-[38%_58%] gap-[4%]  items-center">
 
           {/* LEFT: Product descriptions inside rounded cards */}
           <div data-aos="fade-right" className="space-y-6">
@@ -63,7 +63,7 @@ export default function FluorescenceSection() {
               <Typography
                 variant="body-sm"
                 color="text-[#666666]"
-                className="leading-[24px] mb-4 text-[14px] sm:text-[15px]"
+                className="leading-[24px] mb-4 line-clamp-3 text-[14px] sm:text-[15px]"
               >
                 The principle of the Bipolar Head with different centers of rotation for the head and outer shell established itself as the standard of care for femoral neck fractures many years ago. The focus lies on providing a high degree of rotational freedom and...
               </Typography>
@@ -88,7 +88,7 @@ export default function FluorescenceSection() {
               <Typography
                 variant="body-sm"
                 color="text-[#666666]"
-                className="leading-[24px] mb-4 text-[14px] sm:text-[15px]"
+                className="leading-[24px] mb-4 line-clamp-3 text-[14px] sm:text-[15px] "
               >
                 The Unipolar Head made of implant steel with an ISO 5832-9 quality level is particular suitable for the provision of femoral head fractures in very elderly patients. The simple handling of the unipolar neck keeps the stress level for patients low and shortens...
               </Typography>
@@ -104,7 +104,7 @@ export default function FluorescenceSection() {
           {/* RIGHT: Video container in rounded box */}
           <div
             data-aos="fade-left"
-            className="rounded-[24px] shadow-sm aspect-[16/9] w-full"
+            className="rounded-[24px] shadow-sm aspect-video w-full"
           >
             <div className="relative w-full h-full rounded-[18px] overflow-hidden bg-checkered flex items-center justify-center">
               <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />

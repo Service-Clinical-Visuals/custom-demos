@@ -38,7 +38,7 @@ const services: ServiceItem[] = [
     image: "/medical/ohst/services/services3.png",
     title: (
       <>
-        Clean Room Packaging & Sterilisation
+        Clean Room Packaging &amp; Sterilisation
         <br />
         to the Highest Standards
       </>
@@ -54,9 +54,7 @@ const services: ServiceItem[] = [
     image: "/medical/ohst/services/services5.png",
     title: (
       <>
-        Surface Treatment &
-        <br />
-        Coating
+        Surface Treatment &amp; Coating
       </>
     ),
     description: "We apply advanced surface treatments and coatings to enhance implant performance...",
@@ -70,17 +68,9 @@ export default function QualityAssuranceSection() {
   useEffect(() => {
     const handleResize = () => {
       const w = window.innerWidth;
-      if (w < 768) {
-        setVisibleCount(1);
-      } else if (w < 1024) {
-        setVisibleCount(2);
-      } else if (w < 1600) {
-        setVisibleCount(4);
-      } else if (w < 2560) {
-        setVisibleCount(4);
-      } else {
-        setVisibleCount(4);
-      }
+      if (w < 768) setVisibleCount(1);
+      else if (w < 1024) setVisibleCount(2);
+      else setVisibleCount(4);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -96,27 +86,19 @@ export default function QualityAssuranceSection() {
   const visibleServices = services.slice(activeIndex, activeIndex + visibleCount);
 
   return (
-    <section className="w-full bg-[#E4FFFD] py-24 font-outfit">
-      {/* Container (prevents ultrawide stretching) */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-10">
+    <section className="w-full bg-[#E4FFFD] py-16 sm:py-20 lg:py-24">
+      <div className="container mx-auto">
 
         {/* Header */}
-        <div className="text-center" data-aos="fade-up">
-          <Typography
-            variant="h2"
-            as="h2"
-            color="text-[#099F94]"
-            weight="bold"
-            className="text-[26px] sm:text-[34px] md:text-[38px] 2xl:text-[44px] leading-tight"
-          >
+        <div className="text-center" data-aos="fade-up" data-aos-duration="600">
+          <Typography variant="h2" as="h2" weight="bold" className="text-[#099F94]">
             Our Services
           </Typography>
           <Typography
             variant="body"
-            color="text-[#555555]"
-            className="mt-4 max-w-[1240px] mx-auto leading-[28px] text-[14px] sm:text-[15px] lg:text-base 2xl:text-[17px]"
+            className="mt-4 max-w-[960px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1400px] mx-auto text-[#555555] leading-relaxed"
           >
-            In orthopaedic implants, technology alone isn't enough — trust, responsibility, and
+            In orthopaedic implants, technology alone isn&apos;t enough — trust, responsibility, and
             uncompromising precision make the difference. At OHST Medizintechnik AG, we partner with
             you from the first concept to the finished Class I–III medical device, ready for use in
             the operating room.
@@ -124,11 +106,10 @@ export default function QualityAssuranceSection() {
         </div>
 
         {/* Divider */}
-        <hr className="border-gray-200/40 my-8" />
-
+        <hr className="border-gray-200/40 my-8" data-aos="fade-up" data-aos-delay="50" data-aos-duration="400" />
 
         {/* Cards Grid */}
-        <div className="mt-14 grid gap-6 xl:gap-7 2k:gap-8 justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2k:grid-cols-4 3xl:grid-cols-4">
+        <div className="mt-10 sm:mt-12 lg:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-7 justify-center">
           {visibleServices.map((service, i) => (
             <div
               key={`${activeIndex}-${i}`}
@@ -137,18 +118,13 @@ export default function QualityAssuranceSection() {
               data-aos-delay={i * 120}
               data-aos-once="true"
               data-aos-easing="ease-out-cubic"
-              className="bg-white flex flex-col border border-gray-100/40 w-full max-w-[370px] 2xl:max-w-[420px] h-auto xl:h-[500px] 2xl:h-[600px] max-2xl:h-auto px-[25px] 2xl:px-[30px] pt-[24px] 2xl:pt-[30px] pb-[56px] 2xl:pb-[64px] max-xl:pb-[70px] transition-all duration-300 hover:scale-[1.02] relative mx-auto"
-              style={{
-                borderRadius: "100px 0px 100px 0px",
-                boxShadow: "0px 3px 8px 0px rgba(0, 0, 0, 0.24)", // #0000003D
-              }}
+              className="relative bg-white flex flex-col border border-gray-100/40 w-full max-w-[370px] mx-auto overflow-hidden hover:scale-[1.02] transition-all duration-300 shadow-[0px_3px_8px_0px_rgba(0,0,0,0.24)]"
+              style={{ borderRadius: "100px 0px 100px 0px" }}
             >
-              {/* Image Container with precise width/height from requirement */}
+              {/* Image */}
               <div
-                className="relative w-full max-w-[320px] aspect-[320/270] border border-[#00000024] overflow-hidden bg-white flex-shrink-0 mx-auto"
-                style={{
-                  borderRadius: "70px 0px 70px 0px",
-                }}
+                className="relative w-full aspect-[4/3] overflow-hidden flex-shrink-0"
+                style={{ borderRadius: "100px 0px 0px 0px" }}
               >
                 <Image
                   src={service.image}
@@ -160,67 +136,51 @@ export default function QualityAssuranceSection() {
                 />
               </div>
 
-              {/* Text content area */}
-              <div className="pt-5 flex flex-col flex-grow justify-between overflow-hidden">
-                <div>
-                  <Typography
-                    variant="h4"
-                    weight="bold"
-                    color="text-[#222222]"
-                    className="font-outfit text-[15px] sm:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[1.3] h-[2.6em] overflow-hidden line-clamp-2"
-                  >
+              {/* Text body */}
+              <div className="px-5 pt-4 pb-14 flex flex-col flex-grow">
+                {/* Title */}
+                <div className=" min-h-[50px] xl:h-[52px]  2xl:h-[52px] xl:w-[900px] 2xl:w-[1000px] overflow-hidden flex-shrink-0">
+                  <Typography variant="h5" weight="bold" className="text-[#222222] leading-snug ">
                     {service.title}
                   </Typography>
+                </div>
 
-                  <hr className="border-gray-200 my-2.5" />
+                {/* Divider */}
+                <hr className="border-gray-200 mt-3 mb-3 flex-shrink-0" />
 
-                  <Typography
-                    variant="h5"
-                   
-                    color="text-[#666666]"
-                    className="mt-1 text-[10px] sm:text-[14px] xl:text-[15px] 2xl:text-[16px] leading-[1.3] h-[2.6em] overflow-hidden line-clamp-2"
-                  >
+                {/* Description */}
+                <div className="h-[66px] overflow-hidden flex-shrink-0">
+                  <Typography variant="body-sm" className="text-[#666666] leading-[22px] line-clamp-3">
                     {service.description}
                   </Typography>
                 </div>
 
-                {/* Learn More link in dark blue (#133167) */}
-                <div className="mt-1">
-                  <a
-                    href="#"
-                    className="text-[#133167] font-bold text-[14px] hover:underline"
-                  >
+                {/* Learn More */}
+                <div className="mt-3">
+                  <a href="#" className="text-[#099F94] font-bold text-sm hover:underline transition-colors duration-150">
                     Learn More &gt;&gt;
                   </a>
                 </div>
               </div>
 
-              {/* View Testimonial bottom-left aligned button */}
+              {/* View Testimonial button */}
               <button
-                className="absolute bottom-0 left-0 bg-[#099F94] hover:bg-[#07877e] text-white text-sm font-semibold flex items-center justify-start transition-colors duration-200 cursor-pointer"
-                style={{
-                  width: "273px",
-                  height: "39px",
-                  opacity: 1,
-                  borderBottomRightRadius: "57px",
-                  borderBottomLeftRadius: "0px",
-                }}
-                onClick={() => { }}
+                className="absolute bottom-0 left-0 h-[42px] w-[273px] bg-[#099F94] hover:bg-[#07877e] text-white text-sm font-bold text-left pl-6 transition-colors duration-200 cursor-pointer flex items-center"
+                style={{ borderBottomRightRadius: "57px" }}
+                onClick={() => {}}
               >
-                <span className="pl-6 w-full text-left font-bold">
-                  View Testimonial
-                </span>
+                View Testimonial
               </button>
             </div>
           ))}
         </div>
 
-        {/* Navigation */}
-        <div className="mt-10 flex items-center justify-center gap-3">
+        {/* Pagination */}
+        <div className="mt-10 flex items-center justify-center gap-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="400">
           <button
             onClick={prev}
             disabled={activeIndex === 0}
-            className="w-8 h-8 rounded-full flex items-center justify-center border border-[#099F94] text-[#099F94] disabled:opacity-30 hover:bg-[#099F94] hover:text-white transition-all cursor-pointer"
+            className="w-8 h-8 rounded-full flex items-center justify-center border border-[#099F94] text-[#099F94] disabled:opacity-30 hover:bg-[#099F94] hover:text-white transition-all duration-200 cursor-pointer"
             aria-label="Previous page"
           >
             <ChevronLeft size={16} />
@@ -230,8 +190,11 @@ export default function QualityAssuranceSection() {
             <button
               key={i}
               onClick={() => setCurrent(i)}
-              className={`w-2.5 h-2.5 rounded-full transition-all cursor-pointer ${i === activeIndex ? "bg-[#099F94] scale-125" : "bg-[#099F94]/30"
-                }`}
+              className={`rounded-full transition-all duration-200 cursor-pointer ${
+                i === activeIndex
+                  ? "w-3 h-3 bg-[#099F94] scale-110"
+                  : "w-2.5 h-2.5 bg-[#099F94]/30 hover:bg-[#099F94]/60"
+              }`}
               aria-label={`Go to page ${i + 1}`}
             />
           ))}
@@ -239,14 +202,14 @@ export default function QualityAssuranceSection() {
           <button
             onClick={next}
             disabled={activeIndex === maxIndex}
-            className="w-8 h-8 rounded-full flex items-center justify-center border border-[#099F94] text-[#099F94] disabled:opacity-30 hover:bg-[#099F94] hover:text-white transition-all cursor-pointer"
+            className="w-8 h-8 rounded-full flex items-center justify-center border border-[#099F94] text-[#099F94] disabled:opacity-30 hover:bg-[#099F94] hover:text-white transition-all duration-200 cursor-pointer"
             aria-label="Next page"
           >
             <ChevronRight size={16} />
           </button>
         </div>
 
-      </div >
-    </section >
+      </div>
+    </section>
   );
 }
