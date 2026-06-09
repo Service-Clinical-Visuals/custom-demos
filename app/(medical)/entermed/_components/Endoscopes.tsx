@@ -16,16 +16,16 @@ export default function Endoscopes() {
   return (
     <section className="bg-primary text-white py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 items-center">
           {/* Left Content */}
-          <div className="flex flex-col">
-            <h2 className="text-3xl md:text-[34px] font-bold mb-6 flex items-center gap-3 !text-white">
+          <div className="flex flex-col" data-aos="fade-right">
+            <h2 className="text-3xl md:text-[32px] font-bold mb-2 flex items-center gap-3 !text-white">
               <span className="text-white! text-2xl leading-none pb-1">&bull;</span> Flexible Endoscopes
             </h2>
             <p className="text-white! mb-4 text-[15px] leading-[1.8]">
               The flexible Naso-Pharyngo-Laryngoscope is manufactured in Germany to the highest of standards. It is highly suitable for both adult and paediatric use. The high resolution, crystal clear optics ensure sharp image quality. The flexible tip can be moved 150° using the scope&apos;s mechanism.
             </p>
-            <p className="text-white! mb-10 text-[15px] leading-[1.8]">
+            <p className="text-white! mb-4 text-[15px] leading-[1.8]">
               This superior flexible endoscope is manufactured in Germany to the highest of standards. It is highly suitable for both adult and paediatric use.
             </p>
 
@@ -36,7 +36,7 @@ export default function Endoscopes() {
                   <div className="bg-gray-800 text-white rounded-full p-1 flex-shrink-0">
                     <Star className="w-3 h-3 fill-white" strokeWidth={0} />
                   </div>
-                  <span className="text-gray-800 text-[13px] font-semibold">{feature}</span>
+                  <span className="text-gray-800 text-[14px] font-semibold">{feature}</span>
                 </div>
               ))}
             </div>
@@ -45,7 +45,7 @@ export default function Endoscopes() {
           </div>
 
           {/* Right Content - 360 Video Placeholder */}
-          <div className="rounded-[20px] shadow-lg aspect-video relative overflow-hidden flex items-center justify-center">
+          <div className="rounded-[20px] shadow-lg aspect-video relative overflow-hidden flex items-center justify-center" data-aos="fade-left" data-aos-delay="200">
             <DynamicVideoPlayer type="360" className="" />
           </div>
         </div>

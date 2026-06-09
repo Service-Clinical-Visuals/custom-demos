@@ -6,14 +6,14 @@ import Button from "./Button";
 
 export default function About() {
   return (
-    <section className="py-16 lg:py-20">
-      <div className="container mx-auto px-4 lg:px-2">
+    <section className="py-16 md:py-24">
+      <div className="container mx-auto px-4 md:px-8">
 
         {/* Row 1 */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mb-10 lg:mb-14 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 mb-10 lg:mb-14 items-center">
           {/* Text Content */}
-          <div className="flex flex-col justify-center">
-            <h2 className="text-3xl md:text-[34px] font-semibold !text-primary mb-4 flex items-center gap-3">
+          <div className="flex flex-col justify-center" data-aos="fade-right">
+            <h2 className="text-3xl md:text-[32px] font-semibold !text-primary mb-4 flex items-center gap-3">
               <span className="text-primary text-2xl leading-none pb-1">&bull;</span> About Us
             </h2>
             <p className="text-gray-500 mb-6 text-[15px] leading-[1.8]">
@@ -25,7 +25,7 @@ export default function About() {
           </div>
 
           {/* Images Content */}
-          <div className="grid grid-cols-2 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 gap-4 md:gap-6" data-aos="fade-left" data-aos-delay="200">
             {/* Globe Image Placeholder */}
             <div className="rounded-[20px] border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.14)] aspect-square bg-white flex items-center justify-center p-6 relative overflow-hidden">
               <div className="w-full h-full rounded-full border border-blue-200/50 border-dashed flex items-center justify-center bg-blue-50/20">
@@ -41,15 +41,15 @@ export default function About() {
         </div>
 
         {/* Row 2 */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 items-center">
           {/* Large Image Content */}
-          <div className="rounded-[20px] aspect-[2/1.3] bg-gray-100 flex items-center justify-center overflow-hidden border border-gray-100 order-2 lg:order-1 relative">
+          <div className="rounded-[20px] aspect-[2/1.3] bg-gray-100 flex items-center justify-center overflow-hidden border border-gray-100 order-2 lg:order-1 relative" data-aos="fade-right">
             <img src="/entermed/about-3.png" alt="about-3" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Text Content */}
-          <div className="flex flex-col items-start order-1 lg:order-2">
-            <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center gap-3">
+          <div className="flex flex-col items-start order-1 lg:order-2" data-aos="fade-left" data-aos-delay="200">
+            <h2 className="text-3xl md:text-[32px] font-bold !text-primary mb-6 flex items-center gap-3">
               <span className="text-primary text-2xl leading-none pb-1">&bull;</span> Designed with a Strong Focus
             </h2>
             <p className="text-gray-500 mb-6 text-[15px] leading-[1.8]">
