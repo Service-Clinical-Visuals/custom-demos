@@ -34,26 +34,26 @@ const products = [
 
 export default function HighPerformanceSection() {
   return (
-   <section className="py-24 bg-[#f9f9f9]">
+    <section className="py-24 bg-[#f9f9f9]">
+      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+        <div className="grid lg:grid-cols-[55%_45%] xl:grid-cols-[58%_42%] gap-8 lg:gap-12 xl:gap-16 items-start">
 
-    <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6 grid lg:grid-cols-[55%_45%] gap-8">
+          {/* LEFT CONTENT */}
+          <div data-aos="fade-right">
 
-      {/* LEFT CONTENT */}
-      <div data-aos="fade-right">
+            {/* Preview Area */}
+            <div
+              data-aos="zoom-in"
+              className="aspect-video relative flex-1 min-h-0 rounded-[28px] overflow-hidden"
+            >
+              <DynamicVideoPlayer type="360" className="absolute inset-0 object-cover" />
+            </div>
 
-        {/* Preview Area */}
-        <div
-          data-aos="zoom-in"
-          className="aspect-video relative flex-1 min-h-0 rounded-[28px] overflow-hidden"
-        >
-          <DynamicVideoPlayer type="360" className="absolute inset-0 object-cover" />
-        </div>
+            {/* Content */}
+            <div className="mt-8 max-w-[900px]">
 
-        {/* Content */}
-        <div className="mt-8 max-w-[900px]">
-
-          <span
-            className="
+              <span
+                className="
               uppercase
               tracking-[2px]
               text-[16px]
@@ -61,35 +61,36 @@ export default function HighPerformanceSection() {
               font-bold
               text-[#3d3d3d]
             "
-          >
-            Upright Microscopes
-          </span>
+              >
+                Upright Microscopes
+              </span>
 
-          <h2
-            className="
+              <h2
+                className="
               mt-4
-              text-[38px]
+              text-[40px]
               font-bold
               line-height-[60px]
               text-[#2d2d2d]
             "
-          >
-            High-Performance Microscopy Solutions
-          </h2>
+              >
 
-          <p
-            className="
+                High-Performance Microscopy Solutions
+              </h2>
+
+              <p
+                className="
               mt-4
-              text-[16px]
-              line-height-[28px]
+              text-[20px]
+              line-height-[38px]
               text-[#6b6b6b]
             "
-          >
-            ACCU-SCOPE upright microscopes deliver top quality optics for bright, crisp images. Sometimes referred to as compound microscopes, our upright microscopes are favorites across a wide range of laboratories including clinical, veterinary, pharmaceutical, research, university, and education. Some of the disciplines utilizing our upright microscopes include pathology, hematology, microbiology, cytology and histology. 
-          </p>
+              >
+                ACCU-SCOPE upright microscopes deliver top quality optics for bright, crisp images. Sometimes referred to as compound microscopes, our upright microscopes are favorites across a wide range of laboratories including clinical, veterinary, pharmaceutical, research, university, and education. Some of the disciplines utilizing our upright microscopes include pathology, hematology, microbiology, cytology and histology.
+              </p>
 
-          <button
-            className="
+              <button
+                className="
               mt-4
               bg-[#005FA3]
               text-white
@@ -102,68 +103,57 @@ export default function HighPerformanceSection() {
               hover:scale-105
               transition-all
             "
-          >
-            View Product <ArrowRight size={18} />
-          </button>
-
-        </div>
-      </div>
-
-      {/* RIGHT PRODUCT LIST */}
-      <div data-aos="fade-left" className="space-y-8 ">
-
-        {products.map((product) => (
-            <div className="flex gap-5 items-center" key={product.id}>
-
-              <div
-                className="
-                  w-[180px]
-                  h-[180px]
-                  rounded-xl
-                  overflow-hidden
-                  bg-[#fafafa]
-                  flex-shrink-0
-                "
               >
+                View Product <ArrowRight size={18} />
+              </button>
+
+            </div>
+          </div>
+
+          {/* RIGHT PRODUCT LIST */}
+          <div data-aos="fade-left" className="space-y-8 ">
+
+            {products.map((product) => (
+              <div className="flex gap-5 items-center" key={product.id}>
+
                 <img
                   src={product.image}
-                  alt=""
-                  className="w-full h-full object-contain"
+                  alt={product.title}
+                  // className="w-[160px] sm:w-[200px] lg:w-[240px]  min-[2560px]:!w-[320px] flex-shrink-0 object-contain"
+                  className="product-image"
                 />
-              </div>
 
-              <div className="flex-1">
-                <h3
-                  className="
-                    text-2xl
+                <div className="flex-1">
+                  <h3
+                    className="
+                    text-lg sm:text-xl xl:text-2xl
                     font-bold
                     text-[#2d2d2d]
                   "
-                >
-                  {product.title}
-                </h3>
+                  >
+                    {product.title}
+                  </h3>
 
-                <p
-                  className="
-                    mt-3
-                    text-[15px]
-                    leading-7
+                  <p
+                    className="
+                    mt-1 sm:mt-2 xl:mt-3
+                    text-[13px] sm:text-[14px] xl:text-[15px]
+                    leading-normal sm:leading-relaxed
                     text-[#6b6b6b]
-                    line-clamp-3
+                    line-clamp-2 sm:line-clamp-3
                   "
-                >
-                  {product.description}
-                </p>
+                  >
+                    {product.description}
+                  </p>
+                </div>
+
               </div>
 
-            </div>
+            ))}
 
-        ))}
-
+          </div>
+        </div>
       </div>
-
-    </div>
-
-</section>
+    </section>
   );
 }

@@ -18,7 +18,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
       <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6 justify-center">
         <div className="h-[72px] flex items-center justify-between">
-          
+
           {/* Logo */}
           <Link href="/">
             <img
@@ -34,12 +34,11 @@ export default function Header() {
               <Link
                 key={item}
                 href="#"
-                className={`font-medium text-[15px] transition-colors
-                ${
-                  index === 0
-                    ? "text-[#00A99D]"
-                    : "text-[#3d3d3d] hover:text-[#00A99D]"
-                }`}
+                className={`font-bold text-[15px] transition-colors
+                  ${index === 0
+                    ? "text-[#00A99D] underline decoration-[#00A99D]"
+                    : "text-[#3d3d3d] hover:text-[#00A99D] hover:underline hover:decoration-[#00A99D]"
+                  }`}
               >
                 {item}
               </Link>

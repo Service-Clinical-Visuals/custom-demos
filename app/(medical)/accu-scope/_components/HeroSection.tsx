@@ -6,14 +6,12 @@ import { ArrowRight } from "lucide-react";
 export default function HeroBanner() {
   return (
     <section className="relative h-screen overflow-hidden">
-      
-      {/* Video */}
-        <div className="absolute inset-0 bg-black">
-          <DynamicVideoPlayer type="banner" className="object-cover w-full h-full" />
-        </div>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      {/* Video */}
+      <div className="absolute inset-0 bg-black">
+        <DynamicVideoPlayer type="banner" className="object-cover w-full h-full" />
+      </div>
+
 
       {/* Content */}
       <div className="relative z-10 h-full">
@@ -35,11 +33,12 @@ export default function HeroBanner() {
                 text-[#FFFFFF]!
                 text-[48px]
                 leading-[1.15]
-                font-[600]
+                font-bold
                 tracking-[-2px]
+                drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]
               "
             >
-              Empowering discovery, Advancing 
+              Empowering discovery, Advancing
               results.
             </h1>
 

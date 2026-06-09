@@ -54,7 +54,7 @@ export default function ChooseApplicationSection() {
 
         {/* Header */}
         <div
-          className="text-center max-w-4xl mx-auto"
+          className="text-center max-w-6xl mx-auto"
           data-aos="fade-up"
         >
           <h2
