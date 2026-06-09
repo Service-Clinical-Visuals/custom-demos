@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+  --primary: #099F94;
+  /* OHST Teal-Cyan */
+  --primary-hover: #07877e;
+  --secondary: #111111;
+  --text-muted: #666666;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--text-muted);
+  --font-outfit: var(--font-outfit);
+  --breakpoint-2k: 1600px;
+  --breakpoint-3xl: 2560px;
+}
+
+.bg-checkered {
+  background-color: #fafafa;
+  background-image:
+    linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+    linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-6 xl:px-8 2xl:px-12;
+    width: 100%;
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1200px !important;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .container {
+      max-width: 1360px !important;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .container {
+      max-width: 1500px !important;
+    }
+  }
+
+  @media (min-width: 2000px) {
+    .container {
+      max-width: 1920px !important;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .container {
+      max-width: 2200px !important;
+    }
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-outfit), sans-serif;
+  @apply antialiased;
+}
+
+section {
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .typography-hero {
+    font-size: 68px !important;
+  }
+
+  .typography-h1 {
+    font-size: 52px !important;
+  }
+
+  .typography-h2 {
+    font-size: 42px !important;
+  }
+
+  .typography-h3 {
+    font-size: 26px !important;
+  }
+
+  .typography-h4 {
+    font-size: 21px !important;
+  }
+
+  .typography-h5 {
+    font-size: 17px !important;
+  }
+
+  .typography-body {
+    font-size: 18px !important;
+  }
+
+  .typography-body-sm {
+    font-size: 15px !important;
+  }
+
+  .typography-caption {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .typography-hero {
+    font-size: 76px !important;
+  }
+
+  .typography-h1 {
+    font-size: 58px !important;
+  }
+
+  .typography-h2 {
+    font-size: 48px !important;
+  }
+
+  .typography-h3 {
+    font-size: 28px !important;
+  }
+
+  .typography-h4 {
+    font-size: 23px !important;
+  }
+
+  .typography-h5 {
+    font-size: 19px !important;
+  }
+
+  .typography-body {
+    font-size: 20px !important;
+  }
+
+  .typography-body-sm {
+    font-size: 17px !important;
+  }
+
+  .typography-caption {
+    font-size: 15px !important;
+  }
+}
+
+@keyframes arrow-exit-entry {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  35% {
+    transform: translateX(26px);
+    opacity: 0;
+  }
+
+  36% {
+    transform: translateX(-26px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.group:hover .animate-arrow-slide {
+  animation: arrow-exit-entry 0.5s ease-in-out forwards;
+}
