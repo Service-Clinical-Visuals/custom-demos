@@ -25,22 +25,22 @@ const badges = [
 
 export default function CommaTrustBadges() {
   return (
-    <section className="bg-white py-14">
-      <div className="mx-auto max-w-[1550px]">
-        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+    <section className="bg-white pb-20 mt-10">
+      <div className="mx-auto max-w-[90%]!">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-4">
           {badges.map((badge, i) => (
             <div
               key={badge.title}
               data-aos="fade-up"
               data-aos-delay={i * 100}
-              className="flex items-center gap-4 bg-[#FD42390D] py-10 px-4 border-[#FD4239] border-1"
+              className="flex items-center gap-2 bg-[#FD42390D] py-10 px-5 border-[#FD4239] border-1"
             >
               <div className="shrink-0">
-                <img src={badge.image} alt={badge.title} className="h-20 w-20 object-contain" />
+                <img src={badge.image} alt={badge.title} className="h-18 w-18 xl:h-24 xl:w-24 object-contain" />
               </div>
               <div>
-                <p className="text-[18px] font-semibold text-[#1A1A1A]">{badge.title}</p>
-                <p className="mt-1 text-[14px] leading-6 text-[#666]">{badge.text}</p>
+                <p className="text-[20px] subheading leading-[100%] font-semibold text-[#333333] ">{badge.title}</p>
+                <p className={`${i === 3 ? "mt-2" : "mt-4"} content text-[16px] leading-[110%]! text-[#333333]`}>{badge.text}</p>
               </div>
             </div>
           ))}

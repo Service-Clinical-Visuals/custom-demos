@@ -33,10 +33,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading), sans-serif;
+  line-height: 100%;
+  letter-spacing: 0;
 }
 
 .content {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: 0;
 }
@@ -53,4 +55,26 @@ button {
 
 .font1 {
   font-family: var(--font-heading), sans-serif;
+}
+
+
+@media (min-width: 2000px) {
+  .content {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0;
+  }
+
+  .heading {
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+  .subheading{
+    font-size: 28px;
+    line-height: 100%;
+  }
+
+  
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
-import { ArrowUpRight, Dot, Settings, SettingsIcon, X } from "lucide-react";
+import { ArrowUpRight, Dot, Settings, Settings2Icon, SettingsIcon, X } from "lucide-react";
 
 const features = [
   "Compatible with modern emission control systems, including DPF and catalytic converters.",
@@ -13,7 +13,7 @@ const features = [
 export default function CommaProduct360() {
   return (
     <section className="bg-[#FFF3F2] py-20">
-      <div className="mx-auto grid max-w-[1550px] grid-cols-1 gap-10 lg:grid-cols-[65fr_35fr] items-center">
+      <div className="mx-auto grid max-w-[90%]! grid-cols-1 gap-10 lg:grid-cols-[65fr_35fr] items-center">
 
         {/* 360 placeholder */}
         <div
@@ -38,25 +38,25 @@ export default function CommaProduct360() {
 
         {/* Product info */}
         <div data-aos="fade-left" data-aos-duration="1000">
-          <span className="content flex max-w-[280px] justify-center items-center rounded-full border bg-[#FD423926] border-[#FF4A43] px-4 py-1 text-[black] uppercase tracking-wider">
-            <><Dot /> Synthetic Technology</>
+          <span className="inline-flex items-center content gap-1.5 px-5 rounded-full bg-[#FD423926] border border-[#FF4A43] py-1.5 text-[12px] font-semibold text-[#000000] w-fit">
+              <span className="h-1.5 w-1.5 text-black! rounded-full bg-[#FF4A43]" />Synthetic Technology
           </span>
 
-          <h2 className="mt-4 text-[48px] font-light leading-tight text-[#1A1A1A]">
+          <h2 className="mt-6 heading text-[48px] font-light leading-tight text-[#1A1A1A]">
             EGD-SFP 5W30
           </h2>
 
-          <p className="mt-2 text-[14px] leading-7 text-[#555]">
+          <p className="mt-2 text-[14px] content leading-7 text-[#555]">
             We work side by side with workshops to produce high-quality engine oils, lubricants and chemicals for passenger cars and commercial vehicles. Our solutions are OEM approved and specially formulated to help workshops run smoother and your business achieve its full potential.
           </p>
 
-          <h4 className="mt-4 text-[36px] text-[#1A1A1A]">Product Features</h4>
+          <h4 className="mt-6 text-[36px] 2xl:text-[42px] text-[#1A1A1A]">Product Features</h4>
 
-          <ul className="mt-2 space-y-2">
+          <ul className="mt-6 space-y-4">
             {features.map((f, i) => (
-              <li key={i} className="flex items-center gap-3">
-                <SettingsIcon className="text-[#FF4A43] w-5 h-5 shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-[13px] leading-6 text-[#444]">{f}</span>
+              <li key={i} className="flex items-start gap-3">
+                <Settings className="text-[#FF4A43] w-6 h-6 shrink-0 mt-1" strokeWidth={3} />
+                <span className="text-[16px] content leading-[28px] tracking-[0] text-[#444]">{f}</span>
               </li>
             ))}
           </ul>

@@ -5,12 +5,12 @@ import CommaTrustBadges from "./CommaTrustBadges";
 
 export default function CommaAbout() {
   return (
-    <section className="bg-white py-10">
-      <div className="mx-auto grid max-w-[1550px] grid-cols-1 gap-2 lg:grid-cols-[40fr_60fr] lg:items-center">
+    <section className="bg-white pt-10">
+      <div className="mx-auto grid max-w-[90%]! h-auto grid-cols-1 gap-2 lg:grid-cols-[40fr_60fr] lg:items-center">
 
         {/* Text Content */}
         <div data-aos="fade-right" data-aos-duration="1000">
-          <span className="content flex max-w-[160px] justify-center items-center rounded-full border bg-[#FD423926] border-[#FF4A43] px-4 py-1 text-[black] uppercase tracking-wider">
+          <span className="content text-[16px] font-semibold flex h-[35px] w-[174px] justify-center items-center rounded-full border bg-[#FD423926] border-[#FF4A43] px-4 py-1 text-[#000000] tracking-wider">
             <><Dot /> About us</>
           </span>
 
@@ -22,7 +22,7 @@ export default function CommaAbout() {
             At Comma, we understand that workshops have it tough. Any make and model of vehicle, any day of the week, plus constantly changing regulations and emerging technologies continue to make the job more complicated. For over half a century, we've been supporting mechanics with quality engine oils, lubricants and chemicals for passenger and commercial vehicles. We've made it our mission to help workshops run smoother. We do it by providing dependable products, tools and training that help them get the job done right — first time, every time.
           </p>
 
-          <p className="mt-2 leading-8 text-[#555]">
+          <p className="content mt-2 leading-8 text-[#555]">
             We work side by side with workshops to produce high-quality engine oils, lubricants and chemicals for passenger cars and commercial vehicles. Our solutions are OEM approved and specially formulated to help workshops run smoother and your business achieve its full potential.
           </p>
 
@@ -35,6 +35,7 @@ export default function CommaAbout() {
               text-[22px]
               font-semibold
               uppercase
+              subheading
               text-white
               transition-all
               duration-300

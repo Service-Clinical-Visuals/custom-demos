@@ -5,14 +5,14 @@ import "./globals.css";
 const fontHeading = Karantina({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["700"],
+  weight: ["400","700"],
   
 });
 
 const fontBody = Montserrat({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["300", "400", '500', '600', "700"],
 });
 
 export const metadata: Metadata = {

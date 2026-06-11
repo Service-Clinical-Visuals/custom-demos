@@ -35,18 +35,23 @@ export default function CommaNavbar() {
 
 
         {/* Right-side info + LOGIN */}
-        <div className="z-10 flex h-full items-center justify-between bg-[#181818] max-w-[1550px]! mx-auto">
-          <div className="hidden items-center gap-0 text-[13px] text-white/75 sm:flex">
-            <span className="pr-6">support@gmail.com</span>
+        <div className="z-10 flex h-full items-center justify-between bg-[#181818] max-w-[90%]! mx-auto">
+          <div className="hidden items-center gap-0 text-[20px] text-white sm:flex font1 font-normal! tracking-[0px]! leading-[100%]!">
+            <img src="/comma/mail.png" /> <span className="pr-6 ml-2 ">support@gmail.com</span>
             <div className="h-4 w-px bg-white/25" />
-            <span className="px-6">Mon to Fri : 8:30 am to 5:30 pm</span>
+            <img src="/comma/clock.png" /> <span className="pr-6 ml-2">Mon to Fri : 8:30 am to 5:30 pm</span>
           </div>
           <div className="flex items-center gap-1 border-l border-white/25 ">
             <div className="flex items-center gap-1 border-l border-white/25 px-6">
-                <span className="text-base leading-none">🇬🇧</span>
-                <ChevronDown size={12} className="text-white/60" />
+                <span className="text-base leading-none">
+                  <img
+                    width={"62px"}
+                    height={"33px"}
+                    src="/comma/globe.png"
+                  />
+                </span>
             </div>
-            <button className="h-[52px] cursor-pointer bg-[#FF4A43] px-8 text-[13px] font-bold uppercase tracking-widest text-white hover:bg-[#e53d37]">
+            <button className="h-[52px] tracking-[0px]! leading-[100%]! cursor-pointer bg-[#FF4A43] px-8 text-[32px] font-normal uppercase tracking-widest text-white hover:bg-[#e53d37]">
               Login
             </button>
           </div>
@@ -55,25 +60,25 @@ export default function CommaNavbar() {
       </div>
 
       {/* ── NAV BAR ── */}
-      <div className="h-[60px] border-b border-[#E8E8E8] bg-white">
-        <div className="mx-auto flex h-full max-w-[1550px] items-center gap-6">
-        {/* Logo — sits over the white panel */}
-        <div className="flex h-full items-center">
-          <img
-            src="/comma/comma_logo.png"
-            alt="COMMA"
-            className="h-[50px] w-auto"
-          />
-        </div>
+      <div className="h-[100px] border-b border-[#E8E8E8] bg-white">
+        <div className="mx-auto flex h-full max-w-[90%]! items-center gap-6">
+          {/* Logo — sits over the white panel */}
+          <div className="flex h-full items-center">
+            <img
+              src="/comma/comma_logo.png"
+              alt="COMMA"
+              className="h-[50px] w-auto"
+            />
+          </div>
 
           {/* Nav links — centered flex */}
-          <nav className="hidden flex-1 items-center justify-center gap-12 lg:flex">
+          <nav className="hidden flex-1 items-center justify-center gap-12 lg:flex tracking-[0px]! leading-[100%]! font1">
             {navLinks.map((link, i) => (
               <a
                 key={link}
                 href="#"
-                className={`text-[20px] font1 font-bold tracking-wide transition-colors hover:text-[#FF4A43] ${
-                  i === 0 ? "text-[#FF4A43]" : "text-[#1A1A1A]"
+                className={`text-[28px] font1 font-normal tracking-wide transition-colors hover:text-[#FF4A43] ${
+                  i === 0 ? "text-[#FF4A43]" : "text-[#333333]"
                 }`}
               >
                 {link}
@@ -82,13 +87,17 @@ export default function CommaNavbar() {
           </nav>
 
           {/* Search */}
-          <div className="hidden h-[38px] w-[320px] items-center gap-3 bg-[#F4F4F4] px-4 lg:flex">
+          <div className="hidden h-[38px] w-[320px] items-center gap-3 bg-[#F4F4F4] pl-4 lg:flex tracking-[0px]! leading-[100%]!">
             <input
               type="text"
               placeholder="Search for Products"
-              className="flex-1 bg-transparent text-[13px] outline-none placeholder:text-[#AAAAAA]"
+              className="flex-1 bg-transparent text-[24px] outline-none placeholder:text-[#333333A6] font1"
             />
-            <Search size={17} strokeWidth={2.2} className="shrink-0 text-[#FF4A43]" />
+            <img
+              src="/comma/search.png"
+              alt="search"
+              className="h-[38px] w-auto"
+            />
           </div>
 
           {/* Mobile hamburger */}
