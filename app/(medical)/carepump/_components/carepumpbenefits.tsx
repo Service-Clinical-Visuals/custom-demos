@@ -67,50 +67,100 @@ export default function BenefitsSection() {
               key={index}
               data-aos="fade-up"
               data-aos-delay={index * 100}
-              className="relative group pt-[32px] flex"
+              className="relative pt-[60px] flex"
             >
               <div className="relative flex flex-col w-full h-full drop-shadow-[0_12px_30px_rgba(16,24,40,0.06)]">
 
-                {/* Top Edge with Smooth Cutout */}
-                <div className="flex w-full h-[72px]">
+                {/* Top Edge With Large Center Cutout */}
+                <div className="flex w-full h-[110px]">
                   <div className="flex-1 bg-white rounded-tl-[24px]" />
-                  <svg width="180" height="72" viewBox="0 0 180 72" fill="none" className="flex-shrink-0">
-                    <path d="M 0 0 L 10 0 Q 22 0 22 12 L 22 40 Q 22 72 54 72 L 126 72 Q 158 72 158 40 L 158 12 Q 158 0 170 0 L 180 0 L 180 72 L 0 72 Z" fill="white" />
+
+                  <svg
+                    width="320"
+                    height="110"
+                    viewBox="0 0 320 110"
+                    fill="none"
+                    className="flex-shrink-0"
+                  >
+                    <path
+                      d="
+                        M 0 0
+                        H 24
+                        Q 48 0 48 24
+
+                        V 70
+                        Q 48 110 106 110
+
+                        H 214
+
+                        Q 272 110 272 70
+                        V 24
+
+                        Q 272 0 296 0
+                        H 320
+
+                        V 110
+                        H 0
+                        Z
+                      "
+                      fill="white"
+                    />
                   </svg>
+
                   <div className="flex-1 bg-white rounded-tr-[24px]" />
                 </div>
 
-                {/* Main Card Body */}
-                <div className="bg-white flex-1 rounded-b-[24px] px-8 pb-10 pt-2 text-center flex flex-col">
-                  <h3 className="text-[20px] lg:text-[22px] font-bold text-[#333] mb-4 mt-2">
+                {/* Card Body */}
+                <div className="bg-white flex-1 rounded-b-[24px] px-8 pb-10 pt-8 text-center flex flex-col">
+                  <h3 className="text-[20px] lg:text-[22px] font-bold text-[#333] mb-4">
                     {item.title}
                   </h3>
-                  <p className="
-                text-[#777]
-                text-[14px]
-                sm:text-[15px]
-                md:text-[16px]
-                lg:text-[17px]
-                leading-7
-                lg:leading-8
-                max-w-[44ch] mx-auto flex-1
-                ">
+
+                  <p
+                    className="
+                      text-[#777]
+                      text-[14px]
+                      sm:text-[15px]
+                      md:text-[16px]
+                      lg:text-[17px]
+                      leading-7
+                      lg:leading-8
+                      max-w-[44ch]
+                      mx-auto
+                      flex-1
+                    "
+                  >
                     {item.description}
                   </p>
+
                   <div className="mt-8">
-                    <a href="#" className="inline-block text-sm font-bold text-[#11B5E4] hover:underline">
+                    <a
+                      href="#"
+                      className="inline-block text-sm font-bold text-[#11B5E4] hover:underline"
+                    >
                       Read More &gt;&gt;
                     </a>
                   </div>
                 </div>
 
-                {/* Floating blue icon badge perfectly seated in the cutout */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -mt-[32px]">
-                  <div className="w-[120px] h-[96px] bg-[#11B5E4] rounded-3xl flex items-center justify-center shadow-[0_8px_20px_rgba(17,181,228,0.25)]">
+                {/* Large Floating Badge */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -mt-[60px] z-10">
+                  <div
+                    className="
+                      w-[208px]
+                      h-[159px]
+                      bg-[#11B5E4]
+                      rounded-[32px]
+                      flex
+                      items-center
+                      justify-center
+                      shadow-[0_10px_30px_rgba(17,181,228,0.25)]
+                    "
+                  >
                     <img
                       src={item.icon}
                       alt={item.title}
-                      className="w-16 h-16 object-contain"
+                      className={` ${ index == 1 ? "w-[100px] h-[100px]" : "w-[115px] h-[115px]" } object-contain`}
                     />
                   </div>
                 </div>
