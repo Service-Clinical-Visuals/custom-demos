@@ -33,9 +33,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${exo.variable} ${outfit.variable}`}>
       <body className={outfit.className}>
-        <Navbar />
-        <SmoothAOS />
-        <VideoProvider>{children}</VideoProvider>
+        
+          <Navbar />
+          <div id="fisso-root">
+          <SmoothAOS />
+          <VideoProvider>{children}</VideoProvider>
+        </div>
       </body>
     </html>
   );

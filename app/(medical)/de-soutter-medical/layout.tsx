@@ -26,9 +26,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={outfit.className}>
         {" "}
-        <Navbar />
-        <SmoothAOS />
-        <VideoProvider>{children}</VideoProvider>
+        <div id="desoutter-root">
+          <Navbar />
+          <SmoothAOS />
+          <VideoProvider>{children}</VideoProvider>
+        </div>
       </body>
     </html>
   );
