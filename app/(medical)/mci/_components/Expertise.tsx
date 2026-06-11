@@ -37,7 +37,7 @@ const Expertise = () => {
                     <path d="M0,50 Q25,30 50,50 T100,50 V100 H0 Z" fill="rgba(255,255,255,0.05)" />
                 </svg>
             </div>
-            <div className="container mx-auto px-6 md:px-12 relative z-10">
+            <div className="custom-container mx-auto px-6 md:px-12 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
 
                     {/* Left: Content */}
@@ -64,7 +64,7 @@ const Expertise = () => {
                                     <div className="w-5 h-5 rounded-full bg-white flex items-center justify-center text-[#0e2a5e] shrink-0">
                                         <Check size={12} strokeWidth={4} />
                                     </div>
-                                    <span className="text-base font-medium text-white/90">{item}</span>
+                                    <span className="text-base font-medium 2xl:text-[18px] text-white/90">{item}</span>
                                 </li>
                             ))}
                         </ul>

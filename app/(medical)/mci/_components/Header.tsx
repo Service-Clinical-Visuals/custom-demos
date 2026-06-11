@@ -37,7 +37,7 @@ export default function Header() {
                         : "absolute top-0 left-0 bg-white border-b border-gray-100 py-4"
                         }`}
                 >
-                    <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
+                    <div className="custom-container mx-auto px-6 md:px-12 flex items-center justify-between">
                         {/* Logo Look */}
                         <Link href="/mci" className="shrink-0">
                             <div className="flex items-center gap-1 font-black text-3xl">
@@ -52,7 +52,7 @@ export default function Header() {
                                     <div key={link.name} className="relative group py-2">
                                         <Link
                                             href={link.href}
-                                            className={`${isActive ? "text-secondary" : "text-primary hover:text-secondary"} transition-colors flex items-center gap-1 text-[16px]`}
+                                            className={`${isActive ? "text-secondary" : "text-primary hover:text-secondary"} transition-colors flex items-center gap-1 text-[16px] nav-links`}
                                         >
                                             {link.name}
                                             {link.hasDropdown && <ChevronDown size={14} className="text-secondary" />}
@@ -64,8 +64,8 @@ export default function Header() {
                         </div>
 
                         {/* Right Actions */}
-                        <div className="flex items-center gap-4">
-                            <div className="hidden sm:flex items-center gap-2 text-primary font-bold text-[15px] cursor-pointer group">
+                        <div className="hidden max-[1023px]:flex min-[1400px]:flex items-center gap-4">
+                            <div className="hidden min-[1400px]:flex items-center gap-2 text-primary font-bold text-[15px] cursor-pointer group">
                                 <div className="bg-[#EB1925] p-2 rounded-lg">
                                     <Globe size={20} className="text-white group-hover:scale-110 transition-transform" />
                                 </div>
@@ -78,7 +78,7 @@ export default function Header() {
                                 size="sm"
                                 circleIcon={false}
                                 icon={<Calendar size={18} />}
-                                className="!hidden lg:inline-flex!"
+                                className="!hidden min-[1400px]:!inline-flex"
                             />
 
                             {/* Mobile Hamburger */}

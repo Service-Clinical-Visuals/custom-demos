@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
     return (
         <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/why-bg.png')] bg-cover bg-center relative overflow-hidden">
 
-            <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 relative z-10 items-center">
+            <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 relative z-10 items-center">
                 <div>
                     <SectionHeader
                         label="Why Choose Us"
@@ -81,7 +81,7 @@ const WhyChooseUs = () => {
                     className="relative"
                     data-aos="fade-left"
                 >
-                    <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center">
+                    <div className="aspect-video p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center">
                         <video
                             key={currentVideoIndex}
                             src={bannerVideos[currentVideoIndex]}

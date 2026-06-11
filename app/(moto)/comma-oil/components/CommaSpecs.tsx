@@ -15,25 +15,25 @@ const specs = [
 export default function CommaSpecs() {
   return (
     <section className="bg-[#FFECEC] py-20">
-      <div className="mx-auto grid max-w-[1550px] grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
+      <div className="mx-auto grid max-w-[90%] grid-cols-1 gap-8 2xl:grid-cols-[50fr_50fr] lg:items-center">
 
         {/* Specs left */}
-        <div data-aos="fade-right" data-aos-duration="1000">
-          <span className="content flex max-w-[300px] justify-center items-center rounded-full border bg-[#FD423926] border-[#FF4A43] px-4 py-1 text-[black] uppercase tracking-wider">
+        <div data-aos="fade-right" data-aos-duration="1000" className="flex justify-center flex-col items-center 2xl:items-start">
+          <span className="content max-w-[330px] justify-center font-semibold flex flex-row items-center rounded-full border bg-[#FD423926] border-[#FF4A43] px-2 py-1 text-[black] tracking-wider">
             <><Dot /> Technical Overview</>
           </span>
 
-          <h2 className="mt-4 text-[38px] font-bold leading-tight text-[#1A1A1A]">
+          <h2 className="mt-4 text-[48px] font-normal leading-tight text-[#1A1A1A]">
             Performance Specifications
           </h2>
 
-          <div className="mt-8 grid grid-cols-2 gap-8">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-[400px_400px] gap-[22px] justify-center">
             {specs.map((s, i) => {
               const isRed = (i % 2 + Math.floor(i / 2)) % 2 === 0;
               return isRed ? (
                 <div
                   key={i}
-                  className="flex items-center justify-center bg-[#FF4A43] px-6 py-4 text-[15px] font-semibold text-white transition-all duration-300 hover:brightness-110"
+                  className="flex items-center min-w-[380px] max-w-[400px] min-h-[80px] max-h-[86px] justify-center bg-[#FF4A43] text-[18px] font-medium text-white"
                   style={{
                     clipPath: "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
                     letterSpacing: "0.3px",
@@ -44,7 +44,7 @@ export default function CommaSpecs() {
               ) : (
                 <div
                   key={i}
-                  className="flex items-center justify-center bg-white px-6 py-4 text-[15px] font-semibold text-[#1A1A1A] border border-gray-200"
+                  className="flex items-center min-w-[380px] max-w-[400px] min-h-[80px] max-h-[86px]  justify-center bg-white text-[18px] font-medium text-[#1A1A1A] border border-gray-200"
                   style={{
                     clipPath: "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
                     letterSpacing: "0.3px",
@@ -61,15 +61,12 @@ export default function CommaSpecs() {
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="relative aspect-video w-full overflow-hidden bg-[repeating-conic-gradient(#D4D4D4_0%_25%,#EAEAEA_0%_50%)] bg-[length:32px_32px]"
+          className="relative aspect-video w-full overflow-hidden w-[840px]"
         >
           <DynamicVideoPlayer
             type="short-1"
             className="absolute inset-0 h-full w-full object-cover"
           />
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-            <span className="text-[32px] font-black text-white/30 select-none">Video 01</span>
-          </div>
         </div>
       </div>
     </section>

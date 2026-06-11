@@ -18,7 +18,7 @@ const Footer = () => {
 
     return (
         <footer className="relative pt-20 pb-4 bg-[url('/mci/images/footer-bg.png')] bg-cover bg-center overflow-hidden">
-            <div className="container mx-auto px-6 md:px-12 relative z-10">
+            <div className="custom-container mx-auto px-6 md:px-12 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 items-start">
                     {/* Logo column */}
                     <div className="space-y-6" data-aos="fade-up">
@@ -37,7 +37,7 @@ const Footer = () => {
                                     <li key={item.name}>
                                         <Link
                                             href={item.href}
-                                            className={`${isActive ? "text-red-600 underline font-bold" : "text-gray-600 font-medium"} text-sm lg:text-base hover:text-red-600 transition-colors underline-offset-4 decoration-2`}
+                                            className={`${isActive ? "text-red-600 underline font-semibold" : "text-gray-600 font-medium"} text-sm lg:text-base hover:text-red-600 transition-colors underline-offset-4 decoration-2 nav-links`}
                                         >
                                             {item.name}
                                         </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
                     {/* Contact Info column */}
                     <div className="space-y-6" data-aos="fade-up" data-aos-delay="200">
                         <h4 className="text-gray-900 font-bold text-base lg:text-[20px]">Contact Info</h4>
-                        <div className="space-y-4 text-gray-600 text-sm lg:text-base font-medium">
+                        <div className="space-y-4 text-gray-600 text-sm lg:text-base nav-links font-medium">
                             <p>+01.954.306.2521</p>
                             <p className="max-w-[220px]">
                                 4592 North Hiatus Road, Sunrise, FL 33351 / USA
