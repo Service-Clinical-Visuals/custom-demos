@@ -19,7 +19,7 @@ export default function MedacurePartners() {
 
   return (
     <section className="bg-white py-20">
-      <div className="max-w-380 mx-auto px-6 text-center">
+      <div className="custom-container mx-auto px-6 text-center">
         
         {/* Heading */}
         <p

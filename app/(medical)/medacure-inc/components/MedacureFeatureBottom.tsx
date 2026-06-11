@@ -2,26 +2,26 @@
 
 export default function MedacureFeatureBottom() {
   return (
-    <section className="bg-gray-50 py-20">
-      <div className="relative max-w-380 mx-auto px-6">
+    <section className="bg-gray-50 py-30">
+      <div className="relative custom-container mx-auto px-6">
         
-        <div className="bg-[#2E2662] rounded-2xl px-10 py-22 overflow-hidden">
+        <div className="bg-[#2E2662] rounded-2xl px-10 py-35 overflow-hidden">
           
           {/* TEXT */}
-          <div className="max-w-xl text-white">
-            <h3 className="text-xl md:text-2xl font-semibold mb-4">
+          <div className="max-w-xl 2xl:max-w-[45%] text-white">
+            <h3 className="text-xl md:text-2xl font-semibold mb-4 !leading-[1.4]">
               An elegant collection of quality case goods
               furniture and chairs for senior living.
             </h3>
 
-            <button className="cursor-pointer border border-white px-6 py-3 rounded-full hover:bg-white hover:text-[#2e2463] transition">
+            <button className="cursor-pointer border border-white px-6 py-3 rounded-full hover:bg-white hover:text-[#2e2463] transition download">
               View Collection
             </button>
           </div>
 
           {/* IMAGE (floating right) */}
           <div className=" absolute right-36 -bottom-20 translate-y-10 hidden lg:block">
-            <div className="w-120 h-120 rounded-lg flex items-center justify-center text-gray-600">
+            <div className="w-120 h-120 2xl:w-[500px] 2xl:h-[auto] rounded-lg flex items-center justify-center text-gray-600">
              <img 
               src="/medacure/assets/medacure-furniture.png"
               alt="medacure-feature-bottom"
