@@ -3,8 +3,8 @@
 import React from "react";
 import { BedDouble, Settings, Lightbulb, ArrowUpRight } from "lucide-react";
 import Button from "./Button";
-import Typography from "./Typography";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import Typography from "./Typography";
 
 export default function PrecisionSection() {
   const leftCards = [
@@ -12,13 +12,13 @@ export default function PrecisionSection() {
       title: "Patient Positioning",
       body: "Patient positioning refers to the way patients are positioned and...",
       href: "#patient-positioning",
-      icon: <BedDouble size={22} strokeWidth={1.5} />,
+      icon: "/medical/fisso-medical/specific1.png",
     },
     {
       title: "Adaptable and Ergonomic Designs",
       body: "Fisso's positioning systems are user-friendly and...",
       href: "#ergonomic-designs",
-      icon: <Settings size={22} strokeWidth={1.5} />,
+      icon: "/medical/fisso-medical/specific2.png",
     },
   ];
 
@@ -27,59 +27,61 @@ export default function PrecisionSection() {
       title: "Fisso's Patient Positioning Solutions",
       body: "Fisso offers advanced patient positioning systems....",
       href: "#positioning-solutions",
-      icon: <BedDouble size={22} strokeWidth={1.5} />,
+      icon: "/medical/fisso-medical/specific3.png",
     },
     {
       title: "Commitment to Innovation",
       body: "Fisso continuously enhances its positioning systems with....",
       href: "#innovation-commitment",
-      icon: <Lightbulb size={22} strokeWidth={1.5} />,
+      icon: "/medical/fisso-medical/specific4.png",
     },
   ];
 
   return (
     <section
       id="precision"
-      className="w-full flex justify-center px-3 sm:px-4 lg:px-6 2xl:px-8 py-4 sm:py-5 lg:py-6 2xl:py-8 bg-white"
+      className="w-full bg-white px-3 sm:px-4 lg:px-6 2xl:px-8 py-4 sm:py-5 lg:py-6 2xl:py-8"
     >
-      <div className="w-full max-w-[1400px] 2xl:max-w-[1760px] flex flex-col">
+      <div className="w-full max-w-[1400px] 2xl:max-w-[1760px] mx-auto flex flex-col">
+
+        {/* Banner */}
         <div
-          className="relative w-full overflow-hidden bg-gradient-to-r from-[#9C0B38] to-[#80072C] text-center rounded-2xl sm:rounded-3xl 2xl:rounded-[28px] pt-12 pb-24 sm:pt-16 sm:pb-32 lg:pt-20 lg:pb-40 2xl:pt-24 2xl:pb-48"
+          className="relative w-full overflow-hidden text-center rounded-[30px] pt-10 pb-16 sm:pt-14 sm:pb-24 lg:pt-16 lg:pb-36 2xl:pt-20 2xl:pb-44"
           data-aos="fade-up"
         >
           <div className="absolute inset-0 z-0">
             <img
-              src="/medical/fisso-medical/background1.jpg"
+              src="/medical/fisso-medical/background2.png"
               alt=""
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-[#9C0B38]/20" />
           </div>
 
-          <div className="relative z-10 max-w-[800px] 2xl:max-w-[1200px] mx-auto px-6">
+          <div className="relative z-10 max-w-[800px] 2xl:max-w-[1000px] mx-auto px-6">
             <Typography
               variant="h2"
               color="white"
-              weight="semibold"
-              className="leading-tight mb-3"
+              className="leading-[150%] tracking-[0.005em] mb-3"
             >
               Engineered for Precision, Comfort, and Efficiency
             </Typography>
             <Typography
               variant="body"
               color="white"
-              className="opacity-90 leading-relaxed"
+              className="opacity-90 leading-[150%] tracking-normal text-[14px] sm:text-[15px] lg:text-[16px] 2xl:text-[18px]"
             >
-              FISSO solutions deliver precision, flexibility, and ergonomic
-              support for efficient surgical workflows.
+              FISSO solutions deliver precision, flexibility, and ergonomic support for efficient surgical workflows.
             </Typography>
           </div>
         </div>
 
-        <div className="relative z-20 w-full px-4 sm:px-6 lg:px-8 2xl:px-10 mt-6 sm:mt-8 lg:mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-6 2xl:gap-8 items-start">
+        {/* Overlapping grid */}
+        <div className="relative z-20 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6 2xl:gap-8 xl:mt-2 items-start">
+
+            {/* Left cards */}
             <div
-              className="lg:col-span-3 flex flex-col gap-4 sm:gap-5 2xl:gap-6 order-2 lg:order-1"
+              className="lg:col-span-3 flex flex-col xl:mt-[-3] p-3 xl:px-4 xl:py-9 gap-4 sm:gap-5 order-2 lg:order-1"
               data-aos="fade-right"
             >
               {leftCards.map((card, i) => (
@@ -87,17 +89,23 @@ export default function PrecisionSection() {
               ))}
             </div>
 
+            {/* Center video
+                spec: 985×506, border-radius 30px
+                aspect-[985/506] preserves the exact ratio at every screen size
+                -mt pulls it up to overlap the banner bottom
+            */}
             <div
-              className="lg:col-span-6 order-1 lg:order-2 mt-[-45px] sm:mt-[-60px] lg:mt-[-85px] 2xl:mt-[-105px] relative z-30"
+              className="lg:col-span-6 order-1 lg:order-2 relative z-30 -mt-12 sm:-mt-16 lg:-mt-24 2xl:-mt-32"
               data-aos="zoom-in"
             >
-              <div className="relative w-full overflow-hidden rounded-2xl sm:rounded-3xl h-[220px] sm:h-[300px] lg:h-[380px] 2xl:h-[460px]">
+              <div className="relative w-full overflow-hidden rounded-[30px] aspect-[985/506]">
                 <DynamicVideoPlayer type="360" />
               </div>
             </div>
 
+            {/* Right cards */}
             <div
-              className="lg:col-span-3 flex flex-col gap-4 sm:gap-5 2xl:gap-6 order-3"
+              className="lg:col-span-3 xl:mt-[-3] p-3 xl:px-4 xl:py-9 flex flex-col gap-4 sm:gap-5 order-3"
               data-aos="fade-left"
             >
               {rightCards.map((card, i) => (
@@ -107,10 +115,8 @@ export default function PrecisionSection() {
           </div>
         </div>
 
-        <div
-          className="mt-8 sm:mt-10 lg:mt-12 flex justify-center z-20"
-          data-aos="fade-up"
-        >
+        {/* CTA */}
+        <div className="mt-8 sm:mt-10 lg:mt-10 xl:mt-[-10] flex justify-center z-20" data-aos="fade-up">
           <Button
             href="#specs"
             variant="primary"
@@ -120,6 +126,7 @@ export default function PrecisionSection() {
             Product Specifications
           </Button>
         </div>
+
       </div>
     </section>
   );
@@ -134,41 +141,49 @@ function CardItem({
   title: string;
   body: string;
   href: string;
-  icon: React.ReactNode;
+  icon: string | React.ReactNode;
 }) {
   return (
-    <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] transition-all duration-300 flex items-stretch gap-4 min-h-[140px] sm:min-h-[150px] 2xl:min-h-[160px] w-full">
+    <div className="bg-white border border-gray-100 flex items-stretch gap-4 w-full rounded-[10px] p-4 shadow-[0px_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] transition-all duration-300 min-h-[140px] sm:min-h-[150px] 2xl:min-h-[164px]">
+
       <div className="flex-1 min-w-0 text-left flex flex-col justify-between">
         <div>
           <Typography
-            variant="h3"
+            variant="h4"
             color="dark"
-            weight="bold"
-            className="leading-snug mb-1.5 text-[#212121]"
+            className="font-semibold text-[15px] sm:text-[17px] 2xl:text-[20px]"
           >
             {title}
           </Typography>
           <Typography
             variant="body"
-            color="muted"
-            className="leading-relaxed text-[#555555] mb-3"
+            color="none"
+            className="text-[#555555] text-[12px] sm:text-[13px] 2xl:text-[18px]"
           >
             {body}
           </Typography>
-        </div>
-        <div>
-          <a
+          <Typography
+            as="a"
+            variant="small"
+            color="primary"
             href={href}
-            className="inline-flex items-center gap-0.5 text-[12px] font-bold text-[#9C0B38] hover:underline"
+            className="inline-flex items-center gap-0.5 font-bold hover:underline"
           >
             Read More <ArrowUpRight size={12} strokeWidth={2.5} />
-          </a>
+          </Typography>
         </div>
+
+
       </div>
 
-      <div className="shrink-0 self-start w-10 h-10 sm:w-11 sm:h-11 bg-[#9C0B38] rounded-xl flex items-center justify-center text-white shadow-sm">
-        {icon}
+      <div className="shrink-0 self-start w-8 h-8 lg:w-12 lg:h-12 xl:w-14 xl:h-14 bg-[#9C0B38] rounded-xl flex items-center justify-center text-white">
+        {typeof icon === "string" ? (
+          <img src={icon} alt={title} className="w-5 h-5 lg:w-7 lg:h-7 xl:w-10 xl:h-10" />
+        ) : (
+          icon
+        )}
       </div>
+
     </div>
   );
 }

@@ -13,7 +13,8 @@ export default function News() {
       image: "/medical/fisso-medical/news1.png",
       date: "30. March 2026",
       title: "The New FISSO Patient Positioning System",
-      snippet: "Discover the new products in the patient positioning category",
+      snippet:
+        "Discover the new products in the patient positioning category",
     },
     {
       id: 2,
@@ -21,7 +22,7 @@ export default function News() {
       date: "28. February 2025",
       title: "Interview with our CEO about AI",
       snippet:
-        "In which areas are you planning to integrate automation or AI tools?....",
+        "In which areas are you planning to integrate automation or AI tools?...",
     },
     {
       id: 3,
@@ -37,7 +38,7 @@ export default function News() {
       date: "14. November 2023",
       title: "Fall Company Event",
       snippet:
-        "This year's fall event took us to the Zwicky-Areal in Wallisellen....",
+        "This year's fall event took us to the Zwicky-Areal in Wallisellen...",
     },
   ];
 
@@ -52,118 +53,146 @@ export default function News() {
   return (
     <section
       id="news"
-      className="w-full flex justify-center px-3 sm:px-4 lg:px-6 2xl:px-8 py-16 bg-white border-t border-gray-50"
+      className="w-full flex justify-center px-3 sm:px-4 lg:px-6 pt-16 bg-white"
     >
-      <div className="w-full max-w-[1400px] 2xl:max-w-[1760px] flex flex-col gap-12 sm:gap-16">
-        <div className="text-center max-w-3xl mx-auto" data-aos="fade-up">
-          <Typography
-            variant="h2"
-            color="dark"
-            weight="semibold"
-            className="mb-4"
-          >
+      <div className="w-full max-w-[1400px] 2xl:max-w-[1760px] mx-auto flex flex-col gap-14">
+
+        {/* Header */}
+        <div className="text-center max-w-3xl mx-auto">
+          <Typography variant="h2" weight="semibold" className="mb-4">
             Our News
           </Typography>
-          <Typography variant="body" color="muted" className="leading-relaxed">
+          <Typography variant="body" color="muted">
             Stay updated with the latest news, innovations, events, and
             milestones from FISSO as we continue to advance precision
             engineering and medical support solutions worldwide.
           </Typography>
         </div>
 
+        {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {newsItems.map((item, idx) => (
+          {newsItems.map((item) => (
             <div
               key={item.id}
-              className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.01)] flex flex-col hover:shadow-[0_12px_40px_rgb(0,0,0,0.05)] hover:-translate-y-1 transition-all duration-300 group text-left"
-              data-aos="fade-up"
-              data-aos-delay={idx * 100}
+              className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm flex flex-col h-full group hover:shadow-md hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="relative aspect-[16/10] w-full overflow-hidden bg-gray-50 border-b border-gray-50">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-103"
-                />
+              {/* Image */}
+              <div className="p-4">
+                <div className="w-full h-[180px] sm:h-[200px] lg:h-[240px] xl:h-[270px] rounded-xl overflow-hidden ">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover shadow-[0_6px_16px_rgba(156,163,175,0.25)]  object-center scale-[1.08]"
+                  />
+                </div>
               </div>
+              {/* Content */}
+              <div className="p-5 flex flex-col flex-grow">
 
-              <div className="p-6 flex flex-col flex-grow">
+                {/* Title */}
                 <Typography
-                  variant="h3"
-                  color="dark"
+                  variant="h4"
                   weight="bold"
-                  className="mb-1 line-clamp-2 leading-snug min-h-[48px] group-hover:text-[#9C0B38] transition-colors"
+                  className="text-[15px] leading-snug min-h-[44px] group-hover:text-[#9C0B38] transition-colors"
                 >
                   {item.title}
                 </Typography>
 
-                <span className="text-[11px] font-semibold text-gray-400 mb-3 block">
+                {/* Date */}
+                <Typography
+                  variant="h6"
+                  color="none"
+                  className="text-[13px] text-gray-400 mt-2 mb-3 block"
+                >
                   {item.date}
-                </span>
+                </Typography>
+                <hr className="h-px w-full border-gray-200 mb-2" />
 
+                {/* Description */}
                 <Typography
                   variant="body"
                   color="muted"
-                  className="leading-relaxed mb-5 line-clamp-3"
+                  className="text-[13px] leading-relaxed line-clamp-3 flex-grow"
                 >
                   {item.snippet}
                 </Typography>
 
-                <a
+                {/* Read More */}
+                <Typography
+                  as="a"
+                  variant="body"
+                  color="primary"
                   href={`#news-${item.id}`}
-                  className="text-xs sm:text-sm font-semibold text-[#9C0B38] hover:underline flex items-center gap-1 mt-auto"
+                  className="font-semibold text-[18px] mt-4 hover:underline block"
                 >
                   Read More &gt;&gt;
-                </a>
+                </Typography>
               </div>
             </div>
           ))}
         </div>
 
-        <div
-          className="bg-gray-50/50 border border-gray-100 rounded-3xl p-6 sm:p-8 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 text-left"
-          data-aos="fade-up"
-        >
-          <div className="flex gap-4 items-center flex-grow">
-            <div className="w-14 h-14 rounded-2xl border border-gray-200 flex items-center justify-center text-gray-700 bg-white shrink-0 shadow-sm">
-              <Mail size={22} strokeWidth={1.5} />
+        {/* Subscribe Section */}
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl px-6 py-5 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+
+          {/* LEFT */}
+          <div className="flex items-center gap-5 flex-1">
+
+            {/* Icon */}
+            <div className="w-12 h-12 xl:w-15 xl:h-15 flex items-center justify-center">
+              <Mail size={22} className="text-gray-800 xl:h-10 xl:w-19" />
             </div>
-            <div className="flex flex-col gap-1">
+
+            {/* Divider */}
+            <div className="w-px h-12 bg-gray-300" />
+
+            {/* Text */}
+            <div className="flex flex-col">
               <Typography
-                variant="h3"
-                color="dark"
+                variant="h4"
                 weight="semibold"
-                className="leading-tight"
+                className="text-gray-800 leading-tight"
               >
                 Stay Updated with FISSO Innovations
               </Typography>
+
               <Typography
                 variant="body"
                 color="muted"
-                className="leading-relaxed"
+                className="text-[13px] mt-1 leading-relaxed"
               >
                 Subscribe to receive the latest news, product updates, and
                 industry insights from FISSO.
               </Typography>
             </div>
+
           </div>
 
-          <form onSubmit={handleSubmit} className="w-full lg:w-auto shrink-0">
-            <div className="flex items-center bg-white border border-gray-200 rounded-xl p-1.5 w-full lg:w-[420px] shadow-sm focus-within:border-gray-300 transition-colors">
-              <input
-                type="email"
-                required
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="px-3 py-2 text-sm text-gray-700 bg-transparent placeholder-gray-400 outline-none flex-grow"
-              />
+          {/* RIGHT */}
+          <form onSubmit={handleSubmit} className="w-full lg:w-auto">
+            <div className="flex items-center w-full lg:w-[420px] bg-white border border-[#9C0B38] rounded-md overflow-hidden">
+
+              {/* Input + icon */}
+              <div className="flex items-center flex-grow px-3">
+                <Mail size={20} className="text-gray-400 mr-2" />
+                <input
+                  type="email"
+                  required
+                  placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-full py-2 text-sm text-gray-700 bg-transparent outline-none"
+                />
+              </div>
+
+              {/* Button */}
               <button
                 type="submit"
-                className="bg-[#9C0B38] text-white hover:bg-[#85082e] px-6 py-2.5 rounded-lg font-semibold text-sm transition-all shrink-0 cursor-pointer shadow-sm active:scale-98"
+                className="bg-[#9C0B38] text-white px-6 py-2.5 text-sm font-semibold hover:bg-[#85082e] transition"
               >
                 Subscribe
               </button>
+
             </div>
           </form>
         </div>

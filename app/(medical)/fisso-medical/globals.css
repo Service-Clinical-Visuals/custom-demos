@@ -1,123 +1,133 @@
 @import "tailwindcss";
 
-/* ─────────────────────────────────────────
+/* ═══════════════════════════════════════════════════
    DESIGN TOKENS
-───────────────────────────────────────── */
+═══════════════════════════════════════════════════ */
 @layer base {
   :root {
-    --primary:    #9c0b38;
-    --text-dark:  #212121;
-    --text-body:  #333333;
-
-    /* Fluid container padding */
-    --container-px: clamp(1rem, 3vw, 3.5rem);
+    --primary: #9c0b38;
+    --text-dark: #212121;
+    --text-body: #333333;
+    --text-muted: #666666;
+    --bg-white: #ffffff;
+    --radius-card: 1.5rem;
   }
 
-  html, body {
+  html,
+  body {
     font-family: var(--font-outfit), sans-serif;
     color: var(--text-body);
-    background-color: #ffffff;
+    background-color: var(--bg-white);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-outfit), sans-serif;
     color: var(--text-dark);
   }
 
-  /* Prevent horizontal scroll on all screens */
-  html { overflow-x: hidden; }
-  body { overflow-x: hidden; }
+  /* Block horizontal overflow globally */
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
-/* ─────────────────────────────────────────
-   BREAKPOINT TOKENS (Tailwind v4 @theme)
-───────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════
+   TAILWIND THEME TOKENS
+═══════════════════════════════════════════════════ */
 @theme {
   --font-outfit: var(--font-outfit);
-
-  /* Custom breakpoints */
-  --breakpoint-xs:   480px;
-  --breakpoint-3xl:  1920px;
-  --breakpoint-4xl:  2560px;
-
-  /* Nest Hub = 1024×600, Nest Hub Max = 1280×800 — covered by lg/xl */
+  --breakpoint-xs: 480px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
 }
 
-/* ─────────────────────────────────────────
-   GLOBAL CONTAINER
-   Centred, max-width clamped per breakpoint
-───────────────────────────────────────── */
-section { overflow: hidden; }
-
-/* ─────────────────────────────────────────
-   FLUID TYPOGRAPHY SCALE
-   Overrides Typography.tsx at xl / 2xl / 3xl
-   without touching the component
-───────────────────────────────────────── */
-
-/* 1440px — Nest Hub Max / laptop HD */
-@media (min-width: 1440px) {
-  .fisso-h1   { font-size: clamp(3rem,   3.5vw, 4rem)   !important; }
-  .fisso-h2   { font-size: clamp(2rem,   2.4vw, 2.8rem) !important; }
-  .fisso-h3   { font-size: clamp(1.2rem, 1.5vw, 1.6rem) !important; }
-  .fisso-body { font-size: clamp(0.9rem, 1vw,   1.05rem) !important; }
+/* ═══════════════════════════════════════════════════
+   SECTION OVERFLOW GUARD
+═══════════════════════════════════════════════════ */
+section {
+  overflow: hidden;
 }
 
-/* 1920px — Full HD desktop / 3xl */
-@media (min-width: 1920px) {
-  .fisso-h1   { font-size: clamp(3.5rem, 4vw,   5rem)   !important; }
-  .fisso-h2   { font-size: clamp(2.4rem, 2.8vw, 3.2rem) !important; }
-  .fisso-h3   { font-size: clamp(1.4rem, 1.6vw, 1.8rem) !important; }
-  .fisso-body { font-size: clamp(1rem,   1.1vw, 1.15rem) !important; }
-}
-
-/* 2560px — 2K / ultrawide */
-@media (min-width: 2560px) {
-  .fisso-h1   { font-size: clamp(4rem,   4.5vw, 5.5rem) !important; }
-  .fisso-h2   { font-size: clamp(2.8rem, 3.2vw, 3.8rem) !important; }
-  .fisso-h3   { font-size: clamp(1.6rem, 1.8vw, 2.1rem) !important; }
-  .fisso-body { font-size: clamp(1.1rem, 1.2vw, 1.3rem) !important; }
-}
-
-/* ─────────────────────────────────────────
-   GLOBAL IMAGE & VIDEO SAFETY
-───────────────────────────────────────── */
-img, video, iframe {
+/* ═══════════════════════════════════════════════════
+   IMAGE / VIDEO SAFETY
+═══════════════════════════════════════════════════ */
+img,
+video,
+iframe {
   max-width: 100%;
-  height: auto;
+  display: block;
 }
 
-/* ─────────────────────────────────────────
-   SECTION VERTICAL RHYTHM
-   Consistent top/bottom breathing room
-───────────────────────────────────────── */
-.section-spacing {
-  padding-top:    clamp(2.5rem, 5vw, 6rem);
-  padding-bottom: clamp(2.5rem, 5vw, 6rem);
+/* ═══════════════════════════════════════════════════
+   GLOBAL VIEWPORT SCALING SYSTEM
+   Strategy:
+     • ≤ 1440px  → natural layout (desktop reference)
+     • 1440–1920 → gentle scale up via font/spacing only
+     • 1920px+   → zoom the entire page proportionally
+       so desktop layout fills the larger canvas without
+       any component-level changes
+═══════════════════════════════════════════════════ */
+
+/* Reference width: 1440px
+   At 2560px (4K) the page scales to 2560/1440 ≈ 1.78×
+   We use CSS zoom on the root wrapper.
+   This is applied via a JS-free CSS approach using
+   the @media + transform-origin technique.           */
+
+/* 1920px: scale 1.0 (desktop is reference) — no change needed */
+
+/* 2560px (2K / QHD) */
+@media (min-width: 2560px) {
+  #fisso-root {
+    zoom: 1.6;
+    transform-origin: top center;
+  }
 }
 
-/* ─────────────────────────────────────────
-   CARD GRID HELPERS
-───────────────────────────────────────── */
-.card-grid-3 {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: clamp(1rem, 1.5vw, 1.75rem);
+/* 3840px (4K UHD) */
+@media (min-width: 3840px) {
+  #fisso-root {
+    zoom: 2.4;
+    transform-origin: top center;
+  }
 }
-@media (min-width: 640px)  { .card-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (min-width: 1024px) { .card-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
-.card-grid-4 {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: clamp(1rem, 1.5vw, 1.75rem);
+.footer-menu {
+  font-size: 1rem;
 }
-@media (min-width: 640px)  { .card-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (min-width: 1024px) { .card-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
-/* ─────────────────────────────────────────
-   SCROLLBAR (thin, themed)
-───────────────────────────────────────── */
-::-webkit-scrollbar       { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: #f1f1f1; }
-::-webkit-scrollbar-thumb { background: #9c0b38; border-radius: 99px; }
+/* ═══════════════════════════════════════════════════
+   FLUID SPACING — section vertical rhythm
+   Only affects padding, not layout shifts
+═══════════════════════════════════════════════════ */
+.section-py {
+  padding-top: clamp(2rem, 4vw, 5rem);
+  padding-bottom: clamp(2rem, 4vw, 5rem);
+}
+
+/* ═══════════════════════════════════════════════════
+   SCROLLBAR
+═══════════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9c0b38;
+  border-radius: 99px;
+}

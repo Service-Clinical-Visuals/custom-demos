@@ -10,7 +10,7 @@ import Navbar from "./_components/Navbar";
 
 export default function FissoMedicalHome() {
   return (
-    <main className="w-full relative bg-[#FFFFFF] min-h-screen">
+    <main id="fisso-root" className="w-full relative bg-[#FFFFFF] min-h-screen">
       <Navbar />
       <Hero />
       <About />

@@ -17,7 +17,7 @@ export default function PatientPositioning() {
   return (
     <section className="w-full flex justify-center px-3 sm:px-4 lg:px-6 2xl:px-8 py-4 sm:py-5 lg:py-6 2xl:py-8">
       <div
-        className="relative w-full overflow-hidden max-w-full xl:max-w-[1380px] 2xl:max-w-[1760px] rounded-2xl sm:rounded-3xl 2xl:rounded-[28px] shadow-xl px-5 py-10 sm:px-8 sm:py-12 md:px-12 md:py-14 lg:px-14 lg:py-14 2xl:px-20 2xl:py-18"
+        className="relative w-full overflow-hidden max-w-[1400px] 2xl:max-w-[1760px] mx-auto rounded-2xl sm:rounded-3xl 2xl:rounded-[28px] shadow-xl px-5 py-10 sm:px-8 sm:py-12 md:px-12 md:py-14 lg:px-14 lg:py-14 2xl:px-20 2xl:py-16"
         data-aos="fade-up"
       >
         <div className="absolute inset-0 z-0">
@@ -26,7 +26,7 @@ export default function PatientPositioning() {
             alt=""
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-[#4E1E2D]/75" />
+          <div className="absolute inset-0 bg-[#4E1E2D]/40" />
         </div>
 
         <div className="relative z-10 text-center max-w-3xl 2xl:max-w-[1200px] mx-auto mb-8 sm:mb-10 2xl:mb-14">
@@ -51,7 +51,7 @@ export default function PatientPositioning() {
           <div className="w-full h-px bg-white/20 mx-auto mt-6 2xl:mt-8" />
         </div>
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 2xl:gap-16 items-start lg:items-center">
+        <div className="relative z-10 flex flex-col gap-5 sm:gap-6 lg:grid lg:grid-cols-12 lg:gap-10 xl:gap-14 2xl:gap-16 items-start lg:items-center">
           <div className="lg:col-span-5 flex flex-col">
             <Typography
               variant="h3"

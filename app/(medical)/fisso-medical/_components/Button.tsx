@@ -29,7 +29,7 @@ export default function Button({
 }: ButtonProps) {
   // Base classes for premium styling
   const baseClasses =
-    "inline-flex items-center justify-center font-medium tracking-wide transition-all duration-300 rounded-full active:scale-98 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer group select-none";
+    "inline-flex items-center justify-center font-medium tracking-wide transition-all duration-300 rounded-full active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer group select-none";
 
   // Variant classes
   const variantClasses = {
@@ -46,7 +46,7 @@ export default function Button({
   const sizeClasses = {
     sm: "px-5 py-2.5 text-sm",
     md: "px-6 py-3.5 text-base",
-    lg: "px-8 py-4.5 text-lg",
+    lg: "px-8 py-4 text-lg",
   };
 
   const combinedClasses = `
@@ -63,14 +63,10 @@ export default function Button({
     // Use a wrapper to slide the arrow out and in
     return (
       <span className="relative ml-2 w-4 h-4 overflow-hidden flex items-center justify-center">
-        <ArrowUpRight
-          size={16}
-          className="transition-all duration-300 transform group-hover:translate-x-4 group-hover:-translate-y-4"
-        />
-        <ArrowUpRight
-          size={16}
-          className="absolute transition-all duration-300 transform -translate-x-4 translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0"
-        />
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 11L17 6L12 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 17V10C1 8.93913 1.42143 7.92172 2.17157 7.17157C2.92172 6.42143 3.93913 6 5 6H17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
       </span>
     );
   };

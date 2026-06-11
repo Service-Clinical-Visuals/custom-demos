@@ -14,7 +14,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-[#1A1C1E] text-white pt-16 pb-8 px-4 sm:px-6 lg:px-8 flex justify-center">
-      <div className="w-full max-w-[1400px] 2xl:max-w-[1760px] flex flex-col gap-12">
+      <div className="w-full max-w-[1400px] 2xl:max-w-[1760px] mx-auto flex flex-col gap-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-16 pb-12 border-b border-white/10">
           <div
             className="lg:col-span-4 flex flex-col gap-6 text-left"
@@ -24,13 +24,13 @@ export default function Footer() {
               <img
                 src="/medical/fisso-medical/fisso-logo-footer.png"
                 alt="FISSO Swiss Made Logo"
-                className="h-[56px] lg:h-[70px] 2xl:h-[90px] w-auto object-contain "
+                className="h-[100px] lg:h-[90px] xl:h-[100px] xl:w-[250px] 2xl:h-[100px] 2xl:w-[300px] object-contain "
               />
             </Link>
             <Typography
               variant="body"
               color="none"
-              className="text-gray-400 leading-relaxed max-w-sm"
+              className="text-wh leading-relaxed max-w-md"
             >
               FISSO is a global leader in articulated arm systems, delivering
               precision holding solutions for medical and industrial
@@ -78,7 +78,7 @@ export default function Footer() {
             data-aos-delay="100"
           >
             <Typography
-              variant="body"
+              variant="h4"
               color="none"
               weight="semibold"
               className="text-white"
@@ -89,9 +89,9 @@ export default function Footer() {
               <li>
                 <Link href="#products" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Medical Solutions
                   </Typography>
@@ -100,9 +100,9 @@ export default function Footer() {
               <li>
                 <Link href="#products" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Industrial Solutions
                   </Typography>
@@ -111,9 +111,9 @@ export default function Footer() {
               <li>
                 <Link href="#products" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Patient Positioning
                   </Typography>
@@ -122,9 +122,9 @@ export default function Footer() {
               <li>
                 <Link href="#products" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Articulated Arms
                   </Typography>
@@ -133,9 +133,9 @@ export default function Footer() {
               <li>
                 <Link href="#products" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Accessories
                   </Typography>
@@ -150,7 +150,7 @@ export default function Footer() {
             data-aos-delay="200"
           >
             <Typography
-              variant="body"
+              variant="h4"
               color="none"
               weight="semibold"
               className="text-white"
@@ -161,9 +161,9 @@ export default function Footer() {
               <li>
                 <Link href="#company" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     About Us
                   </Typography>
@@ -172,9 +172,9 @@ export default function Footer() {
               <li>
                 <Link href="#company" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Team
                   </Typography>
@@ -183,9 +183,9 @@ export default function Footer() {
               <li>
                 <Link href="#company" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Careers
                   </Typography>
@@ -194,9 +194,9 @@ export default function Footer() {
               <li>
                 <Link href="#news" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     News & Events
                   </Typography>
@@ -211,7 +211,7 @@ export default function Footer() {
             data-aos-delay="300"
           >
             <Typography
-              variant="body"
+              variant="h4"
               color="none"
               weight="semibold"
               className="text-white"
@@ -222,9 +222,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Legal Notice
                   </Typography>
@@ -233,9 +233,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Terms of Use
                   </Typography>
@@ -244,9 +244,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Privacy Policy
                   </Typography>
@@ -255,9 +255,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Privacy Settings
                   </Typography>
@@ -272,20 +272,20 @@ export default function Footer() {
             data-aos-delay="400"
           >
             <Typography
-              variant="body"
+              variant="h4"
               color="none"
               weight="semibold"
               className="text-white"
             >
               Support
             </Typography>
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col gap-3 footer-menu">
               <li>
                 <Link href="#company" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Contact
                   </Typography>
@@ -294,9 +294,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Trade Fairs
                   </Typography>
@@ -305,9 +305,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     Downloads
                   </Typography>
@@ -316,9 +316,9 @@ export default function Footer() {
               <li>
                 <Link href="#" className="group">
                   <Typography
-                    variant="small"
+                    variant="body"
                     color="none"
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   >
                     FAQ
                   </Typography>
@@ -328,10 +328,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 pt-8 w-full isolate">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 xl:gap-30  w-full isolate">
           {/* Left Side: Swiss Safety Center logo */}
           <div className="flex items-center justify-center">
-            <div className="w-16 h-16 select-none shrink-0 flex items-center justify-center mix-blend-screen">
+            <div className="w-16 h-16  xl:h-25 xl:w-25 select-none shrink-0 flex items-center justify-center mix-blend-screen">
               <img
                 src="/medical/fisso-medical/footer-logo.png"
                 alt="Swiss Safety Center Logo"
@@ -341,14 +341,14 @@ export default function Footer() {
           </div>
 
           {/* Divider Left */}
-          <div className="w-px h-12 bg-white/10 hidden md:block" />
+          <div className="w-px h-12 bg-white/60 hidden md:block" />
 
           {/* Center: Copyright */}
           <div className="flex items-center justify-center">
             <Typography
-              variant="small"
+              variant="h5"
               color="none"
-              className="text-gray-400 leading-relaxed text-center"
+              className="text-white leading-relaxed text-center"
             >
               © 2026 OHST Orthopedic Solutions. All
               <br />
@@ -357,7 +357,7 @@ export default function Footer() {
           </div>
 
           {/* Divider Right */}
-          <div className="w-px h-12 bg-white/10 hidden md:block" />
+          <div className="w-px h-12 bg-white/60 hidden md:block" />
 
           {/* Right Side: Back to Top */}
           <div className="flex items-center justify-center">
@@ -365,11 +365,11 @@ export default function Footer() {
               onClick={scrollToTop}
               className="flex items-center gap-3 group text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
             >
-              <div className="w-12 h-12 rounded-full border border-white flex items-center justify-center text-white group-hover:border-gray-300 transition-all duration-300">
-                <ChevronUp size={24} className="stroke-[1.5]" />
+              <div className="w-12 h-12  rounded-full border border-white border-[3px] xl:h-22 xl:w-22 flex items-center justify-center text-white group-hover:border-gray-300 transition-all duration-300">
+                <ChevronUp size={18} className="stroke-[1.5] mb-2  xl:h-18 xl:w-18 " />
               </div>
               <Typography
-                variant="small"
+                variant="h4"
                 color="none"
                 className="font-medium tracking-wide text-white group-hover:text-gray-300 transition-colors"
               >
