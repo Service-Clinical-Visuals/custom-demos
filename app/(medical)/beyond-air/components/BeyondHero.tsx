@@ -34,7 +34,7 @@ export default function BeyondHero() {
       {/* <div className="absolute inset-0 bg-black/40" /> */}
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-end h-full text-center px-4 pb-20 max-w-380 mx-auto">
+      <div className="relative z-10 flex flex-col items-center justify-end h-full text-center px-4 pb-20 custom-container mx-auto">
         <div className="">
         <h1
           className="text-white text-[28px] md:text-[35px] font-semibold mb-3"
@@ -43,7 +43,7 @@ export default function BeyondHero() {
           Transforming Healthcare with Nitric Oxide Innovation
         </h1>
         <p
-          className="text-gray-300 text-sm md:text-2xl"
+          className="text-white text-sm md:text-2xl 2xl:max-w-[90%] mx-auto leading-relaxed"
           data-aos="fade-up"
           data-aos-delay="200"
         >

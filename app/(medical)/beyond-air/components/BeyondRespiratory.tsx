@@ -15,8 +15,8 @@ export default function BeyondRespiratory() {
   };
 
   return (
-    <section className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-12">
-      <div className="max-w-380 mx-auto text-center">
+    <section className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-12"  style={{ fontFamily: "var(--font-outfit)" }}>
+      <div className="custom-container mx-auto text-center">
 
         {/* LABEL */}
         <p
@@ -39,7 +39,7 @@ export default function BeyondRespiratory() {
         <p
           data-aos="fade-up"
           data-aos-delay="200"
-          className="mt-4 text-gray-500 text-base max-w-5xl mx-auto leading-relaxed"
+          className="mt-4 text-gray-500 text-base max-w-[90%] mx-auto leading-relaxed"
         >
           Our LungFit platform delivers precise nitric oxide therapy for pulmonary conditions such as neonatal respiratory failure, pneumonia, and lung infections. These solutions are designed for hospital and at-home care, improving treatment flexibility and effectiveness.
         </p>
@@ -52,7 +52,7 @@ export default function BeyondRespiratory() {
           {/* VIDEO CARD */}
           <div
             data-aos="zoom-in"
-            className="relative z-10 w-full max-w-340 rounded-xl overflow-hidden shadow-md bg-white"
+            className="relative z-10 w-full max-w-340 2xl:max-w-[90%] aspect-video rounded-xl overflow-hidden shadow-md bg-white"
           >
             <video
               key={currentVideoIndex}

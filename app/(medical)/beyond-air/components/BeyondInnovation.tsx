@@ -18,7 +18,7 @@ export default function BeyondInnovation() {
 
   return (
     <section
-      className="w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-12 text-white relative overflow-hidden"
+      className="w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-12 text-white relative overflow-hidden" style={{ fontFamily: "var(--font-outfit)" }}
     >
       {/* BACKGROUND IMAGE (you will replace) */}
       <div className="absolute inset-0 -z-10">
@@ -27,11 +27,11 @@ export default function BeyondInnovation() {
         <img src="/beyond-air/assets/beyond-bg.png" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
 
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <div className="custom-container mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
         {/* LEFT MEDIA */}
         <div data-aos="fade-right">
-          <div className="relative w-full h-56 sm:h-80 lg:h-130 rounded-2xl overflow-hidden">
+          <div className="relative w-full aspect-video rounded-2xl overflow-hidden">
             <video
               key={currentVideoIndex}
               src={videos[currentVideoIndex]}
@@ -68,7 +68,7 @@ export default function BeyondInnovation() {
             
             {/* ITEM */}
             <div className="flex items-start gap-3">
-                <CircleCheck className="text-[#00A4E4] mt-1 fill-white shrink-0" size={25} />
+                <CircleCheck className="text-[#00A4E4] mt-1 fill-white shrink-0" size={50} />
               {/* <CheckCircle className="text-white mt-1" size={20} /> */}
               <div>
                 <p className="font-medium text-lg">LungFit® Technology</p>
@@ -79,7 +79,7 @@ export default function BeyondInnovation() {
             </div>
 
             <div className="flex items-start gap-3">
-             <CircleCheck className="text-[#00A4E4] mt-1 fill-white shrink-0" size={25} />
+             <CircleCheck className="text-[#00A4E4] mt-1 fill-white shrink-0" size={50} />
 
               <div>
                 <p className="font-medium text-lg">Revolutionizing Nitric Oxide Therapy</p>
@@ -90,7 +90,7 @@ export default function BeyondInnovation() {
             </div>
 
             <div className="flex items-start gap-3">
-                              <CircleCheck className="text-[#00A4E4] mt-1 fill-white shrink-0" size={25} />
+                <CircleCheck className="text-[#00A4E4] mt-1 fill-white shrink-0" size={50} />
 
               <div>
                 <p className="font-medium text-lg">Latest News</p>
@@ -103,10 +103,10 @@ export default function BeyondInnovation() {
           </div>
 
           {/* CTA */}
-          <button className="mt-6 cursor-pointer flex items-center justify-center sm:justify-start gap-3 w-full sm:w-auto bg-white text-[#333333] px-5 py-3 rounded-full text-base font-medium hover:bg-gray-100 transition">
+          <button className="mt-6 cursor-pointer flex items-center justify-center sm:justify-start gap-3 w-full sm:w-auto bg-white text-[#333333] px-5 py-3 rounded-full text-base font-medium hover:bg-gray-100 transition download">
             Learn More Innovations
-            <span className="bg-[#00A4E4] text-white rounded-full p-1">
-              <ArrowRight size={16} />
+            <span className="bg-[#00A4E4] text-white rounded-full p-1 ">
+              <ArrowRight className="w-5 h-5 2xl:w-6 2xl:h-6 4xl:w-12 4xl:h-12"  />
             </span>
           </button>
 
