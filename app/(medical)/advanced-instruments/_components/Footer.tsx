@@ -49,7 +49,7 @@ const Footer = () => {
     return (
         <>
             <footer className="bg-white border-t border-gray-100 py-10 md:pt-16 md:pb-8 overflow-hidden" id="footer">
-                <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-12 gap-x-8 lg:gap-x-4">
+                <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-12 gap-x-8 lg:gap-x-4">
                     {/* Brand Column */}
                     <div className="lg:col-span-3 space-y-6" data-aos="fade-up">
                         <Link href="/advanced-instruments" className="flex items-center group">
@@ -62,7 +62,7 @@ const Footer = () => {
 
                     {/* Quick Links Column */}
                     <div className="lg:col-span-2" data-aos="fade-up" data-aos-delay="100">
-                        <h4 className="text-[#1a1a1a] font-bold text-lg mb-7 tracking-wider">
+                        <h4 className="text-[#1a1a1a] font-semibold text-lg mb-7 tracking-wider">
                             Quick Links
                         </h4>
                         {renderLinks(footerLinks.quickLinks)}
@@ -70,7 +70,7 @@ const Footer = () => {
 
                     {/* Company Column */}
                     <div className="lg:col-span-2" data-aos="fade-up" data-aos-delay="200">
-                        <h4 className="text-[#1a1a1a] font-bold text-lg mb-7 tracking-wider">
+                        <h4 className="text-[#1a1a1a] font-semibold text-lg mb-7 tracking-wider">
                             Company
                         </h4>
                         {renderLinks(footerLinks.company)}
@@ -78,7 +78,7 @@ const Footer = () => {
 
                     {/* Category Column */}
                     <div className="lg:col-span-2" data-aos="fade-up" data-aos-delay="300">
-                        <h4 className="text-[#1a1a1a] font-bold text-lg mb-7 tracking-wider">
+                        <h4 className="text-[#1a1a1a] font-semibold text-lg mb-7 tracking-wider">
                             Category
                         </h4>
                         {renderLinks(footerLinks.category)}
@@ -86,7 +86,7 @@ const Footer = () => {
 
                     {/* Contact Column */}
                     <div className="lg:col-span-3" data-aos="fade-up" data-aos-delay="400">
-                        <h4 className="text-[#1a1a1a] font-bold text-lg mb-7 tracking-wider">
+                        <h4 className="text-[#1a1a1a] font-semibold text-lg mb-7 tracking-wider">
                             Contact Info
                         </h4>
                         <div className="space-y-6">
@@ -107,7 +107,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <div className="container mx-auto px-4 md:px-0 py-6 border-t border-gray-200 flex flex-col md:flex-row items-center justify-center">
+            <div className="custom-container mx-auto px-4 md:px-0 py-6 border-t border-gray-200 flex flex-col md:flex-row items-center justify-center">
                 <p className="text-[#1a1a1a] text-sm tracking-wider text-center md:text-left">
                     © 2026 Advanced Instrumentations. All rights reserved.
                 </p>

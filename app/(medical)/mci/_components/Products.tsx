@@ -35,7 +35,7 @@ const Products = () => {
     ];
     return (
         <section className="py-24 bg-gray-50/30">
-            <div className="container mx-auto px-6 md:px-12">
+            <div className="custom-container mx-auto px-6 md:px-12">
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16" data-aos="fade-up">
                     <div className="space-y-6 max-w-3xl">
                         <SectionHeader
@@ -69,7 +69,7 @@ const Products = () => {
                                     {product.description}
                                 </p>
                                 <div className="relative group/link inline-block">
-                                    <Link href="#" className="inline-flex items-center gap-2 text-secondary font-bold text-sm lg:text-base transition-colors">
+                                    <Link href="#" className="inline-flex items-center gap-2 text-secondary font-bold text-sm lg:text-base transition-colors 2xl:text-[18px]">
                                         Learn More <ExternalLink size={14} />
                                     </Link>
                                     <span className="absolute -bottom-1 left-0 h-0.5 bg-secondary transition-all duration-300 w-0 group-hover/link:w-full"></span>
