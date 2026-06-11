@@ -9,24 +9,24 @@ const About = () => {
     const cards = [
         {
             title: "Mission",
+            icon: "/mci/images/mission.png",
             description: "Advance patient care with innovative, trusted medical devices built through global collaboration.",
-            icon: Target,
         },
         {
             title: "Vision",
+            icon: "/mci/images/vision.png",
             description: "Be a global leader in medical devices, known for innovation, quality, and improving patient outcomes.",
-            icon: Eye,
         },
         {
             title: "Values",
+            icon: "/mci/images/values.png",
             description: "Teamwork, responsibility, agility, innovation, and a strong commitment to continuous improvement.",
-            icon: Diamond,
         }
     ];
 
     return (
         <section className="py-20 bg-[#F8FAFC]">
-            <div className="container mx-auto px-6 md:px-12">
+            <div className="custom-container mx-auto px-6 md:px-12">
                 <div className="grid lg:grid-cols-12 gap-12 items-center">
 
                     {/* Left: Image Placeholder */}
@@ -60,7 +60,7 @@ const About = () => {
                                     className="p-6 rounded-xl bg-white border border-blue-100 shadow-sm flex flex-col items-center text-center space-y-4"
                                 >
                                     <div className="w-12 h-12 rounded-full border-2 border-[#2b4d91] flex items-center justify-center text-[#2b4d91]">
-                                        <card.icon size={24} />
+                                        <img src={card.icon} alt="icon" width={24} height={24} className="w-12 h-12" />
                                     </div>
                                     <div className="space-y-2">
                                         <h3 className="text-lg font-bold text-[#1a2350]">{card.title}</h3>
