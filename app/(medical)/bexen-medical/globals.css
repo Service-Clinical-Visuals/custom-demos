@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --primary: #0ea5e9;
+  --primary-hover: #40C1FF;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-muted: var(--text-muted);
+  --color-border: var(--border-color);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+  @apply antialiased text-[16px] font-normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), sans-serif;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  font-family: var(--font-body), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Custom Swiper Pagination Bars */
+.swiper-pagination {
+  position: static !important;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.swiper-pagination-bullet {
+  width: 48px !important;
+  height: 6px !important;
+  border-radius: 9999px !important;
+  background-color: #e0e7ff !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #14387F !important;
+}
+
+
+/* Custom Hexagon Clip Path */
+.clip-hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Bexen Signature Hexagon Button CSS */
+.btn-bexen {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  cursor: pointer;
+  border: none;
+  overflow: visible;
+  line-height: normal;
+  border-radius: 50px !important;
+  /* border-radius: 5px 9999px 9999px 5px !important; */
+}
+
+.btn-bexen-primary {
+  background-color: #0ea5e9;
+  color: #ffffff;
+}
+
+.btn-bexen-primary:hover {
+  background-color: #40C1FF;
+}
+
+.btn-bexen-primary .arrow-span {
+  background-color: #14387F;
+}
+
+.btn-bexen-secondary {
+  background-color: #ffffff;
+  color: #14387F;
+}
+
+.btn-bexen-secondary:hover {
+  background-color: #f3f4f6;
+}
+
+.btn-bexen-secondary .arrow-span {
+  background-color: #0ea5e9;
+}
+
+.btn-bexen .arrow-span {
+  height: 100%;
+  aspect-ratio: 3.4 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  bottom: 0;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  /* clip-path: polygon(0% 24%, 45% 24%, 44% 67%, 43% 86%, 28% 88%, 26% 65%, 13% 65%, 13% 100%, 34% 100%, 58% 94%, 60% 79%, 57% 24%, 100% 23%, 100% 11%, 0% 12%); */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-bexen:hover .arrow-span {
+  transform: translateX(3px);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+section {
+  overflow: hidden !important;
+}

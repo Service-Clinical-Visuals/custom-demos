@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════════════════ */
+@layer base {
+  :root {
+    --primary: #9c0b38;
+    --text-dark: #212121;
+    --text-body: #333333;
+    --text-muted: #666666;
+    --bg-white: #ffffff;
+    --radius-card: 1.5rem;
+    --font-outfit: var(--font-outfit);
+  }
+
+  html,
+  body {
+    font-family: var(--font-outfit), sans-serif;
+    color: var(--text-body);
+    background-color: var(--bg-white);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-outfit), sans-serif;
+    color: var(--text-dark);
+  }
+
+  /* Block horizontal overflow globally */
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   TAILWIND THEME TOKENS
+═══════════════════════════════════════════════════ */
+@theme {
+  --font-outfit: var(--font-outfit);
+  --breakpoint-xs: 480px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
+}
+
+/* ═══════════════════════════════════════════════════
+   SECTION OVERFLOW GUARD
+═══════════════════════════════════════════════════ */
+section {
+  overflow: hidden;
+}
+
+/* ═══════════════════════════════════════════════════
+   IMAGE / VIDEO SAFETY
+═══════════════════════════════════════════════════ */
+img,
+video,
+iframe {
+  max-width: 100%;
+  display: block;
+}
+
+/* ═══════════════════════════════════════════════════
+   GLOBAL VIEWPORT SCALING SYSTEM
+   Strategy:
+     • ≤ 1440px  → natural layout (desktop reference)
+     • 1440–1920 → gentle scale up via font/spacing only
+     • 1920px+   → zoom the entire page proportionally
+       so desktop layout fills the larger canvas without
+       any component-level changes
+═══════════════════════════════════════════════════ */
+
+/* Reference width: 1440px
+   At 2560px (4K) the page scales to 2560/1440 ≈ 1.78×
+   We use CSS zoom on the root wrapper.
+   This is applied via a JS-free CSS approach using
+   the @media + transform-origin technique.           */
+
+/* 1920px: scale 1.0 (desktop is reference) — no change needed */
+
+/* 2560px (2K / QHD) */
+@media (min-width: 2560px) {
+  #fisso-root {
+    zoom: 1.6;
+    transform-origin: top center;
+  }
+}
+
+/* 3840px (4K UHD) */
+@media (min-width: 3840px) {
+  #fisso-root {
+    zoom: 2.4;
+    transform-origin: top center;
+  }
+}
+
+.footer-menu {
+  font-size: 1rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   FLUID SPACING — section vertical rhythm
+   Only affects padding, not layout shifts
+═══════════════════════════════════════════════════ */
+.section-py {
+  padding-top: clamp(2rem, 4vw, 5rem);
+  padding-bottom: clamp(2rem, 4vw, 5rem);
+}
+
+/* ═══════════════════════════════════════════════════
+   SCROLLBAR
+═══════════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9c0b38;
+  border-radius: 99px;
+}

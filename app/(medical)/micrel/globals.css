@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+  --primary: #3363AC;
+  --primary-hover: #274E89;
+  --secondary: #E8F2FC;
+  --text-muted: #555555;
+  --accent: #E8F2FC;
+  --white: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-white: var(--white);
+  --font-sans: var(--font-primary);
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
+}
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-8;
+  }
+  @media (min-width: 1920px) {
+    .container {
+      max-width: 1720px;
+    }
+  }
+  @media (min-width: 2560px) {
+    .container {
+      max-width: 2000px;
+    }
+  }
+
+  /* Utility: force white text regardless of global p rule */
+  .text-on-dark {
+    color: #ffffff !important;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary), sans-serif;
+  @apply antialiased;
+}
+
+
+
+
+section {
+  overflow: hidden;
+}
+
+
+
+/* Background Context Color Rules */
+.bg-\[\#3363AC\] h1,
+.bg-\[\#3363AC\] h2,
+.bg-\[\#3363AC\] h3,
+.bg-\[\#3363AC\] h4,
+.bg-\[\#3363AC\] h5,
+.bg-\[\#3363AC\] p,
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary h4,
+.bg-primary h5,
+.bg-primary p,
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white p,
+.text-on-dark h1,
+.text-on-dark h2,
+.text-on-dark h3,
+.text-on-dark h4,
+.text-on-dark h5,
+.text-on-dark p {
+  color: #FFFFFF !important;
+}
+
+/* Reusable Tailwind v4 Utility Classes */
+@utility text-primary {
+  color: var(--primary) !important;
+}
+
+@utility text-secondary {
+  color: var(--text-muted) !important;
+}
+
+@utility text-white {
+  color: var(--white) !important;
+}
+
+/* =========================
+   PRIMARY BLUE BUTTON
+========================= */
+.btn-primary {
+  @apply inline-flex items-stretch h-[42px] bg-[#3363AC] border-2 border-[#3363AC] text-white font-medium overflow-hidden transition-colors duration-300;
+}
+
+.btn-primary:hover {
+  @apply bg-[#2b5596];
+}
+
+.btn-primary-text {
+  @apply flex items-center px-6 text-[15px] leading-none;
+}
+
+.btn-primary-icon {
+  @apply w-[42px] flex items-center justify-center bg-white border-l-2 border-[#3363AC];
+}
+
+.btn-primary-icon svg {
+  @apply text-[#3363AC];
+}
+
+
+/* =========================
+   SECONDARY WHITE BUTTON
+   (for "View Details")
+========================= */
+.btn-secondary {
+  @apply inline-flex items-stretch h-[42px] bg-white border-2 border-[#3363AC] text-[#3363AC] font-medium overflow-hidden transition-colors duration-300;
+}
+
+.btn-secondary:hover {
+  @apply bg-[#f3f7ff];
+}
+
+.btn-secondary-text {
+  @apply flex items-center px-6 text-[15px] leading-none;
+}
+
+.btn-secondary-icon {
+  @apply w-[42px] flex items-center justify-center bg-[#3363AC] border-l-2 border-[#3363AC];
+}
+
+.btn-secondary-icon svg {
+  @apply text-white;
+}

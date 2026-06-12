@@ -1,0 +1,129 @@
+"use client";
+
+import Link from "next/link";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
+import Button from "./Button";
+
+export default function ProductSection() {
+  return (
+    <section className="relative w-full py-16 lg:py-20 bg-[#F9F9F9] overflow-hidden">
+      <div className="container mx-auto px-6 md:px-12">
+        
+        {/* Split Grid Layout (Video on the left, product details on the right) */}
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 lg:gap-16 items-center mb-20">
+          
+          {/* Left Column: Responsive 360° Dynamic Video Player */}
+          <div 
+            data-aos="fade-right"
+            className="xl:col-span-7 relative w-full aspect-[16/10] md:aspect-[16/9] rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 shadow-[0_15px_45px_rgba(0,0,0,0.06)] group"
+          >
+
+            {/* Video Player */}
+            <DynamicVideoPlayer 
+              type="360"
+              className="object-cover w-full h-full transform transition-transform duration-700 group-hover:scale-[1.02]"
+            />
+
+            {/* Subtle Gradient Shadow Inside Card */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none" />
+          </div>
+
+          {/* Right Column: Product Content & Description */}
+          <div 
+            data-aos="fade-left"
+            className="xl:col-span-5 flex flex-col items-start"
+          >
+            <h2 className="text-[28px] md:text-[30px] lg:text-[32px] font-bold mb-4">
+              HERACLES Proximal Femur Nail
+            </h2>
+            
+            <div className="space-y-5 mb-8">
+              <p className="leading-relaxed">
+                The HERACLES Proximal Femur Nail by 7S Medical is an advanced orthopedic fixation system designed to provide stable, precise, and patient-specific treatment options for proximal femur fractures. Engineered for smooth insertion and reliable fixation, the system combines innovative locking technology, optimized nail geometry, and adaptable sizing to support efficient surgical procedures and improved patient outcomes.
+              </p>
+              
+              <p className="leading-relaxed">
+                With features such as TwinLock technology, radiolucent aiming arm, and multiple nail configurations, HERACLES delivers enhanced stability, controlled gliding, and simplified surgical handling for both surgeons and patients.
+              </p>
+            </div>
+
+            {/* Explore Products Button */}
+            <Button href="#products" className="px-8">
+              Explore Our Products
+            </Button>
+          </div>
+
+        </div>
+
+        {/* Horizontal Divider */}
+        <div data-aos="fade-up" className="w-full border-t border-gray-200/80 my-10" />
+
+        {/* Bottom Three-Column Technical Features Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          {/* Card 1: Innovation */}
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className="bg-white border border-gray-150 rounded-2xl p-8 flex flex-col items-center text-center shadow-[0_4px_25px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300"
+          >
+            {/* Header Icon + Title */}
+            <div className="flex items-center gap-3.5 mb-4">
+              <img src="/7s-medical/innovation.png" alt="Innovation" className="w-10 h-10" />
+              <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
+                Innovation
+              </h3>
+            </div>
+            
+            {/* Description */}
+            <p className="leading-relaxed">
+              Our innovative products are developed in close collaboration with leading surgeons. The aim of this collaboration is to identify common difficulties and improve them with products that are based on the latest scientific findings.
+            </p>
+          </div>
+
+          {/* Card 2: Type II Anodization */}
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="bg-white border border-gray-150 rounded-2xl p-8 flex flex-col items-center text-center shadow-[0_4px_25px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300"
+          >
+            {/* Header Icon + Title */}
+            <div className="flex items-center gap-3.5 mb-4">
+              <img src="/7s-medical/anodization.png" alt="Type II Anodization" className="w-8 h-8" />
+              <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
+                Type II Anodization
+              </h3>
+            </div>
+            
+            {/* Description */}
+            <p className="leading-relaxed">
+              Type II anodizing is an electrochemical process in which a defined oxide layer is applied to a metallic surface, replacing the thin natural oxide layer on the implant surface. This is achieved by a spark discharge.
+            </p>
+          </div>
+
+          {/* Card 3: Osteoporotic Bone */}
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="bg-white border border-gray-150 rounded-2xl p-8 flex flex-col items-center text-center shadow-[0_4px_25px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300"
+          >
+            {/* Header Icon + Title */}
+            <div className="flex items-center gap-3.5 mb-4">
+              <img src="/7s-medical/osteoporotic-bone.png" alt="Osteoporotic Bone" className="w-8 h-8" />
+              <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
+                Osteoporotic Bone
+              </h3>
+            </div>
+            
+            {/* Description */}
+            <p className="leading-relaxed">
+              These products are specifically designed for high stability in osteoporotic bone. In plate systems, this is achieved by diverging and converging screw patterns.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}

@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clinical Visuals Business",
-  description: "Innovative clinical visualization and healthcare solutions.",
+  title: "Custom Demos",
+  description: "Custom demos for New businesses",
   icons: {
-    icon: 'https://cdn.clinicalvisuals.com/siteImages/clinical-visuals-favicon-logo.svg',
+    icon: '/tcp-logo.png',
   },
 };
+
+import AOSProvider from "./_components/AOSProvider";
 
 export default function RootLayout({
   children,
@@ -14,8 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <>
-      {children}
-    </>
+    <html lang="en">
+      <body>
+        <AOSProvider>
+          {children}
+        </AOSProvider>
+      </body>
+    </html>
   );
 }

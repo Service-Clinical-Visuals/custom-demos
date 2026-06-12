@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #666666;
+  --primary: #004B87;
+  /* AliveCor Deep Blue */
+  --secondary: #111111;
+  --text-muted: #6b7280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--text-muted);
+}
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-6;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary), sans-serif;
+  @apply antialiased;
+}
+
+section {
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 2000px) {
+  p {
+    font-size: 20px !important;
+  }
+}
+
+@keyframes arrow-exit-entry {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  35% {
+    transform: translateX(26px);
+    opacity: 0;
+  }
+
+  36% {
+    transform: translateX(-26px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.group:hover .animate-arrow-slide {
+  animation: arrow-exit-entry 0.5s ease-in-out forwards;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-rajdhani), sans-serif;
+  color: #333333;
+}
+
+p {
+  font-family: var(--font-rubik), sans-serif !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (min-width: 2560px) {
+  p {
+    font-size: 24px !important;
+    line-height: 36px !important;
+  }
+
+  .headerlinks{
+    font-size: 24px !important;
+  }
+
+  .footerlinks{
+    font-size: 24px !important;
+  }
+}
+
+.product-image {
+  width: 160px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .product-image {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-image {
+    width: 240px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .product-image {
+    width: 320px !important;
+  }
+}
+
+
+.rubik{
+    font-family: var(--font-rubik), sans-serif;
+}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: var(--font-rubik), sans-serif;
+    font-weight: 400;
+  }
+
+  p,
+  li,
+  span,
+  div,
+  a,
+  button {
+    font-family: var(--font-rubik), sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-exo), sans-serif !important;
+  }
+}
+
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions (2560 / 1920 = 1.333333) */
+@media (min-width: 2560px) {
+  #fisso-root {
+    zoom: 1.5;
+    transform-origin: top center;
+  }
+}
+ 
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
+@media (min-width: 3840px) {
+  #fisso-root {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
+}

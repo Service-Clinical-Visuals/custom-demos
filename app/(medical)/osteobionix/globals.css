@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1c1c1c;
+  --primary: #2B786E;
+  --secondary: #e2f0ed;
+  --text-muted: #666666;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--text-muted);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-8 xl:px-12 2xl:px-16 mx-auto w-full;
+    max-width: 1280px;
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1440px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .container {
+      max-width: 2300px !important;
+    }
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+  @apply antialiased;
+}
+
+@layer base {
+  p {
+    font-family: var(--font-body), sans-serif;
+    font-size: 18px !important;
+    line-height: 1.6;
+    color: #444444;
+  }
+
+  /* Responsive Paragraph Sizes */
+  /* @media (min-width: 1280px) {
+    p {
+      font-size: 18px !important;
+      line-height: 1.5 !important;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    p {
+      font-size: 22px !important;
+      line-height: 1.5 !important;
+    }
+  } */
+
+  @media (min-width: 2560px) {
+    p {
+      font-size: 28px !important;
+      line-height: 1.6 !important;
+    }
+  }
+}
+
+
+
+/* Ensure absolute brand utility overrides are respected */
+.text-white {
+  color: #ffffff !important;
+}
+
+section {
+  overflow: hidden;
+}
+
+/* Lenis Smooth Scroll Recommended Styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Custom subtle micro-animations for high-end feel */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Global Responsive Adjustments for xl and 2xl */
+
+
+
+@media (min-width: 2560px) {
+
+  h1,
+  .lg\:text-6xl {
+    font-size: 4.5rem !important;
+    line-height: 0.8 !important;
+  }
+
+  h2.md\:text-4xl,
+  .md\:text-4xl {
+    font-size: 4rem !important;
+    line-height: 0.8 !important;
+  }
+
+  h3.md\:text-2xl,
+  .md\:text-2xl {
+    font-size: 2.5rem !important;
+    line-height: 0.8 !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 2rem !important;
+  }
+
+  h4 {
+    font-size: 1.7rem !important;
+    line-height: 1 !important;
+  }
+
+  .lg\:text-\[26px\] {
+    font-size: 3rem !important;
+  }
+
+  /* Scale up section paddings appropriately */
+  .lg\:py-20 {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+  }
+
+  .lg\:py-24 {
+    padding-top: 11rem !important;
+    padding-bottom: 11rem !important;
+  }
+
+  .gap-16 {
+    gap: 9rem !important;
+  }
+}

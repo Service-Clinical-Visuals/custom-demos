@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-react-purple: #67328B;
+  --color-react-purple-light: #F4EDF9;
+  --color-react-purple-dark: #5A2682;
+  --color-react-text-dark: #1A1A1A;
+  --color-react-text-gray: #666666;
+  --color-react-bg-light: #F8F9FA;
+
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply text-react-text-dark antialiased;
+    font-family: var(--font-sans);
+    overflow: visible;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--color-react-text-gray);
+  }
+}
+
+@layer components {
+  .react-container {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-react {
+    @apply flex items-center bg-[#67328B] hover:bg-[#5A2682] text-white rounded-full pl-10 pr-2 py-2 transition-all duration-300 w-fit shadow-lg active:scale-95;
+  }
+
+  .btn-react-white {
+    @apply flex items-center bg-white hover:bg-gray-50 text-[#67328B] rounded-full pl-10 pr-2 py-2 transition-all duration-300 w-fit shadow-lg active:scale-95;
+  }
+
+
+  .btn-icon-wrapper {
+    @apply relative flex items-center justify-center w-12 h-12 rounded-full border-[2.5px] border-white text-white bg-[#67328B] transition-all duration-300;
+  }
+
+  .btn-react-white .btn-icon-wrapper {
+    @apply border-[#67328B] text-[#67328B] bg-white;
+  }
+
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-react-text-dark mb-6;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+}
+
+section {
+  overflow: hidden;
+}

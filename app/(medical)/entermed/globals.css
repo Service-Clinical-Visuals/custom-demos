@@ -1,0 +1,170 @@
+@layer base {
+  :root {
+    font-family: var(--font-aleo), ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #F5333F;
+  --color-primary-hover: #E02B37;
+  --color-secondary: #F5333F0D;
+  --color-dark: #121212;
+  --color-text: #666666;
+  --color-light: #F9FAFB;
+  --color-border: #E5E7EB;
+
+  --font-sans: var(--font-aleo), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+.paragraph {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-dark);
+}
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-8 xl:px-12 2xl:px-16 mx-auto w-full;
+    max-width: 1280px;
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1440px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .container {
+      max-width: 2300px !important;
+    }
+  }
+}
+
+@layer base {
+  @media (min-width: 2560px) {
+
+    p,
+    .paragraph,
+    .text-\[14\.5px\],
+    .text-\[15px\],
+    .text-\[16px\],
+    .text-\[17px\],
+    .text-\[14px\] {
+      font-size: 23px !important;
+      line-height: 1.6 !important
+    }
+  }
+}
+
+@media (min-width: 2560px) {
+
+  h1,
+  .text-5xl,
+  .lg\:text-6xl,
+  .xl\:text-\[64px\] {
+    font-size: 4.5rem !important;
+    line-height: 1.1 !important;
+  }
+
+  h2,
+  .text-4xl,
+  .md\:text-4xl,
+  .lg\:text-4xl,
+  .xl\:text-5xl,
+  .xl\:text-\[48px\] {
+    font-size: 4.8rem !important;
+    line-height: 1.2 !important;
+  }
+
+  h3,
+  .text-3xl,
+  .md\:text-2xl,
+  .lg\:text-3xl {
+    font-size: 2.8rem !important;
+    line-height: 1.2 !important;
+    /* margin-bottom: 1.5rem !important;
+    margin-top: 2rem !important; */
+  }
+
+  h4,
+  .text-2xl,
+  .lg\:text-2xl,
+  .text-\[20px\],
+  .text-\[22px\],
+  .text-\[24px\] {
+     font-size: 1.8rem !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Arbitrary small text classes used in Footer and other components */
+  .text-\[13px\],
+  .text-\[14px\],
+  .text-\[14\.5px\],
+  .text-\[15px\],
+  .text-\[16px\],
+  .text-\[17px\] {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .lg\:py-20 {
+    /* padding-top: 10rem !important;
+    padding-bottom: 10rem !important; */
+  }
+
+  .lg\:py-24,
+  .py-20,
+  .py-24 {
+    padding-top: 11rem !important;
+    padding-bottom: 11rem !important;
+  }
+
+  .gap-12 {
+    gap: 7rem !important;
+  }
+
+  .gap-16,
+  .lg\:gap-16,
+  .xl\:gap-16 {
+    gap: 9rem !important;
+  }
+
+  .h-13 {
+    height: 6rem !important;
+  }
+
+  .lg\:max-w-\[280px\] {
+    max-width: 500px !important;
+  }
+
+  .max-w-\[280px\] {
+    max-width: 500px !important;
+  }
+}

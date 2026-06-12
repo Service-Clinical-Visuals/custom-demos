@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+
+:root {
+  --carepump-primary: #004f70;
+  --carepump-surface: #005d88;
+  --carepump-contrast: #ffffff;
+  --carepump-muted: rgba(255, 255, 255, 0.88);
+  --carepump-border: rgba(255, 255, 255, 0.18);
+}
+
+html {
+  overflow-x: hidden;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--carepump-contrast);
+  background: #f5fbff;
+  font-family: "Overpass", sans-serif;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.carepump-header {
+  background: var(--carepump-primary);
+}
+
+.carepump-navbar-link {
+  color: var(--carepump-contrast);
+}
+
+.carepump-navbar-link:hover {
+  color: #e2f3fb;
+}
+
+.carepump-navbar-active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions (2560 / 1920 = 1.333333) */
+@media (min-width: 2550px) {
+  #care-root {
+    zoom: 1.5;
+    transform-origin: top center;
+  }
+}
+ 
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
+@media (min-width: 3840px) {
+  #care-root {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
+}
+ 
