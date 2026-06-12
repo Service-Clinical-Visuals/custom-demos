@@ -30,7 +30,7 @@ export default function Banner() {
         </h1>
         <div className="relative inline-flex items-center mt-8">
           <button className="mt-4 bg-[#FFFFFF] text-[#5A6FB0] px-6 py-2 rounded-full flex items-center gap-2 hover:bg-gray-200 transition">
-            Explore Our Products
+            Get To Know Us
             <ArrowRight size={16} />
           </button>
         </div>

@@ -10,19 +10,19 @@ export default function About() {
         <div data-aos="fade-right">
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-gray-100 text-red-500 px-4 py-1 rounded-full text-[14px] sm:text-[16px] md:text-[18px] font-medium mb-4 md:mb-6">
-            <span className="w-2 h-2 bg-[#25477F] rounded-full"></span>
+          <div className="inline-flex items-center border-1 border-[#18191A1A] gap-2 bg-gray-10 px-4 py-1 rounded-full subheading2 font-medium mb-4 md:mb-6">
+            <span className="w-2 h-2 bg-[#26487E]  rounded-full"></span>
             About Us
           </div>
 
           {/* Heading */}
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl max-w-2xl font-semibold leading-tight text-gray-900">
+          <h2 className="headingblack max-w-2xl font-semibold leading-tight">
             Advanced Technology for Faster 
             Diagnosis
           </h2>
 
           {/* Paragraph */}
-          <p className="text-gray-600 mt-4 leading-relaxed">
+          <p className="contentblack mt-4 leading-relaxed">
             VectraCor’s mission is to develop and commercialize a portfolio of
             products that utilize its patented intellectual property, simplifying
             and providing a faster method for diagnosis, prevention, and treatment
@@ -38,10 +38,10 @@ export default function About() {
                 <img src="/vectracor/ecg-machine.png" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800">
+                <h4 className="font-semibold subheadingblack">
                   Real-Time Cardiac Insights
                 </h4>
-                <p className="text-base text-gray-500">
+                <p className="contentblack">
                   Accurate ECG data for faster clinical decisions.
                 </p>
               </div>
@@ -53,10 +53,10 @@ export default function About() {
                 <img src="/vectracor/ct-scan.png" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800">
+                <h4 className="font-semibold subheadingblack">
                   Advanced Diagnostic Technology
                 </h4>
-                <p className="text-base text-gray-500">
+                <p className="contentblack">
                   Powered by patented cardiac biomarker innovation.
                 </p>
               </div>
@@ -64,7 +64,7 @@ export default function About() {
           </div>
 
           {/* Bottom Paragraph */}
-          <p className="text-gray-600 mt-6 leading-relaxed">
+          <p className="contentblack mt-6 leading-relaxed">
             VectraCor has developed and patented a technology that will differentiate
             the current mature monitoring market by enhancing the cardiac monitor to
             incorporate more technology into one device from only 3 leads (5 electrodes).
@@ -77,9 +77,9 @@ export default function About() {
 
           <button
             // style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
-            className="mt-8 group font-bold flex items-center justify-center sm:justify-start min-h-[44px] bg-[#25477F] text-[#FFFFFF] px-6 py-2 rounded-full text-base transition shadow-md cursor-pointer border-2 border-[#B5D2FF] hover:border-[#102b57] w-full sm:w-auto"
+            className="mt-8 group font-semibold flex items-center justify-center sm:justify-start min-h-[44px] bg-[#25477F] text-[#FFFFFF] px-6 py-2 rounded-full text-base transition shadow-md cursor-pointer border-2 border-[#B5D2FF] hover:border-[#102b57] w-full sm:w-auto"
           >
-            Learn More <ArrowRight size={16} className="ml-2 mt-0.5 transition-transform duration-300 group-hover:translate-x-2" />
+            Explore Solution <ArrowRight size={16} className="ml-2 mt-0.5 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
 

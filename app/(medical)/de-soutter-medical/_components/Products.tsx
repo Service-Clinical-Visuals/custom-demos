@@ -56,11 +56,10 @@ export default function Products() {
             <button
               key={item}
               onClick={item === "Large Bone" ? () => setActive(item) : undefined}
-              className={`px-12 py-2 rounded-full border text-[18px] transition ${
-                active === item
-                  ? "bg-[#5A6FB0] text-[#FFFFFF]"
-                  : "border-[#5A6FB0] text-[#333333] cursor-default"
-              }`}>
+              className={`px-12 py-2 rounded-full border text-[18px] transition ${active === item
+                ? "bg-[#5A6FB0] text-[#FFFFFF]"
+                : "border-[#5A6FB0] text-[#333333] cursor-default"
+                }`}>
               {item}
             </button>
           ))}
@@ -71,39 +70,50 @@ export default function Products() {
           </button>
         </div>
 
-        {/* PRODUCT CARDS */}
         <div
           data-aos="fade-up"
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12"
+        >
           {products
             .filter((p) => p.category === active)
             .map((item, i) => (
               <div
                 key={i}
-                className="bg-white shadow-md p-4 text-left hover:shadow-lg transition 
-                   rounded-tr-[50px] rounded-bl-[50px]">
+                className="bg-white flex flex-col transition hover:shadow-lg"
+                style={{
+                  borderRadius: "4px 70px 4px 70px",
+                  boxShadow: "0px 3px 8px 0px rgba(0,0,0,0.24)",
+                  padding: "18px 18px 0 18px",
+                }}
+              >
                 {/* IMAGE */}
                 <div
-                  className="w-full h-50 relative overflow-hidden 
-                     rounded-tr-[50px] rounded-bl-[50px]">
+                  className="w-full relative overflow-hidden bg-[#f5f5f5]"
+                  style={{
+                    aspectRatio: "342 / 221",
+                    borderRadius: "1px 69px 1px 69px",
+                    border: "1px solid rgba(207, 206, 206, 0.41)",
+                  }}
+                >
                   <Image
                     src={item.img}
                     alt={item.name}
                     fill
-                    className="object-cover w-full h-full"
+                    className="object-cover"
                   />
                 </div>
 
                 {/* NAME + ARROW */}
-                <div className="flex items-center justify-center gap-4 mt-4">
-                  <h2 className="text-[18px] text-[#333333] font-semibold">
+                <div className="flex items-center justify-center gap-2.5 px-2 py-4">
+                  <h2 className="text-[15px] text-[#333333] font-semibold m-0 whitespace-nowrap">
                     {item.name}
                   </h2>
-
                   <button
-                    data-aos="fade-up"
-                    className="w-8 h-8 flex items-center justify-center rounded-full bg-[#5A6FB0] text-white">
-                    <CornerUpRight size={16} />
+                    aria-label={`View ${item.name}`}
+                    className="flex items-center justify-center rounded-full shrink-0"
+                    style={{ width: 32, height: 32, background: "#4f63a8" }}
+                  >
+                    <CornerUpRight size={15} color="#fff" />
                   </button>
                 </div>
               </div>

@@ -19,7 +19,7 @@ export default function Products() {
             Our Products
           </div>
 
-          <h2 className="text-xl font-semibold text-gray-800">
+          <h2 className="headingblack font-semibold">
             Advancing Diagnostic Innovation
           </h2>
 

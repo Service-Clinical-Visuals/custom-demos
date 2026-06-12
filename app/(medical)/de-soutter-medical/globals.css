@@ -14,17 +14,19 @@ h4 {
 } */
 
 p {
-  font-size:16px;
-  line-height:1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-button{
+button {
   font-size: 16px;
   font-weight: 600;
 }
-section{
+
+section {
   overflow-x: hidden;
 }
+
 /* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions (2560 / 1920 = 1.333333) */
 @media (min-width: 2560px) {
   #desoutter-root {
@@ -32,7 +34,7 @@ section{
     transform-origin: top center;
   }
 }
- 
+
 /* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
 @media (min-width: 3840px) {
   #desoutter-root {
@@ -40,4 +42,3 @@ section{
     transform-origin: top center;
   }
 }
- 

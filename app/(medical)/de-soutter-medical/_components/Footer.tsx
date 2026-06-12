@@ -7,7 +7,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#222222] text-[#d1d1d1] pt-16 pb-8 px-6 md:px-12 lg:px-24 font-sans text-[13px]">
+    <footer className="bg-[#222222] text-white pt-16 pb-8 px-6 md:px-12 lg:px-24 font-sans text-[13px]">
       <div className="container mx-auto">
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-12">
@@ -32,7 +32,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div data-aos="fade-up" className="lg:col-span-2 pr-4">
-            <h3 className="text-[#FFFFFF] font-medium mb-6 text-[19px]">
+            <h3 className="text-[#FFFFFF] font-medium mb-6 text-[20px]">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -48,7 +48,7 @@ export default function Footer() {
                 <li key={link}>
                   <a
                     href="#"
-                    className="hover:text-[#FFFFFF] text-base transition-colors duration-200">
+                    className="hover:text-[#FFFFFF] text-[18px] text-base transition-colors duration-200">
                     {link}
                   </a>
                 </li>
@@ -58,10 +58,10 @@ export default function Footer() {
 
           {/* Address */}
           <div data-aos="fade-up" className="lg:col-span-2 pr-4">
-            <h3 className="text-[#FFFFFF] font-medium mb-6 text-[19px]">
+            <h3 className="text-[#FFFFFF] font-medium mb-6 text-[20px]">
               Address
             </h3>
-            <div className="space-y-4">
+            <div className="space-y-4 text-[18px">
               <p className="text-base text-[#FFFFFF]">
                 UK & International Head Office
               </p>
@@ -81,10 +81,10 @@ export default function Footer() {
 
           {/* Contact & Socials */}
           <div data-aos="fade-up" className="lg:col-span-2 pr-4">
-            <h3 className="text-[#FFFFFF] font-medium mb-6 text-[19px]">
+            <h3 className="text-[#FFFFFF] font-medium mb-6 text-[20px]">
               Contact
             </h3>
-            <div className="space-y-2 mb-8">
+            <div className="space-y-2 mb-8 text-[18px]">
               <p>Tel: +44 (0) 1296 634 000</p>
               <p>Fax: +44 (0) 1296 634 033</p>
               <p>
@@ -123,7 +123,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-[#FFFFFF]/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4   text-gray-500">
+        <div className="border-t border-[#FFFFFF]/10 text-white pt-8 flex flex-col md:flex-row justify-between items-center gap-4 ">
           <p className=" text-xs md:text-sm lg:text-[16px]">
             © Copyright De Soutter Medical {currentYear}. All Rights Reserved.
             Company Registration No. 3164365

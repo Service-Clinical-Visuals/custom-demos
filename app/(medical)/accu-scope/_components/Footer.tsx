@@ -6,7 +6,7 @@ import { Instagram, Facebook, Twitter, Linkedin, Navigation, Phone, ArrowRight, 
 
 export default function Footer() {
   return (
-    <footer className="bg-[#E3E3E3] pt-16 pb-6">
+    <footer className="pt-16 pb-6 bg-[#E3E3E3] bg-[url('/medical/accu-scope/footerbg.png')] bg-cover bg-center bg-no-repeat">
       <div className="max-w-[80%] mx-auto px-4 lg:px-12">
 
         {/* Top 5-Column Layout */}
@@ -34,10 +34,10 @@ export default function Footer() {
 
           {/* Column 2: Quick Links */}
           <div className="flex flex-col items-start lg:pl-6">
-            <p className="text-[19px]! rubik font-medium text-[#004B87] mb-6">
+            <p className="text-[19px]! rubik font-medium text-[#333333] mb-6">
               Quick Links
             </p>
-            <ul className="flex flex-col gap-6 rubik text-[16px] footerlinks font-light text-[#333333]">
+            <ul className="flex flex-col gap-4 rubik text-[16px] footerlinks font-light text-[#333333]">
               <li><Link href="#" className="hover:text-[#004B87]">Home</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Application</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Products</Link></li>
@@ -53,7 +53,7 @@ export default function Footer() {
             <p className="text-[19px]! rubik font-medium text-[#333333] mb-6">
               Information
             </p>
-            <ul className="flex flex-col gap-6 rubik text-[16px] footerlinks font-light text-[#333333]">
+            <ul className="flex flex-col gap-4 rubik text-[16px] footerlinks font-light text-[#333333]">
               <li><Link href="#" className="hover:text-[#004B87]">About Us</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Contact Us</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Customer Support</Link></li>
@@ -68,7 +68,7 @@ export default function Footer() {
             <p className="text-[19px]! rubik font-medium text-[#333333] mb-6">
               Contact Info
             </p>
-            <ul className="flex flex-col gap-6 rubik text-[16px] footerlinks font-light text-[#333333]">
+            <ul className="flex flex-col gap-4 rubik text-[16px] footerlinks font-light text-[#333333]">
               <li><Link href="#" className="hover:text-[#004B87]">ACCU-SCOPE Inc.</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">73 Mall Drive</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Commack, NY 11725</Link></li>
@@ -83,7 +83,7 @@ export default function Footer() {
               Support
             </p>
 
-            <ul className="flex flex-col gap-6 font-sans text-[16px] footerlinks font-light text-[#333333]">
+            <ul className="flex flex-col gap-4 font-sans text-[16px] footerlinks font-light text-[#333333]">
               <li><Link href="#" className="hover:text-[#004B87]">Instruction Manuals</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Frequently Asked QUestions</Link></li>
               <li><Link href="#" className="hover:text-[#004B87]">Warranty</Link></li>
