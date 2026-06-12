@@ -45,7 +45,7 @@ export default function About() {
               <img
                 src="/de-soutter-medical/icon-1.png"
                 alt="Innovation"
-                className="w-6 h-6"
+                className="w-9 h-9"
               />
             </div>
             <div>
@@ -65,7 +65,7 @@ export default function About() {
               <img
                 src="/de-soutter-medical/icon-2.png"
                 alt="Innovation"
-                className="w-6 h-6"
+                className="w-9 h-9"
               />
             </div>
             <div>
