@@ -57,7 +57,7 @@ export default function ProcessManagement() {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
+        <div className="text-center mb-16 max-w-7xl mx-auto">
           <h2 data-aos="fade-up" className="text-[32px] md:text-[36px] font-bold text-[#14387F] mb-4 uppercase tracking-wide">
             COMPLETE MANAGEMENT OF THE PROCESS
           </h2>

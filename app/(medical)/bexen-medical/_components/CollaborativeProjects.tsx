@@ -19,11 +19,11 @@ export default function CollaborativeProjects() {
             "/medical/bexen-medical/home/collaborative-2.png",
             "/medical/bexen-medical/home/collaborative-3.png"
           ].map((img, idx) => (
-            <div key={idx} data-aos="zoom-in" data-aos-delay={100 * idx} className="bg-white rounded-[16px] aspect-[2/1] overflow-hidden relative shadow-lg flex items-center justify-center p-4">
+            <div key={idx} data-aos="zoom-in" data-aos-delay={100 * idx} className="bg-white p-5 rounded-[16px] aspect-[2/1] overflow-hidden relative shadow-lg flex items-center justify-center p-4">
               <img
                 src={img}
                 alt="Partner Logo"
-                className="max-w-full max-h-full object-contain"
+                className="w-[90%]  h-[90%] object-contain"
               />
             </div>
           ))}

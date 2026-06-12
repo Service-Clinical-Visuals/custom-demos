@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-[#d1e5f0] pt-6 text-center">
+        <div className="border-t border-gray-400  pt-6 text-center">
           <p className="text-[13px]! text-gray-500">
             © Copyright 2026 - <span className="underline cursor-pointer hover:text-[#0ea5e9] transition-colors">BEXEN MEDICAL</span>. All rights reserved.
           </p>
