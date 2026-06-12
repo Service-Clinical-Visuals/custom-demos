@@ -4,13 +4,13 @@ import { ArrowRight } from "lucide-react";
 
 export default function MedasServices() {
   return (
-    <section className="w-full bg-gray-100 py-20">
-      <div className="max-w-380 mx-auto px-6 lg:px-10">
+    <section className="w-full bg-[#F1F1F1] py-20">
+      <div className="custom-container px-4">
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* LEFT CONTENT */}
-          <div data-aos="fade-right" className="max-w-2xl">
+          <div data-aos="fade-right" className="">
             
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">

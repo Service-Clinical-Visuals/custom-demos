@@ -5,15 +5,15 @@ import { ArrowRight, Check } from "lucide-react";
 
 export default function MedasFeatures() {
   return (
-    <section className="w-full bg-gray-100 py-20">
-      <div className="max-w-380 mx-auto px-6 lg:px-10">
+    <section className="w-full bg-white py-20">
+      <div className="custom-container px-4">
 
         {/* TOP TEXT */}
         <div
           data-aos="fade-up"
-          className="text-center max-w-4xl mx-auto"
+          className="text-center max-w-full mx-auto"
         >
-          <p className="text-[#3F5897] text-lg md:text-2xl leading-relaxed font-semibold">
+          <p className="text-[#3F5897] text-lg md:text-2xl 2xl:text-[32px] leading-relaxed font-semibold">
             Health care solutions means sense of quality and serve reasons that
             lead us deliver all our potential in this objective. Accurate design
             and perform in useful medical devices, in more tech and certificate
@@ -30,7 +30,7 @@ export default function MedasFeatures() {
 
           {/* LEFT VIDEO */}
           <div data-aos="fade-right">
-            <div className="relative w-full h-[260px] md:h-[320px] lg:h-[360px] rounded-xl overflow-hidden">
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden">
 
               <div className="absolute inset-0">
 
@@ -44,7 +44,7 @@ export default function MedasFeatures() {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div data-aos="fade-left" className="w-full md:max-w-xl lg:max-w-2xl">
+          <div data-aos="fade-left" className="w-full max-w-full lg:max-w-2xl">
 
             {/* Title */}
             <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mr-[25px]">

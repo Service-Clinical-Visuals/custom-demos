@@ -31,7 +31,7 @@ export default function CatheFooter() {
 
   return (
     <footer className="overflow-hidden bg-[#eff4fc] py-10">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}

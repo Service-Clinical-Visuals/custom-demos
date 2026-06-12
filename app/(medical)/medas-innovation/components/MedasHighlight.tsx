@@ -1,16 +1,17 @@
 "use client";
 
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { Check } from "lucide-react";
 
 export default function MedasHighlight() {
   return (
     <section className="w-full bg-gray-100 py-10 md:py-14 lg:py-20">
-      <div className="max-w-380 mx-auto px-4 md:px-6 lg:px-10">
+      <div className="custom-container px-4">
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-10 lg:gap-16 items-center">
 
           {/* LEFT CONTENT */}
-          <div data-aos="fade-right" className="max-w-full lg:max-w-xl">
+          <div data-aos="fade-right" className="max-w-full">
 
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-snug">
@@ -30,9 +31,11 @@ export default function MedasHighlight() {
 
               {/* Item 1 */}
               <div className="flex items-start gap-4" data-aos="fade-up" data-aos-delay="100">
-                <div className="w-10 h-10 bg-[#0287C3] rounded-full shrink-0"></div>
+                <div className="w-10 h-10 bg-[#0287C3] rounded-full shrink-0 flex justify-center items-center text-white">
+                  <Check size={24} />
+                </div>
                 <div>
-                  <h4 className="text-[#385393] font-semibold text-base">
+                  <h4 className="text-[#385393] font-semibold text-base xl:text-lg">
                     Premium Latex Material
                   </h4>
                   <p className="text-gray-600 text-base mt-1 leading-[1.9]">
@@ -43,9 +46,11 @@ export default function MedasHighlight() {
 
               {/* Item 2 */}
               <div className="flex items-start gap-4" data-aos="fade-up" data-aos-delay="200">
-                <div className="w-10 h-10 bg-[#0287C3] rounded-full shrink-0"></div>
+                <div className="w-10 h-10 bg-[#0287C3] rounded-full shrink-0 flex justify-center items-center text-white">
+                  <Check size={24} />
+                </div>
                 <div>
-                  <h4 className="text-[#385393] font-semibold text-base">
+                  <h4 className="text-[#385393] font-semibold text-base xl:text-lg">
                     Silicone Coating
                   </h4>
                   <p className="text-gray-600 text-base mt-1 leading-[1.9]">
@@ -61,7 +66,7 @@ export default function MedasHighlight() {
           {/* RIGHT MEDIA */}
           <div data-aos="fade-left" className="w-full">
 
-            <div className="relative w-full h-[260px] md:h-[320px] lg:h-[360px] rounded-xl overflow-hidden">
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden">
               <div className="absolute inset-0">
 
                 <DynamicVideoPlayer

@@ -43,7 +43,7 @@ export default function CatheGuarantees() {
       {/* SUBTLE LIGHT STREAK */}
       {/* <div className="absolute inset-0 opacity-[0.06] bg-[linear-gradient(120deg,transparent_0%,white_50%,transparent_100%)]" /> */}
 
-      <div className="relative z-10 mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="relative z-10 custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* HEADER */}
         {/* ================================================= */}

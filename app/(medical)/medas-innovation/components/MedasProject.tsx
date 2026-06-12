@@ -30,7 +30,7 @@ export default function MedasProject() {
       {/* Pattern Overlay */}
       <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div>
 
-      <div className="relative max-w-380 mx-auto px-6 lg:px-10">
+      <div className="relative custom-container px-4">
         
         {/* HEADER */}
         <div className="flex items-center justify-between mb-10">
@@ -40,7 +40,7 @@ export default function MedasProject() {
             <h2 className="text-white text-2xl md:text-3xl font-semibold">
               Our Latest Projects
             </h2>
-            <p className="text-white/70 mt-3 max-w-md text-base leading-[1.9]">
+            <p className="text-white mt-3 max-w-2xl text-base leading-[1.9]">
               Our expertise spans multiple industries, delivering high quality
               fabrics crafted for durability, functionality, & consistent performance.
             </p>
@@ -82,7 +82,7 @@ export default function MedasProject() {
               {/* CONTENT */}
               <div className="absolute bottom-6 left-6 text-white">
                 {/* <p className="text-sm opacity-80">{card.subtitle}</p> */}
-                <h3 className="text-lg font-semibold">{card.title}</h3>
+                <h3 className="text-lg 2xl:text-2xl font-semibold">{card.title}</h3>
               </div>
 
             </div>

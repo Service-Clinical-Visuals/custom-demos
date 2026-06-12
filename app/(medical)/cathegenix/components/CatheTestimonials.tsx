@@ -84,7 +84,7 @@ export default function CatheTestimonials() {
 
   return (
     <section className="overflow-hidden bg-[#F7F7F5] py-24">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="custom-container px-8 lg:px-14">
         {/* TOP SECTION */}
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           {/* LEFT CONTENT */}
@@ -108,10 +108,10 @@ export default function CatheTestimonials() {
             data-aos="fade-left"
             className="flex flex-col gap-4 lg:items-end"
           >
-            <button className="cursor-pointer flex h-[52px] min-w-[220px] items-center justify-center rounded-full bg-[#0047A6] px-8 text-[15px] font-semibold text-white shadow-[0_10px_20px_rgba(0,71,166,0.18)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]">
+            <button className="cursor-pointer flex h-[52px] min-w-[220px] items-center justify-center rounded-full bg-[#0047A6] px-8 text-[16px] font-semibold text-white shadow-[0_10px_20px_rgba(0,71,166,0.18)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]">
               Patient Health
             </button>
-            <button className="cursor-pointer flex h-[52px] min-w-[280px] items-center justify-center rounded-full bg-[#0047A6] px-8 text-[15px] font-semibold text-white shadow-[0_10px_20px_rgba(0,71,166,0.18)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]">
+            <button className="cursor-pointer flex h-[52px] min-w-[280px] items-center justify-center rounded-full bg-[#0047A6] px-8 text-[16px] font-semibold text-white shadow-[0_10px_20px_rgba(0,71,166,0.18)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#003C92]">
               Medical Professionals
             </button>
           </div>
