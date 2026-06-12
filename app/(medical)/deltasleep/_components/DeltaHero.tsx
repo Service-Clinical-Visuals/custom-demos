@@ -31,7 +31,7 @@ export default function DeltaHero() {
                 Canadian
               </h1>
 
-              <button className="cursor-pointer mt-8 bg-white text-[#00695f] px-7 py-4 rounded-xl text-[15px] font-medium hover:scale-105 transition duration-300">
+              <button className="cursor-pointer mt-8 bg-white text-[#00695f] px-7 py-4 rounded-xl text-[15px] font-bold hover:scale-105 transition duration-300">
                 Explore Products
               </button>
             </div>

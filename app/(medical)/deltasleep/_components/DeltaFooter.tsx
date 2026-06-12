@@ -44,7 +44,7 @@ export default function DeltaFooter() {
             <input
               type="email"
               placeholder="Please enter your email"
-              className="flex-1 h-full bg-[#00695f] px-5 text-white placeholder:text-white/80 text-[14px] outline-none"
+              className="flex-1 h-full bg-[#00695f] px-5 text-white placeholder:text-white/80 font-semibold text-[14px] outline-none"
             />
 
             <button className="cursor-pointer w-[72px] h-full bg-[#f2f5f4] flex items-center justify-center transition-all duration-300 hover:bg-white">
