@@ -22,7 +22,7 @@ const products = [
 ];
 export default function ProductsSection() {
   return (
-    <section className="py-24 bg-[#f9f9f9]">
+    <section className="py-24 bg-[#F1F1F1]">
       <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="text-center max-w-4xl mx-auto" data-aos="fade-up">
           <h2 className="text-[38px] text-[#161616] font-bold">

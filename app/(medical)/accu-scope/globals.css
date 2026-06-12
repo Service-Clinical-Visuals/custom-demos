@@ -86,13 +86,20 @@ p {
   font-family: var(--font-rubik), sans-serif !important;
   font-size: 16px;
   line-height: 26px;
-  color: #333333;
 }
 
 @media (min-width: 2560px) {
   p {
     font-size: 24px !important;
     line-height: 36px !important;
+  }
+
+  .headerlinks{
+    font-size: 24px !important;
+  }
+
+  .footerlinks{
+    font-size: 24px !important;
   }
 }
 
@@ -118,4 +125,9 @@ p {
   .product-image {
     width: 320px !important;
   }
+}
+
+
+.rubik{
+    font-family: var(--font-rubik), sans-serif;
 }

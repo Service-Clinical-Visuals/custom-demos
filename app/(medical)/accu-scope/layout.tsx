@@ -7,7 +7,7 @@ import AosInit from "./_components/AosInit";
 const fontPrimary = Rubik({
   variable: "--font-rubik",
   subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const fontSecondary = Rajdhani({

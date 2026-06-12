@@ -33,10 +33,10 @@ export default function TrustedClientsSection() {
       <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="text-center max-w-6xl mx-auto" data-aos="fade-up">
 
-          <h2 className="text-[38px] text-[#333333] font-bold">
+          <h2 className="text-[38px] text-[#333333] font-bold mb-4">
             Trusted by these fine institutions
           </h2>
-          <p className="mt-6 leading-8 text-[16px] text-[#333333] max-w-[1000px] mx-auto">
+          <p className="leading-8 text-[16px] font-[400] text-[#7C7C7C] max-w-[1000px] mx-auto">
             {/* <p
             className="
               mt-4

@@ -5,7 +5,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function FluorescenceSection() {
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+      <div className="max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* <Image
             src="/images/fluorescence.jpg"
@@ -55,8 +55,8 @@ export default function FluorescenceSection() {
               your application, and we will provide you with our recommendations for a suitable solution.
             </p>
 
-            <button className="mt-4 bg-[#0068A7] h-[48px] text-white px-6 py-3 rounded-full inline-flex items-center gap-2">
-              explore more
+            <button className="mt-4 bg-[#0068A7] rubik h-[48px] font-medium text-white px-6 py-3 rounded-full inline-flex items-center gap-2">
+              Explore More
               <ArrowRight size={18} />
             </button>
           </div>

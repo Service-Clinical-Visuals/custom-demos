@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
-        <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+        <div className="max-w-[80%] mx-auto px-6">
           <div className="h-[72px] flex items-center justify-between">
 
             {/* Logo */}
@@ -28,17 +28,17 @@ export default function Header() {
               <img
                 src="/accu-scope/accuscope-logo.png"
                 alt="ACCU-SCOPE"
-                className="h-10 w-auto"
+                className="h-[33px] w-auto"
               />
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden xl:flex items-center gap-10">
+            <nav className="hidden xl:flex items-center gap-8">
               {menu.map((item, index) => (
                 <Link
                   key={item}
                   href="#"
-                  className={`font-bold text-[15px] 2xl:text-[20px] transition-colors
+                  className={`font-bold text-[16px] transition-colors headerlinks
                     ${index === 0
                       ? "text-[#00A99D] underline decoration-[#00A99D]"
                       : "text-[#3d3d3d] hover:text-[#00A99D] hover:underline hover:decoration-[#00A99D]"

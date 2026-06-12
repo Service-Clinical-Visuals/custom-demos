@@ -35,37 +35,37 @@ export default function QualityAssuranceSection() {
               <p
                 className="
                   mt-4
-                  text-[18px]
+                  text-[16px]
                   line-height-[26px]
                   text-[#6b6b6b]
+                  font-normal
+                  rubik
                 "
               >
-                At ACCU-SCOPE, we understand the critical role microscopes
-                play in various fields. That's why we prioritize exceptional
-                quality throughout the entire manufacturing process.
+                At ACCU-SCOPE, we understand the critical role microscopes play in various fields. 
+                That’s why we prioritize exceptional quality throughout the entire manufacturing process. 
+                Our commitment is reflected in:
               </p>
 
               <div className="mt-4 space-y-4">
 
                 <div>
-                  <h3 className="text-[24px] line-height-[60px] font-bold text-[#333]">
+                  <h3 className="text-[24px] mb-3 line-height-[60px] font-bold text-[#333]">
                     Rigorous Component Selection
                   </h3>
 
-                  <p className="mt-3 text-[#6b6b6b] text-[16px] line-height-[26px]">
-                    We source high-grade materials and precision optics to
-                    ensure durability and performance.
+                  <p className="text-[#7C7C7C] font-normal text-[16px] line-height-[26px]">
+                    We source high-grade materials and precision optics to ensure durability and performance.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-[24px] line-height-[60px] font-bold text-[#333]">
+                  <h3 className="text-[24px] mb-3 line-height-[60px] font-bold text-[#333]">
                     Stringent Manufacturing Standards
                   </h3>
 
-                  <p className="mt-3 text-[#6b6b6b] text-[16px] line-height-[26px]">
-                    Our production adheres to strict quality control
-                    protocols, guaranteeing consistent performance.
+                  <p className="text-[#7C7C7C] font-normal text-[16px] line-height-[26px]">
+                    Our production adheres to strict quality control protocols, guaranteeing consistent performance across our product lines.
                   </p>
                 </div>
 
@@ -75,12 +75,13 @@ export default function QualityAssuranceSection() {
                 className="
                   mt-6
                   w-fit
+                  rubik
                   bg-[#005FA3]
                   text-white
                   rounded-full
                   px-8
                   h-[48px]
-                  font-semibold
+                  font-medium
                   flex items-center gap-4
                   hover:scale-105
                   transition-all

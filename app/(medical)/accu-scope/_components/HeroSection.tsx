@@ -15,13 +15,12 @@ export default function HeroBanner() {
 
       {/* Content */}
       <div className="relative z-10 h-full">
-        <div className="max-w-[1550px] mx-auto h-full px-8">
+        <div className="max-w-[80%] mx-auto h-full px-8">
 
           <div
             className="
               absolute
-              left-40
-              2xl:left-70
+              left-[10%]
               bottom-24
               max-w-[450px]
             "
@@ -47,11 +46,11 @@ export default function HeroBanner() {
                 mt-6
                 h-[56px]
                 px-8
+                rubik
                 rounded-full
                 bg-[#005FA3]
                 text-white
-                font-semibold
-                2xl:text-[20px]
+                font-medium
                 flex items-center gap-3
                 hover:scale-105
                 transition-all duration-300
