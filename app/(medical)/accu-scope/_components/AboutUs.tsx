@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function AboutSection() {
   return (
     <section className="relative py-24 bg-[#ffffff] overflow-hidden">
-      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+      <div className="max-w-[80%] mx-auto px-6">
 
         <div className="grid lg:grid-cols-2 gap-10">
 
@@ -56,21 +56,15 @@ export default function AboutSection() {
 
             <div className="mt-3 space-y-6">
               <p className="text-[20px] leading-[34px] text-[#6c6c6c]">
-                Driven by a passion for scientific discovery for more than
-                a century, we have embarked on a mission to create optical
-                instruments that make scientific exploration more accessible
-                and affordable.
+                Driven by a passion for scientific discovery for more than a century, we have embarked on a mission to create optical instruments that make scientific exploration more accessible and affordable. Our products span over 110 countries and are distributed by a global network of authorized distributors.
               </p>
 
               <p className="text-[20px] leading-[34px] text-[#6c6c6c]">
-                In 2005 we expanded beyond classrooms and laboratories.
-                The acquisition of Unitron Ltd. enhanced our presence
-                in inspection, metallurgical, materials and forensic markets.
+                In 2005 we expanded beyond classrooms and laboratories. The acquisition of Unitron Ltd., a leader in industrial microscopes, enhanced our presence in the inspection, metallurgical, materials, and forensic markets. 
               </p>
 
               <p className="text-[20px] leading-[34px] text-[#6c6c6c]">
-                Our capabilities grew further with the addition of LX
-                Microscopes, a leading provider of stereo microscopes.
+                Our capabilities grew further in 2017 with the addition of Luxo Microscopes (now LX Microscopes) a leading provider of stereo microscopes for inspection.
               </p>
             </div>
 
@@ -130,10 +124,11 @@ export default function AboutSection() {
             h-[48px]
             w-[250px]
             px-8
+            rubik
             rounded-full
             bg-[#005FA3]
             text-white
-            font-semibold
+            font-medium
             flex items-center
             gap-1
             hover:scale-105

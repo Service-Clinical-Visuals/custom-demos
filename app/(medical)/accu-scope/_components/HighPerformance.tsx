@@ -7,35 +7,35 @@ const products = [
     title: "RC500",
     image: "/accu-scope/products/mc1.png",
     description:
-      "The ACCU-SCOPE RC500 remote collaboration system enables seamless communication."
+      "The ACCU-SCOPE RC500 remote collaboration system enables seamless..."
   },
   {
     id: 2,
     title: "EXC-500",
     image: "/accu-scope/products/mc2.png",
     description:
-      "Flagship microscope offering best-in-class performance and value."
+      "ACCU-SCOPE’s flagship EXC-500 Microscope offers best-in-class performance and value..."
   },
   {
     id: 3,
     title: "EXC-400",
     image: "/accu-scope/products/mc3.png",
     description:
-      "Designed for a broad range of microscopy applications."
+      "The EXC-400 from ACCU-SCOPE is designed for a broad range of microscopy...."
   },
   {
     id: 4,
     title: "EXC-360",
     image: "/accu-scope/products/mc4.png",
     description:
-      "Exceptional optical performance and versatility."
+      "The NEW EXC-360 from ACCU-SCOPE delivers exceptional optical performance, versatility..."
   },
 ];
 
 export default function HighPerformanceSection() {
   return (
-    <section className="py-24 bg-[#f9f9f9]">
-      <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
+    <section className="py-24 bg-[#EEEEEE]">
+      <div className="max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-[55%_45%] xl:grid-cols-[58%_42%] gap-8 lg:gap-12 xl:gap-16 items-start">
 
           {/* LEFT CONTENT */}
@@ -111,7 +111,7 @@ export default function HighPerformanceSection() {
           </div>
 
           {/* RIGHT PRODUCT LIST */}
-          <div data-aos="fade-left" className="space-y-8 ">
+          <div data-aos="fade-left" className="space-y-4 ">
 
             {products.map((product) => (
               <div className="flex gap-5 items-center" key={product.id}>
@@ -124,15 +124,15 @@ export default function HighPerformanceSection() {
                 />
 
                 <div className="flex-1">
-                  <h3
+                  <h4
                     className="
-                    text-lg sm:text-xl xl:text-2xl
+                    text-lg sm:text-xl xl:text-3xl
                     font-bold
                     text-[#2d2d2d]
                   "
                   >
                     {product.title}
-                  </h3>
+                  </h4>
 
                   <p
                     className="
