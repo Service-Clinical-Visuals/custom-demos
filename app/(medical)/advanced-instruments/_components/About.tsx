@@ -28,7 +28,7 @@ const Counter = ({ value, duration = 2 }: { value: number; duration?: number }) 
 const About = () => {
     return (
         <section className="py-16 md:py-20 bg-white overflow-hidden" id="about">
-            <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+            <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
                 {/* Left side: Hero About Image */}
                 <div
                     className="relative order-2 lg:order-1 flex justify-center lg:block"
@@ -80,7 +80,7 @@ const About = () => {
                                     <div className="mt-1 flex-shrink-0">
                                         <img src="advanced-instruments/images/Turbine_fill.png" alt="Turbine_fill" className="w-6 h-6" />
                                     </div>
-                                    <span className="text-[#333333] group-hover:text-[#00aeef] transition-colors">
+                                    <span className="text-[#333333] group-hover:text-[#00aeef] transition-colors points">
                                         {item}
                                     </span>
                                 </div>
@@ -94,7 +94,7 @@ const About = () => {
                         </div>
                         {/* Floating Experience Badge */}
                         <div
-                            className="flex bg-white p-6 rounded-2xl shadow-xl flex-col items-center gap-2 border border-blue-50 max-w-[220px]"
+                            className="flex bg-white p-6 rounded-2xl shadow-xl flex-col items-center gap-2 border border-blue-50 max-w-[320px] "
                             data-aos="zoom-in"
                             data-aos-delay="700"
                         >
@@ -102,7 +102,7 @@ const About = () => {
                                 <img src="advanced-instruments/images/about-2.png" alt="about-2" className="w-full h-full object-cover rounded-xl" />
                             </div>
                             <h4 className="text-sm font-semibold! text-center">
-                                <span className="text-[#00aeef] text-3xl font-bold mr-4"><Counter value={30} />+</span> Years of Delivering Quality Medical Equipment and Trusted Healthcare Solutions
+                                <span className="text-[#00aeef] text-3xl font-semibold mr-4"><Counter value={30} />+</span> Years of Delivering Quality Medical Equipment and Trusted Healthcare Solutions
                             </h4>
                         </div>
                     </div>

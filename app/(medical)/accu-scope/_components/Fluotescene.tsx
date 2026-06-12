@@ -14,16 +14,26 @@ export default function FluorescenceSection() {
             height={500}
             className="rounded-2xl"
           /> */}
-            <div
-              data-aos="zoom-in"
-              className="aspect-video relative flex-1 min-h-0 rounded-[28px] overflow-hidden"
-            >
-              <DynamicVideoPlayer type="short-1" className="absolute inset-0 object-cover" />
-            </div>
- 
+          <div
+            data-aos="zoom-in"
+            className="aspect-video relative flex-1 min-h-0 rounded-[28px] overflow-hidden"
+          >
+            <DynamicVideoPlayer type="short-1" className="absolute inset-0 object-cover" />
+          </div>
+
 
           <div data-aos="fade-left">
-            <span className="text-[#00B5A6] uppercase text-[16px] line-height-[28px] font-semibold">
+            {/* <span className="text-[#00B5A6] uppercase text-[16px] line-height-[28px] font-semibold"> */}
+            <span
+              className="
+            uppercase
+            tracking-[2px]
+            text-[#00A99D]
+            font-semibold
+            text-sm
+            2xl:text-[22px]
+          "
+            >
               Advanced Technology
             </span>
 
@@ -32,16 +42,16 @@ export default function FluorescenceSection() {
             </h2>
 
             <p className="mt-1 text-gray-600 text-[16px] line-height-[26px]">
-              In fluorescence microscopy, fluorescent substances are viewed or imaged with a microscope. These fluorescent 
-              substances may be naturally occurring in the sample or may be introduced to assist in the identification of 
-              specific features in the sample. Multiple fluorescent substances (fluorophores) with different fluorescent 
-              properties can be visualized within the same sample using the capabilities of fluorescence illumination and 
+              In fluorescence microscopy, fluorescent substances are viewed or imaged with a microscope. These fluorescent
+              substances may be naturally occurring in the sample or may be introduced to assist in the identification of
+              specific features in the sample. Multiple fluorescent substances (fluorophores) with different fluorescent
+              properties can be visualized within the same sample using the capabilities of fluorescence illumination and
               fluorescence filter combinations.
             </p>
 
             <p className="mt-4 text-gray-600 text-[16px] line-height-[26px]">
-              ACCU-SCOPE offers a selection of fluorescence accessories and fluorescence illuminators for our microscopes and 
-              microscopes from other manufacturers. We encourage you to Contact Us to speak with one of our experts to discuss 
+              ACCU-SCOPE offers a selection of fluorescence accessories and fluorescence illuminators for our microscopes and
+              microscopes from other manufacturers. We encourage you to Contact Us to speak with one of our experts to discuss
               your application, and we will provide you with our recommendations for a suitable solution.
             </p>
 

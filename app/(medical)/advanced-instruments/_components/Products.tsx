@@ -30,7 +30,7 @@ const products = [
 const Products = () => {
     return (
         <section className="py-10 md:py-15 bg-[url('/advanced-instruments/images/products-bg.png')] bg-cover bg-center relative overflow-hidden" id="products">
-            <div className="container mx-auto px-4 md:px-0">
+            <div className="custom-container mx-auto px-4 md:px-0">
                 <SectionHeader
                     label="Our Products"
                     title="Innovative Solutions for Every Healthcare Need"
@@ -55,7 +55,7 @@ const Products = () => {
                                 <span className="text-[#00aeef] text-base font-bold tracking-widest uppercase mb-3 inline-block">{product.category}</span>
                                 <h3 className="text-xl font-semibold! leading-tight mb-4 text-[#333333] group-hover:text-[#00aeef] transition-colors">{product.title}</h3>
                                 <div className="bg-gradient-to-l from-white to-[#80D4F7] h-0.5 w-full mb-4 rounded-full"></div>
-                                <p className=" text-base leading-relaxed mb-6 h-[100px] overflow-hidden line-clamp-4">{product.description}</p>
+                                <p className=" text-base leading-relaxed mb-6 max-h-[140px] overflow-hidden line-clamp-4">{product.description}</p>
                             </div>
                             <div className="p-8 md:p-6 mt-auto">
                                 <div className="relative overflow-hidden rounded-2xl aspect-[4/3] bg-neutral-100 flex items-center justify-center">

@@ -37,14 +37,14 @@ export default function Hero() {
             </div>
 
             {/* Hero Text - Positioned at bottom as per image */}
-            <div className="container mx-auto px-6 md:px-12 relative z-20 pb-20 md:pb-28 flex flex-col items-center text-center">
+            <div className="custom-container mx-auto px-6 md:px-12 relative z-20 pb-20 md:pb-28 flex flex-col items-center text-center">
                 <h1
-                    className="text-white! text-3xl md:text-4xl lg:text-5xl font-semibold max-w-4xl tracking-wide drop-shadow-lg"
+                    className="text-white! text-3xl md:text-4xl lg:text-5xl font-semibold max-w-4xl 2xl:max-w-7xl tracking-wide drop-shadow-lg"
                 >
                     Innovating Medical Devices for Better Outcomes
                 </h1>
                 <p
-                    className="text-white! mt-6 max-w-5xl text-sm md:text-base lg:text-lg font-normal leading-relaxed"
+                    className="text-white! mt-6 max-w-7xl text-sm md:text-base lg:text-lg font-normal leading-relaxed"
                 >
                     We design and manufacture advanced medical solutions with a focus on precision, quality, and innovation.
                     With global expertise in craniomaxillofacial and neuro fixation systems, we deliver reliable

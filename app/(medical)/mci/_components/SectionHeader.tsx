@@ -30,16 +30,16 @@ const SectionHeader = ({
     return (
         <div className={`space-y-4 ${center ? "flex flex-col items-center text-center" : ""}`}>
             <div
-                className={`flex items-center gap-2 font-bold text-[16px] tracking-wide ${colorClass} ${subtitleClassName}`}
+                className={`flex items-center gap-2 font-semibold text-[16px] sub-head tracking-wide ${colorClass} ${subtitleClassName}`}
             >
                 <span className="flex items-center">
-                    <div className={`w-6 h-[2px] ${bgClass}`} />
+                    <div className={`w-6 h-[2px]  ${bgClass}`} />
                     <div className={`w-[10px] h-[10px] border-2 mx-[-1px] ${borderClass}`} />
                 </span>
                 {subtitle}
             </div>
 
-            <h2 className={`text-xl md:text-3xl font-bold leading-tight max-w-3xl ${titleColorClass} ${titleClassName}`}>
+            <h2 className={`text-xl md:text-3xl font-semibold leading-tight ${titleColorClass} ${titleClassName}`}>
                 {title}
             </h2>
         </div>

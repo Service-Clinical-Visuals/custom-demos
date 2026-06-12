@@ -67,7 +67,7 @@ export default function CmfSolutions() {
             {/* Card 1 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1 min-[2560px]:gap-3">
               {/* <h4 className="text-[#237B64] font-semibold text-lg font-heading"> */}
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] min-[2560px]:text-3xl min-[2560px]:gap-3">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[24px] min-[2560px]:text-4xl min-[2560px]:gap-3">
                 Temporo-mandibular joint (TMJ) reconstruction
               </h3>
               <ul className="flex flex-col gap-1 min-[2560px]:gap-2">
@@ -86,7 +86,7 @@ export default function CmfSolutions() {
 
             {/* Card 2 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1">
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] min-[2560px]:text-3xl min-[2560px]:gap-3">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[24px] min-[2560px]:text-4xl min-[2560px]:gap-3">
                 Trauma reconstructive surgery
               </h3>
               <ul className="flex flex-col gap-1 min-[2560px]:gap-2">
@@ -105,7 +105,7 @@ export default function CmfSolutions() {
 
             {/* Card 3 */}
             <div className="bg-white rounded-xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-gray-100 p-6 flex flex-col gap-1">
-              <h3 className="text-[#317d71] font-semibold  font-heading text-[18px] min-[2560px]:text-3xl min-[2560px]:gap-3">
+              <h3 className="text-[#317d71] font-semibold  font-heading text-[24px] min-[2560px]:text-4xl min-[2560px]:gap-3">
                 Oncologic reconstructive surgery
               </h3>
               <ul className="flex flex-col gap-1 min-[2560px]:gap-2">

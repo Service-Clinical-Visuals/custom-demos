@@ -29,7 +29,7 @@ const Events = () => {
 
     return (
         <section className="py-24 bg-white overflow-hidden">
-            <div className="container mx-auto px-6 md:px-12 text-center">
+            <div className="custom-container mx-auto px-6 md:px-12 text-center">
                 {/* Header Area */}
                 <div className="space-y-6 mb-20 flex flex-col items-center" data-aos="fade-up">
                     <SectionHeader
@@ -38,7 +38,7 @@ const Events = () => {
                         title="Connecting, Learning, and Leading in Healthcare Innovation"
                     />
 
-                    <p className="text-gray-500 font-medium max-w-4xl mx-auto text-sm lg:text-[15px] leading-relaxed">
+                    <p className="text-gray-500 font-medium max-w-7xl 2xl:max-w-[85%] mx-auto text-sm lg:text-[15px] leading-relaxed">
                         MCI actively participates in leading international medical conferences and exhibitions across the globe, including prominent events in Miami, Singapore, São Paulo, Dubai, and New Orleans. These platforms bring together industry experts, surgeons, and innovators to share knowledge, explore advancements, and discuss the future of healthcare.
                     </p>
                 </div>
@@ -62,7 +62,7 @@ const Events = () => {
                                     {event.title}
                                 </h3>
                                 <div className="relative group/link inline-block">
-                                    <Link href="#" className="inline-flex items-center gap-1.5 text-[#0e2a5e] font-bold text-sm lg:text-base transition-colors">
+                                    <Link href="#" className="inline-flex items-center gap-1.5 text-[#0e2a5e] font-semibold text-sm lg:text-base transition-colors 2xl:text-[18px]">
                                         Details <ExternalLink size={14} />
                                     </Link>
                                     <span className="absolute -bottom-1 left-0 h-0.5 bg-secondary transition-all duration-300 w-0 group-hover/link:w-full"></span>

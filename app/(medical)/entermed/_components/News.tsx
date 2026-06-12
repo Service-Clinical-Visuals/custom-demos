@@ -23,8 +23,8 @@ export default function News() {
       <div className="container mx-auto px-4 md:px-8 w-full">
 
         {/* Header */}
-        <div className="text-center max-w-8xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-6 flex items-center justify-center gap-3">
+        <div className="text-center max-w-8xl mx-auto mb-16" data-aos="fade-up">
+          <h2 className="text-3xl md:text-[32px] font-bold !text-primary mb-6 flex items-center justify-center gap-3">
             <span className="!text-primary text-2xl leading-none pb-1">&bull;</span> Latest News
           </h2>
           <p className="text-gray-500 text-[15px] leading-[1.8]">
@@ -35,7 +35,7 @@ export default function News() {
         {/* News Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
           {newsItems.map((item, idx) => (
-            <div key={idx} className="bg-[#F5333F0D] rounded-[24px] p-6 flex flex-col sm:flex-row gap-6 items-center shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div key={idx} className="bg-[#F5333F0D] rounded-[24px] p-6 flex flex-col sm:flex-row gap-6 items-center shadow-sm border border-gray-100 hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay={idx * 200}>
               {/* Image */}
               <div className="w-full sm:w-[260px] md:w-[280px] h-[180px] flex-shrink-0 bg-white rounded-[16px] shadow-sm border border-gray-200 flex items-center justify-center overflow-hidden relative">
                 <img src={item.path} alt={item.title} className="w-full h-full object-cover" />
@@ -43,7 +43,7 @@ export default function News() {
 
               {/* Content */}
               <div className="flex flex-col flex-grow py-2">
-                <h3 className="text-gray-900 font-bold text-[18px] mb-3 leading-snug">{item.title}</h3>
+                <h4 className="text-gray-900 font-bold text-[18px] mb-3 leading-snug">{item.title}</h4>
                 <p className="text-gray-500 text-[14.5px] leading-[1.7] mb-6 flex-grow">
                   {item.description}
                 </p>

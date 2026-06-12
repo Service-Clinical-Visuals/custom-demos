@@ -37,7 +37,7 @@ const Header = ({ isSticky = false }: HeaderProps) => {
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 transform ${scrolled || mobileMenuOpen || isSticky ? "translate-y-0 opacity-100 bg-white shadow-lg" : "-translate-y-full opacity-0"
                 } ${mobileMenuOpen ? "h-auto py-6" : "h-[80px] py-4"}`}
         >
-            <div className="container mx-auto px-4 md:px-0 flex items-center justify-between h-full">
+            <div className="custom-container mx-auto px-6 lg:px-0 flex items-center justify-between h-full">
                 {/* Logo */}
                 <Link href="/advanced-instruments" className="flex items-center">
                     <div className="flex flex-col">
@@ -53,7 +53,7 @@ const Header = ({ isSticky = false }: HeaderProps) => {
                             <Link
                                 key={link.name}
                                 href={link.href}
-                                className={`text-sm lg:text-base font-medium transition-colors flex items-center gap-1 group ${isActive ? "text-[#00aeef] font-bold!" : "text-[#333333] hover:text-[#00aeef]"
+                                className={`text-sm lg:text-[17px] font-medium transition-colors flex items-center gap-1 group ${isActive ? "text-[#00aeef] font-semibold!" : "text-[#333333] hover:text-[#00aeef]"
                                     }`}
                             >
                                 {link.name}

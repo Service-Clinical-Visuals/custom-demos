@@ -23,7 +23,7 @@ const SectionHeader = ({
             {label && (
                 <div className="flex items-center gap-3 mb-4 group">
                     <span
-                        className={`text-sm md:text-base font-bold tracking-wider ${light ? "text-white" : "text-[#333333]"
+                        className={`text-sm md:text-base sub-head font-semibold tracking-wider ${light ? "text-white" : "text-[#333333]"
                             }`}
                     >
                         {label}
@@ -32,7 +32,7 @@ const SectionHeader = ({
                 </div>
             )}
             <h2
-                className={`text-md md:text-2xl font-bold! leading-tight mb-6 ${light ? "text-white!" : "text-[#333333]!"
+                className={`text-md md:text-2xl font-semibold! mb-6 ${light ? "text-white!" : "text-[#333333]!"
                     }`}
             >
                 {title}

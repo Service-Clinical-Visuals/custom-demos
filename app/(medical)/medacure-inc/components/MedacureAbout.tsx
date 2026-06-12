@@ -17,8 +17,7 @@ const highlights = [
   },
   {
     title: "Our goal",
-    description:
-      "is to offer the most advanced quality product at the absolute lowest price.",
+    description:"is to offer the most advanced quality product at the absolute lowest price.",
   },
 ];
 
@@ -36,11 +35,11 @@ export default function MedacureAbout() {
         />
       </div>
 
-      <div className="relative max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-        
+      <div className="relative custom-container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+
         {/* LEFT - HEX IMAGES */}
         <div className="" data-aos="fade-right">
-            <img src="/medacure/assets/medacure-about1.png" alt="hex-bg" className="w-full h-full object-cover" />
+          <img src="/medacure/assets/medacure-about1.png" alt="hex-bg" className="w-full h-full object-cover" />
         </div>
 
         {/* RIGHT - CONTENT */}
@@ -65,26 +64,43 @@ export default function MedacureAbout() {
           <ul className="space-y-3 mb-6">
             {highlights.map((item, idx) => (
               <li key={idx} className="flex items-start gap-2 text-[#666666]">
-                <CircleCheck
+                {/* <CircleCheck
                   size={20}
                   color="#ffffff"
                   fill="#2E2662"
                   className="shrink-0 mt-1"
-                />
-                <span>
-                  <span className="text-[#2E2662] font-medium">
+                /> */}
+                {/* <p>
+                  <p className="text-[#2E2662] font-medium">
                     {item.title}
-                  </span>{" "}
+                  </p>{" "}
                   {item.description}
-                </span>
+                </p> */}
+                <div className="mb-6">
+                  <div className="flex items-center gap-3 mb-2">
+                    <CircleCheck
+                      // size={40}
+                      color="#ffffff"
+                      fill="#2E2662"
+                      className="shrink-0 mt-1 w-5 h-5 2xl:w-12 2xl:h-12 4xl:w-14 4xl:h-14"
+                    />
+                    <span className="text-[#2E2662] font-semibold text-lg about-span">
+                      {item.title} : <span className="text-gray-600 font-medium about-span">{item.description}</span>
+                    </span>
+                  </div>
+                  {/* <p className="text-black text-base">
+                    {item.description}
+                  </p> */}
+                </div>
               </li>
+
             ))}
           </ul>
 
           {/* CTA */}
           <button
             data-aos="zoom-in"
-            className="cursor-pointer border-2 border-[#2E2662] text-[#333333] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition"
+            className="cursor-pointer border-2 border-[#2E2662] text-[#333333] px-6 py-3 rounded-full hover:bg-[#2E2662] hover:text-white transition download" 
           >
             Know More About Us
           </button>

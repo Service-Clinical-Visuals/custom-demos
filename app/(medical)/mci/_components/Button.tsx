@@ -28,7 +28,7 @@ const Button = ({
     circleIcon = true
 }: ButtonProps) => {
     // Basic shared styles
-    const baseStyles = "inline-flex items-center font-bold transition-all duration-300 group rounded-full active:scale-95 shadow-lg";
+    const baseStyles = "inline-flex items-center font-semibold transition-all duration-300 group rounded-full active:scale-95 shadow-lg btn-link";
 
     // Variant styles
     const variants = {

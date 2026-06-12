@@ -27,17 +27,19 @@ export default function CoreValues() {
     <section className="bg-[#F5333F0D] py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
 
-        <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-10 flex items-center gap-3">
-          <span className="text-primary text-2xl leading-none pb-1">&bull;</span> Our Core Values
-        </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+        
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16"> */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 ">
           {/* Left Content - Image */}
-          <div className="rounded-[20px] shadow-md bg-gray-200 overflow-hidden border border-gray-100 relative w-full lg:h-full">
+          <div className="rounded-[20px] shadow-md bg-gray-200 overflow-hidden border border-gray-100 relative w-full lg:h-full" data-aos="fade-right">
             <img src="/entermed/core-values.png" alt="core-values" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Right Content */}
-          <div className="flex flex-col justify-center h-full">
+          <div className="flex flex-col justify-center h-full" data-aos="fade-left" data-aos-delay="200">
+            <h2 className="text-3xl md:text-[32px] font-bold !text-primary mb-5 flex items-center gap-3">
+          <span className="text-primary text-2xl leading-none pb-1">&bull;</span> Our Core Values
+        </h2>
             <p className="text-gray-600 mb-8 text-[15px] leading-[1.8] pr-4">
               Driven by dedication, powered by innovation, and committed to safety, we deliver reliable solutions that meet the highest standards of quality and excellence.
             </p>

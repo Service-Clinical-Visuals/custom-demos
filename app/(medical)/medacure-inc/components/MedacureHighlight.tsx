@@ -11,10 +11,10 @@ export default function MedacureHighlight() {
 
   return (
     <section className="bg-[#2E2662] py-20 overflow-hidden">
-      <div className="max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="custom-container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT CONTENT */}
-        <div data-aos="fade-right" className="text-white max-w-2xl">
+        <div data-aos="fade-right" className="text-white max-w-2xl 2xl:max-w-[90%]">
 
           {/* Title */}
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">
@@ -22,11 +22,8 @@ export default function MedacureHighlight() {
           </h2>
 
           {/* Description */}
-          <p className="text-white leading-7.5 mb-6">
-            The AeroLite Portable Oxygen Concentrator by Medacure provides
-            medical grade oxygen in a compact battery operated unit. Lightweight
-            and portable, it's ideal for travel. Includes a long lasting battery
-            with optional extended battery that will double the use time...
+          <p className="text-white leading-[1.5] mb-6">
+          The AeroLite Portable Oxygen Concentrator by Medacure provides medical grade oxygen in a compact battery operated unit. Lightweight and portable, it’s ideal for travel. Includes a long lasting battery with optional extended battery that will double the use time. Includes a nasal cannula, carrying case and AC/DC adapter that plugs directly into your cars 12v socket.
           </p>
 
           {/* Features */}
@@ -39,7 +36,7 @@ export default function MedacureHighlight() {
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <CircleCheck className="shrink-0 w-6 h-6 text-[#2E2662] fill-[#ffffff] " />
-                <span className="text-white/90 text-base">{item}</span>
+                <span className="text-white/90 text-base about-span ">{item}</span>
               </div>
             ))}
           </div>
@@ -47,7 +44,7 @@ export default function MedacureHighlight() {
           {/* CTA */}
           <button
             data-aos="zoom-in"
-            className="border cursor-pointer border-white px-6 py-3 rounded-full hover:bg-white hover:text-[#2e2463] transition"
+            className="border cursor-pointer border-white px-6 py-3 rounded-full hover:bg-white hover:text-[#2e2463] transition download"
           >
             View Products
           </button>
@@ -56,7 +53,7 @@ export default function MedacureHighlight() {
         {/* RIGHT VIDEO BOX */}
         <div
           data-aos="fade-left"
-          className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden"
+          className="relative w-full h-[380px] md:h-[480px] 2xl:h-[620px] rounded-2xl overflow-hidden"
         >
           {/* Replace with video later */}
           <DynamicVideoPlayer

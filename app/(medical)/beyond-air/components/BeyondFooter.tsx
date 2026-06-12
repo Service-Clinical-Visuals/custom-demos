@@ -10,7 +10,7 @@ export default function BeyondFooter() {
       {/* BACKGROUND IMAGE (you will replace) */}
       <div className="absolute inset-0 opacity-4 bg-[url('/beyond-air/assets/beyond-bg.png')] bg-cover bg-center pointer-events-none" />
 
-      <div className="relative max-w-380 mx-auto px-6 lg:px-6">
+      <div className="relative custom-container mx-auto px-6 lg:px-6">
 
         {/* TOP SECTION */}
         <div className="grid md:grid-cols-5 gap-10">
@@ -22,16 +22,17 @@ export default function BeyondFooter() {
             <div className="flex items-center gap-3">
         <div className="flex items-center gap-2">
           <Image
-            src="/beyond-air/assets/beyond-logo.png" // replace with actual
+            src="/beyond-air/assets/beyond-logo.png"
             alt="logo"
-            width={200}
-            height={200}
+            width={400}
+            height={400}
+            className="w-[200px] 2xl:w-[420px] h-auto"
           />
         </div>
             </div>
 
             {/* EMAIL INPUT */}
-            <div className="mt-6 flex items-center bg-[#00A4E4] rounded-md overflow-hidden w-full max-w-sm">
+            <div className="mt-6 2xl:mt-20 flex items-center bg-[#00A4E4] rounded-md overflow-hidden w-full max-w-sm">
 
               <input
                 type="email"
@@ -63,7 +64,7 @@ export default function BeyondFooter() {
             </div>
 
             <div data-aos="fade-up" data-aos-delay="150">
-              <p className="font-semibold text-gray-900 mb-3">Our Solutions:</p>
+              <p className="font-semibold text-gray-900 mb-3">Our Solutions</p>
               <ul className="space-y-2 text-gray-500">
                 <li className="cursor-pointer hover:text-gray-900 transition">Respiratory Care</li>
                 <li className="cursor-pointer hover:text-gray-900 transition">Oncology</li>
@@ -73,7 +74,7 @@ export default function BeyondFooter() {
             </div>
 
             <div data-aos="fade-up" data-aos-delay="200">
-              <p className="font-semibold text-gray-900 mb-3">Our Solutions:</p>
+              <p className="font-semibold text-gray-900 mb-3">Our Solutions</p>
               <ul className="space-y-2 text-gray-500">
                 <li className="cursor-pointer hover:text-gray-900 transition">Contact Us</li>
                 <li className="cursor-pointer hover:text-gray-900 transition">Privacy Policy</li>
@@ -99,7 +100,7 @@ export default function BeyondFooter() {
         <div className="mt-12 border-t border-gray-300" />
 
         {/* COPYRIGHT */}
-        <p className="text-center text-base text-gray-500 mt-4">
+        <p className="text-center text-base text-gray-500 mt-4 copyright">
           © 2026 Beyond Air Inc. All Rights Reserved.
         </p>
 

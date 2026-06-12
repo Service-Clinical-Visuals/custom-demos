@@ -30,14 +30,14 @@ export default function MedacureNavbar() {
         show ? "translate-y-0 bg-white shadow-md" : "-translate-y-full"
       }`}
     >
-      <div className="max-w-380 mx-auto px-6 py-2 flex items-center justify-between">
+      <div className="custom-container mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo */}
         <div className="">
-          <img src="/medacure/assets/medacure-logo2.png" alt="Medacure Logo" className="" />
+          <img src="/medacure/assets/medacure-logo2.png" alt="Medacure Logo"  className="w-[100px] 2xl:w-[200px] h-auto" />
         </div>
 
         {/* Nav Links */}
-        <div className="hidden lg:flex gap-8 text-gray-600 font-medium">
+        <div className="hidden lg:flex gap-8 text-gray-600 font-medium navbar" >
           <a href="#" className="font-bold">Home</a>
           <a href="#" className="hover:text-gray-900">About</a>
           <a href="#" className="hover:text-gray-900">Products</a>
@@ -47,8 +47,8 @@ export default function MedacureNavbar() {
 
         {/* Right */}
         <div className="flex items-center gap-4">
-          <Search className="w-7 h-7 cursor-pointer text-black" />
-          <button className="cursor-pointer text-[#333333] px-14 py-3 rounded-full border-2 border-[#2E2662]">
+          <Search className="w-7 h-7 2xl:w-9 2xl:h-9 cursor-pointer text-black "  />
+          <button className="cursor-pointer text-[#333333] px-14 py-3 download rounded-full border-2 border-[#2E2662]">
             Login
           </button>
         </div>

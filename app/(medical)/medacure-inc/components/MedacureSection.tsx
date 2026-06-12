@@ -17,7 +17,7 @@ export default function MedacureSection() {
 
   return (
     <section className="bg-[#2E2662] py-20 overflow-hidden">
-      <div className="max-w-380 mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="custom-container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT IMAGE */}
         <div data-aos="fade-right">

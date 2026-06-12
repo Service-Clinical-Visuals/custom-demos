@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function VideoHero() {
   return (
-    <section className="relative w-full h-screen overflow-hidden flex flex-col justify-end bg-black">
+    <section className="relative w-full h-screen lg:h-auto lg:aspect-video overflow-hidden flex flex-col justify-end bg-black">
       {/* Background Video / Image Placement */}
       <div className="absolute inset-0 z-0 select-none">
         <DynamicVideoPlayer
@@ -23,7 +23,7 @@ export default function VideoHero() {
           <h1 className="text-[30px] md:text-[34px] lg:text-[38px] font-medium text-white! mb-6 leading-[1.15] drop-shadow-md">
             Leading Global Provider
           </h1>
-          <p className="text-white! text-base md:text-[17px] mb-8 leading-[1.7] drop-shadow-sm max-w-lg">
+          <p className="text-white! text-base md:!text-[20px] mb-8 leading-[1.7] drop-shadow-sm max-w-lg">
             The company concentrates its resources on acquiring, developing and inventing quality equipment hospitals and private clinics alike.
           </p>
 

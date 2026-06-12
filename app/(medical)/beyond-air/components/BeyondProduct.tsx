@@ -27,8 +27,8 @@ export default function BeyondProduct() {
 
 
   return (
-    <section className="bg-white py-20 px-6 lg:px-12">
-      <div className="max-w-380 mx-auto">
+    <section className="bg-white py-20 px-6 lg:px-12"  style={{ fontFamily: "var(--font-outfit)" }}>
+      <div className="custom-container mx-auto">
         
         {/* TOP CONTENT */}
         <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -39,7 +39,7 @@ export default function BeyondProduct() {
               Our Product Range
             </p>
 
-            <h2 className="text-2xl lg:text-3xl font-semibold text-gray-900 leading-snug max-w-md">
+            <h2 className="text-2xl lg:text-3xl 2xl:max-w-[90%] font-semibold text-gray-900 leading-snug ">
               Next-Generation Nitric Oxide Delivery Systems Designed for Every Stage of Patient Care
             </h2>
           </div>
@@ -84,22 +84,24 @@ export default function BeyondProduct() {
           <div className="relative w-full mt-20 flex justify-center">
             
             {/* CARD */}
-            <div className="relative w-full max-w-md bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.07)] px-6 pb-6 pt-24 text-left">
+            <div className="relative w-full  bg-white rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.20)] px-6 pb-6 pt-24 text-left">
 
               {/* TOP CURVE CUT EFFECT */}
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-16 bg-white rounded-b-full shadow-[0_3px_3px_rgba(0,0,0,0.06)] z-10 "></div>
 
               {/* FLOATING CIRCLE */}
-              <div className="absolute -top-16 left-1/2 -translate-x-1/2 z-20">
-                <div className="w-28 h-28 rounded-full bg-white shadow-[0_2px_10px_rgba(0,0,0,0.15)] flex items-center justify-center">
-                  <span className="text-green-600 font-semibold text-lg">
-                    LungFit PH
-                  </span>
+              <div className="absolute -top-30 left-1/2 -translate-x-1/2 z-20">
+                <div className="w-50 h-50 2xl:w-65 2xl:h-65  rounded-full bg-white shadow-[0_2px_1px_rgba(0,0,0,0.15)] flex items-center justify-center">
+                  <div className="w-44 h-44 2xl:w-56 2xl:h-56 rounded-full bg-white shadow-[0_2px_10px_rgba(0,0,0,0.15)] flex items-center justify-center">
+                    <span className="text-green-600 font-bold text-lg ">
+                    {item.title}
+                    </span>
+                  </div>
                 </div>
               </div>
 
               {/* CONTENT */}
-              <h3 className="text-gray-900 font-bold text-xl">
+              <h3 className="text-gray-900 font-semibold text-xl pt-1.5 2xl:pt-35">
                 {item.subtitle}
               </h3>
 
@@ -108,7 +110,7 @@ export default function BeyondProduct() {
               </p>
 
               {/* BUTTON */}
-              <button className="mt-5 bg-[#00A4E4] text-white text-base px-6 py-3 rounded-md hover:bg-[#00a3e4cc] transition">
+              <button className="mt-5 bg-[#00A4E4] text-white text-base px-6 py-3 rounded-md hover:bg-[#00a3e4cc] transition download">
                 See More
               </button>
 

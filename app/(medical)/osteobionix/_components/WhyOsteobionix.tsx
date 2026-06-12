@@ -4,14 +4,14 @@ export default function WhyOsteobionix() {
   return (
     <section id="why-osteobionix" className="w-full pb-16 lg:pb-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-stretch">
 
           {/* Image Content (Left) */}
-          <div className="relative w-full " data-aos="fade-right">
+          <div className="relative w-full h-[350px] md:h-[450px] lg:h-[550px] xl:h-auto rounded-[2rem] overflow-hidden" data-aos="fade-right">
             <img
               src="/osteobionix/abt-2.png"
               alt="Surgeons in operation"
-              className="w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
 

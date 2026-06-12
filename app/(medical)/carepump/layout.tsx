@@ -27,12 +27,14 @@ export default function CarePumpLayout({
     <html lang="en">
       <body className={`${jakarta.variable} antialiased`}>
         {/* <VideoProvider website="carepump">{children}</VideoProvider> */}
-        <VideoProvider>
-                  <CarePumpNavbar />
-                  <LenisProvider>
-                    <AOSProvider>{children}</AOSProvider>
-                  </LenisProvider>
-                </VideoProvider>
+        <div id="care-root">
+          <VideoProvider>
+              <CarePumpNavbar />
+              <LenisProvider>
+                <AOSProvider>{children}</AOSProvider>
+              </LenisProvider>
+          </VideoProvider>
+        </div>
       </body>
     </html>
   );

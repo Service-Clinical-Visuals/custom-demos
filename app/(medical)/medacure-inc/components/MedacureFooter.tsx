@@ -33,7 +33,7 @@ export default function MedacureFooter() {
       </div>
 
       {/* MAIN FOOTER */}
-      <div className="max-w-380 mx-auto px-6 pb-16 grid grid-cols-2 lg:grid-cols-4 gap-10 text-white">
+      <div className="custom-container mx-auto px-6 pb-16 grid grid-cols-2 lg:grid-cols-4 gap-10 text-white">
 
         {/* Logo + Social */}
         <div data-aos="fade-up" className="col-span-2 lg:col-span-1">

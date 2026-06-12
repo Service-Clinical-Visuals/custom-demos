@@ -16,16 +16,16 @@ export default function VisualizationFeatures() {
   return (
     <section className="bg-[#F9FAFB] py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center"> */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 items-center">
           {/* Left Content - Video Placeholder */}
-          <div className="rounded-[20px] shadow-sm aspect-video md:aspect-video lg:aspect-video relative overflow-hidden flex items-center justify-center border border-gray-100">
+          <div className="rounded-[20px] shadow-sm aspect-video md:aspect-video lg:aspect-video relative overflow-hidden flex items-center justify-center border border-gray-100" data-aos="fade-right">
             <DynamicVideoPlayer type="short-1" className="" />
           </div>
 
           {/* Right Content */}
-          <div className="flex flex-col">
-            <h2 className="text-3xl md:text-[34px] font-bold !text-primary mb-5 flex items-center gap-3">
+          <div className="flex flex-col" data-aos="fade-left" data-aos-delay="200">
+            <h2 className="text-3xl md:text-[32px] font-bold !text-primary mb-5 flex items-center gap-3">
               <span className="!text-primary text-2xl leading-none pb-1">&bull;</span> Advanced Visualization Features
             </h2>
 

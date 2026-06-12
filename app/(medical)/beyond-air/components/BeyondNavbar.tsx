@@ -47,7 +47,7 @@ export default function BeyondNavbar() {
           : "opacity-0 -translate-y-2 pointer-events-none",
       ].join(" ")}
     >
-      <div className="max-w-380 mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-6 py-4 sm:py-5">
+      <div className="custom-container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-6 py-4 sm:py-5">
 
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -61,7 +61,7 @@ export default function BeyondNavbar() {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex gap-8 text-base text-[#666666]">
+        <nav className="hidden lg:flex gap-8 text-base text-[#666666] navbar">
           {navLinks.map(({ label, active }) => (
             <a
               key={label}

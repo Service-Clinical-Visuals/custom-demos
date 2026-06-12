@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 export default function BeyondWhoWe() {
 
   return (
-    <section className="w-full bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-12">
-      <div className="w-full max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+    <section className="w-full bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-12" style={{ fontFamily: "var(--font-outfit)" }}> 
+      <div className="w-full custom-container mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         
         {/* LEFT CONTENT */}
         <div data-aos="fade-right">
@@ -17,7 +17,8 @@ export default function BeyondWhoWe() {
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 leading-snug">
             Built on a Legacy of Innovation
           </h2>
-
+          <hr className="w-[93%] h-px bg-[#dddddd]-50% mt-8" />
+          
           <div className="mt-4 space-y-4 text-gray-500 text-base leading-relaxed">
             <p>
               Beyond Air is spearheaded by a dedicated team focused on transforming nitric oxide therapy through the innovative LungFit product family. This groundbreaking technology comes from the same brilliant minds that created the first nitric oxide delivery system, along with other systems currently utilized around the globe.
@@ -29,10 +30,10 @@ export default function BeyondWhoWe() {
           </div>
 
           {/* BUTTON */}
-          <button className="mt-6 flex items-center justify-center sm:justify-start gap-3 w-full sm:w-auto bg-[#00A4E4] text-white px-5 py-3 rounded-full text-base font-medium hover:bg-[#00a3e4cc] transition cursor-pointer">
+          <button className="mt-6 flex items-center justify-center sm:justify-start gap-3 w-full sm:w-auto bg-[#00A4E4] text-white px-5 py-3 rounded-full text-base font-medium hover:bg-[#00a3e4cc] transition cursor-pointer download">
             Learn More About Us
             <span className="bg-white text-blue-600 rounded-full p-1">
-              <ArrowRight size={16} />
+              <ArrowRight className="w-5 h-5 2xl:w-6 2xl:h-6 4xl:w-12 4xl:h-12" />
             </span>
           </button>
         </div>
@@ -45,7 +46,7 @@ export default function BeyondWhoWe() {
           <div className="bg-[#E6E6E6] rounded-2xl p-4 sm:p-6 w-full shadow-sm">
 
             {/* Replace this with your image */}
-            <div className="w-full h-64 sm:h-80 lg:h-100 rounded-xl flex items-center justify-center">
+            <div className="w-full h-64 sm:h-80 lg:h-96 2xl:h-110 4xl:h-128 rounded-xl flex items-center justify-center">
              <img src="/beyond-air/assets/beyond-lungfit.png" alt="Beyond Who We" className="w-full h-full object-contain" />
             </div>
 

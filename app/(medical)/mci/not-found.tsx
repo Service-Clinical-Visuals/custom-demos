@@ -17,7 +17,7 @@ export default function NotFound() {
                 <div className="absolute top-1/4 left-1/10 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50 -z-10 animate-pulse" />
                 <div className="absolute bottom-1/4 right-1/10 w-96 h-96 bg-red-50 rounded-full blur-3xl opacity-30 -z-10 animate-pulse delay-700" />
                 
-                <div className="container mx-auto px-6 md:px-12 text-center z-10">
+                <div className="custom-container mx-auto px-6 md:px-12 text-center z-10">
                     <div className="mb-8 inline-flex items-center justify-center w-24 h-24 bg-blue-50 rounded-3xl text-primary shadow-inner">
                         <HeartPulse size={48} className="animate-bounce" />
                     </div>

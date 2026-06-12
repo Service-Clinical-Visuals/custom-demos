@@ -39,7 +39,7 @@ export default function Header() {
           animate={{ y: 0 }}
           exit={{ y: -100 }}
           transition={{ duration: 0.4, ease: "easeOut" }}
-          className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm h-[90px]"
+          className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm h-[70px]"
         >
           <div className="container mx-auto h-full grid grid-cols-[1fr_auto_1fr] items-center px-4 lg:px-8">
             {/* Logo Area */}
@@ -55,7 +55,7 @@ export default function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-md font-semibold text-gray-800 hover:text-primary transition-colors tracking-wider"
+                  className="text-md font-semibold text-[18px] text-gray-800 hover:text-primary transition-colors tracking-wider"
                 >
                   {link.name}
                 </Link>
@@ -100,7 +100,7 @@ export default function Header() {
                       key={link.name}
                       href={link.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className="font-bold text-gray-800 uppercase tracking-wider border-b pb-4"
+                      className="font-bold text-gray-800 uppercase  tracking-wider border-b pb-4"
                     >
                       {link.name}
                     </Link>

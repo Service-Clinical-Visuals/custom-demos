@@ -70,7 +70,7 @@ export default function Products() {
                 </p>
                 <Link
                   href="#"
-                  className="text-black underline font-[500] text-sm min-[2560px]:text-xl mt-2"
+                  className="text-black underline font-[500] text-[18px] md:text-[18px] min-[2560px]:text-3xl mt-2 hover:text-gray-700 transition-colors"
                 >
                   View Product
                 </Link>
