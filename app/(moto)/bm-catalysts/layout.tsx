@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className={`${oxanium.variable} ${exo2.variable}`}>
       <body className={`${exo2.className} overflow-x-hidden bg-[#f8f9fd]`}>
         <Header />
-        <VideoProvider website="bm-catalysts">
+        <VideoProvider>
           <AOSProvider>{children}</AOSProvider>
         </VideoProvider>
       </body>

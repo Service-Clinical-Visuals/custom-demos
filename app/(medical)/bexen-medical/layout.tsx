@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontHeading.variable} ${fontBody.variable} antialiased`}>
-        <VideoProvider website="bexen-medical">
+        <VideoProvider >
           <AosInit />
           {children}
         </VideoProvider>

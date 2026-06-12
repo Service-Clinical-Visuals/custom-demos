@@ -28,7 +28,7 @@ export default function MicrelLayout({
     <html lang="en" className={`${fontPrimary.variable} scroll-smooth`}>
       <body className="bg-white text-slate-800 antialiased font-sans flex flex-col min-h-screen">
         <AosInit />
-        <VideoProvider website="micrel">
+        <VideoProvider>
           {children}
         </VideoProvider>
       </body>

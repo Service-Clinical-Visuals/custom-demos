@@ -29,7 +29,7 @@ export default function AlivecorLayout({
   return (
     <div className={`${fontPrimary.variable} ${fontSecondary.variable} font-sans`}>
       <AosInit />
-      <VideoProvider website="alivecor">
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>

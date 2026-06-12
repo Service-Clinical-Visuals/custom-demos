@@ -31,7 +31,7 @@ export default function VascularFlowLayout({
     <div className={`${fontHeading.variable} ${fontBody.variable} font-sans`}>
       <AosInit />
       <SmoothScroll />
-      <VideoProvider website="vascular-flow">
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>

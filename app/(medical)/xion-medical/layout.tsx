@@ -21,7 +21,7 @@ export default function XionMedicalLayout({
 }>) {
   return (
     <div className={`${fontPrimary.variable} font-sans`}>
-      <VideoProvider website="xion-medical">
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>

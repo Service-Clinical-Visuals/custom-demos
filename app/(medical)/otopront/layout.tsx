@@ -25,7 +25,7 @@ export default function OtoprontLayout({
     <div className={`${fontPrimary.variable} font-sans`}>
       <AosInit />
       <SmoothScroll />
-      <VideoProvider website="otopront">
+      <VideoProvider>
         {children}
       </VideoProvider>
     </div>

@@ -23,7 +23,7 @@ export default function OhstLayout({
   return (
     <div className={`${fontOutfit.variable}`}>
       <AosInit />
-      <VideoProvider website="ohst">
+      <VideoProvider>
         {children}
       </VideoProvider>
     </div>

@@ -25,7 +25,7 @@ export default function Layout({
     <html lang="en" className={jakarta.variable} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased overflow-x-hidden">
         <AosInit />
-        <VideoProvider website="7s-medical">
+        <VideoProvider>
           {children}
         </VideoProvider>
       </body>

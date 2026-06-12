@@ -29,7 +29,7 @@ export default function AccuScopeLayout({
   return (
     <div className={`${fontPrimary.variable} ${fontSecondary.variable}`}>
       <AosInit />
-      <VideoProvider website="accu-scope">
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>
