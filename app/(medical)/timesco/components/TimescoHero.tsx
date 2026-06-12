@@ -33,7 +33,7 @@ export default function TimescoHero() {
               supplies for healthcare professionals around the globe.
             </p>
 
-            <button className="group mt-8 flex items-center gap-3 rounded-md bg-[#008b45] px-7 py-4 text-white transition-all duration-300 hover:scale-105">
+            <button className="group mt-8 flex items-center gap-3 rounded-md bg-[#008b45] border border-white border-3 font-medium text-[15px] px-7 py-4 text-white transition-all duration-300 hover:scale-105">
               Explore More
 
               <ArrowRight

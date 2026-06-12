@@ -75,8 +75,8 @@ export default function TimescoFooter() {
           <div>
             <h2
               className="
-                text-4xl
-                font-semibold
+                text-2xl
+                font-medium
                 tracking-[-0.03em]
                 text-[#0d4f20]
               "
@@ -343,7 +343,7 @@ export default function TimescoFooter() {
             border-t
             border-[#d9d9d9]
             px-8
-            pt-8
+            pt-5
           "
         >
           <div
