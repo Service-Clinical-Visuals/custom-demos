@@ -7,6 +7,7 @@ import Applications from "./_components/Applications";
 import News from "./_components/News";
 import Footer from "./_components/Footer";
 import Navbar from "./_components/Navbar";
+import Subscribe from "./_components/Subscribe";
 
 export default function FissoMedicalHome() {
   return (
@@ -19,6 +20,7 @@ export default function FissoMedicalHome() {
       <PrecisionSection />
       <Applications />
       <News />
+      <Subscribe />
       <Footer />
     </main>
   );

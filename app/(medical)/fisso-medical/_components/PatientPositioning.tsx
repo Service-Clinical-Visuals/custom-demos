@@ -48,7 +48,7 @@ export default function PatientPositioning() {
             the patient arms and body
           </Typography>
 
-          <div className="w-full h-px bg-white/20 mx-auto mt-6 2xl:mt-8" />
+          <div className="w-[90%] h-px bg-white/30 mx-auto mt-6 2xl:mt-8" />
         </div>
 
         <div className="relative z-10 flex flex-col gap-5 sm:gap-6 lg:grid lg:grid-cols-12 lg:gap-10 xl:gap-14 2xl:gap-16 items-start lg:items-center">

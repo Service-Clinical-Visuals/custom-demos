@@ -11,6 +11,7 @@
     --text-muted: #666666;
     --bg-white: #ffffff;
     --radius-card: 1.5rem;
+    --font-outfit: var(--font-outfit);
   }
 
   html,

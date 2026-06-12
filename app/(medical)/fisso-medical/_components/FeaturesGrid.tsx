@@ -32,7 +32,7 @@ export default function FeaturesGrid() {
       w-full
       max-w-[1500px] 2xl:max-w-[1960px] mx-auto
       pt-10 sm:pt-15 lg:pt-15 2xl:pt-20
-      pb-10 sm:pb-12 2xl:pb-10 z-10
+      pb-10 sm:pb-12 2xl:pb-10 z-20
      ">
       <div className="
         grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
@@ -84,14 +84,14 @@ export default function FeaturesGrid() {
               shadow-[0px_1px_1px_1px_rgba(0,0,0,0.24)]
               flex items-center justify-center
               group-hover:bg-[#7d0930]
-              group-hover:scale-105
+              group-hover:scale-96
               transition-all duration-300
             ">
               <img
                 src={feature.icon}
                 alt={feature.text}
                 className="
-                  w-8 h-8 sm:w-9 sm:h-9 2xl:w-12 2xl:h-12
+                  w-8 h-8 sm:w-9 sm:h-9 xl:w-16 xl:h-16 
                   object-contain brightness-0 invert
                 "
               />
