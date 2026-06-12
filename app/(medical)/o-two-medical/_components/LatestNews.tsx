@@ -126,6 +126,8 @@ export default function LatestNews() {
                       {blog.title}
                     </h3>
 
+                    <div className="w-full h-[1.7px] bg-gray-400/20 mb-4" />
+
                     <p className="text-[17px] text-gray-500 leading-relaxed font-sans line-clamp-2 mb-4">
                       {blog.description}
                     </p>
