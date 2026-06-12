@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowRight } from "lucide-react";
+
 export default function MedasGrid() {
   return (
     <section className="w-full">
@@ -32,16 +34,16 @@ export default function MedasGrid() {
               Who We Are?
             </h3>
 
-            <p className="mt-4 text-base text-white/80 leading-[1.9]">
+            <p className="mt-4 text-base text-white/90 leading-[1.9]">
               Located in South Florida, our headquarters in Miami city means something more than vacations or good times. Our privileged location allows us to serve a vast community in healthcare across the US, LATAM, and worldwide. We are supported by two principal sea freight ports as well as some of the most important commercial airports on the east coast of the country.
             </p>
 
-            <p className="mt-4 text-base text-white/80 leading-[1.9]">
+            <p className="mt-4 text-base text-white/90 leading-[1.9]">
              First and foremost, our commitment is to healthcare support, with an extensive product portfolio in critical specializations such as interventional cardiology, anaesthesia and respiratory therapy, vascular access, and other frequently used medical supplies across healthcare sectors.
             </p>
 
-            <button className="mt-6 bg-white text-blue-600 px-5 py-2 rounded-md flex items-center gap-2 hover:bg-gray-100 transition">
-              Learn More →
+            <button className="mt-6 bg-white text-[#0287C3] px-8 py-2.5 rounded-md flex items-center gap-2 hover:bg-gray-100 transition font-semibold">
+              Learn More <span><ArrowRight /></span>
             </button>
           </div>
         </div>
@@ -54,22 +56,22 @@ export default function MedasGrid() {
           {/* Pattern */}
           {/* <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div> */}
 
-          <div className="relative px-6 lg:px-36 ">
+          <div className="relative px-6 lg:px-36 py-8 md:py-12">
             <h3 className="text-xl md:text-2xl font-semibold">
               Who We Serve for
             </h3>
 
-            <p className="mt-4 text-base text-white/80 leading-[1.9]">
+            <p className="mt-4 text-base text-white/90 leading-[1.9]">
               Patient our last link, but always in our thought is priority matter, health care
               professionals middle link who their shoulders rest the health job well done.
             </p>
 
-            <p className="mt-4 text-base text-white/80 leading-[1.9]">
+            <p className="mt-4 text-base text-white/90 leading-[1.9]">
               First and foremost, our commitment is to healthcare support, with an extensive product portfolio in critical specializations such as interventional cardiology, anaesthesia and respiratory therapy, vascular access, and other frequently used medical supplies across healthcare sectors.
             </p>
 
-            <button className="mt-6 bg-white text-[#0287C3] px-5 py-2 rounded-md flex items-center gap-2 hover:bg-gray-100 transition">
-              Learn More →
+            <button className="mt-6 bg-white text-[#0287C3] px-8 py-2.5 rounded-md flex items-center gap-2 hover:bg-gray-100 transition font-semibold">
+              Learn More <span><ArrowRight /></span>
             </button>
           </div>
         </div>

@@ -57,11 +57,11 @@ export default function CatheEnterprise() {
         </div>
 
         {/* CONTENT */}
-        <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-center px-6 md:px-8">
-          <div className="mx-auto max-w-[520px] text-center lg:ml-auto lg:mr-0 lg:text-left">
+        <div className="relative z-10 flex h-full custom-container items-center px-8 lg:px-14">
+          <div className="mx-auto max-w-[700px] text-center lg:ml-auto lg:mr-0 lg:text-left">
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-3xl font-semibold leading-[1.15] tracking-[-1.5px] text-white md:text-4xl md:tracking-[-2px] md:leading-[1]">
+              <h2 className="text-3xl font-semibold leading-[1.15] text-white md:text-5xl md:tracking-[-2px] md:leading-[1]">
                 Endura™ Ureteral Stents
               </h2>
 
@@ -93,7 +93,7 @@ export default function CatheEnterprise() {
       {/* ================================================= */}
 
       <div className="py-16 md:py-24">
-        <div className="mx-auto grid max-w-[1600px] gap-10 px-6 md:px-8 lg:grid-cols-[0.8fr_1.5fr] lg:gap-5 lg:px-16">
+        <div className="grid custom-container gap-10 px-8 lg:grid-cols-[0.8fr_1.5fr] lg:gap-5 lg:px-14">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
@@ -105,7 +105,7 @@ export default function CatheEnterprise() {
                 Enterprise Services
               </h2>
 
-              <p className="mt-7 text-[16px] leading-[2] text-[#666666]">
+              <p className="mt-7 text-[17px] leading-[2] text-[#666666]">
                 Optimizing efficiency, ensuring safety, and simplifying the use
                 of{" "}
                 <span className="font-bold text-[#05429B]">
@@ -137,7 +137,7 @@ export default function CatheEnterprise() {
             {/* LEFT ARROW — desktop only */}
             <button
               onClick={() => scroll("left")}
-              className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+              className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white  transition-all duration-300 hover:scale-105"
             >
               <ArrowLeft size={20} strokeWidth={2.8} />
             </button>
@@ -145,7 +145,7 @@ export default function CatheEnterprise() {
             {/* SCROLLABLE CARDS */}
             <div
               ref={scrollRef}
-              className="flex flex-1 gap-6 overflow-x-auto pt-[50px] -mt-[50px] pb-2 [&::-webkit-scrollbar]:hidden"
+              className="flex flex-1 gap-6 overflow-x-auto pt-[70px] -mt-[70px] pb-2 [&::-webkit-scrollbar]:hidden"
               style={{ scrollbarWidth: "none" }}
             >
               {serviceCards.map((card, index) => (
@@ -156,8 +156,8 @@ export default function CatheEnterprise() {
                   className="group relative flex-shrink-0 rounded-[22px] border border-[#ECECEC] bg-white px-8 pb-10 pt-16 text-center shadow-[0_10px_24px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_18px_40px_rgba(0,0,0,0.08)] w-[calc(100%-2rem)] sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
                 >
                   {/* FLOATING ICON */}
-                  <div className="absolute left-1/2 top-0 flex h-[92px] w-[92px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#EAEAEA] bg-white shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
-                    <img src={card.icon} alt="icon" className="w-12 h-auto" />
+                  <div className="absolute left-1/2 top-0 flex h-[122px] w-[122px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#EAEAEA] bg-white">
+                    <img src={card.icon} alt="icon" className="w-16 h-auto" />
                   </div>
 
                   {/* CONTENT */}

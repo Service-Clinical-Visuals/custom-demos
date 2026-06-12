@@ -64,8 +64,8 @@ export default function MedasFooter() {
             
             {/* QUICK LINKS */}
             <div>
-              <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
-              <ul className="space-y-2 text-base text-white/80">
+              <h4 className="font-semibold mb-4 text-lg 2xl:text-2xl">Quick Links</h4>
+              <ul className="space-y-2 text-base text-white">
                 <li className="hover:text-white cursor-pointer">Home</li>
                 <li className="hover:text-white cursor-pointer">Products</li>
                 <li className="hover:text-white cursor-pointer">Company</li>
@@ -77,23 +77,23 @@ export default function MedasFooter() {
 
             {/* CONTACT */}
             <div>
-              <h4 className="font-semibold mb-4 text-lg">Contact</h4>
+              <h4 className="font-semibold mb-4 text-lg 2xl:text-2xl">Contact</h4>
 
               <div className="space-y-4 text-base text-white/80">
                 
                 <div>
-                  <p className="font-medium text-white">Visit Our Location</p>
+                  <p className="font-medium text-white 2xl:text-xl">Visit Our Location</p>
                   <p>20855 NE, 16th Avenue, Miami, FL 33179</p>
                 </div>
 
                 <div>
-                  <p className="font-medium text-white">Email Address</p>
+                  <p className="font-medium text-white 2xl:text-xl">Email Address</p>
                   <p>sales@medasusa.com</p>
                   <p>info@medasusa.com</p>
                 </div>
 
                 <div>
-                  <p className="font-medium text-white">Phone</p>
+                  <p className="font-medium text-white 2xl:text-xl">Phone</p>
                   <p>+1 786 787-0396</p>
                 </div>
 

@@ -5,11 +5,11 @@ import { ArrowRight } from "lucide-react";
 export default function MedasAbout() {
   return (
     <section className="w-full bg-gray-100 py-20">
-      <div className="max-w-380 mx-auto px-6 lg:px-10">
+      <div className="custom-container px-4">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* LEFT IMAGE */}
-          <div data-aos="fade-right" className="lg:col-span-7 w-full h-full">
+          <div data-aos="fade-right" className="lg:col-span-6 w-full h-full">
             <div className="w-full h-[320px] md:h-[420px] lg:h-[460px] rounded-2xl overflow-hidden">
               <img
                 src="/medas-innovation/assets/medas-about.png"
@@ -20,7 +20,7 @@ export default function MedasAbout() {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div data-aos="fade-left" className="lg:col-span-5 max-w-xl">
+          <div data-aos="fade-left" className="lg:col-span-6 lg:max-w-2xl">
             
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
@@ -28,7 +28,7 @@ export default function MedasAbout() {
             </h2>
 
             {/* Subtitle */}
-            <p className="mt-3 text-[#385393] italic text-sm md:text-base">
+            <p className="mt-3 text-[#385393] italic text-sm md:text-base font-semibold">
               “Innovations Improving Health Solutions”
             </p>
 
@@ -49,7 +49,7 @@ export default function MedasAbout() {
             </div>
 
             {/* CTA */}
-            <button className="mt-6 cursor-pointer bg-[#0287C3] hover:bg-[#006AB1] text-white px-6 py-3 rounded-md flex items-center gap-2 transition">
+            <button className="mt-6 cursor-pointer bg-[#0287C3] hover:bg-[#006AB1] text-white px-6 py-3 rounded-md flex items-center gap-2 transition font-semibold">
               Learn More <span><ArrowRight/></span>
             </button>
 

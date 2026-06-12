@@ -8,7 +8,7 @@ export default function CatheAbout() {
 
   return (
     <section className="overflow-hidden bg-white py-24">
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}
@@ -43,7 +43,7 @@ export default function CatheAbout() {
           {/* RIGHT CONTENT */}
           {/* ================================================= */}
 
-          <div className="max-w-[680px]">
+          <div className="">
             {/* TITLE */}
             <div data-aos="fade-up">
               <h2 className="text-4xl font-semibold leading-[1.03] tracking-[-2.5px] text-[#2A2A2A]">

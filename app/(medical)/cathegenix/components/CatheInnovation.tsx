@@ -65,12 +65,12 @@ export default function CatheInnovation() {
 
       <div className="absolute left-0 top-0 h-[3px] w-full bg-[#0047A6]" />
 
-      <div className="mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* HEADER */}
         {/* ================================================= */}
 
-        <div className="mx-auto max-w-[980px] text-center">
+        <div className="mx-auto max-w-7xl text-center">
           {/* TITLE */}
           <div data-aos="fade-up">
             <h2 className="text-4xl font-semibold tracking-[-2px] text-[#2B2B2B]">
@@ -80,7 +80,7 @@ export default function CatheInnovation() {
 
           {/* DESCRIPTION */}
           <div data-aos="fade-up" data-aos-delay="150">
-            <p className="mx-auto mt-7 max-w-[900px] text-[16px] leading-[2] text-[#666666]">
+            <p className="mx-auto mt-7 text-[17px] leading-[2] text-[#666666]">
               Choose CatheGenix — your trusted partner in professionalism and
               reliability. Together, let’s advance toward a healthier future.
               CatheGenix is a leading innovator in the research, design,
@@ -122,7 +122,7 @@ export default function CatheInnovation() {
 
               <div className="px-3 pb-3 pt-8">
                 {/* TITLE */}
-                <h3 className="text-lg font-bold leading-[1.2] tracking-[-0.8px] text-[#2B2B2B]">
+                <h3 className="text-lg 2xl:text-xl font-semibold leading-[1.2] text-[#2B2B2B]">
                   {product.title}
                 </h3>
 

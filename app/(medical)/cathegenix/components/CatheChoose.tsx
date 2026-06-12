@@ -24,7 +24,7 @@ export default function CatheChoose() {
       {/* ================================================= */}
 
       <div className="border-b border-black/5 py-8">
-        <div className="mx-auto grid max-w-[1600px] items-stretch gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-16">
+        <div className="grid custom-container items-stretch gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-14">
           {/* ================================================= */}
           {/* LEFT VIDEO / IMAGE */}
           {/* ================================================= */}
@@ -46,7 +46,7 @@ export default function CatheChoose() {
           {/* RIGHT CONTENT */}
           {/* ================================================= */}
 
-          <div className="max-w-[650px]">
+          <div className="">
             {/* TITLE */}
             <div data-aos="fade-up">
               <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-2px] text-[#2B2B2B]">
@@ -102,7 +102,7 @@ export default function CatheChoose() {
       {/* ================================================= */}
 
       <div className="py-10">
-        <div className="mx-auto grid max-w-[1600px] items-center gap-20 px-8 lg:grid-cols-[0.95fr_1fr] lg:px-16">
+        <div className="grid custom-container items-center gap-20 px-8 lg:grid-cols-[0.95fr_1fr] lg:px-14">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}

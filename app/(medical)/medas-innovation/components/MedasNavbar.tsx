@@ -22,7 +22,7 @@ export default function MedasNavbar() {
         visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
-      <div className="flex items-center justify-between max-w-380 mx-auto py-4 px-4">
+      <div className="flex items-center justify-between custom-container py-4 px-4">
         {/* Logo */}
         <img src="/medas-innovation/assets/medas-logo.png" alt="logo" className="w-30 h-12" />
 

@@ -12,7 +12,7 @@ export default function CatheFeatures() {
     <section className="relative overflow-hidden bg-[#0047A6] py-24">
 
 
-      <div className="relative z-10 mx-auto max-w-[1600px] px-8 lg:px-16">
+      <div className="relative z-10 custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* GRID */}
         {/* ================================================= */}
@@ -25,11 +25,11 @@ export default function CatheFeatures() {
           <div>
             {/* TITLE */}
             <div data-aos="fade-up">
-              <h2 className="text-4xl font-semibold leading-[1] tracking-[-2px] text-white">
+              <h2 className="text-4xl font-semibold leading-[1] text-white">
                 Endura™ Ureteral Stents
               </h2>
 
-              <p className="mt-5 max-w-[520px] text-[16px] leading-[1.9] text-white">
+              <p className="mt-5 text-[16px] leading-[1.9] text-white">
                 Provides long-term drainage and patient comfort during extended
                 stent placement.
               </p>
@@ -46,7 +46,7 @@ export default function CatheFeatures() {
             >
               {/* FEATURE 1 */}
               <div>
-                <h3 className="text-xl font-bold tracking-[-1px] text-[#0047A6]">
+                <h3 className="text-xl 2xl:text-2xl font-semibold text-[#0047A6]">
                   Anti-crusting coating
                 </h3>
 
@@ -63,7 +63,7 @@ export default function CatheFeatures() {
 
               {/* FEATURE 2 */}
               <div>
-                <h3 className="text-xl font-bold tracking-[-1px] text-[#0047A6]">
+                <h3 className="text-xl 2xl:text-2xl font-semibold text-[#0047A6]">
                   Thin wall for maximum lumen size
                 </h3>
 
@@ -102,12 +102,12 @@ export default function CatheFeatures() {
             className="relative h-full"
           >
             {/* VIDEO CONTAINER */}
-            <div className="relative h-full overflow-hidden rounded-[30px] bg-[#ECECEC] shadow-[0_14px_40px_rgba(0,0,0,0.16)]">
+            <div className="relative h-full overflow-hidden rounded-[30px] shadow-[0_14px_40px_rgba(0,0,0,0.16)]">
               {/* PLACEHOLDER */}
               <DynamicVideoPlayer type="360" className="h-full w-full object-cover" />
 
               {/* SOFT LIGHT */}
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.16),transparent_35%)]" />
+              {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.16),transparent_35%)]" /> */}
             </div>
           </div>
         </div>

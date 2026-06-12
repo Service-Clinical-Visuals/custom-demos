@@ -25,7 +25,7 @@ export default function CatheNavbar() {
 
       <header className="fixed left-0 top-0 z-50 w-full">
         <div className="border-b border-black/5 bg-white/92 backdrop-blur-md">
-          <div className="mx-auto flex h-[86px] max-w-[1600px] items-center justify-between px-8 lg:px-14">
+          <div className="flex h-[86px] custom-container items-center justify-between px-8 lg:px-14">
 
             <div className="flex items-center gap-4">
               {/* LOGO */}
