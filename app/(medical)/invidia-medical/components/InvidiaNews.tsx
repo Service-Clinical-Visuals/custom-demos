@@ -37,7 +37,7 @@ export default function InvidiaNews() {
           <div
             data-aos="fade-right"
             data-aos-duration="900"
-            className="max-w-[650px]"
+            className="max-w-[870px]"
           >
             {/* TITLE */}
             <h2 className="text-4xl font-semibold leading-[1.08] tracking-[-1.8px] text-white">
@@ -123,7 +123,7 @@ export default function InvidiaNews() {
               className="group flex flex-col"
             >
               {/* CARD */}
-              <div className="flex h-full flex-col rounded-[18px] bg-[#F7F7F7] p-[12px] shadow-[0_12px_28px_rgba(0,0,0,0.12)] transition-all duration-500 hover:-translate-y-[6px] hover:shadow-[0_18px_40px_rgba(0,0,0,0.18)]">
+              <div className="flex h-full flex-col rounded-[18px] bg-[#F7F7F7] p-[16px] shadow-[0_12px_28px_rgba(0,0,0,0.12)] transition-all duration-500 hover:-translate-y-[6px] hover:shadow-[0_18px_40px_rgba(0,0,0,0.18)]">
                 {/* IMAGE */}
                 <div className="relative h-[260px] overflow-hidden rounded-[14px] border border-[#DDDDDD] bg-[#EAEAEA]">
                   {/* PLACEHOLDER */}
@@ -146,7 +146,7 @@ export default function InvidiaNews() {
                 </div>
 
                 {/* TITLE */}
-                <h4 className="mt-5 text-lg font-medium leading-[1.55] tracking-[-0.3px] text-[#3B3B3B]">
+                <h4 className="mt-5 text-[25px] font-medium leading-[1.55] tracking-[-0.3px] text-[#3B3B3B]">
                   {item.title}
                 </h4>
               </div>

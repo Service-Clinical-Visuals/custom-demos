@@ -98,10 +98,11 @@ export default function InvidiaInnovation() {
                   </span>
 
                   <span className="flex h-[28px] w-[28px] items-center justify-center rounded-full bg-[#D4AA00] text-white transition-all duration-300 group-hover:rotate-180">
-                    <ChevronDown
+                    {/* <ChevronDown
                       size={16}
                       strokeWidth={3}
-                    />
+                    /> */}
+                    <img className="h-[10px] w-[10px]" src="/invidia/dropbutton.png" alt="down-arrow"></img>
                   </span>
                 </button>
               </div>
