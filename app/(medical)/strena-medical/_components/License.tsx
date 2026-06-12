@@ -3,7 +3,7 @@
 export default function License() {
   return (
     <section className="pb-16 lg:pb-20 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Left Content */}
           <div data-aos="fade-right">

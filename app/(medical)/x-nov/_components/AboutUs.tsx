@@ -8,12 +8,12 @@ export default function AboutUs() {
     "Founded on March 15, 2003, with a vision to deliver innovative orthopaedic solutions",
     "Works closely with leading orthopaedic surgeons to create advanced medical technologies",
     "Celebrated its 20th anniversary in 2023, marking a major milestone in innovation and growth",
-    // "Trusted by healthcare professionals in more than 35 countries across Europe and beyond"
+    "Trusted by healthcare professionals in more than 35 countries across Europe and beyond"
   ];
 
   return (
     <section className="py-16 md:py-20 bg-white overflow-hidden">
-      <div className="container mx-auto px-6 lg:px-16">
+      <div className="custom-container mx-auto px-6 lg:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* Left Column: Text Content */}
@@ -21,7 +21,7 @@ export default function AboutUs() {
             
             {/* Subhead label with Journey Line */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] xl:text-[17px] tracking-wider">
                 Our Journey
               </span>
               <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>
@@ -41,7 +41,7 @@ export default function AboutUs() {
               <p>
                 At the same time they designed the KAPS® solution for partial knee arthroplasty, which allows the surgeon to adapt to the patient's clinical situation during the operation thanks to an innovative ancillary.
                 <br />
-                <span className="font-semibold text-[#212121] mt-1 block">
+                <span className="block">
                   These two inventions won awards!
                 </span>
               </p>

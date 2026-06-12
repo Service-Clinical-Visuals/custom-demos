@@ -22,12 +22,12 @@ export default function ProductRange() {
 
   return (
     <section className="py-16 md:py-20 bg-white relative overflow-hidden">
-      <div className="container mx-auto px-6 lg:px-16 relative z-10">
+      <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
         <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-3xl" data-aos="fade-right">
             {/* Subhead label */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] xl:text-[17px] tracking-wider">
                 Products
               </span>
               <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>

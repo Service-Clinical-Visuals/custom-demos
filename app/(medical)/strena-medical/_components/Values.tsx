@@ -26,7 +26,7 @@ const values = [
 export default function Values() {
   return (
     <section className="pb-16 lg:pb-20 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {values.map((value, index) => (
             <div

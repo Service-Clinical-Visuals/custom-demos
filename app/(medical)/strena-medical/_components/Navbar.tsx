@@ -38,7 +38,7 @@ export default function Navbar() {
         show ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between h-16 lg:h-20 px-4 lg:px-8">
+      <div className="custom-container mx-auto flex items-center justify-between h-16 lg:h-20 px-4 lg:px-8">
         {/* Logo */}
         <Link href="/strena-medical" className="flex items-center gap-2">
            <img
@@ -49,7 +49,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8 text-[#333333] text-[16px] font-medium">
+        <nav className="hidden min-[1200px]:flex items-center gap-8 text-[#333333] text-[16px] font-medium">
           {navLinks.map((link) => {
             const isActive = link.name === "Home";
             return (
@@ -69,7 +69,7 @@ export default function Navbar() {
         </nav>
 
         {/* Right Side Button (Desktop) */}
-        <div className="hidden lg:block">
+        <div className="hidden min-[1200px]:block">
           <Button variant="outline-primary" size="md" hasArrow rounded="lg">
             Get in Touch
           </Button>
@@ -77,7 +77,7 @@ export default function Navbar() {
 
         {/* Mobile Toggle Button */}
         <button 
-          className="lg:hidden p-2 text-[#00427C]"
+          className="min-[1200px]:hidden p-2 text-[#00427C]"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -85,7 +85,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu Dropdown */}
-      <div className={`lg:hidden absolute top-full left-0 w-full bg-white border-t border-gray-100 transition-all duration-300 overflow-hidden ${
+      <div className={`min-[1200px]:hidden absolute top-full left-0 w-full bg-white border-t border-gray-100 transition-all duration-300 overflow-hidden ${
         isOpen ? "max-h-[500px] opacity-100 shadow-xl" : "max-h-0 opacity-0"
       }`}>
         <div className="flex flex-col p-6 gap-6">

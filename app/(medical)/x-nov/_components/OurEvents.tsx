@@ -35,18 +35,18 @@ export default function OurEvents() {
     <section className="py-16 md:py-20 bg-[url('/x-nov/events-bg.png')] relative overflow-hidden">
       {/* Background radial lines placeholder - keeping it soft pink as requested */}
       
-      <div className="container mx-auto px-6 lg:px-16 relative z-10">
+      <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* Left Column: Text and Events Grid */}
           <div className="flex flex-col" data-aos="fade-right">
             {/* Subhead label */}
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
+            {/* <div className="flex items-center gap-3 mb-4">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] xl:text-[17px] tracking-wider">
                 Events
               </span>
               <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>
-            </div>
+            </div> */}
 
             <h2 className="text-[26px] md:text-[28px] lg:text-[32px] font-semibold text-[#212121] mb-6 leading-tight tracking-tight">
               Our Events
@@ -82,7 +82,7 @@ export default function OurEvents() {
 
           {/* Right Column: Image */}
           <div className="flex items-center justify-center lg:justify-end h-full" data-aos="fade-left">
-            <div className="relative w-full aspect-[4/3] lg:aspect-[1/1.1] rounded-[32px] overflow-hidden shadow-xl bg-[#eef1f6] flex items-center justify-center border border-gray-100">
+            <div className="relative w-full  rounded-[32px] overflow-hidden shadow-xl bg-[#eef1f6] flex items-center justify-center border border-gray-100">
               <img src="/x-nov/events.png" alt="Our Events" className="w-full h-full object-cover" />
             </div>
           </div>

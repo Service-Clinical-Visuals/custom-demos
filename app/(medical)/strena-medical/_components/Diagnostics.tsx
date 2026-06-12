@@ -7,7 +7,7 @@ import Button from "./Button";
 export default function Diagnostics() {
   return (
     <section className="pb-16 lg:pb-20 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div 
           data-aos="fade-up"
           className="bg-[#00427C] rounded-[40px] p-8 lg:p-12 overflow-hidden"
@@ -16,18 +16,11 @@ export default function Diagnostics() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
             {/* Left Content */}
             <div className="text-white">
-              <h2 className="text-white text-2xl lg:text-3xl font-bold mb-4">
+              <h2 className="text-[#009BDB] text-2xl lg:text-3xl font-semibold mb-4">
                 Diagnostics
               </h2>
-              <h3 className="text-white text-xl lg:text-2xl font-semibold mb-6">
-                Adapting to Continuously Evolving Demands
-              </h3>
               <p className="text-white! text-[15px] lg:text-[16px] leading-relaxed mb-8 text-justify">
-                The innovative keyboard is designed with all essential routine examination features, 
-                while advanced functions are seamlessly accessed through the 13-inch touchscreen 
-                panel, ensuring a smooth and efficient workflow. It delivers superior image quality, 
-                high CFM sensitivity, accurate quantification, and integrated interventional 
-                technologies as part of its standard configuration.
+                The innovative keyboard is designed with all essential routine examination features, while advanced functions are seamlessly accessed through the 13-inch touchscreen panel, ensuring a smooth and efficient workflow. It delivers superior image quality, high CFM sensitivity, accurate quantification, and integrated interventional technologies as part of its standard configuration, maximizing return on investment while supporting advanced patient care. The MS55 Plus stands as a modern, reliable solution built to adapt to continuously evolving clinical demands.
               </p>
               <Button variant="white" size='md' hasArrow>
                 View Product Range
@@ -35,7 +28,7 @@ export default function Diagnostics() {
             </div>
 
             {/* Right Video Placeholder */}
-            <div className="aspect-video relative rounded-3xl overflow-hidden bg-white">
+            <div className="aspect-video relative rounded-3xl overflow-hidden">
               <DynamicVideoPlayer 
                 type="short-2" 
                 className="absolute inset-0 w-full h-full object-cover" 
@@ -44,7 +37,7 @@ export default function Diagnostics() {
           </div>
 
           {/* Divider */}
-          <div className="h-[1px] bg-white/20 mb-12"></div>
+          <div className="h-[1px] bg-white/40 mb-12"></div>
 
           {/* Bottom Section - Two Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

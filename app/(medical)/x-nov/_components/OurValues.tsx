@@ -12,12 +12,12 @@ export default function OurValues() {
 
   return (
     <section className="py-16 md:py-20 bg-white overflow-hidden">
-      <div className="container mx-auto px-6 lg:px-16">
+      <div className="custom-container mx-auto px-6 lg:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* Left Column: Image Area */}
           <div className="lg:col-span-6 flex items-center justify-center lg:justify-start" data-aos="fade-right">
-            <div className="relative w-full aspect-[4/3] lg:aspect-[1.2/1] rounded-[32px] overflow-hidden shadow-xl bg-[#f4f6f9] border border-gray-100 flex items-center justify-center transition-all duration-500 hover:shadow-2xl hover:scale-[1.01]">
+            <div className="relative w-full  rounded-[32px] overflow-hidden shadow-xl bg-[#f4f6f9] border border-gray-100 flex items-center justify-center transition-all duration-500 hover:shadow-2xl hover:scale-[1.01]">
               <img src="/x-nov/values.jpg" alt="Our Values" className="w-full h-full object-cover" />
             </div>
           </div>
@@ -27,7 +27,7 @@ export default function OurValues() {
             
             {/* Subhead label with Journey Line */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] xl:text-[17px] tracking-wider">
                 Our Values
               </span>
               <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>

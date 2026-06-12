@@ -10,7 +10,7 @@ export default function Footer() {
       {/* Subtle top background wave/curve (Optional, adds to premium feel) */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-pink-100 to-transparent opacity-50" />
       
-      <div className="container mx-auto px-6 lg:px-16">
+      <div className="custom-container mx-auto px-6 lg:px-16">
         
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
@@ -21,7 +21,7 @@ export default function Footer() {
               {/* Note: The logo path is public/medical/x-nov/x-nov_logo.png as checked previously */}
               <img src="/medical/x-nov/x-nov_logo.png" alt="X.NOV Logo" className="h-12 w-auto object-contain" />
             </Link>
-            <p className="text-[#6D6B6B] font-light text-[14px] leading-relaxed mb-8 pr-4 lg:pr-10">
+            <p className="text-[#6D6B6B] leading-relaxed mb-8 pr-4 lg:pr-10">
               X.NOV is a European very fast growing company specialized in orthopedic industry (Hip & Knee). We are focused on creativity, innovation and are committed to provide the best services to our customers.
             </p>
             <div>

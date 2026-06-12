@@ -6,7 +6,7 @@ const Health = () => {
   return (
     <div className="bg-white">
       {/* --- Top Header Section --- */}
-      <section className="container mx-auto px-6 pt-16 lg:pt-20 text-center">
+      <section className="custom-container mx-auto px-6 pt-16 lg:pt-20 text-center">
         <h1
           data-aos="fade-up"
           className="text-3xl md:text-[32px] font-medium text-[#009B43] mb-4">
@@ -40,7 +40,7 @@ const Health = () => {
       </section>
 
       {/* --- Feature Section --- */}
-      <section className="container mx-auto px-6 py-12">
+      <section className="custom-container mx-auto px-6 py-12">
         <div className="flex flex-col xl:flex-row items-center gap-10">
           {/* Left: Placeholder for the Image */}
           <div

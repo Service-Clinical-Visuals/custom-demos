@@ -26,7 +26,7 @@ const features = [
 export default function Features() {
   return (
     <section className="py-10 bg-[#F0F8FF] border-b border-gray-100">
-      <div className="container mx-auto px-6">
+      <div className="custom-container mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center gap-6">
@@ -34,10 +34,10 @@ export default function Features() {
                 <img src={feature.icon} alt={feature.title} className="w-12 h-12 object-contain" />
               </div>
               <div className="flex flex-col">
-                <span className="text-[20px] font-semibold">
+                <span className="text-[20px] font-normal">
                   {feature.title}
                 </span>
-                <span className="text-[20px] font-semibold">
+                <span className="text-[20px] font-normal">
                   {feature.subtitle}
                 </span>
               </div>
