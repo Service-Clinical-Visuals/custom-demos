@@ -2,13 +2,14 @@ import { ArrowRight } from "lucide-react";
 
 // components/ClinicalResearch.tsx
 export default function ClinicalResearch() {
+
   const logos = [
-    "/vectracor/John-Hopkins.png",
-    "/vectracor/University-of-basal.png",
-    "/vectracor/Henery-Ford.png",
-    "/vectracor/Milton-Keynes.png",
-    "/vectracor/ESC.png",
-    "/vectracor/SMG.png",
+    "/vectracor/research/research1.png",
+    "/vectracor/research/research2.png",
+    "/vectracor/research/research3.png",
+    "/vectracor/research/research4.png",
+    "/vectracor/research/research5.png",
+    "/vectracor/research/research6.png",
   ];
 
   return (
@@ -20,11 +21,11 @@ export default function ClinicalResearch() {
       <div className="container relative mx-auto px-4 sm:px-6">
 
         {/* Top */}
-        <div className="flex flex-col justify-center items-center gap-4 md:gap-6">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-4 md:gap-6">
 
           {/* Left */}
           <div data-aos="fade-right">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-white text-center">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-white text-center md:text-left">
               Clinical Research
              </h2>
 
@@ -34,29 +35,26 @@ export default function ClinicalResearch() {
           </div>
 
           {/* Right CTA */}
-          {/* <div data-aos="fade-left" className="w-full md:w-auto shrink-0">
+          <div data-aos="fade-left" className="w-full md:w-auto shrink-0 justify-center flex">
             <button className="w-full cursor-pointer sm:w-auto bg-white text-[#333333]]-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF]">
               Learn More <span className="text-lg"><ArrowRight /></span>
             </button>
-          </div> */}
+          </div>
         </div>
 
         {/* Logos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-8 md:mt-12">
 
           {logos.map((logo, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-2xl shadow-md p-4 flex items-center justify-center"
-              data-aos="fade-up"
-              data-aos-delay={i * 100}
-            >
+
               <img
                 src={logo}
                 alt="logo"
-                className={`object-contain max-w -full ${i === 3 || i === 4 ? "h-auto max-h-[90px] lg:max-h-[110px]" : "h-[80px] lg:h-[160px]"}`}
+                width={515}
+                height={208}
+                // className={`object-contain max-w -full ${i === 3 || i === 4 ? "h-auto max-h-[90px] lg:max-h-[110px]" : "h-[80px] lg:h-[160px]"}`}
               />
-            </div>
+
           ))}
 
         </div>

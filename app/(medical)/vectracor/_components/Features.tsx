@@ -9,7 +9,7 @@ export default function VectraSection() {
       {/* Pattern Layer */}
       <div className="absolute inset-0 bg-[#26487E]/90"></div>
 
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-6 gap-8 md:gap-12">
+      <div className="relative z-10 container mx-auto grid grid-cols-1 lg:grid-cols-6 gap-8 md:gap-12">
 
         {/* LEFT */}
         <div data-aos="fade-right" className="lg:col-span-4">
@@ -82,11 +82,11 @@ export default function VectraSection() {
 
           {/* Bottom CTA */}
           <div className="md:mt-5 lg:mt-0">
-            <p className="text-white mb-4 text-sm md:text-base font-semibold">
+            <p className="text-white text-[20px] font-semibold mb-2">
               Meet the VectraplexECG, Our Smartest ECG Ever.
             </p>
 
-            <button className="bg-white font-bold cursor-pointer text-[#333333] px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF] text-sm md:text-base">
+            <button className="bg-white max-h-[52px] font-bold cursor-pointer text-[#333333] px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:bg-gray-100 transition border-2 border-[#B5D2FF] text-sm md:text-base">
               View Specifications <span><ArrowRight className="mt-0.3" /></span>
             </button>
           </div>

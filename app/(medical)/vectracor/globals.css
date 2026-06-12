@@ -2,7 +2,7 @@
 
 @layer base {
   body {
-    font-family: var(--font-rubik), sans-serif;
+    font-family: var(--font-outfit), sans-serif;
     font-weight: 400;
   }
 
@@ -12,7 +12,7 @@
   div,
   a,
   button {
-    font-family: var(--font-rubik), sans-serif;
+    font-family: var(--font-outfit), sans-serif;
   }
 
   h1,
@@ -21,7 +21,7 @@
   h4,
   h5,
   h6 {
-    font-family: var(--font-exo), sans-serif !important;
+    font-family: var(--font-outfit), sans-serif !important;
   }
 }
 
@@ -39,4 +39,40 @@
     zoom: 2.0;
     transform-origin: top center;
   }
+}
+
+.headingblack{
+  font-size: 36px;
+  color: #050B20;
+}
+
+.headingwhite{
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.headingwhite2{
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+
+.contentblack{
+  font-size: 16px;
+  color: #555555;
+}
+
+.contentwhite{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.subheading2{
+  font-size: 18px;
+  color: #ED1F29;
+}
+
+.subheadingblack{
+  font-size: 20px;
+  color: #050B20;
 }

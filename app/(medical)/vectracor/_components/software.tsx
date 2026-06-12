@@ -26,7 +26,7 @@ export default function Software() {
             Software
           </div>
 
-          <h2 className="text-3xl font-semibold text-gray-900">
+          <h2 className="headingblack font-semibold text-gray-900">
             Smart Software for Better Diagnostics
           </h2>
 

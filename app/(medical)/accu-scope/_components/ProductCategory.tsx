@@ -32,7 +32,6 @@ export default function ProductCategorySection() {
                     <p className="text-[#333333] rubik font-semibold text-[18px]">
                       Evidence-Based Methods
                     </p>
-                    <br />
                     <p className="text-[#666666] rubik font-regular text-[14px] leading-6 mt-1">
                       The microscope features high-quality glass lenses and anti-reflective coatings that provide sharp, high- resolution, and parfocal images.
                     </p>
@@ -49,7 +48,6 @@ export default function ProductCategorySection() {
                     <p className="text-[#333333] rubik font-semibold text-[18px]">
                       Digital Imaging Compatibility
                     </p>
-                    <br />
                     <p className="text-[#666666] rubik font-regular text-[14px] leading-6 mt-1">
                       Compatible with C-mount adapters and Excelis 4K, HD, and USB cameras, the 3079 series enables easy photo documentation and live video streaming.
                     </p>

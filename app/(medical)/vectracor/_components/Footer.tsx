@@ -2,7 +2,7 @@ import { BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 // components/Footer.tsx
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-[#f5f7fa] py-16 overflow-hidden">
+    <footer className="relative w-full bg-[#f5f7fa] pt-16 overflow-hidden">
 
       {/* Pattern */}
       <div className="absolute inset-0 opacity-10 bg-[url('/hex-pattern-light.png')] bg-repeat"></div>
@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container relative  mx-auto px-6">
 
         {/* Top Grid */}
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-5 gap-12">
 
           {/* Column 1 */}
           <div>
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2 */}
-          <div>
+          <div className="col-span-2">
             <h3 className="text-lg font-semibold text-gray-800 mb-2 border-b border-gray-300 pb-2">
               Quick Links
             </h3>
@@ -81,15 +81,17 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-gray-300 mt-10 pt-4 text-center">
-          <p className="text-base text-[#25477F]">
-            All personal information collected by VectraCor is for internal use only...
-          </p>
+          <div className="text-center mt-10">
+            <p className="text-base text-[#25477F]">
+                All personal information collected by VectraCor is for internal use only. VectraCor abides by the requirements documented in the EU Directive 95/46/EC.
+            </p>
+            </div>
+            <div className="border-t border-gray-300 mt-3 mb-5 text-center">
 
-          <p className="text-base text-gray-500 mt-2">
-            © Copyright Vectracor Medical 2026. All Rights Reserved.
-          </p>
-        </div>
+            <p className="text-base text-gray-500 mt-2">
+                © Copyright Vectracor Medical 2026. All Rights Reserved.
+            </p>
+          </div>
 
       </div>
     </footer>
