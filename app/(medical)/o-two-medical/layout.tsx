@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className="font-sans antialiased overflow-x-hidden bg-white text-gray-950">
         <VideoProvider >
           <AOSProvider>
-            <div className="flex flex-col min-h-screen">
+            <div id="o-two-medical-root" className="flex flex-col min-h-screen">
               <Header />
               <main className="flex-grow">
                 {children}

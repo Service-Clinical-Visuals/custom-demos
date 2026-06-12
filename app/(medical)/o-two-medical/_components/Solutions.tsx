@@ -66,7 +66,7 @@ export default function Solutions() {
                   {card.title}
                 </h3>
 
-                <div className="w-full h-[1px] bg-gray-500 mb-4" />
+                <div className="w-full h-[1.3px] bg-gray-400/40 mb-4" />
               </div>
 
               <p className="text-[17px] text-gray-600 leading-relaxed mt-2 font-sans">

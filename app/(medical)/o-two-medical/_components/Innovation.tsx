@@ -14,7 +14,7 @@ export default function Innovation() {
             When it comes to <span className="text-[#0091d5]">INNOVATION</span>, We Are <span className="text-[#0091d5]">EXPERIENCED</span>
           </h2>
           <p
-            className="text-[14px] md:text-[15px] lg:text-[17px] text-gray-600 leading-relaxed max-w-5xl mx-auto"
+            className="text-[14px] md:text-[15px] lg:text-[17px] text-gray-600 leading-relaxed max-w-7xl"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -51,9 +51,11 @@ export default function Innovation() {
             />
           </div>
         </div>
+        <div className="w-full h-[1.7px] bg-gray-400/40 mb-4" data-aos="fade-up"
+          data-aos-delay="400" />
 
         <div
-          className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5 md:gap-6 pt-4 border-t border-gray-100"
+          className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5 md:gap-6 pt-4 "
           data-aos="fade-up"
           data-aos-delay="400"
         >
