@@ -57,7 +57,7 @@ export default function TimescoSpecification() {
               text-[#0d4f20]
             "
           >
-            Optima View Video Laryngoscope specifications
+            Video Laryngoscope specifications
           </h2>
 
           <p

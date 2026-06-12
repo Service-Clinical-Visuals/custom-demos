@@ -55,6 +55,7 @@ export default function TimescoWhoWeAre() {
                   text-[17px]
                   leading-[2]
                   text-[#555]
+                  font-medium
                 "
               >
                 In 1964, Capt. M.F. Bhatti founded Timesco Healthcare Ltd,
@@ -86,6 +87,7 @@ export default function TimescoWhoWeAre() {
                   text-[17px]
                   leading-[2]
                   text-[#555]
+                  font-medium
                 "
               >
                 We have a skilled Direct Sales Team and Customer Support Teams
@@ -219,7 +221,7 @@ export default function TimescoWhoWeAre() {
 
                       <p
                         className="
-                          text-[18px]
+                          text-[19px]
                           font-medium
                           text-[#4d4d4d]
                         "

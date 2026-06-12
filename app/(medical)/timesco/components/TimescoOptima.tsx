@@ -50,6 +50,7 @@ export default function TimescoOptima() {
                 text-[16px]
                 leading-[2]
                 text-white
+                font-medium
               "
             >
               Timesco&apos;s new Optima View video laryngoscope system provides
@@ -63,6 +64,7 @@ export default function TimescoOptima() {
                 text-[16px]
                 leading-[2]
                 text-white
+                font-medium
               "
             >
               The blades follow the same shape as a traditional Mac blade
@@ -76,6 +78,7 @@ export default function TimescoOptima() {
                 text-[16px]
                 leading-[2]
                 text-white 
+                font-medium
               "
             >
               The screen rotates 180° from left to right and tilts 110°
@@ -94,6 +97,7 @@ export default function TimescoOptima() {
               items-center
               gap-3
               rounded-xl
+              border-3 
               border
               border-white
               bg-[#0f8b39]
