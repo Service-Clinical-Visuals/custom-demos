@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function About() {
   return (
     <section className="pt-16 lg:pt-20 pb-10 lg:pb-15 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           {/* Left Content */}
           <div data-aos="fade-right">
@@ -36,7 +36,7 @@ export default function About() {
 
           {/* Right Image Space */}
           <div className="relative" data-aos="fade-left">
-            <div className="w-full bg-white rounded-3xl overflow-hidden shadow-md p-4">
+            <div className="w-full bg-white rounded-3xl overflow-hidden shadow-[0_3px_8px_0px_#0000003D] p-4">
                 <img 
                   src="/strena/images/abt.png" 
                   className="w-full h-auto object-contain" 

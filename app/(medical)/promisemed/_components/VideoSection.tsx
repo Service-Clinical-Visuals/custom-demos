@@ -9,8 +9,8 @@ export default function VideoSection() {
       <div className="w-full h-50 bg-linear-to-r from-[#009B43] to-[#2353A3]"></div>
 
       {/* Video Card */}
-      <div className="container mx-auto px-6 -mt-30">
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up">
+      <div className="custom-container mx-auto px-6 -mt-30">
+        <div className="max-w-[80%] mx-auto rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up">
           {/* Video Area */}
           <div
 

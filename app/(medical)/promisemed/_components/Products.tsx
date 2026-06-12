@@ -26,8 +26,8 @@ const products = [
 
 export default function Products() {
   return (
-    <section className="w-full bg-[#F4F4F4] py-16 lg:py-20  border-[#00000010] border-t">
-      <div className="container mx-auto px-6">
+    <section className="w-full bg-[#F4F4F4] py-16 lg:py-20">
+      <div className="custom-container mx-auto px-6">
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 mb-10">
           {/* Left */}

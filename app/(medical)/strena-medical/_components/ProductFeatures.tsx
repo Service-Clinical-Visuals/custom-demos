@@ -7,7 +7,7 @@ import { CheckCircle2 } from "lucide-react";
 export default function ProductFeatures() {
   return (
     <section className="pb-16 lg:pb-20 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div 
           data-aos="fade-up"
           className="bg-[#00427C] rounded-[40px] overflow-hidden grid grid-cols-1 lg:grid-cols-2 items-center p-8 lg:p-12 gap-12"
@@ -22,7 +22,7 @@ export default function ProductFeatures() {
 
           {/* Right: Content */}
           <div className="w-full text-white">
-            <h2 className="text-white text-2xl lg:text-3xl font-bold mb-4">
+            <h2 className="text-white text-2xl lg:text-3xl font-semibold mb-4">
               Features
             </h2>
             

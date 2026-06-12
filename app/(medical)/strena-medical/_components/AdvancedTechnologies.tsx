@@ -29,7 +29,7 @@ const technologies = [
 export default function AdvancedTechnologies() {
   return (
     <section className="pb-16 lg:pb-20 bg-white overflow-hidden">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch gap-16">
           {/* Left Content */}
           <div data-aos="fade-right" className="flex flex-col justify-center">
@@ -56,7 +56,7 @@ export default function AdvancedTechnologies() {
               ))}
             </ul>
 
-            <div className="mt-auto">
+            <div className="">
               <Button variant="primary" hasArrow>
                 View Product
               </Button>

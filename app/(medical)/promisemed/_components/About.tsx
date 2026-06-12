@@ -3,12 +3,12 @@
 
 export default function About() {
   return (
-    <section className="w-full bg-gray-100 py-16 lg:py-20">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <section className="w-full py-16 lg:py-20">
+      <div className="custom-container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* LEFT SIDE (Images) */}
         <div
           data-aos="fade-up"
-          className="relative w-full h-62.5 sm:h-75 md:h-88 lg:h-full overflow-hidden rounded-2xl">
+          className="relative w-full overflow-hidden rounded-2xl">
           <img
             src="/promisemed/about.png"
             alt="factory"
@@ -19,7 +19,7 @@ export default function About() {
         {/* RIGHT SIDE (Content) */}
         <div data-aos="fade-up" className="space-y-6">
           <h2 className="text-2xl lg:text-[32px] font-medium text-[#009B43] leading-snug">
-            Empowering Healthcare with Trusted Technology <br />
+            Empowering Healthcare with Trusted Technology 
             and Expertise
           </h2>
 

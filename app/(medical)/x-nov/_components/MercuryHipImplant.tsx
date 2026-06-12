@@ -10,14 +10,14 @@ export default function MercuryHipImplant() {
     <section className="py-16 md:py-20 bg-[url('/x-nov/mercury-bg.png')] relative overflow-hidden">
       {/* Optional subtle background pattern can be added here */}
       
-      <div className="container mx-auto px-6 lg:px-16 relative z-10">
+      <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           
           {/* Left Column */}
           <div className="flex flex-col" data-aos="fade-right">
             {/* Subhead label */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] tracking-wider">
+              <span className="text-[#EC4899] font-semibold text-sm md:text-[15px] xl:text-[17px] tracking-wider">
                 Mercury
               </span>
               <span className="h-[2px] w-12 bg-[#EC4899] rounded-full"></span>

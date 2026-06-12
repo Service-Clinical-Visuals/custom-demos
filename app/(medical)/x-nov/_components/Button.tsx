@@ -49,8 +49,8 @@ const Button: React.FC<ButtonProps> = ({
   const sizeClasses = {
     sm: "py-2 px-5 text-[14px]",
     md: "py-3 px-6 text-[14px]",
-    lg: "py-3.5 px-8 text-[15px]", // standard size used in AboutUs, ProductRange
-    xl: "h-[58px] px-8 text-[16px]", // for HeroVideo
+    lg: "py-3.5 px-8 text-[16px]", // standard size used in AboutUs, ProductRange
+    xl: "h-[58px] px-8 text-[17px]", // for HeroVideo
   };
 
   // Rounded classes

@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function ProductShowcase() {
   return (
     <section className="pb-16 lg:pb-20 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="custom-container mx-auto px-4 lg:px-8">
         <div 
           data-aos="zoom-in"
           className="bg-[#00427C] rounded-[40px] overflow-hidden grid grid-cols-1 lg:grid-cols-2 items-center p-8 lg:p-12 gap-12"
@@ -24,7 +24,7 @@ export default function ProductShowcase() {
           {/* Right: Content */}
           <div className="w-full text-white">
             <h2 className=" text-2xl lg:text-3xl font-semibold mb-4">
-              MS55 Plus 
+              MS55 <span className="text-[#009BDB]">Plus</span>
             </h2>
             <h3 className="text-white text-xl lg:text-2xl font-semibold mb-6">
               Adds high technologies to daily routines

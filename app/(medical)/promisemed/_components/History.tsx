@@ -47,7 +47,7 @@ export default function History() {
     <section className="w-full bg-linear-to-t from-[#009B43] to-[#2353A3] text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-20 bg-cover bg-[url('/promisemed/grid.jpg')]"></div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="custom-container mx-auto px-6 relative z-10">
         {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:gap-10 items-start">
           {/* LEFT CONTENT */}
@@ -67,11 +67,11 @@ export default function History() {
               we continue to grow and deliver impactful healthcare solutions
               worldwide.
             </p>
-            <div className="w-60 flex-1 sm:flex-none p-0.5 rounded-full bg-linear-to-r from-[#009B43] to-[#2353A3]">
-              <button className="w-full px-6 py-3 rounded-full bg-white text-[#333333] text-[18px] font-semibold hover:bg-[#2353A3] hover:text-white transition text-center cursor-pointer">
-                Specification
-              </button>
-            </div>
+
+            {/* Button */}
+            <button className="mt-4 bg-linear-to-r from-[#FFFFFF]/39 to-[#FFFFFF] text-[#000000] text-[18px] px-12 py-3 rounded-full font-semibold hover:shadow-md transition cursor-pointer">
+              View All &gt;&gt;&gt;
+            </button>
           </div>
 
           {/* TIMELINE */}
@@ -94,7 +94,7 @@ export default function History() {
 
               {/* IMAGE (pushed to same level) */}
               <div className="mt-auto pt-6">
-                <div className="bg-white rounded-xl p-4 w-full h-50 relative mb-10">
+                <div className="bg-white rounded-xl p-4 w-full aspect-square mb-10">
                   <img
                     src={item.img}
                     alt={item.title}
