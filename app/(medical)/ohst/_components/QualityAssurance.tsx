@@ -91,11 +91,12 @@ export default function QualityAssuranceSection() {
 
         {/* Header */}
         <div className="text-center" data-aos="fade-up" data-aos-duration="600">
-          <Typography variant="h2" as="h2" weight="bold" className="text-[#099F94]">
+          <Typography variant="h1" weight="bold" className="text-[#099F94]">
             Our Services
           </Typography>
           <Typography
-            variant="body"
+            variant="h4"
+            weight="normal"
             className="mt-4 max-w-[960px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1400px] mx-auto text-[#555555] leading-relaxed"
           >
             In orthopaedic implants, technology alone isn&apos;t enough — trust, responsibility, and
@@ -106,7 +107,7 @@ export default function QualityAssuranceSection() {
         </div>
 
         {/* Divider */}
-        <hr className="border-gray-200/40 my-8" data-aos="fade-up" data-aos-delay="50" data-aos-duration="400" />
+        <hr className="border-gray-500/20 my-8" data-aos="fade-up" data-aos-delay="50" data-aos-duration="400" />
 
         {/* Cards Grid */}
         <div className="mt-10 sm:mt-12 lg:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-7 justify-center">
@@ -118,7 +119,7 @@ export default function QualityAssuranceSection() {
               data-aos-delay={i * 120}
               data-aos-once="true"
               data-aos-easing="ease-out-cubic"
-              className="relative bg-white flex flex-col border border-gray-100/40 w-full max-w-[370px] mx-auto overflow-hidden hover:scale-[1.02] transition-all duration-300 shadow-[0px_3px_8px_0px_rgba(0,0,0,0.24)]"
+              className="relative bg-white flex p-3 xl:p-4 flex-col border border-gray-100/40 w-full max-w-[370px] mx-auto overflow-hidden hover:scale-[1.02] transition-all duration-300 shadow-[0px_3px_8px_0px_rgba(0,0,0,0.24)]"
               style={{ borderRadius: "100px 0px 100px 0px" }}
             >
               {/* Image */}
@@ -140,24 +141,24 @@ export default function QualityAssuranceSection() {
               <div className="px-5 pt-4 pb-14 flex flex-col flex-grow">
                 {/* Title */}
                 <div className=" min-h-[50px] xl:h-[52px]  2xl:h-[52px] xl:w-[900px] 2xl:w-[1000px] overflow-hidden flex-shrink-0">
-                  <Typography variant="h5" weight="bold" className="text-[#222222] leading-snug ">
+                  <Typography variant="h4" weight="bold" className="text-[#222222] leading-snug ">
                     {service.title}
                   </Typography>
                 </div>
 
                 {/* Divider */}
-                <hr className="border-gray-200 mt-3 mb-3 flex-shrink-0" />
+                <hr className="border-gray-400/40 mt-3 mb-3 flex-shrink-0" />
 
                 {/* Description */}
                 <div className="h-[66px] overflow-hidden flex-shrink-0">
-                  <Typography variant="body-sm" className="text-[#666666] leading-[22px] line-clamp-3">
+                  <Typography variant="h6" className="text-[#666666] leading-[22px] line-clamp-3">
                     {service.description}
                   </Typography>
                 </div>
 
                 {/* Learn More */}
                 <div className="mt-3">
-                  <a href="#" className="text-[#099F94] font-bold text-sm hover:underline transition-colors duration-150">
+                  <a href="#" className="text-[#099F94]  font-bold text-md hover:underline transition-colors duration-150">
                     Learn More &gt;&gt;
                   </a>
                 </div>
@@ -167,7 +168,7 @@ export default function QualityAssuranceSection() {
               <button
                 className="absolute bottom-0 left-0 h-[42px] w-[273px] bg-[#099F94] hover:bg-[#07877e] text-white text-sm font-bold text-left pl-6 transition-colors duration-200 cursor-pointer flex items-center"
                 style={{ borderBottomRightRadius: "57px" }}
-                onClick={() => {}}
+                onClick={() => { }}
               >
                 View Testimonial
               </button>
@@ -190,11 +191,10 @@ export default function QualityAssuranceSection() {
             <button
               key={i}
               onClick={() => setCurrent(i)}
-              className={`rounded-full transition-all duration-200 cursor-pointer ${
-                i === activeIndex
-                  ? "w-3 h-3 bg-[#099F94] scale-110"
-                  : "w-2.5 h-2.5 bg-[#099F94]/30 hover:bg-[#099F94]/60"
-              }`}
+              className={`rounded-full transition-all duration-200 cursor-pointer ${i === activeIndex
+                ? "w-3 h-3 bg-[#099F94] scale-110"
+                : "w-2.5 h-2.5 bg-[#099F94]/30 hover:bg-[#099F94]/60"
+                }`}
               aria-label={`Go to page ${i + 1}`}
             />
           ))}
