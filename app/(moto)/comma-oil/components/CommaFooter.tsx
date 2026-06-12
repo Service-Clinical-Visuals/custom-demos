@@ -148,7 +148,7 @@ export default function CommaFooter() {
         <div className="w-[90%] left-[5%] relative flex justify-between">
           <>
             <span className="text-[20px] font1 font-bold text-white">
-              Copyright © 2026 Moove Lubricants Limited.
+              Copyright © 2026 Comma Oil.
             </span>
           </>
           <div className="flex items-center gap-5">
