@@ -28,7 +28,7 @@ const SectionHeader = ({
     const borderClass = light ? "!border-white" : (mobileLight ? "!border-white lg:!border-[#103672]" : "border-[#103672]");
 
     return (
-        <div className={`space-y-4 ${center ? "flex flex-col items-center text-center" : ""}`}>
+        <div className={`mci-root  space-y-4 ${center ? "flex flex-col items-center text-center" : ""}`}>
             <div
                 className={`flex items-center gap-2 font-semibold text-[16px] sub-head tracking-wide ${colorClass} ${subtitleClassName}`}
             >

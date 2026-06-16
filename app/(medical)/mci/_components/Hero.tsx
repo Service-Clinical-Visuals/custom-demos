@@ -16,7 +16,7 @@ export default function Hero() {
 
     return (
         <section
-            className="relative w-full h-screen overflow-hidden flex items-end justify-center"
+            className="relative w-full h-screen overflow-hidden flex items-end justify-center  "
         >
             {/* Hero Background */}
             <div className="absolute inset-0 z-0 bg-black">
@@ -37,7 +37,7 @@ export default function Hero() {
             </div>
 
             {/* Hero Text - Positioned at bottom as per image */}
-            <div className="custom-container mx-auto px-6 md:px-12 relative z-20 pb-20 md:pb-28 flex flex-col items-center text-center">
+            <div className="custom-container mx-auto px-6 md:px-12 relative z-20 pb-20 md:pb-28 flex flex-col items-center text-center mci-root">
                 <h1
                     className="text-white! text-3xl md:text-4xl lg:text-5xl font-semibold max-w-4xl 2xl:max-w-7xl tracking-wide drop-shadow-lg"
                 >

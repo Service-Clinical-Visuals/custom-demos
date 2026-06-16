@@ -29,7 +29,7 @@ const Expertise = () => {
     };
 
     return (
-        <section className="relative py-24 bg-[url('/mci/images/expertice.png')] bg-cover bg-center overflow-hidden">
+        <section className="relative py-24 bg-[url('/mci/images/expertice.png')] bg-cover bg-center overflow-hidden mci-root ">
             {/* Background Abstract Waves */}
             <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-400/20 to-transparent blur-3xl animate-pulse" />

@@ -16,7 +16,7 @@ const Precision = () => {
         setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % shortVideos.length);
     };
     return (
-        <section className="relative py-28 bg-[url('/mci/images/precision.png')] bg-cover bg-center overflow-hidden">
+        <section className="relative py-28 bg-[url('/mci/images/precision.png')] bg-cover bg-center overflow-hidden mci-root ">
 
             <div className="custom-container mx-auto px-6 md:px-12 grid lg:grid-cols-12 gap-16 items-center relative z-10">
                 {/* Left: Image/Video Card */}
