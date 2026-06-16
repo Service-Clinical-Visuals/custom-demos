@@ -29,7 +29,7 @@ const Hero = () => {
                         variant="h1"
                         color="white"
                         weight="semibold"
-                        className="text-[32px] sm:text-4xl md:text-5xl lg:text-[46px] leading-[1.2] md:leading-tight tracking-tight mb-6 md:mb-8 shadow-text text-white! max-w-3xl"
+                        className="leading-[1.2] md:leading-tight tracking-tight mb-6 md:mb-8 shadow-text text-white! max-w-3xl"
                     >
                         Innovation, quality, and safety in cardiopulmonary diagnostics.
                     </Typography>
