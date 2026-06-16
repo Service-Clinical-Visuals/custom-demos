@@ -53,7 +53,7 @@ const blogs = [
 
 export default function LatestNews() {
   return (
-    <section className="py-16 md:py-24 bg-white" id="blog">
+    <section className="o-two-medical-root py-16 md:py-24 bg-white" id="blog">
       <style>{`
         .news-swiper .swiper-pagination {
           position: static;

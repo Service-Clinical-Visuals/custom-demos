@@ -19,7 +19,7 @@ export default function Hero() {
 
 
           {/* INNER CONTENT - Constrained to Tailwind's default container */}
-          <div className="relative z-20 container mx-auto h-full flex items-end pb-12 sm:pb-16 md:pb-24 px-4 sm:px-8 lg:px-12">
+          <div className="o-two-medical-root relative z-20 container mx-auto h-full flex items-end pb-12 sm:pb-16 md:pb-24 px-4 sm:px-8 lg:px-12">
             <div className="max-w-3xl text-white">
               <h3
                 className="text-[32px] sm:text-[42px] lg:text-[44px] leading-[1.2] mb-8 font-semibold text-white text-shadow-xl"

@@ -33,7 +33,7 @@ export default function TimescoFooter() {
 
 
   return (
-    <footer className="w-full overflow-hidden bg-[#f4f4f4]">
+    <footer className="w-full overflow-hidden bg-[#f4f4f4] timesco-root">
       
       {/* SUBSCRIBE SECTION */}
       <div
@@ -59,9 +59,8 @@ export default function TimescoFooter() {
           className="
             relative
             z-10
-            mx-auto
+            custom-container
             flex
-            max-w-[1600px]
             flex-col
             items-start
             justify-between
@@ -148,9 +147,8 @@ export default function TimescoFooter() {
       <div className="py-12">
         <div
           className="
-            mx-auto
+            custom-container
             grid
-            max-w-[1600px]
             grid-cols-1
             gap-16
             px-8
@@ -337,9 +335,8 @@ export default function TimescoFooter() {
         {/* BOTTOM BAR */}
         <div
           className="
-            mx-auto
+            custom-container
             mt-10
-            max-w-[1600px]
             border-t
             border-[#d9d9d9]
             px-8

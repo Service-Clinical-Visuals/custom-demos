@@ -18,7 +18,7 @@ export default function Hero() {
         {/* Gradient Overlay for Text Readability */}
         {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-[1] pointer-events-none"></div> */}
 
-        <div className="relative z-10 w-full px-8 md:px-16">
+        <div className="medas-root relative z-10 w-full px-8 md:px-16">
           <div className="max-w-3xl">
             <h1
               data-aos="fade-up"

@@ -21,8 +21,8 @@ export default function OurCategory() {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section className="medas-root py-20 bg-white">
+      <div className="custom-container px-4">
         <div className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
           <div>
             <h2 data-aos="fade-up" className="text-[32px] font-semibold text-[#333333] mb-4">Our Category</h2>

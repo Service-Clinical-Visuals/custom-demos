@@ -28,7 +28,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#0091d5] text-white pt-16 pb-8 border-t border-white/10" id="footer">
+    <footer className="o-two-medical-root bg-[#0091d5] text-white pt-16 pb-8 border-t border-white/10" id="footer">
       <div className="container mx-auto px-6 md:px-8 lg:px-12">
         {/* Main Columns Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 xl:gap-14 mb-12 items-start">
