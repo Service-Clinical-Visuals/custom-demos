@@ -5,7 +5,7 @@ import { ArrowRight, Check } from "lucide-react";
 
 export default function Development() {
   return (
-    <section className="w-full py-16 flex justify-center">
+    <section className="w-full py-16 flex justify-center desoutter-root">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* LEFT IMAGE */}
         <div

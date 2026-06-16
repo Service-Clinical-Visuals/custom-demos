@@ -26,11 +26,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={outfit.className}>
         {" "}
-        <div id="desoutter-root">
+        {/* <div id="desoutter-root"> */}
           <Navbar />
           <SmoothAOS />
           <VideoProvider>{children}</VideoProvider>
-        </div>
+        {/* </div> */}
       </body>
     </html>
   );
