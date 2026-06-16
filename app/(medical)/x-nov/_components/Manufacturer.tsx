@@ -5,7 +5,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Manufacturer() {
   return (
-    <section className="relative py-16 md:py-20 overflow-hidden bg-[url('/x-nov/manufacturer-bg.png')]">
+    <section className="relative py-16 md:py-20 overflow-hidden bg-[url('/x-nov/manufacturer-bg.png')] x-nov-root">
 
       <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-12" data-aos="fade-up">

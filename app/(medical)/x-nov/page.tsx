@@ -19,7 +19,7 @@ export default function AlivecorPage() {
       
       {/* Full screen video + overlay content (Transform Your Practice + Image space) */}
       <HeroVideo />
-      
+
       {/* About Us and Our Solutions Section */}
       <AboutUs />
 
@@ -40,7 +40,7 @@ export default function AlivecorPage() {
 
       {/* Footer Section */}
       <Footer />
-      
+
     </main>
   );
 }

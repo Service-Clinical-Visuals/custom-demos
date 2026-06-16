@@ -29,9 +29,11 @@ export default function XNovLayout({
   return (
     <div className={`${fontPrimary.variable} ${fontSecondary.variable} font-sans`}>
       <AosInit />
-      <VideoProvider >
-        {children}
-      </VideoProvider>
+      <div id="x-nov-root">
+        <VideoProvider >
+          {children}
+        </VideoProvider>
+      </div>
     </div>
   );
 }

@@ -28,8 +28,8 @@ export default function Header() {
 
   return (
     <header 
-      className={`fixed top-0 left-0 z-50 w-full bg-white transition-shadow duration-300 ${
-        isScrolled ? "shadow-md" : ""
+      className={`x-nov-root fixed top-0 left-0 z-50 w-full bg-white transition-shadow duration-300 ${
+        isScrolled ? "shadow-md" : "" 
       }`}
     >
       <div className="custom-container mx-auto px-6 lg:px-16">

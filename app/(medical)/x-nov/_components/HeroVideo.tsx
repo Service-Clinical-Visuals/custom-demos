@@ -11,7 +11,7 @@ export default function HeroBanner() {
       </div>
 
       {/* Content */}
-      <div className="relative z-20 h-full custom-container mx-auto px-6 lg:px-16 flex items-end pb-28">
+      <div className="relative z-20 h-full custom-container mx-auto px-6 lg:px-16 flex items-end pb-28 x-nov-root">
         <div data-aos="fade-up" className="max-w-[620px]">
           <h1 className="text-white text-[40px] leading-tight font-semibold">
             Our Technical Skills

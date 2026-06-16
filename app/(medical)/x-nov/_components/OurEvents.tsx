@@ -32,7 +32,7 @@ export default function OurEvents() {
   ];
 
   return (
-    <section className="py-16 md:py-20 bg-[url('/x-nov/events-bg.png')] relative overflow-hidden">
+    <section className="py-16 md:py-20 bg-[url('/x-nov/events-bg.png')] relative overflow-hidden x-nov-root">
       {/* Background radial lines placeholder - keeping it soft pink as requested */}
       
       <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
