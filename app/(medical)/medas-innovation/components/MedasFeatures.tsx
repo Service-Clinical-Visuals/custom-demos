@@ -5,7 +5,7 @@ import { ArrowRight, Check } from "lucide-react";
 
 export default function MedasFeatures() {
   return (
-    <section className="w-full bg-white py-20">
+    <section className="w-full bg-white py-20 medas-root">
       <div className="custom-container px-4">
 
         {/* TOP TEXT */}

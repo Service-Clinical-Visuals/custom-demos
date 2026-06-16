@@ -6,10 +6,10 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function InvidiaVideo() {
   return (
-    <section className="relative overflow-hidden bg-[#E9EAEC] py-[58px]">
+    <section className="relative overflow-hidden bg-[#E9EAEC] py-[58px]  invidia-root">
 
 
-      <div className="relative z-10 mx-auto grid max-w-380 grid-cols-1 items-stretch gap-[42px] px-8 lg:grid-cols-[1.02fr_0.98fr]">
+      <div className="relative z-10 mx-auto grid custom-container  grid-cols-1 items-stretch gap-[42px] px-8 lg:grid-cols-[1.02fr_0.98fr]">
         {/* ======================================
             LEFT - VIDEO
         ======================================= */}

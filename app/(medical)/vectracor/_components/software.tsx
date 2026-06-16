@@ -16,7 +16,7 @@ export default function Software() {
   ];
 
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-white vectracor-root">
       <div className="container mx-auto px-6">
 
         {/* Header */}

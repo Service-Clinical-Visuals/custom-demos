@@ -58,7 +58,7 @@ export default function CatheInnovation() {
   const visible = products.slice(activePage * PER_PAGE, (activePage + 1) * PER_PAGE);
 
   return (
-    <section className="relative overflow-hidden bg-white py-24">
+    <section className="relative overflow-hidden bg-white py-24 cathegenix-root">
       {/* ================================================= */}
       {/* TOP BLUE BORDER */}
       {/* ================================================= */}

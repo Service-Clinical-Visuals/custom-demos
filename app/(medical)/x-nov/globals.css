@@ -204,4 +204,20 @@ p {
     font-size: 20px;
   }
 } */
+/* 2K / QHD Monitors (2560px wide) — scale 1920px design up to 2560px (ratio: 2560/1920 = 1.3333) */
+@media (min-width: 2560px) {
+  .x-nov-root {
+    zoom: 1.3333;
+    width: 100%;
+  }
+}
+
+/* 4K UHD Monitors (3840px wide) — scale 1920px design up to 3840px (ratio: 3840/1920 = 2.0) */
+@media (min-width: 3840px) {
+  .x-nov-root {
+    zoom: 2;
+    width: 100%;
+  }
+}
+ 
 

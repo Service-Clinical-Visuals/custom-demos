@@ -65,11 +65,11 @@ p {
 }
 
 /* Extra Large PC / 2K Screen (1920px - 2499px) */
-/* @media (min-width: 1921px) and (max-width: 2499px) {
+ @media (min-width: 1921px) and (max-width: 2499px) {
   .custom-container {
     max-width: 95%;
   }
-  h2{
+ /* h2{
     font-size: 36px;
   }
   h3{
@@ -89,15 +89,15 @@ p {
   }
   .nav-links{
     font-size: 20px;
-  }
-} */
+  }*/
+} 
 
 /* Ultra-wide Screen / Max Cover (2500px and above) */
-/* @media (min-width: 2500px) and (max-width: 3800px) {
+ @media (min-width: 2500px) and (max-width: 3800px) {
   .custom-container {
-    max-width: 90%; 
+    max-width: 93%; 
   }
-  h2{
+ /* h2{
     font-size: 36px;
   }
   h3{
@@ -117,15 +117,15 @@ p {
   }
   .nav-links{
     font-size: 20px;
-  }
-} */
+  }*/
+} 
  
 /* 4K Ultra-wide Screen / Max Cover (3800px and above) */
-/* @media (min-width: 3800px) {
+ @media (min-width: 3800px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 93%;
   }
-  h2{
+ /* h2{
     font-size: 36px;
   }
   h3{
@@ -145,6 +145,22 @@ p {
   }
   .nav-links{
     font-size: 20px;
+  }*/
+} 
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions (2560 / 1920 = 1.333333) */
+@media (min-width: 2560px) {
+  .strena-medical-root {
+    zoom: 1.5;
+    transform-origin: top center;
   }
-} */
+}
+ 
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
+@media (min-width: 3840px) {
+  .strena-medical-root {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
+}
+ 
 

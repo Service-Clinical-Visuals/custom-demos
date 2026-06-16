@@ -83,7 +83,7 @@ export default function CatheTestimonials() {
       : "opacity-0 translate-x-6";
 
   return (
-    <section className="overflow-hidden bg-[#F7F7F5] py-24">
+    <section className="overflow-hidden bg-[#F7F7F5] py-24 cathegenix-root">
       <div className="custom-container px-8 lg:px-14">
         {/* TOP SECTION */}
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">

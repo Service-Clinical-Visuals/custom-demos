@@ -68,7 +68,7 @@ export default function Header() {
                 className="relative py-2"
               >
                 <Typography
-                  variant="caption"
+                  variant="h6"
                   as="span"
                   weight={activeItem === item ? "semibold" : "medium"}
                   className={`transition-colors duration-300 ${activeItem === item

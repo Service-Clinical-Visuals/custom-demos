@@ -6,7 +6,7 @@ import { Linkedin, ArrowRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white pt-20 pb-8 relative overflow-hidden">
+    <footer className="bg-white pt-20 pb-8 relative overflow-hidden x-nov-root">
       {/* Subtle top background wave/curve (Optional, adds to premium feel) */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-pink-100 to-transparent opacity-50" />
       

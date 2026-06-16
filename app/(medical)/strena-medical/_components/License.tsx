@@ -2,7 +2,7 @@
 
 export default function License() {
   return (
-    <section className="pb-16 lg:pb-20 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white strena-medical-root">
       <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Left Content */}

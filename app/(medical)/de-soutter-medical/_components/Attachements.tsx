@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Attachments() {
   return (
-    <section className="relative w-full py-16 px-6 flex justify-center bg-[#5E76BA30] overflow-hidden">
+    <section className="relative w-full py-16 px-6 flex justify-center bg-[#5E76BA30] overflow-hidden  desoutter-root">
       {/* BACKGROUND IMAGE (15% opacity) */}
       <div className="absolute inset-0">
         <Image

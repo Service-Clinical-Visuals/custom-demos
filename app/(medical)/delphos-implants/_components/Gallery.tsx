@@ -11,7 +11,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section className="w-full container mx-auto px-4 lg:px-0 py-16 ">
+    <section className="w-full container mx-auto px-4 lg:px-0 py-16 delphos-root">
       {/* Centered Heading */}
       <div className="w-full text-center mb-10">
         <h2

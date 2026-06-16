@@ -5,7 +5,7 @@ import { Linkedin, Phone, MapPin, Send } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#C5EEFF] pt-20 pb-10">
+    <footer className="bg-[#C5EEFF] pt-20 pb-10 strena-medical-root">
       <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-[3fr_1fr_3fr_2fr_3fr] gap-8 mb-16">
           

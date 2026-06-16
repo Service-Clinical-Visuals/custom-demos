@@ -13,12 +13,12 @@ export default function InvidiaHero() {
 
       </div>
 
-      <div className="relative z-20 flex h-full items-end bottom-32">
+      <div className="relative z-20 flex h-full items-end bottom-32  invidia-root">
         <div className="w-full ">
           <div
             data-aos="fade-up"
             data-aos-delay="50"
-            className="max-w-380 mx-auto px-6 lg:px-0"
+            className="custom-container  mx-auto px-6 lg:px-0"
           >
             {/* TITLE */}
             <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-[-1.6px] text-white">

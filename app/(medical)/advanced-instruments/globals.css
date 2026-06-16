@@ -155,6 +155,12 @@ p {
   .custom-container {
     max-width: 90%; 
   }
+  h1{
+    font-size: 48px!important;
+  }
+  .header-para{
+    font-size: 30px!important;
+  }
   
   h2{
     font-size: 36px;
@@ -166,16 +172,22 @@ p {
     font-size: 24px;
   }
   p{
-    font-size: 22px;
+    font-size: 26px;
   }
   .sub-head{
-    font-size: 20px;
+    font-size: 22px;
   }
   .btn-link{
     font-size: 20px;
   }
   .nav-links{
     font-size: 20px;
+  }
+  span {
+    font-size: 25px;
+  }
+  a{
+    font-size: 24px;
   }
  
 }

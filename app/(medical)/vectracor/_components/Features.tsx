@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 // components/VectraSection.tsx
 export default function VectraSection() {
   return (
-    <section className="relative w-full py-16 md:py-20 bg-[url('/vectracor/background_pattern.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center">
+    <section className="relative w-full py-16 md:py-20 bg-[url('/vectracor/background_pattern.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center vectracor-root">
 
       {/* Pattern Layer */}
       <div className="absolute inset-0 bg-[#26487E]/90"></div>

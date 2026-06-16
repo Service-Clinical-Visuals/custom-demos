@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 // components/ProductDetails.tsx
 export default function ProductDetails() {
   return (
-    <section className="relative w-full py-20  bg-[url('/vectracor/background_pattern.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center">
+    <section className="relative w-full py-20  bg-[url('/vectracor/background_pattern.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center vectracor-root">
 
 
       {/* Pattern */}

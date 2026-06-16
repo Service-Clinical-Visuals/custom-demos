@@ -102,7 +102,7 @@ export default function PatientPositioning() {
             className="lg:col-span-7 w-full relative aspect-video rounded-2xl 2xl:rounded-3xl overflow-hidden shadow-lg"
             data-aos="fade-left"
           >
-            <DynamicVideoPlayer type="short" />
+            <DynamicVideoPlayer type="short-2" />
           </div>
         </div>
       </div>

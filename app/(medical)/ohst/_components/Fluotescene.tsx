@@ -13,8 +13,7 @@ export default function FluorescenceSection() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 pb-6">
           <div className="flex-1">
             <Typography
-              variant="h2"
-              as="h2"
+              variant="h1"
               color="text-[#222222]"
               weight="bold"
               className="uppercase tracking-tight text-[28px] sm:text-[34px] md:text-[38px] leading-tight"
@@ -22,7 +21,8 @@ export default function FluorescenceSection() {
               Bipolar Head and Unipolar Head
             </Typography>
             <Typography
-              variant="body-sm"
+              variant="h4"
+              weight="normal"
               color="text-[#666666]"
               className="mt-3 text-[15px] sm:text-[16px]"
             >
@@ -61,14 +61,15 @@ export default function FluorescenceSection() {
                 Bipolar Head
               </Typography>
               <Typography
-                variant="body-sm"
+                variant="h5"
+                weight="light"
                 color="text-[#666666]"
                 className="leading-[24px] mb-4 line-clamp-3 text-[14px] sm:text-[15px]"
               >
                 The principle of the Bipolar Head with different centers of rotation for the head and outer shell established itself as the standard of care for femoral neck fractures many years ago. The focus lies on providing a high degree of rotational freedom and...
               </Typography>
               <div>
-                <Button variant="link" href="#" showArrow={true} className="inline-flex items-center gap-1 text-[#099F94] font-bold text-[14px]">
+                <Button variant="link" href="#" showArrow={true} className="inline-flex items-center gap-1 text-[#099F94] font-bold text-[16px]">
                   Read More
                 </Button>
               </div>
@@ -86,14 +87,15 @@ export default function FluorescenceSection() {
                 Unipolar Head
               </Typography>
               <Typography
-                variant="body-sm"
+                variant="h5"
+                weight="light"
                 color="text-[#666666]"
                 className="leading-[24px] mb-4 line-clamp-3 text-[14px] sm:text-[15px] "
               >
                 The Unipolar Head made of implant steel with an ISO 5832-9 quality level is particular suitable for the provision of femoral head fractures in very elderly patients. The simple handling of the unipolar neck keeps the stress level for patients low and shortens...
               </Typography>
               <div>
-                <Button variant="link" href="#" showArrow={true} className="inline-flex items-center gap-1 text-[#099F94] font-bold text-[14px]">
+                <Button variant="link" href="#" showArrow={true} className="inline-flex items-center gap-1 text-[#099F94] font-bold text-[16px]">
                   Read More
                 </Button>
               </div>

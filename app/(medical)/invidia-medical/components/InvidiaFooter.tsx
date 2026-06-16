@@ -32,8 +32,8 @@ const legalLinks = [
 
 export default function InvidiaFooter() {
   return (
-    <footer className="bg-[#F5F5F5] pt-[64px]">
-      <div className="mx-auto max-w-380 px-8">
+    <footer className="bg-[#F5F5F5] pt-[64px]  invidia-root">
+      <div className="mx-auto custom-container  px-8">
         {/* ======================================
             TOP GRID
         ======================================= */}

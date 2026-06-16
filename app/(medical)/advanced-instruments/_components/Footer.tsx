@@ -55,7 +55,7 @@ const Footer = () => {
                         <Link href="/advanced-instruments" className="flex items-center group">
                             <img src="/advanced-instruments/images/advanced-logo.png" alt="logo" className="w-24 md:w-48" />
                         </Link>
-                        <p className="text-base leading-relaxed text-gray-600 max-w-xs">
+                        <p className="text-base leading-relaxed text-gray-600 max-w-xs 2xl:max-w-[80%]">
                             Advanced Instrumentations is a premier global manufacturer of high quality medical equipment & advanced medical supplies
                         </p>
                     </div>

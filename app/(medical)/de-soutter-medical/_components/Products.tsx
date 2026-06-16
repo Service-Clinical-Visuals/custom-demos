@@ -40,7 +40,7 @@ export default function Products() {
   const [active, setActive] = useState("Large Bone");
 
   return (
-    <section className="w-full bg-[#F5F6FA] py-16 flex justify-center">
+    <section className="w-full bg-[#F5F6FA] py-16 flex justify-center  desoutter-root">
       <div data-aos="fade-up" className="container mx-auto px-6  text-center">
         {/* TITLE */}
         <h2 className="text-[#333333] text-[22px] font-medium">Our Products</h2>

@@ -18,17 +18,17 @@ export default function HeroBanner() {
 
 
       {/* Content */}
-     <div className="relative z-10 h-full flex items-end pb-24 sm:pb-28 lg:pb-32 xl:pb-36">
+      <div className="relative z-10 h-full flex items-end pb-24 sm:pb-28 lg:pb-32 xl:pb-36">
         <div className="container mx-auto">
           <div
-            className="max-w-[800px] sm:max-w-[820px] lg:max-w-[960px] xl:max-w-[1260px]"
+            className="max-w-[800px] sm:max-w-[920px] lg:max-w-[960px] xl:max-w-[1060px]"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
           >
             <Typography
-              variant="h2"
-              weight="bold"
+              variant="hero"
+              weight="semibold"
               className="text-white leading-snug mb-6"
             >
               OHST Medizintechnik AG is a medical devices company based in

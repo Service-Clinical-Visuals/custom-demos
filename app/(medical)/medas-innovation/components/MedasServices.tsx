@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function MedasServices() {
   return (
-    <section className="w-full bg-[#F1F1F1] py-20">
+    <section className="w-full bg-[#F1F1F1] py-20 medas-root">
       <div className="custom-container px-4">
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">

@@ -63,31 +63,31 @@ export default function AboutOHSTSection() {
             data-aos="fade-left"
             data-aos-duration="700"
             data-aos-delay="100"
-            className="flex flex-col justify-center " 
+            className="flex flex-col justify-center "
           >
             <Typography
               variant="h2"
-              weight="bold"
-              className="text-[#222222] mb-5 leading-tight"
+              weight="semibold"
+              className="text-[#222222] mb-5  leading-tight"
             >
               Precision in every detail made in Rathenow, Germany
             </Typography>
 
             <div className="space-y-4">
-              <Typography variant="body" className="text-[#555555] leading-relaxed">
+              <Typography variant="h4" weight="normal" className="text-[#555555] leading-relaxed">
                 Over 30 years have passed since OHST medical technology in
                 Rathenow produced its first acetabular hip cup. Today the name
                 of OHST is a synonym for the production of high-quality joint
                 implants and surgical instruments.
               </Typography>
-              <Typography variant="body" className="text-[#555555] leading-relaxed">
+              <Typography variant="h4" weight="normal" className="text-[#555555] leading-relaxed">
                 Founded in Rathenow by toolmaker Willi Ohst in 1937, OHST AG
                 remains family-owned and is growing and thriving to this day.
                 Initially the company manufactured tools for the local optical
                 industry, followed later by paper testing machines for the
                 GDR's export market.
               </Typography>
-              <Typography variant="body" className="text-[#555555] leading-relaxed">
+              <Typography variant="h4" weight="normal" className="text-[#555555] leading-relaxed">
                 In the mid-eighties the first acetabular hip cups were developed
                 in coordination with Berlin's Charité Hospital, with regular
                 production starting in 1987.

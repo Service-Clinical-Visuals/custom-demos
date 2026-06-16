@@ -61,7 +61,7 @@ export default function TestimonialSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="w-full py-16 md:py-18 lg:py-20">
+    <section className="w-full twok py-16 md:py-18 lg:py-20">
       <div className="container mx-auto">
         <div
           className="relative overflow-hidden rounded-[24px] px-8 py-14 lg:px-14 lg:py-16"

@@ -30,7 +30,7 @@ const newsLinks = [
 export default function CatheFooter() {
 
   return (
-    <footer className="overflow-hidden bg-[#eff4fc] py-10">
+    <footer className="overflow-hidden bg-[#eff4fc] py-10 cathegenix-root">
       <div className="custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* MAIN GRID */}

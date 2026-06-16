@@ -15,18 +15,18 @@ export default function TrustedClientsSection() {
       <div className="container mx-auto px-4 lg:px-6">
 
         {/* Centered Header */}
-        <div className="text-center max-w-[840px] mx-auto mb-8" data-aos="fade-up">
+        <div className="text-center max-w-[1240px] mx-auto mb-8" data-aos="fade-up">
           <Typography
-            variant="h2"
-            as="h2"
+            variant="h1"
             color="text-[#222222]"
             weight="bold"
             className="text-[28px] sm:text-[34px] md:text-[38px] leading-tight mb-4"
           >
-            OHST supports
+            OHST Supports
           </Typography>
           <Typography
-            variant="body-sm"
+            variant="h4"
+            weight="normal"
             color="text-[#555555]"
             className="leading-[26px] text-[14px] sm:text-[15px]"
           >
@@ -35,10 +35,10 @@ export default function TrustedClientsSection() {
         </div>
 
         {/* Separator line */}
-        <hr className="border-gray-200 mb-10" />
+        <hr className="border-gray-300/70 mb-10" />
 
         {/* Supporter Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-6 mb-12">
           {supporters.map((supporter, index) => (
             <div
               key={index}
@@ -52,7 +52,7 @@ export default function TrustedClientsSection() {
                   alt={supporter.alt}
                   fill
                   className="object-contain transition-all duration-500 group-hover:scale-105"
-                  sizes="(max-w-768px) 50vw, 20vw"
+                  sizes="(max-w-768px) 60vw, 60vw"
                 />
               </div>
             </div>

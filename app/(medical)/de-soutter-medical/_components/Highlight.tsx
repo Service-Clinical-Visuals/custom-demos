@@ -6,7 +6,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Highlight() {
   return (
-    <section className="relative w-full py-16 flex justify-center bg-[#5E76BA] overflow-hidden">
+    <section className="relative w-full py-16 flex justify-center bg-[#5E76BA] overflow-hidden desoutter-root">
       {/* BACKGROUND IMAGE (15% opacity) */}
       <div className="absolute inset-0">
         <Image

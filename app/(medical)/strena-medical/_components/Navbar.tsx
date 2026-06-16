@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full bg-white shadow-sm transition-all duration-500 z-50 ${
+      className={` strena-medical-root fixed top-0 left-0 w-full bg-white shadow-sm transition-all duration-500 z-50 ${
         show ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >

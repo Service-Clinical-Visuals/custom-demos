@@ -4,7 +4,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const Health = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white promisemed-root">
       {/* --- Top Header Section --- */}
       <section className="custom-container mx-auto px-6 pt-16 lg:pt-20 text-center">
         <h1

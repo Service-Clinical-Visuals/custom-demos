@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer id="carepump-footer" className="bg-[#005575] text-white pt-8">
+    <footer id="carepump-footer" className="bg-[#005575] text-white pt-8 twok">
       <div className="container mx-auto py-5">
 
         {/* Top Section */}

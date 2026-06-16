@@ -24,7 +24,7 @@ export default function AboutSection() {
           hidden lg:block
           absolute bottom-0 left-0 right-0 z-0
           bg-white
-          h-[100px] xl:h-[160px] 2xl:h-[290px]
+          h-[70px] xl:h-[80px] 2xl:h-[90px]
         "
       />
 
@@ -37,14 +37,15 @@ export default function AboutSection() {
           data-aos="fade-up"
           data-aos-duration="600"
         >
-          <Typography variant="h2" weight="bold" className="text-white mb-3 lg:mb-4">
+          <Typography variant="h1" weight="bold" className="text-white mb-3 lg:mb-4">
             Bipolar Head
           </Typography>
 
           <Typography
-            variant="body"
+            variant="h4"
+            weight="normal"
             className="
-              text-white/90 mx-auto leading-relaxed
+              text-white mx-auto leading-relaxed
               max-w-[1000px] lg:max-w-[1200px] xl:max-w-[1300px] 2xl:max-w-[1500px] 
             "
           >
@@ -56,7 +57,7 @@ export default function AboutSection() {
             femoral neck fractures.
           </Typography>
 
-          <div className="h-px bg-white/25 mt-6 sm:mt-7 lg:mt-8 xl:mt-10" />
+          <div className="h-px bg-white/55 mt-6 sm:mt-7 lg:mt-8 xl:mt-10" />
         </div>
 
         {/* Two-column grid */}
@@ -67,8 +68,8 @@ export default function AboutSection() {
             lg:grid-cols-[300px_1fr]
             xl:grid-cols-[320px_1fr]
             2xl:grid-cols-[440px_1fr]
-            gap-6 sm:gap-8 lg:gap-10 xl:gap-12 2xl:gap-20
-            items-start
+            gap-6 sm:gap-8 lg:gap-8 xl:gap-12 2xl:gap-16
+            items-center
           "
         >
 
@@ -77,7 +78,7 @@ export default function AboutSection() {
             className="
               order-2 lg:order-1
               pb-10 sm:pb-12
-              lg:pb-[120px] xl:pb-[160px] 2xl:pb-[300px]
+              lg:pb-[80px] xl:pb-[100px] 2xl:pb-[120px]
             "
             data-aos="fade-right"
             data-aos-duration="600"
@@ -98,7 +99,8 @@ export default function AboutSection() {
                     <Check className="w-3 h-3 text-[#11A39A]" />
                   </span>
                   <Typography
-                    variant="body-sm"
+                    variant="h4"
+                    weight="normal"
                     className="text-white leading-relaxed"
                   >
                     {feature}
@@ -120,7 +122,8 @@ export default function AboutSection() {
               order-1 lg:order-2
               relative z-10
               pb-6 sm:pb-8
-              lg:pb-[100px] xl:pb-[130px] 2xl:pb-[260px]
+              lg:pb-[40px] xl:pb-[50px] 2xl:pb-[60px]
+              lg:max-w-[1137px] w-full
             "
             data-aos="fade-left"
             data-aos-duration="600"
@@ -129,23 +132,21 @@ export default function AboutSection() {
             <div
               className="
                 bg-white
-                rounded-[20px] sm:rounded-[24px]
-                lg:rounded-[36px] xl:rounded-[40px] 2xl:rounded-[48px]
-                p-2 sm:p-3 lg:p-3 xl:p-4 2xl:p-5
+                rounded-[20px] sm:rounded-[24px] lg:rounded-[35px]
+                p-2 sm:p-3 lg:p-4
                 transition-shadow duration-300
               "
             >
               <div
                 className="
                   relative overflow-hidden
-                  rounded-[14px] sm:rounded-[18px]
-                  lg:rounded-[28px] xl:rounded-[32px] 2xl:rounded-[40px]
-                  w-full aspect-video
+                  rounded-[14px] sm:rounded-[18px] lg:rounded-[28px]
+                  w-full aspect-[1137/570]
                 "
               >
                 <DynamicVideoPlayer
                   type="360"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full  object-cover"
                 />
               </div>
             </div>
