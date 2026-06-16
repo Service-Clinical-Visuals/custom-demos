@@ -41,7 +41,7 @@ const Hero = () => {
                 </h1>
 
                 <p
-                    className="text-white! text-base md:text-lg  font-medium leading-relaxed [text-shadow:2px_2px_4px_rgba(0,0,0,0.5)]"
+                    className="text-white! text-base md:text-lg  font-medium leading-relaxed [text-shadow:2px_2px_4px_rgba(0,0,0,0.5)] header-para"
                     data-aos="fade-up"
                     data-aos-delay="500"
                 >

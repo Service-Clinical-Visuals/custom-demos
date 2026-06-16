@@ -55,7 +55,7 @@ const Products = () => {
                                 <span className="text-[#00aeef] text-base font-bold tracking-widest uppercase mb-3 inline-block">{product.category}</span>
                                 <h3 className="text-xl font-semibold! leading-tight mb-4 text-[#333333] group-hover:text-[#00aeef] transition-colors">{product.title}</h3>
                                 <div className="bg-gradient-to-l from-white to-[#80D4F7] h-0.5 w-full mb-4 rounded-full"></div>
-                                <p className=" text-base leading-relaxed mb-6 max-h-[140px] overflow-hidden line-clamp-4">{product.description}</p>
+                                <p className=" text-base leading-relaxed mb-6 max-h-[150px] 2xl:max-h-[160px] overflow-hidden line-clamp-4">{product.description}</p>
                             </div>
                             <div className="p-8 md:p-6 mt-auto">
                                 <div className="relative overflow-hidden rounded-2xl aspect-[4/3] bg-neutral-100 flex items-center justify-center">
