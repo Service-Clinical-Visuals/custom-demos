@@ -21,7 +21,7 @@ export default function MedacureSection() {
 
         {/* LEFT IMAGE */}
         <div data-aos="fade-right">
-          <div className="relative w-full h-[300px] md:h-[380px] rounded-2xl overflow-hidden">
+          <div className="relative w-full h-[300px] md:h-[380px] 2xl:h-[650px] rounded-2xl overflow-hidden">
             <DynamicVideoPlayer
               type="short-2"
               className="w-full h-full object-cover"
@@ -30,7 +30,7 @@ export default function MedacureSection() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div data-aos="fade-left" className="max-w-xl text-white">
+        <div data-aos="fade-left" className="max-w-xl 2xl:max-w-[90%] text-white">
 
           {/* Title */}
           <h2 className="text-xl md:text-2xl font-semibold mb-4">
