@@ -44,21 +44,21 @@ const productsList = [
 
 export default function ProductsGrid() {
     return (
-        <section className="w-full py-16 md:py-24 bg-white z-30" id="all-products">
+        <section className="lumed-root w-full py-16 md:py-24 bg-white z-30" id="all-products">
             <div className="custom-container mx-auto px-6 md:px-8 space-y-12 max-w-[1440px]">
 
                 {/* Header Grid: Split Title & Description */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-end pb-8 ">
                     <div className="space-y-3" data-aos="fade-right">
                         <Typography
-                            variant="body"
+                            variant="h5"
                             color="secondary"
-                            weight="normal"
-                            className="tracking-wider font-space-grotesk font-bold block text-sm md:text-base"
+                            weight="bold"
+                            className="tracking-wider font-space-grotesk font-bold block"
                         >
                             04 / Products
                         </Typography>
-                        <Typography variant="h2" color="dark" className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold">
+                        <Typography variant="h2" color="dark" className="leading-tight tracking-tight font-bold">
                             Innovation in Every Product
                         </Typography>
                     </div>
@@ -67,7 +67,7 @@ export default function ProductsGrid() {
                         data-aos="fade-left"
                         data-aos-delay="100"
                     >
-                        <Typography variant="body" color="muted" className="text-sm  md:text-base leading-relaxed">
+                        <Typography variant="body" color="muted" className="leading-relaxed">
                             A complete range of cardiopulmonary diagnostic equipment designed to meet the needs of healthcare professionals.
                         </Typography>
                     </div>
@@ -79,7 +79,7 @@ export default function ProductsGrid() {
                         return (
                             <div
                                 key={prod.id}
-                                className="group bg-white   overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-1 relative"
+                                className="group bg-white overflow-hidden shadow-sm relative"
                                 data-aos="fade-up"
                                 data-aos-delay={index * 50}
                             >
@@ -88,7 +88,7 @@ export default function ProductsGrid() {
                                     <img
                                         src={prod.image}
                                         alt={prod.title}
-                                        className="w-full h-full group-hover:scale-105 duration-300 "
+                                        className="w-full h-full transition-transform duration-500 group-hover:scale-105"
                                     />
 
                                     {/* Dark Overlay (Always visible on mobile, Hover on Desktop) */}
@@ -97,14 +97,14 @@ export default function ProductsGrid() {
                                             variant="h4"
                                             color="white"
                                             weight="bold"
-                                            className="text-lg md:text-[19px] mb-1.5 leading-snug block shadow-sm"
+                                            className="mb-1.5 leading-snug block shadow-sm"
                                         >
                                             {prod.title}
                                         </Typography>
                                         <Typography
                                             variant="body"
                                             color="white"
-                                            className="text-[13px] md:text-[14px] leading-relaxed opacity-100 lg:opacity-90 block drop-shadow-md"
+                                            className="leading-relaxed opacity-100 lg:opacity-90 block drop-shadow-md"
                                         >
                                             {prod.description}
                                         </Typography>

@@ -25,22 +25,22 @@ const newsList = [
 
 export default function NewsSection() {
     return (
-        <section className="w-full py-16 md:py-24 bg-white" id="news">
+        <section className="lumed-root w-full py-16 md:py-24 bg-white" id="news">
             <div className="custom-container mx-auto px-6 md:px-8 space-y-12 max-w-[1440px]">
 
                 {/* Header Grid: Split Title & Description */}
                 <div className="space-y-4 pb-8 border-b border-gray-100">
                     <Typography
-                        variant="body"
+                        variant="h5"
                         color="secondary"
                         weight="bold"
-                        className="tracking-wider font-space-grotesk font-bold block text-sm"
+                        className="tracking-wider font-space-grotesk font-bold block"
                     >
-                        01 / Our News
+                        06 / Our News
                     </Typography>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-start">
                         <div data-aos="fade-right">
-                            <Typography variant="h2" color="dark" className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold">
+                            <Typography variant="h2" color="dark" className="leading-tight tracking-tight font-bold">
                                 Latest News, Insights & Trade Shows
                             </Typography>
                         </div>
@@ -49,7 +49,7 @@ export default function NewsSection() {
                             data-aos="fade-left"
                             data-aos-delay="100"
                         >
-                            <Typography variant="body" color="muted" className=" text-sm md:text-base leading-relaxed font-heading">
+                            <Typography variant="body" color="muted" className="leading-relaxed font-heading">
                                 Stay up to date with the latest news from the Lumed world: trade show appearances, industry events, product launches, and company updates. Follow our activities and discover how we are driving innovation in the medical sector.
                             </Typography>
                         </div>
@@ -80,11 +80,11 @@ export default function NewsSection() {
                                     href={`#news-${news.id}`}
                                     className="block transition-colors duration-200"
                                 >
-                                    <Typography variant="h4" color="primary" className="font-bold text-base md:text-lg tracking-tight hover:text-primary-hover font-heading">
+                                    <Typography variant="h4" color="primary" className="font-bold tracking-tight hover:text-primary-hover font-heading">
                                         {news.title}
                                     </Typography>
                                 </Link>
-                                <Typography variant="body" color="muted" className="text-sm leading-relaxed block font-heading">
+                                <Typography variant="body" color="muted" className="leading-relaxed block font-heading">
                                     {news.desc}
                                 </Typography>
                             </div>
