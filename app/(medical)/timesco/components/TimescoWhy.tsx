@@ -24,7 +24,7 @@ const stats = [
 export default function TimescoWhy() {
 
   return (
-    <section className="relative overflow-hidden py-28">
+    <section className="relative overflow-hidden py-28 timesco-root">
       
       {/* BACKGROUND IMAGE */}
       <div className="absolute inset-0">
@@ -39,7 +39,7 @@ export default function TimescoWhy() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 mx-auto max-w-[1600px] px-8">
+      <div className="relative z-10 custom-container px-8">
         
         {/* HEADER */}
         <div

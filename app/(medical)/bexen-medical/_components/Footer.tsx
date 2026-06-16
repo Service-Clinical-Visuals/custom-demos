@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#81CFF45C] pt-16 pb-6">
+    <footer className="medas-root bg-[#81CFF45C] pt-16 pb-6">
       <div className="custom-container px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12 mb-16">
           <div className="lg:col-span-4">

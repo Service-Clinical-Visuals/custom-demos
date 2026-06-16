@@ -21,7 +21,7 @@ export default function OurCategory() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="medas-root py-20 bg-white">
       <div className="custom-container px-4">
         <div className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
           <div>

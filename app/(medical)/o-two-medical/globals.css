@@ -123,7 +123,7 @@
 }
 
 @media (min-width: 2560px) {
-  #o-two-medical-root {
+  .o-two-medical-root {
     zoom: 1.6;
     transform-origin: top center;
   }
@@ -131,7 +131,7 @@
 
 /* 3840px (4K UHD) */
 @media (min-width: 3840px) {
-  #o-two-medical-root {
+  .o-two-medical-root {
     zoom: 2.4;
     transform-origin: top center;
   }

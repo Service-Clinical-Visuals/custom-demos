@@ -3,7 +3,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function CollaborativeProjects() {
   return (
-    <section className="py-20 text-white relative overflow-hidden bg-[url('/medical/bexen-medical/bg.jpg')] bg-cover bg-center bg-no-repeat">
+    <section className="medas-root py-20 text-white relative overflow-hidden bg-[url('/medical/bexen-medical/bg.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-[#14387F]/80 z-0"></div>
       <div className="custom-container relative z-10 px-4">
         <div className="text-center mb-16">

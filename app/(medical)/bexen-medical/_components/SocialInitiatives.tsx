@@ -17,7 +17,7 @@ export default function SocialInitiatives() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="medas-root py-20 bg-white">
       <div className="custom-container px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2
