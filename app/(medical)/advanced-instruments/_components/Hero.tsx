@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
 
             {/* Content overlay */}
-            <div className="relative z-10 w-full custom-container mx-auto px-4 md:px-0 text-center max-w-4xl">
+            <div className="advance-inc-root relative z-10 w-full custom-container mx-auto px-4 md:px-0 text-center max-w-4xl">
                 <h1
                     className="text-white! text-3xl md:text-4xl font-semibold leading-tight mb-6 [text-shadow:4px_4px_8px_rgba(0,0,0,0.8)] tracking-wide "
                     data-aos="fade-up"

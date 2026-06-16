@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
         setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
     };
     return (
-        <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/why-bg.png')] bg-cover bg-center relative overflow-hidden">
+        <section className="advance-inc-root py-16 md:py-20 bg-[url('/advanced-instruments/images/why-bg.png')] bg-cover bg-center relative overflow-hidden">
 
             <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 relative z-10 items-center">
                 <div>

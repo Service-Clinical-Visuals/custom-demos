@@ -13,7 +13,7 @@ const Solutions = () => {
                     centered={true}
                 />
 
-                <div className="text-gray-600 space-y-4 mb-8 text-center max-w-7xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                <div className="text-gray-600 space-y-4 mb-8 text-center max-w-7xl mx-auto advance-inc-root" data-aos="fade-up" data-aos-delay="200">
                     <p className="text-base leading-relaxed">
                         Our solutions are designed to meet the specific needs of various medical departments, including intensive care units, operating rooms, cardiology, radiology, and neonatal care. We understand that each healthcare setting requires specialized equipment, and our offerings are tailored to enhance performance, safety, and efficiency.
                     </p>

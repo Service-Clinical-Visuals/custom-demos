@@ -29,7 +29,7 @@ const products = [
 
 const Products = () => {
     return (
-        <section className="py-10 md:py-15 bg-[url('/advanced-instruments/images/products-bg.png')] bg-cover bg-center relative overflow-hidden" id="products">
+        <section className="advance-inc-root py-10 md:py-15 bg-[url('/advanced-instruments/images/products-bg.png')] bg-cover bg-center relative overflow-hidden" id="products">
             <div className="custom-container mx-auto px-4 md:px-0">
                 <SectionHeader
                     label="Our Products"

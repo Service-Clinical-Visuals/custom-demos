@@ -48,7 +48,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="bg-white border-t border-gray-100 py-10 md:pt-16 md:pb-8 overflow-hidden" id="footer">
+            <footer className="bg-white border-t border-gray-100 py-10 md:pt-16 md:pb-8 overflow-hidden advance-inc-root" id="footer">
                 <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-12 gap-x-8 lg:gap-x-4">
                     {/* Brand Column */}
                     <div className="lg:col-span-3 space-y-6" data-aos="fade-up">
