@@ -65,11 +65,11 @@ export default function News() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 p-2 xl:p-3 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {newsItems.map((item) => (
             <div
               key={item.id}
-              className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm flex flex-col h-full group hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+              className="bg-white border  border-gray-100 rounded-3xl overflow-hidden shadow-sm flex flex-col h-full group hover:shadow-md hover:-translate-y-1 transition-all duration-300"
             >
               {/* Image */}
               <div className="p-4">

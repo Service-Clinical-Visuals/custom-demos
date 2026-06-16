@@ -233,14 +233,14 @@ export default function Products() {
             className="w-full !overflow-visible"
           >
             {currentProducts.map((product, idx) => (
-              <SwiperSlide key={product.id} className="h-auto">
+              <SwiperSlide key={product.id} className="!h-auto flex">
                 <div
-                  className="min-w-0 bg-white flex flex-col group overflow-hidden transition-all duration-300 hover:-translate-y-1 h-full p-3 sm:p-4 md:p-5 2xl:p-6 rounded-[25px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
+                  className="w-full h-full  min-w-0 bg-white flex flex-col group overflow-hidden transition-all duration-300 hover:-translate-y-1 h-full p-3 sm:p-4 md:p-5 2xl:p-6 rounded-[25px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
                   data-aos="fade-up"
                   data-aos-delay={idx * 100}
                 >
                   {/* Image area — inset box with soft pink/burgundy border */}
-                  <div className="w-full z-20 bg-white flex items-center justify-center overflow-hidden rounded-[18px]">
+                  <div className="w-full p-3 z-20 bg-white flex items-center justify-center overflow-hidden rounded-[18px]">
                     <img
                       src={product.image}
                       alt={product.title}
@@ -249,19 +249,19 @@ export default function Products() {
                   </div>
 
                   {/* Card footer — left column with Title & Badge, right column with Arrow button */}
-                  <div className="flex items-center justify-between gap-4 mt-4 pt-1 flex-1 ">
-                    <div className="flex flex-col gap-2 min-w-0">
+                  <div className="flex items-end justify-between gap-4 mt-4 pt-1 flex-1 ">
+                    <div className="flex flex-col gap-2 min-w-0 flex-1">
                       <Typography
-                        variant="h5"
+                        variant="h4"
                         color="dark"
                         weight="semibold"
-                        className="leading-snug line-clamp-2 text-[13px] sm:text-[14px] lg:text-[15px] 2xl:text-[16px]"
+                        className="leading-snug line-clamp-2 text-[13px] sm:text-[14px] lg:text-[15px] 2xl:text-[16px] "
                       >
                         {product.title}
                       </Typography>
                       <div className="flex">
                         <Typography
-                          variant="h7"
+                          variant="h6"
                           color="none"
                           className="text-[11px] 2xl:text-[12px] font-medium text-[#4E1E2D] border border-[#4E1E2D]/30 bg-white px-3 py-1 rounded-full select-none whitespace-nowrap"
                         >
@@ -273,12 +273,12 @@ export default function Products() {
                     {/* Arrow button — #4E1E2D bg, vector PNG icon */}
                     <button
                       aria-label={`View ${product.title}`}
-                      className="shrink-0 flex items-center justify-center hover:opacity-90 active:scale-95 transition-all duration-300 cursor-pointer w-9 h-9 sm:w-10 sm:h-10 2xl:w-11 2xl:h-11 bg-[#4E1E2D] rounded-full"
+                      className="shrink-0 flex items-center justify-center hover:opacity-90 active:scale-95 transition-all duration-300 cursor-pointer w-9 h-9 sm:w-10 sm:h-10 xl:w-15 xl:h-15 2xl:w-11 2xl:h-11 bg-[#4E1E2D] rounded-full"
                     >
                       <img
                         src="/medical/fisso-medical/Vector.png"
                         alt="View"
-                        className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+                        className="w-4 h-4 sm:w-5 sm:h-5  xl:h-7 xl:w-7  object-contain"
                       />
                     </button>
                   </div>

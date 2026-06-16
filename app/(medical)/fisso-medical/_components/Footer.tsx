@@ -350,9 +350,9 @@ export default function Footer() {
               color="none"
               className="text-white leading-relaxed text-center"
             >
-              © 2026 OHST Orthopedic Solutions. All
+              © 2026 OHST Orthopedic Solutions. 
               <br />
-              rights reserved worldwide.
+             All rights reserved worldwide.
             </Typography>
           </div>
 

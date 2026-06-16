@@ -65,7 +65,7 @@ export default function Navbar() {
                 >
                   <Typography
                     as="span"
-                    variant="body"
+                    variant="h5"
                     color="none"
                     className={`font-medium ${isActive ? "text-[#9C0B38] font-bold" : ""}`}
                   >

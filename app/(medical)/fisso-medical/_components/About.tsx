@@ -50,7 +50,8 @@ export default function About() {
               ].map((text, i) => (
                 <Typography
                   key={i}
-                  variant="body"
+                  variant="h5"
+                  weight="normal"
                   color="none"
                   className="text-[#555555] leading-[150%] tracking-[0px] text-[14px] sm:text-[15px] lg:text-[16px] 2xl:text-[18px]"
                 >

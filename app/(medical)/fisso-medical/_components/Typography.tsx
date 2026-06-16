@@ -48,7 +48,7 @@ export default function Typography({
     h5: "text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] leading-[1.4] font-medium",
     h6: "text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[16px] 2xl:text-[16px] leading-[1.5] font-normal",
     h7: "text-[11px] sm:text-[12px] md:text-[12px] lg:text-[13px] xl:text-[13px] 2xl:text-[13px] leading-[1.5] font-normal",
-    body: "text-[14px] sm:text-[15px] md:text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[16px] leading-[1.7]",
+    body: "text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] leading-[1.4] font-normal",
     lead: "text-[16px] sm:text-[17px] md:text-[19px] lg:text-[20px] xl:text-[20px] 2xl:text-[20px] leading-[1.6]",
     small: "text-[11px] sm:text-[12px] md:text-[13px] lg:text-[13px] xl:text-[13px] 2xl:text-[13px] leading-[1.5]",
   };
