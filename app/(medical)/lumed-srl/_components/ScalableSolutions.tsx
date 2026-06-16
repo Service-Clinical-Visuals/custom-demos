@@ -19,13 +19,14 @@ export default function ScalableSolutions() {
                     <div className="lg:col-span-6 space-y-8" data-aos="fade-right">
                         <div className="space-y-3">
                             <Typography
-                                variant="body"
+                                variant="h5"
                                 color="secondary"
-                                className="tracking-wider block font-space-grotesk font-bold text-sm"
+                                weight="bold"
+                                className="tracking-wider block font-space-grotesk font-bold"
                             >
                                 05 / Types
                             </Typography>
-                            <Typography variant="h2" color="dark" className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold">
+                            <Typography variant="h2" color="dark" className="leading-tight tracking-tight font-bold">
                                 Scalable Solutions for Holter Analysis
                             </Typography>
                         </div>
@@ -39,18 +40,19 @@ export default function ScalableSolutions() {
                                 </div>
                                 <div className="space-y-2">
                                     <div className="flex flex-col space-y-0.5">
-                                        <Typography variant="h4" color="dark" className="font-bold text-lg leading-tight block">
+                                        <Typography variant="h4" color="dark" className="font-bold leading-tight block">
                                             EUROHOLTER SW3/12
                                         </Typography>
                                         <Typography variant="small" color="muted" className="font-bold tracking-wider uppercase block">
                                             VER. PROFESSIONAL
                                         </Typography>
                                     </div>
-                                    <Typography variant="body" color="muted" className="leading-relaxed font-heading">
-                                        <strong className="text-gray-800">Rapidity and precision:</strong> Euroholter SW3 / 12 Professional is the fast and reliable companion for your Holter Analysis, fulfilling all your needs. 3 – or up to 12-channel recordings, lasting from 24 hours to 7 days.
-                                    </Typography>
+
                                 </div>
                             </div>
+                            <Typography variant="body" color="muted" className="leading-relaxed font-heading">
+                                <strong className="text-gray-800">Rapidity and precision:</strong> Euroholter SW3 / 12 Professional is the fast and reliable companion for your Holter Analysis, fulfilling all your needs. 3 – or up to 12-channel recordings, lasting from 24 hours to 7 days.
+                            </Typography>
 
                             <hr className="border-gray-300/90 " />
 
@@ -61,27 +63,29 @@ export default function ScalableSolutions() {
                                 </div>
                                 <div className="space-y-2">
                                     <div className="flex flex-col space-y-0.5">
-                                        <Typography variant="h4" color="dark" className="font-bold text-lg leading-tight block">
+                                        <Typography variant="h4" color="dark" className="font-bold leading-tight block">
                                             EUROHOLTER SW3/12
                                         </Typography>
                                         <Typography variant="small" color="muted" className=" font-bold tracking-wider uppercase block">
                                             VER. CLINICAL
                                         </Typography>
                                     </div>
-                                    <Typography variant="body" color="muted" className=" leading-relaxed font-heading">
-                                        <strong className="text-gray-800">Rapidity and precision:</strong> EUROHOLTER SW3/12 CLINICAL solves complex cases with advanced features including dual PC monitor support, Heart-Rate Turbulence (HRT), T-wave Alternans (TWA), and DC .
-                                    </Typography>
+
                                 </div>
+
                             </div>
+                            <Typography variant="body" color="muted" className="mt-5 leading-relaxed font-heading">
+                                <strong className="text-gray-800">Rapidity and precision:</strong> EUROHOLTER SW3/12 CLINICAL solves complex cases with advanced features including dual PC monitor support, Heart-Rate Turbulence (HRT), T-wave Alternans (TWA), and DC .
+                            </Typography>
                         </div>
                     </div>
 
                     {/* Right Side: Video Player (col-span 6) */}
                     <div className="lg:col-span-6" data-aos="fade-left" data-aos-delay="100">
-                        <div className="w-full aspect-video bg-gray-50 overflow-hidden shadow-lg border border-gray-100 relative min-h-[300px] md:min-h-[400px]">
+                        <div className="w-full aspect-video bg-gray-50 overflow-hidden shadow-lg relative min-h-[300px] md:min-h-[400px]">
                             <DynamicVideoPlayer
                                 type="short-1"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full aspect-video object-cover"
                             />
 
 
@@ -114,7 +118,7 @@ export default function ScalableSolutions() {
                                     <Check size={18} strokeWidth={3} />
                                 </div>
                                 <div className="space-y-2">
-                                    <Typography variant="h4" color="white" weight="bold" className="text-base leading-snug font-heading">
+                                    <Typography variant="h4" color="white" weight="bold" className="leading-snug font-heading">
                                         Complete and scalable
                                     </Typography>
                                     <Typography variant="body" color="white" className="text-white/85 leading-relaxed font-heading">
@@ -129,7 +133,7 @@ export default function ScalableSolutions() {
                                     <Check size={18} strokeWidth={3} />
                                 </div>
                                 <div className="space-y-2">
-                                    <Typography variant="h4" color="white" weight="bold" className="text-base leading-snug font-heading">
+                                    <Typography variant="h4" color="white" weight="bold" className="leading-snug font-heading">
                                         Advanced diagnostics
                                     </Typography>
                                     <Typography variant="body" color="white" className="text-white/85 leading-relaxed font-heading">

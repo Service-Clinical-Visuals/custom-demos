@@ -5,15 +5,15 @@ import Typography from "./Typography";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#f8fbfe] pt-16 border-t border-gray-100/50" id="footer">
-            <div className="custom-container mx-auto px-6 md:px-8 space-y-12 max-w-[1440px]">
+        <footer className="bg-[#f8fbfe] pt-16 " id="footer">
+            <div className="custom-container mx-auto px-6 md:px-8  space-y-12 max-w-[1440px]">
 
                 {/* 🗺️ TOP TIER: Logo on Left, Corporate Statement on Right */}
-                <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 pb-8 border-b border-gray-200/60" data-aos="fade-up">
+                <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 pb-8 border-b border-[#4277C2]/60 border-t-px " data-aos="fade-up">
                     {/* Logo Area */}
                     <Link href="/lumed-srl" className="flex items-center gap-3">
                         <img
-                            src="/medical/lumed-srl/logolumed 1.png"
+                            src="/medical/lumed-srl/logo.png"
                             alt="LUMED Logo"
                             className="h-11 xl:h-15 w-auto object-contain"
                         />
@@ -28,16 +28,15 @@ export default function Footer() {
                 </div>
 
                 {/* 🗺️ BOTTOM TIER: Four Column Layout */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-12 gap-x-8 pb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-12 xl:gap-12 xl:gap-x-12 pb-12">
 
                     {/* Column 1: Newsletter and Statement (col-span 4) */}
-                    <div className="lg:col-span-4 space-y-6 max-w-5xl" data-aos="fade-up" data-aos-delay="50">
-                        <Typography variant="body" color="muted" className="text-[15px] leading-relaxed font-heading">
-                            We don't intend to stop. We've initiated design, regulatory, and manufacturing transitions that will lead to new medical devices that increasingly meet the needs of our existing customers and will allow us to expand into new target markets.
-                        </Typography>
+                    <div className="lg:col-span-6 space-y-6 max-w-5xl" data-aos="fade-up" data-aos-delay="50">
+                        <Typography variant="body" color="muted" className=" max-w-xl leading-relaxed font-heading">
+                            For over 30 years, LUMED has been a leader in the production of cardiopulmonary diagnostic equipment. Our mission is to provide innovative, high-quality solutions for healthcare professionals.</Typography>
 
                         {/* Custom Subscription Newsletter Box */}
-                        <div className="flex items-stretch w-full max-w-md md:max-w-[320px] rounded border border-primary overflow-hidden bg-primary">
+                        <div className="flex items-stretch w-full max-w-md md:max-w-[320px] rounded  overflow-hidden bg-primary">
                             <input
                                 type="email"
                                 placeholder="Please enter your email"
@@ -62,7 +61,7 @@ export default function Footer() {
                             {["Home", "About Us", "Products", "Contact"].map((link) => (
                                 <li key={link}>
                                     <Link href="#" className="block">
-                                        <Typography variant="body" color="muted" className="font-heading  hover:text-primary transition-colors text-[14px]">
+                                        <Typography variant="body" color="muted" className="font-heading  hover:text-primary transition-colors">
                                             {link}
                                         </Typography>
                                     </Link>
@@ -80,7 +79,7 @@ export default function Footer() {
                             {["Privacy Policy", "Cookie Policy", "Support"].map((link) => (
                                 <li key={link}>
                                     <Link href="#" className="block">
-                                        <Typography variant="body" color="muted" className="font-heading  hover:text-primary transition-colors text-[14px]">
+                                        <Typography variant="body" color="muted" className="font-heading  hover:text-primary transition-colors">
                                             {link}
                                         </Typography>
                                     </Link>
@@ -90,7 +89,7 @@ export default function Footer() {
                     </div>
 
                     {/* Column 4: Join the Conversation (col-span 4) */}
-                    <div className="lg:col-span-4 space-y-5" data-aos="fade-up" data-aos-delay="200">
+                    <div className="lg:col-span-2 space-y-5" data-aos="fade-up" data-aos-delay="200">
                         <Typography variant="h5" color="dark" weight="medium" className="text-base  mb-5 block font-heading">
                             Let's Join the Conversation
                         </Typography>
@@ -99,7 +98,7 @@ export default function Footer() {
                             <div className="flex items-center gap-3">
                                 <Phone size={18} className="text-primary shrink-0" />
                                 <a href="tel:+390257606750" className="block">
-                                    <Typography variant="body" color="muted" className="font-heading hover:text-primary transition-colors text-[14px]">
+                                    <Typography variant="body" color="muted" className="font-heading hover:text-primary transition-colors">
                                         +39 02 57 606 750
                                     </Typography>
                                 </a>
@@ -108,7 +107,7 @@ export default function Footer() {
                             <div className="flex items-center gap-3">
                                 <Mail size={18} className="text-primary shrink-0" />
                                 <a href="mailto:info@lumed.com" className="block">
-                                    <Typography variant="body" color="muted" className="font-heading hover:text-primary transition-colors text-[14px]">
+                                    <Typography variant="body" color="muted" className="font-heading hover:text-primary transition-colors">
                                         info@lumed.com
                                     </Typography>
                                 </a>
@@ -136,7 +135,7 @@ export default function Footer() {
 
             {/* Copyright Bottom Bar */}
             <div className="bg-white border-t border-gray-100 py-6 flex items-center justify-center">
-                <Typography variant="small" color="muted" className="text-[12px] text-center font-normal font-heading block">
+                <Typography variant="small" color="muted" className="text-center font-normal font-heading block">
                     Copyright © 2026 LUMED. All rights reserved
                 </Typography>
             </div>

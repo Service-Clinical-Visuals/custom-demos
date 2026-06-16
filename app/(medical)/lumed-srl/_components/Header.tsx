@@ -62,7 +62,6 @@ const Header = () => {
                                     variant="h6"
                                     color="none"
                                     weight={isActive ? "semibold" : "semibold"}
-                                    className="text-[15px]"
                                 >
                                     {link.name}
                                 </Typography>

@@ -33,29 +33,29 @@ export default function Product360() {
                     </div>
 
                     {/* Right Column: Text Details (col-span 6) */}
-                    <div className="lg:col-span-6 space-y-6 md:space-y-8" data-aos="fade-left">
+                    <div className="lg:col-span-6 space-y-6 ml-2 xl:ml-5 md:space-y-8" data-aos="fade-left">
                         <div className="space-y-3">
                             <Typography
-                                variant="body"
+                                variant="h5"
                                 color="secondary"
-                                weight="normal"
-                                className="tracking-wider font-space-grotesk font-bold block text-sm md:text-base"
+                                weight="bold"
+                                className="tracking-wider font-space-grotesk font-bold block"
                             >
                                 02 / Product
                             </Typography>
-                            <Typography variant="h2" color="dark" className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold">
+                            <Typography variant="h2" color="dark" className="leading-tight tracking-tight font-bold">
                                 3/12-channel holter ECG systems
                             </Typography>
                         </div>
 
                         <div className="space-y-4">
-                            <Typography variant="body" color="muted" className="text-[15px] md:text-[16px] leading-relaxed font-normal">
+                            <Typography variant="body" color="muted" className="leading-relaxed font-normal">
                                 EUROHOLTER complete solution for recording and analyzing Holter exams. Lightweight and compact recorders combined with EUROHOLTER SW3/12 software for reporting and EUORHOLTER HOOKUP software for programming and downloading the recorders. It is one of the main devices for cardiopulmonary diagnostics.
                             </Typography>
-                            <Typography variant="body" color="muted" className="text-[15px] md:text-[16px] leading-relaxed font-normal">
+                            <Typography variant="body" color="muted" className="leading-relaxed font-normal">
                                 The EUROHOLTER SW3/12 software has all the recording analysis and validation functions, from Compact to atrial fibrillation and pacemaker analysis. A package of additional advanced algorithms is also available. A package of additional advanced algorithms is also available. The commands are given via mouse or keyboard, so that reporting is extremely rapid.
                             </Typography>
-                            <Typography variant="body" color="muted" className="text-[15px] md:text-[16px] leading-relaxed font-normal">
+                            <Typography variant="body" color="muted" className="leading-relaxed font-normal">
                                 A package of additional advanced algorithms is also available. The commands are given via mouse or keyboard, so that reporting is extremely rapid. Verification of the positioning of Holter electrodes. EUROHOLTER recorders use standard disposable ECG electrodes.
                             </Typography>
                         </div>
@@ -90,7 +90,7 @@ export default function Product360() {
                             </div>
 
                             {/* Text */}
-                            <Typography color="white" variant="h5" weight="normal" className="text-[13px] sm:text-[14px] md:text-[15px] font-geist font-medium leading-snug">
+                            <Typography color="white" variant="h5" weight="normal" className="font-geist font-medium leading-snug">
                                 {feat.text}
                             </Typography>
 

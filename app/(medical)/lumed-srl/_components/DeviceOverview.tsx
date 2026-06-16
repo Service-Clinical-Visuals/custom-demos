@@ -10,17 +10,17 @@ export default function DeviceOverview() {
             <div className="custom-container mx-auto px-6 md:px-8 max-w-[1440px]">
 
                 {/* 3-Column Responsive Grid Layout */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-stretch">
 
                     {/* Left Column: Device Description (col-span 4) */}
-                    <div className="lg:col-span-4 space-y-6 md:space-y-8" data-aos="fade-right">
+                    <div className="lg:col-span-4 flex flex-col justify-center space-y-6 md:space-y-8" data-aos="fade-right">
                         <div className="space-y-3">
                             {/* White Accent Label */}
                             <Typography
-                                variant="body"
+                                variant="h5"
                                 color="white"
-                                weight="normal"
-                                className="tracking-wider font-space-grotesk font-bold block opacity-80 text-sm md:text-base"
+                                weight="bold"
+                                className="tracking-wider font-space-grotesk font-bold block "
                             >
                                 03 / Device Overview
                             </Typography>
@@ -28,7 +28,7 @@ export default function DeviceOverview() {
                             <Typography
                                 variant="h2"
                                 color="white"
-                                className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold"
+                                className="leading-tight tracking-tight font-bold"
                             >
                                 Engineered for Accuracy
                             </Typography>
@@ -39,21 +39,21 @@ export default function DeviceOverview() {
                             <Typography
                                 variant="body"
                                 color="white"
-                                className="text-[14px] md:text-[15px] leading-relaxed font-normal opacity-90"
+                                className="leading-relaxed font-normal "
                             >
                                 Thus began LUMED's adventure in the world of medical devices. A boundless world in which LUMED has carved out a unique niche in Italy and around the world, becoming the go-to provider for consumables, equipment, and accessories used daily in electrocardiogram and pulmonary function tests.
                             </Typography>
                             <Typography
                                 variant="body"
                                 color="white"
-                                className="text-[14px] md:text-[15px] leading-relaxed font-normal opacity-90"
+                                className="leading-relaxed font-normal "
                             >
                                 Accurately detects and evaluates pacemaker activity for reliable cardiac monitoring. Provides detailed insights to support effective patient assessment.
                             </Typography>
                             <Typography
                                 variant="body"
                                 color="white"
-                                className="text-[14px] md:text-[15px] leading-relaxed font-normal opacity-90"
+                                className="leading-relaxed font-normal "
                             >
                                 Monitors ST segment changes to help identify potential cardiac abnormalities. Enables early detection and assessment of ischemic events.
                             </Typography>
@@ -71,13 +71,13 @@ export default function DeviceOverview() {
                     </div>
 
                     {/* Middle Column: Circular Image (col-span 4) */}
-                    <div className="lg:col-span-4 flex justify-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div className="lg:col-span-4 flex justify-center items-stretch lg:h-full" data-aos="zoom-in" data-aos-delay="100">
                         {/* Perfect Circle Frame with Lumed accuracy device image */}
-                        <div className="w-full max-w-xs sm:max-w-sm aspect-square rounded-full z-30 overflow-hidden relative border-[6px] border-white/10">
+                        <div className="w-full max-w-sm sm:max-w-sm xl:max-w-md aspect-square lg:aspect-auto lg:h-full rounded-2xl z-30 overflow-hidden relative ">
                             <img
                                 src="/medical/lumed-srl/accuracy.png"
                                 alt="LUMED Cardiopulmonary Diagnostics Accuracy"
-                                className="w-full h-full object-cover shadow-2xl "
+                                className="w-full h-full object-fill"
                             />
                         </div>
                     </div>
@@ -88,7 +88,7 @@ export default function DeviceOverview() {
                         <Typography
                             variant="h3"
                             color="white"
-                            className="text-2xl font-bold tracking-wide  pb-4 mb-2 block"
+                            className="font-bold tracking-wide pb-4 mb-2 block"
                         >
                             Advantages
                         </Typography>
@@ -99,14 +99,14 @@ export default function DeviceOverview() {
                                 <Typography
                                     variant="h4"
                                     color="primary"
-                                    className="font-bold text-base md:text-[17px] mb-2 leading-snug block"
+                                    className="font-bold mb-2 leading-snug block"
                                 >
                                     Complete and scalable
                                 </Typography>
                                 <Typography
                                     variant="body"
                                     color="muted"
-                                    className="text-[13px] md:text-[14px] leading-relaxed"
+                                    className="leading-relaxed"
                                 >
                                     All the tools included, also pacemaker and Atrial Fibrillation analysis. Records 3 or 12 channels. USB and SD card. GDT and PDF. Can use two monitors.
                                 </Typography>
@@ -117,14 +117,14 @@ export default function DeviceOverview() {
                                 <Typography
                                     variant="h4"
                                     color="primary"
-                                    className="font-bold text-base md:text-[17px] mb-2 leading-snug block"
+                                    className="font-bold mb-2 leading-snug block"
                                 >
                                     Advanced diagnostics
                                 </Typography>
                                 <Typography
                                     variant="body"
                                     color="muted"
-                                    className="text-[13px] md:text-[14px] leading-relaxed"
+                                    className="leading-relaxed"
                                 >
                                     Advanced algorithms: QT/QTc and Dispersion, HRV, HRT, TWA, SAECG, Vectorcardiography, Sleep Apnea, DCA Deceleration Capacity.
                                 </Typography>
@@ -135,14 +135,14 @@ export default function DeviceOverview() {
                                 <Typography
                                     variant="h4"
                                     color="primary"
-                                    className="font-bold text-base md:text-[17px] mb-2 leading-snug block"
+                                    className="font-bold mb-2 leading-snug block"
                                 >
                                     Compactness and portability
                                 </Typography>
                                 <Typography
                                     variant="body"
                                     color="muted"
-                                    className="text-[13px] md:text-[14px] leading-relaxed"
+                                    className="leading-relaxed"
                                 >
                                     As wide as a credit card and as light as Bluetooth earphones. 5 or 10-wire patient cables, light and robust. LCD display, keys and LED.
                                 </Typography>
