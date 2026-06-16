@@ -23,7 +23,7 @@ export default function Solutions() {
   ];
 
   return (
-    <section className="py-12 md:py-16 lg:py-24 relative overflow-hidden bg-[url('/o-two/home/bg.jpg')] bg-cover bg-center" id="products">
+    <section className="o-two-medical-root py-12 md:py-16 lg:py-24 relative overflow-hidden bg-[url('/o-two/home/bg.jpg')] bg-cover bg-center" id="products">
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#97deff] opacity-80 backdrop-blur-[2px]" />
 

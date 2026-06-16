@@ -54,8 +54,8 @@ export default function TimescoNews() {
   }, []);
 
   return (
-    <section className="w-full bg-[#f4f4f4] py-24">
-      <div className="mx-auto max-w-[1600px] px-8">
+    <section className="w-full bg-[#f4f4f4] py-24 timesco-root">
+      <div className="custom-container px-8">
         
         {/* HEADER */}
         <div

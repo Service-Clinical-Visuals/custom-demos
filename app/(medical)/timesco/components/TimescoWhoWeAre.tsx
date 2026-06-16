@@ -26,8 +26,8 @@ const promises = [
 export default function TimescoWhoWeAre() {
 
   return (
-    <section className="w-full bg-[#ffff] py-20">
-      <div className="mx-auto max-w-[1600px] px-8">
+    <section className="w-full bg-[#ffff] py-20 timesco-root">
+      <div className="custom-container px-8">
         
         {/* TOP SECTION */}
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_1.05fr] items-stretch">

@@ -11,8 +11,8 @@ export default function AdvancedSolutions() {
   ];
 
   return (
-    <section className="bg-white py-20 relative">
-      <div className="container mx-auto px-4">
+    <section className="medas-root bg-white py-20 relative">
+      <div className="custom-container px-4">
         <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
           <div className="w-full lg:w-1/2" data-aos="fade-right">
             <h2 className="text-[24px] font-semibold text-[#14387F] mb-4">Advanced 2-Way Catheter Solutions</h2>
@@ -32,8 +32,8 @@ export default function AdvancedSolutions() {
               ))}
             </ul>
           </div>
-          <div className="w-full lg:w-1/2 aspect-[4/2.6] rounded-[24px] overflow-hidden bg-gray-100 relative" data-aos="fade-left" data-aos-delay="200">
-            <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
+          <div className="w-full lg:w-1/2 aspect-video rounded-[24px] overflow-hidden bg-gray-100 relative" data-aos="fade-left" data-aos-delay="200">
+            <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover aspect-video" />
           </div>
         </div>
       </div>

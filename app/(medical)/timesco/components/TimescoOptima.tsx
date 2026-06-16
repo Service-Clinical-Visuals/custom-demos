@@ -11,8 +11,8 @@ export default function TimescoOptima() {
 
 
   return (
-    <section className="w-full bg-[#145826] py-20">
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-14 px-8 lg:grid-cols-[1.15fr_0.85fr]">
+    <section className="w-full bg-[#145826] py-20 timesco-root">
+      <div className="custom-container grid grid-cols-1 items-center gap-14 px-8 lg:grid-cols-[1.15fr_0.85fr]">
         
         {/* LEFT VIDEO */}
         <div

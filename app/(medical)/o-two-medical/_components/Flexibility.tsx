@@ -20,7 +20,7 @@ const accessories = [
 
 export default function Flexibility() {
   return (
-    <section className="pb-12 md:py-16 lg:py-24 bg-white" id="products-detail">
+    <section className="o-two-medical-root pb-12 md:py-16 lg:py-24 bg-white" id="products-detail">
       <style>{`
         .accessories-swiper .swiper-pagination {
           position: static;
