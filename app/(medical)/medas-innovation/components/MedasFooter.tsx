@@ -6,7 +6,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 
 export default function MedasFooter() {
   return (
-    <footer className="w-full">
+    <footer className="w-full medas-root">
       
       <div className="grid md:grid-cols-2">
         

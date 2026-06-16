@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function MedasNews() {
   return (
-    <section className="w-full">
+    <section className="w-full medas-root">
       
       <div className="grid md:grid-cols-2 md:min-h-[480px]">
 

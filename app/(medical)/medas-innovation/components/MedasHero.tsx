@@ -19,7 +19,7 @@ export default function MedasHero() {
       {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-700/40"></div> */}
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center justify-center lg:justify-start px-6 sm:px-10 mt-16 sm:mt-20 lg:mt-30 lg:ml-40 2xl:mt-55">
+      <div className="medas-root relative z-10 h-full flex items-center justify-center lg:justify-start px-6 sm:px-10 mt-16 sm:mt-20 lg:mt-30 lg:ml-40 2xl:mt-55">
         <div data-aos="fade-up" className="max-w-2xl text-center lg:text-left">
           <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-semibold mb-6">
             People Thinking Quality

@@ -18,7 +18,7 @@ export default function MedasNavbar() {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-white ${
+      className={`medas-root fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-white ${
         visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >

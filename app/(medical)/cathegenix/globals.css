@@ -172,7 +172,7 @@ body {
  
 /* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
 @media (min-width: 3840px) {
-  #cathegenix-root {
+  .cathegenix-root {
     zoom: 2.0;
     transform-origin: top center;
   }
