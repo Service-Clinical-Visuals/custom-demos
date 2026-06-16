@@ -14,7 +14,7 @@ const gallery = [
 export default function ProductInnovation() {
 
   return (<>
-    <section className="w-full py-12 md:py-16 lg:py-20">
+    <section className="w-full twok py-12 md:py-16 lg:py-20">
       <div className="container mx-auto">
 
         {/* Heading */}

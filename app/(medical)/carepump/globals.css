@@ -53,7 +53,7 @@ button {
 
 /* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions (2560 / 1920 = 1.333333) */
 @media (min-width: 2550px) {
-  #care-root {
+  .twok {
     zoom: 1.5;
     transform-origin: top center;
   }
@@ -61,7 +61,7 @@ button {
  
 /* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
 @media (min-width: 3840px) {
-  #care-root {
+  .twok {
     zoom: 2.0;
     transform-origin: top center;
   }

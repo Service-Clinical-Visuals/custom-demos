@@ -15,7 +15,7 @@ const heroImages = [
 
 export default function CarePumpMovePro() {
   return (
-    <section className="relative overflow-hidden w-full py-12 md:py-16 lg:py-20">
+    <section className="relative twok overflow-hidden w-full py-12 md:py-16 lg:py-20">
       <div className="pointer-events-none absolute inset-0 opacity-100">
         <Image
           src="/medical/carepump/images/carepumpmove-bg.png"

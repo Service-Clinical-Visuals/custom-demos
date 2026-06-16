@@ -28,7 +28,7 @@ export default function CarePumpNavbar() {
   }, []);
 
   return (
-    <header className={`w-full flex justify-center z-50 transition-all duration-300 ${isScrolled ? "sticky top-0 pt-0 px-0" : "relative pt-4 px-[2.5%]"}`}>
+    <header className={`w-full twok flex justify-center z-50 transition-all duration-300 ${isScrolled ? "sticky top-0 pt-0 px-0" : "relative pt-4 px-[2.5%]"}`}>
       <div className={`bg-[#004f70] shadow-lg transition-all duration-300 w-full flex justify-center ${isScrolled ? "rounded-none" : "rounded-2xl"}`}>
         <div className="w-full container mx-auto py-6 pb-4">
           <div className="flex justify-between items-center">
