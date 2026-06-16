@@ -27,11 +27,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} bg-white text-[#333333]`}>
         <VideoProvider>
-          <div id="strena-medical-root">
+          {/* <div id="strena-medical-root"> */}
           <Navbar />
           <SmoothAos />
           {children}
-          </div>
+          {/* </div> */}
         </VideoProvider>
       </body>
     </html>

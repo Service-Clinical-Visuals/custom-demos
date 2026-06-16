@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function About() {
   return (
-    <section className="pt-16 lg:pt-20 pb-10 lg:pb-15 bg-white">
+    <section className="pt-16 lg:pt-20 pb-10 lg:pb-15 bg-white strena-medical-root">
       <div className="custom-container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           {/* Left Content */}
