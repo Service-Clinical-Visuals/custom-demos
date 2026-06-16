@@ -13,8 +13,8 @@ const features = [
 
 export default function InvidiaAbout() {
   return (
-    <section className="relative overflow-hidden bg-[#F3F3F3] py-[68px]">
-      <div className="mx-auto grid max-w-380 grid-cols-1 items-center gap-[64px] px-8 lg:grid-cols-2">
+    <section className="relative overflow-hidden bg-[#F3F3F3] py-[68px] invidia-root">
+      <div className="mx-auto grid custom-container  grid-cols-1 items-center gap-[64px] px-8 lg:grid-cols-2">
         {/* =========================
             LEFT CONTENT
         ========================== */}

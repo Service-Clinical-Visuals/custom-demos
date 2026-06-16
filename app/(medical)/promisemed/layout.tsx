@@ -27,9 +27,11 @@ export default function RootLayout({
       <body className={outfit.className}>
         <VideoProvider>
           {" "}
+            {/* <div id="promisemed-root"> */}
           <Navbar />
           <SmoothAOS />
           {children}
+          {/* </div> */}
         </VideoProvider>
       </body>
     </html>

@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function ProductFeatures() {
   return (
-    <section className="pb-16 lg:pb-20 bg-white">
+    <section className="pb-16 lg:pb-20 bg-white strena-medical-root">
       <div className="custom-container mx-auto px-4 lg:px-8">
         <div 
           data-aos="fade-up"

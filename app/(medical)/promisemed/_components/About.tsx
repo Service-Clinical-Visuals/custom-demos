@@ -3,7 +3,7 @@
 
 export default function About() {
   return (
-    <section className="w-full py-16 lg:py-20">
+    <section className="w-full py-16 lg:py-20 promisemed-root">
       <div className="custom-container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* LEFT SIDE (Images) */}
         <div

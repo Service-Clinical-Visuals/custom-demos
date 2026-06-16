@@ -5,7 +5,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Testing() {
   return (
-    <section className="w-full bg-[#5888B5]/15 py-16">
+    <section className="w-full bg-[#5888B5]/15 py-16 vectracor-root">
       <div className="container mx-auto px-6 space-y-10">
         {/* MAIN GRID */}
         <div className="grid lg:grid-cols-12 gap-10 items-stretch">

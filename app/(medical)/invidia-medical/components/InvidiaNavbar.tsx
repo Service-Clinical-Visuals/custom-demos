@@ -36,11 +36,11 @@ export default function InvidiaNavbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
+      className={` invidia-root fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         showNav ? "translate-y-0 bg-white shadow-md" : "-translate-y-full"
       }`}
     >
-      <div className="max-w-380 mx-auto flex items-center justify-between px-6 py-4">
+      <div className="custom-container  mx-auto flex items-center justify-between px-6 py-4">
         <div className="flex items-center gap-16 justify-between  w-full pr-20">
           {/* LOGO */}
           <Link href="/" className="relative flex items-center">

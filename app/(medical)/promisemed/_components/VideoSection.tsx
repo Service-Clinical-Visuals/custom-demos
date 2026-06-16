@@ -4,7 +4,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function VideoSection() {
   return (
-    <section className="w-full bg-gray-100 pb-16">
+    <section className="w-full bg-gray-100 pb-16 promisemed-root">
       {/* Top Gradient Bar */}
       <div className="w-full h-50 bg-linear-to-r from-[#009B43] to-[#2353A3]"></div>
 

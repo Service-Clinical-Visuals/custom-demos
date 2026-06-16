@@ -8,7 +8,7 @@ const products = [
 
 export default function Products() {
   return (
-    <section className="w-full py-20 bg-[#ffffff]">
+    <section className="w-full py-20 bg-[#ffffff] vectracor-root">
       <div className="container mx-auto px-6">
 
         {/* Header */}

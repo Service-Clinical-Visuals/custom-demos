@@ -11,7 +11,7 @@ export default function OurValues() {
   ];
 
   return (
-    <section className="py-16 md:py-20 bg-white overflow-hidden">
+    <section className="py-16 md:py-20 bg-white overflow-hidden x-nov-root">
       <div className="custom-container mx-auto px-6 lg:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           

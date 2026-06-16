@@ -27,7 +27,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className={`w-full bg-white border-b border-gray-200 fixed top-0 z-50 transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
+    <header className={`vectracor-root w-full bg-white border-b border-gray-200 fixed top-0 z-50 transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
       <div className="max-w-[1600px] mx-auto flex items-center justify-between px-6 py-1">
 
         {/* Logo */}

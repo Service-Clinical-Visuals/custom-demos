@@ -21,7 +21,7 @@ export default function ProductRange() {
   ];
 
   return (
-    <section className="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section className="py-16 md:py-20 bg-white relative overflow-hidden x-nov-root">
       <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
         <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-3xl" data-aos="fade-right">

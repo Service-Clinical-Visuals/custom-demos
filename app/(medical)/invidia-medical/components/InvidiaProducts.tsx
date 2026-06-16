@@ -25,8 +25,8 @@ const products = [
 
 export default function InvidiaProducts() {
   return (
-    <section className="overflow-hidden bg-[#F4F4F4] py-[72px]">
-      <div className="mx-auto max-w-380 px-8">
+    <section className="overflow-hidden bg-[#F4F4F4] py-[72px]  invidia-root">
+      <div className="mx-auto custom-container  px-8">
         {/* ======================================
             TOP HEADER
         ======================================= */}

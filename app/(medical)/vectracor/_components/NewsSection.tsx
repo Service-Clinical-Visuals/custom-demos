@@ -1,7 +1,7 @@
 // components/Subscribe.tsx
 export default function Subscribe() {
   return (
-    <section className=" relative w-full h-[300px] flex items-center justify-center overflow-hidden">
+    <section className=" relative w-full h-[300px] flex items-center justify-center overflow-hidden vectracor-root">
 
       {/* Background Image */}
       <img

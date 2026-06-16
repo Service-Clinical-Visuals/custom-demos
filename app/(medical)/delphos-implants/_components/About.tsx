@@ -7,7 +7,7 @@ export default function AboutSection() {
   const [active, setActive] = useState("vision");
 
   return (
-    <section className="w-full flex justify-center pt-16 lg:pt-20  bg-[#FFFFFF]">
+    <section className="w-full flex justify-center pt-16 lg:pt-20  bg-[#FFFFFF] delphos-root">
       <div className="w-[95%] container mx-auto space-y-10">
         {/* TOP SECTION */}
         <div className="grid lg:grid-cols-2 gap-10 items-center">

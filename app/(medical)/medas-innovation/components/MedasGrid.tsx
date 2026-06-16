@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function MedasGrid() {
   return (
-    <section className="w-full">
+    <section className="w-full medas-root">
       
       {/* GRID */}
       <div className="grid md:grid-cols-2">

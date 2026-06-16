@@ -22,7 +22,7 @@ export default function About() {
             style={{ borderRadius: "30px", aspectRatio: "699/474" }}
             data-aos="fade-right"
           >
-            <DynamicVideoPlayer type="short-2" className="object-cover  aspect-[4/3]" />
+            <DynamicVideoPlayer type="short-1" className="object-cover  aspect-[4/3]" />
           </div>
 
           {/* Text content */}

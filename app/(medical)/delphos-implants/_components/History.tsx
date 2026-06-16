@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function History() {
   return (
-    <section className="w-full flex justify-center pt-6 ">
+    <section className="w-full flex justify-center pt-6 delphos-root">
       <div className="container mx-auto space-y-10">
         <div className="bg-[#F5F5F5] border border-[#F5F5F5] rounded-2xl">
           {/* TOP SECTION */}

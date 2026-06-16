@@ -36,10 +36,8 @@ export default function RootLayout({
       <body className={outfit.className}>
         
           <Navbar />
-          <div id="fisso-root">
           <SmoothAOS />
           <VideoProvider>{children}</VideoProvider>
-        </div>
       </body>
     </html>
   );

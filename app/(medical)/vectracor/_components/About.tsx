@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 // components/About.tsx
 export default function About() {
   return (
-    <section className="w-full py-12 md:py-20 bg-gray-50">
+    <section className="w-full py-12 md:py-20 bg-gray-50 vectracor-root">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 px-4 sm:px-6">
 
         {/* LEFT CONTENT */}

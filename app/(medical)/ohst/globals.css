@@ -33,39 +33,66 @@
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
+#ohst-root {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+@media (min-width: 2560px) {
+  #ohst-root {
+    zoom: 1.6;
+    transform-origin: top center;
+  }
+}
+
+/* 3840px (4K UHD) */
+@media (min-width: 3840px) {
+  #ohst-root {
+    zoom: 2.4;
+    transform-origin: top center;
+  }
+}
+
 @layer components {
   .container {
-    @apply px-4 lg:px-6 xl:px-8 2xl:px-12;
+    @apply px-4 lg:px-6 xl:px-6 2xl:px-6;
     width: 100%;
   }
 
+
+
   @media (min-width: 1280px) {
     .container {
-      max-width: 1200px !important;
+      max-width: 1400px !important;
     }
   }
 
   @media (min-width: 1440px) {
     .container {
-      max-width: 1360px !important;
+      max-width: 1600px !important;
     }
   }
 
   @media (min-width: 1600px) {
     .container {
-      max-width: 1500px !important;
+      max-width: 1700px !important;
     }
   }
 
   @media (min-width: 2000px) {
     .container {
-      max-width: 1920px !important;
+      max-width: 1500px !important;
     }
   }
 
   @media (min-width: 2560px) {
     .container {
-      max-width: 2200px !important;
+      max-width: 1500px !important;
+    }
+  }
+
+  @media (min-width: 3840px) {
+    .container {
+      max-width: 1500px !important;
     }
   }
 }
@@ -81,109 +108,8 @@ section {
   overflow: hidden;
 }
 
-@media (min-width: 1024px) {
-  p {
-    font-size: 17px;
-  }
-}
 
-@media (min-width: 1600px) {
-  .typography-hero {
-    font-size: 68px !important;
-  }
 
-  .typography-h1 {
-    font-size: 52px !important;
-  }
-
-  .typography-h2 {
-    font-size: 42px !important;
-  }
-
-  .typography-h3 {
-    font-size: 26px !important;
-  }
-
-  .typography-h4 {
-    font-size: 21px !important;
-  }
-
-  .typography-h5 {
-    font-size: 17px !important;
-  }
-
-  .typography-body {
-    font-size: 18px !important;
-  }
-
-  .typography-body-sm {
-    font-size: 15px !important;
-  }
-
-  .typography-caption {
-    font-size: 14px !important;
-  }
-}
-
-@media (min-width: 2000px) {
-  .typography-hero {
-    font-size: 76px !important;
-  }
-
-  .typography-h1 {
-    font-size: 58px !important;
-  }
-
-  .typography-h2 {
-    font-size: 48px !important;
-  }
-
-  .typography-h3 {
-    font-size: 28px !important;
-  }
-
-  .typography-h4 {
-    font-size: 23px !important;
-  }
-
-  .typography-h5 {
-    font-size: 19px !important;
-  }
-
-  .typography-body {
-    font-size: 20px !important;
-  }
-
-  .typography-body-sm {
-    font-size: 17px !important;
-  }
-
-  .typography-caption {
-    font-size: 15px !important;
-  }
-}
-
-@keyframes arrow-exit-entry {
-  0% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  35% {
-    transform: translateX(26px);
-    opacity: 0;
-  }
-
-  36% {
-    transform: translateX(-26px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 
 .group:hover .animate-arrow-slide {
   animation: arrow-exit-entry 0.5s ease-in-out forwards;

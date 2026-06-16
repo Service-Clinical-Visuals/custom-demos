@@ -32,7 +32,7 @@ const services = [
 export default function CatheGuarantees() {
 
   return (
-    <section className="relative overflow-hidden bg-[#05429B] py-24">
+    <section className="relative overflow-hidden bg-[#05429B] py-24 cathegenix-root">
       {/* ================================================= */}
       {/* BACKGROUND DEPTH */}
       {/* ================================================= */}

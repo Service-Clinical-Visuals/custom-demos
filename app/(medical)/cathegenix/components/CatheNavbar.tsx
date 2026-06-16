@@ -23,7 +23,7 @@ export default function CatheNavbar() {
       {/* FLOATING NAVBAR */}
       {/* ================================================= */}
 
-      <header className="fixed left-0 top-0 z-50 w-full">
+      <header className="fixed left-0 top-0 z-50 w-full cathegenix-root">
         <div className="border-b border-black/5 bg-white/92 backdrop-blur-md">
           <div className="flex h-[86px] custom-container items-center justify-between px-8 lg:px-14">
 

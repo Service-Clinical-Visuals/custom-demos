@@ -9,7 +9,7 @@ export default function CatheFeatures() {
 
 
   return (
-    <section className="relative overflow-hidden bg-[#0047A6] py-24">
+    <section className="relative overflow-hidden bg-[#0047A6] py-24 cathegenix-root">
 
 
       <div className="relative z-10 custom-container px-8 lg:px-14">
