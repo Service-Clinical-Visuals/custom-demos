@@ -4,7 +4,7 @@ import PrimaryButton from "./Button";
 
 export default function TherapyGuideSection() {
   return (
-    <section className="">
+    <section className="twok">
       {/* Hero Image */}
       <div className="relative">
         <img

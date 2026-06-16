@@ -6,7 +6,7 @@ import PrimaryButton from "./Button";
 export default function MoveProFeatures() {
   return (
     <section
-      className="relative overflow-hidden py-20"
+      className="relative overflow-hidden py-20 twok"
       style={{
         backgroundImage:
           "url('/carepump/images/moveprobg.png')",
