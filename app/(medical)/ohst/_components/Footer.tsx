@@ -8,7 +8,7 @@ import { Typography } from "./ui/Typography";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#099F94] pt-16 pb-8 font-outfit text-white">
+    <footer className="bg-[#099F94] pt-16 pb-4 font-outfit text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-10">
 
         {/* Top 4-Column Layout */}
@@ -16,7 +16,7 @@ export default function Footer() {
 
           {/* Column 1: OHST Logo & Description */}
           <div className="flex flex-col items-start">
-            <Link href="#" className="flex items-center mb-6">
+            <Link href="#" className="flex items-center mb-3">
               <Image
                 src="/medical/ohst/footer-logo.png"
                 alt="OHST Medical Technology"
@@ -59,7 +59,7 @@ export default function Footer() {
               Quick Links
             </Typography>
             <Typography variant="h6" className=" xl:mr-10">
-              <ul className="flex flex-col gap-4">
+              <ul className="flex flex-col gap-2">
                 {["Home", "Services", "Products", "Patients", "User", "About OHST", "Career", "Contact"].map((item) => (
                   <li key={item}>
                     <Link href="#" className="text-white hover:text-white transition-colors text-[18px] leading-relaxed">
@@ -111,7 +111,7 @@ export default function Footer() {
 
         </div>
 
-        <hr className="border-white/60 mt-16 mb-8" />
+        <hr className="border-white/60 mt-6 mb-3" />
 
         {/* Copyright */}
         <div className="text-center text-white text-[16px]">
