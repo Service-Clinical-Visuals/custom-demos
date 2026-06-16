@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full bg-gray-100 shadow-sm transition-transform duration-300 z-50 ${
+      className={`promisemed-root fixed top-0 left-0 w-full bg-gray-100 shadow-sm transition-transform duration-300 z-50 ${
         show ? "translate-y-0" : "-translate-y-full"
       }`}>
       <div className="custom-container mx-auto flex items-center justify-between px-6 py-4">

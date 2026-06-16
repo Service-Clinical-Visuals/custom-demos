@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <section className="relative py-12 px-6  text-[#FFFFFF] overflow-hidden h-100">
+    <section className="relative py-12 px-6  text-[#FFFFFF] overflow-hidden h-100 promisemed-root">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"

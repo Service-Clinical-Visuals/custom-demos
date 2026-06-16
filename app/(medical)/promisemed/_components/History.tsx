@@ -44,7 +44,7 @@ const timeline = [
 
 export default function History() {
   return (
-    <section className="w-full bg-linear-to-t from-[#009B43] to-[#2353A3] text-white relative overflow-hidden">
+    <section className="promisemed-root w-full bg-linear-to-t from-[#009B43] to-[#2353A3] text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-20 bg-cover bg-[url('/promisemed/grid.jpg')]"></div>
 
       <div className="custom-container mx-auto px-6 relative z-10">
