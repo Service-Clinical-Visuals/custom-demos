@@ -16,7 +16,7 @@ export default function Highlight() {
           className="object-cover opacity-[0.15]"
         />
       </div>
-      <div className="container grid grid-cols-1 px-6 lg:grid-cols-12 gap-10 items-center">
+      <div className="custom-container grid grid-cols-1 px-6 lg:grid-cols-12 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div
           data-aos="fade-left"

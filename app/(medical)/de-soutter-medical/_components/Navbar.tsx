@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-[#6C7EB7] shadow-sm z-50  desoutter-root">
-      <div className="container mx-auto flex items-center justify-between px-6 h-20">
+      <div className="custom-container mx-auto flex items-center justify-between px-6 h-20">
         {/* Logo */}
         <Image
           src="/de-soutter-medical/logo.png"

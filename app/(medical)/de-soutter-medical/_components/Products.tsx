@@ -41,7 +41,7 @@ export default function Products() {
 
   return (
     <section className="w-full bg-[#F5F6FA] py-16 flex justify-center  desoutter-root">
-      <div data-aos="fade-up" className="container mx-auto px-6  text-center">
+      <div data-aos="fade-up" className="custom-container mx-auto px-6  text-center">
         {/* TITLE */}
         <h2 className="text-[#333333] text-[22px] font-medium">Our Products</h2>
         <p className="text-[#333333] text-base  mt-4 max-w-5xl mx-auto">

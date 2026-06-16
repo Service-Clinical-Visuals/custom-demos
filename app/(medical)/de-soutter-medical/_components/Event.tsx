@@ -87,7 +87,7 @@ export default function Event() {
     },
   ];
   return (
-    <section className="bg-[#FFFFFF] py-16 container mx-auto desoutter-root">
+    <section className="bg-[#FFFFFF] py-16 custom-container mx-auto desoutter-root">
       {/* Header Section */}
       <div className="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
         <div data-aos="fade-up" className="max-w-5xl">

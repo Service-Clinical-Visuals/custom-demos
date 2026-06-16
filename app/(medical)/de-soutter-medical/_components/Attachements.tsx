@@ -16,7 +16,7 @@ export default function Attachments() {
           className="object-cover opacity-[0.15]"
         />
       </div>
-      <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch px-6">
+      <div className="relative custom-container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch px-6">
         {/* LEFT IMAGE */}
         <div data-aos="fade-left" className="lg:col-span-7 space-y-6">
           <div className="w-full aspect-video rounded-2xl overflow-hidden bg-white/40 flex items-center justify-center">

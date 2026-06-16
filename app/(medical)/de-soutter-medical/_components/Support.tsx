@@ -16,7 +16,7 @@ export default function Support() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+      <div className="relative z-10 custom-container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
         {/* LEFT CONTENT */}
         <div className="lg:col-span-2 grid lg:grid-cols-12  gap-8">
         <div data-aos="fade-up" className="text-[#FFFFFF] space-y-5  lg:col-span-5" >

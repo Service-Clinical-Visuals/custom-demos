@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="w-full bg-[#F5F6FA] py-16 flex justify-center desoutter-root">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div className="custom-container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* LEFT - IMAGE */}
         <div
           data-aos="fade-left"

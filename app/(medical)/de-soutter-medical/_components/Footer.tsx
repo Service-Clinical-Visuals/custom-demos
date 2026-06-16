@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#222222] text-white pt-16 pb-8 px-6 md:px-12 lg:px-24 font-sans text-[13px] desoutter-root">
-      <div className="container mx-auto">
+      <div className="custom-container mx-auto">
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-12">
           {/* Logo and Description */}
