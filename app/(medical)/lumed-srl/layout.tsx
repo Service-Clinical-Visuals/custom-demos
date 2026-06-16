@@ -33,7 +33,7 @@ export default function Layout({
   return (
     <html lang="en" className={`${geist.variable} ${spaceGrotesk.variable} font-sans`} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased text-[#333333]">
-        <VideoProvider website="lumed-srl">
+        <VideoProvider>
           <AOSInit />
           <div className="overflow-x-hidden relative w-full">
             {children}
