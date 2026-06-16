@@ -7,7 +7,7 @@ export default function CatheAbout() {
 
 
   return (
-    <section className="overflow-hidden bg-white py-24">
+    <section className="overflow-hidden bg-white py-24 cathegenix-root">
       <div className="custom-container px-8 lg:px-14">
         {/* ================================================= */}
         {/* MAIN GRID */}

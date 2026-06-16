@@ -35,7 +35,7 @@ export default function CatheEnterprise() {
   };
 
   return (
-    <section className="overflow-hidden bg-[#F7F7F5]">
+    <section className="overflow-hidden bg-[#F7F7F5] cathegenix-root">
       {/* ================================================= */}
       {/* HERO BANNER */}
       {/* ================================================= */}

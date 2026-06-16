@@ -35,7 +35,7 @@ export default function CatheHero() {
           {/* HERO CONTENT */}
           {/* ================================================= */}
 
-          <div className="relative z-10 flex h-full max-w-[1600px] mx-auto items-end">
+          <div className="relative z-10 flex h-full max-w-[1600px] mx-auto items-end cathegenix-root">
             <div className="w-full px-6 sm:px-8 lg:px-14 pb-8 sm:pb-16 md:pb-20 lg:pb-24">
               <div className="max-w-[620px]">
                 {/* HEADING */}

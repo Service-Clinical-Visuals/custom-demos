@@ -18,7 +18,7 @@ const features = [
 export default function CatheChoose() {
 
   return (
-    <section className="overflow-hidden bg-[#F7F7F5]">
+    <section className="overflow-hidden bg-[#F7F7F5] cathegenix-root">
       {/* ================================================= */}
       {/* TOP FEATURE SECTION */}
       {/* ================================================= */}
