@@ -2,7 +2,7 @@ import { BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 // components/Footer.tsx
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-[#f5f7fa] pt-16 overflow-hidden">
+    <footer className="relative w-full bg-[#f5f7fa] pt-16 overflow-hidden vectracor-root">
 
       {/* Pattern */}
       <div className="absolute inset-0 opacity-10 bg-[url('/hex-pattern-light.png')] bg-repeat"></div>

@@ -25,10 +25,10 @@ const events = [
 
 export default function InvidiaNews() {
   return (
-    <section className="relative overflow-hidden bg-[#5C6472] py-[62px]">
+    <section className="relative  overflow-hidden bg-[#5C6472] py-[62px]  invidia-root">
 
 
-      <div className="relative z-10 mx-auto max-w-380 px-8">
+      <div className="relative z-10 mx-auto custom-container  px-8">
         {/* ======================================
             TOP SECTION
         ======================================= */}

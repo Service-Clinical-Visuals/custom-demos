@@ -32,7 +32,7 @@ export default function Hero() {
         </div>
       </div> */}
       {/* 📝 Content */}
-      <div className="relative z-10 flex  h-full">
+      <div className="relative z-10 flex  h-full vectracor-root">
         <div data-aos="fade-up" className="container mx-auto px-6">
           <h1 className="text-[#FFFFFF] text-2xl md:text-[36px] font-semibold max-w-3xl leading-relaxed mt-120 md:mt-155 lg:mt-150">
             THE V300 HOLTER

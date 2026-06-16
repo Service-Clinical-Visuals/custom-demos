@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function InvidiaQuality() {
   return (
-    <section className="overflow-hidden bg-[#F4F4F4] py-[64px]">
-      <div className="mx-auto grid max-w-380 grid-cols-1 items-stretch gap-[44px] px-8 lg:grid-cols-[1.02fr_0.98fr]">
+    <section className="overflow-hidden bg-[#F4F4F4] py-[64px]  invidia-root">
+      <div className="mx-auto grid custom-container  grid-cols-1 items-stretch gap-[44px] px-8 lg:grid-cols-[1.02fr_0.98fr]">
         {/* ======================================
             LEFT IMAGE
         ======================================= */}

@@ -14,7 +14,7 @@ const features = [
 
 export default function InvidiaInnovation() {
   return (
-    <section className="relative overflow-hidden bg-[#5A6270] py-[54px]">
+    <section className="relative  overflow-hidden bg-[#5A6270] py-[54px]  invidia-root">
       {/* ======================================
           BACKGROUND PATTERN
       ======================================= */}
@@ -26,7 +26,7 @@ export default function InvidiaInnovation() {
         <div className="absolute bottom-[-350px] left-[240px] h-[900px] w-[900px] rounded-full border border-white/10" />
       </div>
 
-      <div className="relative z-10 mx-auto grid max-w-380 grid-cols-1 items-center gap-[36px] px-8 lg:grid-cols-[0.95fr_1.05fr]">
+      <div className="relative z-10 mx-auto grid custom-container  grid-cols-1 items-center gap-[36px] px-8 lg:grid-cols-[0.95fr_1.05fr]">
         {/* ======================================
             LEFT CONTENT
         ======================================= */}

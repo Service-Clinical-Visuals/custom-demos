@@ -6,13 +6,13 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function InvidiaCamera() {
   return (
-    <section className="relative overflow-hidden bg-[#505866] py-[58px]">
+    <section className="relative   overflow-hidden bg-[#505866] py-[58px]  invidia-root">
       {/* SUBTLE RADIAL TEXTURE */}
       <div className="pointer-events-none absolute inset-0 opacity-[0.06]">
         <div className="absolute bottom-[-180px] right-[-120px] h-[700px] w-[700px] rounded-full bg-[radial-gradient(circle,white_1px,transparent_1px)] bg-[length:8px_8px]" />
       </div>
 
-      <div className="relative z-10 mx-auto grid max-w-380 grid-cols-1 items-stretch gap-[38px] px-8 lg:grid-cols-[1.08fr_0.92fr]">
+      <div className="relative z-10 mx-auto grid custom-container grid-cols-1 items-stretch gap-[38px] px-8 lg:grid-cols-[1.08fr_0.92fr]">
         {/* ======================================
             LEFT - VIDEO CONTAINER
         ======================================= */}

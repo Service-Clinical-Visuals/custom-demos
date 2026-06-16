@@ -13,7 +13,7 @@ export default function ClinicalResearch() {
   ];
 
   return (
-    <section className="relative w-full py-12 md:py-20 bg-[#3f5f8f] overflow-hidden">
+    <section className="relative w-full py-12 md:py-20 bg-[#3f5f8f] overflow-hidden vectracor-root">
 
       {/* Pattern */}
       <div className="absolute inset-0 opacity-10 bg-[url('/hex-pattern.png')] bg-repeat"></div>
