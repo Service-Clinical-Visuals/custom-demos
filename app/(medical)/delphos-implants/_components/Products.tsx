@@ -29,7 +29,7 @@ export default function ProductsSection() {
   const [active, setActive] = useState<keyof typeof products>("face");
 
   return (
-    <section className="w-full flex justify-center py-16 bg-[#FFFFFF]">
+    <section className="w-full flex justify-center py-16 bg-[#FFFFFF] delphos-root">
       <div className="w-[95%] container mx-auto bg-[#31A144] rounded-[40px] p-8 md:p-12">
         {/* TITLE */}
         <h2

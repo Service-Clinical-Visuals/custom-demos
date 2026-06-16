@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function Innovation() {
 
   return (
-    <section className="w-full flex justify-center py-16 px-4">
+    <section className="w-full flex justify-center py-16 px-4 delphos-root">
       <div className="container mx-auto grid lg:grid-cols-2 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div data-aos="fade-left">

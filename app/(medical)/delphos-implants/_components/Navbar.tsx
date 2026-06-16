@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`w-full flex justify-center transition-all duration-300 z-[100] ${scrolled ? "fixed top-0 left-0" : "relative my-4"
+      className={`delphos-root w-full flex justify-center transition-all duration-300 z-[100] ${scrolled ? "fixed top-0 left-0" : "relative my-4"
         }`}>
       <div
         className={`bg-[#059347] px-6 py-3 shadow-lg transition-all duration-300 ${scrolled

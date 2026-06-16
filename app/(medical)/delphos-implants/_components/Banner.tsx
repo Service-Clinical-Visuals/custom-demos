@@ -16,7 +16,7 @@ export default function Banner() {
         />
 
         {/* INNER CONTENT (constrained) */}
-        <div className="relative z-10 container mx-auto h-full hidden sm:flex items-end pb-35 px-6 ">
+        <div className="relative z-10 container mx-auto h-full hidden sm:flex items-end pb-35 px-6 delphos-root">
           <div className="max-w-3xl text-white">
             <h1
               data-aos="fade-up"

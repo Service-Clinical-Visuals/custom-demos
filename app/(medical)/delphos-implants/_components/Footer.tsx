@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#FFFFFF] pt-10 pb-5 px-4">
+    <footer className="w-full bg-[#FFFFFF] pt-10 pb-5 px-4 delphos-root">
       {/* Main Gradient Container */}
       <div className="container mx-auto rounded-[40px] bg-linear-to-r from-[#009245] via-[#22B14C] to-[#8CC63F] p-10 md:p-16 text-[#FFFFFF]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
