@@ -12,7 +12,7 @@ export default function AdvancedSolutions() {
 
   return (
     <section className="bg-white py-20 relative">
-      <div className="container mx-auto px-4">
+      <div className="custom-container px-4">
         <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
           <div className="w-full lg:w-1/2" data-aos="fade-right">
             <h2 className="text-[24px] font-semibold text-[#14387F] mb-4">Advanced 2-Way Catheter Solutions</h2>
