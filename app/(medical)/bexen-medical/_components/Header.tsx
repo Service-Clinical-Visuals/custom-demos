@@ -36,7 +36,7 @@ export default function Header() {
   ];
 
   return (
-    <header className={`w-full px-10 mx-auto z-50 font-heading transition-all duration-300 ${isScrolled
+    <header className={`medas-root w-full px-10 mx-auto z-50 font-heading transition-all duration-300 ${isScrolled
       ? "fixed top-2 left-0 right-0 animate-slide-down"
       : "relative mt-6"
       }`}>

@@ -16,8 +16,8 @@ const specifications = [
 export default function TimescoSpecification() {
 
   return (
-    <section className="w-full bg-[#EDFFF1] py-24">
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-16 px-8 lg:grid-cols-[1fr_1fr]">
+    <section className="w-full bg-[#EDFFF1] py-24 timesco-root">
+      <div className="custom-container grid grid-cols-1 items-center gap-16 px-8 lg:grid-cols-[1fr_1fr]">
         
         {/* LEFT VIDEO */}
         <div

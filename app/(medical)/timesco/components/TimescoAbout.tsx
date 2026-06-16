@@ -9,8 +9,8 @@ export default function TimescoAbout() {
 
 
   return (
-    <section className="w-full bg-[#f4f4f4] py-24">
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-16 px-8 lg:grid-cols-2 ">
+    <section className="w-full bg-[#f4f4f4] py-24 timesco-root">
+      <div className="custom-container grid grid-cols-1 items-center gap-16 px-8 lg:grid-cols-2 ">
         
         {/* LEFT CONTENT */}
         <div

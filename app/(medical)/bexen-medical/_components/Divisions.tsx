@@ -22,8 +22,8 @@ export default function Divisions() {
   ];
 
   return (
-    <section className="py-20 bg-[#81CFF45C]">
-      <div className="container mx-auto px-4">
+    <section className="medas-root py-20 bg-[#81CFF45C]">
+      <div className="custom-container px-4">
         <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-8">
           <div className="max-w-4xl" data-aos="fade-right">
             <h3 className="text-[#14387F] font-semibold text-[16px] mb-2">We Are Bexen</h3>
