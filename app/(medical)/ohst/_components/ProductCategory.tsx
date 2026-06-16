@@ -20,10 +20,10 @@ export default function ProductCategorySection() {
 
         {/* Header Row: Left aligned texts, Right aligned CTA */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 pb-6">
-          <div className="flex-1 max-w-[800px]">
+          <div className="flex-1 max-w-[1000px]">
             <Typography
-              variant="h2"
-              as="h2"
+              variant="h1"
+              as="h1"
               color="text-[#222222]"
               weight="bold"
               className="text-[28px] sm:text-[34px] md:text-[38px] leading-tight mb-3"
@@ -31,9 +31,10 @@ export default function ProductCategorySection() {
               Enhance Your Portfolio
             </Typography>
             <Typography
-              variant="body-sm"
+              variant="h4"
+              weight="normal"
               color="text-[#555555]"
-              className="leading-[26px] text-[14px] sm:text-[15px]"
+              className="leading-[26px] text-[16px] sm:text-[16px]"
             >
               Discover our CE-certified supplementary solutions for hip and knee implants—designed to perfectly complement and elevate your product range with quality, precision, and reliable performance.
             </Typography>

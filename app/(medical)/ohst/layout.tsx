@@ -21,7 +21,7 @@ export default function OhstLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`${fontOutfit.variable}`}>
+    <div id="ohst-root" className={`${fontOutfit.variable}`}>
       <AosInit />
       <VideoProvider>
         {children}
