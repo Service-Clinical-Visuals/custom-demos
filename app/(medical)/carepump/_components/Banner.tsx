@@ -8,7 +8,7 @@ export default function Banner() {
   return (
     <section className="w-full flex justify-center mt-5 mb-5">
       {/* OUTER */}
-      <div className="w-[95%] rounded-3xl overflow-hidden relative h-screen">
+      <div className="w-[95%] rounded-3xl overflow-hidden relative aspect-video">
         {/* 🎥 Background Video */}
         <DynamicVideoPlayer
           type="banner"
