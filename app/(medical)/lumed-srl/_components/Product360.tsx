@@ -15,7 +15,7 @@ const features = [
 
 export default function Product360() {
     return (
-        <section className="w-full py-20 md:py-24 bg-white" id="products">
+        <section className="lumed-root w-full py-20 md:py-24 bg-white" id="products">
             <div className="custom-container mx-auto px-6 md:px-8 space-y-10 md:space-y-12 max-w-[1440px]">
 
                 {/* Top Section: Checkerboard & Description Grid */}

@@ -6,7 +6,7 @@ import Typography from "./Typography";
 
 export default function About() {
     return (
-        <section className="w-full py-20 md:py-24 bg-[#F0FAFD]" id="about-us">
+        <section className="lumed-root w-full py-20 md:py-24 bg-[#F0FAFD] " id="about-us">
             <div className="custom-container mx-auto px-6 md:px-8 max-w-[1440px]">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
 

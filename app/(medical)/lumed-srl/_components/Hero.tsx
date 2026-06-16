@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
 
             {/* Content Container */}
-            <div className="relative z-10 w-full custom-container mx-auto px-6 md:px-8 max-w-[1440px]">
+            <div className="lumed-root relative z-10 w-full custom-container mx-auto px-6 md:px-8 max-w-[1440px]">
                 <div className="max-w-3xl text-left pb-4 md:pb-0" data-aos="fade-up" data-aos-delay="200">
                     {/* Header Title from Screenshot */}
                     <Typography

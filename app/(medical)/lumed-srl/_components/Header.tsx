@@ -29,7 +29,7 @@ const Header = () => {
 
     return (
         <header
-            className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 transform ${scrolled || mobileMenuOpen
+            className={` lumed-root fixed top-0 left-0 w-full z-50 transition-all duration-500 transform ${scrolled || mobileMenuOpen
                 ? "translate-y-0 opacity-100 bg-white shadow-md border-b border-gray-100"
                 : "-translate-y-full opacity-0 pointer-events-none"
                 } ${mobileMenuOpen ? "h-auto py-6" : "h-[85px] py-4"}`}

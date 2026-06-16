@@ -5,7 +5,7 @@ import Typography from "./Typography";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#f8fbfe] pt-16 " id="footer">
+        <footer className="lumed-root bg-[#f8fbfe] pt-16 " id="footer">
             <div className="custom-container mx-auto px-6 md:px-8  space-y-12 max-w-[1440px]">
 
                 {/* 🗺️ TOP TIER: Logo on Left, Corporate Statement on Right */}

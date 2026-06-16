@@ -44,7 +44,7 @@ const productsList = [
 
 export default function ProductsGrid() {
     return (
-        <section className="w-full py-16 md:py-24 bg-white z-30" id="all-products">
+        <section className="lumed-root w-full py-16 md:py-24 bg-white z-30" id="all-products">
             <div className="custom-container mx-auto px-6 md:px-8 space-y-12 max-w-[1440px]">
 
                 {/* Header Grid: Split Title & Description */}

@@ -6,7 +6,7 @@ import Typography from "./Typography";
 
 export default function DeviceOverview() {
     return (
-        <section className="w-full py-20 md:py-24 bg-primary text-white" id="device-overview">
+        <section className="lumed-root w-full py-20 md:py-24 bg-primary text-white" id="device-overview">
             <div className="custom-container mx-auto px-6 md:px-8 max-w-[1440px]">
 
                 {/* 3-Column Responsive Grid Layout */}
@@ -71,13 +71,13 @@ export default function DeviceOverview() {
                     </div>
 
                     {/* Middle Column: Circular Image (col-span 4) */}
-                    <div className="lg:col-span-4 flex justify-center items-stretch lg:h-full" data-aos="zoom-in" data-aos-delay="100">
+                    <div className="lg:col-span-4 flex justify-center items-center" data-aos="zoom-in" data-aos-delay="100">
                         {/* Perfect Circle Frame with Lumed accuracy device image */}
-                        <div className="w-full max-w-sm sm:max-w-sm xl:max-w-md aspect-square lg:aspect-auto lg:h-full rounded-2xl z-30 overflow-hidden relative ">
+                        <div className="w-full max-w-sm sm:max-w-sm xl:max-w-md aspect-[4/5] rounded-full z-30 overflow-hidden relative ">
                             <img
                                 src="/medical/lumed-srl/accuracy.png"
                                 alt="LUMED Cardiopulmonary Diagnostics Accuracy"
-                                className="w-full h-full object-fill"
+                                className="w-full h-full object-cover aspect-[4/5]"
                             />
                         </div>
                     </div>

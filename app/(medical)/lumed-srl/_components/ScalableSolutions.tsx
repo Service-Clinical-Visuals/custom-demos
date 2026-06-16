@@ -7,7 +7,7 @@ import Typography from "./Typography";
 export default function ScalableSolutions() {
     return (
         <section
-            className="w-full py-16 md:py-24 bg-[#F0FAFD]"
+            className="lumed-root w-full py-16 md:py-24 bg-[#F0FAFD]"
             id="solutions"
         >
             <div className="custom-container mx-auto px-6 md:px-8 space-y-10 md:space-y-12 max-w-[1440px]">

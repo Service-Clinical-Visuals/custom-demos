@@ -25,7 +25,7 @@ const newsList = [
 
 export default function NewsSection() {
     return (
-        <section className="w-full py-16 md:py-24 bg-white" id="news">
+        <section className="lumed-root w-full py-16 md:py-24 bg-white" id="news">
             <div className="custom-container mx-auto px-6 md:px-8 space-y-12 max-w-[1440px]">
 
                 {/* Header Grid: Split Title & Description */}
