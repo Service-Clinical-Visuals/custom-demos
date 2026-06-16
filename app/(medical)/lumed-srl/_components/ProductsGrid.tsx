@@ -1,135 +1,113 @@
 "use client";
 
 import React from "react";
-import { MonitorPlay, Heart, Activity, Radio, Cpu, Tablet } from "lucide-react";
+import Typography from "./Typography";
 
 const productsList = [
     {
         id: "ecg-1",
-        title: "12-Channel ECG Recorder (Standard)",
-        category: "Electrocardiograph",
-        icon: MonitorPlay,
-        placeholderDesc: "ECG Recorder with integrated thermal printer & screen",
+        title: "3-channel electrocardiograph",
+        description: "EUROECG 301 professional 3-lead ECG machine that strikes a balance between budget and functionality.",
+        image: "/medical/lumed-srl/products/product1.png"
     },
     {
         id: "ecg-2",
-        title: "12-Channel ECG Recorder (Compact)",
-        category: "Electrocardiograph",
-        icon: MonitorPlay,
-        placeholderDesc: "ECG Recorder with compact design & numeric keypad",
+        title: "6-channel electrocardiograph",
+        description: "EUROECG 601 professional 6-lead ECG machine is the best compromise between performance and size.",
+        image: "/medical/lumed-srl/products/product2.png"
     },
     {
         id: "ecg-3",
-        title: "3/12-Channel Professional ECG System",
-        category: "Electrocardiograph",
-        icon: MonitorPlay,
-        placeholderDesc: "Professional diagnostics system with wide LCD keyboard",
+        title: "12-channel electrocardiograph",
+        description: "EUROECG 1201A is a professional 12-lead A4/Letter ECG machine, designed for the needs of the Department or the Practice.",
+        image: "/medical/lumed-srl/products/product3.png"
     },
     {
         id: "wireless-holter",
-        title: "Wireless ECG Holter Transceiver",
-        category: "Holter System",
-        icon: Radio,
-        placeholderDesc: "LUMED compact wireless digital telemetry unit",
+        title: "Bluetooth and USB PC-ECG system",
+        description: "EUROECG BT12 efficient and easy-to-use wireless PC-ECG system. It stands out for its wide connectivity.",
+        image: "/medical/lumed-srl/products/product4.png"
     },
     {
         id: "selector-module",
-        title: "Lead Selector & Calibration Module",
-        category: "Diagnostic Tool",
-        icon: Cpu,
-        placeholderDesc: "Color-coded lead wire interface & routing box",
+        title: "ECG simulator",
+        description: "Phantom 320 provides multiple pathological or normal signals, with different heart rate values.",
+        image: "/medical/lumed-srl/products/product5.png"
     },
     {
         id: "spirometer",
-        title: "Handheld Digital Spirometer",
-        category: "Pulmonary testing",
-        icon: Tablet,
-        placeholderDesc: "Handheld lung function testing & analysis unit",
+        title: "Stress test",
+        description: "EUROERGO BT guarantees agile but uncompromising operations. The software offers all the functions.",
+        image: "/medical/lumed-srl/products/product6.png"
     },
 ];
 
 export default function ProductsGrid() {
     return (
-        <section className="w-full py-16 md:py-24 bg-white" id="all-products">
-            <div className="custom-container mx-auto px-6 md:px-8 space-y-12">
-                
+        <section className="w-full py-16 md:py-24 bg-white z-30" id="all-products">
+            <div className="custom-container mx-auto px-6 md:px-8 space-y-12 max-w-[1440px]">
+
                 {/* Header Grid: Split Title & Description */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-end pb-8 border-b border-gray-100">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-end pb-8 ">
                     <div className="space-y-3" data-aos="fade-right">
-                        <span className="text-primary font-bold text-[14px] md:text-[15px] uppercase tracking-wider block">
+                        <Typography
+                            variant="body"
+                            color="secondary"
+                            weight="normal"
+                            className="tracking-wider font-space-grotesk font-bold block text-sm md:text-base"
+                        >
                             04 / Products
-                        </span>
-                        <h2 className="text-3xl md:text-[38px] font-bold text-[#1a1a1a] leading-tight tracking-tight">
+                        </Typography>
+                        <Typography variant="h2" color="dark" className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold">
                             Innovation in Every Product
-                        </h2>
+                        </Typography>
                     </div>
-                    <div 
-                        className="lg:text-right text-gray-500 text-sm md:text-base max-w-md lg:ml-auto leading-relaxed" 
+                    <div
+                        className="lg:text-right max-w-2xl lg:ml-auto"
                         data-aos="fade-left"
                         data-aos-delay="100"
                     >
-                        A complete range of cardiopulmonary diagnostic equipment designed to meet the needs of healthcare professionals.
+                        <Typography variant="body" color="muted" className="text-sm  md:text-base leading-relaxed">
+                            A complete range of cardiopulmonary diagnostic equipment designed to meet the needs of healthcare professionals.
+                        </Typography>
                     </div>
                 </div>
 
                 {/* 6-Card Product Grid (3 cols on desktop, 2 on tablet, 1 on mobile) */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {productsList.map((prod, index) => {
-                        const IconComponent = prod.icon;
                         return (
-                            <div 
+                            <div
                                 key={prod.id}
-                                className="group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                                className="group bg-white   overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-1 relative"
                                 data-aos="fade-up"
                                 data-aos-delay={index * 50}
                             >
-                                {/* Image Placeholder container (light blue-cyan gradient) */}
-                                <div className="w-full aspect-[4/3] bg-gradient-to-br from-[#ebf5fc] to-[#d4e9f7] flex flex-col items-center justify-center p-6 text-center border-b border-gray-50 relative overflow-hidden">
-                                    {/* Design patterns */}
-                                    <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] opacity-30" />
-                                    
-                                    <div className="relative z-10 space-y-3">
-                                        <div className="w-12 h-12 rounded-full bg-white/80 border border-white flex items-center justify-center text-primary/80 group-hover:text-primary transition-colors shadow-sm mx-auto">
-                                            <IconComponent size={22} />
-                                        </div>
-                                        <div className="space-y-1">
-                                            <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                                                {prod.category}
-                                            </span>
-                                            <p className="text-gray-500 text-xs max-w-[200px] mx-auto leading-normal">
-                                                {prod.placeholderDesc}
-                                            </p>
-                                        </div>
-                                    </div>
-                                    {/* Placeholder indicator label */}
-                                    <span className="absolute bottom-3 text-[9px] font-semibold text-gray-400 uppercase tracking-widest">
-                                        Image Space
-                                    </span>
-                                </div>
+                                {/* Card Image Container */}
+                                <div className="w-full h-full aspect-[4/3] relative overflow-hidden bg-gray-50">
+                                    <img
+                                        src={prod.image}
+                                        alt={prod.title}
+                                        className="w-full h-full group-hover:scale-105 duration-300 "
+                                    />
 
-                                {/* Text Details */}
-                                <div className="p-6 space-y-2">
-                                    <h4 className="text-[#1a1a1a] font-bold text-base md:text-lg group-hover:text-primary transition-colors duration-200">
-                                        {prod.title}
-                                    </h4>
-                                    <div className="flex items-center justify-between pt-2">
-                                        <span className="text-[12px] font-bold text-primary uppercase tracking-wide">
-                                            View Details
-                                        </span>
-                                        <div className="w-6 h-6 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                                            <svg 
-                                                width="12" 
-                                                height="12" 
-                                                viewBox="0 0 24 24" 
-                                                fill="none" 
-                                                stroke="currentColor" 
-                                                strokeWidth="2.5" 
-                                                strokeLinecap="round" 
-                                                strokeLinejoin="round"
-                                            >
-                                                <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
-                                            </svg>
-                                        </div>
+                                    {/* Dark Overlay (Always visible on mobile, Hover on Desktop) */}
+                                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent h-full w-full p-5 md:p-6 flex flex-col justify-end opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                                        <Typography
+                                            variant="h4"
+                                            color="white"
+                                            weight="bold"
+                                            className="text-lg md:text-[19px] mb-1.5 leading-snug block shadow-sm"
+                                        >
+                                            {prod.title}
+                                        </Typography>
+                                        <Typography
+                                            variant="body"
+                                            color="white"
+                                            className="text-[13px] md:text-[14px] leading-relaxed opacity-100 lg:opacity-90 block drop-shadow-md"
+                                        >
+                                            {prod.description}
+                                        </Typography>
                                     </div>
                                 </div>
                             </div>

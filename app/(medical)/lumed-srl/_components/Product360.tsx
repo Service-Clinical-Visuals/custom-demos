@@ -1,7 +1,6 @@
-"use client";
-
 import React from "react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import Typography from "./Typography";
 
 const features = [
     { num: "01", text: "Atrial fibrillation and flutter analysis" },
@@ -16,75 +15,85 @@ const features = [
 
 export default function Product360() {
     return (
-        <section className="w-full py-16 md:py-24 bg-white" id="products">
-            <div className="custom-container mx-auto px-6 md:px-8 space-y-16">
-                
-                {/* Top Section: Video Player & Description Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-                    
-                    {/* Left Column: 360-degree Video Player (col-span 6) */}
+        <section className="w-full py-20 md:py-24 bg-white" id="products">
+            <div className="custom-container mx-auto px-6 md:px-8 space-y-10 md:space-y-12 max-w-[1440px]">
+
+                {/* Top Section: Checkerboard & Description Grid */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-6 items-center">
+
+                    {/* Left Column: 360-degree Checkerboard Placeholder (col-span 6) */}
                     <div className="lg:col-span-6" data-aos="fade-right">
-                        <div className="w-full aspect-video bg-gray-50 rounded-2xl overflow-hidden shadow-lg border border-gray-100 relative min-h-[300px] md:min-h-[400px]">
+                        <div
+                            className="w-full aspect-video rounded-xl overflow-hidden shadow-md  relative min-h-[220px] flex items-center justify-center select-none"
+                        >
                             <DynamicVideoPlayer
-                                type="360"
-                                className="w-full h-full object-cover rounded-2xl"
-                            />
-                            {/* Subtle Floating Badge indicating interactive content */}
-                            <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/20 text-white text-[11px] font-semibold tracking-wider uppercase z-10 flex items-center gap-1.5">
-                                <span className="w-2 h-2 rounded-full bg-primary animate-ping" />
-                                360° View
-                            </div>
+                                type="360" />
+
                         </div>
                     </div>
 
                     {/* Right Column: Text Details (col-span 6) */}
-                    <div className="lg:col-span-6 space-y-6" data-aos="fade-left">
+                    <div className="lg:col-span-6 space-y-6 md:space-y-8" data-aos="fade-left">
                         <div className="space-y-3">
-                            <span className="text-primary font-bold text-[14px] md:text-[15px] uppercase tracking-wider block">
+                            <Typography
+                                variant="body"
+                                color="secondary"
+                                weight="normal"
+                                className="tracking-wider font-space-grotesk font-bold block text-sm md:text-base"
+                            >
                                 02 / Product
-                            </span>
-                            <h2 className="text-3xl md:text-[38px] font-bold text-[#1a1a1a] leading-tight tracking-tight">
+                            </Typography>
+                            <Typography variant="h2" color="dark" className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold">
                                 3/12-channel holter ECG systems
-                            </h2>
+                            </Typography>
                         </div>
 
-                        {/* Description paragraphs from screenshot */}
-                        <div className="space-y-4 text-gray-500 text-[15px] md:text-[16px] leading-relaxed font-normal">
-                            <p>
+                        <div className="space-y-4">
+                            <Typography variant="body" color="muted" className="text-[15px] md:text-[16px] leading-relaxed font-normal">
                                 EUROHOLTER complete solution for recording and analyzing Holter exams. Lightweight and compact recorders combined with EUROHOLTER SW3/12 software for reporting and EUORHOLTER HOOKUP software for programming and downloading the recorders. It is one of the main devices for cardiopulmonary diagnostics.
-                            </p>
-                            <p>
+                            </Typography>
+                            <Typography variant="body" color="muted" className="text-[15px] md:text-[16px] leading-relaxed font-normal">
                                 The EUROHOLTER SW3/12 software has all the recording analysis and validation functions, from Compact to atrial fibrillation and pacemaker analysis. A package of additional advanced algorithms is also available. A package of additional advanced algorithms is also available. The commands are given via mouse or keyboard, so that reporting is extremely rapid.
-                            </p>
-                            <p>
+                            </Typography>
+                            <Typography variant="body" color="muted" className="text-[15px] md:text-[16px] leading-relaxed font-normal">
                                 A package of additional advanced algorithms is also available. The commands are given via mouse or keyboard, so that reporting is extremely rapid. Verification of the positioning of Holter electrodes. EUROHOLTER recorders use standard disposable ECG electrodes.
-                            </p>
+                            </Typography>
                         </div>
                     </div>
 
                 </div>
 
                 {/* Bottom Section: 8-pill feature matrix grid */}
-                <div 
-                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-6"
+                <div
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
                     data-aos="fade-up"
                     data-aos-delay="100"
                 >
                     {features.map((feat) => (
-                        <div 
+                        <div
                             key={feat.num}
-                            className="flex items-center gap-3.5 bg-primary hover:bg-primary-hover text-white rounded-full p-2.5 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
+                            className="
+        flex items-center w-full h-[72px]
+        bg-primary hover:bg-primary-hover text-white
+        pl-3 pr-4 gap-4
+        rounded-l-full rounded-r-md
+        shadow-md hover:shadow-lg
+        transition-all duration-300
+      "
                         >
-                            {/* Round circle containing blue number */}
-                            <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center shrink-0 shadow-inner">
-                                <span className="text-primary font-bold text-[14px] leading-none">
+
+                            {/* Number Circle */}
+                            <div className="w-10 h-10 min-w-[40px] xl:min-w-[56px] xl:w-14 xl:h-14 rounded-full bg-white flex items-center justify-center">
+                                <span className="text-primary font-normal text-xl xl:text-2xl">
                                     {feat.num}
                                 </span>
                             </div>
-                            {/* Descriptive text */}
-                            <span className="text-[13px] md:text-[14px] font-semibold tracking-wide pr-3 leading-snug">
+
+                            {/* Text */}
+                            <Typography color="white" variant="h5" weight="normal" className="text-[13px] sm:text-[14px] md:text-[15px] font-geist font-medium leading-snug">
                                 {feat.text}
-                            </span>
+                            </Typography>
+
                         </div>
                     ))}
                 </div>

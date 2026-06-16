@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Geist, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import AOSInit from "./_components/AOSInit";
 import { VideoProvider } from "../../_context/VideoContext";
 
-const outfit = Outfit({
+const geist = Geist({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-outfit",
+  variable: "--font-geist",
+  display: "swap",
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-space-grotesk",
   display: "swap",
 });
 
@@ -25,7 +31,7 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${outfit.variable} font-sans`} suppressHydrationWarning>
+    <html lang="en" className={`${geist.variable} ${spaceGrotesk.variable} font-sans`} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased text-[#333333]">
         <VideoProvider website="lumed-srl">
           <AOSInit />

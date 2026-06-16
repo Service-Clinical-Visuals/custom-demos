@@ -1,14 +1,14 @@
 "use client";
 
 import React from "react";
-import { ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 interface ButtonProps {
     text: string;
     href?: string;
     onClick?: () => void;
-    variant?: "primary" | "white" | "outline" | "search";
+    variant?: "primary" | "composite-white" | "composite-blue" | "outline" | "search";
     className?: string;
     showIcon?: boolean;
 }
@@ -21,27 +21,31 @@ const Button = ({
     className = "",
     showIcon = true,
 }: ButtonProps) => {
-    const baseStyles = "inline-flex items-center justify-between font-semibold transition-all duration-300 group active:scale-95 shadow-sm overflow-hidden text-sm md:text-base";
+    const baseStyles = "inline-flex items-center justify-between font-sans font-semibold transition-all duration-300 group active:scale-95 shadow-sm overflow-hidden text-sm md:text-base  select-none cursor-pointer";
 
     const variants = {
-        primary: "bg-primary hover:bg-primary-hover text-white",
-        white: "bg-white hover:bg-gray-50 text-primary",
-        outline: "border border-white text-white hover:bg-white hover:text-primary",
-        search: "bg-primary text-white px-4 py-1.5 min-w-[100px]"
+        primary: "bg-primary hover:bg-primary-hover text-white px-7 py-2.5 justify-center",
+        "composite-white": "bg-white hover:bg-gray-50 text-primary p-[5px] pl-6 justify-between gap-4",
+        "composite-blue": "bg-primary hover:bg-primary-hover text-white border border-primary p-[5px] pl-6 justify-between gap-4",
+        outline: "border border-white text-white hover:bg-white hover:text-primary px-7 py-2.5 justify-center",
+        search: "bg-primary text-white px-6 py-2 justify-center min-w-[100px]"
     };
 
-    const padding = variant === "search" 
-        ? "px-6 py-2" 
-        : !showIcon 
-            ? "px-7 py-2.5" 
-            : "pl-6 pr-1.5 py-1.5 md:py-2 md:pr-2";
+    const isComposite = variant === "composite-white" || variant === "composite-blue";
 
     const content = (
         <>
-            <span className={variant === "search" ? "mx-auto" : "mr-4"}>{text}</span>
-            {showIcon && variant !== "search" && (
-                <div className={`${variant === 'white' ? 'bg-primary text-white' : 'bg-white text-primary'} ${variant === 'outline' ? 'bg-white/30 text-white group-hover:bg-primary group-hover:text-white' : ''} w-8 h-8 rounded flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1 shrink-0 ml-auto`}>
-                    <ChevronRight size={18} className="stroke-[3]" />
+            <span className={variant === "search" ? "mx-auto" : isComposite ? "tracking-wide" : ""}>
+                {text}
+            </span>
+            {showIcon && isComposite && (
+                <div
+                    className={`
+                        w-9 h-9 flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 shrink-0
+                        ${variant === "composite-white" ? "bg-primary text-white" : "bg-white text-primary"}
+                    `}
+                >
+                    <ArrowRight size={18} strokeWidth={2.5} />
                 </div>
             )}
             {variant === "search" && (
@@ -62,7 +66,7 @@ const Button = ({
         </>
     );
 
-    const finalStyles = `${baseStyles} ${variants[variant]} ${padding} ${className}`;
+    const finalStyles = `${baseStyles} ${variants[variant]} ${className}`;
 
     if (href) {
         return (

@@ -1,14 +1,15 @@
 @layer base {
   :root {
-    --font-outfit: "Outfit", sans-serif;
+    --font-geist-family: var(--font-geist), sans-serif;
+    --font-space-grotesk-family: var(--font-space-grotesk), sans-serif;
   }
 }
 
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #3c82c6;
-  --color-primary-hover: #2b6cb0;
+  --color-primary: #4277C2;
+  --color-primary-hover: #355f9c;
   --color-dark: #1a1a1a;
   --color-text: #333333;
   --color-gray-light: #f8f9fa;
@@ -16,7 +17,8 @@
   --color-dark-2: #212121;
   --color-dark-3: #333333;
 
-  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
 }
 
 html,
@@ -36,6 +38,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--font-heading);
   color: var(--color-dark-2);
   letter-spacing: -0.02em;
 }
@@ -119,16 +122,19 @@ p {
   .custom-container {
     max-width: 90%;
   }
-  
+
   h2 {
     font-size: 36px;
   }
+
   h3 {
     font-size: 26px;
   }
+
   h4 {
     font-size: 24px;
   }
+
   p {
     font-size: 22px;
   }
@@ -137,38 +143,44 @@ p {
 /* Ultra-wide Screen / Max Cover (2500px and above) */
 @media (min-width: 2500px) and (max-width: 3800px) {
   .custom-container {
-    max-width: 90%; 
+    max-width: 90%;
   }
-  
+
   h2 {
     font-size: 36px;
   }
+
   h3 {
     font-size: 26px;
   }
+
   h4 {
     font-size: 24px;
   }
+
   p {
     font-size: 22px;
   }
 }
- 
+
 /* 4K Ultra-wide Screen / Max Cover (3800px and above) */
 @media (min-width: 3800px) {
   .custom-container {
     max-width: 85%;
   }
-  
+
   h2 {
     font-size: 36px;
   }
+
   h3 {
     font-size: 26px;
   }
+
   h4 {
     font-size: 24px;
   }
+
   p {
     font-size: 22px;
   }
