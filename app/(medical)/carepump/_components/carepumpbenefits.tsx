@@ -26,7 +26,7 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <section className="w-full bg-[#f7f7f7] py-12 md:py-16 lg:py-20">
+    <section className="w-full twok bg-[#f7f7f7] py-12 md:py-16 lg:py-20">
       <div className="container mx-auto">
 
         {/* Heading */}
