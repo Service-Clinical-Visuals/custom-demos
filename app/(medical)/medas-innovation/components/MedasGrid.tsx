@@ -12,7 +12,7 @@ export default function MedasGrid() {
         {/* TOP LEFT IMAGE */}
         <div
           data-aos="fade-right"
-          className="h-[300px] md:h-[400px] lg:h-[500px]"
+          className="xl:h-[500px]"
         >
           <img
             src="/medas-innovation/assets/medas-grid1.png"
@@ -56,7 +56,7 @@ export default function MedasGrid() {
           {/* Pattern */}
           {/* <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div> */}
 
-          <div className="relative px-6 lg:px-36 py-8 md:py-12">
+          <div className="relative p-8 md:p-12 lg:p-12 ">
             <h3 className="text-xl md:text-2xl font-semibold">
               Who We Serve for
             </h3>
@@ -79,7 +79,7 @@ export default function MedasGrid() {
         {/* BOTTOM RIGHT IMAGE */}
         <div
           data-aos="fade-left"
-          className="h-[300px] md:h-[400px] lg:h-[450px]"
+          className=" xl:h-[450px]"
         >
           <img
             src="/medas-innovation/assets/medas-grid2.png"

@@ -13,8 +13,8 @@ export default function AdvancedSolutions() {
   return (
     <section className="medas-root bg-white py-20 relative">
       <div className="custom-container px-4">
-        <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
-          <div className="w-full lg:w-1/2" data-aos="fade-right">
+        <div className="flex flex-col xl:flex-row gap-12 items-center">
+          <div className="w-full xl:w-1/2" data-aos="fade-right">
             <h2 className="text-[24px] font-semibold text-[#14387F] mb-4">Advanced 2-Way Catheter Solutions</h2>
             <p className="text-[14px] text-gray-500 mb-8 leading-relaxed">
               Our 2-way Foley catheters are designed to provide safe, reliable, and comfortable urinary drainage for clinical and hospital use. Manufactured from high-quality materials with a user-friendly design, they ensure smooth performance, patient comfort, and efficient catheter management.
@@ -32,7 +32,7 @@ export default function AdvancedSolutions() {
               ))}
             </ul>
           </div>
-          <div className="w-full lg:w-1/2 aspect-video rounded-[24px] overflow-hidden bg-gray-100 relative" data-aos="fade-left" data-aos-delay="200">
+          <div className="w-full xl:w-1/2 aspect-video rounded-[24px] overflow-hidden bg-gray-100 relative" data-aos="fade-left" data-aos-delay="200">
             <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover aspect-video" />
           </div>
         </div>

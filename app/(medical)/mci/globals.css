@@ -62,21 +62,21 @@ h6 {
 /* Mobile Landscape Screen (481px - 767px) */
 @media (min-width: 481px) and (max-width: 767px) {
   .custom-container {
-    max-width: 92%;
+    max-width: 95%;
   }
 }
 
 /* Tablet / Tab Screen (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 
 /* Laptop Screen (1024px - 1279px) */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 95%;
   }
 }
 

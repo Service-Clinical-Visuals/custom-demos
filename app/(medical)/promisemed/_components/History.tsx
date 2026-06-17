@@ -49,7 +49,7 @@ export default function History() {
 
       <div className="custom-container mx-auto px-6 relative z-10">
         {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:gap-10 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 xl:gap-10 items-start">
           {/* LEFT CONTENT */}
           <div data-aos="fade-up" className="space-y-6 py-20">
 

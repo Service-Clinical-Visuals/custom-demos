@@ -90,6 +90,11 @@
     @apply px-4 lg:px-6 xl:px-8 2xl:px-12;
     width: 100%;
   }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1280px !important;
+    }
+  }
 
   @media (min-width: 1280px) {
     .container {
