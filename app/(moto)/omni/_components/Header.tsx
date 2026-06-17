@@ -34,7 +34,7 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-lg font-[family-name:var(--font-bebas-neue)] font-normal tracking-wide transition-colors ${
+                className={`text-lg md:text-xl !font-[family-name:var(--font-bebas-neue)] font-normal tracking-wide transition-colors ${
                   link.name === "HOME"
                     ? "text-primary underline underline-offset-4 decoration-primary decoration-2"
                     : "text-gray-600 hover:text-primary hover:underline hover:underline-offset-4 hover:decoration-primary hover:decoration-2"

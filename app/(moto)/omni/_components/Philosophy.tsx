@@ -20,7 +20,7 @@ export default function Philosophy() {
   ];
 
   return (
-    <section className="w-full py-16 lg:py-24 bg-white" data-aos="fade-up">
+    <section className="w-full py-16  bg-white" data-aos="fade-up">
       <div className="custom-container">
         
         {/* Main Dark Blue Container */}

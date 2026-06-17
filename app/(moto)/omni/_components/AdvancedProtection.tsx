@@ -54,12 +54,15 @@ export default function AdvancedProtection() {
               <ul className="space-y-4 mb-8">
                 {benefits.map((text, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <img src="/moto/omni/checkbox.png" className="w-5 h-5 "/>
+                   <img
+    src="/moto/omni/checkbox.png"
+    className="checkbox-icon mt-0.5 shrink-0"
+  />
                     {/* <span className="text-gray-500 text-[13px] md:text-[14px] leading-relaxed"> */}
-                      <span className="font-[family-name:var(--font-exo-2)] text-[#333] text-sm lg:text-[14px] xl:text-[15px] leading-[1]">
+                      <p className="font-[family-name:var(--font-exo-2)] text-[#333] text-sm !lg:text-[16px] !xl:text-[22px] leading-[1]">
                         
                       {text}
-                    </span>
+                    </p>
                   </li>
                 ))}
               </ul>

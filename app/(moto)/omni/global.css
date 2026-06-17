@@ -91,7 +91,7 @@ h6 {
 /* Large Desktop PC Screen (1536px - 1919px) */
 @media (min-width: 1536px) and (max-width: 1920px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 
@@ -119,10 +119,10 @@ h6 {
     font-size: 20px ;
   }
   .btn-link{
-    font-size: 20px  ;
+    font-size: 22px  ;
   }
   .nav-links{
-    font-size: 20px;
+    font-size: 22px  ;
   }
 }
 
@@ -150,7 +150,7 @@ h6 {
     font-size: 20px;
   }
   .nav-links{
-    font-size: 20px;
+    font-size: 20px ;
   }
 }
  
@@ -230,4 +230,147 @@ h6 {
 .section-label::before {
   content: "";
   @apply w-8 h-[2px] bg-primary block;
+}
+
+
+.btn-text {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .btn-text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn-text {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .btn-text {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 3800px) {
+  .btn-text {
+    font-size: 24px;
+  }
+}
+.read-more-text {
+  font-size: 14px;
+}
+
+@media (min-width: 640px) {
+  .read-more-text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .read-more-text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .read-more-text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .read-more-text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 3800px) {
+  .read-more-text {
+    font-size: 28px;
+  }
+}
+
+.footer-heading {
+  font-size: 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-copyright {
+  font-size: 15px;
+}
+
+@media (min-width: 1024px) {
+  .footer-heading {
+    font-size: 22px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+
+  .footer-copyright {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .footer-heading {
+    font-size: 26px;
+  }
+
+  .footer-text {
+    font-size: 23px;
+  }
+
+  .footer-copyright {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 3800px) {
+  .footer-heading {
+    font-size: 36px;
+  }
+
+  .footer-text {
+    font-size: 28px;
+  }
+
+  .footer-copyright {
+    font-size: 28px;
+  }
+}
+
+
+.checkbox-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media (min-width: 1024px) {
+  .checkbox-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .checkbox-icon {
+    width: 24px;
+    height: 14px;
+  }
+}
+
+@media (min-width: 3800px) {
+  .checkbox-icon {
+    width: 28px;
+    height: 28px;
+  }
 }

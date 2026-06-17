@@ -7,17 +7,17 @@ export default function Services() {
   const servicesData = [
     {
       title: "PACKAGING",
-      image: "/moto/omni/omniservice1.png",
+      image: "/moto/omni/service3.jpg",
       text: "Omni Specialty Packaging, LLC houses a state-of-the-art production facility. Operating out of the port of Bossier/Shreveport located on the Red River, We remain...",
     },
     {
       title: "DISTRIBUTION",
-      image: "/moto/omni/omniservice2.png",
+      image: "/moto/omni/service2.png",
       text: "We serve as a supplier and distributor of automotive and industrial chemicals and fluids to mass merchandisers, retailers, wholesale distributors. Omni Freight Systems...",
     },
     {
       title: "BLENDING",
-      image: "/moto/omni/omniservice3.png",
+      image: "/moto/omni/service1.jpg",
       text: "Omni Specialty Packaging, LLC, has the storage capability and capacity to purchase raw materials in bulk, thus allowing them to maximize their production...",
     },
   ];
@@ -61,7 +61,7 @@ export default function Services() {
                 data-aos-delay={index * 100}
               >
                 {/* Image Container */}
-                <div className="w-full aspect-[4/3] rounded-tl-[2.5rem] rounded-tr-[2.5rem] rounded-br-[2.5rem] rounded-bl-xl overflow-hidden mb-6">
+                <div className="w-full aspect-[4/3] rounded-tl-[2.5rem] rounded-tr-[2.5rem] rounded-br-[2.5rem] rounded-bl-[2.5rem] overflow-hidden mb-6">
                   <img 
                     src={service.image} 
                     alt={service.title} 
@@ -81,9 +81,21 @@ export default function Services() {
                                         {service.text}
                   </p>
 
-                  <Link 
-                    href={ "#"} 
-                    className="text-[#001f5c] font-[family-name:var(--font-exo-2)] font-bold text-sm transition-colors underline decoration-2 underline-offset-4 mt-2"
+                 
+                  <Link
+                    href="#"
+                    className="
+                      text-[#001f5c]
+                      font-[family-name:var(--font-exo-2)]
+                      font-bold
+                      read-more-text
+                      transition-colors
+                      underline
+                      decoration-2
+                      underline-offset-4
+                      mt-2
+                      inline-block
+                    "
                   >
                     Read More &gt;&gt;
                   </Link>

@@ -13,13 +13,13 @@ export default function Mission() {
   ];
 
   return (
-    <section className="w-full py-16 lg:py-24 bg-white">
+    <section className="w-full py-16  bg-white">
       <div className="custom-container">
         
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 xl:gap-12 items-center">
           
           {/* Left Column - Content */}
-          <div className="w-full lg:w-7/12 flex flex-col" data-aos="fade-right">
+          <div className="lg:col-span-7 flex flex-col" data-aos="fade-right">
             
             {/* Heading */}
             <div className="flex items-center gap-3 mb-4">
@@ -35,7 +35,7 @@ export default function Mission() {
             {/* Paragraphs */}
             <div className="space-y-4 mb-8">
               
-              <p className="mb-8 text-[#333] text-sm lg:text-[14px] xl:text-[15px] leading-[1.5]">
+              <p className="text-[#333] text-sm lg:text-[14px] xl:text-[15px] leading-[1.8]">
                 At Omni Specialty Packaging, LLC, we are committed to achieving sustained superior performance through continuous 
                 improvement, operational excellence, and unwavering dedication to customer satisfaction. Every decision we make is guided 
                 by our commitment to putting customers first, ensuring their needs are met with responsiveness, reliability, and exceptional 
@@ -53,35 +53,37 @@ export default function Mission() {
             <ul className="space-y-4 mb-8">
               {points.map((text, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <img src="/moto/omni/checkbox.png" className="w-5 h-5 "/>
-                  
-                  <span className="font-[family-name:var(--font-exo-2)] text-[#333] text-sm lg:text-[14px] xl:text-[15px] leading-relaxed">
+                  <img
+    src="/moto/omni/checkbox.png"
+    className="checkbox-icon mt-0.5 shrink-0"
+  />
+                  <p className="font-[family-name:var(--font-exo-2)] text-[#333] text-sm !lg:text-[16px] !xl:text-[22px] leading-[1]">
                     {text}
-                  </span>
+                  </p>
                 </li>
               ))}
             </ul>
 
             {/* Button */}
-            <div>
+            <div className="mt-2">
               <Button href="#" variant="primary">Discover More</Button>
             </div>
 
           </div>
 
           {/* Right Column - Image with decorative border */}
-          <div className="w-full lg:w-5/12 flex justify-center lg:justify-start mt-10 lg:mt-0 lg:ml-10" data-aos="fade-left" data-aos-delay="100">
-            <div className="relative w-full max-w-[550px] min-[1920px]:max-w-[750px] min-[2500px]:max-w-[850px] aspect-[4/3]">
+          <div className="lg:col-span-5 flex justify-center lg:justify-end mt-10 lg:mt-0 pr-5" data-aos="fade-left" data-aos-delay="100 ">
+            <div className="relative w-full max-w-[550px] min-[1920px]:max-w-[800px] min-[2500px]:max-w-[800px] h-[350px] sm:h-[450px] lg:h-[650px] xl:h-[700px] min-[1920px]:h-[650px] min-[2560px]:h-[700px] ">
               
               {/* Decorative Blue Offset Border */}
-              <div className="absolute top-15 left-15 min-[2500px]:top-15 min-[2500px]:left-15 w-full h-full border-[3px] border-primary-main rounded-tl-[3rem] rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-none z-0 pointer-events-none"></div>
+              <div className="absolute top-4 left-4 lg:top-6 lg:left-6 w-full h-full border-[3px] border-[#001f5c] rounded-tl-[3rem] rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-none z-0 pointer-events-none "></div>
               
               {/* Image Container */}
-              <div className="relative z-10 w-full h-full bg-white rounded-tl-[3rem] rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-none overflow-hidden">
+              <div className="relative z-10 w-full h-full bg-white rounded-tl-[3rem] rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-none overflow-hidden ">
                 <img 
-                  src="/moto/omni/mission.png" 
+                  src="/moto/omni/omnimission.jpg" 
                   alt="Our Mission" 
-                  className="w-full h-full object-cover "
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               

@@ -11,9 +11,9 @@ export default function About() {
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 bg-white">
           
           {/* Left Column - Image */}
-          <div className="w-full lg:w-1/2 relative min-h-[350px] lg:min-h-full rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-xl rounded-bl-xl overflow-hidden " data-aos="fade-right">
+          <div className="w-full lg:w-1/2 relative min-h-[350px] lg:min-h-full rounded-tl-[4rem] rounded-br-[4rem]  overflow-hidden " data-aos="fade-right">
             <img 
-              src="/moto/omni/omniabout.png" 
+              src="/moto/omni/omniabout.jpg" 
               alt="Industrial Tanks" 
               className="absolute inset-0 w-full h-full object-cover object-center"
             />

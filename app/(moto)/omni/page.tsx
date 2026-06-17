@@ -13,7 +13,7 @@ import Footer from "./_components/Footer";
 
 export default function OmniHome() {
     return (
-        <main className="relative min-h-screen bg-white">
+        <main className="relative min-h-screen overflow-y-hidden bg-white ">
             <Header />
             <div className="flex flex-col">
                 <Hero />
