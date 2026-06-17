@@ -25,7 +25,7 @@ export default function MedacureFeatureTop() {
 
         {/* IMAGE (overlapping) */}
         <div data-aos="fade-right">
-          <div className="relative w-full h-[300px] md:h-[440px] 2xl:h-[650px] rounded-2xl overflow-hidden">
+          <div className="relative w-full h-[300px] md:h-[440px]  2xl:h-[500px] rounded-2xl overflow-hidden">
 
             <DynamicVideoPlayer
               type="short-1"

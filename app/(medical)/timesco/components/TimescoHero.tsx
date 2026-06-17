@@ -18,10 +18,10 @@ export default function TimescoHero() {
       {/* Gradient Light */}
       <div className="absolute bottom-0 left-0 h-[300px] w-full bg-gradient-to-t from-black/20 to-transparent" />
 
-      <div className="relative z-10 mx-auto flex h-full max-w-[1600px] items-end px-10 bottom-20">
+      <div className="relative z-10 custom-container flex h-full items-end px-10 bottom-20">
         
         {/* LEFT */}
-        <div className="w-full lg:w-[38%]">
+        <div className="w-full lg:w-[38%] timesco-root">
 
           <div data-aos="fade-up">
             <h1 className="text-4xl font-bold leading-[1.1] text-white">

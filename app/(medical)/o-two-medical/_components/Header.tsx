@@ -37,7 +37,7 @@ export default function Header() {
 
   return (
     <header
-      className={`w-full flex justify-center transition-all duration-500 z-[100] ${scrolled ? "fixed top-0 left-0 animate-in fade-in slide-in-from-top-4 duration-300" : "relative my-6"
+      className={`o-two-medical-root w-full flex justify-center transition-all duration-500 z-[100] ${scrolled ? "fixed top-0 left-0 animate-in fade-in slide-in-from-top-4 duration-300" : "relative my-6"
         }`}
     >
       <div

@@ -3,7 +3,7 @@ import SectionHeader from "./SectionHeader";
 
 const Excellence = () => {
     return (
-        <section className="relative lg:min-h-[calc(100vh-70px)] bg-white flex flex-col justify-center pt-4 pb-6 lg:pb-12">
+        <section className="relative lg:min-h-[calc(100vh-70px)] bg-white flex flex-col justify-center pt-4 pb-6 lg:pb-12  ">
             {/* Left Decorative Background with Waves */}
             <div className="absolute top-0 left-0 w-full lg:w-[40%] h-full bg-[url(/mci/images/excellence.png)] z-0 overflow-hidden bg-cover bg-center bg-no-repeat">
             </div>
@@ -12,7 +12,7 @@ const Excellence = () => {
                 {/* Content Area - Shifted Right */}
                 <div className="w-full grid lg:grid-cols-12 mb-3 lg:mb-5" data-aos="fade-up">
                     <div className="hidden lg:block lg:col-span-5"></div> {/* Spacer */}
-                    <div className=" lg:col-span-7">
+                    <div className=" lg:col-span-7 mci-root">
                         <SectionHeader
                             mobileLight
                             subtitle="Engineered for Excellence"

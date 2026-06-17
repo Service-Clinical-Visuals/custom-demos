@@ -4,7 +4,7 @@ import React from "react";
 
 const Excellence = () => {
     return (
-        <section className="relative py-20 md:py-30 bg-[url('/advanced-instruments/images/strip-bg.png')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center">
+        <section className="relative py-20 md:py-30 bg-[url('/advanced-instruments/images/strip-bg.png')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center advance-inc-root">
 
             <div className="custom-container relative z-10 mx-auto px-4 md:px-0 text-center">
                 <h2

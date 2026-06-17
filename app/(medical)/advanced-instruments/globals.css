@@ -155,7 +155,7 @@ p {
   .custom-container {
     max-width: 90%; 
   }
-  h1{
+  /* h1{
     font-size: 48px!important;
   }
   .header-para{
@@ -188,17 +188,17 @@ p {
   }
   a{
     font-size: 24px;
-  }
+  } */
  
 }
  
 /* 4K Ultra-wide Screen / Max Cover (3800px and above) */
 @media (min-width: 3800px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 93%;
   }
   
-  h2{
+  /* h2{
     font-size: 36px;
   }
   h3{
@@ -218,6 +218,22 @@ p {
   }
   .nav-links{
     font-size: 20px;
-  }
+  } */
  
+}
+
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions (2560 / 1920 = 1.333333) */
+@media (min-width: 2560px) {
+  .advance-inc-root {
+    zoom: 1.5;
+    transform-origin: top center;
+  }
+}
+ 
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
+@media (min-width: 3840px) {
+  .advance-inc-root {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
 }

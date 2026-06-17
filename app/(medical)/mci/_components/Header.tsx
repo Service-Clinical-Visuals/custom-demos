@@ -28,7 +28,7 @@ export default function Header() {
         { name: "Contact Us", href: "#" },
     ];
     return (
-        <header className="relative w-full z-50">
+        <header className="relative w-full z-50 mci-root ">
             {/* ... main navbar */}
             <div className="h-[72px] md:h-[80px] w-full relative">
                 <nav

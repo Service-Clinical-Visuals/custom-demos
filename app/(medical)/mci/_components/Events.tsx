@@ -28,7 +28,7 @@ const Events = () => {
     ];
 
     return (
-        <section className="py-24 bg-white overflow-hidden">
+        <section className="py-24 bg-white overflow-hidden mci-root ">
             <div className="custom-container mx-auto px-6 md:px-12 text-center">
                 {/* Header Area */}
                 <div className="space-y-6 mb-20 flex flex-col items-center" data-aos="fade-up">

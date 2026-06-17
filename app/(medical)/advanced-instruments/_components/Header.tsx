@@ -34,7 +34,7 @@ const Header = ({ isSticky = false }: HeaderProps) => {
 
     return (
         <header
-            className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 transform ${scrolled || mobileMenuOpen || isSticky ? "translate-y-0 opacity-100 bg-white shadow-lg" : "-translate-y-full opacity-0"
+            className={`advance-inc-root fixed top-0 left-0 w-full z-50 transition-all duration-500 transform ${scrolled || mobileMenuOpen || isSticky ? "translate-y-0 opacity-100 bg-white shadow-lg" : "-translate-y-full opacity-0"
                 } ${mobileMenuOpen ? "h-auto py-6" : "h-[80px] py-4"}`}
         >
             <div className="custom-container mx-auto px-6 lg:px-0 flex items-center justify-between h-full">

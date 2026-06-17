@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Innovation() {
   return (
-    <section className="py-12 md:py-20 lg:py-24 bg-white" id="company">
+    <section className="o-two-medical-root py-12 md:py-20 lg:py-24 bg-white" id="company">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="max-w-5xl mx-auto text-center mb-10 lg:mb-16">
           <h2

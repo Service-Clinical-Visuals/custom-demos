@@ -27,7 +27,7 @@ const Counter = ({ value, duration = 2 }: { value: number; duration?: number }) 
 
 const About = () => {
     return (
-        <section className="py-16 md:py-20 bg-white overflow-hidden" id="about">
+        <section className="py-16 md:py-20 bg-white overflow-hidden advance-inc-root" id="about">
             <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
                 {/* Left side: Hero About Image */}
                 <div

@@ -38,13 +38,13 @@ export default function TimescoNavbar() {
   return (
     <header
       className={`
-        fixed top-0 left-0 z-50 w-full
+        timesco-root fixed top-0 left-0 z-50 w-full
         transition-all duration-500
         ${visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}
       `}
     >
       <div className="bg-[#EDFFF1] backdrop-blur-md border-b border-[#d7e8da]">
-        <div className="mx-auto flex h-[72px] max-w-[1600px] items-center justify-between px-6">
+        <div className="custom-container flex h-[72px] items-center justify-between px-6">
 
           {/* Logo */}
           <div>

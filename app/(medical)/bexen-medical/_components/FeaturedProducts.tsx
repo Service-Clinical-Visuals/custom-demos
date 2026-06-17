@@ -12,9 +12,9 @@ export default function FeaturedProducts() {
   ];
 
   return (
-    <section className="py-20 text-white relative overflow-hidden bg-[url('/medical/bexen-medical/bg.jpg')] bg-cover bg-center bg-no-repeat">
+    <section className="medas-root py-20 text-white relative overflow-hidden bg-[url('/medical/bexen-medical/bg.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-[#14387F]/80 z-0"></div>
-      <div className="container relative z-10 mx-auto px-4">
+      <div className="custom-container relative z-10 px-4">
         <div className="text-center mb-16">
           <h2 data-aos="fade-up" className="text-[32px] md:text-[40px] font-semibold mb-4">Our Featured Products</h2>
           <p data-aos="fade-up" data-aos-delay="100" className="text-[15px] text-blue-100 max-w-3xl mx-auto">

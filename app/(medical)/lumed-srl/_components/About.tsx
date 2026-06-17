@@ -6,7 +6,7 @@ import Typography from "./Typography";
 
 export default function About() {
     return (
-        <section className="w-full py-20 md:py-24 bg-[#F0FAFD]" id="about-us">
+        <section className="lumed-root w-full py-20 md:py-24 bg-[#F0FAFD] " id="about-us">
             <div className="custom-container mx-auto px-6 md:px-8 max-w-[1440px]">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
 
@@ -17,8 +17,8 @@ export default function About() {
                             <Typography
                                 variant="h5"
                                 color="secondary"
-                                weight="normal"
-                                className="tracking-wider block font-space-grotesk font-bold text-sm md:text-base"
+                                weight="bold"
+                                className="tracking-wider block font-space-grotesk font-bold"
                             >
                                 01 / About Us
                             </Typography>
@@ -26,7 +26,7 @@ export default function About() {
                             <Typography
                                 variant="h2"
                                 color="dark"
-                                className="text-[28px] md:text-[38px] leading-tight tracking-tight font-bold"
+                                className="leading-tight tracking-tight font-bold"
                             >
                                 Advancing the Future of Healthcare
                             </Typography>
@@ -37,21 +37,21 @@ export default function About() {
                             <Typography
                                 variant="body"
                                 color="muted"
-                                className="text-[15px] md:text-[16px] leading-relaxed font-normal"
+                                className=" leading-relaxed font-normal"
                             >
                                 For over 30 years, LUMED has been a leading manufacturer of cardiopulmonary diagnostic equipment. Our mission is to provide innovative, high-quality solutions for healthcare professionals, helping improve the diagnosis and monitoring of cardiac diseases.
                             </Typography>
                             <Typography
                                 variant="body"
                                 color="muted"
-                                className="text-[15px] md:text-[16px] leading-relaxed font-normal"
+                                className=" leading-relaxed font-normal"
                             >
                                 We acquired LUMED in 2000 and, drawing on our over twenty years of experience in the medical device sector, set ourselves the goal of leveraging their expertise and expanding our business to include other industrial and medical uses of thermal paper.
                             </Typography>
                             <Typography
                                 variant="body"
                                 color="muted"
-                                className="text-[15px] md:text-[16px] leading-relaxed font-normal"
+                                className=" leading-relaxed font-normal"
                             >
                                 LUMED srl is a manufacturing company that has been operating in the field of medical devices for the cardiopulmonary diagnostics for over 25 years. Our company started its activity in the field of thermal papers for medical and industrial applications and has constantly increased its products portfolio: from consumable and disposable accessories to equipment for basic cardiological and pulmonary diagnostics.
                             </Typography>

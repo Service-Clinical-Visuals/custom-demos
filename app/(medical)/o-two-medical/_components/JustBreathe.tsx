@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function JustBreathe() {
   return (
-    <section className="py-12 md:py-20 lg:py-24 bg-white" id="about">
+    <section className="o-two-medical-root py-12 md:py-20 lg:py-24 bg-white" id="about">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
