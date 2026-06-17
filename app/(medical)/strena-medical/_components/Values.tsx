@@ -33,7 +33,7 @@ export default function Values() {
               key={index}
               data-aos="fade-up"
               data-aos-delay={index * 100}
-              className="p-8 rounded-[30px] border border-gray-100 bg-white shadow-xl hover:shadow-2xl transition-all duration-500 flex gap-6 items-start"
+              className="p-8 rounded-[30px] border border-gray-100 bg-white shadow-xl hover:shadow-2xl transition-all duration-500 flex flex-col xl:flex-row gap-6 items-start"
             >
               {/* Icon Circle */}
               <div className="w-16 h-16 shrink-0 bg-[#00427C] rounded-full flex items-center justify-center shadow-lg">

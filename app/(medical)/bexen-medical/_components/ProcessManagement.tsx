@@ -78,7 +78,7 @@ export default function ProcessManagement() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 pt-16 grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-12">
+        <div className="border-t border-gray-200 pt-16 grid grid-cols-1 lg:grid-cols-2 items-center justify-between gap-12">
           <div className="flex gap-4 w-full lg:w-auto">
             {[
               { stat: <Counter target={7} suffix="K" />, label: "M2 Storage" },

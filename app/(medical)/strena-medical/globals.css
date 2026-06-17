@@ -46,7 +46,7 @@ p {
 /* Laptop Screen (1024px - 1279px) */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 95%;
   }
 }
 

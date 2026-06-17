@@ -8,7 +8,7 @@ export default function MedasHighlight() {
     <section className="w-full bg-gray-100 py-10 md:py-14 lg:py-20 medas-root">
       <div className="custom-container px-4">
 
-        <div className="grid md:grid-cols-2 gap-8 md:gap-10 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 md:gap-10 lg:gap-16 items-center">
 
           {/* LEFT CONTENT */}
           <div data-aos="fade-right" className="max-w-full">

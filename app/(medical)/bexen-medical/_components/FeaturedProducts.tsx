@@ -22,11 +22,11 @@ export default function FeaturedProducts() {
           </p>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-12 items-center">
-          <div data-aos="fade-right" data-aos-delay="200" className="w-full lg:w-1/2 aspect-[4/2.6] rounded-[24px] overflow-hidden bg-white/10 relative">
+        <div className="flex flex-col xl:flex-row gap-12 items-center">
+          <div data-aos="fade-right" data-aos-delay="200" className="w-full xl:w-1/2 aspect-[4/2.6] rounded-[24px] overflow-hidden bg-white/10 relative">
             <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
           </div>
-          <div data-aos="fade-left" data-aos-delay="300" className="w-full lg:w-1/2">
+          <div data-aos="fade-left" data-aos-delay="300" className="w-full xl:w-1/2">
             <h3 className="text-[24px] font-semibold mb-4">2-Way Foley Catheter</h3>
             <p className="text-[14px] text-blue-100 mb-8 leading-relaxed">
               The Foley 2-way urinary catheter is 100% silicone, with radiopaque line and latex-free balloon with non-return valve, and it is colour-coded.

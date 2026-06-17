@@ -20,7 +20,7 @@ const GlobalPresence = () => {
 
     return (
         <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/global-bg.png')] bg-cover bg-center relative overflow-hidden advance-inc-root">
-            <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+            <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-20 items-center">
                 <div
                     className="z-10"
                     data-aos="fade-right"

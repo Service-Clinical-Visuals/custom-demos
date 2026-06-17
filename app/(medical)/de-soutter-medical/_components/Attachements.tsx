@@ -16,9 +16,9 @@ export default function Attachments() {
           className="object-cover opacity-[0.15]"
         />
       </div>
-      <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch px-6">
+      <div className="relative container mx-auto grid grid-cols-1 xl:grid-cols-12 gap-10 items-stretch px-6">
         {/* LEFT IMAGE */}
-        <div data-aos="fade-left" className="lg:col-span-7 space-y-6">
+        <div data-aos="fade-left" className="xl:col-span-7 space-y-6 order-2 xl:order-1">
           <div className="w-full aspect-video rounded-2xl overflow-hidden bg-white/40 flex items-center justify-center">
             {/* <Image
               src="/products/attachment-main.png" // 👉 put image in public/products/
@@ -39,7 +39,7 @@ export default function Attachments() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div data-aos="fade-right" className="lg:col-span-5 space-y-6">
+        <div data-aos="fade-right" className="xl:col-span-5 space-y-6 order-1 xl:order-2">
           <h2 className="text-[#333333] text-[22px] font-medium">
             hekaDrill™ - Attachments
           </h2>

@@ -28,15 +28,15 @@ const Counter = ({ value, duration = 2 }: { value: number; duration?: number }) 
 const About = () => {
     return (
         <section className="py-16 md:py-20 bg-white overflow-hidden advance-inc-root" id="about">
-            <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+            <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-16 xl:gap-20 items-center">
                 {/* Left side: Hero About Image */}
                 <div
-                    className="relative order-2 lg:order-1 flex justify-center lg:block"
+                    className="relative order-2 xl:order-1 flex justify-center xl:block"
                     data-aos="fade-right"
                 >
-                    <div className="relative group w-full max-w-2xl lg:max-w-none">
+                    <div className="relative group w-full max-w-2xl xl:max-w-none">
                         <div className="absolute inset-0 bg-[#00aeef]/10 rounded-[2rem] -rotate-10 transform transition-transform group-hover:rotate-0" />
-                        <div className="relative overflow-hidden rounded-[2rem] shadow-2xl aspect-video lg:aspect-[4/3] p-8 group">
+                        <div className="relative overflow-hidden rounded-[2rem] shadow-2xl aspect-video xl:aspect-[4/3] p-8 group">
                             <div className="absolute inset-0 transition-transform duration-700 hover:scale-105">
                                 <div className="w-full h-full">
                                     <img src="advanced-instruments/images/about-1.png" alt="about-1" className="w-full h-full object-cover" />
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
 
                 {/* Right side: Content */}
-                <div className="order-1 lg:order-2">
+                <div className="order-1 xl:order-2">
                     <SectionHeader
                         label="About Us"
                         title="Delivering Quality Medical Equipment and Trusted Healthcare Solutions"

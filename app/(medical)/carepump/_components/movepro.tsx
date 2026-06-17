@@ -17,7 +17,7 @@ export default function MoveProFeatures() {
       <div className="container mx-auto relative z-10">
 
         {/* Top Section */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid xl:grid-cols-2 gap-12 items-center">
 
           {/* Left Content */}
           <div data-aos="fade-right">

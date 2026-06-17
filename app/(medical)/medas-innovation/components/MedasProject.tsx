@@ -28,7 +28,7 @@ export default function MedasProject() {
     <section className="relative w-full py-20 bg-[#3f5f9a] overflow-hidden medas-root">
       
       {/* Pattern Overlay */}
-      <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-repeat"></div>
+      <div className="absolute inset-0 opacity-10 bg-repeat"></div>
 
       <div className="relative custom-container px-4">
         
