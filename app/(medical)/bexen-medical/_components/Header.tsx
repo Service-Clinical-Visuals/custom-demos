@@ -53,7 +53,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex flex-col flex-1 pl-8">
+          <div className="hidden xl:flex flex-col flex-1 pl-8">
             {/* Top Tier */}
             {!isScrolled && (
               <div className="flex justify-end items-center gap-6 py-2 transition-all duration-300">
@@ -99,7 +99,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <button className="lg:hidden p-2 text-gray-600" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          <button className="xl:hidden p-2 text-gray-600" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>

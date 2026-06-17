@@ -18,9 +18,9 @@ const Precision = () => {
     return (
         <section className="relative py-28 bg-[url('/mci/images/precision.png')] bg-cover bg-center overflow-hidden mci-root ">
 
-            <div className="custom-container mx-auto px-6 md:px-12 grid lg:grid-cols-12 gap-16 items-center relative z-10">
+            <div className="custom-container mx-auto px-6 md:px-12 grid xl:grid-cols-12 gap-16 items-center relative z-10">
                 {/* Left: Image/Video Card */}
-                <div className="relative order-1 lg:col-span-6" data-aos="fade-right">
+                <div className="relative order-1 xl:col-span-6" data-aos="fade-right">
                     <div className="aspect-[16/9] p-2 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl relative overflow-hidden flex items-center justify-center">
                         <video
                             key={currentVideoIndex}
@@ -35,7 +35,7 @@ const Precision = () => {
                 </div>
 
                 {/* Right: Content Area */}
-                <div className="space-y-10 order-2 lg:col-span-6" data-aos="fade-left">
+                <div className="space-y-10 order-2 xl:col-span-6" data-aos="fade-left">
                     <div className="space-y-6">
                         <SectionHeader
                             light

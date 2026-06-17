@@ -16,11 +16,11 @@ export default function Highlight() {
           className="object-cover opacity-[0.15]"
         />
       </div>
-      <div className="container grid grid-cols-1 px-6 lg:grid-cols-12 gap-10 items-center">
+      <div className="container grid grid-cols-1 px-6 xl:grid-cols-12 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div
           data-aos="fade-left"
-          className="lg:col-span-5 text-[#FFFFFF] space-y-6">
+          className="xl:col-span-5 text-[#FFFFFF] space-y-6">
           <h2 className="text-[#FFFFFF] text-[22px] font-medium">hekaDrill™</h2>
 
           <p className="text-[#FFFFFF] text-base">
@@ -69,7 +69,7 @@ export default function Highlight() {
         {/* RIGHT IMAGE */}
         <div
           data-aos="fade-right"
-          className="lg:col-span-7 w-full aspect-video bg-[#FFFFFF]/20 rounded-2xl overflow-hidden backdrop-blur-sm flex items-center justify-center">
+          className="xl:col-span-7 w-full aspect-video bg-[#FFFFFF]/20 rounded-2xl overflow-hidden backdrop-blur-sm flex items-center justify-center">
           {/* <video
             src="/video/hekadrill.mp4" // 👉 put your video in public/video/
             autoPlay

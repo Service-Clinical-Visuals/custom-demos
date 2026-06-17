@@ -36,7 +36,7 @@ export default function VideoSection() {
           </div>
 
           {/* Right Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4 w-full sm:w-auto">
             <button className="flex-1 sm:flex-none px-8 py-2 rounded-full text-[18px] font-semibold bg-linear-to-r from-[#009B43] to-[#2353A3] text-white hover:shadow-md transition text-center cursor-pointer">
               Features and Benefits
             </button>

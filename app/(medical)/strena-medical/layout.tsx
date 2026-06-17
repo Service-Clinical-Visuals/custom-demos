@@ -13,9 +13,6 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Strena Medical",
   description: "Reliable Healthcare, Made Accessible",
-  icons: {
-    icon: "/strena-medical/logo.png",
-  },
 };
 
 export default function RootLayout({
