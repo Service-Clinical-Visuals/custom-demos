@@ -6,7 +6,7 @@ export default function BeyondWhoWe() {
 
   return (
     <section className="w-full bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-12" style={{ fontFamily: "var(--font-outfit)" }}> 
-      <div className="w-full custom-container mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <div className="w-full custom-container mx-auto grid xl:grid-cols-2 gap-8 xl:gap-12 items-center">
         
         {/* LEFT CONTENT */}
         <div data-aos="fade-right">

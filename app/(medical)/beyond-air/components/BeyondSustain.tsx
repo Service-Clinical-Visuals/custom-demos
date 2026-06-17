@@ -50,7 +50,7 @@ export default function BeyondSustain() {
         </div>
 
         {/* MAIN GRID */}
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid xl:grid-cols-2 gap-8 xl:gap-12 items-center">
           
           {/* LEFT CONTENT */}
           <div data-aos="fade-left">

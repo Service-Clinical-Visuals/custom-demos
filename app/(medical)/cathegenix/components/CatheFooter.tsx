@@ -31,12 +31,12 @@ export default function CatheFooter() {
 
   return (
     <footer className="overflow-hidden bg-[#eff4fc] py-10 cathegenix-root">
-      <div className="custom-container px-8 lg:px-14">
+      <div className="custom-container px-8 xl:px-14">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}
 
-        <div className="grid gap-16 lg:grid-cols-[1.5fr_0.55fr_0.75fr_0.9fr]">
+        <div className="grid gap-10 sm:grid-cols-2 xl:grid-cols-[1.5fr_0.55fr_0.75fr_0.9fr] xl:gap-16">
           {/* ================================================= */}
           {/* BRAND */}
           {/* ================================================= */}
@@ -167,7 +167,7 @@ export default function CatheFooter() {
 
 
         <div
-          className="flex justify-center mt-8 border-t border-[#DDDDDD] lg:pt-6"
+          className="flex justify-center mt-8 border-t border-[#DDDDDD] pt-6"
         >
           <p className="text-center text-base text-[#777777]">
             Copyright © 2026 CatheGenix Pte. Ltd., Singapore [SiteMap]

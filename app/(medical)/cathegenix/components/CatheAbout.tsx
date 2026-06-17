@@ -8,12 +8,12 @@ export default function CatheAbout() {
 
   return (
     <section className="overflow-hidden bg-white py-24 cathegenix-root">
-      <div className="custom-container px-8 lg:px-14">
+      <div className="custom-container px-8 md:px-6 lg:px-8 mx-auto">
         {/* ================================================= */}
         {/* MAIN GRID */}
         {/* ================================================= */}
 
-        <div className="grid items-stretch gap-16 lg:grid-cols-[1.05fr_1fr]">
+        <div className="grid items-stretch gap-16 md:gap-10 xl:grid-cols-[1.05fr_1fr]">
           {/* ================================================= */}
           {/* LEFT IMAGE */}
           {/* ================================================= */}

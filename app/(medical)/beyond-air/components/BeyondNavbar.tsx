@@ -21,7 +21,7 @@ export default function BeyondNavbar() {
   // Close menu on resize to desktop
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024) setIsMenuOpen(false);
+      if (window.innerWidth >= 1280) setIsMenuOpen(false);
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
@@ -61,7 +61,7 @@ export default function BeyondNavbar() {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex gap-8 text-base text-[#666666] navbar">
+        <nav className="hidden xl:flex gap-5 text-base text-[#666666] navbar">
           {navLinks.map(({ label, active }) => (
             <a
               key={label}
@@ -74,7 +74,7 @@ export default function BeyondNavbar() {
 
         {/* Hamburger Button — mobile & tablet only */}
         <button
-          className="lg:hidden flex flex-col justify-center items-center w-11 h-11 gap-1.25 rounded focus:outline-none"
+          className="xl:hidden flex flex-col justify-center items-center w-11 h-11 gap-[5px] rounded focus:outline-none"
           onClick={() => setIsMenuOpen((prev) => !prev)}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           aria-expanded={isMenuOpen}
@@ -99,7 +99,7 @@ export default function BeyondNavbar() {
 
       {/* Mobile / Tablet Dropdown Menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`xl:hidden overflow-hidden transition-all duration-300 ease-in-out ${
           isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         }`}
       >

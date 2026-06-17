@@ -12,12 +12,12 @@ export default function CatheFeatures() {
     <section className="relative overflow-hidden bg-[#0047A6] py-24 cathegenix-root">
 
 
-      <div className="relative z-10 custom-container px-8 lg:px-14">
+      <div className="relative z-10 custom-container px-8 md:px-6 xl:px-14">
         {/* ================================================= */}
         {/* GRID */}
         {/* ================================================= */}
 
-        <div className="grid items-stretch gap-10 lg:grid-cols-[0.9fr_1.2fr]">
+        <div className="grid items-stretch gap-10 md:grid-cols-1 xl:grid-cols-[0.9fr_1.2fr]">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
@@ -99,7 +99,7 @@ export default function CatheFeatures() {
           <div
             data-aos="fade-left"
             data-aos-delay="250"
-            className="relative h-full"
+            className="relative h-full min-h-[340px] xl:min-h-0"
           >
             {/* VIDEO CONTAINER */}
             <div className="relative h-full overflow-hidden rounded-[30px] shadow-[0_14px_40px_rgba(0,0,0,0.16)]">
