@@ -1,0 +1,185 @@
+@layer base {
+  :root {
+    --font-body-family: var(--font-dm), sans-serif;
+    --font-heading-family: var(--font-bigshoulder), sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #D61016;
+  --color-primary-hover: #b00d11;
+  --color-dark: #1A1A1A;
+  --color-text: #1A1A1A;
+  --color-gray-light: #f8f9fa;
+  --color-border: #e2e8f0;
+
+  /* font-bigshoulder and font-dm classes generated from these */
+  --font-bigshoulder: var(--font-bigshoulder), 'Big Shoulders Text', ui-sans-serif, sans-serif;
+  --font-dm: var(--font-dm), 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-dm);
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+
+}
+
+
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1921px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px and above) */
+@media (min-width: 2500px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 85%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions */
+@media (min-width: 2560px) {
+  .veedol-root {
+    zoom: 1.5;
+    transform-origin: top center;
+  }
+}
+
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions */
+@media (min-width: 3840px) {
+  .veedol-root {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
+}
