@@ -183,17 +183,3 @@ body {
     transform-origin: top center;
   }
 }
-
-::-webkit-scrollbar {
-  width: 2px;
-  height: 2px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #D61016;
-  border-radius: 99px;
-}

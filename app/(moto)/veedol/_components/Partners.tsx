@@ -39,7 +39,7 @@ export default function Partners() {
 
         {/* Partners Grid */}
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8  "
+          className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-8"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -50,7 +50,7 @@ export default function Partners() {
             return (
               <div
                 key={partner.name}
-                className={`bg-[#f9f9f9]/20 hover:bg-white border border-gray-200 rounded p-8 flex items-center justify-center transition-all duration-300 group aspect-[1.8/1] shadow-xs cursor-pointer 
+                className={`bg-[#f9f9f9]/20 hover:bg-white border border-gray-200 rounded p-4 sm:p-6 lg:p-8 flex items-center justify-center transition-all duration-300 group aspect-[1.8/1] shadow-xs cursor-pointer 
                   }`}
               >
                 <img

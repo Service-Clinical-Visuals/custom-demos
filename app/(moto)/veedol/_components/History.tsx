@@ -82,17 +82,17 @@ export default function History() {
 
         {/* Red background */}
 
-        <div className="absolute bottom-0 top-1 left-0 right-0 hidden h-[100%] md:h-[600px]  mt-5 md:mt-10 bg-primary lg:block" />
+        <div className="absolute bottom-0 top-1 left-0 right-0 hidden h-[100%] md:h-[600px]  mt-5 md:mt-10 bg-primary 2xl:block" />
 
         {/* Mobile background */}
 
-        <div className="absolute inset-0 bg-primary lg:hidden" />
+        <div className="absolute inset-0 bg-primary 2xl:hidden" />
 
-        <div className="relative grid items-start overflow-visible lg:grid-cols-[37%_63%]">
+        <div className="relative grid items-start overflow-visible 2xl:grid-cols-[37%_63%]">
 
           {/* ================= LEFT ================= */}
 
-          <div className="relative z-20 flex h-full flex-col justify-start px-8 sm:px-10 md:px-12 xl:px-16 pt-16 lg:pt-24 pb-12">
+          <div className="relative z-40 flex h-full flex-col justify-start px-8 sm:px-10 md:px-12 xl:px-16 pt-16 xl:pt-10 2xl:pt-24 pb-12 xl:pb-6 2xl:pb-12">
 
             <Typography
               as="h3"
@@ -104,9 +104,9 @@ export default function History() {
               {slide.year}: {slide.title}
             </Typography>
 
-            <div className="my-5 h-[2px] w-[60%] lg:w-[60%] bg-white" />
+            <div className="my-5 h-[2px] w-[60%] 2xl:w-[60%] bg-white" />
 
-            <div className="min-h-[140px] max-w-5xl mt-2">
+            <div className="min-h-[120px] max-w-5xl mt-2">
               <Typography
                 variant="h4"
                 weight="normal"
@@ -117,7 +117,7 @@ export default function History() {
               </Typography>
             </div>
 
-            <div className="mt-auto flex items-center gap-3 pt-6 lg:pt-10">
+            <div className="mt-auto flex items-center gap-3 pt-6 xl:pt-2 2xl:pt-10">
 
               <button
                 onClick={prev}
@@ -164,13 +164,9 @@ export default function History() {
 
           {/* ================= RIGHT ================= */}
 
-          <div className="relative z-30 flex items-end lg:-translate-y-10">
+          <div className="relative z-30 flex items-end 2xl:-translate-y-10">
 
-            <div className="relative h-[280px] w-full  sm:h-[340px] md:h-[420px] lg:h-[470px]">
-
-
-
-
+            <div className="relative h-[220px] w-full sm:h-[280px] md:h-[320px] lg:h-[360px] xl:h-[320px] 2xl:h-[470px] mt-4 xl:-mt-16 2xl:mt-0">
 
               {/* Image */}
 
@@ -178,7 +174,7 @@ export default function History() {
                 key={current}
                 src={slide.image}
                 alt={slide.alt}
-                className="absolute inset-0 h-full md:h-[550px] w-[100%] object-contain animate-historyFade"
+                className="absolute inset-0 h-full w-[100%] object-contain animate-historyFade"
               />
 
 

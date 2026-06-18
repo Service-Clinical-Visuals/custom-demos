@@ -23,11 +23,11 @@ export default function ProductDetail() {
   return (
     <section className="w-full bg-white py-12 md:py-18 mb-5 md:mb-10" id="product-detail">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 2xl:grid-cols-2 gap-10 2xl:gap-16 items-center">
 
           {/* ── Left: Video box ── */}
           <div
-            className="relative w-full aspect-video bg-[#e8e8e8] overflow-hidden"
+            className="relative w-full aspect-video bg-[#e8e8e8] overflow-hidden order-last 2xl:order-first"
             data-aos="fade-right"
           >
             {/* Checkerboard fallback pattern visible behind video */}
@@ -39,12 +39,7 @@ export default function ProductDetail() {
                 backgroundSize: "32px 32px",
               }}
             />
-            {/* "Video 02" label — matches screenshot placeholder text */}
-            <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-              <span className="text-2xl font-bigshoulder font-bold text-dark/50 tracking-wide select-none">
-                Video 02
-              </span>
-            </div>
+
             {/* Actual video player on top */}
             <DynamicVideoPlayer
               type="short"

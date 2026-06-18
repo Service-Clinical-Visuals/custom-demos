@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full h-screen pointer-events-none relative overflow-hidden flex items-end pb-20 md:pb-28 bg-[#020b24]"
+      className="w-full lg:z-60 mt-0.4 h-screen md:h-[105vh] pointer-events-none relative overflow-hidden flex items-end pb-20 md:pb-[10%] bg-[#020b24]"
       data-aos="fade-in"
     >
       {/* Background Video using DynamicVideoPlayer with motor lubricants backup */}
