@@ -10,10 +10,10 @@ import { Facebook, Instagram, Youtube, Linkedin, MapPin, Mail, Phone } from "luc
 const quickLinks = ["Home", "About Us", "Products", "News", "Contact"];
 
 const socialLinks = [
-  { icon: <Facebook size={16} />, href: "#", label: "Facebook" },
-  { icon: <Instagram size={16} />, href: "#", label: "Instagram" },
-  { icon: <Youtube size={16} />, href: "#", label: "YouTube" },
-  { icon: <Linkedin size={16} />, href: "#", label: "LinkedIn" },
+  { icon: <Facebook size={19} />, href: "#", label: "Facebook" },
+  { icon: <Instagram size={19} />, href: "#", label: "Instagram" },
+  { icon: <Youtube size={19} />, href: "#", label: "YouTube" },
+  { icon: <Linkedin size={19} />, href: "#", label: "LinkedIn" },
 ];
 
 export default function Footer() {
@@ -60,7 +60,7 @@ export default function Footer() {
                     key={s.label}
                     href={s.href}
                     aria-label={s.label}
-                    className="relative w-8 h-8 flex items-center justify-center group"
+                    className="relative w-8 h-8 xl:w-11 xl:h-11 flex items-center justify-center group"
                   >
                     <span className="absolute inset-0 bg-primary group-hover:bg-primary-hover transition-colors duration-200 transform -skew-x-[15deg]" />
                     <span className="relative z-10 text-white">{s.icon}</span>

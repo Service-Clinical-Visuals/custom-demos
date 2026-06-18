@@ -43,7 +43,7 @@ export default function Typography({
     h1: "text-[28px] sm:text-[34px] md:text-[42px] lg:text-[52px] xl:text-[56px] leading-[1.1] tracking-tight ",
     h2: "text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] xl:text-[44px] leading-[1.15] tracking-tight ",
     h3: "text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] leading-[1.2] ",
-    h4: "text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-[1.3] ",
+    h4: "text-[18px] sm:text-[20px] md:text-[24px] lg:text-[26px] xl:text-[26px] leading-[1.3] ",
     h5: "text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[1.4] ",
     h6: "text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[19px] leading-[1.5] ",
     h7: "text-[11px] sm:text-[12px] md:text-[12px] lg:text-[13px] xl:text-[14px] leading-[1.5] ",

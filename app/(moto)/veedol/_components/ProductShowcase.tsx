@@ -14,31 +14,7 @@ const products = [
       "Veedol Sintron J 0W-16 is a fuel economy SAE 0W-16 motor oil developed according to the most recent technology. Based on specially selected synthetic base oils and a well-balanced additive system.",
     image: "/moto/veedol-moto/product1.png",
     href: "#products",
-  },
-  {
-    id: 2,
-    name: "SUPER PLUS 10W-40",
-    description:
-      "Veedol Super Plus 10W-40 is a premium semi-synthetic engine oil for modern gasoline and diesel engines. Provides outstanding wear protection and superior engine cleanliness.",
-    image: "/moto/veedol-moto/product2.png",
-    href: "#products",
-  },
-  {
-    id: 3,
-    name: "TURBOSTAR 15W-40",
-    description:
-      "Veedol Turbostar 15W-40 is a high-performance heavy-duty diesel engine oil formulated to protect modern turbocharged diesel engines under severe operating conditions.",
-    image: "/moto/veedol-moto/product4.png",
-    href: "#products",
-  },
-  {
-    id: 4,
-    name: "POWERTEC 5W-30",
-    description:
-      "Veedol Powertec 5W-30 is a fully synthetic engine oil delivering exceptional fuel economy and long drain interval performance for latest generation passenger car engines.",
-    image: "/moto/veedol-moto/product6.png",
-    href: "#products",
-  },
+  }
 ];
 
 export default function ProductShowcase() {
@@ -58,12 +34,6 @@ export default function ProductShowcase() {
           className="relative bg-dark text-white flex flex-col justify-center px-10 md:px-16 py-16 md:py-20 overflow-hidden"
           data-aos="fade-right"
         >
-
-
-
-
-
-
           <div className="custom-container relative z-10 space-y-5">
             <Typography
               variant="h2"
@@ -73,10 +43,10 @@ export default function ProductShowcase() {
             >
               {product.name}
             </Typography>
-            <div className="w-[40%] h-[3px] bg-gray-400" />
+            <div className="w-[45%] h-[3px] bg-white" />
             <Typography
-              variant="body"
-              className=" leading-relaxed max-w-xl text-sm"
+              variant="h5"
+              className=" leading-relaxed font-dm max-w-3xl text-sm"
               color="white"
             >
               {product.description}
@@ -86,16 +56,13 @@ export default function ProductShowcase() {
               <div className="inline-flex">
                 <Button text="View Product" variant="primary" className="font-bigshoulder" href={product.href} />
               </div>
-
-
-
             </div>
           </div>
         </div>
 
         {/* Right: Product image with red diagonal background slab */}
         <div
-          className="relative bg-[#f5f5f5] flex items-center justify-center min-h-[300px] sm:min-h-[400px] lg:min-h-[440px] h-full overflow-hidden w-full"
+          className="relative bg-[#f5f5f5] flex items-center justify-center aspect-video h-full overflow-hidden w-full"
           data-aos="fade-left"
         >
           {/* Product video */}
@@ -105,11 +72,11 @@ export default function ProductShowcase() {
 
       {/* ── Row 2: OEM-approved product range banner ── */}
       <div
-        className="w-full bg-white border-t border-gray-100 py-12 md:py-16"
+        className="w-full bg-[#f5f5f5] border-t border-gray-100 py-12 md:py-16"
         data-aos="fade-up"
       >
         <Container>
-          <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+          <div className="flex flex-col md:flex-row items-center gap-5 md:gap-5">
             {/* Product bottles image */}
             <div className="relative flex-shrink-0 w-[50%] md:w-[50%]">
 
@@ -120,8 +87,6 @@ export default function ProductShowcase() {
                   className="w-full h-full object-contain drop-shadow-xl"
                 />
               </div>
-
-
             </div>
 
             {/* Descriptive text */}
@@ -130,9 +95,9 @@ export default function ProductShowcase() {
                 variant="h3"
                 color="dark"
                 weight="semibold"
-                className=" leading-snug max-w-2xl"
+                className=" leading-snug max-w-5xl"
               >
-                Veedol UK offers a comprehensive range of high-quality lubricants designed for every vehicle.
+                Veedol UK offers a comprehensive range of high-quality lubricants designed to meet the diverse needs of various vehicles and machinery.
               </Typography>
             </div>
           </div>

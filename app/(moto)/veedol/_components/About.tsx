@@ -37,7 +37,7 @@ export default function About() {
                 About Our Company
               </Typography>
               {/* Red Accent Underline */}
-              <div className="w-[40%] h-[3px] bg-primary" />
+              <div className="w-[52%] h-1 rounded-full bg-primary" />
             </div>
 
             {/* Description Paragraphs from the Screenshot */}

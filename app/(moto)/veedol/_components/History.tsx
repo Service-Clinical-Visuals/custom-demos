@@ -60,11 +60,11 @@ export default function History() {
             Our History
           </Typography>
 
-          <div className="mt-4 h-[3px] w-[19%] bg-primary" />
+          <div className="mt-4 h-1 rounded-full w-[19%] bg-primary" />
 
           <Typography
             as="h6"
-            variant="h6"
+            variant="h5"
             weight="normal"
             className="mt-6 font-dm max-w-full leading-7 text-[#666666]"
           >
@@ -96,7 +96,7 @@ export default function History() {
 
             <Typography
               as="h3"
-              variant="h3"
+              variant="h2"
               weight="bold"
               className="font-bigshoulder leading-tight"
               color="white"
@@ -104,13 +104,13 @@ export default function History() {
               {slide.year}: {slide.title}
             </Typography>
 
-            <div className="my-5 h-[2px] w-[60%] 2xl:w-[60%] bg-white" />
+            <div className="my-5 h-1 rounded-full w-[60%] 2xl:w-[60%] bg-white" />
 
-            <div className="min-h-[120px] max-w-5xl mt-2">
+            <div className="min-h-[120px] max-w-7xl mt-2">
               <Typography
                 variant="h4"
                 weight="normal"
-                className="font-bigshoulder line-spacing:1px  tracking-normal text-white"
+                className="font-bigshoulder  line-spacing:1px  tracking-normal text-white"
                 color="none"
               >
                 {slide.body}

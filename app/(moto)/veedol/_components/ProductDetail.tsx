@@ -55,7 +55,7 @@ export default function ProductDetail() {
             </Typography>
 
             {/* Red underline accent */}
-            <div className="w-[83%] h-[3px] bg-primary" />
+            <div className="w-[83%] h-1 rounded-full bg-primary" />
 
             {/* Intro paragraph */}
             <Typography as="p" variant="h6" color="body" weight="normal" className=" font-dm leading-relaxed">
@@ -82,7 +82,7 @@ export default function ProductDetail() {
                         {spec.label}
                       </Typography>
                     </span>{" "}
-                    <Typography as="span" variant="h6" color="dark" className="font-dm" weight="light">
+                    <Typography variant="h5" color="body" className="font-dm" weight="normal">
                       {spec.description}
                     </Typography>
                   </p>

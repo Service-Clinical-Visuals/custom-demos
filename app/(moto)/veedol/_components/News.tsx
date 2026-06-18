@@ -32,7 +32,7 @@ const newsItems = [
 
 export default function News() {
   return (
-    <section className="w-full py-14 md:py-20 bg-[#f9f9f9]" id="news">
+    <section className="w-full py-14 md:py-20 bg-[#f5f5f5]" id="news">
       <Container>
 
         {/* ── Section Header ── */}
@@ -42,7 +42,7 @@ export default function News() {
             Our Latest Insights &amp; News
           </Typography>
           {/* Red underline — short, centered */}
-          <div className="w-[28%] h-[3px] bg-primary mx-auto" />
+          <div className="w-[30%] h-[3px] bg-primary mx-auto" />
           {/* Sub-copy — two lines, centered, lighter weight */}
           <Typography as="p" variant="h6" color="body" weight="normal" align="center" className="max-w-[90%] font-dm mx-auto">
             Discover fresh insights, thought leadership, and key developments from our team.
@@ -74,12 +74,12 @@ export default function News() {
               {/* Card body */}
               <div className="flex flex-col flex-1 p-5 space-y-3">
                 {/* Date */}
-                <Typography as="p" variant="h6" color="muted" className="leading-none">
+                <Typography as="p" variant="h7" color="muted" className="font-dm leading-none">
                   {item.date}
                 </Typography>
 
                 {/* Title */}
-                <Typography as="h5" variant="h5" color="dark" weight="bold" className="leading-snug flex-1">
+                <Typography as="h4" variant="h4" color="dark" weight="bold" className="leading-snug flex-1">
                   {item.title}
                 </Typography>
 

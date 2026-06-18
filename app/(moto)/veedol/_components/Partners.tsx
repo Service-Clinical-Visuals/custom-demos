@@ -28,8 +28,10 @@ export default function Partners() {
           >
             Our Partners
           </Typography>
+          <div className="mb-2 m-auto h-1 w-[15%] bg-gray-800 rounded-full" />
+
           <Typography
-            variant="h6"
+            variant="h5"
             weight="normal"
             className="text-gray-600 font-dm font-normal leading-normal  "
           >
