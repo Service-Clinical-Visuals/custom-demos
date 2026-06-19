@@ -22,6 +22,10 @@
   font-family: var(--font-dm-sans);
 }
 
+section{
+overflow-x: hidden !important;
+overflow-y: hidden !important;
+}
 
 html,
 body {
@@ -112,14 +116,14 @@ html, body {
 /* Large Desktop PC Screen (1536px - 1919px) */
 @media (min-width: 1536px) and (max-width: 1920px) {
   .custom-container {
-    max-width: 95%;
+    max-width: 90%;
   }
 }
 
 /* Extra Large PC / 2K Screen (1920px - 2559px) */
 @media (min-width: 1921px) and (max-width: 2559px) {
   .custom-container {
-    max-width: 85%;
+    max-width:90%;
   }
   h2 { font-size: 32px !important; }
   h3 { font-size: 24px !important; }
@@ -155,51 +159,3 @@ html, body {
   a, button { font-size: 29.6px !important; }
 }
 
-
-.lucas-container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-@media (max-width: 480px) {
-  .lucas-container {
-    max-width: 65%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .lucas-container {
-    max-width: 65%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .lucas-container {
-    max-width: 70%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1535px) {
-  .lucas-container {
-    max-width: 80%;
-  }
-}
-
-@media (min-width: 1536px) and (max-width: 1920px) {
-  .lucas-container {
-    max-width: 75%;
-  }
-}
-
-@media (min-width: 1921px) and (max-width: 2559px) {
-.lucas-container {
-    max-width: 75%;
-  }
-}
-
-/* Ultra-wide Screen / Max Cover (2560px and above) */
-@media (min-width: 2560px) and (max-width: 3800px) {
-  .lucas-container {
-    max-width:75%;
-  }
-}

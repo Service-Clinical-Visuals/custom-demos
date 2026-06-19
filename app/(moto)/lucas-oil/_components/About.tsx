@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function About() {
   return (
     <section className="w-full bg-[#081b37] py-16 md:py-24">
-      <div className="custom-container p-4 md:p-6 xl:px-35 ">
+      <div className="custom-container ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10 items-stretch">
           
           {/* Left Column */}
@@ -15,7 +15,7 @@ export default function About() {
               <img 
                 src="/moto/lucas-oil/setting.png" 
                 alt="Setting icon" 
-                className="w-7 h-7 object-contain"
+                className="w-6 h-6 object-contain"
               />
               <h2 className="!text-white text-3xl md:text-4xl font-semibold tracking-wide">
                 About Us

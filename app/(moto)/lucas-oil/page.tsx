@@ -12,7 +12,7 @@ import Footer from "./_components/Footer";
 
 export default function LucasOilPage() {
   return (
-    <main className="flex min-h-screen overflow-y-hidden flex-col w-full">
+    <main className="flex min-h-screen overflow-y-hidden overflow-x-hidden flex-col w-full">
       <Header />
       <Banner />
       <About />
