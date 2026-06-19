@@ -28,14 +28,14 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="w-full bg-[#0c2342] py-16 md:py-24">
-      <div className="custom-container p-4 md:p-6 xl:px-35 ">
+      <div className="custom-container">
         
         {/* Header */}
         <div className="flex justify-center items-center space-x-3 mb-12 lg:mb-16" data-aos="fade-up">
           <img 
             src="/moto/lucas-oil/setting.png" 
             alt="Setting icon" 
-            className="w-7 h-7 md:w-8 md:h-8 object-contain"
+            className="w-5 h-5 md:w-6 md:h-6 object-contain"
           />
           <h2 className="!text-white text-3xl md:text-4xl font-semibold tracking-wide">
             Our Testimonials
@@ -43,9 +43,9 @@ export default function Testimonials() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-6 mb-16 lg:mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-6 mb-16 lg:mb-20  ">
           {testimonials.map((item, idx) => (
-            <div key={idx} className="relative bg-white rounded-tl-[2rem] rounded-tr-[0.5rem] rounded-bl-[0.5rem]  p-6 lg:p-8 flex flex-col justify-between shadow-xl min-h-[240px]" data-aos="zoom-in" data-aos-delay={idx * 100}>
+            <div key={idx} className="relative bg-white rounded-tl-[2rem] rounded-tr-[0.5rem] rounded-bl-[0.5rem]  p-6 lg:p-8 flex flex-col justify-between shadow-xl min-h-[240px] mt-4 not-[]:md:mt-0" data-aos="zoom-in" data-aos-delay={idx * 100}>
               
               {/* Content */}
               <div>
@@ -63,9 +63,9 @@ export default function Testimonials() {
               {/* Footer */}
               <div className="flex justify-between items-end ">
                 <div>
-                  <p className="text-[#050a1f] text-sm md:text-[16px] font-medium">
+                  <p className="text-[#000000] text-sm md:text-[16px] font-medium">
                     {item.author}</p>
-                    <p className="text-[#4a5568] text-sm md:text-[16px] leading-[1.8] font-medium mt-1">
+                    <p className="text-[#000000] text-sm md:text-[16px] leading-[1.8] font-medium mt-1">
                     {item.location}</p>
                 </div>
                 <div className="w-10 h-10 rounded-full !bg-[#052C65] flex items-center justify-center text-white transition-transform hover:scale-110 cursor-pointer shadow-md flex-shrink-0">

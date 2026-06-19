@@ -46,14 +46,15 @@ const products = [
 export default function OurProducts() {
   return (
     <section className="w-full bg-[#081b37] py-16 md:py-24 relative">
-      <div className="custom-container relative">
+      <div className="custom-container relative ">
         
         {/* Decorative Brackets (Visible on large screens) */}
-        <div className="hidden xl:block absolute left-2 top-0 bottom-0 w-32 border-l-[25px] border-y-[25px] border-[#d1d5db] z-0"></div>
-        <div className="hidden xl:block absolute right-2 top-0 bottom-0 w-32 border-r-[25px] border-y-[25px] border-[#d1d5db] z-0"></div>
+        <div className="hidden xl:block absolute left-[-60px] top-1/2 -translate-y-1/2 h-[110%] w-20 border-l-[20px] border-y-[20px] border-[#d1d5db] z-0"></div>
+
+        <div className="hidden xl:block absolute right-[-60px] top-1/2 -translate-y-1/2 h-[110%] w-20 border-r-[20px] border-y-[20px] border-[#d1d5db] z-0"></div>
 
         {/* Main Content Box */}
-        <div className="relative z-10 p-4 md:p-6 xl:px-35 xl:py-12">
+        <div className="relative z-10 p-2 md:p-4">
           
           {/* Header */}
           <div className="flex flex-col sm:flex-row justify-between items-center mb-8 pb-4" data-aos="fade-up">
@@ -61,14 +62,14 @@ export default function OurProducts() {
               <img 
                 src="/moto/lucas-oil/setting.png" 
                 alt="Setting icon" 
-                className="w-7 h-7 md:w-8 md:h-8 object-contain"
+                className="w-5 h-5 md:w-6 md:h-6 object-contain"
               />
              <h2 className="!text-white text-3xl md:text-4xl font-semibold tracking-wide">
                 Our Products
               </h2>
             </div>
             
-            <Button href="#" variant="ternary">
+            <Button href="#" variant="ternary" >
               Shop Now
             </Button>
           </div>
@@ -76,7 +77,7 @@ export default function OurProducts() {
           {/* Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product, idx) => (
-              <div key={idx} className="relative h-[480px]  overflow-hidden group" data-aos="fade-up" data-aos-delay={idx * 100}>
+              <div key={idx} className="relative h-[600px]  overflow-hidden group" data-aos="fade-up" data-aos-delay={idx * 100}>
                 {/* Background Image */}
                 <Image 
                   src={product.image} 
@@ -86,12 +87,12 @@ export default function OurProducts() {
                 />
                                
                 {/* Content */}
-                <div className="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end h-full">
+                <div className="absolute inset-x-0 bottom-0 p-6 flex flex-col justify-end h-full">
                   <h3 className="!text-white text-[22px] md:text-[24px] font-bold mb-4 !font-(family-name:--font-orbitron)">
                     {product.title}
                   </h3>
                   
-                  <div className="border border-white bg-[#00a8ff]/45 backdrop-blur-[1px] p-4 rounded-md">
+                  <div className="border border-white bg-[#00a8ff]/45 backdrop-blur-[1px] p-2 rounded-md mr-18">
                  
                     <ul className="space-y-2 mb-4">
                       {product.items.map((item, itemIdx) => (

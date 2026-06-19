@@ -21,11 +21,13 @@ const features = [
 export default function InsideProduct() {
   return (
     <section className="w-full !bg-[#081b37] py-16 md:py-24 overflow-hidden">
-      <div className="lucas-container  p-4 md:px-18 xl:px-22">
-        <div className="flex flex-col lg:flex-row items-stretch justify-center relative">
+      <div className="custom-container ">
+        <div className="flex flex-col 2xl:flex-row items-stretch justify-center relative lg:px-12 xl:px-24">
           
           {/* Left Column (Text) */}
-          <div className="w-full lg:w-[45%]  bg-[#08263d] border border-[#00d2ff] rounded-t-3xl rounded-b-3xl lg:rounded-r-none lg:rounded-l-[2rem] p-8 md:p-12 z-10 flex flex-col justify-center" data-aos="fade-right">
+          <div className="w-full 2xl:w-[45%] bg-[#08263d] border border-[#00d2ff] rounded-3xl rounded-r-none rounded-l-[2rem]   p-8 md:p-12 z-10 flex flex-col justify-center " data-aos="fade-right">
+            <div className="w-full 2xl:w-[85%] pr-5">
+
             <h2 className="!text-white text-3xl md:text-4xl font-semibold mb-6 tracking-wide">
               Inside the Product
             </h2>
@@ -46,6 +48,7 @@ export default function InsideProduct() {
                 </div>
               ))}
             </div>
+            </div>
             
             <div>
               <Button href="#" variant="ternary">
@@ -55,7 +58,7 @@ export default function InsideProduct() {
           </div>
           
           {/* Right Column (Video) */}
-          <div className="w-full lg:w-[60%] h-[350px] md:h-[450px] lg:h-auto min-h-[400px] rounded-3xl overflow-hidden relative lg:-ml-8 mt-8 lg:mt-6 lg:mb-6 z-20 shadow-2xl aspect-video" data-aos="fade-left">
+          <div className="w-full 2xl:w-[60%]  rounded-[2rem] overflow-hidden relative 2xl:-ml-32 mt-8 2xl:mt-10 2xl:mb-10 z-20 shadow-2xl aspect-video" data-aos="fade-left">
             <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
