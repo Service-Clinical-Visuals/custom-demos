@@ -27,7 +27,7 @@ export default function BeyondInnovation() {
         <img src="/beyond-air/assets/beyond-bg.png" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
 
-      <div className="custom-container mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <div className="custom-container mx-auto grid xl:grid-cols-2 md:grid-cols-1 gap-8 lg:gap-12 items-center">
 
         {/* LEFT MEDIA */}
         <div data-aos="fade-right">

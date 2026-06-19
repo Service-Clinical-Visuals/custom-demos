@@ -80,9 +80,9 @@ body {
 
 /* Laptop Screen (1024px - 1279px) */
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .custom-container { max-width: 85%; }
+  .custom-container { max-width: 90%; }
   h1 { font-size: 3rem;     line-height: 1.15; }
-  h2 { font-size: 2.25rem;  line-height: 1.2; }
+  h2 { font-size: 2.25rem;  line-height: 1.2; } 
   h3 { font-size: 1.875rem; line-height: 1.25; }
   h4 { font-size: 1.5rem;   line-height: 1.3; }
   h5 { font-size: 1.25rem;  line-height: 1.4; }

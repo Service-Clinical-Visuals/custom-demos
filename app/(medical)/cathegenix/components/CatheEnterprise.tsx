@@ -93,12 +93,12 @@ export default function CatheEnterprise() {
       {/* ================================================= */}
 
       <div className="py-16 md:py-24">
-        <div className="grid custom-container gap-10 px-8 lg:grid-cols-[0.8fr_1.5fr] lg:gap-5 lg:px-14">
+        <div className="grid custom-container gap-10 px-8 md:px-6 md:grid-cols-1 xl:grid-cols-[0.8fr_1.5fr] xl:gap-5 xl:px-14">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}
 
-          <div className="max-w-full lg:max-w-[440px]">
+          <div className="max-w-full md:max-w-[80%]  lg:max-w-[80%]] ">
             {/* TITLE */}
             <div data-aos="fade-up">
               <h2 className="text-3xl font-semibold tracking-[-1.5px] text-[#2B2B2B] md:text-4xl md:tracking-[-2px]">
@@ -133,11 +133,11 @@ export default function CatheEnterprise() {
           {/* RIGHT — CAROUSEL */}
           {/* ================================================= */}
 
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-center mt-10 lg:mt-0">
+          <div className="flex flex-col gap-6 xl:flex-row xl:items-center mt-10 xl:mt-0">
             {/* LEFT ARROW — desktop only */}
             <button
               onClick={() => scroll("left")}
-              className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white  transition-all duration-300 hover:scale-105"
+              className="hidden xl:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white  transition-all duration-300 hover:scale-105"
             >
               <ArrowLeft size={20} strokeWidth={2.8} />
             </button>
@@ -169,16 +169,16 @@ export default function CatheEnterprise() {
             </div>
 
             {/* ARROWS — mobile/tablet: shown below cards as a row */}
-            <div className="flex justify-center gap-4 lg:contents">
+            <div className="flex justify-center gap-4 xl:contents">
               <button
                 onClick={() => scroll("left")}
-                className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+                className="flex xl:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
               >
                 <ArrowLeft size={20} strokeWidth={2.8} />
               </button>
               <button
                 onClick={() => scroll("right")}
-                className="flex lg:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+                className="flex xl:hidden cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
               >
                 <ArrowRight size={20} strokeWidth={2.8} />
               </button>
@@ -187,7 +187,7 @@ export default function CatheEnterprise() {
             {/* RIGHT ARROW — desktop only */}
             <button
               onClick={() => scroll("right")}
-              className="hidden lg:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
+              className="hidden xl:flex cursor-pointer h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-[#0047A6] text-white shadow-[0_10px_20px_rgba(0,71,166,0.2)] transition-all duration-300 hover:scale-105"
             >
               <ArrowRight size={20} strokeWidth={2.8} />
             </button>

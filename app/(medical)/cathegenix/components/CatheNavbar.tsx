@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -25,18 +26,18 @@ export default function CatheNavbar() {
 
       <header className="fixed left-0 top-0 z-50 w-full cathegenix-root">
         <div className="border-b border-black/5 bg-white/92 backdrop-blur-md">
-          <div className="flex h-[86px] custom-container items-center justify-between px-8 lg:px-14">
+          <div className="flex h-[86px] custom-container items-center justify-between px-8 xl:px-14">
 
             <div className="flex items-center gap-4">
               {/* LOGO */}
-              <img src="/cathegenix/cathe-logo.png" alt="logo" className="w-44 sm:w-52 lg:w-60" />
+              <img src="/cathegenix/cathe-logo.png" alt="logo" className="w-44 sm:w-52 xl:w-60" />
             </div>
 
             {/* ================================================= */}
             {/* NAV LINKS — desktop */}
             {/* ================================================= */}
 
-            <nav className="hidden items-center gap-10 lg:flex">
+            <nav className="hidden items-center gap-10 xl:flex">
               {navLinks.map((item, index) => (
                 <Link
                   key={item}
@@ -58,7 +59,7 @@ export default function CatheNavbar() {
             {/* ================================================= */}
             {/* CTA — desktop */}
             {/* ================================================= */}
-            <button className="hidden lg:flex cursor-pointer relative group h-[46px] items-center bg-[#05429B] overflow-hidden">
+            <button className="hidden xl:flex cursor-pointer relative group h-[46px] items-center bg-[#05429B] overflow-hidden">
               <span className="px-6 text-base font-semibold text-white transition-all duration-300 group-hover:pr-12">
                 Service Portal
               </span>
@@ -74,7 +75,7 @@ export default function CatheNavbar() {
             {/* ================================================= */}
 
             <button
-              className="lg:hidden flex items-center justify-center w-10 h-10 text-[#1d1d1d]"
+              className="xl:hidden flex items-center justify-center w-10 h-10 text-[#1d1d1d]"
               onClick={() => setMenuOpen((prev) => !prev)}
               aria-label="Toggle menu"
             >
@@ -88,7 +89,7 @@ export default function CatheNavbar() {
         {/* ================================================= */}
 
         <div
-          className={`lg:hidden overflow-hidden bg-white/96 backdrop-blur-md border-b border-black/5 transition-all duration-300 ease-in-out ${
+          className={`xl:hidden overflow-hidden bg-white/96 backdrop-blur-md border-b border-black/5 transition-all duration-300 ease-in-out ${
             menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >

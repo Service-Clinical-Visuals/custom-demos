@@ -53,14 +53,14 @@ body {
 /* Tablet / Tab Screen (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 93%;
   }
 }
 
 /* Laptop Screen (1024px - 1279px) */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 93%;
   }
 }
 

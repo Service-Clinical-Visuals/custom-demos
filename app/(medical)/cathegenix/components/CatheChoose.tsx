@@ -24,14 +24,14 @@ export default function CatheChoose() {
       {/* ================================================= */}
 
       <div className="border-b border-black/5 py-8">
-        <div className="grid custom-container items-stretch gap-20 px-8 lg:grid-cols-[1fr_0.95fr] lg:px-14">
+        <div className="grid custom-container items-stretch gap-20 px-8 xl:grid-cols-[1fr_0.95fr] xl:px-14">
           {/* ================================================= */}
           {/* LEFT VIDEO / IMAGE */}
           {/* ================================================= */}
 
           <div
             data-aos="fade-right"
-            className="relative overflow-hidden rounded-[26px] bg-white shadow-[0_12px_30px_rgba(0,0,0,0.08)]"
+            className="relative overflow-hidden rounded-[26px] bg-white shadow-[0_12px_30px_rgba(0,0,0,0.08)] order-2 xl:order-1"
           >
             <div className="h-full w-full min-h-[300px]">
               {/* PLACEHOLDER */}
@@ -46,7 +46,7 @@ export default function CatheChoose() {
           {/* RIGHT CONTENT */}
           {/* ================================================= */}
 
-          <div className="">
+          <div className="order-1 xl:order-2">
             {/* TITLE */}
             <div data-aos="fade-up">
               <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-2px] text-[#2B2B2B]">
@@ -102,7 +102,7 @@ export default function CatheChoose() {
       {/* ================================================= */}
 
       <div className="py-10">
-        <div className="grid custom-container items-center gap-20 px-8 lg:grid-cols-[0.95fr_1fr] lg:px-14">
+        <div className="grid custom-container items-center gap-20 px-8 xl:grid-cols-[0.95fr_1fr] xl:px-14">
           {/* ================================================= */}
           {/* LEFT CONTENT */}
           {/* ================================================= */}

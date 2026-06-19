@@ -31,7 +31,7 @@ export default function BeyondProduct() {
       <div className="custom-container mx-auto">
         
         {/* TOP CONTENT */}
-        <div className="grid lg:grid-cols-2 gap-10 items-center">
+        <div className="grid xl:grid-cols-2 gap-10 items-center">
           
           {/* LEFT */}
           <div data-aos="fade-up">
@@ -54,7 +54,7 @@ export default function BeyondProduct() {
         </div>
 
         {/* CARDS */}
-        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
+        <div className="mt-16 grid md:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-10">
           {products.map((item, index) => (
             <div
               key={index}

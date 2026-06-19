@@ -16,7 +16,7 @@ export default function BeyondCorporate() {
 
   return (
     <section className="w-full bg-[#F9F9F9] py-16" style={{ fontFamily: "var(--font-outfit)" }}>
-      <div className="custom-container mx-auto px-6 lg:px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="custom-container mx-auto px-6 grid xl:grid-cols-2 gap-8 xl:gap-12 items-center">
 
         {/* LEFT CONTENT */}
         <div data-aos="fade-up" className="max-w-xl 2xl:max-w-[90%]">

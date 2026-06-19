@@ -13,10 +13,10 @@ export default function BeyondFooter() {
       <div className="relative custom-container mx-auto px-6 lg:px-6">
 
         {/* TOP SECTION */}
-        <div className="grid md:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 xl:grid-cols-5 gap-10">
 
           {/* LEFT SIDE */}
-          <div data-aos="fade-up" className="md:col-span-2">
+          <div data-aos="fade-up" className="xl:col-span-2">
  
             {/* LOGO */}
             <div className="flex items-center gap-3">
@@ -48,7 +48,7 @@ export default function BeyondFooter() {
           </div>
 
           {/* RIGHT SIDE LINKS */}
-          <div className="md:col-span-6 lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-6 text-base">
+          <div className="xl:col-span-3 grid grid-cols-2 xl:grid-cols-4 gap-6 text-base">
 
             {/* COLUMN */}
             <div data-aos="fade-up" data-aos-delay="100">
