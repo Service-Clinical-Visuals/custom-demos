@@ -12,6 +12,11 @@
   --font-heading: var(--font-bebas-neue);
 }
 
+section{
+overflow-x: hidden !important;
+overflow-y:hidden !important;
+}
+
 html,
 body {
   color: var(--color-text);

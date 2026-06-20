@@ -1,0 +1,161 @@
+@layer base {
+  :root {
+    --font-body-family: var(--font-exo), sans-serif;
+    --font-heading-family: var(--font-bebas), sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E30613;
+  --color-primary-hover: #b00d11;
+  --color-dark: #333333;
+  --color-text: #333333;
+  --color-gray-light: #f8f9fa;
+  --color-border: #e2e8f0;
+
+  /* font-bebas and font-exo classes generated from these */
+  --font-bebas: var(--font-bebas), 'Bebas Neue', ui-sans-serif, sans-serif;
+  --font-exo: var(--font-exo), 'Exo 2', ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-exo);
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+
+}
+
+
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.custom-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+@media (min-width: 640px) {
+  .custom-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1921px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px and above) */
+@media (min-width: 2500px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 85%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions */
+@media (min-width: 2560px) {
+  .emka-root {
+    zoom: 1.5;
+    transform-origin: top center;
+  }
+}
+
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions */
+@media (min-width: 3840px) {
+  .emka-root {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
+}
