@@ -8,7 +8,7 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 xl:gap-12 items-center">
           
           {/* Left Side: Images */}
-          <div className="relative w-full flex justify-center xl:justify-start" data-aos="fade-right">
+          <div className="relative w-full flex justify-center xl:justify-start order-2 xl:order-1" data-aos="fade-right">
             <div className="relative flex items-stretch w-full aspect-[780/491]">
               
               {/* Product Card (Left) */}
@@ -41,7 +41,7 @@ export default function About() {
           </div>
 
           {/* Right Side: Content */}
-          <div className="flex flex-col gap-6" data-aos="fade-left" data-aos-delay="100">
+          <div className="flex flex-col gap-6 order-1 xl:order-2" data-aos="fade-left" data-aos-delay="100">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-black tracking-tight">About Us</h2>
             
             <div className="space-y-5 text-[#333333] text-md md:text-[16px] leading-[1.8]">

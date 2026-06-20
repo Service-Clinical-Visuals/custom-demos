@@ -19,7 +19,7 @@ export default function Button({ text, href = "#", className = "", variant = "pr
             <button className="flex items-center group cursor-pointer transition-transform hover:scale-105 duration-300">
               {/* Left Icon Circle */}
               <div className="w-[80px] h-[80px] md:w-[68px] md:h-[68px] rounded-full bg-[#111] flex items-center justify-center relative z-10 shadow-xl border border-black/20">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" className="text-white transition-transform duration-[800ms] ease-in-out group-hover:rotate-[360deg]">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" className="text-white animate-slow-spin group-hover:transition-transform duration-[800ms] ease-in-out group-hover:rotate-[360deg]">
                   {/* Outer circle */}
                   <circle cx="12" cy="12" r="11" />
                   {/* Inner circle */}

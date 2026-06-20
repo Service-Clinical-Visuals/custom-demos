@@ -120,13 +120,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   font-family: inherit !important;
 }
 
-/* .bg {
-  background-image: url("/moto/german-adler/bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-opacity: 20%;
-} */
+
  .bg {
   position: relative;
 }
@@ -141,4 +135,17 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   background-size: contain;
   opacity: 0.3;
   pointer-events: none;
+}
+
+@keyframes slowSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slowSpin 12s linear infinite;
 }

@@ -11,11 +11,11 @@ export default function Customers() {
   return (
     <section className="w-full py-20 lg:py-24 bg-white">
       <div className="custom-container">
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           
           {/* Card 1: Text Block */}
           <div 
-            className="border-[4px] border-[#fcc415] bg-white p-6 xl:p-8 flex flex-col h-full rounded-br-[60px]" 
+            className="border-[4px] border-[#fcc415] bg-white p-6 xl:p-8 flex flex-col h-full rounded-br-[60px] md:col-span-2 xl:col-span-1" 
             data-aos="fade-up"
           >
            
