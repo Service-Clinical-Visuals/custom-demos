@@ -75,7 +75,7 @@ export default function OurProducts() {
           </div>
 
           {/* Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
             {products.map((product, idx) => (
               <div key={idx} className="relative h-[600px]  overflow-hidden group" data-aos="fade-up" data-aos-delay={idx * 100}>
                 {/* Background Image */}

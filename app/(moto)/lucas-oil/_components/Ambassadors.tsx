@@ -35,12 +35,13 @@ export default function Ambassadors() {
         <div className="
             grid
             grid-cols-1
-            xl:grid-cols-[1fr_420px_1fr]
-            2xl:grid-cols-[1fr_480px_1fr]
+            md:grid-cols-[1fr_2fr_1fr]
+            xl:grid-cols-[1fr_1fr_1fr]
+            2xl:grid-cols-[1fr_2fr_1fr]
             items-center
-            gap-25
-            lg:gap-35
-            xl:gap-45
+            gap-15
+            lg:gap-15
+            xl:gap-35
           ">
           {/* Left Column - Images */}
           <div className="flex flex-col space-y-6 md:space-y-8" data-aos="fade-right">
@@ -100,7 +101,7 @@ export default function Ambassadors() {
               </h2>
             </div>
 
-            <p className="text-white text-sm md:text-[16px] leading-[1.8] align-center ">
+            <p className="text-white text-sm md:text-[16px] leading-[1.8] align-center px-6 md:px-0">
               Meet our ambassadors who represent the spirit of our brand with passion, dedication, and
               expertise. They are automotive enthusiasts who inspire communities, share their
               experiences, and help us build stronger connections with people who share the same
