@@ -8,13 +8,13 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Hybrid() {
   return (
-    <section id="hybrid" className="relative w-full py-10 lg:py-10 bg-white overflow-hidden">
+    <section id="hybrid" className="relative w-full py-10 min-[1641px]:py-10 bg-white overflow-hidden">
       <Container>
-        <div className="bg-[#181715] rounded-[2rem] lg:rounded-[3rem] px-6 lg:px-10  py-10 lg:py-10 ">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8 items-center">
+        <div className="bg-[#181715] rounded-[2rem] min-[1641px]:rounded-[3rem] px-6 min-[1641px]:px-10  py-10 min-[1641px]:py-10 ">
+          <div className="grid grid-cols-1 min-[1641px]:grid-cols-2 gap-8 min-[1641px]:gap-8 items-center">
 
             {/* Left Content - 360 Video Placeholder */}
-            <div className="w-full aspect-video rounded-xl flex items-center justify-center overflow-hidden relative order-2 lg:order-none" data-aos="fade-right">
+            <div className="w-full aspect-video rounded-xl flex items-center justify-center overflow-hidden relative order-2 min-[1641px]:order-none" data-aos="fade-right">
               <div className="absolute inset-0 flex items-center justify-center">
                 <DynamicVideoPlayer type="360" />
               </div>
@@ -22,16 +22,16 @@ export default function Hybrid() {
             </div>
 
             {/* Right Content */}
-            <div className="contents lg:flex lg:flex-col lg:space-y-8">
+            <div className="contents min-[1641px]:flex min-[1641px]:flex-col min-[1641px]:space-y-8">
 
-              <div className="order-1 lg:order-none w-full" data-aos="fade-left">
+              <div className="order-1 min-[1641px]:order-none w-full" data-aos="fade-left">
                 <Typography variant="h2" color="primary" className="font-teko leading-tight tracking-wide">
                   Hybrid Excellence
                 </Typography>
                 <div className="w-[32%] h-[1.5px] rounded bg-[#E4C012] mb-5"></div>
               </div>
 
-              <div className="space-y-6 text-[#d1d5db] order-3 lg:order-none w-full mt-2 lg:mt-0" data-aos="fade-left" data-aos-delay="100">
+              <div className="space-y-6 text-[#d1d5db] order-3 min-[1641px]:order-none w-full mt-2 min-[1641px]:mt-0" data-aos="fade-left" data-aos-delay="100">
                 <Typography variant="body" className="font-exo text-sm sm:text-base leading-relaxed">
                   German Gold Hybrid Excellence 0W-20 has been specially developed for the latest generation of downsized engines. The unique combination of base oils and additives helps to significantly reduce so-called LSPI (Low Speed Pre-Ignition).
                 </Typography>
@@ -41,7 +41,7 @@ export default function Hybrid() {
               </div>
 
               {/* Highlights */}
-              <div className="space-y-[14px] pt-2 order-2 lg:order-none">
+              <div className="space-y-[14px] pt-2 order-2 min-[1641px]:order-none">
                 {[
                   {
                     num: "01",
