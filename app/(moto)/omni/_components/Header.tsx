@@ -52,8 +52,8 @@ export default function Header() {
           headerState === "hidden" ? "-translate-y-[150%] opacity-0" : "translate-y-0 opacity-100"
         } ${headerState === "scrolled" ? "top-0" : "top-2"}`}
       >
-        <div className={`mx-auto w-full transition-all duration-700 ease-in-out ${
-          headerState === "scrolled" ? "max-w-full px-0" : "max-w-[95%] mx-auto "
+        <div className={`w-full transition-all duration-700 ease-in-out ${
+          headerState === "scrolled" ? "max-w-full px-0" : "custom-container"
         }`}>
           <div className={`bg-white shadow-sm flex items-center justify-between transition-all duration-700 ease-in-out ${
             headerState === "scrolled" 
