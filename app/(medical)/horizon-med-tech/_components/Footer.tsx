@@ -4,13 +4,13 @@ import { Linkedin, Phone, Mail, ArrowRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#064163] text-white pt-24 pb-0 relative overflow-hidden">
+    <footer className="w-full bg-[#064163] text-white pt-24 pb-0 relative overflow-hidden horizon-root">
       {/* Background Topographic lines (Using the same pattern as About/Training for consistency) */}
       <div
         className="absolute inset-0 opacity-[0.08] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
       />
 
-      <div className="container mx-auto px-4 md:px-12 relative z-10">
+      <div className="custom-container px-4 md:px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-20 mb-20">
 
           {/* Brand Column */}
@@ -18,7 +18,7 @@ export default function Footer() {
             <Link href="/horizon">
               <img src="/horizon/images/horizon-logo-footer.png" alt="Horizon Logo" className="w-32" />
             </Link>
-            <p className="text-gray-300 text-[17px] leading-relaxed font-light">
+            <p className="text-white text-[17px] leading-relaxed font-light">
               We are a clinically-led medical technology business. Our main focus is neonatal and paediatric health.
             </p>
             <div className="flex gap-4">
@@ -30,10 +30,10 @@ export default function Footer() {
 
           {/* Links Column */}
           <div className="flex flex-col gap-8">
-            <h4 className="font-bold text-xl tracking-tight text-white">Links</h4>
+            <h4 className="font-semibold text-xl text-white">Links</h4>
             <ul className="flex flex-col gap-4 text-[14px] text-gray-300 font-light">
               {["Home", "Products", "Training", "About Us", "Contact", "Anti Modern Slavery"].map((item) => (
-                <li key={item} className="hover:text-[#84CFFA] transition-colors cursor-pointer text-[17px]">
+                <li key={item} className="hover:text-white transition-colors cursor-pointer text-[17px]">
                   <Link href="#">{item}</Link>
                 </li>
               ))}
@@ -42,15 +42,15 @@ export default function Footer() {
 
           {/* Contact Column */}
           <div className="flex flex-col gap-8">
-            <h4 className="font-bold text-xl tracking-tight text-white">Contact Info</h4>
+            <h4 className="font-semibold text-xl text-white">Contact Info</h4>
             <div className="flex flex-col gap-6 text-[14px]">
               <div className="flex items-start gap-4">
                 <div className="mt-1 text-[#84CFFA]">
                   <Phone size={18} fill="currentColor" strokeWidth={0} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <span className="text-[13px] font-bold uppercase tracking-wider">Call Us On</span>
-                  <span className="font-bold text-base text-[17px]">+44 (0)330 043 9066</span>
+                  <span className="text-[13px] font-semibold">Call Us On</span>
+                  <span className="font-semibold text-base text-[17px]">+44 (0)330 043 9066</span>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -58,8 +58,8 @@ export default function Footer() {
                   <Mail size={18} fill="currentColor" strokeWidth={0} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <span className="text-[13px] font-bold uppercase tracking-wider">Email Us On</span>
-                  <span className="font-bold text-base text-[17px] lowercase">info@horizon-medtech.com</span>
+                  <span className="text-[13px] font-semibold">Email Us On</span>
+                  <span className="font-semibold text-base text-[17px] lowercase">info@horizon-medtech.com</span>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Footer() {
 
           {/* Newsletter Column */}
           <div className="flex flex-col gap-8">
-            <h4 className="font-bold text-xl tracking-tight text-white">Newsletter</h4>
+            <h4 className="font-semibold text-xl text-white">Newsletter</h4>
             <div className="relative group">
               <input
                 type="email"
@@ -84,9 +84,9 @@ export default function Footer() {
 
       {/* Branded Copyright Bar */}
       <div className="w-full bg-[#84CFFA] py-4 relative z-10">
-        <div className="container mx-auto px-4 text-center">
+        <div className="custom-container px-4 md:px-6 text-center">
           <p className="text-[#064163] text-[14px] font-medium tracking-wide">
-            © Copyright 2026 by <span className="font-bold">Horizon Med Tech</span>
+            © Copyright 2026 by <span className="font-semibold">Horizon Med Tech</span>
           </p>
         </div>
       </div>

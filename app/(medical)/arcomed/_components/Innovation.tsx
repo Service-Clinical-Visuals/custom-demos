@@ -24,8 +24,8 @@ const features = [
 
 export default function InnovationSection() {
   return (
-    <section className="bg-[#565A5C] py-20 lg:py-20 text-[#FFFFFF]">
-      <div className="container mx-auto px-6 space-y-16">
+    <section className="bg-[#565A5C] py-20 lg:py-20 text-[#FFFFFF] arcomed-root">
+      <div className="custom-container px-6 space-y-16">
         {/* Header Text */}
         <div className="text-center space-y-4 max-w-6xl mx-auto">
           <h2 className="text-2xl font-medium">The core of our success</h2>

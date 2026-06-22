@@ -10,8 +10,8 @@ const features = [
 
 export default function ProductFeature() {
   return (
-    <section className="w-full py-24 bg-white">
-      <div className="container mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-12 items-center gap-16">
+    <section className="w-full py-24 bg-white horizon-root">
+      <div className="custom-container px-4 md:px-6 grid grid-cols-1 lg:grid-cols-12 items-center gap-16">
 
         {/* Text Section */}
         <div className="flex flex-col gap-8 lg:col-span-5" data-aos="fade-right">

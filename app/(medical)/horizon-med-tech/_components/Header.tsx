@@ -33,10 +33,10 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="w-full relative z-50">
+    <header className="w-full relative z-50 horizon-root">
       {/* Top Bar - Full Width, White Background */}
       <div className="bg-[#064163] border-b border-gray-100 text-gray-600 h-[40px] hidden md:block">
-        <div className="container mx-auto px-4 md:px-12 h-full flex justify-between items-center text-[13px]">
+        <div className="custom-container px-4 md:px-6 h-full flex justify-between items-center text-[13px]">
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-white" />
@@ -63,11 +63,11 @@ export default function Header() {
       <div className="h-[75px] md:h-[80px] w-full bg-[#064163] relative">
         {/* Main Navbar - Full Width, Primary Color Background */}
         <nav className={`bg-white text-[#064163] shadow-md w-full transition-all duration-300 ease-in-out ${isScrolled ? 'fixed top-0 left-0 animate-in slide-in-from-top-full z-[60]' : 'absolute top-0 left-0 z-40'}`}>
-          <div className="container mx-auto h-[75px] md:h-[80px] px-4 md:px-12 flex justify-between items-center">
+          <div className="custom-container h-[75px] md:h-[80px] px-4 md:px-6 flex justify-between items-center">
             {/* Logo Section */}
             <Link href="/horizon-med-tech" className="flex items-center">
               <div className="">
-                <img src="/horizon/images/horizon-logo.png" alt="horizon-logo" className="w-24" />
+                <img src="/horizon/images/horizon-logo.png" alt="horizon-logo" className="w-28" />
               </div>
             </Link>
 

@@ -3,8 +3,8 @@ import { ArrowRight, ArrowRightIcon } from "lucide-react";
 
 const NewsSection = () => {
   return (
-    <section className="w-full bg-[#4A4F54] py-16 lg:py-20">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <section className="w-full bg-[#4A4F54] py-16 lg:py-20 arcomed-root">
+      <div className="custom-container px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Side: Content (col-span-5) */}
         <div
           data-aos="fade-left"

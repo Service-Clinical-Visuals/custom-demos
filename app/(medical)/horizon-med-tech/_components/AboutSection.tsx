@@ -3,8 +3,8 @@ import Button from "./Button";
 
 export default function AboutSection() {
   return (
-    <section className="w-full py-24 bg-[#F9F9F9]">
-      <div className="container mx-auto px-4 md:px-12">
+    <section className="w-full py-24 bg-[#F9F9F9] horizon-root">
+      <div className="custom-container px-4 md:px-6">
         {/* About Part */}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 mb-20">
           {/* Team Image Section */}

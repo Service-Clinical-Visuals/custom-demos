@@ -20,11 +20,11 @@ const products = [
 
 export default function IntensiveCare() {
   return (
-    <section className="w-full py-24 bg-[#064163] relative overflow-hidden">
+    <section className="w-full py-24 bg-[#064163] relative overflow-hidden horizon-root">
       <div
         className="absolute inset-0 opacity-[0.28] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
       />
-      <div className="container mx-auto px-4 md:px-12 relative z-10">
+      <div className="custom-container px-4 md:px-6 relative z-10">
         {/* Header Part */}
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] justify-between items-start md:items-end gap-10 mb-16">
           <div className="max-w-2xl" data-aos="fade-right">

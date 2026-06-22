@@ -4,18 +4,18 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function ModeOfOperations() {
   return (
-    <section className="w-full py-24 bg-white">
-      <div className="container mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-2 items-center gap-10 md:gap-16">
+    <section className="w-full py-24 bg-white horizon-root">
+      <div className="custom-container px-4 md:px-6 grid grid-cols-1 xl:grid-cols-12 items-center gap-10 md:gap-16">
 
         {/* Video Column */}
-        <div data-aos="fade-right">
+        <div data-aos="fade-right" className="xl:col-span-7">
           <div className="relative aspect-video rounded-3xl overflow-hidden flex items-center justify-center group cursor-pointer transition-all hover:bg-gray-100">
             <DynamicVideoPlayer type="short-2" className="absolute inset-0 w-full h-full object-cover z-0 " />
           </div>
         </div>
 
         {/* Info Column */}
-        <div className="flex flex-col gap-8" data-aos="fade-left">
+        <div className="flex flex-col gap-8 xl:col-span-5" data-aos="fade-left">
           <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] leading-tight">
             Intuitive design and Mode of Operations
           </h2>
@@ -46,6 +46,11 @@ export default function ModeOfOperations() {
                 <p className="text-[16px] text-[#827E76] leading-snug">Keeps the mattress temperature steady, regardless of any changes in the neonate's core temperature</p>
               </div>
             </div>
+          </div>
+          <div>
+            <Button href="#">
+              Download Brochure
+            </Button>
           </div>
         </div>
 

@@ -24,13 +24,13 @@ const services = [
 
 export default function TrainingServices() {
   return (
-    <section className="w-full py-24 bg-white relative overflow-hidden">
+    <section className="w-full py-24 bg-white relative overflow-hidden horizon-root">
       {/* Background Topographic lines (Simulated with SVG pattern) */}
       <div
         className="absolute inset-0 opacity-[0.4] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
       />
 
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <div className="custom-container px-4 md:px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
