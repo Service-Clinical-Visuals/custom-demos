@@ -26,16 +26,16 @@ export default function TrustedSolutions() {
             <div className="lg:col-span-6 flex flex-col items-start">
               {/* Header */}
               <div className="flex flex-col gap-2 mb-6" data-aos="fade-up">
-                {/* <h2 className="text-3xl md:text-4xl lg:text-[42px] font-heading font-bold text-dark tracking-wide uppercase leading-none"> */}
-                 <h2 className="text-md sm:text-2xl md:text-3xl lg:text-4xl sm:mt-2 lg:mt-0 font-heading font-medium text-dark tracking-wide  leading-[1.2] max-w-[800px]">
+            
+                 <h2 className="text-md sm:text-2xl md:text-3xl lg:text-4xl mt-2 sm:mt-2 lg:mt-0 font-heading font-medium text-dark tracking-wide  leading-[1.2] max-w-[800px]">
                   Trusted Lubrication Solutions for Every Journey
                 </h2>
                 <div className="w-60 sm:w-75 md:w-85 lg:w-95 h-[3px] bg-secondary mx-auto" />
               </div>
 
               {/* Main Paragraph */}
-              {/* <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-8 font-sans" data-aos="fade-up" data-aos-delay="100"> */}
-                <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed mt-6 mb-8" data-aos="fade-up" data-aos-delay="100">
+            
+                <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed mt-2 mb-8" data-aos="fade-up" data-aos-delay="100">
                 At Petrovöll, we combine innovation, quality, and technical expertise to create lubricants that
                 meet the evolving needs of modern vehicles and machinery. Every formulation is designed to
                 support optimal performance, minimize downtime, and provide long-lasting protection, helping
@@ -47,24 +47,24 @@ export default function TrustedSolutions() {
                 
                 {/* Feature 1 */}
                 <div className="flex flex-col items-start">
-                  <div className="flex items-center gap-2 text-secondary font-bold text-base sm:text-lg font-sans uppercase tracking-wider">
-                    <Wrench size={18} className="shrink-0" />
-                    <span className="text-[#cc0b10] text-[14px] sm:text-md md:text-lg lg:text-xl leading-relaxed">Proven Quality Standards</span>
+                  <div className="flex items-center gap-2 text-secondary font-medium text-base sm:text-lg font-sans  tracking-wider">
+                    <img src="/moto/petrovoll/setting.png"></img>
+                    <span className="text-[#cc0b10] text-[16px] sm:text-md md:text-xl lg:text-xl leading-relaxed !font-heading">Proven Quality Standards</span>
                   </div>
                   
-                  <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed " data-aos="fade-up" data-aos-delay="100">
+                  <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed mt-2 md:mt-0" data-aos="fade-up" data-aos-delay="100">
                     Manufactured under strict quality control processes to ensure consistent performance and reliability.
                   </p>
                 </div>
 
                 {/* Feature 2 */}
                 <div className="flex flex-col items-start">
-                  <div className="flex items-center gap-2 text-secondary font-bold text-base sm:text-lg font-sans uppercase tracking-wider">
-                    <Wrench size={18} className="shrink-0" />
-                    <span className="text-[#cc0b10] text-[14px] sm:text-md md:text-lg lg:text-xl leading-relaxed">Comprehensive Product Range</span>
+                  <div className="flex items-center gap-2 text-secondary font-medium text-base sm:text-lg font-sans  tracking-wider">
+                    <img src="/moto/petrovoll/setting.png"></img>
+                    <span className="text-[#cc0b10] text-[16px] sm:text-md md:text-lg lg:text-xl leading-relaxed !font-heading">Comprehensive Product Range</span>
                   </div>
                 
-                  <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed " data-aos="fade-up" data-aos-delay="100">
+                  <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed mt-2 md:mt-0 " data-aos="fade-up" data-aos-delay="100">
                     From engine oils and transmission fluids to greases and coolants, Petrovöll offers complete
                     lubrication solutions for every application.
                   </p>

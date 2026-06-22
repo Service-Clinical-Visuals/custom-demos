@@ -43,7 +43,7 @@ export default function Footer() {
                   className="h-16 xl:h-18 object-contain filter brightness-110"
                 />
               </Link>
-              <p className="text-[#ffffff] !font-heading text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
+              <p className="text-[#ffffff] !font-heading text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
                 Petrovöll GmbH is specialized in advanced high performance lubricants for automotive, industrial and marine applications.
               </p>
               {/* Social icons */}
@@ -72,7 +72,7 @@ export default function Footer() {
               <ul className="flex flex-col gap-2.5  text-sm sm:text-base text-white">
                 {quickLinks.map((link, idx) => (
                   <li key={idx} className="flex items-center gap-1 group">
-                    <p className="text-[#ffffff] !font-heading text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed ">                      {link.name}
+                    <p className="text-[#ffffff] !font-heading text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed ">                      {link.name}
 </p>
                     {link.hasDropdown && (
                      
@@ -91,7 +91,7 @@ export default function Footer() {
               <ul className="flex flex-col gap-2.5 font-sans text-sm sm:text-base text-white">
                 {productLinks.map((link, idx) => (
                   <li key={idx}>
-                    <p className="text-[#ffffff] !font-heading text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
+                    <p className="text-[#ffffff] !font-heading text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
                       {link.name}
                     </p>
                   </li>
@@ -108,14 +108,14 @@ export default function Footer() {
                 {/* Address */}
                 <li className="flex items-start gap-3">
                   <MapPin size={18} className="text-secondary shrink-0 mt-1" />
-                 <p className="text-[#ffffff] !font-heading text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
+                 <p className="text-[#ffffff] !font-heading text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
                     Handelsgesellschaft Für Mineralölprodukte mbH Huttropstraße 60, 45138, Essen, Germany
                   </p>
                 </li>
                 {/* Email */}
                 <li className="flex items-center gap-3">
                   <Mail size={18} className="text-secondary shrink-0" />
-                <p className="text-[#ffffff] !font-heading text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
+                <p className="text-[#ffffff] !font-heading text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
                     info@petrovoll.com
                   </p>
                 </li>
@@ -136,7 +136,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="w-full text-center">
-           <p className="text-[#ffffff] !font-sans text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
+           <p className="text-[#ffffff] !font-sans text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed "> 
               © {currentYear} Petrovoll | All Rights Reserved
             </p>
           </div>

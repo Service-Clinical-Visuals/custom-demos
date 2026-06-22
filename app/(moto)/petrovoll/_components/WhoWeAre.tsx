@@ -29,7 +29,7 @@ export default function WhoWeAre() {
             </div>
 
             {/* Description Paragraphs */}
-            <div className="flex flex-col gap-2 sm:gap-4 text-gray-700 text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+            <div className="flex flex-col gap-2 sm:gap-4 text-gray-700 text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed" data-aos="fade-up" data-aos-delay="100">
               <p>
                 Petrovöll GmbH specializes in the development, production and distribution of advanced high performance lubricants for automotive, industrial and marine applications. It was established in 1999 in Bochum, Germany and is a wholly owned subsidiary of the Haliburg Group of Companies.
               </p>

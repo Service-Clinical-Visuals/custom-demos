@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Button from "./Button";
 
 export default function OurFacility() {
   return (
@@ -20,7 +21,7 @@ export default function OurFacility() {
             </div>
 
             {/* Paragraph 1 */}
-            <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed mb-6 font-sans" data-aos="fade-up" data-aos-delay="50">
+            <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed mb-6 font-sans" data-aos="fade-up" data-aos-delay="50">
               Petrovöll GmbH specializes in the development, production and distribution of advanced high performance lubricants for automotive, industrial and marine applications. It was established in 1999 in Bochum, Germany and is a wholly owned subsidiary of the Haliburg Group of Companies.
             </p>
 
@@ -38,7 +39,7 @@ export default function OurFacility() {
             </div>
 
             {/* Paragraph 2 */}
-            <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed font-sans" data-aos="fade-up" data-aos-delay="150">
+            <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed font-sans" data-aos="fade-up" data-aos-delay="150">
               Petrovöll utilizes only the latest technologies and is equipped with a fully automated blending system made in Germany. Advanced logistics also provide the company's production team with unlimited growth opportunities. These advantages allow Petrovöll to deliver only the best quality products, achieve full customer satisfaction and remain committed to achieving full compliance in all aspects of the business.
             </p>
           </div>
@@ -70,7 +71,7 @@ export default function OurFacility() {
                   </div>
                   {/* Title (Fades and slides in on hover) */}
                   <div className="absolute bottom-6 left-6 z-20 max-w-[80%] opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300">
-                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-bold text-white tracking-wide uppercase leading-tight">
+                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-medium text-white tracking-wide uppercase leading-tight">
                       Blending & Filling Capacity
                     </h3>
                   </div>
@@ -97,7 +98,7 @@ export default function OurFacility() {
                   </div>
                   {/* Title (Fades and slides in on hover) */}
                   <div className="absolute bottom-6 left-6 z-20 max-w-[80%] opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300">
-                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-bold text-white tracking-wide uppercase leading-tight">
+                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-medium text-white tracking-wide uppercase leading-tight">
                       Quality Control
                     </h3>
                   </div>
@@ -127,7 +128,7 @@ export default function OurFacility() {
                   </div>
                   {/* Title (Fades and slides in on hover) */}
                   <div className="absolute bottom-6 left-6 z-20 max-w-[80%] opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300">
-                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-bold text-white tracking-wide uppercase leading-tight">
+                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-medium text-white tracking-wide uppercase leading-tight">
                       Laboratory
                     </h3>
                   </div>
@@ -146,17 +147,19 @@ export default function OurFacility() {
                   />
                   {/* Overlay (Fades in on hover) */}
                   <div className="absolute inset-0 bg-black/50 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  {/* Number (Fades and slides in on hover) */}
-                  <div className="absolute top-4 right-6 z-20 opacity-0 group-hover:opacity-100 -translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                    <span className="text-5xl sm:text-6xl font-heading font-extrabold text-white opacity-40 tracking-tight select-none">
-                      04
-                    </span>
-                  </div>
+                 
                   {/* Title (Fades and slides in on hover) */}
-                  <div className="absolute bottom-6 left-6 z-20 max-w-[80%] opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300">
-                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-bold text-white tracking-wide uppercase leading-tight">
-                      Packaging Automation
+                  <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center p-4  opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300">
+                    <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-medium text-white tracking-wide uppercase leading-tight max-w-[70%]">
+                      Get in touch with us for more details about our services!
                     </h3>
+                    <div className="mt-4">
+                      <Button
+                        text="Read More"
+                        variant="primary-slanted"
+                        href="#about"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>

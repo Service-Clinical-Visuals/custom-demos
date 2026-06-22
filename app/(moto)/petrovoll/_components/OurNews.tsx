@@ -70,11 +70,11 @@ export default function OurNews() {
                 <div className="flex items-center gap-6 text-sm text-gray-500 my-4 font-sans font-medium">
                   <div className="flex items-center gap-1.5 flex-row">
                     <Calendar size={16} className="text-secondary shrink-0" />
-                      <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed ">{item.date}</p>
+                      <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed ">{item.date}</p>
                   </div>
                   <div className="flex items-center gap-1.5 flex-row">
                     <MapPin size={16} className="text-secondary shrink-0" />
-                    <p className="text-[#484848] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed ">{item.location}</p>
+                    <p className="text-[#484848] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed ">{item.location}</p>
                   </div>
                 </div>
 

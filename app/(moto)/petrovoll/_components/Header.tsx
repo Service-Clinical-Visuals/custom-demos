@@ -1,11 +1,32 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const banner = document.getElementById("petrovoll-banner");
+      const threshold = banner ? banner.offsetHeight / 2 : 300;
+      if (window.scrollY >= threshold) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    // Set initial state on mount
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const navLinks = [
     { name: "Home", href: "/petrovoll" },
@@ -16,7 +37,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 select-none petrovoll-header-font bg-white">
+    <header className={`fixed top-0 left-0 w-full z-50 select-none petrovoll-header-font bg-white transition-all duration-500 ease-in-out ${
+      isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"
+    }`}>
       {/* Desktop Header: Three-segment Layout */}
       <div className="hidden lg:flex items-stretch h-[88px] w-full bg-white">
         {/* Left Segment: Dark Logo Wing */}

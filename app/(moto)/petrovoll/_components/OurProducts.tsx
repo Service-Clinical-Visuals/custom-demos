@@ -91,7 +91,7 @@ export default function OurProducts() {
 
           {/* Description Subtitle */}
           <div className="max-w-[800px] mx-auto text-center mb-16" data-aos="fade-up" data-aos-delay="100">
-            <p className="text-[#ffffff] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed">
+            <p className="text-[#ffffff] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed">
               Petrovöll GmbH specializes in the development, production and distribution of advanced high performance lubricants for automotive, industrial and marine applications. It was established in 1999 in Bochum, Germany and is a wholly owned subsidiary of the Haliburg Group of Companies.
             </p>
           </div>

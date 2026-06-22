@@ -43,7 +43,7 @@ export default function GasolineEngineOil() {
               </h2>
 
               {/* Description */}
-              <p className="text-[#ffffff] text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed mt-6 mb-8">
+              <p className="text-[#ffffff] text-[14px] sm:text-xs md:text-sm lg:text-base leading-relaxed mt-6 mb-8">
                 Petrovöll lubricants are developed using advanced additive technology and
                 premium base oils to deliver exceptional protection, efficiency, and reliability
                 across a wide range of automotive and industrial applications. Designed to
@@ -61,8 +61,8 @@ export default function GasolineEngineOil() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <Wrench className="text-secondary shrink-0 mt-0.5" size={18} />
-                    <span className="text-white text-[10px] sm:text-xs md:text-sm lg:text-base  font-sans font-medium">
+                    <img src="/moto/petrovoll/setting.png"></img>
+                    <span className="text-white text-[14px] sm:text-xs md:text-sm lg:text-base  font-sans font-medium">
                       {feature}
                     </span>
                   </div>

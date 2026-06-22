@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-auto aspect-video mt-[70px] lg:mt-[88px] overflow-hidden  flex items-end petrovoll-banner-font">
+    <section className="relative w-full h-screen  overflow-hidden  flex items-end petrovoll-banner-font">
       {/* Background Video / Fallback Overlay */}
       <div className="absolute inset-0 z-0">
         <DynamicVideoPlayer
@@ -26,7 +26,8 @@ export default function Banner() {
           </h2>
 
           {/* Slanted Button */}
-          <div className="mt-1 sm:mt-2">            <Button
+          <div className="mt-1 sm:mt-2">          
+              <Button
               text="Read More"
               variant="white-slanted"
               href="#about"
