@@ -27,11 +27,11 @@ export default function Footer() {
       </div>
 
       {/* Main Content */}
-      <div className="custom-container py-16 md:py-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-[5fr_1.5fr_1.5fr_2.5fr] gap-12 xl:gap-8">
+      <div className="custom-container py-10 md:py-14">
+        <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-[5fr_1.5fr_1.5fr_2.5fr] gap-6 md:gap-y-10 md:gap-x-16 xl:gap-8">
           
           {/* Column 1: Brand & Socials */}
-          <div className="flex flex-col pr-0 xl:pr-8 col-span-1 sm:col-span-2 xl:col-span-1" data-aos="fade-up">
+          <div className="flex flex-col pr-0 xl:pr-8 col-span-2 md:col-span-1 xl:col-span-1" data-aos="fade-up">
             <img 
               src="/moto/german-adler/footer logo.png" 
               alt="German Adler Logo" 
@@ -46,8 +46,8 @@ export default function Footer() {
               <img src="/moto/german-adler/footer5.png" className='w-8 h-8'></img>
             </div>
           </div>
-
-          {/* Column 2: Quick Links */}
+ 
+           {/* Column 2: Quick Links */}
           <div className="col-span-1" data-aos="fade-up" data-aos-delay="100">
             <h4 className="text-[#fcc415] font-semibold text-md md:text-[20px] leading-[1.8] mb-8 tracking-wide">Quick links</h4>
             <ul className="space-y-4 text-[13.5px] text-white/80 font-normal">
@@ -59,8 +59,8 @@ export default function Footer() {
               <li><p className="text-[#ffffff] text-md md:text-[16px] leading-[1.8] ">News</p></li>
             </ul>
           </div>
-
-          {/* Column 3: Products */}
+ 
+           {/* Column 3: Products */}
           <div className="col-span-1" data-aos="fade-up" data-aos-delay="200">
              <h4 className="text-[#fcc415] font-semibold text-md md:text-[20px] leading-[1.8] mb-8 tracking-wide">Products</h4>
             <ul className="space-y-4 text-[13.5px] text-white/80 font-normal">
@@ -71,9 +71,9 @@ export default function Footer() {
               <li className="pt-2"><p className="text-[#ffffff] text-md md:text-[16px] leading-[1.8] ">See More...</p></li>
             </ul>
           </div>
-
-          {/* Column 4: Contact */}
-          <div className="col-span-1 sm:col-span-2 xl:col-span-1" data-aos="fade-up" data-aos-delay="300">
+ 
+           {/* Column 4: Contact */}
+          <div className="col-span-2 md:col-span-1 xl:col-span-1" data-aos="fade-up" data-aos-delay="300">
              <h4 className="text-[#fcc415] font-semibold text-md md:text-[20px] leading-[1.8] mb-8 tracking-wide">Contact</h4>
             <div className="border border-white p-6 flex flex-col gap-6 text-[13px] text-white/90 font-normal">
               
