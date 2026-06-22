@@ -1,0 +1,282 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #ffd200;
+  --color-secondary: #e30613;
+  --color-dark: #1a1a1a;
+  --color-navy-blue: #000b29;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --font-sans: var(--font-montserrat), sans-serif;
+  --font-heading: var(--font-oswald), sans-serif;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.font-oswald {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+
+:root {
+  --primary-color: #1a1a1a;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+}
+
+section {
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2559px) */
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  h2 { font-size: 32px !important; }
+  h3 { font-size: 24px !important; }
+  h4 { font-size: 22px !important; }
+  p { font-size: 20px !important; }
+  span { font-size: 18px !important; }
+  a, button { font-size: 18px !important; }
+}
+
+/* Ultra-wide Screen / Max Cover (2560px and above) */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  h2 { font-size: 1.4vw !important; }
+  h3 { font-size: 1vw !important; }
+  h4 { font-size: 0.94vw !important; }
+  p { font-size: 0.86vw !important; }
+  span { font-size: 0.78vw !important; }
+  a, button { font-size: 0.78vw !important; }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 85%;
+  }
+  h2 { font-size: 53.2px !important; }
+  h3 { font-size: 38px !important; }
+  h4 { font-size: 35.7px !important; }
+  p { font-size: 32.7px !important; }
+  span { font-size: 29.6px !important; }
+  a, button { font-size: 29.6px !important; }
+}
+
+/* Apply Custom Typography */
+p, span, a, button, input, li {
+  font-family: var(--font-montserrat) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-oswald), var(--font-montserrat), sans-serif;
+}
+
+/* Force Oswald font on all button elements and their inner text/spans */
+button,
+button *,
+a.group,
+a.group *,
+[class*="-slanted"],
+[class*="-slanted"] *,
+[class*="btn"],
+[class*="btn"] * {
+  font-family: var(--font-oswald), var(--font-heading), sans-serif !important;
+}
+
+/* Slanted button: rectangular with bottom-right corner cut off */
+.btn-slanted-right {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
+/* Force Oswald font on all elements inside Petrovoll Header and Banner */
+.petrovoll-header-font,
+.petrovoll-header-font *,
+.petrovoll-banner-font,
+.petrovoll-banner-font * {
+  font-family: var(--font-oswald), sans-serif !important;
+}
+
+/* Custom Responsive Layout for WhoWeAre Section */
+.whoweare-section {
+  position: relative;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .whoweare-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .whoweare-section {
+    height: 100vh;
+    min-height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.whoweare-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.whoweare-content {
+  width: 100%;
+}
+
+.whoweare-image-column {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.whoweare-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 320px;
+  overflow: hidden;
+  background-color: #f9fafb;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 80px), calc(100% - 80px) 100%, 0 100%);
+}
+
+@media (min-width: 480px) {
+  .whoweare-image-wrapper {
+    height: 450px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), calc(100% - 100px) 100%, 0 100%);
+  }
+}
+
+@media (min-width: 768px) {
+  .whoweare-image-wrapper {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .whoweare-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 3rem;
+  }
+  .whoweare-content {
+    grid-column: span 7 / span 7;
+  }
+  .whoweare-image-column {
+    grid-column: span 5 / span 5;
+  }
+  .whoweare-image-wrapper {
+    max-width: 520px;
+    height: 650px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 120px), calc(100% - 120px) 100%, 0 100%);
+  }
+}
+
+/* Custom Responsive Layout for Footer */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+  width: 100%;
+}
+
+@media (min-width: 1400px) {
+  .footer-grid {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+    gap: 3rem;
+  }
+  .footer-col-1 {
+    grid-column: span 5 / span 5;
+  }
+  .footer-col-2 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 7;
+  }
+  .footer-col-3 {
+    grid-column: span 2 / span 2;
+  }
+  .footer-col-4 {
+    grid-column: span 3 / span 3;
+  }
+}
+
+
