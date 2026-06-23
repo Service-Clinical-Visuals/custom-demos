@@ -10,4 +10,4 @@ export default function MotoLayout({
       {children}
     </VideoConfigProvider>
   );
-}git 
+}
