@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Search, ChevronDown, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
+import Container from "./Container";
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -21,7 +23,7 @@ export default function Navbar() {
       className={`w-full bg-[#FFFFFF] shadow-sm fixed top-0 left-0 z-50 transition-all duration-500 transform ${scrolled || isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
         }`}
     >
-      <div className="container mx-auto flex items-center justify-between px-6 py-3">
+      <Container className="flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <img src="/jaeger/logo.png" className="w-60 h-15 object-contain" />
 
@@ -136,7 +138,7 @@ export default function Navbar() {
           onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
-      </div>
+      </Container>
 
       {/* Mobile Menu */}
       {isOpen && (

@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
 
+import Container from "./Container";
+
 const NewsSection = () => {
   const newsItems = [
     {
@@ -24,17 +26,17 @@ const NewsSection = () => {
   ];
 
   return (
-    <section className="bg-[#5888B5]/10 py-20 px-4">
-      <div className="container mx-auto text-center">
+    <section className="bg-[#5888B5]/10 py-20">
+      <Container className="text-center">
         {/* Header Section */}
         <div className="mb-12 flex flex-col items-center">
           <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
             Latest News
           </span>
-          <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E] mb-4 mt-4">
+          <h2 className="text-[38px] font-semibold text-[#1F242E] mb-4 mt-4">
             Latest Updates & Company Highlights
           </h2>
-          <p className="text-[#333333] text-base max-w-6xl leading-relaxed">
+          <p className="text-[#333333] text-[18px] max-w-6xl leading-relaxed">
             Latest updates highlight continued growth, expanded operations,
             strengthened collaborations, and recognized compliance
             standards—driving innovation and improving overall service
@@ -57,10 +59,10 @@ const NewsSection = () => {
 
               {/* Card Content */}
               <div className="flex flex-col grow px-2">
-                <h3 className="text-lg font-semibold text-[#333333] leading-tight mb-3 min-h-14">
+                <h3 className="text-2xl font-semibold text-[#333333] leading-tight mb-3 min-h-14">
                   {news.title}
                 </h3>
-                <p className="text-base text-[#333333D1] mb-6">{news.date}</p>
+                <p className="text-base text-[16px] text-[#333333D1] mb-6">{news.date}</p>
 
                 <button
                   style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
@@ -72,7 +74,7 @@ const NewsSection = () => {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

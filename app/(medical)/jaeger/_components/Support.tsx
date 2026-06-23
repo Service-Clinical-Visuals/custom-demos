@@ -1,6 +1,8 @@
 import React from "react";
 import { ArrowUpRight, CornerUpRight } from "lucide-react";
 
+import Container from "./Container";
+
 const Support = () => {
   const cards = [
     {
@@ -21,21 +23,21 @@ const Support = () => {
   ];
 
   return (
-    <section className="bg-[#5888B5]/10 py-16 px-4 md:px-8 lg:px-16">
-      <div className="container mx-auto">
+    <section className="bg-[#5888B5]/10 py-16">
+      <Container>
         {/* Top Section: Testimonial and Image */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-6">
           <div data-aos="fade-up" className="space-y-6">
             <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
               Comprehensive Service & Support
             </span>
-            <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E] leading-tight">
+            <h2 className="text-[38px] font-semibold text-[#1F242E] leading-tight">
               This is my third PFT interface install, and it's been my smoothest go-live yet.
             </h2>
-            <p className="text-base text-[#333333]">
+            <p className="text-[18px] text-[#333333]">
               — RCP Therapist, Pulmonary Function Lab
             </p>
-            <p className="text-[#333333] leading-relaxed text-base text-justify">
+            <p className="text-[#333333] leading-relaxed text-[18px] text-justify">
               Our service offerings are designed to support every stage of your
               Jaeger Medical device lifecycle—from initial setup to long-term
               maintenance and user education. Our Field Service team, through
@@ -79,7 +81,7 @@ const Support = () => {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 };
