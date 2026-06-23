@@ -5,18 +5,18 @@ import { ArrowRight } from "lucide-react";
 export default function InspirationFooter() {
 
   return (
-    <footer className="bg-[#556066] text-white px-6 lg:px-20 py-16">
-      <div className="max-w-380 mx-auto">
+    <footer className="bg-[#556066] text-white px-4 lg:px-6 pt-16 pb-6 ih-root">
+      <div className="custom-container">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8 md:gap-10" data-aos="fade-up">
           {/* LOGO + SUBSCRIBE */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
                 <img
                   src="/inspiration-healthcare/assets/inspiration-footer.png"
                   alt="Inspiration Healthcare Logo"
-                  className="h-12 mb-6"
+                  className="h-16 mb-6"
                 />
 
-            <p className="text-base mb-3 opacity-80">Subscribe</p>
+            <p className="text-base mb-3">Subscribe</p>
 
             <div className="flex items-center bg-white rounded-md overflow-hidden w-full max-w-xs">
               <input
@@ -52,7 +52,7 @@ export default function InspirationFooter() {
 function FooterColumn({ title, items }: { title: string; items: string[] }) {
   return (
     <div>
-      <h4 className="text-base font-semibold mb-4">{title}</h4>
+      <h4 className="text-base xl:text-[20px] font-semibold mb-4">{title}</h4>
       <ul className="space-y-2 text-sm opacity-80">
         {items.map((item, i) => (
           <li key={i} className="text-base hover:opacity-100 cursor-pointer transition">

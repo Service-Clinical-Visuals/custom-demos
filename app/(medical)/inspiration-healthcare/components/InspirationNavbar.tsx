@@ -29,14 +29,14 @@ export default function InspirationNavbar() {
       }`}
     >
       {/* Main bar */}
-      <div className="mx-auto max-w-380 h-[64px] flex items-center justify-between px-4 lg:px-6">
+      <div className="custom-container h-[80px] flex items-center justify-between px-4 lg:px-6 ih-root">
 
         {/* Logo */}
         <div className="flex items-center gap-3 shrink-0">
           <img
             src="/inspiration-healthcare/assets/inspiration-logo.png"
             alt="Inspiration Healthcare Logo"
-            className="h-8 lg:h-10"
+            className="h-8 lg:h-12"
           />
         </div>
 
@@ -54,13 +54,17 @@ export default function InspirationNavbar() {
 
         {/* Right actions */}
         <div className="flex items-center gap-2 lg:gap-4 shrink-0">
-          <span className="hidden md:block text-sm lg:text-base text-black cursor-pointer hover:text-gray-500">EN</span>
-          <Globe size={26} color="black" className="bg-gray-200 p-1 rounded-full cursor-pointer hover:bg-gray-300" />
-          <Phone size={26} color="black" className="bg-gray-200 p-1 rounded-full cursor-pointer hover:bg-gray-300" />
+          <span className="hidden md:block text-sm lg:text-base xl:text-lg text-black cursor-pointer hover:text-gray-500">EN</span>
+          <div className="bg-[#7B868C] h-10 w-10 flex justify-center items-center p-2 rounded-full cursor-pointer hover:bg-gray-300">
+            <Globe size={30} color="white"/>
+          </div>
+          <div className="bg-[#7B868C] h-10 w-10 flex justify-center items-center p-2 rounded-full cursor-pointer hover:bg-gray-300">
+            <Phone size={30} color="white"/>
+          </div>
 
-          <div className="hidden sm:flex cursor-pointer items-center bg-black text-white rounded-full px-3 lg:px-4 py-1 gap-2">
+          <div className="hidden sm:flex cursor-pointer items-center bg-black text-white rounded-full px-5 lg:px-7 py-2 gap-2">
             <span className="text-sm lg:text-base">Search</span>
-            <Search size={13} />
+            <Search size={15} />
           </div>
 
           {/* Hamburger — mobile/tablet only */}

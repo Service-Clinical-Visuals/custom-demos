@@ -40,21 +40,21 @@ export default function Header() {
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-white" />
-              <a href="mailto:info@horizon-medtech.com" className="text-white transition-colors text-[14px]">
+              <a href="mailto:info@horizon-medtech.com" className="text-white transition-colors text-[16px]">
                 info@horizon-medtech.com
               </a>
             </div>
           </div>
           <div className="flex items-center gap-6">
+            <a href="#" className="text-white transition-colors">
+              <Linkedin size={20} />
+            </a>
+            <div className="h-4 w-[1px] bg-gray-200"></div>
             <div className="flex items-center gap-1 cursor-pointer text-white transition-colors">
               <Globe size={16} className="text-white" />
               <span className="font-medium text-[14px]">EN</span>
-              <ChevronDown size={14} />
+              <ChevronDown size={20} />
             </div>
-            <div className="h-4 w-[1px] bg-gray-200"></div>
-            <a href="#" className="text-white transition-colors">
-              <Linkedin size={18} />
-            </a>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function Header() {
                   <Phone size={20} fill="currentColor" strokeWidth={0} />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-[12px] text-gray-400 uppercase tracking-wider font-bold">Call Us On</span>
+                  <span className="text-[12px] text-[#827E76] tracking-wider font-bold">Call Us On</span>
                   <span className="text-[16px] font-bold text-[#064163] tracking-tight">+44 (0)330 043 9066</span>
                 </div>
               </div>

@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 export default function InspirationProducts() {
 
   return (
-    <section className="bg-[#f3f5f6] py-24 px-6 lg:px-20">
-      <div className="max-w-380 mx-auto">
+    <section className="bg-[#f3f5f6] py-16 md:py-20 px-4 lg:px-6 ih-root">
+      <div className="custom-container">
         {/* Header */}
         <div className="text-center mb-14" data-aos="fade-up">
           <p className="text-base tracking-wide text-gray-500 mb-3 font-medium">
@@ -31,18 +31,18 @@ export default function InspirationProducts() {
             >
               {/* Image */}
               <div className="p-4">
-                <div className="rounded-xl overflow-hidden bg-gray-200 h-64 flex items-center justify-center">
+                <div className="rounded-xl overflow-hidden bg-gray-200 aspect-[4/3] flex items-center justify-center">
                   <img src={card.img} alt={card.title} className="w-full h-full object-cover" />
                 </div>
               </div>
 
               {/* Content */}
               <div className="px-5 pb-6">
-                <h3 className="text-base font-semibold text-[#26505E] mb-3 leading-snug">
+                <h3 className="text-base xl:text-[22px] font-semibold text-[#26505E] mb-3 leading-snug">
                   {card.title}
                 </h3>
 
-                <div className="h-px bg-gray-200 mb-4" />
+                <div className="h-px bg-gray-400 mb-4" />
 
                 <p className="text-base text-gray-500 leading-relaxed">
                   {card.desc}
@@ -63,12 +63,12 @@ const cards = [
     desc: "We have developed and manufactured respiratory equipment since 1977. Nurturing close relationships with leading universities, hospitals and industry specialists to understand the challenges facing clinicians when caring for the most critical babies.",
   },
   {
-    title: "Respiratory care, starting from the first breaths of life",
+    title: "Simple, flexible and precise",
     img: "/inspiration-healthcare/assets/inspiration-product2.png",
     desc: "The Inspiration Air/Oxygen blender is a precision proportioning device for mixing medical grade air and oxygen, to any concentration from 21% to 100% oxygen and delivering it to a variety of respiratory care devices.",
   },
   {
-    title: "Respiratory care, starting from the first breaths of life",
+    title: "Customise your ventilator",
     img: "/inspiration-healthcare/assets/inspiration-product3.png",
     desc: "Our SLE6000 multimode ventilator exclusively focuses on infants. The SLE6000 also supports our award winning OxyGenie module, a responsive Automatic O2 controller for the SLE6000.",
   },

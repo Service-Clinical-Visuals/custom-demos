@@ -47,11 +47,11 @@ export default function AboutSection() {
         </div>
 
         {/* Divider */}
-        <div className="w-full h-[1px] bg-gray-200 mb-20" data-aos="fade-up"></div>
+        <div className="w-full h-[1.5px] bg-[#064163] mb-20" data-aos="fade-up"></div>
 
         {/* Mission Part */}
         <div className="max-w-7xl mx-auto text-center" data-aos="zoom-in">
-          <p className="text-2xl md:text-[28px] font-medium text-[#064163] leading-[1.6]">
+          <p className="text-2xl md:text-[28px]! font-medium text-[#064163] leading-[1.6]">
             Our mission is to help Clinicians and Healthcare Providers achieve the best outcomes for patients. We are specialists in Neonatal and Paediatric care, and our solutions cross from Intensive Care to Home-based technologies
           </p>
         </div>

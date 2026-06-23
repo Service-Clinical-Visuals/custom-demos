@@ -15,7 +15,7 @@ export default function ProductFeature() {
 
         {/* Text Section */}
         <div className="flex flex-col gap-8 lg:col-span-5" data-aos="fade-right">
-          <h2 className="text-[30px] md:text-[32px] font-bold text-[#1A1A1A] leading-tight">
+          <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] leading-tight">
             Horizon Brammi Servo Controlled Cooling / Warming
           </h2>
 
