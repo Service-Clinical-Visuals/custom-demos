@@ -38,7 +38,7 @@ export default function Header() {
     <header className="w-full relative z-50">
       {/* Top Bar - Full Width, Primary Color Background */}
       <div className="bg-[#0068B3] text-white h-[40px] hidden md:block">
-        <div className="container mx-auto px-4 md:px-12 h-full flex justify-end items-center text-[16px] gap-6 font-medium">
+        <div className="nihon-container h-full flex justify-end items-center text-[16px] gap-6 font-medium">
           <Link href="#" className="hover:text-white/80 transition-colors">Media Center</Link>
           <Link href="#" className="hover:text-white/80 transition-colors">Corporate Website</Link>
           <Link href="#" className="hover:text-white/80 transition-colors">Contact</Link>
@@ -52,7 +52,7 @@ export default function Header() {
       <div className="h-[75px] md:h-[80px] w-full bg-white relative">
         {/* Main Navbar */}
         <nav className={`bg-white text-[#0068B3] shadow-sm w-full transition-all duration-300 ease-in-out ${isScrolled ? 'fixed top-0 left-0 animate-in slide-in-from-top-full z-[60]' : 'absolute top-0 left-0 z-40'}`}>
-          <div className="container mx-auto h-[75px] md:h-[80px] px-4 md:px-12 flex justify-between items-center">
+          <div className="nihon-container h-[75px] md:h-[80px] flex justify-between items-center">
             {/* Logo Section */}
             <Link href="/nihon" className="flex items-center gap-3">
               <div className="flex items-center">

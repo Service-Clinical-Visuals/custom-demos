@@ -13,14 +13,13 @@ export default function Hero() {
         <DynamicVideoPlayer type="banner" className="absolute inset-0 w-full h-full object-cover z-0 " />
       </div>
 
-      {/* Content overlay */}
-      <div className="container mx-auto px-4 md:px-12 flex flex-col justify-end pb-40 h-full w-full text-left text-white z-20">
-        <div className="relative max-w-4xl">
+      <div className="nihon-container flex flex-col justify-end pb-40 h-full text-white z-20">
+        <div className="relative w-full lg:w-[70%] 2xl:w-[60%]">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-xl md:text-2xl lg:text-4xl font-bold leading-tight mb-4 tracking-tight text-white"
+            className="text-[clamp(32px,4vw,120px)] font-semibold leading-tight mb-4 tracking-tight text-white"
           >
             Illuminating Medicine for Humanity
           </motion.h1>
@@ -29,7 +28,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-lg md:text-xl text-white mb-8 max-w-2xl font-light"
+            className="text-[clamp(16px,1.5vw,48px)] text-white mb-8 w-full lg:w-[80%] font-light"
           >
             Create a better future for people and healthcare by <br className="hidden md:block" /> solving global medical issues.
           </motion.p>

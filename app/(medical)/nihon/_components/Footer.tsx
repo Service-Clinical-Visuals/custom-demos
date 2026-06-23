@@ -26,7 +26,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#D8EFFF] pt-20 pb-6 text-[#1A1A1A]">
-      <div className="container mx-auto px-4 md:px-12" data-aos="fade-up">
+      <div className="nihon-container" data-aos="fade-up">
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 mb-16">
           {/* Brand Column */}
           <div className="xl:col-span-4 flex flex-col gap-8">

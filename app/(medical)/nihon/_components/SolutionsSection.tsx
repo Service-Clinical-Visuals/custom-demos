@@ -43,7 +43,7 @@ const SolutionsSection = () => {
 
   return (
     <section className="py-16 lg:py-20 bg-white overflow-hidden">
-      <div className="container mx-auto px-4 md:px-12">
+      <div className="nihon-container">
         {/* Top Part: Text + Human Torso */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-16 items-center">
           {/* Left Content */}
@@ -51,18 +51,18 @@ const SolutionsSection = () => {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-                <h2 className="text-[#0068B3] font-semibold text-[16px]">
+                <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px]">
                   Discover our Solutions
                 </h2>
               </div>
               <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
-              <h3 className="text-[24px] md:text-[28px] font-bold text-[#353A3D] leading-tight">
+              <h3 className="text-[16px]  font-semibold text-[#353A3D] leading-tight">
                 Across The Continium Of Care
               </h3>
             </div>
 
 
-            <div className="space-y-6 leading-relaxed  text-[17px] text-justify">
+            <div className="space-y-6 leading-relaxed  text-[16px] text-justify">
               <p>
                 Welcome to Nihon Kohden's innovative solution portfolio, where cutting-edge technology meets healthcare excellence. Discover our advanced medical devices and systems designed to enhance patient care, streamline workflows, and empower clinical outcomes across the continuum of care.
               </p>

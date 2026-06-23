@@ -7,7 +7,7 @@ const NewsletterSection = () => {
   return (
     <section className="py-16 lg:py-20 bg-[url('/nihon/images/subscribe-bg.png')] bg-center bg-cover relative overflow-hidden text-white">
 
-      <div className="container mx-auto px-4 md:px-12 relative z-10">
+      <div className="nihon-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           {/* Left Content */}
           <div className="lg:col-span-9" data-aos="fade-up">
@@ -20,7 +20,7 @@ const NewsletterSection = () => {
 
             <div className="w-full h-[1px] bg-white/20 mb-6"></div>
 
-            <h3 className="text-[24px] md:text-[28px] font-bold text-white mb-8 leading-tight max-w-7xl">
+            <h3 className="text-[24px] md:text-[28px] font-semibold text-white mb-8 leading-tight max-w-7xl">
               Subscribe to stay updated on Nihon Kohden’s latest healthcare innovations, medical technologies, company news, and industry insights.
             </h3>
 

@@ -11,6 +11,9 @@
   --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
 
   --container-max-width: 1280px;
+
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
 }
 
 @layer base {
@@ -35,19 +38,7 @@
 
 @layer components {
   .nihon-container {
-    @apply max-w-[var(--container-max-width)] mx-auto px-4;
-  }
-
-  @media (min-width: 768px) {
-    .nihon-container {
-      @apply px-6;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .nihon-container {
-      @apply px-8;
-    }
+    @apply w-[95%] sm:w-[92%] md:w-[90%] lg:w-[88%] xl:w-[85%] 2xl:w-[90%] max-w-[3800px] mx-auto;
   }
 
   .btn-primary {

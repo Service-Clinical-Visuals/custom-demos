@@ -61,17 +61,17 @@ const trainingEvents = [
 const TrainingSection = () => {
   return (
     <section className="py-16 lg:py-20 bg-[#D8EFFF]">
-      <div className="container mx-auto px-4 md:px-12">
+      <div className="nihon-container">
         <div className="text-center max-w-6xl mx-auto mb-16" data-aos="fade-up">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-            <h2 className="text-[#0068B3] font-semibold text-[16px]">
-              Latest Blog
+            <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px]">
+              Innovative Technologies
             </h2>
           </div>
 
           <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
-          <p className="text-[#333333] text-sm md:text-[17px] leading-relaxed">
+          <p className="text-[#333333] text-[16px] md:text-[17px] leading-relaxed">
             Nihon Kohden has developed innovative and unique technologies that contribute to progress in medical care.  We boldly take on new challenges, maintaining a keen eye for detail as we keep in mind the spirit of the founder.
           </p>
         </div>
@@ -92,8 +92,8 @@ const TrainingSection = () => {
           >
             {trainingEvents.map((event, index) => (
               <SwiperSlide key={index}>
-                <div className="group bg-white rounded-2xl overflow-hidden transition-all duration-500 h-full flex flex-col cursor-pointer">
-                  <div className="aspect-[4/2.5] overflow-hidden">
+                <div className="group rounded-2xl overflow-hidden transition-all duration-500 h-full flex flex-col cursor-pointer">
+                  <div className="aspect-[4/2.5] rounded-2xl overflow-hidden">
                     <img
                       src={event.image}
                       alt={event.title}
@@ -101,8 +101,8 @@ const TrainingSection = () => {
                     />
                   </div>
 
-                  <div className="p-8 flex flex-col flex-grow">
-                    <h3 className="text-[20px] md:text-[20px] font-bold text-[#2B2F31] mb-3 group-hover:text-[#0068B3] transition-colors leading-tight min-h-[50px]">
+                  <div className="p-8 flex flex-col flex-grow bg-[#d8efff]">
+                    <h3 className="text-[16px] md:text-[18px] font-semibold text-[#2B2F31] mb-3 group-hover:text-[#0068B3] transition-colors leading-tight min-h-[50px]">
                       {event.title}
                     </h3>
 
@@ -111,14 +111,19 @@ const TrainingSection = () => {
                       {event.date}
                     </div>
 
-                    <p className="text-[#333333]/80 text-[15px] leading-relaxed mb-6 line-clamp-2">
+                    <p className="text-[#333333]/80 text-[16px] leading-relaxed mb-6 line-clamp-2">
                       {event.description}
                     </p>
 
-                    <div className="flex items-center gap-2 text-xs md:text-[16px] font-medium text-[#333333] mt-auto">
-                      <MapPin size={16} className="text-[#333333]" />
+                   <div className="flex items-center gap-2 text-xs md:text-[16px] font-normal text-[#333333] mt-auto">
+                    <MapPin
+                      size={16}
+                      className="text-[#333333] shrink-0"
+                    />
+                    <p className="text-[#333333]/80 text-[16px] leading-relaxed line-clamp-2">
                       {event.location}
-                    </div>
+                    </p>
+                  </div>
                   </div>
                 </div>
               </SwiperSlide>

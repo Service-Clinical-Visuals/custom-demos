@@ -14,25 +14,25 @@ const VentilationSection = () => {
       {/* Grid Pattern Overlay */}
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(white_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
 
-      <div className="container mx-auto px-4 md:px-12">
+      <div className="nihon-container">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           {/* Left Content */}
           <div className="text-white lg:col-span-5" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-white"></div>
-              <h2 className="text-white font-semibold text-[16px]">
+              <h2 className="text-white font-semibold text-[16px] lg:text-[20px] xl:text-[22px]tracking-wide">
                 NKV-550 Ventilation System
               </h2>
             </div>
 
             <div className="w-full h-[1px] bg-white/20 mb-6"></div>
 
-            <h3 className="text-white text-[24px] md:text-[28px] font-bold mb-4 leading-tight">
+            <h3 className="text-white **:text-[24px] md:text-[28px] font-semibold   mb-4 leading-tight">
               Intelligent Ventilation for Advanced Patient Care
             </h3>
 
             <div className="space-y-6 mb-10">
-              <p className="text-gray-100 font-light text-[17px] leading-relaxed text-justify">
+              <p className="text-gray-100 font-light text-[16px] leading-relaxed text-justify">
                 Nihon Kohden's overriding philosophy inherent to the NKV-550 design is to Treasure Every Breath®. Our focus is to provide clinically relevant innovations and solutions for patients requiring mechanical ventilation. The NKV-550 Ventilator System is suitable for neonatal through adult patients and is equipped with a range of applications and modes, including invasive and non-invasive ventilation, O2 therapy, and airway care apps.
               </p>
               {/* <p className="text-gray-100 font-light text-[17px] leading-relaxed text-justify">
