@@ -26,7 +26,7 @@ export default function IntensiveCare() {
       />
       <div className="custom-container px-4 md:px-6 relative z-10">
         {/* Header Part */}
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] justify-between items-start md:items-end gap-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] justify-between items-start md:items-center gap-10 mb-16">
           <div className="max-w-2xl" data-aos="fade-right">
             <h2 className="text-3xl md:text-[32px] font-semibold text-white mb-6 leading-tight">
               Delivery, Neonatal and Intensive Care
@@ -44,13 +44,14 @@ export default function IntensiveCare() {
         </div>
 
         {/* Product Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
-          {products.map((product, idx) => (
-            <div
-              key={idx}
-              className="relative group transition-all duration-500"
-              data-aos="fade-up"
-              data-aos-delay={idx * 150}
+        <div className="w-full max-w-[90%] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
+            {products.map((product, idx) => (
+              <div
+                key={idx}
+                className="relative group transition-all duration-500"
+                data-aos="fade-up"
+                data-aos-delay={idx * 150}
             >
               {/* Image Box */}
               <div className="bg-[#f2f3f5] rounded-[30px] overflow-hidden aspect-[16/10] w-full p-4 md:p-8 flex items-center justify-center relative translate-y-0 shadow-lg">
@@ -78,6 +79,7 @@ export default function IntensiveCare() {
               </div>
             </div>
           ))}
+          </div>
         </div>
       </div>
     </section>

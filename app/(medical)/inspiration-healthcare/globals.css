@@ -30,3 +30,88 @@ body {
   color: var(--foreground);
   font-family: var(--font-outfit);
 }
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+}
+ 
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+}
+ 
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+ 
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+ 
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+ 
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+ 
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+ 
+/* Ultra-wide Screen / Max Cover (2500px and above) */
+@media (min-width: 2500px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+ 
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 2360px) {
+  .ih-root {
+    zoom: 1.3333;
+    width: 100%;
+  }
+}
+
+/* 4K UHD Monitors (3840px wide) — scale 1920px design up to 3840px (ratio: 3840/1920 = 2.0) */
+@media (min-width: 3840px) {
+  .ih-root {
+    zoom: 2;
+    width: 100%;
+  }
+}

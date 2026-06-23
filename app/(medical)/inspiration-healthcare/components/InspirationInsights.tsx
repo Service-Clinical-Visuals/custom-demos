@@ -6,8 +6,8 @@ import { CornerUpRight } from "lucide-react";
 export default function InspirationInsights() {
 
   return (
-    <section className="bg-[#f5f6f7] py-16 md:py-20 lg:py-24 px-6 md:px-10 lg:px-20">
-      <div className="max-w-380 mx-auto">
+    <section className="bg-[#f5f6f7] py-16 md:py-20 px-4 lg:px-6 ih-root">
+      <div className="custom-container">
         {/* HEADER */}
         <div className="text-center mb-10 md:mb-14" data-aos="fade-up">
           <p className="text-base text-[#26505E] mb-3">Insights & Updates</p>
@@ -34,7 +34,7 @@ export default function InspirationInsights() {
             </div>
 
             <div className="flex flex-wrap items-center justify-between gap-3 mt-4">
-              <p className="text-lg text-gray-600 font-semibold">Regulatory News</p>
+              <p className="text-lg text-[#333333] xl:text-[22px] font-semibold">Regulatory News</p>
 
               <button className="bg-gray-700 cursor-pointer text-white text-sm px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-800 transition">
                 View All Updates

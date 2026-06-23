@@ -20,15 +20,14 @@ export default function InspirationCares() {
 
 
   return (
-    <section className="bg-[#7B868C] py-24 px-6 lg:px-20">
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    <section className="bg-[#7B868C] py-16 md:py-20 px-4 lg:px-6 ih-root">
+      <div className="custom-container grid lg:grid-cols-2 gap-16 items-center">
         {/* LEFT CONTENT */}
         <div data-aos="fade-right" className="text-white">
           <p className="text-base opacity-80 mb-4 font-medium">Inosys</p>
 
           <h1 className="text-2xl lg:text-3xl font-semibold leading-snug mb-3">
             Precision Nitric Oxide Delivery for
-            <br />
             Neonatal Respiratory Care
           </h1>
 
@@ -58,7 +57,7 @@ export default function InspirationCares() {
             available for purchase in your country.
           </p>
 
-          <button className="bg-white cursor-pointer text-gray-700 text-base px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+          <button className="bg-white cursor-pointer text-[#7B868C] text-base px-5 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
             Learn More Inosys
             <CornerUpRight size={16}/>
           </button>
