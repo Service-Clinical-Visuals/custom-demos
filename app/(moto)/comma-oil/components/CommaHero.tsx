@@ -11,7 +11,7 @@ export default function CommaHero() {
           type="banner"
           className="absolute inset-0 w-full h-full object-cover z-0"
         />
-        <div className="absolute inset-0 bg-black/40 z-[1]" />
+        <div className="absolute inset-0  z-[1]" />
       </div>
 
       {/* Empty — image/video fills the full hero */}
