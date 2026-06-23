@@ -37,7 +37,7 @@ export default function EngineOils() {
         </div>
 
         {/* Video Area */}
-        <div className="w-full rounded-[24px] overflow-hidden relative aspect-video max-xl:aspect-[4/3] xl:h-[800px]  shadow-2xl " data-aos="fade-up" data-aos-delay="100">
+        <div className="w-full rounded-[24px] overflow-hidden relative aspect-video   shadow-2xl " data-aos="fade-up" data-aos-delay="100">
           <DynamicVideoPlayer 
             type="360" 
             className="absolute inset-0 w-full h-full object-cover" 
