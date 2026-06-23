@@ -22,8 +22,8 @@ export default function InspirationRespiratory() {
   };
 
   return (
-    <section className="bg-[#7B868C] py-16 md:py-20 px-6 md:px-16">
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 md:gap-16 items-stretch">
+    <section className="bg-[#7B868C] py-16 md:py-20 px-4 lg:px-6 ih-root">
+      <div className="custom-container grid lg:grid-cols-2 gap-8 md:gap-16 items-stretch">
 
         {/* LEFT VIDEO */}
         <div data-aos="fade-right" className="w-full h-full min-w-0">
@@ -59,10 +59,7 @@ export default function InspirationRespiratory() {
           </h2>
 
           <p className="text-base text-gray-200 leading-relaxed mb-6 ">
-            We have developed and manufactured respiratory equipment since 1977.
-            Nurturing close relationships with leading universities, hospitals and
-            industry specialists to understand the challenges facing clinicians when
-            caring for the most critical babies.
+            We have been developing and manufacturing respiratory equipment since 1977, building strong collaborations with leading universities, hospitals, and industry specialists. This enables us to understand and address the complex challenges clinicians face when caring for the most critical newborns.
           </p>
 
           <p className="text-base text-gray-200 leading-relaxed mb-6">

@@ -27,8 +27,8 @@ const products = [
 
 export default function Consumables() {
   return (
-    <section className="bg-[url('/arcomed/bg.png')] py-16 lg:py-20 ">
-      <div className="container mx-auto px-6 space-y-12">
+    <section className="bg-[url('/arcomed/bg.png')] py-16 lg:py-20 arcomed-root">
+      <div className="custom-container px-6 space-y-12">
         <div
           data-aos="fade-up"
           className="text-center text-[#FFFFFF] space-y-4">

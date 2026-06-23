@@ -75,6 +75,8 @@ const products = [
   },
 ];
 
+import Container from "./Container";
+
 export default function Products() {
   const swiperRef = useRef<any>(null);
   const next = () => {
@@ -86,18 +88,18 @@ export default function Products() {
   };
   return (
     <section className="w-full py-16">
-      <div className="container mx-auto px-6 text-center space-y-4">
+      <Container className="px-6 text-center space-y-4">
         {/* Top Content */}
         <div data-aos="fade-up" className="space-y-4 max-w-6xl mx-auto">
           <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md mb-0">
             Our Products
           </span>
 
-          <h2 className="text-2xl md:text-[32px] font-bold text-[#1F242E] mt-6">
+          <h2 className="text-[38px] font-semibold text-[#1F242E] mt-6">
             Comprehensive Respiratory Diagnostic Solutions
           </h2>
 
-          <p className="text-[#333333] text-base">
+          <p className="text-[#333333] text-[18px]">
             Explore a complete range of advanced systems designed for accurate
             breathing assessment, exercise analysis, and clinical evaluation.
             From lab-based platforms to portable devices and integrated
@@ -178,7 +180,7 @@ export default function Products() {
             <ArrowRight size={18} />
           </button>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

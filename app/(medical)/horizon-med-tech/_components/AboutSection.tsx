@@ -3,8 +3,8 @@ import Button from "./Button";
 
 export default function AboutSection() {
   return (
-    <section className="w-full py-24 bg-[#F9F9F9]">
-      <div className="container mx-auto px-4 md:px-12">
+    <section className="w-full py-24 bg-[#F9F9F9] horizon-root">
+      <div className="custom-container px-4 md:px-6">
         {/* About Part */}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 mb-20">
           {/* Team Image Section */}
@@ -47,11 +47,11 @@ export default function AboutSection() {
         </div>
 
         {/* Divider */}
-        <div className="w-full h-[1px] bg-gray-200 mb-20" data-aos="fade-up"></div>
+        <div className="w-full h-[1.5px] bg-[#064163] mb-20" data-aos="fade-up"></div>
 
         {/* Mission Part */}
         <div className="max-w-7xl mx-auto text-center" data-aos="zoom-in">
-          <p className="text-2xl md:text-[28px] font-medium text-[#064163] leading-[1.6]">
+          <p className="text-2xl md:text-[28px]! font-medium text-[#064163] leading-[1.6]">
             Our mission is to help Clinicians and Healthcare Providers achieve the best outcomes for patients. We are specialists in Neonatal and Paediatric care, and our solutions cross from Intensive Care to Home-based technologies
           </p>
         </div>

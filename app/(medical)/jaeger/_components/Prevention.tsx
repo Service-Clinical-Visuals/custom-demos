@@ -1,6 +1,8 @@
 import React from "react";
 import { ArrowRight, ArrowUpRight, CornerUpRight } from "lucide-react";
 
+import Container from "./Container";
+
 const Prevention = () => {
   const cards = [
     {
@@ -23,24 +25,24 @@ const Prevention = () => {
   return (
     <section
       style={{ background: "linear-gradient(180deg, #1E5286 0%, #4A76A8 100%)" }}
-      className="py-16 px-4 md:px-8 lg:px-16 font-sans">
-      <div className="container mx-auto">
+      className="py-16 font-sans">
+      <Container>
         {/* Top Section: Testimonial and Image */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-10">
           <div data-aos="fade-up" className="space-y-6">
             <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-[14px] px-4 py-2 rounded-md">
               Infection Prevention
             </span>
-            <h2 className="text-3xl md:text-[32px] font-bold text-[#FFFFFF] leading-tight">
+            <h2 className="text-[38px] font-semibold text-[#FFFFFF] leading-tight">
               Highest Infection Prevention Standards – Past, Present, and Future
             </h2>
-            <p className="text-base text-[#FFFFFF] text-justify">
+            <p className="text-[18px] text-[#FFFFFF] text-justify">
               Infection prevention is an integral part of our innovation and
               product development. From our earliest designs to our latest
               advancements, we ensure that infection prevention remains a
               priority at every stage.
             </p>
-            <p className="text-[#FFFFFF] leading-relaxed text-base text-justify">
+            <p className="text-[#FFFFFF] leading-relaxed text-[18px] text-justify">
               We work closely with infection prevention specialists to create
               industry-leading standards and detailed reprocessing instructions.
               Extensive filter efficiency and biocompatibility testing
@@ -77,7 +79,7 @@ const Prevention = () => {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

@@ -14,7 +14,7 @@ export default function NotFound() {
           className="absolute inset-0 opacity-[0.1] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
         />
 
-        <div className="container mx-auto relative z-10 text-center">
+        <div className="custom-container relative z-10 text-center">
           <div className="relative mb-8 flex justify-center">
             {/* Large 404 Background Text */}
             <h1 className="text-[120px] md:text-[220px] font-black text-[#064163] opacity-[0.03] leading-none select-none">

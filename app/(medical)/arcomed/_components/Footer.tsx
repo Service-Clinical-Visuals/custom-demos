@@ -15,15 +15,15 @@ const Footer = () => {
   const cookiePolicy = ["Terms of Use", "Privacy Policy"];
 
   return (
-    <footer className="w-full bg-[#FFFFFF] pt-16 lg:pt-20 pb-8  border-t border-gray-100">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-12 gap-12 mb-16">
+    <footer className="w-full bg-[#FFFFFF] pt-16 lg:pt-20 pb-8  border-t border-gray-100 arcomed-root">
+      <div className="custom-container px-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-12 gap-12 mb-16">
         {/* Logo & Description (4 columns) */}
         <div data-aos="fade-up" className="lg:col-span-3 space-y-6">
           <div className="flex items-start">
             <img
               src="/arcomed/logo.png" // place inside public/images/
               alt="Arcomed Logo"
-              className="h-12 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
           </div>
           <p className="text-[#333333] text-base leading-relaxed max-w-sm text-justify">

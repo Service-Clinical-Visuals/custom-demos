@@ -3,10 +3,12 @@
 import { ArrowRight } from "lucide-react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
+import Container from "./Container";
+
 export default function Testing() {
   return (
     <section className="w-full bg-[#5888B5]/15 py-16">
-      <div className="container mx-auto px-6 space-y-10">
+      <Container className="space-y-10">
         {/* MAIN GRID */}
         <div className="grid lg:grid-cols-12 gap-10 items-stretch">
           {/* LEFT COLUMN - Tag, Title, Description, Video */}
@@ -19,12 +21,12 @@ export default function Testing() {
             </div>
 
             {/* Title */}
-            <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E] mb-6">
+            <h2 className="text-[38px] font-semibold text-[#1F242E] mb-6">
               Vyntus™ BODY Plethysmograph
             </h2>
 
             {/* Description */}
-            <p className="text-[#333333] text-base leading-relaxed mb-8 text-justify">
+            <p className="text-[#333333] text-[18px] leading-relaxed mb-8 text-justify">
               People come in all shapes and sizes, so we designed Vyntus™ BODY to
               accommodate most patients while maintaining a compact footprint.
               This state-of-the-art plethysmograph integrates advanced
@@ -68,7 +70,7 @@ export default function Testing() {
         <div className="grid lg:grid-cols-12 gap-10 items-start">
           <div data-aos="fade-up" className="lg:col-span-7">
             {/* Bottom Text */}
-            <p className="text-[#333333] text-sm md:text-base leading-relaxed font-medium">
+            <p className="text-[#333333] text-[18px] leading-relaxed ">
               Vyntus™ BODY is the ideal plethysmograph for precise lung volume
               measurement, combining innovative technology with an intuitive,
               patient-friendly design.
@@ -84,7 +86,7 @@ export default function Testing() {
             </button>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

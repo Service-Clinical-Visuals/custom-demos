@@ -13,11 +13,11 @@ const benefitList = [
 
 export default function ICUSection() {
   return (
-    <section className="w-full py-16 lg:py-20">
+    <section className="w-full py-16 lg:py-20 arcomed-root">
       {/* Changed to grid-cols-12 for fine-grained control */}
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16">
+      <div className="custom-container px-6 grid grid-cols-1 xl:grid-cols-12 gap-16">
         {/* Left Column: Spans 8 of 12 columns */}
-        <div data-aos="fade-left" className="lg:col-span-7 space-y-3">
+        <div data-aos="fade-left" className="xl:col-span-7 space-y-3">
           <h2 className="text-[#C10E1A] font-semibold text-[22px] uppercase">
             ICU
           </h2>
@@ -38,7 +38,7 @@ export default function ICUSection() {
         {/* Right Column: Spans 4 of 12 columns */}
         <div
           data-aos="fade-right"
-          className="lg:col-span-5 space-y-6 border-l border-[#0000001A] lg:pl-10">
+          className="xl:col-span-5 space-y-6 border-l border-[#0000001A] xl:pl-10">
           <h2 className="text-[#C10E1A] font-semibold text-[22px] uppercase">
             Key Benefits
           </h2>

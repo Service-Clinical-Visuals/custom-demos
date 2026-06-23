@@ -20,9 +20,9 @@ export default function InspirationValues() {
 
 
   return (
-    <section className="relative bg-[#7f8b91] py-24 px-6 lg:px-20">
+    <section className="relative bg-[#7f8b91] py-16 md:py-20 px-4 lg:px-6 ih-root">
 
-      <div className="max-w-380 mx-auto grid lg:grid-cols-2 gap-8 lg:gap-16 items-stretch">
+      <div className="custom-container grid lg:grid-cols-2 gap-8 lg:gap-16 items-stretch">
         {/* LEFT VIDEO */}
         <div className="h-full" data-aos="fade-right">
           <div className="rounded-2xl overflow-hidden bg-gray-300 h-full min-h-[300px] lg:min-h-[520px]">
@@ -59,7 +59,7 @@ export default function InspirationValues() {
                   <img src={item.icon} alt={item.title} className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="font-semibold text-base">{item.title}</p>
+                  <p className="font-semibold text-base xl:text-[20px]">{item.title}</p>
                   <p className="text-sm opacity-80 mt-1">{item.desc}</p>
                 </div>
               </div>

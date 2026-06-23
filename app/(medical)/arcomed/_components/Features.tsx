@@ -3,8 +3,8 @@ import { ArrowRightIcon } from "lucide-react";
 
 export default function Features() {
   return (
-    <section className="bg-gray-100 py-16 lg:py-20">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
+    <section className="bg-gray-100 pb-16 lg:pb-20 arcomed-root">
+      <div className="custom-container px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* LEFT COLUMN */}
         <div data-aos="fade-left" className="flex flex-col justify-between">
           {/* Text */}
@@ -36,13 +36,13 @@ export default function Features() {
           data-aos="fade-right"
           className="flex flex-col justify-between space-y-12">
           {/* Video */}
-          <div className="relative h-full bg-[#FFFFFF] rounded-2xl  shadow-sm overflow-hidden">
+          <div className="relative h-full bg-[#FFFFFF] rounded-2xl aspect-video shadow-sm overflow-hidden">
             <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
           </div>
 
           {/* Button */}
           <div>
-            <h3 className="text-[#353A3D] font-Semibold text-[22px] mb-8">
+            <h3 className="text-[#353A3D] font-semibold text-[24px] mb-8">
               One pump. All therapies.
             </h3>
 

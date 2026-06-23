@@ -4,12 +4,12 @@ import { ArrowRightIcon } from "lucide-react";
 
 export default function About() {
   return (
-    <section className="w-full bg-gray-100 py-16 lg:py-20">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+    <section className="w-full bg-gray-100 py-16 lg:py-20 arcomed-root">
+      <div className="custom-container px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         {/* Left Column: Image */}
         <div
           data-aos="fade-left"
-          className="lg:col-span-7 relative h-full w-full">
+          className="lg:col-span-6 relative h-full w-full">
           <img
             src="/arcomed/about.png" // Replace with your image path
             alt="Zürich City View"
@@ -18,7 +18,7 @@ export default function About() {
         </div>
 
         {/* Right Column: Content */}
-        <div data-aos="fade-right" className="lg:col-span-5 space-y-4">
+        <div data-aos="fade-right" className="lg:col-span-6 space-y-4">
           <div className="space-y-3">
             <h2 className="text-[#C10E1A] font-semibold text-[22px]">
               About Arcomed

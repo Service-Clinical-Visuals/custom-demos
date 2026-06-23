@@ -37,18 +37,18 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full bg-[#FFFFFF] shadow-sm transition-transform duration-300 z-50 ${show ? "translate-y-0" : "-translate-y-full"
+      className={`fixed top-0 left-0 w-full bg-[#FFFFFF] shadow-sm transition-transform duration-300 z-50 arcomed-root ${show ? "translate-y-0" : "-translate-y-full"
         }`}>
-      <div className="container mx-auto flex items-center justify-between px-6 h-20">
+      <div className="custom-container flex items-center justify-between px-6 h-20">
         {/* Logo */}
         <img
           src="/arcomed/logo.png"
           alt="logo"
-          className="object-contain w-[180px] h-[40px]"
+          className="object-contain h-[40px] lg:h-[50px]"
         />
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8 text-[#333333] text-[16px] font-medium">
+        <nav className="hidden xl:flex items-center gap-8 text-[#333333] text-[16px] font-medium">
           {navLinks.map((link) => {
             const isActive = link.name === "Home";
             return (
@@ -85,7 +85,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu */}
-          <button className="lg:hidden flex items-center justify-center h-12 w-12">
+          <button className="xl:hidden flex items-center justify-center h-12 w-12">
             {open ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>

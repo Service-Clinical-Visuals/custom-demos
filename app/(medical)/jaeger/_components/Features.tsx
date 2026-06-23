@@ -2,6 +2,8 @@ import { ArrowRight } from "lucide-react";
 import React from "react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
+import Container from "./Container";
+
 const Features = () => {
   const features = [
     "Designed for patient comfort & accessibility",
@@ -13,8 +15,8 @@ const Features = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-4 md:px-8 lg:px-16">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section className="bg-white py-16">
+      <Container className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side: Image Placeholder */}
         <div
           data-aos="fade-up"
@@ -30,7 +32,7 @@ const Features = () => {
           <span className="inline-block bg-[#00689B]/12 text-[#00689B] text-[14px] px-4 py-2 rounded-md">
             Advanced solutions
           </span>
-          <h2 className="text-3xl md:text-[32px] font-bold text-[#1F242E]">
+          <h2 className="text-[38px] font-semibold text-[#1F242E]">
             Why Choose Vyntus™ BODY?
           </h2>
 
@@ -47,7 +49,7 @@ const Features = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="text-[#333333] text-base leading-relaxed">
+                <span className="text-[#333333] text-[18px] leading-relaxed">
                   {item}
                 </span>
               </li>
@@ -61,7 +63,7 @@ const Features = () => {
             Explore More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

@@ -11,19 +11,19 @@ const Accessories = () => {
   ];
 
   return (
-    <section className="w-full py-16 lg:py-20  bg-[#FFFFFF]">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <section className="w-full py-16 lg:py-20  bg-[#FFFFFF] arcomed-root">
+      <div className="custom-container px-6 grid grid-cols-1 xl:grid-cols-12 gap-12 items-center">
         {/* Left Side: col-span-7 */}
         <div
           data-aos="fade-left"
-          className="lg:col-span-7 w-full aspect-video bg-black rounded-3xl border border-gray-200 overflow-hidden relative">
+          className="xl:col-span-7 w-full aspect-video bg-black rounded-3xl border border-gray-200 overflow-hidden relative">
           <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
         </div>
 
         {/* Right Side: col-span-5 */}
         <div
           data-aos="fade-right"
-          className="lg:col-span-5 flex flex-col space-y-8">
+          className="xl:col-span-5 flex flex-col space-y-8">
           <header>
             <h2 className="text-[#C10E1A] text-[22px] font-semibold mb-4 leading-tight">
               Extremely simple and practical

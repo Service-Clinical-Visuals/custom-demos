@@ -33,28 +33,28 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="w-full relative z-50">
+    <header className="w-full relative z-50 horizon-root">
       {/* Top Bar - Full Width, White Background */}
       <div className="bg-[#064163] border-b border-gray-100 text-gray-600 h-[40px] hidden md:block">
-        <div className="container mx-auto px-4 md:px-12 h-full flex justify-between items-center text-[13px]">
+        <div className="custom-container px-4 md:px-6 h-full flex justify-between items-center text-[13px]">
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-white" />
-              <a href="mailto:info@horizon-medtech.com" className="text-white transition-colors text-[14px]">
+              <a href="mailto:info@horizon-medtech.com" className="text-white transition-colors text-[16px]">
                 info@horizon-medtech.com
               </a>
             </div>
           </div>
           <div className="flex items-center gap-6">
+            <a href="#" className="text-white transition-colors">
+              <Linkedin size={20} />
+            </a>
+            <div className="h-4 w-[1px] bg-gray-200"></div>
             <div className="flex items-center gap-1 cursor-pointer text-white transition-colors">
               <Globe size={16} className="text-white" />
               <span className="font-medium text-[14px]">EN</span>
-              <ChevronDown size={14} />
+              <ChevronDown size={20} />
             </div>
-            <div className="h-4 w-[1px] bg-gray-200"></div>
-            <a href="#" className="text-white transition-colors">
-              <Linkedin size={18} />
-            </a>
           </div>
         </div>
       </div>
@@ -63,11 +63,11 @@ export default function Header() {
       <div className="h-[75px] md:h-[80px] w-full bg-[#064163] relative">
         {/* Main Navbar - Full Width, Primary Color Background */}
         <nav className={`bg-white text-[#064163] shadow-md w-full transition-all duration-300 ease-in-out ${isScrolled ? 'fixed top-0 left-0 animate-in slide-in-from-top-full z-[60]' : 'absolute top-0 left-0 z-40'}`}>
-          <div className="container mx-auto h-[75px] md:h-[80px] px-4 md:px-12 flex justify-between items-center">
+          <div className="custom-container h-[75px] md:h-[80px] px-4 md:px-6 flex justify-between items-center">
             {/* Logo Section */}
             <Link href="/horizon-med-tech" className="flex items-center">
               <div className="">
-                <img src="/horizon/images/horizon-logo.png" alt="horizon-logo" className="w-24" />
+                <img src="/horizon/images/horizon-logo.png" alt="horizon-logo" className="w-28" />
               </div>
             </Link>
 
@@ -94,7 +94,7 @@ export default function Header() {
                   <Phone size={20} fill="currentColor" strokeWidth={0} />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-[12px] text-gray-400 uppercase tracking-wider font-bold">Call Us On</span>
+                  <span className="text-[12px] text-[#827E76] tracking-wider font-bold">Call Us On</span>
                   <span className="text-[16px] font-bold text-[#064163] tracking-tight">+44 (0)330 043 9066</span>
                 </div>
               </div>

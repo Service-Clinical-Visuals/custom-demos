@@ -22,11 +22,11 @@ const experts = [
 
 export default function ExpertsTeam() {
   return (
-    <section className="w-full py-15 bg-[#F9F9F9] relative overflow-hidden ">
+    <section className="w-full py-15 bg-[#F9F9F9] relative overflow-hidden horizon-root">
       <div
         className="absolute inset-0 opacity-[0.58] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
       />
-      <div className="container mx-auto px-4 md:px-12 relative z-10 text-center">
+      <div className="custom-container px-4 md:px-6 relative z-10 text-center">
         <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] mb-16" data-aos="fade-up">
           Meet Our Experts Team
         </h2>
@@ -41,8 +41,8 @@ export default function ExpertsTeam() {
             >
               {/* Header Info Part */}
               <div className="w-full bg-[#84CFFA] rounded-t-3xl pt-10 pb-16 px-6 text-center transform transition-transform group-hover:-translate-y-1">
-                <h3 className="text-xl font-bold text-[#064163] mb-1">{expert.name}</h3>
-                <p className="text-[11px] font-bold text-[#064163]/70 uppercase tracking-widest">{expert.title}</p>
+                <h3 className="text-xl font-semibold text-[#0E0B06] mb-1">{expert.name}</h3>
+                <p className="text-[11px] font-normal text-[#1A1A1A] tracking-wide">{expert.title}</p>
               </div>
 
               {/* Photo Part */}

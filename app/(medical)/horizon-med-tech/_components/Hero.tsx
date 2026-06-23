@@ -35,8 +35,8 @@ export default function Hero() {
       </div>
 
       {/* Content overlay */}
-      <div className="container mx-auto px-4 md:px-12 flex flex-col justify-end pb-40 h-full w-full text-left text-white z-20">
-        <div className="relative max-w-3xl">
+      <div className="custom-container px-4 md:px-6 flex flex-col justify-end pb-40 h-full w-full text-left text-white z-20">
+        <div className="relative max-w-3xl horizon-root">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

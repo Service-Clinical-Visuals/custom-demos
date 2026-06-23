@@ -1,6 +1,8 @@
 import React from "react";
 import { ArrowUpRight, CornerUpRight } from "lucide-react"; // Optional: for the "Read More" icon
 
+import Container from "./Container";
+
 export default function ServicesSection() {
   const services = [
     {
@@ -27,13 +29,13 @@ export default function ServicesSection() {
         <span className="inline-block bg-[#FFFFFF26] text-[#FFFFFF] text-[14px] px-4 py-2 rounded-md mb-6">
           Our Services
         </span>
-        <h2 className="text-3xl md:text-[32px] font-bold max-w-6xl mx-auto mb-4">
+        <h2 className="text-[38px] font-semibold max-w-6xl mx-auto mb-4">
           Reliable Service Solutions for Seamless Performance and Care
         </h2>
       </div>
 
       {/* Cards Container */}
-      <div className="container mx-auto px-4 -mt-24">
+      <Container className="px-4 -mt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
           {services.map((service, index) => (
             <div
@@ -54,7 +56,7 @@ export default function ServicesSection() {
                 <h3 className="text-[24px] font-semibold text-[#1F242E] mb-4 leading-tight">
                   {service.title}
                 </h3>
-                <p className="text-[#333333] text-base leading-relaxed mb-6">
+                <p className="text-[#333333] text-[18px] leading-relaxed mb-6">
                   {service.description}
                 </p>
                 <a
@@ -67,7 +69,7 @@ export default function ServicesSection() {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

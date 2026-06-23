@@ -1,5 +1,7 @@
 import React from "react";
 
+import Container from "./Container";
+
 const Footer = () => {
   const footerSections = [
     {
@@ -40,8 +42,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#f5f5f5] pt-16 pb-8 px-6 md:px-12 lg:px-24 border-t border-gray-100 font-sans">
-      <div className="container mx-auto">
+    <footer className="bg-[#f5f5f5] pt-16 pb-8  border-t border-gray-100 font-sans">
+      <Container>
         {/* Top Section: Branding and Links */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
           {/* Brand Column - Wider than others */}
@@ -69,7 +71,7 @@ const Footer = () => {
               data-aos="fade-up"
               key={idx}
               className="lg:col-span-2 space-y-4">
-              <h4 className="text-[18px] font-bold text-[#333333]">
+              <h4 className="text-[19px] font-semibold  text-[#333333]">
                 {section.title}
               </h4>
               <ul className="space-y-3">
@@ -77,7 +79,7 @@ const Footer = () => {
                   <li key={linkIdx}>
                     <a
                       href="#"
-                      className="text-base text-[#333333] hover:text-[#00689B] transition-colors">
+                      className="text-base text-[16px]   text-[#333333] hover:text-[#00689B] transition-colors">
                       {link}
                     </a>
                   </li>
@@ -88,10 +90,10 @@ const Footer = () => {
 
           {/* Address Column */}
           <div data-aos="fade-up" className="lg:col-span-2 space-y-4">
-            <h4 className="text-[18px] font-bold text-[#333333]">
+            <h4 className="text-[19px] font-semibold text-[#333333]">
               Address
             </h4>
-            <div className="text-base text-[#333333] leading-relaxed space-y-1">
+            <div className="text-base text-[16px]  text-[#333333] leading-relaxed space-y-1">
               <p>Jaeger Medical GmbH</p>
               <p>Leibnizstrasse 7</p>
               <p>97204 Hoechberg</p>
@@ -106,7 +108,7 @@ const Footer = () => {
             © Copyright jaegerrdx 2026. All Rights Reserved.
           </p>
         </div>
-      </div>
+      </Container>
     </footer>
   );
 };

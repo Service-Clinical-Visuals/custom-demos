@@ -10,7 +10,7 @@ export default function Banner() {
       {/* Content */}
       <div
         data-aos="fade-up"
-        className="relative z-10 container mx-auto px-6 pb-20">
+        className="relative z-10 custom-container px-6 pb-20 arcomed-root">
         <h1 className="text-[#FFFFFF] text-3xl lg:text-4xl font-semibold leading-tight">
           Developed and manufactured in Zurich.
           <br /> Swiss Made.

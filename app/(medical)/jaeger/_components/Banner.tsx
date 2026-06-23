@@ -5,6 +5,8 @@ import Link from "next/link";
 
 
 
+import Container from "./Container";
+
 export default function Banner() {
   return (
     <section className="relative w-full bg-black h-screen overflow-hidden">
@@ -15,9 +17,9 @@ export default function Banner() {
       />
 
       {/* 📝 Content */}
-      <div className="relative z-10 flex  h-full">
-        <div data-aos="fade-up" className="container mx-auto px-6">
-          <h1 className="text-[#FFFFFF] text-2xl md:text-[36px] font-semibold max-w-3xl leading-relaxed mt-110 md:mt-155 lg:mt-160">
+      <div className="relative z-10 flex flex-col justify-end pb-24 md:pb-32 lg:pb-40 h-full">
+        <Container data-aos="fade-up" className="px-6">
+          <h1 className="text-[#FFFFFF] text-[32px] md:text-[38px] font-semibold max-w-3xl leading-relaxed ">
             Innovative Technology For Respiratory Diagnostics
           </h1>
           <div className="">
@@ -28,7 +30,7 @@ export default function Banner() {
               Explore Our Products
             </Link>
           </div>
-        </div>
+        </Container>
       </div>
     </section>
   );

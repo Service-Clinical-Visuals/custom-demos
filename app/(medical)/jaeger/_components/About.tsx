@@ -10,6 +10,8 @@ type ContentType = {
   image: string;
   points: string[];
 };
+import Container from "./Container";
+
 export default function About() {
   const [activeTab, setActiveTab] = useState<"philosophy" | "values">(
     "philosophy",
@@ -70,7 +72,7 @@ export default function About() {
 
   return (
     <section className="w-full py-16 lg:py-24">
-      <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
+      <Container className="px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
         {/* LEFT SIDE - IMAGES */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Big Image */}
@@ -111,7 +113,7 @@ export default function About() {
           </span>
 
           {/* Title */}
-          <h2 className="text-2xl md:text-[32px] font-bold text-[#1F242E] leading-snug mt-6">
+          <h2 className="text-[38px] font-semibold text-[#1F242E] leading-snug mt-6">
             Advancing Global Respiratory Care Through Innovation and Expertise
           </h2>
 
@@ -122,8 +124,8 @@ export default function About() {
               onClick={() => setActiveTab("philosophy")}
               className="relative cursor-pointer">
               <div
-                className={`px-6 py-3 rounded-xl text-base font-bold text-center border ${activeTab === "philosophy"
-                  ? "bg-[#00689B] text-[#FFFFFF] border-[#00689B]"
+                className={`px-6 py-3 rounded-xl text-bold text   -center border ${activeTab === "philosophy"
+                  ? "bg-[#00689B] text-[#FFFFFF]  border-[#00689B]"
                   : "border-[#D1D5DB] text-[#1F242E]"
                   }`}>
                 Our Philosophy
@@ -165,9 +167,9 @@ export default function About() {
           </div>
 
           {/* Card */}
-          <div className="bg-[#FFFFFF] shadow-md rounded-xl p-5 space-y-4 h-auto md:h-90 overflow-hidden">
+          <div className="bg-[#FFFFFF] shadow-md rounded-xl p-5 space-y-4 h-auto md:h-100 overflow-hidden">
             {/* Description */}
-            <p className="text-[#333333] text-base leading-relaxed text-justify">
+            <p className="text-[#333333] text-[18px] leading-relaxed text-justify">
               {current.desc}
             </p>
 
@@ -181,7 +183,7 @@ export default function About() {
                 />
               </div>
 
-              <ul className="space-y-3 text-base text-[#333333]">
+              <ul className="space-y-3 text-[18px] text-[#333333]">
                 {current.points.map((item, index) => (
                   <li key={index} className="flex items-start gap-2">
                     <svg
@@ -208,7 +210,7 @@ export default function About() {
             Learn More <ArrowRight size={16} className="ml-4 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
