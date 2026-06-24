@@ -20,15 +20,15 @@ const cards = [
 
 export default function VapoSolutions() {
   return (
-    <section className="bg-white py-12 md:py-20 px-4 md:px-8 lg:px-16">
-      <div className="max-w-380 mx-auto text-center">
+    <section className="bg-white py-12 md:py-20">
+      <div className="custom-container text-center">
 
         {/* HEADER */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#0C66AF] mb-4">
+        <h2 className="text-2xl lg:text-3xl  2xl:text-3xlfont-semibold text-[#0C66AF] mb-4">
           A Frontline Solution from Neonates to Adults
         </h2>
 
-        <p className="text-gray-600 text-base max-w-2xl mx-auto mb-8 md:mb-12">
+        <p className="text-gray-600 text-md lg:text-lg 2xl:text-lg max-w-4xl mx-auto mb-8 md:mb-12">
           Together, we still have a lot of work to do. We see patients every day
           who would benefit from our life-changing technology and strive to make
           it available to everyone.
@@ -54,10 +54,10 @@ export default function VapoSolutions() {
 
               {/* CONTENT */}
               <div className="p-6 text-left flex flex-col flex-1">
-                <h3 className="text-gray-800 text-lg font-medium mb-2">
+                <h3 className="text-gray-800 text-md lg:text-xl 2xl:text-xl font-medium mb-2">
                   {card.title}
                 </h3>
-                <p className="text-gray-600 text-base leading-relaxed">
+                <p className="text-gray-600 text-md lg:text-lg 2xl:text-lg leading-relaxed">
                   {card.desc}
                 </p>
               </div>

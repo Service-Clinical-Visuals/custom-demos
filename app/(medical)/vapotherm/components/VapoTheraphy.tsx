@@ -17,8 +17,8 @@ export default function VapoTheraphy() {
   };
 
   return (
-    <section className="bg-[#0C66AF] text-white py-12 md:py-20 px-4 md:px-8 lg:px-16">
-      <div className="max-w-380 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
+    <section className="bg-[#0C66AF] text-white py-12 md:py-20">
+      <div className="custom-container grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
         
         {/* LEFT COLUMN */}
         <div className="space-y-8 min-w-0">
@@ -34,22 +34,22 @@ export default function VapoTheraphy() {
 
           {/* TEXT BLOCK */}
           <div data-aos="fade-up">
-            <h3 className="text-2xl md:text-3xl font-semibold mb-4">
+            <h2 className="text-2xl lg:text-3xl  2xl:text-3xl  font-semibold mb-4">
               Un-Mask Respiratory Support
-            </h3>
+            </h2>
 
-            <p className="text-base opacity-90 mb-4 leading-relaxed">
+            <p className="text-white text-md lg:text-lg 2xl:text-lg mb-4">
               About a third of patients needing traditional mask-based respiratory
               support are mask-intolerant, risking failed treatment, cost of care,
               and care escalation.
             </p>
 
-            <p className="text-base opacity-90 mb-4 leading-relaxed">
+            <p className="text-white text-md lg:text-lg 2xl:text-lg mb-4 ">
               Vapotherm high velocity therapy helps you rethink the traditional
               approach to respiratory support with patient comfort in mind.
             </p>
 
-            <p className="text-base opacity-90 leading-relaxed">
+            <p className="text-white text-md lg:text-lg 2xl:text-lg mb-4 ">
               Patients can eat, drink, talk, and take oral medications while
               receiving respiratory and oxygenation support.
             </p>
@@ -61,12 +61,12 @@ export default function VapoTheraphy() {
 
           {/* HEADING + TEXT */}
           <div data-aos="fade-left">
-            <h2 className="text-2xl md:text-3xl font-semibold mb-4 leading-snug">
+           <h2 className="text-2xl lg:text-3xl  2xl:text-3xl  font-semibold text-white">
               Traditional NiPPV vs. High Velocity Therapy... <br />
               Feel the Difference.
             </h2>
 
-            <p className="text-base opacity-90 leading-relaxed">
+             <p className="text-white text-md lg:text-lg 2xl:text-lg mt-4 ">
               The rapid flushing out of the upper airway dead space is how
               Vapotherm high velocity therapy facilitates alveolar ventilation.
               In order to achieve ventilation, NiPPV most greatly affects the
@@ -87,7 +87,7 @@ export default function VapoTheraphy() {
           {/* MEDIA BOX */}
           <div
             data-aos="zoom-in"
-            className="relative w-full h-64 sm:h-80 md:h-96 bg-gray-200 rounded-xl overflow-hidden"
+            className="relative w-full aspect-video rounded-xl overflow-hidden"
           >
             {/* Future Video */}
 

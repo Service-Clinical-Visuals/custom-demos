@@ -17,8 +17,8 @@ export default function VapoProducts() {
 
 
   return (
-    <section className="bg-white py-12 md:py-20 px-4 md:px-8 lg:px-16 overflow-hidden">
-      <div className="max-w-380 mx-auto space-y-10 md:space-y-16">
+    <section className="bg-white py-12 md:py-20 overflow-hidden">
+      <div className="custom-container space-y-10 md:space-y-16">
 
         {/* TOP ROW */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -29,21 +29,21 @@ export default function VapoProducts() {
               [Pediatrics to Adults]
             </p> */}
 
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#0C66AF] mb-4">
+            <h2 className="text-2xl lg:text-3xl  2xl:text-3xl  font-semibold text-[#0C66AF] mb-4">
               HVT® 2.0 System
             </h2>
 
-            <p className="text-gray-600 text-base leading-relaxed mb-4">
+            <p className="text-gray-600 text-md lg:text-lg 2xl:text-lg  leading-relaxed mb-4">
               Mask-Free respiratory support with Vapotherm HVT® 2.0 lets you
               improve your experience as well as your patients—realize ease of
               care anytime and anywhere within your hospital.
             </p>
 
-            <p className="text-gray-600 text-base leading-relaxed mb-6">
+            <p className="text-gray-600 text-md lg:text-lg 2xl:text-lg  leading-relaxed mb-6">
               Vapotherm HVT 2.0 uses our revolutionary high velocity therapy and is ready for use in approximately 5 minutes. It requires minimal patient coaching, and staff intervention. A large, intuitive touchscreen gives you clinically relevant information from a distance, which helps you make informed decisions quickly, and with confidence. A disposable patient circuit supports infection control and enables quick disinfection. On-screen troubleshooting support, and comprehensive alarms that facilitate patient safety and ease of care.
             </p>
 
-            <button className="bg-[#0C66AF] cursor-pointer text-white px-6 py-3 rounded-full text-base hover:bg-[#0A569C] transition min-h-[44px]">
+            <button className="bg-[#0C66AF] cursor-pointer text-white px-6 py-3 rounded-full text-base hover:bg-[#0A569C] transition min-h-[44px] font-semibold">
               View Products
             </button>
           </div>
@@ -51,7 +51,7 @@ export default function VapoProducts() {
           {/* RIGHT MEDIA */}
           <div
             data-aos="zoom-in"
-            className="relative w-full h-64 sm:h-80 md:h-96 bg-gray-200 rounded-xl overflow-hidden"
+            className="relative w-full aspect-video rounded-xl overflow-hidden"
           >
             <video
               key={currentVideoIndex}
@@ -75,17 +75,17 @@ export default function VapoProducts() {
 
           {/* LEFT CONTENT */}
           <div data-aos="fade-right" className="min-w-0">
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#0C66AF] mb-4">
+            <h3 className="text-xl lg:text-2xl  2xl:text-2xl  font-semibold text-[#0C66AF] mb-4">
               Rethinking Ventilation: Do You Always Need Pressure?
             </h3>
 
-            <p className="text-gray-600 text-base leading-relaxed mb-6">
+            <p className="text-gray-600 text-md lg:text-lg 2xl:text-lg  leading-relaxed mb-6">
               NiPPV has been the gold-standard treatment for patients with
               hypercapnia. But while NiPPV may be preferable to intubation,
               it’s not necessarily a therapy that all indicated patients tolerate.
             </p>
 
-            <button className="bg-[#0C66AF] cursor-pointer text-white px-6 py-3 rounded-full text-base hover:bg-[#0A569C] transition min-h-[44px] w-full sm:w-auto">
+            <button className="bg-[#0C66AF] cursor-pointer text-white px-6 py-3 rounded-full text-base hover:bg-[#0A569C] transition min-h-[44px] w-full sm:w-auto font-semibold">
               Take the free On-Demand CEEU Course
             </button>
           </div>

@@ -31,16 +31,16 @@ export default function VapoNavbar() {
         show ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="max-w-380 mx-auto">
+      <div className="custom-container">
         {/* Top Bar */}
-        <div className="text-white text-sm px-4 md:px-6 lg:px-8 xl:px-4 xxl:px-0 py-2 flex justify-between items-center">
-          <span className="flex gap-2 items-center">
-            <Phone size={15} /> 1.844.381.8276
+        <div className="text-white text-sm px-4 md:px-6 lg:px-8 xl:px-4 xxl:px-0 py-3 flex justify-between items-center">
+          <span className="flex gap-2 items-center text-sm font-medium">
+            <img src="/vapotherm/assets/vapothermphone.png" alt="" width={15} height={15}/> 1.844.381.8276
           </span>
           <div className="hidden sm:flex items-center gap-4">
-            <span className="underline cursor-pointer">COVID-19</span>
-            <div className="flex items-center gap-1 cursor-pointer">
-              🇬🇧 <span>EN</span> <ChevronDown size={15} />
+            <span className="underline cursor-pointer text-sm font-medium">COVID-19</span>
+            <div className="flex items-center gap-1 cursor-pointer text-sm font-medium">
+              <span className="text-2xl">🇬🇧</span> <span>EN</span> <ChevronDown size={15} />
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function VapoNavbar() {
 
       {/* Main Navbar */}
       <div className="bg-white">
-        <div className="max-w-380 mx-auto px-4 md:px-6 lg:px-8 xl:px-4 xxl:px-0 py-4 flex items-center justify-between">
+        <div className="custom-container py-4 flex items-center justify-between">
           {/* Logo */}
           <Image
             src="/vapotherm/assets/vapotherm-logo.png"
@@ -62,7 +62,7 @@ export default function VapoNavbar() {
           <div className="hidden lg:flex gap-6 xl:gap-8 text-gray-700 text-sm xl:text-base font-medium">
             {navItems.map((item) => (
               <span key={item} className="flex items-center gap-1 cursor-pointer hover:text-[#0C66AF] transition-colors whitespace-nowrap">
-                {item} <ChevronDown size={15} />
+                {item} <img src="/vapotherm/assets/plus.png" alt="" width={20} height={20}/>
               </span>
             ))}
           </div>
@@ -75,7 +75,7 @@ export default function VapoNavbar() {
             >
               <Search size={18} className="text-black" />
             </button>
-            <button className="cursor-pointer bg-[#0C66AF] hover:bg-[#0c66afdd] text-white px-3 md:px-8 py-2 rounded-full text-xs md:text-sm whitespace-nowrap min-h-[44px]">
+            <button className="cursor-pointer bg-[#0C66AF] hover:bg-[#0c66afdd] text-white px-3 md:px-8 py-2 rounded-full text-xs md:text-sm whitespace-nowrap min-h-[44px] font-semibold">
               View Products
             </button>
             {/* Hamburger — mobile & tablet only */}
@@ -99,7 +99,7 @@ export default function VapoNavbar() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item}
-                <ChevronDown size={16} />
+                <img src="/vapotherm/assets/plus.png" alt="" width={20} height={20}/>
               </button>
             ))}
           </div>

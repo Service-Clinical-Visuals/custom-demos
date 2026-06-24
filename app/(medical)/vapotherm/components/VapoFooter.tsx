@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function VapoFooter() {
 
   return (
-    <footer className="bg-gray-100 px-6 md:px-16 py-10">
-      <div className="max-w-380 mx-auto">
+    <footer className="bg-gray-100 py-10">
+      <div className="custom-container">
         
         {/* TOP GRID */}
         <div className="grid lg:grid-cols-6 gap-12">
@@ -17,9 +17,9 @@ export default function VapoFooter() {
             
             {/* LOGO */}
 
-            <Image src="/vapotherm/assets/vapotherm-logo.png" alt="Vapotherm Logo" width={160} height={60} />
+            <Image src="/vapotherm/assets/vapotherm-logo.png" alt="Vapotherm Logo" width={300} height={200} />
             {/* NEWSLETTER */}
-            <p className="text-gray-700 text-base mb-4 font-semibold mt-6">
+            <p className="text-gray-700 text-md lg:text-lg 2xl:text-lg  mb-4 font-semibold mt-6">
               Subscribe to Our Newsletter
             </p>
 
@@ -63,17 +63,18 @@ export default function VapoFooter() {
               },
             ].map((col, i) => (
               <div key={i} data-aos="fade-up" data-aos-delay={i * 100}>
-                <h4 className="text-gray-800 font-semibold text-base mb-4">
+                <h4 className="text-gray-800 font-semibold text-md lg:text-lg 2xl:text-lg mb-4">
                   {col.title}
                 </h4>
                 <ul className="space-y-2">
                   {col.links.map((link, j) => (
-                    <li
-                      key={j}
-                      className="text-gray-600 text-base hover:text-[#0C66AF] cursor-pointer transition"
-                    >
-                      {link}
-                    </li>
+                    // <li
+                    //   key={j}
+                    //   className="text-gray-600 text-md lg:text-lg 2xl:text-lg  hover:text-[#0C66AF] cursor-pointer transition"
+                    // >
+                      <p className="text-gray-600 text-md lg:text-lg 2xl:text-lg">{link}</p>
+                      
+                    // </li>
                   ))}
                 </ul>
               </div>
