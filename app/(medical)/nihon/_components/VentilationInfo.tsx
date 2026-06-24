@@ -15,18 +15,18 @@ const VentilationInfo = () => {
           <div data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-              <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px] tracking-wide">
+              <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
                 NKV-550 Ventilation System
               </h2>
             </div>
 
             <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
 
-            <h3 className="text-[24px] md:text-[28px] font-semibold text-[#353A3D] mb-4">
+            <h3 className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-semibold  text-[#2B2F31] mb-4">
               Information
             </h3>
 
-            <p className="text-[#333333] text-[16px] md:text-[17px] mb-4 text-justify">
+            <p className="text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] mb-4 text-justify">
               The NKV-550 Ventilator System provides advanced, seamless respiratory care with intelligent monitoring, lung-protective technology, and flexible ventilation support for efficient patient-focused treatment.
             </p>
 
@@ -37,8 +37,8 @@ const VentilationInfo = () => {
                   <CheckCircle2 size={24} className="text-[#0068B3]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#353A3D] mb-1 text-base md:text-[20px]">Seamless Patient Care</h4>
-                  <p className="text-[#333333] text-base md:text-[16px] leading-relaxed">
+                  <h3 className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-medium  text-[#2B2F31]">Seamless Patient Care</h3>
+                  <p className="text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-relaxed">
                     The NKV-550 enables seamless ventilation transitions for faster, more efficient patient care.
                   </p>
                 </div>
@@ -50,8 +50,8 @@ const VentilationInfo = () => {
                   <CheckCircle2 size={24} className="text-[#0068B3]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#353A3D] mb-1 text-base md:text-[20px]">Lung Protection</h4>
-                  <p className="text-[#333333] text-base md:text-[16px] leading-relaxed">
+                   <h3 className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-medium  text-[#2B2F31]">Lung Protection</h3>
+                  <p className="text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-relaxed">
                     The NKV-550 features Gentle Lung&reg; technology to support lung-protective ventilation and improve patient safety.
                   </p>
                 </div>

@@ -22,28 +22,28 @@ export default function ServicePackagesSection() {
           <div className="flex flex-col" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-              <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px]">
+              <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
                 Discover our Solutions
               </h2>
             </div>
 
             <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
 
-            <h3 className="text-[24px] md:text-[28px] font-semibold text-[#353A3D] mb-5 leading-tight">
+            <h3 className="text-[22px] md:text-[26px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-semibold  text-[#353A3D] mb-5 leading-tight">
               Tailor-Made Service Packages for Reliable <br className="hidden md:block" /> Healthcare Solutions
             </h3>
 
-            <div className="space-y-4 text-[#333333] text-[16px] leading-relaxed mb-6 text-justify">
-              <p>
+            <div className="space-y-4  leading-relaxed mb-6 text-justify">
+              <p className="text-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]">
                 Flexible service plans designed for hospitals and medtech environments. From installation and training to preventive maintenance, rapid repairs, and compliance updates—our experts keep your systems running at peak performance so you can focus on patient care.
               </p>
-              <p>
+              <p className="text-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]">
                 Our expert service teams work proactively to minimize downtime, optimize workflow efficiency, and maintain compliance with the latest healthcare standards and regulations. With customized maintenance plans, software updates, performance checks, and responsive support, we help healthcare providers maintain safe, efficient, and uninterrupted patient care.
               </p>
             </div>
 
             <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
-<h3 className="text-[24px] md:text-[28px] font-semibold text-[#353A3D] mb-5 leading-tight"> You Purchase – We Care</h3>
+<h3 className="text-[22px] md:text-[26px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-semibold  text-[#353A3D] mb-5 leading-tight"> You Purchase – We Care</h3>
             
 
             <div className="flex flex-col gap-6">

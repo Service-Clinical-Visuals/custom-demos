@@ -20,19 +20,19 @@ const VentilationSection = () => {
           <div className="text-white lg:col-span-5" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-white"></div>
-              <h2 className="text-white font-semibold text-[16px] lg:text-[20px] xl:text-[22px]tracking-wide">
+              <h2 className="text-white font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
                 NKV-550 Ventilation System
               </h2>
             </div>
 
             <div className="w-full h-[1px] bg-white/20 mb-6"></div>
 
-            <h3 className="text-white **:text-[24px] md:text-[28px] font-semibold   mb-4 leading-tight">
+            <h3 className="text-white text-[22px] md:text-[26px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-semibold   mb-4 leading-tight">
               Intelligent Ventilation for Advanced Patient Care
             </h3>
 
             <div className="space-y-6 mb-10">
-              <p className="text-gray-100 font-light text-[16px] leading-relaxed text-justify">
+              <p className="text-gray-100 font-light text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] text-justify">
                 Nihon Kohden's overriding philosophy inherent to the NKV-550 design is to Treasure Every Breath®. Our focus is to provide clinically relevant innovations and solutions for patients requiring mechanical ventilation. The NKV-550 Ventilator System is suitable for neonatal through adult patients and is equipped with a range of applications and modes, including invasive and non-invasive ventilation, O2 therapy, and airway care apps.
               </p>
               {/* <p className="text-gray-100 font-light text-[17px] leading-relaxed text-justify">

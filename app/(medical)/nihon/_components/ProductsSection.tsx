@@ -29,20 +29,20 @@ const ProductsSection = () => {
           <div className="lg:max-w-xl">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-white"></div>
-              <h2 className="text-white font-semibold text-[16px] lg:text-[20px] xl:text-[22px] tracking-wide">
+              <h2 className="text-white font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
                 Discover our Products
               </h2>
             </div>
 
             <div className="w-full h-[1px] bg-white/20 mb-6"></div>
 
-            <h3 className="text-[24px] md:text-[28px] font-semibold text-white leading-tight">
+            <h3 className="text-[22px] md:text-[26px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-semibold    text-white leading-tight">
               Innovating Healthcare Excellence
             </h3>
           </div>
 
           <div className="lg:max-w-3xl">
-            <p className="text-gray-100 font-light text-[16px] md:text-base leading-relaxed">
+            <p className="text-gray-100 text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]  leading-relaxed">
               Discover Nihon Kohden's advanced healthcare solutions designed to support every stage of patient care.
               From patient monitoring and ventilation to cardiology, neurology, medical IT, and diagnostics,
               our innovative technologies empower clinicians with reliable, efficient, and life-saving medical solutions.

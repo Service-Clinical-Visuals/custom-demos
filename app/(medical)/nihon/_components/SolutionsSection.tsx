@@ -51,22 +51,22 @@ const SolutionsSection = () => {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-                <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px]">
+                <h2 className="text-[#0068B3] font-semibold text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px]">
                   Discover our Solutions
                 </h2>
               </div>
               <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
-              <h3 className="text-[16px]  font-semibold text-[#353A3D] leading-tight">
+              <h4 className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-semibold  text-[#353A3D] leading-tight">
                 Across The Continium Of Care
-              </h3>
+              </h4>
             </div>
 
 
             <div className="space-y-6 leading-relaxed  text-[16px] text-justify">
-              <p>
+              <p className="text-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]">
                 Welcome to Nihon Kohden's innovative solution portfolio, where cutting-edge technology meets healthcare excellence. Discover our advanced medical devices and systems designed to enhance patient care, streamline workflows, and empower clinical outcomes across the continuum of care.
               </p>
-              <p>
+              <p className="text-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]">
                 Driven by decades of innovation and a commitment to life-saving technology, Nihon Kohden combines precision engineering with medical expertise to support healthcare professionals in critical moments. From patient monitoring and neurology to cardiology, emergency care, and hospital IT solutions, our technologies are built to deliver reliability, accuracy, and confidence in every environment.
               </p>
             </div>
@@ -140,10 +140,10 @@ const SolutionsSection = () => {
               {solutionSlides.map((slide, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative z-10 flex flex-col items-center text-center max-w-5xl mx-auto px-4">
-                    <h4 className="text-[16px] md:text-[20px] font-bold tracking-normal mb-3">
+                    <h4 className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-semibold text-[#FFFFFF] mb-3">
                       {slide.title}
                     </h4>
-                    <p className="text-sm md:text-[16px] text-white leading-relaxed font-light">
+                    <p className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] text-[#FFFFFF] leading-relaxed font-light">
                       {slide.description} <span className="font-bold border-b border-white/50 cursor-pointer hover:border-white transition-colors uppercase text-[12px] ml-1">READ MORE</span>
                     </p>
                   </div>

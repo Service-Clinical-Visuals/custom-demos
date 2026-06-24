@@ -22,18 +22,18 @@ export default function History() {
           <div className="flex flex-col" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-              <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px] 2xl:text-[26px]">
+              <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
                 About Nihon Kohden's History
               </h2>
             </div>
 
             <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
 
-            <h3 className="text-[24px] md:text-[28px] font-semibold  text-[#353A3D] mb-4">
+            <h3 className="text-[22px] md:text-[26px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-semibold  text-[#353A3D] mb-4">
               Leading the evolution of medical engineering
             </h3>
 
-            <p className="text-[#333333] leading-relaxed text-[16px] mb-6 text-justify">
+            <p className="text-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] mb-6 text-justify">
               The neuromuscular tissue of a small bird inspired the founding of Nihon Kohden. Dr. Yoshio Ogino – founder of Nihon Kohden – was researching electrical engineering when he witnessed an experiment involving stimulation of the neuromuscular tissue of a small bird. He was amazed by the wonder of biology and remarked that "to measure part of a living body requires several hundred times."
             </p>
 
@@ -46,8 +46,8 @@ export default function History() {
                   <img src="/nihon/images/target.png" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
                 </div>
                 <div className="flex flex-col justify-center">
-                  <h4 className="font-semibold text-[#333] text-[20px] mb-1">A Spark from Nature</h4>
-                  <p className="text-[#666] text-[16px] leading-snug">
+                  <h4 className="font-semibold text-[#333] text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] mb-1">A Spark from Nature</h4>
+                  <p className="ttext-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]">
                     Dr. Yoshio Ogino was inspired after witnessing an experiment on a small bird's neuromuscular tissue.
                   </p>
                 </div>
@@ -58,8 +58,8 @@ export default function History() {
                   <img src="/nihon/images/idea.png" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
                 </div>
                 <div className="flex flex-col justify-center">
-                  <h4 className="font-semibold text-[#333] text-[20px] mb-1">Realizing the Limits of Technology</h4>
-                  <p className="text-[#666] text-[16px] leading-snug">
+                  <h4 className="font-semibold text-[#333] text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] mb-1">Realizing the Limits of Technology</h4>
+                  <p className="text-[#333333] leading-relaxed text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]">
                     He discovered that measuring the human body required far greater sensitivity than existing electrical engineering equipment.
                   </p>
                 </div>

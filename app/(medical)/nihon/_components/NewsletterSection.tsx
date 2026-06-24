@@ -13,7 +13,7 @@ const NewsletterSection = () => {
           <div className="lg:col-span-9" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4 ">
               <div className="w-2.5 h-2.5 bg-white"></div>
-              <h2 className="text-white font-semibold text-[16px]">
+              <h2 className="text-white font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
                 Stay Connected with Nihon Kohden
               </h2>
             </div>

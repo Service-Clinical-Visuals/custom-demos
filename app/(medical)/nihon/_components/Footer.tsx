@@ -34,7 +34,7 @@ const Footer = () => {
               <img src="/nihon/images/nihon-logo.png" alt="Nihon Kohden Europe" className="w-60 h-auto" />
             </Link>
 
-            <p className="text-[#333333] text-[16px] leading-relaxed text-justify">
+            <p className="text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-relaxed text-justify">
               Nihon Kohden is a global medical devices and patient monitoring technology company operating in the MedTech industry.
               Founded in Japan, Nihon Kohden develops advanced patient monitoring systems.
             </p>
@@ -64,7 +64,7 @@ const Footer = () => {
                   <ul className="flex flex-col gap-3">
                     {displayLinks.map((link, i) => (
                       <li key={i}>
-                        <Link href="#" className="text-[#333333] hover:text-[#0068B3] text-[16px] leading-relaxed transition-colors font-light">
+                        <Link href="#" className="text-[#333333] hover:text-[#0068B3] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-relaxed transition-colors font-light">
                           {link}
                         </Link>
                       </li>
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-6 border-t border-[#000000]/10 text-center text-[#333333] text-[14px] leading-relaxed font-light">
+        <div className="pt-6 border-t border-[#000000]/10 text-center text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-relaxed font-light">
           © {new Date().getFullYear()} Nihon Kohden Europe GmbH • Rosbach, Germany
         </div>
       </div>

@@ -38,13 +38,13 @@ const TechnologiesSection = () => {
         <div className="text-center max-w-6xl mx-auto mb-16" data-aos="fade-up">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-2.5 h-2.5 bg-[#0068B3]"></div>
-            <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[20px] xl:text-[22px]">
+            <h2 className="text-[#0068B3] font-semibold text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
               Innovative Technologies
             </h2>
           </div>
 
           <div className="w-full h-[1px] bg-[#000000]/10 mb-6"></div>
-          <p className="text-[#333333] text-sm md:text-[16px] lg:text-[17px] leading-relaxed">
+          <p className="text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]leading-relaxed">
             Nihon Kohden has developed innovative and unique technologies that contribute to progress in medical care.  We boldly take on new challenges, maintaining a keen eye for detail as we keep in mind the spirit of the founder.
 
           </p>
@@ -79,13 +79,13 @@ const TechnologiesSection = () => {
               </div>
 
               {/* Card Content */}
-              <h3 className="text-[18px] md:text-[20px] font-bold text-[#2B2F31] mb-3">{tech.title}</h3>
-              <p className="text-[#333333] text-[16px] mb-4 leading-relaxed">
+              <h4 className="text-[16px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-semibold  text-[#2B2F31] mb-3">{tech.title}</h4>
+              <p className="text-[#333333] text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] mb-4 leading-relaxed">
                 {tech.description}
               </p>
               <Link
                 href={tech.link}
-                className="text-[#0068B3] font-bold text-sm md:text-[16px] flex items-center gap-1 group-hover:gap-2 transition-all"
+                className="text-[#0068B3] font-semibold text-sm md:text-[16px] flex items-center gap-1 group-hover:gap-2 transition-all"
               >
                 Read More <span className="text-lg">→</span>
               </Link>
