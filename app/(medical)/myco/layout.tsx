@@ -13,8 +13,8 @@ const fontBody = DM_Sans({
 
 
 export const metadata: Metadata = {
-  title: "Petrovöll | German Lubricants & Chemicals",
-  description: "Advanced high performance lubricants for automotive and industrial markets.",
+  title: "Myco",
+  description: "Trusted medical supplier and committed partner to help navigate today healthcare world",
 };
 
 export default function PetrovollLayout({
