@@ -1,0 +1,166 @@
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-primary: #d5b77c;
+  --color-secondary: #9a5631;
+  --color-top-header: #546476;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+/* h1, h2, h3, h4, h5, h6, .heading-font, button, .btn {
+  font-family: var(--font-heading);
+} */
+
+.manrope{
+  font-family: var(--font-manrope);
+}
+
+.ibm-plex-sans{
+  font-family: var(--font-ibm-plex-sans);
+}
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-downheader {
+  background: linear-gradient(180deg, #FCF3EF 0%, #D5B77C 100%);
+}
+
+.bg-section-gradient {
+  background: linear-gradient(180deg, #D5B77C 0%, #FCF3EF 100%);
+}
+
+.bg-authenticity-gradient {
+  background: linear-gradient(90deg, #D5B77C 0%, #FCF3EF 100%);
+}
+
+.bg-wellness-gradient {
+  background: linear-gradient(90deg, #D5B77C 0%, #FAF4EF 100%);
+}
+
+.bg-testimonials-gradient {
+  background: linear-gradient(180deg, #FCF3EF 0%, #D5B77C 100%);
+}
+
+/* Font sizes */
+ .top-header-text { font-size: 14px; }
+.header-link { font-size: 16px; }
+.btn-text { font-size: 16px; }
+.banner-title { font-size: 36px; }  
+.section-title { font-size: 28px; }
+.section-text { font-size: 16px; }
+.product-title { font-size: 22px; }
+.feature-title { font-size: 20px; }
+
+/* Responsive Custom Container & Font Sizes */
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+  .banner-title { font-size: 28px; }
+  .banner-text { font-size: 14px; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 90%; }
+  .banner-title { font-size: 32px; }
+  .banner-text { font-size: 16px; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 90%; }
+}
+
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .top-header-text { font-size: 14px; }
+.header-link { font-size: 16px; }
+.btn-text { font-size: 16px; }
+.banner-title { font-size: 36px; }  
+.section-title { font-size: 28px; }
+.section-text { font-size: 16px; }
+.product-title { font-size: 22px; }
+.feature-title { font-size: 20px; }
+
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 90%; }
+   .top-header-text { font-size: 14px; }
+.header-link { font-size: 16px; }
+.btn-text { font-size: 16px; }
+.banner-title { font-size: 36px; }  
+.section-title { font-size: 28px; }
+.section-text { font-size: 16px; }
+.product-title { font-size: 22px; }
+.feature-title { font-size: 20px; }
+}
+
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 85%; }
+  .top-header-text { font-size: 16px; }
+.header-link { font-size: 18px; }
+.btn-text { font-size: 18px; }
+.banner-title { font-size: 38px; }  
+.section-title { font-size: 30px; }
+.section-text { font-size: 18px; }
+.product-title { font-size: 24px; }
+.feature-title { font-size: 22px; }
+}
+
+@media (min-width: 3800px) {
+  .custom-container { max-width: 85%; }
+  .top-header-text { font-size: 22px; }
+.header-link { font-size: 24px; }
+.btn-text { font-size: 24px; }
+.banner-title { font-size: 42px; }  
+.section-title { font-size: 36px; }
+.section-text { font-size: 24px; }
+.product-title { font-size: 30px; }
+.feature-title { font-size: 28px; }
+}
