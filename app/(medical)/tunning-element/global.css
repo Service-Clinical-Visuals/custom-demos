@@ -155,12 +155,12 @@ section {
 
 @media (min-width: 3800px) {
   .custom-container { max-width: 85%; }
-  .top-header-text { font-size: 22px; }
-.header-link { font-size: 24px; }
-.btn-text { font-size: 24px; }
-.banner-title { font-size: 42px; }  
-.section-title { font-size: 36px; }
-.section-text { font-size: 24px; }
-.product-title { font-size: 30px; }
-.feature-title { font-size: 28px; }
+  .top-header-text { font-size: 24px; }
+.header-link { font-size: 26px; }
+.btn-text { font-size: 26px; }
+.banner-title { font-size: 44px; }  
+.section-title { font-size: 38px; }
+.section-text { font-size: 26px; }
+.product-title { font-size: 32px; }
+.feature-title { font-size: 30px; }
 }

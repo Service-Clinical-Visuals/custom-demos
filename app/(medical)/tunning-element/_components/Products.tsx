@@ -40,7 +40,7 @@ export default function Products() {
         </div>
 
         {/* Product Grid */}
-        <div className="flex flex-wrap justify-center gap-6 lg:gap-10 mb-16 max-w-5xl lg:max-w-7xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-6 lg:gap-10 mb-16 ">
           {products.map((product, index) => (
             <div 
               key={product.id} 

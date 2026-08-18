@@ -97,25 +97,25 @@ export default function ContactPage() {
                 <div className="flex items-center space-x-3 mb-8">
                                     <img src="/medical/tunning-element/hdofz.png" alt="map pin" className="w-6 h-6" />
 
-                  <h3 className="font-heading font-semibold text-[#1c2331] text-xl">Head Office</h3>
+                  <h3 className="font-heading font-semibold text-[#1c2331] product-title">Head Office</h3>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <img src="/medical/tunning-element/loc.png" alt="map pin" className="w-5 h-6" />
-                    <span className="text-gray-600 font-body text-sm leading-relaxed">
+                    <span className="text-gray-600 font-body section-text leading-relaxed">
                       1440 State Highway 248, Suite Q435, Branson, MO 65616
                     </span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <img src="/medical/tunning-element/phon.png" alt="map pin" className="w-5 h-5" />
-                    <span className="text-gray-600 font-body text-sm">
+                    <span className="text-gray-600 font-body section-text">
                       (417) 973-0000
                     </span>
                   </div>
                   <div className="flex items-start space-x-4">
                     <img src="/medical/tunning-element/clk.png" alt="map pin" className="w-5 h-5" />
-                    <span className="text-gray-600 font-body text-sm leading-relaxed">
+                    <span className="text-gray-600 font-body section-text leading-relaxed">
                       Monday-Friday 9am - 4pm, Closed Saturday & Sunday
                     </span>
                   </div>
@@ -146,25 +146,25 @@ export default function ContactPage() {
               <div className="p-8 flex flex-col justify-center order-1 sm:order-2">
                 <div className="flex items-center space-x-3 mb-8">
                   <img src="/medical/tunning-element/grandvilage.png" alt="map pin" className="w-6 h-6" />
-                  <h3 className="font-heading font-semibold text-[#1c2331] text-xl">Grand Village Shops</h3>
+                  <h3 className="font-heading font-semibold text-[#1c2331] product-title">Grand Village Shops</h3>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                    <img src="/medical/tunning-element/loc.png" alt="map pin" className="w-5 h-6" />
-                    <span className="text-gray-600 font-body text-sm leading-relaxed">
+                    <span className="text-gray-600 font-body section-text leading-relaxed">
                       2800 MO-76, Suite 14, Branson, MO 65616
                     </span>
                   </div>
                   <div className="flex items-center space-x-4">
                    <img src="/medical/tunning-element/phon.png" alt="map pin" className="w-5 h-5" />
-                    <span className="text-gray-600 font-body text-sm">
+                    <span className="text-gray-600 font-body section-text">
                       (417) 238-0076
                     </span>
                   </div>
                   <div className="flex items-start space-x-4">
                     <img src="/medical/tunning-element/clk.png" alt="map pin" className="w-5 h-5" />
-                    <span className="text-gray-600 font-body text-sm leading-relaxed">
+                    <span className="text-gray-600 font-body section-text leading-relaxed">
                       March - December: Monday - Sunday, 10 am - 5 pm January 2, 3, 8-10, 15-17, 22-24, 29-30 February 5-7, 12-14, 19-21, 26-28
                     </span>
                   </div>

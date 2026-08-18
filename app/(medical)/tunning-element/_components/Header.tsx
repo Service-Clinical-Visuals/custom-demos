@@ -23,10 +23,14 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full flex flex-col z-50">
-      {/* Top Header */}
-      <div className="w-full bg-[#5a6773] text-white py-2">
-        <div className="custom-container flex flex-wrap justify-center sm:justify-between items-center px-2 sm:px-4 xl:px-0">
+    <>
+      {/* Spacer to prevent content from hiding behind the fixed header */}
+      <div className="w-full h-[142px] lg:h-[136px]"></div>
+      
+      <header className="w-full flex flex-col z-[100] fixed top-0 left-0 right-0">
+        {/* Top Header */}
+        <div className="w-full bg-[#5a6773] text-white py-2">
+        <div className="custom-container flex flex-wrap justify-center sm:justify-between items-center  ">
           <div className="flex items-center justify-center space-x-3 sm:space-x-6">
             <div className="flex items-center space-x-2">
               <img src="/medical/tunning-element/phone.png" alt="phone" className='w-4 h-4' />
@@ -53,7 +57,7 @@ export default function Header() {
 
       {/* Main Header */}
       <div className="w-full bg-downheader shadow-md relative">
-        <div className="custom-container flex justify-between items-center px-4 xl:px-0 py-2 lg:py-0 min-h-[100px]">
+        <div className="custom-container flex justify-between items-center  py-2 lg:py-0 min-h-[100px]">
           {/* Logo */}
           <Link href="/tunning-element" className="flex items-center z-20">
             <div className="relative w-40 lg:w-48 h-10 lg:h-20">
@@ -119,5 +123,6 @@ export default function Header() {
         )}
       </div>
     </header>
+    </>
   );
 }

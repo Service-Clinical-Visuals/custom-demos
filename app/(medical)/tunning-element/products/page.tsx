@@ -110,8 +110,8 @@ export default function ProductsPage() {
           <div className="w-full lg:w-[75%]">
             {/* Top Bar */}
             <div className="flex justify-between items-center mb-8 gap-2">
-              <p className="text-[13px] sm:text-[15px] xl:text-lg text-gray-500 font-medium whitespace-nowrap">Showing 1-12 of 16 results</p>
-              <select className="border border-gray-300 text-[13px] sm:text-[15px] xl:text-lg text-gray-600 py-1 sm:py-2 px-1 sm:px-4 outline-none hover:border-gray-400 transition-colors shrink min-w-0 text-ellipsis">
+              <p className="section-text text-gray-500 font-medium whitespace-nowrap">Showing 1-12 of 16 results</p>
+              <select className="border border-gray-300 section-text text-gray-600 py-1 sm:py-2 px-1 sm:px-4 outline-none hover:border-gray-400 transition-colors shrink min-w-0 text-ellipsis">
                 <option>Sort By Popularity</option>
                 <option>Sort By Latest</option>
                 <option>Sort By Price: Low to High</option>
@@ -141,7 +141,7 @@ export default function ProductsPage() {
                     <h3 className="feature-title ibm-plex-sans font-semibold text-[#1c2331] text-sm mb-2 leading-tight flex-grow">
                       {product.name}
                     </h3>
-                    <span className="card-price font-body font-bold text-primary">
+                    <span className="section-text font-body font-bold text-primary">
                       {product.price}
                     </span>
                   </div>
@@ -162,7 +162,7 @@ export default function ProductsPage() {
             
             {/* Filter By Price */}
             <div>
-              <h3 className="text-lg font-heading font-semibold text-black border-b border-gray-200 pb-2 mb-6 relative after:content-[''] after:absolute after:left-0 after:-bottom-[1px] after:w-12 after:h-[2px] after:bg-[#a46039]">Filter By <span className="text-[#a46039]">Price</span></h3>
+              <h3 className="product-title font-heading font-semibold text-black border-b border-gray-200 pb-2 mb-6 relative after:content-[''] after:absolute after:left-0 after:-bottom-[1px] after:w-12 after:h-[2px] after:bg-[#a46039]">Filter By <span className="text-[#a46039]">Price</span></h3>
               <div className="px-1">
                 <div className="relative w-full h-1 bg-[#e2cebd] rounded mb-6 mt-4">
                   <div className="absolute top-0 left-0 h-1 bg-[#a46039] w-full"></div>
@@ -178,7 +178,7 @@ export default function ProductsPage() {
 
             {/* Category */}
             <div>
-              <h3 className="text-lg font-heading font-bold text-black border-b border-gray-200 pb-2 mb-6 relative after:content-[''] after:absolute after:left-0 after:-bottom-[1px] after:w-12 after:h-[2px] after:bg-[#a46039]">Category</h3>
+              <h3 className="product-title font-heading font-bold text-black border-b border-gray-200 pb-2 mb-6 relative after:content-[''] after:absolute after:left-0 after:-bottom-[1px] after:w-12 after:h-[2px] after:bg-[#a46039]">Category</h3>
               <div className="border border-[#a46039] border-opacity-30 p-5">
                 <ul className="space-y-4">
                   {categories.map((category) => (
@@ -193,7 +193,7 @@ export default function ProductsPage() {
 
             {/* Latest Post */}
             <div>
-              <h3 className="text-lg font-heading font-semibold text-black border-b border-gray-200 pb-2 mb-6 relative after:content-[''] after:absolute after:left-0 after:-bottom-[1px] after:w-12 after:h-[2px] after:bg-[#a46039]">Latest Post</h3>
+              <h3 className="product-title font-heading font-semibold text-black border-b border-gray-200 pb-2 mb-6 relative after:content-[''] after:absolute after:left-0 after:-bottom-[1px] after:w-12 after:h-[2px] after:bg-[#a46039]">Latest Post</h3>
               <div className="flex flex-col space-y-6">
                 {latestPosts.map((post) => (
                   <div key={post.id} className="flex items-center space-x-4">
