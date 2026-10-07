@@ -97,7 +97,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/veedol" className="flex items-center shrink-0 w-[200px]">
               <img
-                src="/moto/emka/logo 1 (1).png"
+                src="/moto/emka/logo 1 (1).webp"
                 alt="EMKA Logo"
                 className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto object-contain"
               />

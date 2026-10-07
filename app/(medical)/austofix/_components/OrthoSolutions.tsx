@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function OrthoSolutions() {
   const products = [
     { name: "Nails", img: "/austofix/img.webp" },
-    { name: "Plates", img: "/austofix/img (1).png" },
-    { name: "Screws", img: "/austofix/img (2).png" },
+    { name: "Plates", img: "/austofix/img (1).webp" },
+    { name: "Screws", img: "/austofix/img (2).webp" },
   ];
 
   return (

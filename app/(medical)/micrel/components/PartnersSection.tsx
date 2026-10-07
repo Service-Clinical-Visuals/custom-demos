@@ -189,7 +189,7 @@ export default function PartnersSection({ data = partnersContent }: PartnersSect
                   {/* Icon */}
                   <div className="h-[100px] flex items-center justify-center mb-4">
                     <Image
-                      src={`/micrel/therapy_image${index + 1}.png`}
+                      src={`/micrel/therapy_image${index + 1}.webp`}
                       alt={partner.label}
                       width={64}
                       height={64}

@@ -40,7 +40,7 @@ export default function Collaboration() {
                         >
                             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((num, idx) => (
                                 <SwiperSlide key={idx} className="flex items-center justify-center">
-                                    <img src={`/bytec-healthcare/home/collaboration-${num}.png`} className="w-[150px] h-auto object-contain transition-all duration-500" alt="Partner Logo" />
+                                    <img src={`/bytec-healthcare/home/collaboration-${num}.webp`} className="w-[150px] h-auto object-contain transition-all duration-500" alt="Partner Logo" />
                                 </SwiperSlide>
                             ))}
                         </Swiper>

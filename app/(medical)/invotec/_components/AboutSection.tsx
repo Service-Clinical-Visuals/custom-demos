@@ -98,7 +98,7 @@ export default function AboutSection() {
           <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl 
             w-full max-w-130">
             <img
-              src={`/invotec/assets/Group 79.png`}
+              src={`/invotec/assets/Group 79.webp`}
               alt="Medical Team"
               className="w-full h-full object-cover"
             />

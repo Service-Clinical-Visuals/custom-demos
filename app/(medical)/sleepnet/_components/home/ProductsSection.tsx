@@ -216,14 +216,14 @@ export default function ProductsSection() {
                             <div className="relative w-full">
                                 {/* Default Image */}
                                 <img
-                                    src={`/sleepnet/product/${product.imgId}.png`}
+                                    src={`/sleepnet/product/${product.imgId}.webp`}
                                     alt={product.title}
                                     className="w-full transition-opacity duration-300 group-hover:opacity-0"
                                 />
 
                                 {/* Hover Image */}
                                 <img
-                                    src={`/sleepnet/hover/${product.imgId}.png`}
+                                    src={`/sleepnet/hover/${product.imgId}.webp`}
                                     alt={`${product.title} hover view`}
                                     className="absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                                 />

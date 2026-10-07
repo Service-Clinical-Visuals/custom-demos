@@ -14,7 +14,7 @@ export default function About() {
               {/* Product Card (Left) */}
              <div className="w-1/2 z-0 relative">
                 <img 
-                  src="/moto/german-adler/Subtract (1).png" 
+                  src="/moto/german-adler/Subtract (1).webp" 
                   alt="German Adler Product" 
                   className="w-full h-full object-cover  drop-shadow-xl" 
                 />
