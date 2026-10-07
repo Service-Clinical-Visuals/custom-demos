@@ -16,7 +16,7 @@ export default function Product() {
           <div>
             <div className="flex items-start gap-3">
               <img
-                src="/moto/lucas-oil/setting.png"
+                src="/moto/lucas-oil/setting.webp"
                 alt="Setting icon"
                 className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0 mt-2"
               />

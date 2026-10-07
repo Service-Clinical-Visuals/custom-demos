@@ -5,7 +5,7 @@ export default function Newsletter() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/promisemed/newletter-bg.png')",
+          backgroundImage: "url('/promisemed/newletter-bg.webp')",
         }}></div>
 
       {/* Outer container */}

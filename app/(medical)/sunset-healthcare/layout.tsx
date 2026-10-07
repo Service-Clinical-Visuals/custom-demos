@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Sunset Healthcare Solutions",
   description: "A Trusted Leader in HME Solutions Since 2004",
   icons: {
-    icon: "/sunset-healthcare/logo.png",
+    icon: "/sunset-healthcare/logo.webp",
   },
 };
 

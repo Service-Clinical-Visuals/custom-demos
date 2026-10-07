@@ -35,7 +35,7 @@ const Footer = () => {
           <div data-aos="fade-up" className="md:col-span-4">
             <div className="mb-6">
               <img
-                src="/orlvision/logo-footer.png"
+                src="/orlvision/logo-footer.webp"
                 alt="orlvision logo"
                 className="h-10 w-auto"
               />

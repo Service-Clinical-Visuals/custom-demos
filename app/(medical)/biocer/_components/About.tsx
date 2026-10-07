@@ -10,12 +10,12 @@ export default function About() {
                 <div className="relative w-full lg:w-1/2 aspect-[4/2.5]" data-aos="fade-right">
                     {/* Main Background Checkered Image */}
                     <div className="absolute top-0 z-1 left-0 w-[65%] bg-white rounded-[2.5rem] overflow-hidden border-4 border-white">
-                        <img src={`/biocer/home/about-1.jpg`} alt='BioCer' />
+                        <img src={`/biocer/home/about-1.webp`} alt='BioCer' />
                     </div>
 
                     {/* Overlapping Checkered Image */}
                     <div className="absolute z-0 top-28 right-[10%] w-[55%] bg-white rounded-[2.5rem] overflow-hidden">
-                        <img src={`/biocer/home/about-2.jpg`} alt='BioCer' />
+                        <img src={`/biocer/home/about-2.webp`} alt='BioCer' />
                     </div>
 
                     {/* Badge */}

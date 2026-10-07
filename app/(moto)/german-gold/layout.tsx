@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "German Gold | Power to Perform",
   description: "Endorsed by leading automotive manufacturers worldwide. Explore our high-performance engine oils and lubricants.",
   icons: {
-    icon: "/moto/german-gold/logo.png",
+    icon: "/moto/german-gold/logo.webp",
   },
 };
 

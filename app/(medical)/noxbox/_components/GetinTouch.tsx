@@ -16,7 +16,7 @@ export default function GetInTouch() {
             data-aos="fade-up"
           >
             <img
-              src={`/noxbox/assets/gemini_logo_blue.png`}
+              src={`/noxbox/assets/gemini_logo_blue.webp`}
               width={34}
               height={34}
               alt="gemini logo"
@@ -131,7 +131,7 @@ export default function GetInTouch() {
           <div className="rounded-md overflow-hidden shadow-sm">
 
             <img
-              src={`/noxbox/assets/world_network.png`}
+              src={`/noxbox/assets/world_network.webp`}
               alt="contact"
               width={700}
               height={500}

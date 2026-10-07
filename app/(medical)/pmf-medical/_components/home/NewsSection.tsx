@@ -26,7 +26,7 @@ export function NewsSection() {
             className="flex flex-col group cursor-pointer hover:-translate-y-1 transition-transform"
           >
             <div className="w-full aspect-square md:aspect-4/3 bg-gray-100 rounded-4xl overflow-hidden relative flex items-center justify-center">
-              <img src={`/pmf-medical/home/news-1.jpg`} alt="News 1" className="w-full h-full object-cover" />
+              <img src={`/pmf-medical/home/news-1.webp`} alt="News 1" className="w-full h-full object-cover" />
             </div>
             <div className="pt-6 px-2 flex justify-between items-start">
               <p className="text-text-dark font-medium text-[16px] leading-relaxed pr-6 line-clamp-3">
@@ -45,7 +45,7 @@ export function NewsSection() {
             className="flex flex-col group cursor-pointer hover:-translate-y-1 transition-transform"
           >
             <div className="w-full aspect-square md:aspect-4/3 bg-gray-100 rounded-4xl overflow-hidden relative flex items-center justify-center">
-              <img src={`/pmf-medical/home/news-2.jpg`} alt="News 1" className="w-full h-full object-cover" />
+              <img src={`/pmf-medical/home/news-2.webp`} alt="News 1" className="w-full h-full object-cover" />
             </div>
             <div className="pt-6 px-2 flex justify-between items-start">
               <p className="text-text-dark font-medium text-[16px] leading-relaxed pr-6 line-clamp-3">
@@ -64,7 +64,7 @@ export function NewsSection() {
             className="flex flex-col group cursor-pointer hover:-translate-y-1 transition-transform"
           >
             <div className="w-full aspect-square md:aspect-4/3 bg-gray-100 rounded-4xl overflow-hidden relative flex items-center justify-center">
-              <img src={`/pmf-medical/home/news-3.png`} alt="News 1" className="w-full h-full object-cover" />
+              <img src={`/pmf-medical/home/news-3.webp`} alt="News 1" className="w-full h-full object-cover" />
             </div>
             <div className="pt-6 px-2 flex justify-between items-start">
               <p className="text-text-dark font-medium text-[16px] leading-relaxed pr-6 line-clamp-3">

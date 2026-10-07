@@ -8,17 +8,17 @@ import { CiLinkedin } from "react-icons/ci";
 import { PiLinkedinLogoFill } from "react-icons/pi";
 
 const footerLogos = [
-  { src: "/moove/home/footer-1.png", alt: "IAAF" },
-  { src: "/moove/home/footer-2.png", alt: "VLS" },
-  { src: "/moove/home/footer-3.png", alt: "UKLA" },
-  { src: "/moove/home/footer-4.png", alt: "Accredited" },
-  { src: "/moove/home/footer-5.png", alt: "ISO" },
-  { src: "/moove/home/footer-6.png", alt: "Certification" },
+  { src: "/moove/home/footer-1.webp", alt: "IAAF" },
+  { src: "/moove/home/footer-2.webp", alt: "VLS" },
+  { src: "/moove/home/footer-3.webp", alt: "UKLA" },
+  { src: "/moove/home/footer-4.webp", alt: "Accredited" },
+  { src: "/moove/home/footer-5.webp", alt: "ISO" },
+  { src: "/moove/home/footer-6.webp", alt: "Certification" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="w-full relative bg-[url('/moove/home/bg.jpg')] bg-cover bg-no-repeat bg-center text-white pt-16 pb-8 border-t border-white/40">
+    <footer className="w-full relative bg-[url('/moove/home/bg.webp')] bg-cover bg-no-repeat bg-center text-white pt-16 pb-8 border-t border-white/40">
       <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/80" />
       <div className="container relative z-1 mx-auto px-4 md:px-8">
 
@@ -27,7 +27,7 @@ export default function Footer() {
           {/* Logo */}
           <Link href="/moove" className="flex items-center">
             <img
-              src="/moove/logo-white.png"
+              src="/moove/logo-white.webp"
               alt="Moove"
               className="h-10 w-auto object-contain"
             />

@@ -10,42 +10,42 @@ import "swiper/css/pagination";
 const productCategories = [
   {
     name: "Beds",
-    image: "/emerald/images/product-1.png",
+    image: "/emerald/images/product-1.webp",
     href: "#beds"
   },
   {
     name: "Wheel Chairs",
-    image: "/emerald/images/product-2.png",
+    image: "/emerald/images/product-2.webp",
     href: "#wheelchairs"
   },
   {
     name: "Support Supplies",
-    image: "/emerald/images/product-3.png",
+    image: "/emerald/images/product-3.webp",
     href: "#supplies"
   },
   {
     name: "Lift Slings",
-    image: "/emerald/images/product-4.png",
+    image: "/emerald/images/product-4.webp",
     href: "#lift-slings"
   },
   {
     name: "Resident Safety",
-    image: "/emerald/images/product-5.png",
+    image: "/emerald/images/product-5.webp",
     href: "#resident-safety"
   },
   {
     name: "Rehabilitation",
-    image: "/emerald/images/product-6.png",
+    image: "/emerald/images/product-6.webp",
     href: "#rehabilitation"
   },
   {
     name: "Furniture",
-    image: "/emerald/images/product-7.png",
+    image: "/emerald/images/product-7.webp",
     href: "#furniture"
   },
   {
     name: "Support Supplies",
-    image: "/emerald/images/product-8.png",
+    image: "/emerald/images/product-8.webp",
     href: "#supplies"
   }
 ];
@@ -55,7 +55,7 @@ const Products = () => {
     <section className="py-12 bg-[#014D65] w-[95%] mx-auto rounded-3xl relative overflow-hidden">
       {/* Optional: Subtle Hexagonal Pattern Placeholder */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
-        <div className="w-full h-full bg-[url('/emerald/images/bg-frame.jpg')] bg-cover bg-center bg-no-repeat opacity-40"></div>
+        <div className="w-full h-full bg-[url('/emerald/images/bg-frame.webp')] bg-cover bg-center bg-no-repeat opacity-40"></div>
       </div>
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">

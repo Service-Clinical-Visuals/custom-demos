@@ -43,7 +43,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex flex-col justify-center">
               <Link href="/" className="flex flex-col">
-              <img src="/otopront/images/otopront-logo.png" alt="otopront-logo" className="w-55 lg:w-75 xl:w-90" />
+              <img src="/otopront/images/otopront-logo.webp" alt="otopront-logo" className="w-55 lg:w-75 xl:w-90" />
               </Link>
             </div>
 
@@ -99,7 +99,7 @@ export default function Header() {
               >
                 <div className="flex justify-between items-center mb-12">
                   <div className="flex flex-col">
-                    <img src="/otopront/images/otopront-logo.png" alt="otopront-logo" className="w-55" />
+                    <img src="/otopront/images/otopront-logo.webp" alt="otopront-logo" className="w-55" />
                   </div>
                   <button onClick={() => setMobileMenuOpen(false)} className="text-[#111111]"><X size={32} /></button>
                 </div>

@@ -53,7 +53,7 @@ export default function SharkAbout() {
             data-aos="fade-left"
             className="relative w-full h-[520px] overflow-hidden"
           >
-            <img src="/moto/shark/shark-about-1.png" alt="about1" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/moto/shark/shark-about-1.webp" alt="about1" className="absolute inset-0 w-full h-full object-cover" />
 
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function SharkAbout() {
             data-aos="fade-up"
             className="relative h-[170px] overflow-hidden bg-[#ececec] border border-black/5"
           >
-            <img src="/moto/shark/shark-about-2.png" alt="about1" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/moto/shark/shark-about-2.webp" alt="about1" className="absolute inset-0 w-full h-full object-cover" />
 
           </div>
 

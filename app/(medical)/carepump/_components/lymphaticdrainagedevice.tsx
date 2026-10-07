@@ -18,7 +18,7 @@ export default function LymphaticDrainageDevice() {
           {/* Left Image */}
           <div data-aos="fade-right" className="overflow-hidden rounded-[24px] lg:col-span-5">
             <img
-              src="/carepump/images/homecarepump.png"
+              src="/carepump/images/homecarepump.webp"
               alt="CarePump"
               className="w-full rounded-[24px] mx-auto"
             />

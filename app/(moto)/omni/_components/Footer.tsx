@@ -13,7 +13,7 @@ export default function Footer() {
             {/* Column 1: Logo and Text */}
             <div className="col-span-2 md:col-span-4 lg:col-span-2 flex flex-col space-y-4">
               <img
-                src="/moto/omni/footerlogo.png"
+                src="/moto/omni/footerlogo.webp"
                 alt="OMNI Specialty Packaging, LLC"
                 className="w-48 sm:w-64 lg:w-70 object-contain"
               />

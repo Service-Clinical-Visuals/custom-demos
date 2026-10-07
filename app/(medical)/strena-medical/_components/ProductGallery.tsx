@@ -8,15 +8,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const images = [
-  "/strena/images/product-1.png",
-  "/strena/images/product-2.png",
-  "/strena/images/product-3.png",
-  "/strena/images/product-4.png",
-  "/strena/images/product-5.png",
-  "/strena/images/product-6.png",
-  "/strena/images/product-7.png",
-  "/strena/images/product-8.png",
-  "/strena/images/product-9.png",
+  "/strena/images/product-1.webp",
+  "/strena/images/product-2.webp",
+  "/strena/images/product-3.webp",
+  "/strena/images/product-4.webp",
+  "/strena/images/product-5.webp",
+  "/strena/images/product-6.webp",
+  "/strena/images/product-7.webp",
+  "/strena/images/product-8.webp",
+  "/strena/images/product-9.webp",
 ];
 
 export default function ProductGallery() {

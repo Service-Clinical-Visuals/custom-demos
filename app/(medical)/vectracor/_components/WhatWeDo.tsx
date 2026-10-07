@@ -56,7 +56,7 @@ export default function WhatWeDo() {
         <div data-aos="fade-left" className="col-span-2 flex items-center justify-center">
           <div className="bg-white rounded-2xl shadow-lg p-4">
             <img
-              src="/vectracor/Orbit-Spirometer-ECG-ComboQRS.png"
+              src="/vectracor/Orbit-Spirometer-ECG-ComboQRS.webp"
               alt="ECG poster"
               className="rounded-lg w-100 h-auto object-cover"
             />

@@ -81,7 +81,7 @@ export default function AboutUs() {
           <div className="lg:col-span-5 flex items-center justify-center lg:justify-end" data-aos="fade-left">
             <div className="relative w-full aspect-[4/3] lg:aspect-[1/1.2] rounded-[32px] overflow-hidden shadow-2xl transition-all duration-500 hover:scale-[1.01]">
               <img 
-                src="/medical/x-nov/about.jpg" 
+                src="/medical/x-nov/about.webp" 
                 alt="X.NOV Headquarter Building" 
                 className="w-full h-full object-cover object-center" 
               />

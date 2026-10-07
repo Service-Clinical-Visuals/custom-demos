@@ -6,35 +6,35 @@ import { FiArrowRight } from "react-icons/fi";
 const specialties = [
   {
     title: "General Medicine",
-    img: "/medical/sono-scanner/sono-speciality-1.png",
+    img: "/medical/sono-scanner/sono-speciality-1.webp",
   },
   {
     title: "Smur - Emergency Medicine",
-    img: "/medical/sono-scanner/sono-speciality-2.png",
+    img: "/medical/sono-scanner/sono-speciality-2.webp",
   },
   {
     title: "Radiology",
-    img: "/medical/sono-scanner/sono-speciality-3.png",
+    img: "/medical/sono-scanner/sono-speciality-3.webp",
   },
   {
     title: "Obstetrics / Gynecology",
-    img: "/medical/sono-scanner/sono-speciality-4.png",
+    img: "/medical/sono-scanner/sono-speciality-4.webp",
   },
   {
     title: "Urology",
-    img: "/medical/sono-scanner/sono-speciality-5.png",
+    img: "/medical/sono-scanner/sono-speciality-5.webp",
   },
   {
     title: "Osteoarticular Field",
-    img: "/medical/sono-scanner/sono-speciality-6.png",
+    img: "/medical/sono-scanner/sono-speciality-6.webp",
   },
   {
     title: "Anesthesia",
-    img: "/medical/sono-scanner/sono-speciality-7.png",
+    img: "/medical/sono-scanner/sono-speciality-7.webp",
   },
   {
     title: "Endocrinology",
-    img: "/medical/sono-scanner/sono-speciality-8.png",
+    img: "/medical/sono-scanner/sono-speciality-8.webp",
   }
 ];
 

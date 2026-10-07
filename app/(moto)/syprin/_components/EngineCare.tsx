@@ -26,10 +26,10 @@ export default function EngineCare() {
       id="engine-care"
       className="relative w-full bg-[#353535] py-16 xl:py-24 min-[2500px]:py-32 min-[3800px]:py-44 flex flex-col justify-center overflow-hidden"
     >
-      {/* Background Graphic Image bg1.png without dark overlay */}
+      {/* Background Graphic Image bg1.webp without dark overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/moto/syprin/bg1.png"
+          src="/moto/syprin/bg1.webp"
           alt=""
           className="w-full h-full object-cover object-center"
         />

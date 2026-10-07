@@ -15,7 +15,7 @@ export default function About() {
           <div className="md:col-span-6 lg:col-span-7" data-aos="fade-right">
             <div className="w-full h-full overflow-hidden rounded-lg shadow-sm min-h-[300px]">
               <img
-                src="/moto/veedol-moto/image1.jpg"
+                src="/moto/veedol-moto/image1.webp"
                 alt="Veedol History with Henry Ford and Model T"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />

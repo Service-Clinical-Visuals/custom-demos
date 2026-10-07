@@ -23,7 +23,7 @@ export default function Mission() {
             
             {/* Heading */}
             <div className="flex items-center gap-3 mb-4">
-              <img src="/moto/omni/bulletdot.png" className="w-3.5 h-3.5"/>
+              <img src="/moto/omni/bulletdot.webp" className="w-3.5 h-3.5"/>
               <h2 className="text-2xl md:text-[26px] xl:text-[30px] !font-normal text-[#333333] uppercase tracking-tight leading-none font-heading">
                 OUR MISSION
               </h2>
@@ -54,7 +54,7 @@ export default function Mission() {
               {points.map((text, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <img
-    src="/moto/omni/checkbox.png"
+    src="/moto/omni/checkbox.webp"
     className="checkbox-icon mt-0.5 shrink-0"
   />
                   <p className="font-[family-name:var(--font-exo-2)] text-[#333] text-sm !lg:text-[16px] !xl:text-[22px] leading-[1]">
@@ -81,7 +81,7 @@ export default function Mission() {
               {/* Image Container */}
               <div className="relative z-10 w-full h-full bg-white rounded-tl-[3rem] rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-none overflow-hidden ">
                 <img 
-                  src="/moto/omni/omnimission.jpg" 
+                  src="/moto/omni/omnimission.webp" 
                   alt="Our Mission" 
                   className="w-full h-full object-cover object-center"
                 />

@@ -36,7 +36,7 @@ export default function Header() {
       <div className="container h-[70px] lg:h-[90px] flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center">
-            <img src="/vero-biotech/logo.png" alt="Vero Logo" className="w-24 lg:w-32" />
+            <img src="/vero-biotech/logo.webp" alt="Vero Logo" className="w-24 lg:w-32" />
           </Link>
         </div>
 

@@ -13,7 +13,7 @@ export default function SternTestimonial() {
       {/* BACKGROUND PATTERN */}
       <div
         className="absolute inset-0 bg-cover bg-bottom-right bg-no-repeat"
-        style={{ backgroundImage: "url('/stern-med/stern-testimonial-bg.png')" }}
+        style={{ backgroundImage: "url('/stern-med/stern-testimonial-bg.webp')" }}
       />
       {/* OVERLAY */}
       {/* <div className="absolute inset-0 bg-[rgba(30,111,182,0.75)]" /> */}
@@ -27,7 +27,7 @@ export default function SternTestimonial() {
             <div className="rounded-2xl overflow-hidden shadow-lg">
               {/* Placeholder image */}
               <div className="w-full h-[260px] sm:h-[340px] md:h-[420px] bg-gray-300">
-                <Image src="/stern-med/stern-testimonial.png" alt="Testimonial" width={400} height={420} className="w-full h-full object-cover"/>
+                <Image src="/stern-med/stern-testimonial.webp" alt="Testimonial" width={400} height={420} className="w-full h-full object-cover"/>
               </div>
             </div>
           </div>

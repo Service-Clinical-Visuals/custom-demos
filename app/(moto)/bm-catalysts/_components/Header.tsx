@@ -47,7 +47,7 @@ export default function Header() {
       >
         {/* Stylized Logo to match 1 to 1 */}
         <Link href="/bm-catalysts" className="flex items-center group">
-          <img src="/bm-catalysts/images/bm-main-logo.png" alt="Header Logo" className="h-12 object-contain" />
+          <img src="/bm-catalysts/images/bm-main-logo.webp" alt="Header Logo" className="h-12 object-contain" />
         </Link>
 
         {/* Desktop Menu */}

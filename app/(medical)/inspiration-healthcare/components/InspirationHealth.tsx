@@ -91,17 +91,17 @@ export default function InspirationHealth() {
 const cards = [
   {
     title: "Acute Care",
-    img: "/inspiration-healthcare/assets/inspiration-acute.png",
+    img: "/inspiration-healthcare/assets/inspiration-acute.webp",
     desc: "Comprehensive solutions for critical and hospital-based care environments, ensuring safety and efficiency in urgent medical situations.",
   },
   {
     title: "Infusion Therapies",
-    img: "/inspiration-healthcare/assets/inspiration-infusion.png",
+    img: "/inspiration-healthcare/assets/inspiration-infusion.webp",
     desc: "Advanced systems designed for accurate and controlled delivery of fluids and medications, supporting effective patient treatment.",
   },
   {
     title: "Technology Support",
-    img: "/inspiration-healthcare/assets/inspiration-tech.png",
+    img: "/inspiration-healthcare/assets/inspiration-tech.webp",
     desc: "Reliable technical assistance and services to ensure optimal performance, maintenance, and longevity of medical equipment.",
   },
 ];

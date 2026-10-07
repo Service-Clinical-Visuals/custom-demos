@@ -33,7 +33,7 @@ const AboutSection = () => {
                     <div className="flex-1 w-full" data-aos="fade-left">
                         <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
                             <img
-                                src={`/emos-technology/images/home/endoscopes.jpg`}
+                                src={`/emos-technology/images/home/endoscopes.webp`}
                                 alt="Product detail"
                                 className="object-cover"
                             />

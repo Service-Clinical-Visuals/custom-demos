@@ -19,7 +19,7 @@ export default function DpfTechnologies() {
       <div 
         className="absolute bottom-0 left-0 right-0 h-[60%] lg:h-[50%] bg-cover bg-center pointer-events-none z-0"
         style={{
-          backgroundImage: `url('/bm-catalysts/images/dpf-bg.png')`,
+          backgroundImage: `url('/bm-catalysts/images/dpf-bg.webp')`,
         }}
       />
       <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-16">

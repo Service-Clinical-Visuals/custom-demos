@@ -7,7 +7,7 @@ export default function KeyFacts() {
         <section className="relative">
             <div className="container mx-auto max-w-full relative h-[600px] overflow-hidden">
                 <img
-                    src={`/kap-medical/images/bg-keyfacts.png`}
+                    src={`/kap-medical/images/bg-keyfacts.webp`}
                     alt="Key Facts"
                     className="object-cover w-full h-full"
                 />

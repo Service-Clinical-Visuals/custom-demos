@@ -92,7 +92,7 @@ export default function BioplateAbout() {
           <div className="relative overflow-hidden rounded-[24px]">
             {/* IMAGE PLACEHOLDER */}
             <img
-              src="/bioplate/bioplate-about.png"
+              src="/bioplate/bioplate-about.webp"
               alt="Medical Lab"
               className="h-[520px] w-full object-cover"
             />

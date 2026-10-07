@@ -9,7 +9,7 @@ export default function AboutQualityProducts() {
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="lg:w-1/2 relative h-[400px] md:h-[700px] w-full overflow-hidden" data-aos="fade-right" data-aos-delay="100">
                         <img
-                            src={`/kap-medical/images/about/kap-medical.jpg`}
+                            src={`/kap-medical/images/about/kap-medical.webp`}
                             alt="Quality Products"
                             className="object-cover transition-transform duration-700 hover:scale-110"
                         />

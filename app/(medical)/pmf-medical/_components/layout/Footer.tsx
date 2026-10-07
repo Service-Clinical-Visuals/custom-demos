@@ -13,7 +13,7 @@ export function Footer() {
 
           {/* Logo */}
           <div className="shrink-0 flex flex-col mb-6 md:mb-0">
-            <img src={`/pmf-medical/logo.png`} alt="Logo" className="w-48 sm:w-60 md:w-70" />
+            <img src={`/pmf-medical/logo.webp`} alt="Logo" className="w-48 sm:w-60 md:w-70" />
           </div>
 
           {/* Connect Details */}

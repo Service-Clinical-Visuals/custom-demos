@@ -39,7 +39,7 @@ const About = () => {
                         <div className="relative overflow-hidden rounded-[2rem] shadow-2xl aspect-video xl:aspect-[4/3] p-8 group">
                             <div className="absolute inset-0 transition-transform duration-700 hover:scale-105">
                                 <div className="w-full h-full">
-                                    <img src="advanced-instruments/images/about-1.png" alt="about-1" className="w-full h-full object-cover" />
+                                    <img src="advanced-instruments/images/about-1.webp" alt="about-1" className="w-full h-full object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const About = () => {
                                     data-aos-delay={300 + index * 100}
                                 >
                                     <div className="mt-1 flex-shrink-0">
-                                        <img src="advanced-instruments/images/Turbine_fill.png" alt="Turbine_fill" className="w-6 h-6" />
+                                        <img src="advanced-instruments/images/Turbine_fill.webp" alt="Turbine_fill" className="w-6 h-6" />
                                     </div>
                                     <span className="text-[#333333] group-hover:text-[#00aeef] transition-colors points">
                                         {item}
@@ -99,7 +99,7 @@ const About = () => {
                             data-aos-delay="700"
                         >
                             <div className="w-full h-32 bg-neutral-50 flex items-center justify-center mb-2">
-                                <img src="advanced-instruments/images/about-2.png" alt="about-2" className="w-full h-full object-cover rounded-xl" />
+                                <img src="advanced-instruments/images/about-2.webp" alt="about-2" className="w-full h-full object-cover rounded-xl" />
                             </div>
                             <h4 className="text-sm font-semibold! text-center">
                                 <span className="text-[#00aeef] text-3xl font-semibold mr-4"><Counter value={30} />+</span> Years of Delivering Quality Medical Equipment and Trusted Healthcare Solutions

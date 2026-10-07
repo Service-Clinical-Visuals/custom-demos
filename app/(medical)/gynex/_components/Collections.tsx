@@ -3,11 +3,11 @@
 import React from "react";
 
 const collections = [
-    { name: "Equipment", icon: "gynex/images/collection-1.png" },
-    { name: "Instructions", icon: "gynex/images/collection-2.png" },
-    { name: "Single-use", icon: "gynex/images/collection-3.png" },
-    { name: "Care & Cleaning", icon: "gynex/images/collection-4.png" },
-    { name: "Electrosurgical", icon: "gynex/images/collection-5.png" }
+    { name: "Equipment", icon: "gynex/images/collection-1.webp" },
+    { name: "Instructions", icon: "gynex/images/collection-2.webp" },
+    { name: "Single-use", icon: "gynex/images/collection-3.webp" },
+    { name: "Care & Cleaning", icon: "gynex/images/collection-4.webp" },
+    { name: "Electrosurgical", icon: "gynex/images/collection-5.webp" }
 ];
 
 export default function Collections() {

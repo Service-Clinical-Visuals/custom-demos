@@ -11,42 +11,42 @@ const products = [
   {
     title: "G3 X APAP",
     description: "The G3 X APAP is the first standard size Form-Free PAP available in the...",
-    image: "/react-health/product-1.jpg",
+    image: "/react-health/product-1.webp",
   },
   {
     title: "HomeFill Oxygen System",
     description: "HomeFill Home Fill Self Filling Oxygen HomeFill System Invacare HomeFill...",
-    image: "/react-health/product-2.jpg",
+    image: "/react-health/product-2.webp",
   },
   {
     title: "PHOENIX™ 5L Oxygen Concentrator",
     description: "PHOENIX™ 5L Compact, lightweight, and quiet design for discreet...",
-    image: "/react-health/product-3.jpg",
+    image: "/react-health/product-3.webp",
   },
   {
     title: "Rio II Full Face Mask",
     description: "The React Health Rio II Full Face Mask is a minimal contact mask that...",
-    image: "/react-health/product-4.jpg",
+    image: "/react-health/product-4.webp",
   },
   {
     title: "Rio II Nasal Mask",
     description: "Easy-to-identify labeling for convenient troubleshooting and resupply...",
-    image: "/react-health/product-5.png",
+    image: "/react-health/product-5.webp",
   },
   {
     title: "Siesta 2 Full Face Mask",
     description: "The new and improved Siesta 2 Full Face Mask optimizes air flow and offers...",
-    image: "/react-health/product-6.jpg",
+    image: "/react-health/product-6.webp",
   },
   {
     title: "TravelPAP",
     description: "The NEW TravelPAP is a small and lightweight PAP device that offers you the...",
-    image: "/react-health/product-7.jpg",
+    image: "/react-health/product-7.webp",
   },
   {
     title: "TravelPAP Battery",
     description: "The TravelPAP Battery (Pilot-24 Lite) is a portable battery and backup power...",
-    image: "/react-health/product-8.png",
+    image: "/react-health/product-8.webp",
   },
 ];
 

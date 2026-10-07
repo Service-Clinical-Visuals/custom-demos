@@ -19,7 +19,7 @@ export default function SystemSolutionsCentric() {
           className="relative overflow-hidden shadow-sm bg-[#e2e2e2] rounded-[40px] grid items-center justify-center"
         >
            <div className=" inset-0 grid items-center justify-center ">
-             <img src="/xion/images/service.png" alt="System Solutions" className="w-full h-full object-cover" />
+             <img src="/xion/images/service.webp" alt="System Solutions" className="w-full h-full object-cover" />
            </div>
            {/* Subtle gradient at the bottom for depth */}
            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-gray-100/50 to-transparent pointer-events-none" />

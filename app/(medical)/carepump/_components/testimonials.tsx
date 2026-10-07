@@ -15,43 +15,43 @@ const testimonialsData = [
   {
     name: "Paweł Murawski @ninja_witcher",
     role: "European record holder OCR 100 m Polish OCR Champion 2020.",
-    image: "img1.jpg",
+    image: "img1.webp",
     text: "Every day during training, my muscles have to deal with great overloads, and recently I have also suffered an injury. Fortunately, CarePump came with help. The MOVE6 lymphatic..."
   },
   {
     name: "Paulina Węgrzyn Gębuś",
     role: "Physiotherapist, PZN",
-    image: "img2.jpg",
+    image: "img2.webp",
     text: "The CarePump MOVE4 worked very well for the players of the Polish Team in ski jumping. It was a perfect complement to regeneration, accelerating and improving the flow of blood and...See More >>"
   },
   {
     name: "Marcin Konieczny (MKON)",
     role: "World Champion (cat.45-49) in the IRONMAN distance triathlon",
-    image: "img3.jpg",
+    image: "img3.webp",
     text: "My name is Marcin Konieczny and I am the World Champion (cat. 45-49) in the Triathlon on the Ironman distance. I was really interested in lymphatic drainage equipment at the moment...See More >>"
   },
   {
     name: "Adam Czerwiński",
     role: "Athlete, running coach",
-    image: "img4.jpg",
+    image: "img4.webp",
     text: "Almost two months of using the 4-chamber CarePump Move4 lymphatic drainage device allowed me to learn about its advantages and disadvantages. I especially appreciated...See More >>"
   },
   {
     name: "Sebastian Kasprzyk",
     role: "2019 European Champion in OCR (categories 18-24) 5km",
-    image: "img5.jpg",
+    image: "img5.webp",
     text: "My adventure with lymphatic drainage began a few years ago when I was testing the 6-chamber WIC 2008MS. The effects after the first use were unbelievable, when after removing the...See More >>"
   },
   {
     name: "Justyna Święty-Ersetic",
     role: "European Champion in the 400 m run (2018)",
-    image: "img6.jpg",
+    image: "img6.webp",
     text: "The device for lymphatic drainage with a battery charging function is a great help and convenience for me. Often, after competitions or training, I can't wait to come back home, and do...See More >>"
   },
   {
     name: "Lech Jaroniec",
     role: "An amatour triathlete (IronWay - droga do Ironmena)",
-    image: "img7.jpg",
+    image: "img7.webp",
     text: "I have been using the CarePump legs for several months and I must admit that I did not expect it to regenerate so much. When heavy legs after stronger tasks or competitions noticeably...See More >>"
   }
 ];
@@ -66,7 +66,7 @@ export default function TestimonialSection() {
         <div
           className="relative overflow-hidden rounded-[24px] px-8 py-14 lg:px-14 lg:py-16"
           style={{
-            backgroundImage: "url('/carepump/images/testimonialBG.jpg')",
+            backgroundImage: "url('/carepump/images/testimonialBG.webp')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

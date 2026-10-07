@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Logo & Subscribe */}
           <div className="flex flex-col lg:col-span-5" data-aos="fade-up" data-aos-delay="100">
             <Link href="/entermed" className="flex items-center gap-2.5 mb-6">
-              <img src="/entermed/entermed-logo.png" alt="Entermed" className="h-13 object-contain" />
+              <img src="/entermed/entermed-logo.webp" alt="Entermed" className="h-13 object-contain" />
             </Link>
             <p className="text-gray-500 text-[16px] leading-[1.7] mb-8 pr-4 lg:pr-12">
               Entermed, established in 1976, specializes in designing treatment units and equipment for the ear, nose and throat (ENT) discipline.
@@ -42,7 +42,7 @@ export default function Footer() {
               <Link href="#products" className="text-gray-600 hover:text-primary text-[16px] transition-colors">Products</Link>
               <Link href="#news" className="text-gray-600 hover:text-primary text-[16px] transition-colors">News</Link>
               <Link href="#" className="text-gray-800 hover:text-primary mt-2 transition-colors">
-               <img src="/entermed/in.png" alt="LinkedIn" className="w-6 h-6" />                           
+               <img src="/entermed/in.webp" alt="LinkedIn" className="w-6 h-6" />                           
               </Link>
             </div>
           </div>
@@ -65,17 +65,17 @@ export default function Footer() {
             <div className="flex flex-col gap-5">
               <div className="flex items-start gap-3">
 
-                <img src="/entermed/arrow.png"></img>
+                <img src="/entermed/arrow.webp"></img>
                 <span className="text-gray-600 text-[16px] leading-[1.6]">
                   Steenovenweg 4 3417 XR<br />Montfoort , The<br />Netherlands
                 </span>
               </div>
               <div className="flex items-center gap-3">
-                <img src="/entermed/phone.png"></img>
+                <img src="/entermed/phone.webp"></img>
                 <span className="text-gray-600 text-[16px]">+31 (0) 30 72 00 880</span>
               </div>
               <div className="flex items-center gap-3">
-                <img src="/entermed/mail.png"></img>
+                <img src="/entermed/mail.webp"></img>
                 <span className="text-gray-600 text-[16px]">info@entermed.com</span>
               </div>
             </div>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "ORL Vision",
   description: "ORL Vision - Advanced ENT and Hearing Care Solutions",
   icons: {
-    icon: "/orlvision/logo.png",
+    icon: "/orlvision/logo.webp",
   },
 };
 

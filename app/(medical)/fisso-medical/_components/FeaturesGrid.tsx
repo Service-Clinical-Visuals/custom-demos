@@ -6,22 +6,22 @@ export default function FeaturesGrid() {
   const features = [
     {
       id: 1,
-      icon: "/medical/fisso-medical/group1.png",
+      icon: "/medical/fisso-medical/group1.webp",
       text: "Wide range of articulated arms and clamps",
     },
     {
       id: 2,
-      icon: "/medical/fisso-medical/group2.png",
+      icon: "/medical/fisso-medical/group2.webp",
       text: "OEM – Customized projects on request",
     },
     {
       id: 3,
-      icon: "/medical/fisso-medical/group4.png",
+      icon: "/medical/fisso-medical/group4.webp",
       text: "The Original. 50 year experience with worldwide distribution",
     },
     {
       id: 4,
-      icon: "/medical/fisso-medical/group3.png",
+      icon: "/medical/fisso-medical/group3.webp",
       text: "ISO 9001/13485 Certified",
     },
   ];

@@ -11,67 +11,67 @@ const products = [
   {
     title: "Vyntus™ BODY Plethybaseograph",
     category: "Pulmonary Function Testing",
-    image: "/jaeger/p-1.png",
+    image: "/jaeger/p-1.webp",
   },
   {
     title: "Vyntus™ ONE Pulmonary Function System",
     category: "Cardiopulmonary Exercise Testing",
-    image: "/jaeger/p-2.png",
+    image: "/jaeger/p-2.webp",
   },
   {
     title: "Vyntus™ CPX Metabolic Cart",
     category: "Cardiopulmonary Exercise Testing",
-    image: "/jaeger/p-3.jpg",
+    image: "/jaeger/p-3.webp",
   },
   {
     title: "Vyntus™ SPIRO PC Spirometer",
     category: "Spirometry",
-    image: "/jaeger/p-4.png",
+    image: "/jaeger/p-4.webp",
   },
   {
     title: "Vyntus™ WALK Mobile Exercise Testing",
     category: "Cardiopulmonary Exercise Testing",
-    image: "/jaeger/p-5.png",
+    image: "/jaeger/p-5.webp",
   },
   {
     title: "SentrySuite™ Software Solution",
     category: "Pulmonary Function Testing",
-    image: "/jaeger/p-6.png",
+    image: "/jaeger/p-6.webp",
   },
   {
     title: "MicroGard® II PFT Filter",
     category: "Cardiopulmonary Exercise Testing",
-    image: "/jaeger/p-7.png",
+    image: "/jaeger/p-7.webp",
   },
   {
     title: "Vyntus™ ECG 12-lead PC-ECG",
     category: "Pulmonary Function Testing",
-    image: "/jaeger/p-8.png",
+    image: "/jaeger/p-8.webp",
   },
   {
     title: "ARTIQ.PFT for SentrySuite™ Software Solution",
     category: "Pulmonary Function Testing",
-    image: "/jaeger/p-9.png",
+    image: "/jaeger/p-9.webp",
   },
   {
     title: "SentryConnect Electronic Medical Record (EMR) Interface",
     category: "Cardiopulmonary Exercise Testing",
-    image: "/jaeger/p-10.png",
+    image: "/jaeger/p-10.webp",
   },
   {
     title: "Vyntus™ PNEUMO Spirometer",
     category: "Spirometry",
-    image: "/jaeger/p-11.png",
+    image: "/jaeger/p-11.webp",
   },
   {
     title: "IOS Impulse Oscillometry",
     category: "Pulmonary Function Testing",
-    image: "/jaeger/p-12.png",
+    image: "/jaeger/p-12.webp",
   },
   {
     title: "APS Nebulizer System",
     category: "Pulmonary Function Testing",
-    image: "/jaeger/p-13.png",
+    image: "/jaeger/p-13.webp",
   },
 ];
 

@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
     };
 
     return (
-        <section className="w-full py-16 md:py-20 pr-0 lg:pr-12 bg-[url('/optomic/bg-why.png')] bg-cover bg-center bg-no-repeat" data-aos="fade-up">
+        <section className="w-full py-16 md:py-20 pr-0 lg:pr-12 bg-[url('/optomic/bg-why.webp')] bg-cover bg-center bg-no-repeat" data-aos="fade-up">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-[48%_52%] gap-20">
                     {/* Left Content */}

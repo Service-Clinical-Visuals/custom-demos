@@ -8,7 +8,7 @@ export default function AboutSection() {
   return (
     <section className={`relative bg-white w-full  overflow-hidden py-16 md:py-24`}
     >
-      <div style={{ backgroundImage: `url(/invotec/assets/NetBackground.png)`, backgroundSize: "contain" }} className="absolute inset-0 opacity-[0.18] z-0">
+      <div style={{ backgroundImage: `url(/invotec/assets/NetBackground.webp)`, backgroundSize: "contain" }} className="absolute inset-0 opacity-[0.18] z-0">
       </div>
 
       {/* Subtle Pattern */}

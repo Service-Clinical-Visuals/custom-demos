@@ -14,31 +14,31 @@ const products = [
         id: 1,
         name: "Bozeman Uterine Forceps",
         price: "$87.95",
-        image: "/gynex/images/product-1.png"
+        image: "/gynex/images/product-1.webp"
     },
     {
         id: 2,
         name: "4-Way Expander Vaginal Speculum",
         price: "$89.95",
-        image: "/gynex/images/product-2.png"
+        image: "/gynex/images/product-2.webp"
     },
     {
         id: 3,
         name: "Metzenbaum TC Scissors",
         price: "$89.95",
-        image: "/gynex/images/product-3.png"
+        image: "/gynex/images/product-3.webp"
     },
     {
         id: 4,
         name: "Needle Extender, Single-Use",
         price: "$59.95",
-        image: "/gynex/images/product-4.png"
+        image: "/gynex/images/product-4.webp"
     },
     {
         id: 5,
         name: "Ring Biopsy Punch, Titanium",
         price: "$444.95",
-        image: "/gynex/images/product-5.png"
+        image: "/gynex/images/product-5.webp"
     }
 ];
 

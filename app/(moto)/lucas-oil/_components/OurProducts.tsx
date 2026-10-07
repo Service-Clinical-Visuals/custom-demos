@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react';
 const products = [
   {
     title: 'Agriculture',
-    image: '/moto/lucas-oil/lucasproduct1.jpg',
+    image: '/moto/lucas-oil/lucasproduct1.webp',
     items: [
       'Heavy Duty Oil Stabilizer',
       'Pure Synthetic Oil Stabilizer',
@@ -16,7 +16,7 @@ const products = [
   },
   {
     title: 'Classic Cars',
-    image: '/moto/lucas-oil/lucasproduct2.jpg',
+    image: '/moto/lucas-oil/lucasproduct2.webp',
     items: [
       'Fuel Treatment',
       'Heavy Duty Oil Stabilizer',
@@ -25,7 +25,7 @@ const products = [
   },
   {
     title: 'Everyday Car Care',
-    image: '/moto/lucas-oil/lucasproduct3.jpg',
+    image: '/moto/lucas-oil/lucasproduct3.webp',
     items: [
       'Octane Booster',
       'Power Steering Stop Leak',
@@ -34,7 +34,7 @@ const products = [
   },
   {
     title: 'Commercial Vehicles',
-    image: '/moto/lucas-oil/lusacproduct4.jpg',
+    image: '/moto/lucas-oil/lusacproduct4.webp',
     items: [
       'Transmission Fix',
       'Diesel Deep Clean®',
@@ -60,7 +60,7 @@ export default function OurProducts() {
           <div className="flex flex-col sm:flex-row justify-between items-center mb-8 pb-4" data-aos="fade-up">
             <div className="flex items-center space-x-3 mb-4 sm:mb-0">
               <img 
-                src="/moto/lucas-oil/setting.png" 
+                src="/moto/lucas-oil/setting.webp" 
                 alt="Setting icon" 
                 className="w-5 h-5 md:w-6 md:h-6 object-contain"
               />

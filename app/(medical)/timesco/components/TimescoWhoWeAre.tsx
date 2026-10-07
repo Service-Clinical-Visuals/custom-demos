@@ -147,7 +147,7 @@ export default function TimescoWhoWeAre() {
               "
             >
               <img
-                src="/timesco/timesco-who.png"
+                src="/timesco/timesco-who.webp"
                 alt="Lab"
                 className="
                   h-auto

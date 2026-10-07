@@ -9,7 +9,7 @@ const categories = [
     title: "EMS",
     description:
       "Pulmodyne EMS solutions are engineered to assist first responders with dependable airway management and respiratory care products for critical emergency situations.",
-    hoverImg: "/medical/pulmo/pulmo-section-1.jpg",
+    hoverImg: "/medical/pulmo/pulmo-section-1.webp",
     hoverColor: "#0065A4B2",
   },
   {
@@ -17,7 +17,7 @@ const categories = [
     title: "Anesthesia",
     description:
       "Pulmodyne anesthesia products are designed to enhance patient safety and support efficient ventilation management during surgical and clinical procedures.",
-    hoverImg: "/medical/pulmo/pulmo-section-2.png",
+    hoverImg: "/medical/pulmo/pulmo-section-2.webp",
     hoverColor: "#0065A4B2",
   },
   {
@@ -25,7 +25,7 @@ const categories = [
     title: "Respiratory",
     description:
       "Pulmodyne respiratory solutions provide advanced breathing support technologies focused on improving patient comfort, therapy efficiency, and clinical performance.",
-    hoverImg: "/medical/pulmo/pulmo-section-3.jpg",
+    hoverImg: "/medical/pulmo/pulmo-section-3.webp",
     hoverColor: "#0065A4B2",
   },
 ];

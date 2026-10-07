@@ -46,7 +46,7 @@ export default function TimescoFooter() {
         "
       >
         {/* Background Decorative Pattern */}
-        <img src="/timesco/subscribe-bg.jpg" alt="bg"
+        <img src="/timesco/subscribe-bg.webp" alt="bg"
           className="
             absolute
             inset-0
@@ -160,7 +160,7 @@ export default function TimescoFooter() {
           <div data-aos="fade-right">
             
             <div>
-              <img src="/timesco/timesco-logo.png" alt="Timesco Logo" className="h-10" />
+              <img src="/timesco/timesco-logo.webp" alt="Timesco Logo" className="h-10" />
             </div>
             <p
               className="

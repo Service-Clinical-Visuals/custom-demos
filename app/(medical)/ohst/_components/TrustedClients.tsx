@@ -3,10 +3,10 @@ import { Typography } from "./ui/Typography";
 import { Button } from "./ui/Button";
 
 const supporters = [
-  { image: "/medical/ohst/supports/horizont.png", alt: "Horizont e.V." },
-  { image: "/medical/ohst/supports/havelland.png", alt: "Musik- und Kunstschule Havelland" },
-  { image: "/medical/ohst/supports/plan_intl.png", alt: "Plan International" },
-  { image: "/medical/ohst/supports/fsv.png", alt: "FSV Optik Rathenow" },
+  { image: "/medical/ohst/supports/horizont.webp", alt: "Horizont e.V." },
+  { image: "/medical/ohst/supports/havelland.webp", alt: "Musik- und Kunstschule Havelland" },
+  { image: "/medical/ohst/supports/plan_intl.webp", alt: "Plan International" },
+  { image: "/medical/ohst/supports/fsv.webp", alt: "FSV Optik Rathenow" },
 ];
 
 export default function TrustedClientsSection() {

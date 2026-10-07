@@ -9,7 +9,7 @@ export default function MoveProFeatures() {
       className="relative overflow-hidden py-20 twok"
       style={{
         backgroundImage:
-          "url('/carepump/images/moveprobg.png')",
+          "url('/carepump/images/moveprobg.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

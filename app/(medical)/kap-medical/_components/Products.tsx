@@ -8,47 +8,47 @@ export default function Products() {
         {
             id: "isense-clrt-system",
             name: "ISENSE CLRT System",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
         {
             id: "k-0-elite-control-unit",
             name: "K-0 Elite Control Unit",
-            image: "/images/product-2.png",
+            image: "/images/product-2.webp",
         },
         {
             id: "k-11-foam-mattress-replacement",
             name: "K-11 FOAM MATTRESS REPLACEMENT",
-            image: "/images/product-3.png",
+            image: "/images/product-3.webp",
         },
         {
             id: "smartturn",
             name: "SMARTURN",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
         {
             id: "intellimatt",
             name: "INTELLIMATT",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
         {
             id: "zmatt",
             name: "ZMATT",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
         {
             id: "dx-z-turn",
             name: "DX & Z-TURN",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
         {
             id: "smartmatt",
             name: "SMARTMATT",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
         {
             id: "iturn-clrt-system",
             name: "ITURN CLRT System",
-            image: "/images/product-1.png",
+            image: "/images/product-1.webp",
         },
     ];
 

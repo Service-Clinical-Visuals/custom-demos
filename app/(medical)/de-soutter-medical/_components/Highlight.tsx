@@ -10,7 +10,7 @@ export default function Highlight() {
       {/* BACKGROUND IMAGE (15% opacity) */}
       <div className="absolute inset-0">
         <Image
-          src="/de-soutter-medical/bg-1.png" // 👉 your bg image
+          src="/de-soutter-medical/bg-1.webp" // 👉 your bg image
           alt="background"
           fill
           className="object-cover opacity-[0.15]"
@@ -48,7 +48,7 @@ export default function Highlight() {
                   <Check size={14} />
                 </div>
                 {/* <Image
-                  src="/de-soutter-medical/check.png" // 👉 put image in public/icons/
+                  src="/de-soutter-medical/check.webp" // 👉 put image in public/icons/
                   alt="check"
                   width={16}
                   height={16}

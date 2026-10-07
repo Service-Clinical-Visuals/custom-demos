@@ -4,15 +4,15 @@ export default function Insights() {
     const insightsData = [
         {
             title: "Endoscopy Symposium 2026 Düsseldorf",
-            imageSrc: "/home/blog-1.jpg"
+            imageSrc: "/home/blog-1.webp"
         },
         {
             title: "Endoscopy Practical training days 2026 Erlangen",
-            imageSrc: "/home/blog-2.png"
+            imageSrc: "/home/blog-2.webp"
         },
         {
             title: "DHG Hernia Days 2026 Berlin",
-            imageSrc: "/home/blog-3.png"
+            imageSrc: "/home/blog-3.webp"
         }
     ];
 

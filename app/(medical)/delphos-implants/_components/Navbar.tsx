@@ -45,7 +45,7 @@ export default function Navbar() {
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src="/delphos-implants/images/logo.png" alt="logo" width={180} height={180} />
+            <img src="/delphos-implants/images/logo.webp" alt="logo" width={180} height={180} />
           </div>
 
           {/* Desktop Menu */}

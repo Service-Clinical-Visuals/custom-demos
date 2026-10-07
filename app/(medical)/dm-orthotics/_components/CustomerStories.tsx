@@ -4,15 +4,15 @@ import Image from "next/image";
 const stories = [
   {
     name: "Alex's Story",
-    image: "/dm-orthotics/home/customer-1.png",
+    image: "/dm-orthotics/home/customer-1.webp",
   },
   {
     name: "Charlotte's Story",
-    image: "/dm-orthotics/home/customer-2.png",
+    image: "/dm-orthotics/home/customer-2.webp",
   },
   {
     name: "Zach And River's Story",
-    image: "/dm-orthotics/home/customer-3.png",
+    image: "/dm-orthotics/home/customer-3.webp",
   }
 ];
 
@@ -21,7 +21,7 @@ export default function CustomerStories() {
     <section className="py-24 bg-primary relative overflow-hidden">
       {/* Background Decorative Pattern (Subtle wave/lines from reference) */}
       <div className="absolute inset-0 pointer-events-none z-0">
-        <img src="/dm-orthotics/home/bg.png" alt="Customer Background" className="object-cover w-full h-full opacity-20" />
+        <img src="/dm-orthotics/home/bg.webp" alt="Customer Background" className="object-cover w-full h-full opacity-20" />
       </div>
 
       <div className="container mx-auto px-4 lg:px-6">

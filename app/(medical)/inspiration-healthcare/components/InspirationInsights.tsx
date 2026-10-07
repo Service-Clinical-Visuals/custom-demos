@@ -26,7 +26,7 @@ export default function InspirationInsights() {
             <div className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
               <div className="h-[220px] sm:h-[300px] lg:h-[450px] bg-gray-200">
                 <img
-                  src="/inspiration-healthcare/assets/inspiration-insight.png"
+                  src="/inspiration-healthcare/assets/inspiration-insight.webp"
                   alt="Featured Insight"
                   className="w-full h-full object-cover"
                 />
@@ -85,25 +85,25 @@ export default function InspirationInsights() {
 const updates = [
   {
     title: "Empowering Our Distribution Partners",
-    img: "/inspiration-healthcare/assets/inspiration-insight1.png",
+    img: "/inspiration-healthcare/assets/inspiration-insight1.webp",
     date: "7 Jul 2025",
     desc: "How the Online Learning Academy Drives Success in Product Knowledge and Customer Support",
   },
   {
     title: "Why Evidence-Based Learning Matters in Device Training",
-    img: "/inspiration-healthcare/assets/inspiration-insight2.png",
+    img: "/inspiration-healthcare/assets/inspiration-insight2.webp",
     date: "12 Jun 2025",
     desc: "Every decision matters. Inspiration Academy provides trusted, evidence-based learning for better outcomes.",
   },
   {
     title: "The Impact of Accurate Measurements in Neonatal Care",
-    img: "/inspiration-healthcare/assets/inspiration-insight3.png",
+    img: "/inspiration-healthcare/assets/inspiration-insight3.webp",
     date: "25 Nov 2024",
     desc: "In neonatal care, where every detail matters, an accurate measurement with a fixation tape can make a significant difference.",
   },
   {
     title: "Innovating Neonatal Care",
-    img: "/inspiration-healthcare/assets/inspiration-insight4.png",
+    img: "/inspiration-healthcare/assets/inspiration-insight4.webp",
     date: "29 Aug 2024",
     desc: "Neonatal care is a field where precision and innovation are paramount. Every advancement can significantly impact outcomes.",
   },

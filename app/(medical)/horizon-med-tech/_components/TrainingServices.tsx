@@ -6,19 +6,19 @@ const services = [
     title: "Product Training",
     description: "Quick setup guides, Instructions for Use, Troubleshooting and Frequently Asked Questions",
     href: "#",
-    image: "/horizon/images/presentation.png",
+    image: "/horizon/images/presentation.webp",
   },
   {
     title: "Clinic Training",
     description: "Quick setup guides, Instructions for Use, Troubleshooting and Frequently Asked Questions",
     href: "#",
-    image: "/horizon/images/graduation.png",
+    image: "/horizon/images/graduation.webp",
   },
   {
     title: "Service Training",
     description: "Quick setup guides, Instructions for Use, Troubleshooting and Frequently Asked Questions",
     href: "#",
-    image: "/horizon/images/practice.png",
+    image: "/horizon/images/practice.webp",
   },
 ];
 
@@ -27,7 +27,7 @@ export default function TrainingServices() {
     <section className="w-full py-24 bg-white relative overflow-hidden horizon-root">
       {/* Background Topographic lines (Simulated with SVG pattern) */}
       <div
-        className="absolute inset-0 opacity-[0.4] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
+        className="absolute inset-0 opacity-[0.4] pointer-events-none bg-[url('/horizon/images/about-bg.webp')] bg-cover bg-center"
       />
 
       <div className="custom-container px-4 md:px-6 relative z-10">

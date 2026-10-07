@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Deltasleep",
   description: "Deltasleep",
   icons: {
-    icon: "/delta/delta-logo.png",
+    icon: "/delta/delta-logo.webp",
   },
 };
 

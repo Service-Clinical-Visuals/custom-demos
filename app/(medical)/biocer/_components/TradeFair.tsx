@@ -6,7 +6,7 @@ export default function TradeFair() {
             <div className="relative w-full h-[280px] md:h-[320px] bg-[#6c9826] rounded-[2rem] overflow-hidden flex flex-col items-center justify-center text-center px-6 shadow-md">
 
                 {/* Background Image Placeholder overlaying the green color */}
-                <div className="absolute inset-0 bg-[url('/biocer/home/trade-fare-bg.jpg')] z-1 bg-bottom bg-cover bg-fixed bg-no-repeat mix-blend-overlay" />
+                <div className="absolute inset-0 bg-[url('/biocer/home/trade-fare-bg.webp')] z-1 bg-bottom bg-cover bg-fixed bg-no-repeat mix-blend-overlay" />
                 <div className="absolute inset-0 bg-black/40 mix-blend-multiply" />
 
                 <div className="relative z-10 flex flex-col items-center" data-aos="fade-up">

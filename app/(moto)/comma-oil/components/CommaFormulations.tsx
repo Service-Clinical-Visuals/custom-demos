@@ -9,22 +9,22 @@ const products = [
   {
     title: "Engine Oils",
     text: "Engine oils are the life blood of any vehicle and play a vital role in keeping things running smoothly. Every engine is different, that's why our extensive range features different formulations.",
-    image: "/moto/comma/engine_oil.png",
+    image: "/moto/comma/engine_oil.webp",
   },
   {
     title: "Gear and Transmission Oils",
     text: "Formulated to keep vehicles in great shape, our gear and transmission oils seamlessly power transmissions and help your equipment last longer.",
-    image: "/moto/comma/engine_oil.png",
+    image: "/moto/comma/engine_oil.webp",
   },
   {
     title: "Brake Fluids",
     text: "Precision-engineered brake fluids that meet and exceed OEM specifications, ensuring reliable stopping power in all conditions for both passenger and commercial vehicles.",
-    image: "/moto/comma/engine_oil.png",
+    image: "/moto/comma/engine_oil.webp",
   },
   {
     title: "Coolants & Antifreeze",
     text: "Our advanced coolant formulations protect engines against overheating, corrosion, and frost — keeping vehicles running at optimal temperature year-round.",
-    image: "/moto/comma/engine_oil.png",
+    image: "/moto/comma/engine_oil.webp",
   },
 ];
 

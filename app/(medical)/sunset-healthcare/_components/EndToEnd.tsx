@@ -6,7 +6,7 @@ export default function EndToEnd() {
   return (
     <section
       className="w-full py-16 md:py-24 text-white relative bg-cover bg-bottom"
-      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.jpg')" }}
+      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.webp')" }}
     >
       {/* Color overlay over the background image */}
       <div className="absolute inset-0 bg-[#54626d] opacity-97 z-0"></div>

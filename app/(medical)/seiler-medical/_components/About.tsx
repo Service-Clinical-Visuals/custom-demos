@@ -16,7 +16,7 @@ const About = () => {
         <div className="">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="/medical/seiler/about.png" // Replace with your actual image path
+              src="/medical/seiler/about.webp" // Replace with your actual image path
               alt="Seiler Medical Equipment Display"
               className="w-full h-auto object-cover"
             />
@@ -61,7 +61,7 @@ const About = () => {
                 className="flex items-center gap-3 text-[#555555]">
                 <div className="w-5 h-5 bg-[#0475BC] rounded-full flex items-center justify-center shrink-0 overflow-hidden">
                   <Image
-                    src="/medical/seiler/check.png"
+                    src="/medical/seiler/check.webp"
                     alt="check"
                     width={12}
                     height={12}

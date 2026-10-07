@@ -8,19 +8,19 @@ const services = [
   {
     title: "Long Term Care",
     description: "We provide reliable medical solutions designed to support patients in long-term care settings, ensuring comfort, safety, and consistent health monitoring. Our products help caregivers deliver better outcomes with ease and efficiency.",
-    image: "/emerald/images/serve-1.png",
+    image: "/emerald/images/serve-1.webp",
     href: "#long-term-care"
   },
   {
     title: "Assisted Living",
     description: "Our solutions enhance independence while ensuring the right level of support for residents in assisted living environments. We focus on comfort, dignity, and safety through innovative and easy-to-use medical products.",
-    image: "/emerald/images/serve-2.png",
+    image: "/emerald/images/serve-2.webp",
     href: "#assisted-living"
   },
   {
     title: "Homecare",
     description: "We bring hospital-grade care into the comfort of your home with user-friendly and dependable medical solutions. Our products empower patients and caregivers to manage health conditions safely and confidently.",
-    image: "/emerald/images/serve-3.png",
+    image: "/emerald/images/serve-3.webp",
     href: "#homecare"
   }
 ];

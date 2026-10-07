@@ -11,9 +11,9 @@ import { Redo2 } from "lucide-react";
 
 
 const icons = [
-    "/optimed/optimed-feature-1.png", 
-    "/optimed/optimed-feature-2.png", 
-    "/optimed/optimed-feature-3.png"
+    "/optimed/optimed-feature-1.webp", 
+    "/optimed/optimed-feature-2.webp", 
+    "/optimed/optimed-feature-3.webp"
 ]
 
 

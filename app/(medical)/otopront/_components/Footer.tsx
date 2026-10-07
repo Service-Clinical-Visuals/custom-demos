@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="flex flex-col lg:col-span-4">
             <div className="mb-8">
               {/* Logo text - mimicking the visual style */}
-              <img src="/otopront/images/footer-logo.png" alt="otopront-logo" className="w-64 lg:w-80" />
+              <img src="/otopront/images/footer-logo.webp" alt="otopront-logo" className="w-64 lg:w-80" />
             </div>
             <p className="text-[#484848] leading-relaxed pr-4">
               We take responsibility. Since 2021, we have been securing 100% of our energy needs with green electricity from production-certified European hydropower plants.
@@ -101,17 +101,17 @@ export default function Footer() {
             
             {/* TUV Logo Placeholder */}
             <div className="flex items-center h-14">
-               <img src="otopront/images/c-1.png" alt="" className="h-full w-auto" />
+               <img src="otopront/images/c-1.webp" alt="" className="h-full w-auto" />
             </div>
 
             {/* DGKH Logo Placeholder */}
             <div className="flex items-center h-14">
-              <img src="otopront/images/c-2.png" alt="" className="h-full w-auto" />
+              <img src="otopront/images/c-2.webp" alt="" className="h-full w-auto" />
             </div>
 
             {/* HNO-Technik Logo Placeholder */}
             <div className="flex items-center h-14">
-              <img src="otopront/images/c-3.png" alt="" className="h-full w-auto" />
+              <img src="otopront/images/c-3.webp" alt="" className="h-full w-auto" />
             </div>
             
           </div>

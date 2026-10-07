@@ -35,7 +35,7 @@ export default function OptimedFooter() {
             {/* Logo */}
             <div className="flex items-center gap-4">
 
-              <img src="/optimed/optimed-logo.png" alt="logo" />
+              <img src="/optimed/optimed-logo.webp" alt="logo" />
             </div>
 
             {/* Description */}

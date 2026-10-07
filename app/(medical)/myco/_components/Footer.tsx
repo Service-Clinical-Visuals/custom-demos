@@ -60,7 +60,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="flex flex-col gap-4 content-white font-normal!">
             <img
-              src="/medical/myco-medical/logo.png"
+              src="/medical/myco-medical/logo.webp"
               alt="Myco Medical"
               className="h-26 w-auto object-contain self-start"
             />
@@ -106,10 +106,10 @@ export default function Footer() {
             <span className="content-white font-bold">Follow Us On</span>
             <div className="flex items-center gap-3">
               {[
-                { src: "/medical/myco-medical/socials/facebook.png", label: "Facebook" },
-                { src: "/medical/myco-medical/socials/twitter.png", label: "Twitter" },
-                { src: "/medical/myco-medical/socials/linkedin.png", label: "LinkedIn" },
-                { src: "/medical/myco-medical/socials/youtube.png", label: "YouTube" },
+                { src: "/medical/myco-medical/socials/facebook.webp", label: "Facebook" },
+                { src: "/medical/myco-medical/socials/twitter.webp", label: "Twitter" },
+                { src: "/medical/myco-medical/socials/linkedin.webp", label: "LinkedIn" },
+                { src: "/medical/myco-medical/socials/youtube.webp", label: "YouTube" },
               ].map(({ src, label }) => (
                 <a
                   key={label}

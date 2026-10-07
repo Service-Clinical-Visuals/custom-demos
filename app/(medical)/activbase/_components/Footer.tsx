@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-4 flex flex-col">
             <div className="mb-8">
               <Link href="/">
-                <img src="/activbase/logo.png" alt="Activbase Logo" className="w-[350px] brightness-0 invert" />
+                <img src="/activbase/logo.webp" alt="Activbase Logo" className="w-[350px] brightness-0 invert" />
               </Link>
             </div>
             <p className="text-white/80 text-[16px] mb-8 leading-relaxed">

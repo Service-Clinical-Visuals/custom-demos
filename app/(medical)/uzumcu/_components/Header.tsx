@@ -45,7 +45,7 @@ export default function Header() {
                         {/* Logo */}
                         <div className="flex items-center gap-2">
                             <div className="flex flex-col">
-                                <img src={`/uzumcu/images/uzumcu-logo.png`} alt="UZUMCU" className="h-10" />
+                                <img src={`/uzumcu/images/uzumcu-logo.webp`} alt="UZUMCU" className="h-10" />
                             </div>
                         </div>
 

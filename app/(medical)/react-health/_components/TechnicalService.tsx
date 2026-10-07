@@ -21,7 +21,7 @@ export default function TechnicalService() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left: Image Placeholder */}
           <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-gray-100 aspect-[4/3] flex items-center justify-center" data-aos="fade-right">
-            <img src="/react-health/service.jpg" alt="Service" className="w-full h-full object-cover" />
+            <img src="/react-health/service.webp" alt="Service" className="w-full h-full object-cover" />
           </div>
 
           {/* Right: Content */}

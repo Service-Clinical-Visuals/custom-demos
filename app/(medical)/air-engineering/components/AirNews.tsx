@@ -8,17 +8,17 @@ const articles = [
   {
     title: "Hafner Series HBS CANopen Coupler",
     date: "February 18, 2025",
-    image: "/medical/ae/ae-news-1.png",
+    image: "/medical/ae/ae-news-1.webp",
   },
   {
     title: "Dynamic Four-Day Week",
     date: "July 1, 2022",
-    image: "/medical/ae/ae-news-2.png",
+    image: "/medical/ae/ae-news-2.webp",
   },
   {
     title: "Oxygen Precision Regulators",
     date: "May 16, 2019",
-    image: "/medical/ae/ae-news-3.png",
+    image: "/medical/ae/ae-news-3.webp",
   },
 ];
 

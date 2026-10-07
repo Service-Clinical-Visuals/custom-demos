@@ -15,15 +15,15 @@ export default function Products() {
   const swiperRef = useRef<SwiperType | null>(null);
 
   const products = [
-    { src: "/moto/german-gold/products/product1.jpg", title: "Motor Oil For Hybrid Cars" },
-    { src: "/moto/german-gold/products/product2.jpg", title: "Motor Oil For Cars" },
-    { src: "/moto/german-gold/products/product3.jpg", title: "Motor Oil For Trucks" },
-    { src: "/moto/german-gold/products/product4.jpg", title: "Motor Oil For Two Wheelers" },
-    { src: "/moto/german-gold/products/product5.jpg", title: "Gear Oil (MTF)" },
-    { src: "/moto/german-gold/products/product6.jpg", title: "Industrial & Hydraulic Oil" },
-    { src: "/moto/german-gold/products/product66.jpg", title: "Agriculture Oil" },
-    { src: "/moto/german-gold/products/product7.jpg", title: "Brake Fluid" },
-    { src: "/moto/german-gold/products/product8.jpg", title: "Coolants" }
+    { src: "/moto/german-gold/products/product1.webp", title: "Motor Oil For Hybrid Cars" },
+    { src: "/moto/german-gold/products/product2.webp", title: "Motor Oil For Cars" },
+    { src: "/moto/german-gold/products/product3.webp", title: "Motor Oil For Trucks" },
+    { src: "/moto/german-gold/products/product4.webp", title: "Motor Oil For Two Wheelers" },
+    { src: "/moto/german-gold/products/product5.webp", title: "Gear Oil (MTF)" },
+    { src: "/moto/german-gold/products/product6.webp", title: "Industrial & Hydraulic Oil" },
+    { src: "/moto/german-gold/products/product66.webp", title: "Agriculture Oil" },
+    { src: "/moto/german-gold/products/product7.webp", title: "Brake Fluid" },
+    { src: "/moto/german-gold/products/product8.webp", title: "Coolants" }
   ];
 
   return (

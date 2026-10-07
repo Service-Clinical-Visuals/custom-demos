@@ -79,7 +79,7 @@ export default function IntroducingVyneOnline() {
     return (
         <section className="relative w-full bg-secondary pt-20 pb-32 overflow-hidden">
             {/* Background pattern overlay */}
-            <div className="absolute inset-0 z-0 opacity-40 pointer-events-none bg-[url('/vyne/home/bg-patten.png')] bg-cover bg-no-repeat mix-blend-overlay">
+            <div className="absolute inset-0 z-0 opacity-40 pointer-events-none bg-[url('/vyne/home/bg-patten.webp')] bg-cover bg-no-repeat mix-blend-overlay">
             </div>
 
             <div className="container-custom relative z-10">
@@ -90,7 +90,7 @@ export default function IntroducingVyneOnline() {
                         <div className="relative w-[360px] h-[650px] -mb-48 md:-mb-64">
                             {/* Phone Frame Image Overlay */}
                             <div className="absolute inset-0 z-20 pointer-events-none">
-                                <img src={`/vyne/home/phone.png`} alt="Phone Frame" className="w-full h-full object-contain" />
+                                <img src={`/vyne/home/phone.webp`} alt="Phone Frame" className="w-full h-full object-contain" />
                             </div>
 
                             {/* Video Screen Content - Positioned precisely in the screen area */}
@@ -175,7 +175,7 @@ export default function IntroducingVyneOnline() {
                             </button>
 
                             <div className="flex justify-center items-center gap-4 w-full sm:w-auto">
-                                <img src={`/vyne/home/store.png`} alt="App Store" className="w-[250px] object-contain" />
+                                <img src={`/vyne/home/store.webp`} alt="App Store" className="w-[250px] object-contain" />
                             </div>
                         </div>
 

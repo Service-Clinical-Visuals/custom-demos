@@ -47,7 +47,7 @@ export default function OptimedAbout() {
         {/* Background */}
         <div className="absolute inset-0">
           <img
-            src="/optimed/optimed-about.png"
+            src="/optimed/optimed-about.webp"
             alt="about"
             className="w-full h-full object-cover"
           />

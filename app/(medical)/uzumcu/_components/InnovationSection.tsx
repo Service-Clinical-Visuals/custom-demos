@@ -3,22 +3,22 @@ export default function InnovationSection() {
         {
             title: "Advanced Technology Research",
             description: "By researching the latest innovations and trends in healthcare technologies, we strive to develop the most advanced solutions in the industry.",
-            img: "/uzumcu/images/home/research.jpg"
+            img: "/uzumcu/images/home/research.webp"
         },
         {
             title: "R&D Investments",
             description: "We are committed to continuously increasing R&D and supporting our teams to develop innovative products and solutions.",
-            img: "/uzumcu/images/home/r-d.jpg"
+            img: "/uzumcu/images/home/r-d.webp"
         },
         {
             title: "Collaborations and Partnerships",
             description: "We establish collaborations with universities, research centers and other technology providers to be at the forefront of technological development.",
-            img: "/uzumcu/images/home/partnerships.jpg"
+            img: "/uzumcu/images/home/partnerships.webp"
         }
     ];
 
     return (
-        <section className="py-22 bg-[url('/uzumcu/images/home/technology-bg.png')] bg-cover bg-center relative overflow-hidden">
+        <section className="py-22 bg-[url('/uzumcu/images/home/technology-bg.webp')] bg-cover bg-center relative overflow-hidden">
 
 
             <div className="container mx-auto px-4 relative z-10 flex flex-col items-center">

@@ -16,7 +16,7 @@ const Everything = () => {
           <div className="absolute left-[-12%] top-0 w-[70vw] h-[60px] xl:h-[100px] bg-[var(--color-primary)] -translate-x-1/2 -translate-y-1/2 rotate-50 z-0 hidden lg:block"></div>
 
           <img
-            src="/moto/vessel/section3.png"
+            src="/moto/vessel/section3.webp"
             alt="European Catalogue 2025 / 2026"
             className="w-full xl:right-[-60px]  mx-auto h-auto object-contain relative z-10 filter drop-shadow-2xl"
           />

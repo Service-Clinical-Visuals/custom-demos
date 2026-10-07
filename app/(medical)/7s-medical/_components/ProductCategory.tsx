@@ -17,39 +17,39 @@ export default function ProductCategory() {
   const products = [
     {
       title: "Clavicula & Humerus",
-      image: "7s-medical/product-1.png",
+      image: "7s-medical/product-1.webp",
       link: "#clavicula-humerus",
     },
     {
       title: "Radius & Ulna",
-      image: "7s-medical/product-2.png",
+      image: "7s-medical/product-2.webp",
       link: "#radius-ulna",
     },
     {
       title: "Femur",
-      image: "7s-medical/product-3.png",
+      image: "7s-medical/product-3.webp",
       link: "#femur",
     },
     {
       title: "Femur",
-      image: "7s-medical/product-4.png",
+      image: "7s-medical/product-4.webp",
       link: "#femur",
     },
     {
       title: "Femur",
-      image: "7s-medical/product-5.png",
+      image: "7s-medical/product-5.webp",
       link: "#femur",
     },
     {
       title: "Femur",
-      image: "7s-medical/product-6.png",
+      image: "7s-medical/product-6.webp",
       link: "#femur",
     },
   ];
 
   return (
     <section 
-      className="relative w-full py-16 lg:py-20 bg-[url('/7s-medical/product-bg.png')] bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col justify-center shadow-inner"
+      className="relative w-full py-16 lg:py-20 bg-[url('/7s-medical/product-bg.webp')] bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col justify-center shadow-inner"
       data-aos="fade-up"
     >
       <div className="relative z-10 container mx-auto px-6 md:px-12">

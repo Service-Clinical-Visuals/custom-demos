@@ -139,7 +139,7 @@ export default function Footer() {
     return (
         <footer className="bg-secondary text-white pt-20 pb-12 w-full relative overflow-hidden">
             {/* Background pattern overlay */}
-            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.png')] bg-cover bg-no-repeat">
+            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.webp')] bg-cover bg-no-repeat">
             </div>
 
             <div className="container-custom relative z-10">
@@ -150,7 +150,7 @@ export default function Footer() {
                     {/* Logo & Description */}
                     <div className="max-w-xs flex flex-col pt-2">
                         <Link href="/" className="mb-6 flex items-center" aria-label="Home">
-                            <img src={`/vyne/logo.png`} alt="Vyne Logo" width={`200px`} />
+                            <img src={`/vyne/logo.webp`} alt="Vyne Logo" width={`200px`} />
                         </Link>
                         <p className="text-gray-300 text-[13px] leading-relaxed mb-8">
                             Order your prescriptions and buy your continence and ostomy products, <span className="text-primary">all in one place</span>
@@ -234,10 +234,10 @@ export default function Footer() {
 
                         {/* Awards Placeholders */}
                         <div className="flex lg:flex-nowrap flex-wrap lg:items-center items-start justify-start gap-3 mt-12">
-                            <img src={`/vyne/home/award-1.png`} alt="Award 1" className="w-24 h-24 object-contain" />
-                            <img src={`/vyne/home/award-2.png`} alt="Award 2" className="w-24 h-24 object-contain" />
-                            <img src={`/vyne/home/award-3.png`} alt="Award 3" className="w-24 h-24 object-contain" />
-                            <img src={`/vyne/home/award-4.png`} alt="Award 4" className="w-24 h-24 object-contain" />
+                            <img src={`/vyne/home/award-1.webp`} alt="Award 1" className="w-24 h-24 object-contain" />
+                            <img src={`/vyne/home/award-2.webp`} alt="Award 2" className="w-24 h-24 object-contain" />
+                            <img src={`/vyne/home/award-3.webp`} alt="Award 3" className="w-24 h-24 object-contain" />
+                            <img src={`/vyne/home/award-4.webp`} alt="Award 4" className="w-24 h-24 object-contain" />
                         </div>
                     </div>
 

@@ -90,7 +90,7 @@ export default function OptimedKnow() {
             className="relative h-[320px] sm:h-[420px] xl:h-full min-h-[320px] rounded-2xl overflow-hidden"
           >
 
-            <img src="/optimed/optimed-know.png" alt="optimed" className="h-full w-full object-cover" />
+            <img src="/optimed/optimed-know.webp" alt="optimed" className="h-full w-full object-cover" />
             {/* Soft Overlay Gradient */}
             {/* <div className="absolute inset-0 bg-gradient-to-tr from-black/5 to-transparent rounded-[28px] pointer-events-none"></div> */}
           </div>

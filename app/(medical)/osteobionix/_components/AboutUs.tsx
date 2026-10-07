@@ -34,7 +34,7 @@ export default function AboutUs() {
           {/* Image Content */}
           <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-auto rounded-[2rem] overflow-hidden border-[12px] border-[#237B64]" data-aos="fade-left">
             <img
-              src="/osteobionix/abt.png"
+              src="/osteobionix/abt.webp"
               alt="Osteobionix Team Meeting"
               className="absolute inset-0 w-full h-full object-cover"
             />

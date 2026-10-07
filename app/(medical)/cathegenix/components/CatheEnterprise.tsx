@@ -7,19 +7,19 @@ import "aos/dist/aos.css";
 const serviceCards = [
   {
     title: "Commitment to innovation and clinical research",
-    icon: "/cathegenix/cathe-service-1.png",
+    icon: "/cathegenix/cathe-service-1.webp",
   },
   {
     title: "Proprietary development of cutting-edge technologies",
-    icon: "/cathegenix/cathe-service-2.png",
+    icon: "/cathegenix/cathe-service-2.webp",
   },
   {
     title: "Precision-driven, large-scale manufacturing capabilities",
-    icon: "/cathegenix/cathe-service-3.png",
+    icon: "/cathegenix/cathe-service-3.webp",
   },
   {
     title: "High-quality products and exceptional services",
-    icon: "/cathegenix/cathe-service-4.png",
+    icon: "/cathegenix/cathe-service-4.webp",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function CatheEnterprise() {
         {/* BACKGROUND IMAGE */}
         <div className="absolute inset-0">
           <img
-            src="/cathegenix/cathe-enterprise.jpg"
+            src="/cathegenix/cathe-enterprise.webp"
             alt="Medical Banner"
             className="h-full w-full object-cover"
           />

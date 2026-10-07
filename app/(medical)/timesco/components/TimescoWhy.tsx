@@ -29,7 +29,7 @@ export default function TimescoWhy() {
       {/* BACKGROUND IMAGE */}
       <div className="absolute inset-0">
         <img
-          src="/timesco/timesco-why.png"
+          src="/timesco/timesco-why.webp"
           alt="Facility"
           className="h-full w-full object-cover"
         />

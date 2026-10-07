@@ -5,18 +5,18 @@ export default function Footer() {
         <footer className="relative w-full bg-[#0E1513] text-white pt-16 md:pt-24 pb-8 md:pb-12 px-4 md:px-8 overflow-hidden">
             {/* Background Decoratives (Subtle stars/shapes) */}
             <div className="absolute top-0 right-0 pointer-events-none">
-                <img src={`/integra/home/footer-bg.png`} alt="Asterisk" className="w-45" />
+                <img src={`/integra/home/footer-bg.webp`} alt="Asterisk" className="w-45" />
             </div>
 
             <div className="absolute bottom-0 left-0 pointer-events-none">
-                <img src={`/integra/home/footer-bg.png`} alt="Asterisk" className="w-45 transform rotate-180" />
+                <img src={`/integra/home/footer-bg.webp`} alt="Asterisk" className="w-45 transform rotate-180" />
             </div>
 
             <div className="max-w-[1440px] w-full mx-auto relative z-10 flex flex-col md:flex-row gap-16 md:gap-8 justify-between">
                 {/* Left Side - CTA & Newsletter */}
                 <div data-aos="fade-right" className="w-full md:w-[45%] flex flex-col items-start pr-0 md:pr-10">
                     <div className="flex items-center gap-2 mb-5">
-                        <img src={`/integra/logo-white.png`} alt="Logo" className="w-40 md:w-48" />
+                        <img src={`/integra/logo-white.webp`} alt="Logo" className="w-40 md:w-48" />
                     </div>
                     <h2 className="text-[28px] md:text-[35px] font-bold text-white leading-[1.2] tracking-tight mb-6 md:mb-8 mt-10 md:mt-0">
                         ENHANCE HEALTH CARE, BOOST<br />
@@ -90,7 +90,7 @@ export default function Footer() {
                 {/* Logo Bottom Right */}
                 {/* <div data-aos="zoom-in" data-aos-delay="400" className="relative md:absolute mt-8 md:mt-0 md:bottom-0 md:right-10 flex items-center justify-start md:justify-end">
                     <div className="flex items-center gap-2">
-                        <img src={`/integra/logo-white.png`} alt="Logo" className="w-40 md:w-48" />
+                        <img src={`/integra/logo-white.webp`} alt="Logo" className="w-40 md:w-48" />
                     </div>
                 </div> */}
             </div>

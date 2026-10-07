@@ -101,7 +101,7 @@ export default function QualityAssuranceSection() {
               "
             >
               <img
-                src="/accu-scope/QualityAssurance.png"
+                src="/accu-scope/QualityAssurance.webp"
                 alt=""
                 className="w-full h-full object-contain"
               />

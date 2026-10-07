@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Comma | The Brand Behind Every Journey",
   description: "OEM-approved engine oils, lubricants and chemicals for passenger and commercial vehicles.",
   icons: {
-    icon: "/comma/comma_logo.png",
+    icon: "/comma/comma_logo.webp",
   },
 };
 

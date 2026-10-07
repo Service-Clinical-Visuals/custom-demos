@@ -20,7 +20,7 @@ export default function Footer() {
               {/* Logo */}
               <div className="relative w-14 h-14">
                 <Image
-                  src="/clinisupplies/footerLogo.png"
+                  src="/clinisupplies/footerLogo.webp"
                   alt="Clinisupplies Logo"
                   fill
                   className="object-contain"

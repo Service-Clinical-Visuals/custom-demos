@@ -6,32 +6,32 @@ export default function SupportedBy() {
     {
       name: "Plan de Recuperación,",
       subtitle: "Transformación y Resiliencia",
-      path: "/osteobionix/logo-2.jpg"
+      path: "/osteobionix/logo-2.webp"
     },
     {
       name: "CDTI",
       subtitle: "INNOVACIÓN",
-      path: "/osteobionix/logo-3.jpg"
+      path: "/osteobionix/logo-3.webp"
     },
     {
       name: "Gobierno de Canarias",
       subtitle: "",
-      path: "/osteobionix/logo-4.jpg"
+      path: "/osteobionix/logo-4.webp"
     },
     {
       name: "Plan de Recuperación,",
       subtitle: "Transformación y Resiliencia",
-      path: "/osteobionix/logo-2.jpg"
+      path: "/osteobionix/logo-2.webp"
     },
     {
       name: "Plan de Recuperación,",
       subtitle: "Transformación y Resiliencia",
-      path: "/osteobionix/logo-5.jpg"
+      path: "/osteobionix/logo-5.webp"
     },
     {
       name: "Plan de Recuperación,",
       subtitle: "Transformación y Resiliencia",
-      path: "/osteobionix/logo-6.jpg"
+      path: "/osteobionix/logo-6.webp"
     },
   ];
 

@@ -6,17 +6,17 @@ const experts = [
   {
     name: "Toby Foster",
     title: "Chief Executive Officer",
-    image: "/horizon/images/team-1.png",
+    image: "/horizon/images/team-1.webp",
   },
   {
     name: "Dr. Peter Reynolds",
     title: "Chief Medical Officer",
-    image: "/horizon/images/team-2.png",
+    image: "/horizon/images/team-2.webp",
   },
   {
     name: "Siddarth Sashikumar",
     title: "Head Of Business Development",
-    image: "/horizon/images/team-3.png",
+    image: "/horizon/images/team-3.webp",
   }
 ];
 
@@ -24,7 +24,7 @@ export default function ExpertsTeam() {
   return (
     <section className="w-full py-15 bg-[#F9F9F9] relative overflow-hidden horizon-root">
       <div
-        className="absolute inset-0 opacity-[0.58] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
+        className="absolute inset-0 opacity-[0.58] pointer-events-none bg-[url('/horizon/images/about-bg.webp')] bg-cover bg-center"
       />
       <div className="custom-container px-4 md:px-6 relative z-10 text-center">
         <h2 className="text-[30px] md:text-[32px] font-semibold text-[#1A1A1A] mb-16" data-aos="fade-up">

@@ -50,7 +50,7 @@ export default function HrNavbar() {
             {/* LOGO */}
             <Link href="/" className="flex items-center">
               <Image
-                src="/hr-healthcare/hr-logo.png"
+                src="/hr-healthcare/hr-logo.webp"
                 alt="Logo"
                 width={150}
                 height={100}

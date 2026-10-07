@@ -33,7 +33,7 @@ export default function OurIdentity() {
           {/* Right Column: Image Mosaic */}
           <div className="w-full mt-12 lg:mt-0" data-aos="fade-left">
             <div className="relative w-full aspect-square lg:h-[580px] overflow-hidden rounded-[22px]">
-              <img src="/otopront/images/our-identity.jpg" alt="otopront-our-identity" className="w-full h-full object-cover" />
+              <img src="/otopront/images/our-identity.webp" alt="otopront-our-identity" className="w-full h-full object-cover" />
             </div>
           </div>
           

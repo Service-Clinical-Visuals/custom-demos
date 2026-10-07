@@ -5,13 +5,13 @@ import { FiArrowRight } from "react-icons/fi";
 const articles = [
   {
     title: "Doppler Ultrasound: Vascular Examination In Medical Imaging",
-    img : "/sono-scanner/sono-news-1.png",
+    img : "/sono-scanner/sono-news-1.webp",
     description:
       "Doppler ultrasound is a medical imaging examination that uses ultrasound waves to evaluate blood circulation and vascular conditions.",
   },
   {
     title: "Hypoechoic: Definition And Principle",
-        img : "/sono-scanner/sono-news-2.png",
+        img : "/sono-scanner/sono-news-2.webp",
 
     description:
       "Each organ reflects ultrasound waves with varying intensity. This principle allows ultrasound imaging to create visible contrasts on the screen.",
@@ -19,7 +19,7 @@ const articles = [
   {
     title:
       "Dr. Josh Guttman Reviews The U-Lite PRO Handheld Ultrasound!",
-          img : "/sono-scanner/sono-news-3.png",
+          img : "/sono-scanner/sono-news-3.webp",
 
     description:
       "Discover the video review by Joshua Guttman from Peachtree POCUS, where he explores the capabilities of the U-Lite PRO.",

@@ -12,37 +12,37 @@ export default function ProductCategory() {
     {
       name: "WALL MOUNT PRO WHEEL ALIGNER",
       price: "£7,995.00+ VAT",
-      imageSpace: "/moto/absolute-alignment/home/product-1.png",
+      imageSpace: "/moto/absolute-alignment/home/product-1.webp",
       categories: ["Wheel Aligners", "OEM Aligners", "2-Post Alignments"]
     },
     {
       name: "CV ALIGNER",
       price: "£11775.00+ VAT",
-      imageSpace: "/moto/absolute-alignment/home/product-2.png",
+      imageSpace: "/moto/absolute-alignment/home/product-2.webp",
       categories: ["Wheel Aligners"]
     },
     {
       name: "BLUETOOTH 3D WHEEL ALIGNER",
       price: "£14,650.00+ VAT",
-      imageSpace: "/moto/absolute-alignment/home/product-3.png",
+      imageSpace: "/moto/absolute-alignment/home/product-3.webp",
       categories: ["Wheel Aligners", "OEM Aligners"]
     },
     {
       name: "BLUETOOTH PRO EVO WHEEL ALIGNER",
       price: "£7,995.00+ VAT",
-      imageSpace: "/moto/absolute-alignment/home/product-4.png",
+      imageSpace: "/moto/absolute-alignment/home/product-4.webp",
       categories: ["Wheel Aligners", "OEM Aligners", "2-Post Alignments"]
     },
     {
       name: "BLUETOOTH LITE WHEEL ALIGNER",
       price: "£7,350.00+ VAT",
-      imageSpace: "/moto/absolute-alignment/home/product-5.png",
+      imageSpace: "/moto/absolute-alignment/home/product-5.webp",
       categories: ["Wheel Aligners", "2-Post Alignments"]
     },
     {
       name: "DROP BRACKET WHEEL ALIGNMENT ADAPTOR",
       price: "£495.00+ VAT",
-      imageSpace: "/moto/absolute-alignment/home/product-6.png",
+      imageSpace: "/moto/absolute-alignment/home/product-6.webp",
       categories: ["2-Post Alignments"]
     }
   ];

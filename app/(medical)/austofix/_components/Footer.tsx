@@ -11,7 +11,7 @@ const Footer = () => {
           <div data-aos="fade-up" className="lg:col-span-4 flex flex-col">
             <div className="mb-4">
               <Image
-                src="/austofix/austofix.png"
+                src="/austofix/austofix.webp"
                 alt="Austo Fix"
                 width={160}
                 height={160}

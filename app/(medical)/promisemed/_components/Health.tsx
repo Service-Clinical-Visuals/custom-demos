@@ -69,7 +69,7 @@ const Health = () => {
             <div className="space-y-4">
               <div data-aos="fade-up" className="flex items-start gap-4">
                 <img
-                  src="/promisemed/check.png" // place inside public/icons/
+                  src="/promisemed/check.webp" // place inside public/icons/
                   alt="check"
                   className="w-6 h-6 shrink-0 mt-1 object-contain"
                 />
@@ -85,7 +85,7 @@ const Health = () => {
 
               <div data-aos="fade-up" className="flex items-start gap-4">
                 <img
-                  src="/promisemed/check.png" // place inside public/icons/
+                  src="/promisemed/check.webp" // place inside public/icons/
                   alt="check"
                   className="w-6 h-6 shrink-0 mt-1 object-contain"
                 />
@@ -102,7 +102,7 @@ const Health = () => {
 
               <div data-aos="fade-up" className="flex items-start gap-4">
                 <img
-                  src="/promisemed/check.png" // place inside public/icons/
+                  src="/promisemed/check.webp" // place inside public/icons/
                   alt="check"
                   className="w-6 h-6 shrink-0 mt-1 object-contain"
                 />

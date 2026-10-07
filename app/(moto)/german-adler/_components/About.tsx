@@ -23,7 +23,7 @@ export default function About() {
               {/* City Image (Right) */}
               <div className="w-1/2 z-0 relative">
                 <img 
-                  src="/moto/german-adler/Subtract.png" 
+                  src="/moto/german-adler/Subtract.webp" 
                   alt="Frankfurt Skyline" 
                   className="w-full h-full object-cover rounded-r-[32px] sm:rounded-r-[48px]" 
                 />
@@ -32,7 +32,7 @@ export default function About() {
               {/* Ship Wheel Connector */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -mt-[1px] z-20 w-[15%] aspect-square rounded-full flex items-center justify-center bg-transparent">
                 <img 
-                  src="/moto/german-adler/mynaui_ship-wheel.png" 
+                  src="/moto/german-adler/mynaui_ship-wheel.webp" 
                   alt="Wheel Icon" 
                   className="w-[80%] h-[80%] object-contain animate-[spin_10s_linear_infinite]" 
                 />

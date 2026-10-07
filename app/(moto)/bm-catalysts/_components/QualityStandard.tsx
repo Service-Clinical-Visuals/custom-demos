@@ -6,7 +6,7 @@ import { Settings, CheckCircle2 } from "lucide-react";
 
 export default function QualityStandard() {
   return (
-    <section className="py-16 lg:py-20 flex justify-center w-full bg-[url('/bm-catalysts/images/standard-bg.png')] bg-no-repeat bg-cover bg-center overflow-hidden">
+    <section className="py-16 lg:py-20 flex justify-center w-full bg-[url('/bm-catalysts/images/standard-bg.webp')] bg-no-repeat bg-cover bg-center overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8">
         
         {/* Responsive Grid row for Image and Text content */}
@@ -20,7 +20,7 @@ export default function QualityStandard() {
           >
             <div className="rounded-[2.5rem] overflow-hidden shadow-2xl relative group aspect-[1.45/1] bg-slate-100">
               <img
-                src="/bm-catalysts/images/quality.jpg"
+                src="/bm-catalysts/images/quality.webp"
                 alt="Make Us Part of Your Quality Standard"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -98,7 +98,7 @@ export default function QualityStandard() {
             data-aos-delay="100"
           >
             <div className="w-12 h-12 rounded-full bg-[#1B1537]/5 flex items-center justify-center shrink-0 text-[#1B1537] shadow-sm">
-              <img src="/bm-catalysts/images/tyre.png" alt="Fit and Performance" className="w-6 h-6" />
+              <img src="/bm-catalysts/images/tyre.webp" alt="Fit and Performance" className="w-6 h-6" />
             </div>
             <div>
               <h4 className="text-lg font-bold text-[#333333] font-oxanium mb-2 tracking-wide">
@@ -118,7 +118,7 @@ export default function QualityStandard() {
             data-aos-delay="200"
           >
             <div className="w-12 h-12 rounded-full bg-[#1B1537]/5 flex items-center justify-center shrink-0 text-[#1B1537] shadow-sm">
-              <img src="/bm-catalysts/images/tyre.png" alt="Fit and Performance" className="w-6 h-6" />
+              <img src="/bm-catalysts/images/tyre.webp" alt="Fit and Performance" className="w-6 h-6" />
             </div>
             <div>
               <h4 className="text-lg font-bold text-[#333333] font-oxanium mb-2 tracking-wide">

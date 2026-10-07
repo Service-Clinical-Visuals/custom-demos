@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const specialties = [
     {
-        icon: "optomic/ent.png",
+        icon: "optomic/ent.webp",
         label: "ENT",
         title: "ENT",
         items: [
@@ -14,14 +14,14 @@ const specialties = [
         href: "/optomic/specialty/ent",
     },
     {
-        icon: "optomic/gynecology.png",
+        icon: "optomic/gynecology.webp",
         label: "Gynecology",
         title: "Gynecology",
         items: ["Colposcopes, Gynecology Chairs, Profuse"],
         href: "/optomic/specialty/gynecology",
     },
     {
-        icon: "optomic/urology.png",
+        icon: "optomic/urology.webp",
         label: "Urology",
         title: "Urology",
         items: [
@@ -30,7 +30,7 @@ const specialties = [
         href: "/optomic/specialty/urology",
     },
     {
-        icon: "optomic/odontology.png",
+        icon: "optomic/odontology.webp",
         label: "Odontology",
         title: "Odontology",
         items: [

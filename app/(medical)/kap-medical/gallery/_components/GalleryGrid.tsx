@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export default function GalleryGrid() {
     const images = [
-        "images/gallery/gallery-1.png",
-        "images/gallery/gallery-2.png",
-        "images/gallery/gallery-3.png",
+        "images/gallery/gallery-1.webp",
+        "images/gallery/gallery-2.webp",
+        "images/gallery/gallery-3.webp",
     ];
 
     return (

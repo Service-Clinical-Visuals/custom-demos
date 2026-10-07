@@ -71,7 +71,7 @@ export default function LutechAbout() {
           className="w-full h-[240px] md:h-[340px] lg:h-[420px] rounded-2xl shadow-md overflow-hidden"
         >
           <img
-            src="/lutech-medical/assets/lutech-about.jpg" // replace later
+            src="/lutech-medical/assets/lutech-about.webp" // replace later
             alt="about"
             className="w-full h-full object-cover"
           />

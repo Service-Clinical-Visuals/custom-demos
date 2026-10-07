@@ -26,7 +26,7 @@ export default function VapoTheraphy() {
           {/* IMAGE CARD */}
           <div data-aos="fade-right" className="relative">
             <img
-              src="/vapotherm/assets/vapotherm-theraphy.png"
+              src="/vapotherm/assets/vapotherm-theraphy.webp"
               alt="therapy"
               className="w-full h-auto shadow-lg"
             />

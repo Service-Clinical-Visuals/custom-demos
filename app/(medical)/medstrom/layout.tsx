@@ -12,9 +12,9 @@ const nunitoSans = Nunito_Sans({
 // Commit to main brach with video CDN and product images
 export const metadata: Metadata = {
   icons: {
-    icon: "/medstrom/images/icon.png",
-    shortcut: "/medstrom/images/icon.png",
-    apple: "/medstrom/images/icon.png",
+    icon: "/medstrom/images/icon.webp",
+    shortcut: "/medstrom/images/icon.webp",
+    apple: "/medstrom/images/icon.webp",
   },
   title: "Medstrom — Clinically Led Hospital Solutions",
   description:

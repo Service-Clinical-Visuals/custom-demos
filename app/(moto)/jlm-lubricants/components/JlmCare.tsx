@@ -16,7 +16,7 @@ export default function JlmCare() {
         "
         style={{
           backgroundImage:
-            "url('/moto/jlm/jlm-shop-bg.png')",
+            "url('/moto/jlm/jlm-shop-bg.webp')",
         }}
       />
 
@@ -40,7 +40,7 @@ export default function JlmCare() {
             }}
           >
             <img
-              src="/jlm/jlm-care.png"
+              src="/jlm/jlm-care.webp"
               alt=""
               className="
                 h-full

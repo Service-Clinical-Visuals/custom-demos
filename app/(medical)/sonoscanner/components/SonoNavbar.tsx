@@ -40,7 +40,7 @@ export default function SonoNavbar() {
         <div className="max-w-[1600px] mx-auto h-[72px] px-6 lg:px-10 flex items-center justify-between">
           {/* LOGO */}
           <div className="flex items-center">
-            <img src="/sono-scanner/sono-logo.png" alt="logo" className="h-auto max-h-[40px]" />
+            <img src="/sono-scanner/sono-logo.webp" alt="logo" className="h-auto max-h-[40px]" />
           </div>
 
           {/* DESKTOP MENU */}

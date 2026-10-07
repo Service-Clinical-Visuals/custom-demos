@@ -8,25 +8,25 @@ const news = [
     title:
       "The Evolution of Medical Instruments: From Tradition to Innovation",
     date: "October 16, 2024",
-    image: "/timesco/news-1.png",
+    image: "/timesco/news-1.webp",
   },
   {
     title:
       "The Importance of Eco-friendly Medical Devices in Modern Healthcare",
     date: "October 14, 2024",
-    image: "/timesco/news-2.png",
+    image: "/timesco/news-2.webp",
   },
   {                 
     title:
       "Innovations in Anaesthesia Tools: A Look at the Callisto and Sirius XL Laryngoscope Ranges",
     date: "October 14, 2024",
-    image: "/timesco/news-3.png",
+    image: "/timesco/news-3.webp",
   }, 
   {
     title:
       "How to Choose the Right Laryngoscope for Your Practice",
     date: "October 9, 2024",
-    image: "/timesco/news-4.png",
+    image: "/timesco/news-4.webp",
   },
 ];
 

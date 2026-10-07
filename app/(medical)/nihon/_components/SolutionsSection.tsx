@@ -86,14 +86,14 @@ const SolutionsSection = () => {
 
               {/* Base Image */}
               <img
-                src="/nihon/images/blue-man.png"
+                src="/nihon/images/blue-man.webp"
                 alt="Human Torso Solution Illustration"
                 className="absolute inset-0 z-10 w-full h-full object-contain scale-110"
               />
 
               {/* Pulsing Overlay Image */}
               <motion.img
-                src="/nihon/images/blue-man-2.png"
+                src="/nihon/images/blue-man-2.webp"
                 alt="Human Torso Alternative Illustration"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: [0, 1, 0] }}

@@ -10,7 +10,7 @@ export default function News() {
   const newsItems = [
     {
       id: 1,
-      image: "/medical/fisso-medical/news1.png",
+      image: "/medical/fisso-medical/news1.webp",
       date: "30. March 2026",
       title: "The New FISSO Patient Positioning System",
       snippet:
@@ -18,7 +18,7 @@ export default function News() {
     },
     {
       id: 2,
-      image: "/medical/fisso-medical/news2.png",
+      image: "/medical/fisso-medical/news2.webp",
       date: "28. February 2025",
       title: "Interview with our CEO about AI",
       snippet:
@@ -26,7 +26,7 @@ export default function News() {
     },
     {
       id: 3,
-      image: "/medical/fisso-medical/news3.png",
+      image: "/medical/fisso-medical/news3.webp",
       date: "9. December 2024",
       title: "New Subsidiary in the USA",
       snippet:
@@ -34,7 +34,7 @@ export default function News() {
     },
     {
       id: 4,
-      image: "/medical/fisso-medical/news4.png",
+      image: "/medical/fisso-medical/news4.webp",
       date: "14. November 2023",
       title: "Fall Company Event",
       snippet:

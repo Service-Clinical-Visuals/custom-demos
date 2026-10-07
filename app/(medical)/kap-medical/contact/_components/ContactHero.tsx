@@ -33,7 +33,7 @@ export default function ContactHero() {
                     </div>
                     <div className="lg:w-1/2 relative h-[300px] md:h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
                         <img
-                            src={`/kap-medical/images/contact/contact-main.jpg`}
+                            src={`/kap-medical/images/contact/contact-main.webp`}
                             alt="Contact KAP Medical"
                             className="object-cover w-full h-full"
                         />

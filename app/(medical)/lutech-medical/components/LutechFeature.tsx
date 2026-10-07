@@ -92,7 +92,7 @@ export default function LutechFeature() {
           className="flex justify-center md:justify-end"
         >
           <img
-            src="/lutech-medical/assets/lutech-stand.png"
+            src="/lutech-medical/assets/lutech-stand.webp"
             alt="product"
             className="h-[260px] hidden lg:flex lg:h-full w-auto object-contain md:translate-y-6"
           />

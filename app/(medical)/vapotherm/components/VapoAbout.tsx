@@ -21,7 +21,7 @@ export default function VapoAbout() {
 
             {/* Image */}
             <img
-              src="/vapotherm/assets/vapotherm-about2.jpg"
+              src="/vapotherm/assets/vapotherm-about2.webp"
               alt="about"
               className="rounded-2xl w-full h-full object-cover shadow-lg"
             />

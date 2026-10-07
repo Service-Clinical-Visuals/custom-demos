@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Promisemed",
   description: "Promisemed Medical Devices Inc.",
   icons: {
-    icon: "/promisemed/logo.png",
+    icon: "/promisemed/logo.webp",
   },
 };
 

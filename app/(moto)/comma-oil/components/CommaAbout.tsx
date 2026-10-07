@@ -58,7 +58,7 @@ export default function CommaAbout() {
         >
 
                 <img
-                  src="/comma/about_us.png"
+                  src="/comma/about_us.webp"
                   alt="wheel-icon"
                   className="w-auto object-cover"
                 />

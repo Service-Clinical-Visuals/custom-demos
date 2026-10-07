@@ -10,7 +10,7 @@ export default function Course() {
             {/* Desktop Background Image (Bleeds to right edge) */}
             <div className="hidden lg:block absolute top-0 bottom-0 right-0 w-1/2 z-0" data-aos="fade-left">
                 <img 
-                    src="/arnott/images/course.png" 
+                    src="/arnott/images/course.webp" 
                     alt="Course Overview" 
                     className="w-full h-full object-cover"
                 />
@@ -67,7 +67,7 @@ export default function Course() {
                     {/* Mobile Image (Only visible on small screens) */}
                     <div className="lg:hidden w-full min-h-[300px] order-1">
                         <img 
-                            src="/arnott/images/course.png" 
+                            src="/arnott/images/course.webp" 
                             alt="Course Overview" 
                             className="w-full h-full object-cover rounded-sm"
                         />

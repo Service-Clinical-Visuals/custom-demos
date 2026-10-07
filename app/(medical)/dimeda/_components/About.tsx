@@ -21,22 +21,22 @@ export default function About() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
           {[
             {
-              img: "/dimeda/diamond1.png",
+              img: "/dimeda/diamond1.webp",
               title: "Quality",
               desc: "Development in close collaboration with users",
             },
             {
-              img: "/dimeda/diamond1.png",
+              img: "/dimeda/diamond1.webp",
               title: "Precision",
               desc: "Development in close collaboration with users",
             },
             {
-              img: "/dimeda/group1.png",
+              img: "/dimeda/group1.webp",
               title: "Partnership",
               desc: "Long-term relationships built on mutual respect",
             },
             {
-              img: "/dimeda/idea1.png",
+              img: "/dimeda/idea1.webp",
               title: "Innovation",
               desc: "Continuous advancement for modern medicine",
             },
@@ -71,7 +71,7 @@ export default function About() {
           <div data-aos="fade-up" className="lg:w-1/2">
             <div className="w-full h-full">
               <Image
-                src="/dimeda/building.png"
+                src="/dimeda/building.webp"
                 alt="dimeda building"
                 width={600}
                 height={500}

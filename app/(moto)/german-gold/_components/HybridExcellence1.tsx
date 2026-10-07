@@ -70,7 +70,7 @@ export default function Hybrid() {
                     </div>
 
                     {/* Number capsule */}
-                    <div className="flex w-[120px] shrink-0 items-center justify-center bg-[url('/moto/german-gold/vector.png')] bg-[length:112%_102%] bg-no-repeat ">
+                    <div className="flex w-[120px] shrink-0 items-center justify-center bg-[url('/moto/german-gold/vector.webp')] bg-[length:112%_102%] bg-no-repeat ">
                       <span className="font-teko text-[46px] font-bold leading-none text-white mt-1">
                         {item.num}
                       </span>

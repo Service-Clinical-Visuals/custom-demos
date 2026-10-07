@@ -72,7 +72,7 @@ export default function Sustainability() {
           data-aos="fade-right"
           className="w-full h-full relative rounded-xl overflow-hidden">
           <Image
-            src="/clinisupplies/sustainability.png" // replace with your image
+            src="/clinisupplies/sustainability.webp" // replace with your image
             alt="Sustainability"
             fill
             className="object-cover"

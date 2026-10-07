@@ -5,19 +5,19 @@ const Products = () => {
   const products = [
     {
       name: "3D Dental Surgical Microscope",
-      image: "/medical/seiler/p-1.png", // Replace with your actual image paths
+      image: "/medical/seiler/p-1.webp", // Replace with your actual image paths
     },
     {
       name: "Alpha Air 6 Dental",
-      image: "/medical/seiler/p-2.png",
+      image: "/medical/seiler/p-2.webp",
     },
     {
       name: "Alpha Air 3 Dental",
-      image: "/medical/seiler/p-3.png",
+      image: "/medical/seiler/p-3.webp",
     },
     {
       name: "Alpha Slim 6 Dental",
-      image: "/medical/seiler/p-4.png",
+      image: "/medical/seiler/p-4.webp",
     },
   ];
 

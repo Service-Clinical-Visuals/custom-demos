@@ -64,7 +64,7 @@ export default function Header() {
           <Link href="/omni" className="flex items-center">
             {/* Leave space for image */}
             <div className="w-48 h-16 flex items-center justify-center ">
-              <img src="/moto/omni/omnilogo.png"  alt="OMNI Logo" className="object-contain w-full h-full" />
+              <img src="/moto/omni/omnilogo.webp"  alt="OMNI Logo" className="object-contain w-full h-full" />
              
             </div>
           </Link>

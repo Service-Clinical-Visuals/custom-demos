@@ -1,14 +1,14 @@
 import Container from "./Container";
 
 const partners = [
-  { name: "HealthTrust", logo: "/medical/myco-medical/partners/1.png" },
-  { name: "Vizient", logo: "/medical/myco-medical/partners/2.png" },
-  { name: "Premier", logo: "/medical/myco-medical/partners/3.png" },
-  { name: "McKesson", logo: "/medical/myco-medical/partners/4.png" },
-  { name: "Concordance Healthcare Solutions", logo: "/medical/myco-medical/partners/5.png" },
-  { name: "Owens & Minor", logo: "/medical/myco-medical/partners/6.png" },
-  { name: "IMCO", logo: "/medical/myco-medical/partners/7.png" },
-  { name: "Cardinal Health", logo: "/medical/myco-medical/partners/8.png" },
+  { name: "HealthTrust", logo: "/medical/myco-medical/partners/1.webp" },
+  { name: "Vizient", logo: "/medical/myco-medical/partners/2.webp" },
+  { name: "Premier", logo: "/medical/myco-medical/partners/3.webp" },
+  { name: "McKesson", logo: "/medical/myco-medical/partners/4.webp" },
+  { name: "Concordance Healthcare Solutions", logo: "/medical/myco-medical/partners/5.webp" },
+  { name: "Owens & Minor", logo: "/medical/myco-medical/partners/6.webp" },
+  { name: "IMCO", logo: "/medical/myco-medical/partners/7.webp" },
+  { name: "Cardinal Health", logo: "/medical/myco-medical/partners/8.webp" },
 ];
 
 export default function Partners() {

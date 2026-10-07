@@ -1,19 +1,19 @@
 export default function HistorySection() {
     const steps = [
-        { num: 1, year: "1989", title: "Collagen Technology", offset: "mt-0", img: "/integra/home/timeline-1.png" },
-        { num: 2, year: "1996", title: "Dermal Regeneration", offset: "mt-20", img: "/integra/home/timeline-2.png" },
-        { num: 3, year: "1999", title: "Tissue Regeneration", offset: "mt-36", img: "/integra/home/timeline-3.png" },
-        { num: 4, year: "2001", title: "Nerve Guide", offset: "mt-52", img: "/integra/home/timeline-4.png" }
+        { num: 1, year: "1989", title: "Collagen Technology", offset: "mt-0", img: "/integra/home/timeline-1.webp" },
+        { num: 2, year: "1996", title: "Dermal Regeneration", offset: "mt-20", img: "/integra/home/timeline-2.webp" },
+        { num: 3, year: "1999", title: "Tissue Regeneration", offset: "mt-36", img: "/integra/home/timeline-3.webp" },
+        { num: 4, year: "2001", title: "Nerve Guide", offset: "mt-52", img: "/integra/home/timeline-4.webp" }
     ];
 
     return (
         <section className="relative w-full bg-[#1e6f54] text-white overflow-hidden py-16 md:py-24 px-4 md:px-8 min-h-[600px] md:min-h-[800px]">
             {/* Background Decoratives (Leaves / Waves placeholders) */}
             <div className="absolute top-0 left-0  pointer-events-none z-0">
-                <img src={`/integra/home/flower-1.png`} alt="Asterisk" className="w-55" />
+                <img src={`/integra/home/flower-1.webp`} alt="Asterisk" className="w-55" />
             </div>
             <div className="absolute bottom-0 right-0 pointer-events-none opacity-20 z-0">
-                <img src={`/integra/home/flower-2.png`} alt="Asterisk" className="w-45" />
+                <img src={`/integra/home/flower-2.webp`} alt="Asterisk" className="w-45" />
             </div>
 
             <div className="relative z-10 max-w-[1440px] w-full mx-auto flex flex-col items-center">

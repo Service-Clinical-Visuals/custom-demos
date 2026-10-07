@@ -6,19 +6,19 @@ const Services = () => {
   const serviceCards = [
     {
       title: "Home Delivery",
-      image: "/clinisupplies/delivery.png", // Replace with your image paths
+      image: "/clinisupplies/delivery.webp", // Replace with your image paths
     },
     {
       title: "Specialist Nursing Team",
-      image: "/clinisupplies/team.png",
+      image: "/clinisupplies/team.webp",
     },
     {
       title: "Education Hub",
-      image: "/clinisupplies/hub.png",
+      image: "/clinisupplies/hub.webp",
     },
     {
       title: "Aquaflush Virtual Nursing Service",
-      image: "/clinisupplies/nurse.png",
+      image: "/clinisupplies/nurse.webp",
     },
   ];
 
@@ -27,7 +27,7 @@ const Services = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 opacity-40 bg-cover bg-center"
-        style={{ backgroundImage: "url('/clinisupplies/bg.png')" }}
+        style={{ backgroundImage: "url('/clinisupplies/bg.webp')" }}
       />
 
       <div className="relative z-10 container mx-auto py-16 lg:py-24 px-6 lg:px-0 items-stretch">

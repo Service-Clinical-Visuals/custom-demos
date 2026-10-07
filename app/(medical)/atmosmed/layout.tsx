@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Atmosmed",
   description: "Atmosmed",
   icons: {
-    icon: "/atmosmed/assets/atmos_logo 1.png",
+    icon: "/atmosmed/assets/atmos_logo 1.webp",
   },
 };
 

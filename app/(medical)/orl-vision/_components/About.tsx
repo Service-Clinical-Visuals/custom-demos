@@ -11,7 +11,7 @@ export default function About() {
           data-aos="fade-up"
           className="relative w-full h-70 md:h-100 lg:h-auto min-h-75 rounded-xl overflow-hidden">
           <Image
-            src="/orlvision/about.png"
+            src="/orlvision/about.webp"
             alt="Endoscopy"
             fill
             className="object-cover "

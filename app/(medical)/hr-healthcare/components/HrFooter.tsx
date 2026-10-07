@@ -49,7 +49,7 @@ export default function HrFooter() {
               <div className="flex items-center">
               <div className="flex items-center gap-[2px]">
                 <Image
-                    src="/hr-healthcare/hr-footer-logo.png"
+                    src="/hr-healthcare/hr-footer-logo.webp"
                     alt="Logo"
                     width={200}
                     height={100}

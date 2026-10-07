@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="w-full bg-[#064163] text-white pt-20 pb-0 relative overflow-hidden horizon-root">
       {/* Background Topographic lines (Using the same pattern as About/Training for consistency) */}
       <div
-        className="absolute inset-0 opacity-[0.08] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
+        className="absolute inset-0 opacity-[0.08] pointer-events-none bg-[url('/horizon/images/about-bg.webp')] bg-cover bg-center"
       />
 
       <div className="custom-container px-4 md:px-6 relative z-10">
@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="flex flex-col gap-8">
             <Link href="/horizon">
-              <img src="/horizon/images/horizon-logo-footer.png" alt="Horizon Logo" className="w-32" />
+              <img src="/horizon/images/horizon-logo-footer.webp" alt="Horizon Logo" className="w-32" />
             </Link>
             <p className="text-white text-[17px] leading-relaxed font-light">
               We are a clinically-led medical technology business. Our main focus is neonatal and paediatric health.

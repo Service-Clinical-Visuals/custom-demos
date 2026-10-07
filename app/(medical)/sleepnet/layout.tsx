@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   title: "Sleepnet",
   description: "Sleepnet Corporation - Breathe Easier. Live Better.",
   icons: {
-    icon: `/sleepnet/favicon.png`,
-    shortcut: `/sleepnet/favicon.png`,
-    apple: `/sleepnet/favicon.png`,
+    icon: `/sleepnet/favicon.webp`,
+    shortcut: `/sleepnet/favicon.webp`,
+    apple: `/sleepnet/favicon.webp`,
   },
 };
 

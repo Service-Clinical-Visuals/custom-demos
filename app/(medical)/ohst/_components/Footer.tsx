@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex flex-col items-start">
             <Link href="#" className="flex items-center mb-3">
               <Image
-                src="/medical/ohst/footer-logo.png"
+                src="/medical/ohst/footer-logo.webp"
                 alt="OHST Medical Technology"
                 width={300}
                 height={51}

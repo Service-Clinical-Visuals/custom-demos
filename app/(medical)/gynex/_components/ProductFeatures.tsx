@@ -70,7 +70,7 @@ export default function ProductFeatures() {
                         "Smoother mechanical action",
                         "Low friction coefficient"
                     ]}
-                    image="/gynex/images/ceramix.png"
+                    image="/gynex/images/ceramix.webp"
                 />
             </div>
         </section>

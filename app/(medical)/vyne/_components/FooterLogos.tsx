@@ -20,7 +20,7 @@ export default function FooterLogos() {
 
                 {/* Carbon Neutral Placeholder */}
                 <div className="flex flex-col items-center gap-1 z-10 bg-white">
-                    <img src={`/vyne/home/s-2.png`} alt="Trustpilot" className="w-40" />
+                    <img src={`/vyne/home/s-2.webp`} alt="Trustpilot" className="w-40" />
                 </div>
 
                 <Sparkle className="hidden md:block w-10 h-10 text-primary absolute left-[50%] translate-y-2 opacity-80" />
@@ -34,7 +34,7 @@ export default function FooterLogos() {
 
                 {/* Secure Placeholder */}
                 <div className="flex flex-col items-center gap-1 z-10 bg-white">
-                    <img src={`/vyne/home/s-4.png`} alt="Trustpilot" className="w-40" />
+                    <img src={`/vyne/home/s-4.webp`} alt="Trustpilot" className="w-40" />
                 </div>
 
             </div>

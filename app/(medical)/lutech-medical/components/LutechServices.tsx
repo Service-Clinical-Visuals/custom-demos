@@ -6,19 +6,19 @@ const services = [
   {
     title: "Maintenance and training",
     desc: "Just got your Lutech product and not sure where to start? Give us a call or schedule a training session. We will be happy to...",
-    img: "/lutech-medical/assets/lutech-main.jpg",
+    img: "/lutech-medical/assets/lutech-main.webp",
     imgFit: "object-cover",
   },
   {
     title: "Lutech Digital Benefits",
     desc: "For a limited time Lutech Medical is offering special pricing and transition support to help DYSIS users make the switch.",
-    img: "/lutech-medical/assets/lutech-digital.png",
+    img: "/lutech-medical/assets/lutech-digital.webp",
     imgFit: "object-contain",
   },
   {
     title: "Warranty Policy",
     desc: "Lutech Medical stands behind every product we design, manufacture and sell. We will honor every transaction and treat...",
-    img: "/lutech-medical/assets/lutech-warranty.jpg",
+    img: "/lutech-medical/assets/lutech-warranty.webp",
     imgFit: "object-cover",
   },
 ];

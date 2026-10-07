@@ -4,12 +4,12 @@ import React from "react";
 
 const partners = [
   {
-    logo: "/activbase/home/partners-1.png", // Will need image placeholder
+    logo: "/activbase/home/partners-1.webp", // Will need image placeholder
     name: "Kerala Blasters FC",
     role: "OFFICIAL REHAB PARTNER"
   },
   {
-    logo: "/activbase/home/partners-2.png", // Will need image placeholder
+    logo: "/activbase/home/partners-2.webp", // Will need image placeholder
     name: "Kerala Strikers Official",
     role: "OFFICIAL PHYSIO PARTNER"
   }

@@ -7,21 +7,21 @@ const products = [
     title: "RS1",
     description:
       "The latest design in video endoscopy is the video-rhino-laryngoscope from orlvision.",
-    image: "/orlvision/fiberscope.png",
+    image: "/orlvision/fiberscope.webp",
   },
   {
     category: "videoscopes",
     title: "RSX-i / RSX-iP (Pediatrics)",
     description:
       "Video-Rhino-Laryngoscope - Interchangeable System 100% galvanic separated power supply",
-    image: "/orlvision/videoscope.png", // Replace with your image paths
+    image: "/orlvision/videoscope.webp", // Replace with your image paths
   },
   {
     category: "otoscopes",
     title: "Video Otoscope OX2",
     description:
       "State-of-the-art video otoscope technology for reliable diagnostics.",
-    image: "/orlvision/otoscope.png",
+    image: "/orlvision/otoscope.webp",
   },
 ];
 

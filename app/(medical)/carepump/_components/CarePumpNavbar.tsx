@@ -33,7 +33,7 @@ export default function CarePumpNavbar() {
         <div className="w-full container mx-auto py-6 pb-4">
           <div className="flex justify-between items-center">
             <img
-              src="/carepump/images/carepumpicon.png"
+              src="/carepump/images/carepumpicon.webp"
               alt="logo"
               width={200} height={200}
             />
@@ -64,7 +64,7 @@ export default function CarePumpNavbar() {
                     Search...
                   </span>
                   <img
-                    src="/carepump/images/globe.png"
+                    src="/carepump/images/globe.webp"
                     alt="Globe"
                     className="w-4 h-4"
                   />

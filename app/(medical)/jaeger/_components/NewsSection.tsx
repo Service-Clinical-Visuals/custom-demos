@@ -9,19 +9,19 @@ const NewsSection = () => {
       title:
         "Jaeger™ Medical Opens U.S. Operations Facility in Moreno Valley, California",
       date: "September 3, 2025",
-      image: "/jaeger/news-1.png", // Replace with your image path
+      image: "/jaeger/news-1.webp", // Replace with your image path
     },
     {
       title:
         "Jaegerᵀᴹ and Pulmonx Announce Strategic Partnership to Integrate Data Qualification...",
       date: "August 27, 2025",
-      image: "/jaeger/news-2.png", // Replace with your image path
+      image: "/jaeger/news-2.webp", // Replace with your image path
     },
     {
       title:
         "Jaeger™ Medical's SentrySuite™ Software Achieves Authority to Operate...",
       date: "August 20, 2025",
-      image: "/jaeger/news-3.png", // Replace with your image path
+      image: "/jaeger/news-3.webp", // Replace with your image path
     },
   ];
 

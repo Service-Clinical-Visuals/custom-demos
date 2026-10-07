@@ -22,7 +22,7 @@ export default function Footer() {
           >
             <Link href="#" className="inline-block">
               <img
-                src="/medical/fisso-medical/fisso-logo-footer.png"
+                src="/medical/fisso-medical/fisso-logo-footer.webp"
                 alt="FISSO Swiss Made Logo"
                 className="h-[100px] lg:h-[90px] xl:h-[100px] xl:w-[250px] 2xl:h-[100px] 2xl:w-[300px] object-contain "
               />
@@ -333,7 +333,7 @@ export default function Footer() {
           <div className="flex items-center justify-center">
             <div className="w-16 h-16  xl:h-25 xl:w-25 select-none shrink-0 flex items-center justify-center mix-blend-screen">
               <img
-                src="/medical/fisso-medical/footer-logo.png"
+                src="/medical/fisso-medical/footer-logo.webp"
                 alt="Swiss Safety Center Logo"
                 className="w-full h-full object-contain "
               />

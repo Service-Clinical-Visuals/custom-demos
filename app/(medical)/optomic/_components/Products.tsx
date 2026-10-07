@@ -7,19 +7,19 @@ import Button from "./Button";
 const products = [
     {
         id: "OP-S9",
-        image: "/optomic/product-1.jpg",
+        image: "/optomic/product-1.webp",
         name: "OP-S9",
         description: "OP-S9 ENT chair combines the best features, designed for otolaryngologists.",
     },
     {
         id: "OP-C5",
-        image: "/optomic/product-2.jpg",
+        image: "/optomic/product-2.webp",
         name: "OP-C5",
         description: "OP-C5 is a high-end colposcope with 5-step magnification and precise focus.",
     },
     {
         id: "OP-G7+ gynecology chair",
-        image: "/optomic/product-3.jpg",
+        image: "/optomic/product-3.webp",
         name: "OP-G7+ gynecology chair",
         description: "OP-G7+ gynecology chair meets all OB/GYN examination needs.",
     },
@@ -27,7 +27,7 @@ const products = [
 
 export default function Products() {
     return (
-        <section className="w-full bg-[url('/optomic/bg-products.png')] bg-cover bg-center py-20" data-aos="fade-up">
+        <section className="w-full bg-[url('/optomic/bg-products.webp')] bg-cover bg-center py-20" data-aos="fade-up">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-12">
                     {/* Left Content */}

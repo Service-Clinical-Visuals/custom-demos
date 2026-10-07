@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: `/kap-medical/images/logo.png`,
-    shortcut: `/kap-medical/images/logo.png`,
-    apple: `/kap-medical/images/logo.png`,
+    icon: `/kap-medical/images/logo.webp`,
+    shortcut: `/kap-medical/images/logo.webp`,
+    apple: `/kap-medical/images/logo.webp`,
   },
   title: "Kap Medical",
   description: "KAP Medical we deliver high-performance surgical instruments engineered for accuracy, durability, and uncompromising quality.",

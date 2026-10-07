@@ -22,7 +22,7 @@ export default function AboutUs() {
 
             {/* Ready <img /> tag (currently displaying a gorgeous abstract medical lab themed placeholder) */}
             <img 
-              src="/vascular-flow/about.png" 
+              src="/vascular-flow/about.webp" 
               alt="Vascular Flow Lab Work" 
               className="w-full h-full object-cover absolute inset-0 z-0 transition-transform duration-500 group-hover:scale-103"
             />

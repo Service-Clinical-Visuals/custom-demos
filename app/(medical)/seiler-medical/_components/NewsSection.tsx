@@ -8,28 +8,28 @@ const NewsSection = () => {
       date: "April 28, 2026",
       description:
         "Seiler Medical is excited to be participating in the upcoming American...",
-      image: "/medical/seiler/news-1.png",
+      image: "/medical/seiler/news-1.webp",
     },
     {
       title: "Seiler Colposcopes on Display at ASCCP Meeting",
       date: "April 20, 2026",
       description:
         "Seiler Medical is excited to announce that we will be attending the...",
-      image: "/medical/seiler/news-2.png",
+      image: "/medical/seiler/news-2.webp",
     },
     {
       title: "The Star of AAE 2026: The Seiler 3D Dental Microscope",
       date: "April 13, 2026",
       description:
         "This year at the American Association of Endodontists Annual...",
-      image: "/medical/seiler/news-3.png",
+      image: "/medical/seiler/news-3.webp",
     },
     {
       title: "Seiler 3D Dental Microscope Showcased at AACD 2026",
       date: "April 7, 2026",
       description:
         "Seiler Medical is thrilled to be part of the AACD Annual Meeting...",
-      image: "/medical/seiler/news-4.png",
+      image: "/medical/seiler/news-4.webp",
     },
   ];
 
@@ -39,7 +39,7 @@ const NewsSection = () => {
       <div
         className="absolute inset-0 opacity-10 "
         style={{
-          backgroundImage: `url("/medical/seiler/bg-3.jpg")`,
+          backgroundImage: `url("/medical/seiler/bg-3.webp")`,
         }}
       />
 

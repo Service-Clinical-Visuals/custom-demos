@@ -23,7 +23,7 @@ export default function MedacureFeatureBottom() {
           <div className=" absolute right-36 -bottom-20 translate-y-10 hidden lg:block">
             <div className="w-120 h-120 2xl:w-[500px] 2xl:h-[auto] rounded-lg flex items-center justify-center text-gray-600">
              <img 
-              src="/medacure/assets/medacure-furniture.png"
+              src="/medacure/assets/medacure-furniture.webp"
               alt="medacure-feature-bottom"
               className="w-full h-full object-contain"
              />

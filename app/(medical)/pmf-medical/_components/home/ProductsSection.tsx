@@ -47,7 +47,7 @@ export function ProductsSection() {
             </p>
             <div className="w-full aspect-video bg-gray-200 rounded-xl overflow-hidden relative mt-auto flex items-center justify-center">
               {/* Placeholder for the image */}
-              <img src={`/pmf-medical/home/product-1.png`} alt="TiLENE® Blue Mesh" className="w-full h-full object-cover" />
+              <img src={`/pmf-medical/home/product-1.webp`} alt="TiLENE® Blue Mesh" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export function ProductsSection() {
               TiLENE® Blue mesh offers hydrophilic, biocompatible support for all types of hernia repair procedures, ensuring improved patient outcomes.
             </p>
             <div className="w-full aspect-video bg-gray-200 rounded-xl overflow-hidden relative mt-auto flex items-center justify-center">
-              <img src={`/pmf-medical/home/product-2.jpg`} alt="TiLENE® Blue Mesh" className="w-full h-full object-cover" />
+              <img src={`/pmf-medical/home/product-2.webp`} alt="TiLENE® Blue Mesh" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -87,7 +87,7 @@ export function ProductsSection() {
               The Kai biopsy punch enables precise skin biopsies across various areas while minimizing tissue trauma and ensuring accurate sampling.
             </p>
             <div className="w-full aspect-video bg-gray-200 rounded-xl overflow-hidden relative mt-auto flex items-center justify-center">
-              <img src={`/pmf-medical/home/product-3.jpg`} alt="TiLENE® Blue Mesh" className="w-full h-full object-cover" />
+              <img src={`/pmf-medical/home/product-3.webp`} alt="TiLENE® Blue Mesh" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

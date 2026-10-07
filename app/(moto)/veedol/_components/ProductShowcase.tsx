@@ -12,7 +12,7 @@ const products = [
     name: "SINTRON J 0W-16",
     description:
       "Veedol Sintron J 0W-16 is a fuel economy SAE 0W-16 motor oil developed according to the most recent technology. Based on specially selected synthetic base oils and a well-balanced additive system.",
-    image: "/moto/veedol-moto/product1.png",
+    image: "/moto/veedol-moto/product1.webp",
     href: "#products",
   }
 ];
@@ -82,7 +82,7 @@ export default function ProductShowcase() {
 
               <div className="relative z-10">
                 <img
-                  src="/moto/veedol-moto/image2.png"
+                  src="/moto/veedol-moto/image2.webp"
                   alt="Veedol Product Range"
                   className="w-full h-full object-contain drop-shadow-xl"
                 />

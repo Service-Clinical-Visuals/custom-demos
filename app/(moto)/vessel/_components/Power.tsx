@@ -10,7 +10,7 @@ const Power = () => {
     <section className="w-full py-16 xl:py-24 overflow-hidden relative bg-white">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center opacity-8"
-        style={{ backgroundImage: 'url("/moto/vessel/bg.jpg")' }}
+        style={{ backgroundImage: 'url("/moto/vessel/bg.webp")' }}
       ></div>
       <div className="absolute inset-0 z-0 bg-[#D7E0E3]/50"></div>
 
@@ -43,14 +43,14 @@ const Power = () => {
 
           <div className="flex flex-col gap-5 mt-2">
             <div className="flex items-start gap-3">
-              <img src="/moto/vessel/vector.png" alt="bullet" className="w-6 h-6 min-[3800px]:w-8 min-[3800px]:h-8 object-contain mt-1 shrink-0" />
+              <img src="/moto/vessel/vector.webp" alt="bullet" className="w-6 h-6 min-[3800px]:w-8 min-[3800px]:h-8 object-contain mt-1 shrink-0" />
               <Typography variant="p" color="muted" className="leading-relaxed text-sm min-[3800px]:text-2xl">
                 <strong className="text-[#121C22]">Designed for Confined Working Spaces</strong> – Its compact form makes the e-ASSIST MINI easier to handle in tight and hard-to-reach areas, providing better access and maneuverability where conventional tools may be difficult to use.
               </Typography>
             </div>
 
             <div className="flex items-start gap-3">
-              <img src="/moto/vessel/vector.png" alt="bullet" className="w-6 h-6 min-[3800px]:w-8 min-[3800px]:h-8 object-contain mt-1 shrink-0" />
+              <img src="/moto/vessel/vector.webp" alt="bullet" className="w-6 h-6 min-[3800px]:w-8 min-[3800px]:h-8 object-contain mt-1 shrink-0" />
               <Typography variant="p" color="muted" className="leading-relaxed text-sm min-[3800px]:text-2xl">
                 <strong className="text-[#121C22]">Precise Control with a 6° Swing</strong> – The 60-tooth ratchet mechanism allows operation with a small 6° swing angle, making it easier to work in restricted spaces while maintaining smooth and controlled fastening and loosening.
               </Typography>

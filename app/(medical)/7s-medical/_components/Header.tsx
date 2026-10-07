@@ -40,7 +40,7 @@ export default function Header() {
           {/* Logo Section */}
           <Link href="#top" className="flex items-center gap-3 group">
             <div className="flex items-center gap-1.5">
-              <img src="/7s-medical/7s-medical-logo.png" alt="7s Medical" className="h-12" />
+              <img src="/7s-medical/7s-medical-logo.webp" alt="7s Medical" className="h-12" />
             </div>
           </Link>
 

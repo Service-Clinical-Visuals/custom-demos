@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="lg:col-span-4 flex flex-col items-start">
             <Link href="/x-nov" className="mb-6 block">
               {/* Note: The logo path is public/medical/x-nov/x-nov_logo.png as checked previously */}
-              <img src="/medical/x-nov/x-nov_logo.png" alt="X.NOV Logo" className="h-12 w-auto object-contain" />
+              <img src="/medical/x-nov/x-nov_logo.webp" alt="X.NOV Logo" className="h-12 w-auto object-contain" />
             </Link>
             <p className="text-[#6D6B6B] leading-relaxed mb-8 pr-4 lg:pr-10">
               X.NOV is a European very fast growing company specialized in orthopedic industry (Hip & Knee). We are focused on creativity, innovation and are committed to provide the best services to our customers.

@@ -23,7 +23,7 @@ export default function SternFooter() {
             className="sm:col-span-2 md:col-span-3 lg:col-span-1"
           >
           <div>
-            <Image src="/stern-med/sternmed-logo.png" alt="SternMed Logo" width={190} height={120} />
+            <Image src="/stern-med/sternmed-logo.webp" alt="SternMed Logo" width={190} height={120} />
           </div>
 
             <p className="text-base text-gray-500 leading-relaxed mt-8">
@@ -118,7 +118,7 @@ export default function SternFooter() {
             className="sm:col-span-2 md:col-span-2 lg:col-span-1 lg:text-right"
           >
           <div>
-            <Image src="/stern-med/stern-gha-logo.png" alt="SternMed Logo" width={190} height={120} />
+            <Image src="/stern-med/stern-gha-logo.webp" alt="SternMed Logo" width={190} height={120} />
           </div>
             <p className="text-base text-gray-500 leading-relaxed max-w-[180px]">
               Member of the German Healthcare Alliance (GHA)

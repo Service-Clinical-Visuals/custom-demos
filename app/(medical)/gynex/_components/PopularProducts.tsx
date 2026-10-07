@@ -8,25 +8,25 @@ const popularProducts = [
         id: 1,
         name: "Galileo® 530VCDA Direct-Access™ Colposcope",
         price: "$8,995",
-        image: "/gynex/images/product-6.png"
+        image: "/gynex/images/product-6.webp"
     },
     {
         id: 2,
         name: "GALILEO® Medical Exam Light",
         price: "$579.95",
-        image: "/gynex/images/product-7.png"
+        image: "/gynex/images/product-7.webp"
     },
     {
         id: 3,
         name: "Monsel's Ferric Subsulfate Paste",
         price: "$214.95",
-        image: "/gynex/images/product-8.png"
+        image: "/gynex/images/product-8.webp"
     },
     {
         id: 4,
         name: "Accu-Sound® Uterine Sound, Single-Use",
         price: "$82.95",
-        image: "/gynex/images/product-9.png"
+        image: "/gynex/images/product-9.webp"
     }
 ];
 

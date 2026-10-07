@@ -3,7 +3,7 @@ import { Linkedin, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-[#5b6874] text-white pt-13 pb-4 border-t border-white/10 bg-cover bg-bottom" style={{ backgroundImage: "url('/sunset-healthcare/home/bg.jpg')" }}>
+    <footer className="relative w-full bg-[#5b6874] text-white pt-13 pb-4 border-t border-white/10 bg-cover bg-bottom" style={{ backgroundImage: "url('/sunset-healthcare/home/bg.webp')" }}>
       {/* Color overlay over the background image */}
       <div className="absolute inset-0 bg-[#54626d] opacity-97 z-0"></div>
       <div className="container relative z-1">
@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/sunset-healthcare" className="inline-block mb-4">
               <div className="w-[180px] h-[50px] flex items-center justify-center rounded">
-                <img src="/sunset-healthcare/logo-white.png" alt="Logo" className="" />
+                <img src="/sunset-healthcare/logo-white.webp" alt="Logo" className="" />
               </div>
             </Link>
             <p className="text-[16px] mt-5 text-justify lg:pr-8 text-white/80">

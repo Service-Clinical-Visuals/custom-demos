@@ -32,7 +32,7 @@ export default function OurEvents() {
   ];
 
   return (
-    <section className="py-16 md:py-20 bg-[url('/x-nov/events-bg.png')] relative overflow-hidden x-nov-root">
+    <section className="py-16 md:py-20 bg-[url('/x-nov/events-bg.webp')] relative overflow-hidden x-nov-root">
       {/* Background radial lines placeholder - keeping it soft pink as requested */}
       
       <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">
@@ -83,7 +83,7 @@ export default function OurEvents() {
           {/* Right Column: Image */}
           <div className="flex items-center justify-center lg:justify-end h-full" data-aos="fade-left">
             <div className="relative w-full  rounded-[32px] overflow-hidden shadow-xl bg-[#eef1f6] flex items-center justify-center border border-gray-100">
-              <img src="/x-nov/events.png" alt="Our Events" className="w-full h-full object-cover" />
+              <img src="/x-nov/events.webp" alt="Our Events" className="w-full h-full object-cover" />
             </div>
           </div>
 

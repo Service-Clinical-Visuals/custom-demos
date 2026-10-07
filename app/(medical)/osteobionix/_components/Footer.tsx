@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="col-span-1 md:col-span-12 lg:col-span-4 flex flex-col">
               <div className="flex-shrink-0 flex flex-col justify-center mb-6">
                 <Link href="/osteobionix" className="flex flex-col">
-                  <img src="/osteobionix/footerlogo.png" alt="logo" className="w-[300px] md:w-[412px] max-w-full h-auto" />
+                  <img src="/osteobionix/footerlogo.webp" alt="logo" className="w-[300px] md:w-[412px] max-w-full h-auto" />
                 </Link>
               </div>
               <p className="text-white mb-4 leading-relaxed text-[18px] max-w-md">
@@ -102,10 +102,10 @@ export default function Footer() {
                 <h4 className="text-white font-heading font-semibold text-[20px] min-[2560px]:text-3xl">Social Links</h4>
                 <div className="flex items-center gap-4">
                   <a href="#" className="hover:opacity-80 transition-opacity" aria-label="Instagram">
-                    <img src="/osteobionix/insta.png" alt="Instagram" className="h-[22px] w-auto object-contain min-[2560px]:h-[40px]" />
+                    <img src="/osteobionix/insta.webp" alt="Instagram" className="h-[22px] w-auto object-contain min-[2560px]:h-[40px]" />
                   </a>
                   <a href="#" className="hover:opacity-80 transition-opacity" aria-label="X (Twitter)">
-                    <img src="/osteobionix/twitter.png" alt="X" className="h-[22px] w-auto object-contain min-[2560px]:h-[40px]" />
+                    <img src="/osteobionix/twitter.webp" alt="X" className="h-[22px] w-auto object-contain min-[2560px]:h-[40px]" />
                   </a>
                 </div>
               </div>

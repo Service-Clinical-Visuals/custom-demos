@@ -10,14 +10,14 @@ import "swiper/css/pagination";
 
 export default function OurCategory() {
   const categories = [
-    { name: "Parenteral", image: "/medical/bexen-medical/home/category-1.jpg" },
-    { name: "Enteral", image: "/medical/bexen-medical/home/category-2.jpg" },
-    { name: "Infusion And Transfusion", image: "/medical/bexen-medical/home/category-3.jpg" },
-    { name: "Urology", image: "/medical/bexen-medical/home/category-4.jpg" },
-    { name: "Gynaecology", image: "/medical/bexen-medical/home/category-5.jpg" },
-    { name: "Ophthalmology", image: "/medical/bexen-medical/home/category-6.jpg" },
-    { name: "Masks", image: "/medical/bexen-medical/home/category-7.jpg" },
-    { name: "Ozonotherapy", image: "/medical/bexen-medical/home/category-8.jpg" }
+    { name: "Parenteral", image: "/medical/bexen-medical/home/category-1.webp" },
+    { name: "Enteral", image: "/medical/bexen-medical/home/category-2.webp" },
+    { name: "Infusion And Transfusion", image: "/medical/bexen-medical/home/category-3.webp" },
+    { name: "Urology", image: "/medical/bexen-medical/home/category-4.webp" },
+    { name: "Gynaecology", image: "/medical/bexen-medical/home/category-5.webp" },
+    { name: "Ophthalmology", image: "/medical/bexen-medical/home/category-6.webp" },
+    { name: "Masks", image: "/medical/bexen-medical/home/category-7.webp" },
+    { name: "Ozonotherapy", image: "/medical/bexen-medical/home/category-8.webp" }
   ];
 
   return (

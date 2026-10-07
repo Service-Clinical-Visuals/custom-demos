@@ -13,7 +13,7 @@ export default function Footer() {
                         {/* Brand Column */}
                         <div className="lg:pr-1">
                             <div className="flex items-center text-primary-light mb-6">
-                                <img src={`/gyn-health/logo.png`} alt="Logo" width={`215px`} className='p-3 bg-[rgba(244,255,244,0.5)]' />
+                                <img src={`/gyn-health/logo.webp`} alt="Logo" width={`215px`} className='p-3 bg-[rgba(244,255,244,0.5)]' />
                             </div>
                             <p className="text-[14px] font-medium text-gray-600 leading-[1.8] mb-8">
                                 GynHealth is a trusted women's healthcare which dedicated to comprehensive, compassionate, and personalized care at every stage of life.

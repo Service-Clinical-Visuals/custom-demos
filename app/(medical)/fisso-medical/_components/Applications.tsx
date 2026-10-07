@@ -7,12 +7,12 @@ import Typography from "./Typography";
 
 const boxes = [
   {
-    appImage: "/medical/fisso-medical/application1.png",
+    appImage: "/medical/fisso-medical/application1.webp",
     appAlt: "Medical OEM Application",
     appTitle: "Medical OEM Applications",
     appDesc: "Standard and customized OEM solutions for the medical sector",
     appHref: "#medical-oem",
-    profileImage: "/medical/fisso-medical/application2.png",
+    profileImage: "/medical/fisso-medical/application2.webp",
     profileName: "Alain Dreier",
     profileRole: "Medical Products (sterilizable)",
     profileLink: "VP Medical Products",
@@ -20,12 +20,12 @@ const boxes = [
     profilePhone: "+41 44 305 80 19",
   },
   {
-    appImage: "/medical/fisso-medical/application3.png",
+    appImage: "/medical/fisso-medical/application3.webp",
     appAlt: "Industrial Application",
     appTitle: "Industrial Applications",
     appDesc: "Standard and customized OEM solutions for the industrial sector",
     appHref: "#industrial-apps",
-    profileImage: "/medical/fisso-medical/application4.png",
+    profileImage: "/medical/fisso-medical/application4.webp",
     profileName: "Pedro Torres",
     profileRole: "Industrial Products ( VP Industrial Products )",
     profileLink: null,

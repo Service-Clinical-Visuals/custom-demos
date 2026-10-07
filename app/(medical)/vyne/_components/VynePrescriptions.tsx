@@ -2,7 +2,7 @@ export default function VynePrescriptions() {
     return (
         <section className="bg-gray-50 py-20 w-full relative overflow-hidden">
             {/* Background pattern overlay */}
-            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.png')] bg-cover bg-no-repeat">
+            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.webp')] bg-cover bg-no-repeat">
             </div>
             <div className="container-custom relative z-10">
                 {/* Header Section */}
@@ -28,7 +28,7 @@ export default function VynePrescriptions() {
                         <div className="flex flex-col gap-4">
                             {/* Card 1 */}
                             <div data-aos="fade-up" data-aos-delay="100" className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex flex-col sm:flex-row items-center sm:items-start gap-6 hover:shadow-md transition-shadow">
-                                <img src={`/vyne/home/prescription-1.png`} alt="Vyne Prescriptions" className="w-[120px] object-contain rounded-lg shrink-0" />
+                                <img src={`/vyne/home/prescription-1.webp`} alt="Vyne Prescriptions" className="w-[120px] object-contain rounded-lg shrink-0" />
                                 <div className="text-center sm:text-left">
                                     <h3 className="font-medium text-gray-800 text-[20px] mb-1">Home delivery you can trust</h3>
                                     <p className="text-gray-500 text-[15px] leading-snug">
@@ -39,7 +39,7 @@ export default function VynePrescriptions() {
 
                             {/* Card 2 */}
                             <div data-aos="fade-up" data-aos-delay="200" className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex flex-col sm:flex-row items-center sm:items-start gap-6 hover:shadow-md transition-shadow">
-                                <img src={`/vyne/home/prescription-2.png`} alt="Vyne Prescriptions" className="w-[120px] object-contain rounded-lg shrink-0" />
+                                <img src={`/vyne/home/prescription-2.webp`} alt="Vyne Prescriptions" className="w-[120px] object-contain rounded-lg shrink-0" />
                                 <div className="text-center sm:text-left">
                                     <h3 className="font-medium text-gray-800 text-[20px] mb-1">Manage everything online</h3>
                                     <p className="text-gray-500 text-[15px] leading-snug">
@@ -50,7 +50,7 @@ export default function VynePrescriptions() {
 
                             {/* Card 3 */}
                             <div data-aos="fade-up" data-aos-delay="300" className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex flex-col sm:flex-row items-center sm:items-start gap-6 hover:shadow-md transition-shadow">
-                                <img src={`/vyne/home/prescription-3.png`} alt="Vyne Prescriptions" className="w-[120px] object-contain rounded-lg shrink-0" />
+                                <img src={`/vyne/home/prescription-3.webp`} alt="Vyne Prescriptions" className="w-[120px] object-contain rounded-lg shrink-0" />
                                 <div className="text-center sm:text-left">
                                     <h3 className="font-medium text-gray-800 text-[20px] mb-1">Dedicated support</h3>
                                     <p className="text-gray-500 text-[15px] leading-snug">

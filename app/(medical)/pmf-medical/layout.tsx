@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "PFM Medical",
   description: "Advanced Healthcare Solutions Across Specialties",
   icons: {
-    icon: '/pmf-medical/logo.png',
+    icon: '/pmf-medical/logo.webp',
   },
 };
 

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function CTA() {
   return (
-    <section className="py-28 lg:py-36 bg-[url('/kimal/images/healthcare.jpg')] bg-cover bg-center relative z-0 overflow-hidden flex flex-col items-center justify-center text-center px-4">
+    <section className="py-28 lg:py-36 bg-[url('/kimal/images/healthcare.webp')] bg-cover bg-center relative z-0 overflow-hidden flex flex-col items-center justify-center text-center px-4">
       {/* Heavy Blue / Subdued Mask Background per Screenshot */}
       <div className="absolute inset-0 bg-[#407EC9C4]/80 z-[-1]"></div>
 

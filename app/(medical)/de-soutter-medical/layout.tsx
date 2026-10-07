@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "de-soutter-medical",
   description: "de-soutter-medical Medical Devices Inc.",
   icons: {
-    icon: "/de-soutter-medical/logo.png",
+    icon: "/de-soutter-medical/logo.webp",
   },
 };
 

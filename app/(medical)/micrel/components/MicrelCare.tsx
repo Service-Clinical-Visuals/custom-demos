@@ -12,15 +12,15 @@ interface MicrelCareProps {
   data?: MicrelCareTab[];
 }
 const iconImages = [
-  "/micrel/micrelcare1.png",
-  "/micrel/micrelcare2.png",
-  "/micrel/micrelcare3.png",
-  "/micrel/micrelcare4.png",
-  "/micrel/micrelcare5.png",
-  "/micrel/micrelcare6.png ",
+  "/micrel/micrelcare1.webp",
+  "/micrel/micrelcare2.webp",
+  "/micrel/micrelcare3.webp",
+  "/micrel/micrelcare4.webp",
+  "/micrel/micrelcare5.webp",
+  "/micrel/micrelcare6.webp ",
   "/micrel/micrelcare7.png ",
-  "/micrel/micrelcare8.png ",
-  "/micrel/micrelcare9.png ",
+  "/micrel/micrelcare8.webp ",
+  "/micrel/micrelcare9.webp ",
   "/micrel/micrelcare10.png ",
 
 ];
@@ -37,7 +37,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "reporting":
         return (
           <Image
-            src="/micrel/micrelcare1.png"
+            src="/micrel/micrelcare1.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -48,7 +48,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "feedback":
         return (
           <Image
-            src="/micrel/micrelcare2.png"
+            src="/micrel/micrelcare2.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -59,7 +59,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "pressure":
         return (
           <Image
-            src="/micrel/micrelcare3.png"
+            src="/micrel/micrelcare3.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -76,7 +76,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "infusion monitoring":
         return (
           <Image
-            src="/micrel/micrelcare4.png"
+            src="/micrel/micrelcare4.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -87,7 +87,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "patient portal":
         return (
           <Image
-            src="/micrel/micrelcare5.png"
+            src="/micrel/micrelcare5.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -98,7 +98,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "alarm":
         return (
           <Image
-            src="/micrel/micrelcare6.png"
+            src="/micrel/micrelcare6.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -109,7 +109,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "fleet":
         return (
           <Image
-            src="/micrel/micrelcare8.png"
+            src="/micrel/micrelcare8.webp"
             alt={itemTitle}
             width={42}
             height={42}
@@ -120,7 +120,7 @@ export default function MicrelCare({ data = micrelCareContent }: MicrelCareProps
       case "documenting":
         return (
           <Image
-            src="/micrel/micrelcare9.png"
+            src="/micrel/micrelcare9.webp"
             alt={itemTitle}
             width={42}
             height={42}

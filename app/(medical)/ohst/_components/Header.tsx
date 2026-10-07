@@ -49,7 +49,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/medical/ohst/ohst_logo.png"
+              src="/medical/ohst/ohst_logo.webp"
               alt="OHST Logo"
               width={180}
               height={55}

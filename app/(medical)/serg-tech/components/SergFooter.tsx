@@ -29,7 +29,7 @@ export default function SergFooter() {
               {/* Replace with actual logo later */}
 
               <Image
-                src="/medical/sergtech/serg-logo.png"
+                src="/medical/sergtech/serg-logo.webp"
                 alt="SERG Technologies"
                 fill
                 className="object-contain"

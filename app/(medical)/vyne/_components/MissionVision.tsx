@@ -59,7 +59,7 @@ export default function MissionVision() {
                 {/* Left Sidebar */}
                 <div data-aos="fade-right" className="lg:col-span-4 bg-secondary rounded-xl text-white p-6 relative overflow-hidden shadow-lg h-full">
                     {/* Background pattern */}
-                    <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.png')] bg-cover bg-no-repeat" />
+                    <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.webp')] bg-cover bg-no-repeat" />
 
                     {/* Tabs */}
                     <div className="flex gap-6 border-b border-gray-600 pb-4 mb-6 relative z-10">
@@ -111,7 +111,7 @@ export default function MissionVision() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                         {/* Main Image */}
                         <div className="relative aspect-4/3 w-full rounded-xl overflow-hidden bg-gray-100 group">
-                            <img src={`/vyne/home/about.png`} alt="About Vyne" className="w-full h-full object-cover hover:scale-105 transition-all duration-300" />
+                            <img src={`/vyne/home/about.webp`} alt="About Vyne" className="w-full h-full object-cover hover:scale-105 transition-all duration-300" />
                         </div>
 
                         {/* Right Text & Small Image */}
@@ -124,7 +124,7 @@ export default function MissionVision() {
 
                             <div className="flex items-center gap-4">
                                 <div className="relative w-24 h-16 rounded-lg overflow-hidden shrink-0 bg-gray-100 flex items-center justify-center shadow-sm">
-                                    <img src={`/vyne/home/about-2.png`} alt="About Vyne" className="w-full h-full object-cover hover:scale-105 transition-all duration-300" />
+                                    <img src={`/vyne/home/about-2.webp`} alt="About Vyne" className="w-full h-full object-cover hover:scale-105 transition-all duration-300" />
                                 </div>
                                 <p className="text-sm text-gray-600 leading-tight">
                                     <span className="block font-medium text-gray-800">Andy from Leeds.</span>

@@ -2,22 +2,22 @@ import { ShieldCheck, BriefcaseMedical, Cpu, Award } from "lucide-react";
 
 const features = [
   {
-    icon: "/strena/images/feature-1.png",
+    icon: "/strena/images/feature-1.webp",
     title: "High Quality",
     subtitle: "Medical Devices",
   },
   {
-    icon: "/strena/images/feature-2.png",
+    icon: "/strena/images/feature-2.webp",
     title: "Trusted by",
     subtitle: "Professionals",
   },
   {
-    icon: "/strena/images/feature-3.png",
+    icon: "/strena/images/feature-3.webp",
     title: "Innovative",
     subtitle: "Technology",
   },
   {
-    icon: "/strena/images/feature-4.png",
+    icon: "/strena/images/feature-4.webp",
     title: "Global Standards",
     subtitle: "Complaince",
   },

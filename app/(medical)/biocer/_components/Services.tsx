@@ -3,17 +3,17 @@ export default function Services() {
         {
             title: "Surgical Mesh Implants",
             description: "BioCer meshes are designed for excellent biocompatibility, optimized weight and pore structure, advanced coating options, and precision laser-cut edges. They support reliable tissue ingrowth and effective hernia repair.",
-            imageSrc: "/home/service-1.jpg"
+            imageSrc: "/home/service-1.webp"
         },
         {
             title: "Plant based Haemostatis",
             description: "Our haemostatic product range includes powder formulations and specialized applicators, supporting use across a wide variety of surgical procedures. BioCer haemostatic solutions are designed to provide natural, safe, and effective bleeding control.",
-            imageSrc: "/home/service-2.jpg"
+            imageSrc: "/home/service-2.webp"
         },
         {
             title: <>Innovating coating <br /> technologies for medicine</>,
             description: "Our advanced ceramic coating technologies are developed to enhance implant surface performance across a wide range of medical applications. BioCer functional coatings provide biocompatible, anti-allergic, osteoconductive, and antibacterial properties to improve device safety and clinical outcomes.",
-            imageSrc: "/home/service-3.jpg"
+            imageSrc: "/home/service-3.webp"
         }
     ];
 

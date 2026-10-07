@@ -7,25 +7,25 @@ const Products = () => {
       title: "Libra® Leg Bag",
       description:
         "The Libra® Leg Bag provides peace of mind for users. High quality materials and design. (This product is latex free)",
-      image: "/clinisupplies/product-1.png",
+      image: "/clinisupplies/product-1.webp",
     },
     {
       title: "Libra® Leg Bag Straps",
       description:
         "Libra® Leg Bag Straps secure a leg bag to the leg, for use with the Libra Leg Bag range. (This product is latex free).",
-      image: "/clinisupplies/product-2.png",
+      image: "/clinisupplies/product-2.webp",
     },
     {
       title: "Libra® Night bag",
       description:
         "We offer night bags in both single-use and multi-use options, designed for one-night or up to seven nights of use.",
-      image: "/clinisupplies/product-3.png",
+      image: "/clinisupplies/product-3.webp",
     },
     {
       title: "Libra® Sheath",
       description:
         "The Libra® Sheath is available in a range of styles and sizes and is designed to help men manage their incontinence.",
-      image: "/clinisupplies/product-4.png",
+      image: "/clinisupplies/product-4.webp",
     },
   ];
 

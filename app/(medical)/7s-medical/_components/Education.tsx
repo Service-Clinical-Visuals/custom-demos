@@ -8,7 +8,7 @@ export default function Education() {
     <div className="w-full  bg-cover bg-center bg-no-repeat">
 
       <section 
-        className="relative w-full py-16 md:py-20 bg-[url('/7s-medical/course-bg.png')] overflow-hidden flex items-center justify-center shadow-inner"
+        className="relative w-full py-16 md:py-20 bg-[url('/7s-medical/course-bg.webp')] overflow-hidden flex items-center justify-center shadow-inner"
         data-aos="fade-up"
       >
         {/* Content Container */}
@@ -46,7 +46,7 @@ export default function Education() {
               data-aos-delay="100"
             >
               <img
-                src="/7s-medical/hospitation.png"
+                src="/7s-medical/hospitation.webp"
                 alt="Hospitation in reference clinics"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
               />
@@ -94,7 +94,7 @@ export default function Education() {
               data-aos-delay="200"
             >
               <img
-                src="/7s-medical/surgery-support.png"
+                src="/7s-medical/surgery-support.webp"
                 alt="Surgery Support by product experts"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
               />
@@ -142,7 +142,7 @@ export default function Education() {
               data-aos-delay="300"
             >
               <img
-                src="/7s-medical/inhouse-training.png"
+                src="/7s-medical/inhouse-training.webp"
                 alt="In-house training on systems"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
               />

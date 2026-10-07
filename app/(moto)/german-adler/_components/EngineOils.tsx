@@ -8,7 +8,7 @@ export default function EngineOils() {
       {/* Background Pattern */}
       <div className="absolute top-0 right-0 w-full h-full z-0  pointer-events-none flex justify-end">
         <img 
-          src="/moto/german-adler/bgengiloil.png" 
+          src="/moto/german-adler/bgengiloil.webp" 
           alt="Background pattern" 
           className="h-full object-cover object-right" 
         />

@@ -2,22 +2,22 @@
 
 const badges = [
   {
-    image: "/comma/aboutus_oem.png",
+    image: "/comma/aboutus_oem.webp",
     title: "OEM approved",
     text: "OEM-approved product range for peace of mind.",
   },
   {
-    image: "/comma/aboutus_oem.png",
+    image: "/comma/aboutus_oem.webp",
     title: "Compatibility Guarantee",
     text: "Products backed by our unique compatibility guarantee.",
   },
   {
-    image: "/comma/aboutus_oem.png",
+    image: "/comma/aboutus_oem.webp",
     title: "Available nationwide",
     text: "Find Comma products anywhere in the UK.",
   },
   {
-    image: "/comma/aboutus_oem.png",
+    image: "/comma/aboutus_oem.webp",
     title: "Nearly 100% car part coverage",
     text: "Right Comma product for nearly every vehicle.",
   },

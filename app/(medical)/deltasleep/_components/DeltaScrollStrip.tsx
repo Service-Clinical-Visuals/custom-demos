@@ -107,13 +107,13 @@ export default function DeltaScrollStrip() {
         <div className="relative w-1/2 h-screen flex items-center justify-center">
           <img
             ref={handRef}
-            src="/delta/delta-product-scroll-hand.png"
+            src="/delta/delta-product-scroll-hand.webp"
             alt="Hand holding device"
             className="absolute bottom-0 w-full max-w-[600px] object-contain"
           />
           <img
             ref={productRef}
-            src="/delta/delta-product-scroll.png"
+            src="/delta/delta-product-scroll.webp"
             alt="CPAP Device"
             className="relative z-10 w-[260px] lg:w-[320px] object-contain drop-shadow-[0_24px_48px_rgba(0,0,0,0.2)]"
             style={{ transformOrigin: "center center" }}

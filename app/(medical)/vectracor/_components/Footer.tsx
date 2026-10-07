@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1 */}
           <div>
                     <div>
-          <img src="/vectracor/VectraCor.png" className="w-48 h-16 md:w-60 md:h-20 object-contain lg:-ml-10" />
+          <img src="/vectracor/VectraCor.webp" className="w-48 h-16 md:w-60 md:h-20 object-contain lg:-ml-10" />
         </div>
 
             <p className="text-gray-600 text-base mt-4 leading-relaxed max-w-[300px]">

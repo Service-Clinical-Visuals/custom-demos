@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Optimed Medizinische Instrumente GmbH. ",
   description: "CatheGenix | Investing in Science, Innovating For Patients",
   icons: {
-    icon: "/cathegenix/cathe-favicon.png",
+    icon: "/cathegenix/cathe-favicon.webp",
   },
 };
  

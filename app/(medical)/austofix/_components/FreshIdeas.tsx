@@ -10,7 +10,7 @@ export default function FreshIdeas() {
         {/* Left Image */}
         <div data-aos="fade-left" className="rounded-2xl overflow-hidden">
           <Image
-            src="/austofix/blank.png"
+            src="/austofix/blank.webp"
             alt="idea"
             width={1000}
             height={600}
@@ -23,7 +23,7 @@ export default function FreshIdeas() {
           <p className="flex items-center gap-2 text-sm mb-3">
             <span className="relative w-3 h-3 bg-[#6CA033] rounded-full overflow-hidden">
               <Image
-                src="/austofix/screw.png"
+                src="/austofix/screw.webp"
                 alt="idea"
                 fill
                 className="object-contain p-px"

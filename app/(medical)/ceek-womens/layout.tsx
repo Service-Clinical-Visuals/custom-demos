@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Ceek Womens Health",
   description: "Ceek Womens Health | Ceek is a global medical technology company dedicated to improving patient outcomes through innovative solutions",
   icons: {
-    icon: "/ceek/favicon.png",
+    icon: "/ceek/favicon.webp",
   }
 };
 

@@ -27,7 +27,7 @@ export default function Header() {
       <div className="container h-20 my-3 flex items-center justify-between">
         {/* Logo Placeholder */}
         <div className="flex items-center justify-center rounded overflow-hidden">
-          <img src={`/future-med/logo.png`} alt="Logo" className="w-20 h-20 object-cover" />
+          <img src={`/future-med/logo.webp`} alt="Logo" className="w-20 h-20 object-cover" />
         </div>
 
         {/* Desktop Navigation */}

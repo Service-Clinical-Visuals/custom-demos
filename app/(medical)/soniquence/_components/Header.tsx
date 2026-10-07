@@ -26,7 +26,7 @@ export default function Header() {
             >
                 {/* Logo */}
                 <div className="shrink-0 flex items-center gap-2 text-white font-bold text-xl md:text-2xl tracking-tighter">
-                    <img src={`/soniquence/logo.png`} alt="Logo" className="w-[120px] md:w-[150px]" />
+                    <img src={`/soniquence/logo.webp`} alt="Logo" className="w-[120px] md:w-[150px]" />
                 </div>
 
                 {/* Mobile Menu Toggle */}

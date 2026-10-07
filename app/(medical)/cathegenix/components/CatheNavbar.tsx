@@ -30,7 +30,7 @@ export default function CatheNavbar() {
 
             <div className="flex items-center gap-4">
               {/* LOGO */}
-              <img src="/cathegenix/cathe-logo.png" alt="logo" className="w-44 sm:w-52 xl:w-60" />
+              <img src="/cathegenix/cathe-logo.webp" alt="logo" className="w-44 sm:w-52 xl:w-60" />
             </div>
 
             {/* ================================================= */}

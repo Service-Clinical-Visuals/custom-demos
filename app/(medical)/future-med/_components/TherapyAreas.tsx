@@ -7,18 +7,18 @@ import "swiper/css/pagination";
 
 export default function TherapyAreas() {
   const cards = [
-    { title: "Single-Use Scopes", img: "/future-med/home/therapy-1.png" },
-    { title: "Urology Solutions", img: "/future-med/home/therapy-2.png" },
-    { title: "Gynecology Solutions", img: "/future-med/home/therapy-3.png" },
-    { title: "Disinfection & Cleaning", img: "/future-med/home/therapy-4.png" },
-    { title: "Theatre Solutions", img: "/future-med/home/therapy-5.png" },
+    { title: "Single-Use Scopes", img: "/future-med/home/therapy-1.webp" },
+    { title: "Urology Solutions", img: "/future-med/home/therapy-2.webp" },
+    { title: "Gynecology Solutions", img: "/future-med/home/therapy-3.webp" },
+    { title: "Disinfection & Cleaning", img: "/future-med/home/therapy-4.webp" },
+    { title: "Theatre Solutions", img: "/future-med/home/therapy-5.webp" },
   ];
 
   return (
     <section className="w-full py-20 bg-primary relative overflow-hidden ">
       {/* Decorative background pattern (Optional placeholder) */}
       <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 bg-[radial-gradient(ellipse_at_top_right,var(--tw-gradient-stops))] from-white via-transparent to-transparent pointer-events-none z-0"></div>
-      <div className="absolute inset-0 bg-[url('/future-med/home/bg.png')] bg-no-repeat bg-cover opacity-30 pointer-events-none z-0"></div>
+      <div className="absolute inset-0 bg-[url('/future-med/home/bg.webp')] bg-no-repeat bg-cover opacity-30 pointer-events-none z-0"></div>
 
       <div className="container relative z-10">
         <h2 className="heading text-white text-center mb-12" data-aos="fade-up">

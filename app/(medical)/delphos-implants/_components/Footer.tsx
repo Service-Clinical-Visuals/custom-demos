@@ -19,7 +19,7 @@ const Footer = () => {
               {" "}
               {/* Adjust width as needed */}
               <img
-                src="/delphos-implants/images/logo.png"
+                src="/delphos-implants/images/logo.webp"
                 alt="Delphos Implants Logo"
                 className="w-full h-auto object-contain"
               />

@@ -33,23 +33,23 @@ export default function Header() {
         <div className="custom-container flex flex-wrap justify-center sm:justify-between items-center  ">
           <div className="flex items-center justify-center space-x-3 sm:space-x-6">
             <div className="flex items-center space-x-2">
-              <img src="/medical/tunning-element/phone.png" alt="phone" className='w-4 h-4' />
+              <img src="/medical/tunning-element/phone.webp" alt="phone" className='w-4 h-4' />
               <span className="manrope top-header-text font-semibold">(417) 973-0000</span>
             </div>
             <div className="flex items-center space-x-3 sm:space-x-4 border-l border-white/30 pl-3 sm:pl-4 lg:pl-6">
-              <img src="/medical/tunning-element/mail.png" alt="mail" className='w-4 h-3' />
+              <img src="/medical/tunning-element/mail.webp" alt="mail" className='w-4 h-3' />
               <span className="manrope top-header-text font-semibold">info@tuningelement.com</span>
             </div>
           </div>
           <div className="hidden sm:flex items-center space-x-6">
             <Link href="#" className="hover:text-[#d3b482] transition-colors">
-              <img src="/medical/tunning-element/fb.png" alt="fb" className='w-4 h-4' />
+              <img src="/medical/tunning-element/fb.webp" alt="fb" className='w-4 h-4' />
             </Link>
             <Link href="#" className="hover:text-[#d3b482] transition-colors">
-              <img src="/medical/tunning-element/x.png" alt="fb" className='w-4 h-4' />
+              <img src="/medical/tunning-element/x.webp" alt="fb" className='w-4 h-4' />
             </Link>
             <Link href="#" className="hover:text-[#d3b482] transition-colors">
-              <img src="/medical/tunning-element/q.png" alt="fb" className='w-4 h-4' />
+              <img src="/medical/tunning-element/q.webp" alt="fb" className='w-4 h-4' />
             </Link>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Header() {
           <Link href="/tunning-element" className="flex items-center z-20">
             <div className="relative w-40 lg:w-48 h-10 lg:h-20">
                <img 
-                  src="/medical/tunning-element/logo.png" 
+                  src="/medical/tunning-element/logo.webp" 
                   alt="Tuning Element" 
                   className="object-contain h-full w-full"
                />

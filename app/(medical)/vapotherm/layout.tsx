@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Vapotherm",
   description: "Innovative technology for respiratory care",
   icons: {
-    icon: "/vapotherm/assets/vapotherm-favicon.png",
+    icon: "/vapotherm/assets/vapotherm-favicon.webp",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Medas Innovation - Improving Healthcare with Innovative Solutions",
   description: "High quality, innovative medical products MADE IN GERMANY",
   icons: {
-    icon: "/medas-innovation/assets/medas-favicon.png",
+    icon: "/medas-innovation/assets/medas-favicon.webp",
   },
 };
 

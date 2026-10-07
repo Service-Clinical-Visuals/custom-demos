@@ -7,14 +7,14 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const products = [
-  { id: 1, image: "/nihon/images/health-1.png", alt: "Patient Monitoring" },
-  { id: 2, image: "/nihon/images/health-2.png", alt: "Resuscitation" },
-  { id: 3, image: "/nihon/images/health-3.png", alt: "Neurology" },
-  { id: 4, image: "/nihon/images/health-4.png", alt: "Ventilation" },
-  { id: 5, image: "/nihon/images/health-5.png", alt: "Medical IT" },
-  { id: 6, image: "/nihon/images/health-6.png", alt: "Cardiology" },
-  { id: 7, image: "/nihon/images/health-7.png", alt: "In-vitro Diagnostics" },
-  { id: 8, image: "/nihon/images/health-8.png", alt: "Accessories & Consumables" },
+  { id: 1, image: "/nihon/images/health-1.webp", alt: "Patient Monitoring" },
+  { id: 2, image: "/nihon/images/health-2.webp", alt: "Resuscitation" },
+  { id: 3, image: "/nihon/images/health-3.webp", alt: "Neurology" },
+  { id: 4, image: "/nihon/images/health-4.webp", alt: "Ventilation" },
+  { id: 5, image: "/nihon/images/health-5.webp", alt: "Medical IT" },
+  { id: 6, image: "/nihon/images/health-6.webp", alt: "Cardiology" },
+  { id: 7, image: "/nihon/images/health-7.webp", alt: "In-vitro Diagnostics" },
+  { id: 8, image: "/nihon/images/health-8.webp", alt: "Accessories & Consumables" },
 ];
 
 const ProductsSection = () => {

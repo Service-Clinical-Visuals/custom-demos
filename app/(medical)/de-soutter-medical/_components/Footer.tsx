@@ -15,7 +15,7 @@ export default function Footer() {
           <div data-aos="fade-up" className="lg:col-span-4 pr-4">
             <div className="mb-12">
               <Image
-                src="/de-soutter-medical/logo.png" // 👉 put your logo here
+                src="/de-soutter-medical/logo.webp" // 👉 put your logo here
                 alt="De Soutter Medical"
                 width={300}
                 height={70}

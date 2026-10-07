@@ -1,23 +1,23 @@
 "use client";
 
 export default function CompanySection() {
-  const factory_img = "/atmosmed/assets/atmos_factory.png"
+  const factory_img = "/atmosmed/assets/atmos_factory.webp"
   const cards = [
     {
       title: "Group of Companies",
-      img: "/atmosmed/assets/location_atmos.jpg",
+      img: "/atmosmed/assets/location_atmos.webp",
     },
     {
       title: "Mission",
-      img: "atmosmed/assets/doctor_atmos.jpg",
+      img: "atmosmed/assets/doctor_atmos.webp",
     },
     {
       title: "History",
-      img: "atmosmed/assets/product_atmos.jpg",
+      img: "atmosmed/assets/product_atmos.webp",
     },
     {
       title: "Careers",
-      img: "atmosmed/assets/careers_atmos.jpg",
+      img: "atmosmed/assets/careers_atmos.webp",
     },
   ];
 

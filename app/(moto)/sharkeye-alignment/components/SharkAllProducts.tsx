@@ -8,22 +8,22 @@ const products = [
   {
     title: "Truck Single & Twin Steer Laser Aligners",
     amount: "₹254,326.80",
-    image: "/moto/shark/shark-truck-1.png",
+    image: "/moto/shark/shark-truck-1.webp",
   },
   {
     title: "SharkEye Zubra TWIN STEER Laser truck wheel alignment tool - HGTSLA",
     amount: "₹373,755.20",
-    image: "/moto/shark/shark-truck-2.png",
+    image: "/moto/shark/shark-truck-2.webp",
   },
   {
     title : "SharkEye Rhino Laser 2 Wheel Alignment Gauges for HGV, PSV & LCV - HG02WLA",
     amount : "₹129,948.00",
-    image : "/moto/shark/shark-truck-3.png",
+    image : "/moto/shark/shark-truck-3.webp",
   },
   // {
   //   title : "SharkEye Ceros Laser wheel alignment tool - HGSS2WLA",
   //   amount : "₹179,452.00",
-  //   image : "/moto/shark/shark-truck-4.png",
+  //   image : "/moto/shark/shark-truck-4.webp",
   // }
 ];
 
@@ -35,7 +35,7 @@ export default function SharkAllProducts() {
       <div className="absolute inset-0 z-[10] bg-[#231f2072]"></div>
       {/* BACKGROUND */}
       <div className="absolute inset-0">
-       <img src="/moto/shark/shark-products-bg.jpg" alt="bg" className="w-full h-full object-cover"/>
+       <img src="/moto/shark/shark-products-bg.webp" alt="bg" className="w-full h-full object-cover"/>
         </div>
 
       {/* CONTENT */}

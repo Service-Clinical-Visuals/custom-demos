@@ -102,7 +102,7 @@ export default function InvidiaInnovation() {
                       size={16}
                       strokeWidth={3}
                     /> */}
-                    <img className="h-[10px] w-[10px]" src="/invidia/dropbutton.png" alt="down-arrow"></img>
+                    <img className="h-[10px] w-[10px]" src="/invidia/dropbutton.webp" alt="down-arrow"></img>
                   </span>
                 </button>
               </div>
@@ -149,7 +149,7 @@ export default function InvidiaInnovation() {
             {/* OPTIONAL IMAGE */}
             
               <Image
-                src="/invidia/invidia-innovation.png"
+                src="/invidia/invidia-innovation.webp"
                 alt="Innovation"
                 fill
                 className="object-cover"

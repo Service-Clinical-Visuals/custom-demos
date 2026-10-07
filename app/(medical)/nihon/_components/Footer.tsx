@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="xl:col-span-4 flex flex-col gap-8">
             <Link href="/nihon" className="flex items-center gap-3">
-              <img src="/nihon/images/nihon-logo.png" alt="Nihon Kohden Europe" className="w-60 h-auto" />
+              <img src="/nihon/images/nihon-logo.webp" alt="Nihon Kohden Europe" className="w-60 h-auto" />
             </Link>
 
             <p className="text-[#333333] text-[16px] leading-relaxed text-justify">

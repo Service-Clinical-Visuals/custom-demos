@@ -1,7 +1,7 @@
 import { HeaderData, HeroData, SectionBlock, ProductShowcaseData, FooterData, TherapiesData, ParenteralNutritionData, MicrelCareTab, AmbulatoryInfusionData, PartnerCard, NewsInsightsData } from "../types";
 
 export const headerContent: HeaderData = {
-  logoUrl: "/micrel/header_logo%201.png",
+  logoUrl: "/micrel/header_logo%201.webp",
   logoAlt: "Micrel Medical Devices",
   links: [
     { label: "Home", href: "#home" },
@@ -31,7 +31,7 @@ export const whoWeAreContent: SectionBlock = {
   descriptionExtended: "Micrel is active in the areas of Pain Management and Analgesia, Parenteral Nutrition, Immunoglobulin Therapy, Parkinson's disease, Thalassemia, Primary Pulmonary Hypertension (PPH) and other infusion therapies.",
   buttonText: "Explore Benefits",
   buttonHref: "#benefits",
-  imageUrl: "/micrel/image1.png",
+  imageUrl: "/micrel/image1.webp",
   imageAlt: "Micrel Medical Devices Headquarters",
 };
 
@@ -41,7 +41,7 @@ export const missionContent: SectionBlock = {
   descriptionExtended: "This means creating pumps and solutions that are discreet, ambulatory and connected, enabling HCPs to offer high standards of care no matter where the patient is. This mindset of freedom comes across in how we present ourself in our brand.",
   buttonText: "Discover Our Mission",
   buttonHref: "#mission",
-  imageUrl: "/micrel/image2.png",
+  imageUrl: "/micrel/image2.webp",
   imageAlt: "Patient enjoying freedom at sunset",
 };
 
@@ -62,7 +62,7 @@ export const productShowcaseContent: ProductShowcaseData = {
 };
 
 export const footerContent: FooterData = {
-  logoUrl: "/micrel/footer_logo.png",
+  logoUrl: "/micrel/footer_logo.webp",
   logoAlt: "Micrel Medical Devices Logo",
   description: "Miracle Medical is a Saudi LLC providing high-quality medical equipment and consumables from globally recognized manufacturers.",
   quickLinks: [
@@ -112,15 +112,15 @@ export const therapiesContent: TherapiesData = {
   title: "How can we help",
   description: "Delivering safe, precise, and reliable infusion therapy solutions for acute pain management, oncology, obstetrics, parenteral nutrition, palliative care, antibiotic infusion, hydration, and other specialized treatments supporting better care for every patient.",
   items: [
-    { title: "Acute Pain Management", imageUrl: "/micrel/help_image1.png", imageAlt: "Elderly couple talking" },
-    { title: "Obstetrics", imageUrl: "/micrel/help_image3.jpg", imageAlt: "Pregnant woman sitting comfortably" },
-    { title: "Parenteral Nutrition", imageUrl: "/micrel/help_image4.png", imageAlt: "Woman outdoors looking thoughtful" },
-    { title: "Oncology", imageUrl: "/micrel/help_image2.png", imageAlt: "Mother cuddling happy child" },
-    { title: "Palliative Care", imageUrl: "/micrel/help_image5.png", imageAlt: "Older man and young boy laughing" },
-    { title: "Thalassemia", imageUrl: "/micrel/help_image6.png", imageAlt: "An oldman enjoying wiht kids" },
-    { title: "Immunoglobulin Therapy", imageUrl: "/micrel/help_image7.png", imageAlt: "two people" },
-    { title: "Antibiotic Therapy", imageUrl: "/micrel/help_image8.png", imageAlt: "two people in a couch " },
-    { title: "Other Infusion Therapies", imageUrl: "/micrel/help_image9.png", imageAlt: "an old man" },
+    { title: "Acute Pain Management", imageUrl: "/micrel/help_image1.webp", imageAlt: "Elderly couple talking" },
+    { title: "Obstetrics", imageUrl: "/micrel/help_image3.webp", imageAlt: "Pregnant woman sitting comfortably" },
+    { title: "Parenteral Nutrition", imageUrl: "/micrel/help_image4.webp", imageAlt: "Woman outdoors looking thoughtful" },
+    { title: "Oncology", imageUrl: "/micrel/help_image2.webp", imageAlt: "Mother cuddling happy child" },
+    { title: "Palliative Care", imageUrl: "/micrel/help_image5.webp", imageAlt: "Older man and young boy laughing" },
+    { title: "Thalassemia", imageUrl: "/micrel/help_image6.webp", imageAlt: "An oldman enjoying wiht kids" },
+    { title: "Immunoglobulin Therapy", imageUrl: "/micrel/help_image7.webp", imageAlt: "two people" },
+    { title: "Antibiotic Therapy", imageUrl: "/micrel/help_image8.webp", imageAlt: "two people in a couch " },
+    { title: "Other Infusion Therapies", imageUrl: "/micrel/help_image9.webp", imageAlt: "an old man" },
 
   ],
 };
@@ -222,7 +222,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "1",
       title: "Rythmic™ Evolution (Blue)",
       description: "Rythmic™ Evolution Blue is an ambulatory infusion pump designed ...",
-      imageUrl: "/micrel/product1.png",
+      imageUrl: "/micrel/product1.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "pumps"
@@ -231,7 +231,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "2",
       title: "Rythmic™ Evolution (Yellow)",
       description: "Aiming to reduce the risk of medication errors in epidural and...",
-      imageUrl: "/micrel/product2.png",
+      imageUrl: "/micrel/product2.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "pumps"
@@ -240,7 +240,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "3",
       title: "Mini Rythmic™ PN+",
       description: "The Mini Rythmic™ PN+ simplifies self-administration for patients requiring ...",
-      imageUrl: "/micrel/product3.png",
+      imageUrl: "/micrel/product3.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "pumps"
@@ -249,7 +249,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "4",
       title: "Rythmic™ Perf+",
       description: "Rythmic™ Perf+ is designed to meet the safety, reliability and comfort ...",
-      imageUrl: "/micrel/product4.png",
+      imageUrl: "/micrel/product4.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "pumps"
@@ -259,7 +259,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "5",
       title: "Rythmic™ Yellow PCA Set",
       description: "Color-coded PCA set with built-in air-eliminating filters and...",
-      imageUrl: "/micrel/product2.png",
+      imageUrl: "/micrel/product2.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "sets"
@@ -268,7 +268,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "6",
       title: "Rythmic™ Chemotherapy Set",
       description: "All-in-one administration set with integrated air-vented...",
-      imageUrl: "/micrel/product4.png",
+      imageUrl: "/micrel/product4.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "sets"
@@ -277,7 +277,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "7",
       title: "Rythmic™ PN Nutrition Set",
       description: "High-flow Parenteral Nutrition delivery sets with embedded ...",
-      imageUrl: "/micrel/product3.png",
+      imageUrl: "/micrel/product3.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "sets"
@@ -286,7 +286,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "8",
       title: "Rythmic™ Extension Tubing",
       description: "Advanced lightweight tube extensions for outpatient ...",
-      imageUrl: "/micrel/product1.png",
+      imageUrl: "/micrel/product1.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "sets"
@@ -296,7 +296,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "9",
       title: "Micropump™ MP mlh+",
       description: "Multi-syringe ambulatory driver designed...",
-      imageUrl: "/micrel/product1.png",
+      imageUrl: "/micrel/product1.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "syringe"
@@ -305,7 +305,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "10",
       title: "MP Thalapump 20",
       description: "Specialized, highly precise ambulatory ....",
-      imageUrl: "/micrel/product2.png",
+      imageUrl: "/micrel/product2.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "syringe"
@@ -314,7 +314,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "11",
       title: "Micropump™ MP 101+",
       description: "Ambulatory syringe pump optimized for palliative ...",
-      imageUrl: "/micrel/product3.png",
+      imageUrl: "/micrel/product3.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "syringe"
@@ -323,7 +323,7 @@ export const ambulatoryInfusionContent: AmbulatoryInfusionData = {
       id: "12",
       title: "Micropump™ MP Daily+",
       description: "Compact daily syringe driver optimized for patient comfort, ease-of-use...",
-      imageUrl: "/micrel/product4.png",
+      imageUrl: "/micrel/product4.webp",
       linkText: "Read More",
       linkHref: "#products",
       category: "syringe"
@@ -336,7 +336,7 @@ export const partnersContent = {
   description: "Covering a wide range of therapy areas and their specific requirements, Micrel offers diverse infusion solutions and services for in and outpatient care.",
   buttonText: "Get in Touch",
   buttonHref: "#contact",
-  backgroundImageUrl: "/micrel/therapy-banner.png",
+  backgroundImageUrl: "/micrel/therapy-banner.webp",
   partners: [
     { label: "Pharmaceutical companies", iconName: "pharmaceutical" },
     { label: "Healthcare professionals", iconName: "healthcare" },
@@ -356,7 +356,7 @@ export const newsInsightsContent: NewsInsightsData = {
       id: "news-1",
       title: "Introducing Our New Microsite",
       date: "November 5, 2025",
-      imageUrl: "/micrel/Rectangle%20101.png",
+      imageUrl: "/micrel/Rectangle%20101.webp",
       linkText: "Read More >>",
       linkHref: "#news"
     },
@@ -364,7 +364,7 @@ export const newsInsightsContent: NewsInsightsData = {
       id: "news-2",
       title: "ESPEN Congress 2024 - Milan",
       date: "August 7, 2024",
-      imageUrl: "/micrel/Rectangle%20102.png",
+      imageUrl: "/micrel/Rectangle%20102.webp",
       linkText: "Read More >>",
       linkHref: "#news"
     },
@@ -372,7 +372,7 @@ export const newsInsightsContent: NewsInsightsData = {
       id: "news-3",
       title: "ESRA Congress 2024 - Prague",
       date: "August 7, 2024",
-      imageUrl: "/micrel/Rectangle%20103.png",
+      imageUrl: "/micrel/Rectangle%20103.webp",
       linkText: "Read More >>",
       linkHref: "#news"
     },
@@ -380,7 +380,7 @@ export const newsInsightsContent: NewsInsightsData = {
       id: "news-4",
       title: "ESRA Congress 2023 - Paris",
       date: "July 7, 2023",
-      imageUrl: "/micrel/Rectangle%20104.png",
+      imageUrl: "/micrel/Rectangle%20104.webp",
       linkText: "Read More >>",
       linkHref: "#news"
     }

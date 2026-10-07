@@ -9,7 +9,7 @@ export default function Product360View() {
     <section
       id="product-360"
       className="w-full py-24 bg-cover bg-center bg-no-repeat overflow-hidden relative"
-      style={{ backgroundImage: "url('/future-med/home/360-bg.jpg')" }}
+      style={{ backgroundImage: "url('/future-med/home/360-bg.webp')" }}
     >
       {/* Background Overlay for Opacity */}
       <div className="absolute inset-0 bg-white/60 z-0"></div>

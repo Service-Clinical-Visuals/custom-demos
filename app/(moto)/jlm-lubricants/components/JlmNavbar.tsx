@@ -74,7 +74,7 @@ export default function JlmNavbar() {
         <div className="mx-auto flex h-16 max-w-[1600px] items-center justify-between px-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src="/jlm/jlm-icon.png" alt="JLM" className="w-[130px]" />
+            <img src="/jlm/jlm-icon.webp" alt="JLM" className="w-[130px]" />
           </div>
 
           {/* Desktop Menu */}

@@ -8,7 +8,7 @@ export default function Innovation() {
     <section className="relative h-100 md:h-125 flex items-center px-6 md:px-10 overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/ceek/bg-full.png" // full design image
+        src="/ceek/bg-full.webp" // full design image
         alt="background"
         fill
         className="object-cover object-top"

@@ -31,7 +31,7 @@ export default function Footer() {
       
       {/* Schematic HUD backdrop mask */}
       <div 
-        className="absolute inset-0 bg-[url('/bm-catalysts/images/dpf-bg.png')] pointer-events-none bg-cover bg-center"
+        className="absolute inset-0 bg-[url('/bm-catalysts/images/dpf-bg.webp')] pointer-events-none bg-cover bg-center"
       />
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center">
               <span className="text-2xl lg:text-3xl font-black tracking-tighter text-white font-oxanium uppercase bg-white/5 border border-white/10 px-4 py-2 rounded-xl shadow-lg select-none">
-                <img src="/bm-catalysts/images/bm-main-logo.png" alt="bm catalysts" className="w-28 h-auto" />
+                <img src="/bm-catalysts/images/bm-main-logo.webp" alt="bm catalysts" className="w-28 h-auto" />
               </span>
             </div>
             

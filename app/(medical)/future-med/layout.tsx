@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "FutureMed Global",
   description: "Next generation medical equipment",
   icons: {
-    icon: "/future-med/logo.png",
+    icon: "/future-med/logo.webp",
   },
 };
 

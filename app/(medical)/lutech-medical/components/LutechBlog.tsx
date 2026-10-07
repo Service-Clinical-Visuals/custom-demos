@@ -5,25 +5,25 @@ const blogs = [
     title: "Advancing Cervical Screening and Diagnostics",
     date: "January 19, 2026",
     desc: "The New Standard As cancer screenings are advancing, guidelines evolve and...",
-    img: "/lutech-medical/assets/lutech-blog1.jpg",
+    img: "/lutech-medical/assets/lutech-blog1.webp",
   },
   {
     title: "Reducing the Anxiety of Colposcopy Exams",
     date: "March 27, 2026",
     desc: "Understanding Exam Anxiety Patients often feel anxious before undergoing...",
-    img: "/lutech-medical/assets/lutech-blog2.jpg",
+    img: "/lutech-medical/assets/lutech-blog2.webp",
   },
   {
     title: "HRT—Moving Beyond the Mirror",
     date: "December 04, 2025",
     desc: "How Digital Imaging Creates Better Outcomes, Better Education, and Better Care For...",
-    img: "/lutech-medical/assets/lutech-blog3.jpg",
+    img: "/lutech-medical/assets/lutech-blog3.webp",
   },
   {
     title: "Accomplishing Incredible Milestones",
     date: "November 26, 2025",
     desc: "Advancing our Mission to Promote Global Health and Early Detection Lutech...",
-    img: "/lutech-medical/assets/lutech-blog4.jpg",
+    img: "/lutech-medical/assets/lutech-blog4.webp",
   },
 ];
 

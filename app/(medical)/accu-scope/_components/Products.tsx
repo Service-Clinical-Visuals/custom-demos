@@ -5,19 +5,19 @@ import { ArrowRight } from "lucide-react";
 const products = [
   {
     title: "EXCELIS™ 4K",
-    image: "/accu-scope/products/fp1.png",
+    image: "/accu-scope/products/fp1.webp",
   },
   {
     title: "EXC-500",
-    image: "/accu-scope/products/fp2.png",
+    image: "/accu-scope/products/fp2.webp",
   },
   {
     title: "EXC-120",
-    image: "/accu-scope/products/fp3.png",
+    image: "/accu-scope/products/fp3.webp",
   },
   {
     title: "EXCELIS™ HD",
-    image: "/accu-scope/products/fp4.png",
+    image: "/accu-scope/products/fp4.webp",
   }
 ];
 export default function ProductsSection() {

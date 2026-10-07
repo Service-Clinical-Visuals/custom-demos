@@ -41,7 +41,7 @@ export default function Header() {
           <div className="container mx-auto px-4 md:px-8 flex items-center justify-between w-full">
             {/* Logo */}
             <Link href="/entermed" className="flex items-center gap-2.5 flex-shrink-0">
-              <img src="/entermed/entermed-logo.png" alt="Entermed" className="h-8 lg:h-12" />
+              <img src="/entermed/entermed-logo.webp" alt="Entermed" className="h-8 lg:h-12" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -98,7 +98,7 @@ export default function Header() {
               >
                 <div className="flex justify-between items-center mb-10">
                   <Link href="/entermed" className="flex items-center gap-2.5" onClick={() => setMobileMenuOpen(false)}>
-                    <img src="/entermed/entermed-logo.png" alt="Entermed" className="h-8" />
+                    <img src="/entermed/entermed-logo.webp" alt="Entermed" className="h-8" />
                   </Link>
                   <button
                     onClick={() => setMobileMenuOpen(false)}

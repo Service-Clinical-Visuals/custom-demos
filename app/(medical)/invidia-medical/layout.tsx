@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Invidia Medical",
   description: "Invidia Medical - Advanced ENT and Hearing Care Solutions",
   icons: {
-    icon: "/invidia/invidia-favicon.png",
+    icon: "/invidia/invidia-favicon.webp",
   },
 };
 

@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="container mb-10! grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-16">
                 <div className="lg:col-span-2">
                     <div className="flex items-center gap-3 mb-8">
-                        <img src={`/bytec-healthcare/logo-white.png`} alt="logo" />
+                        <img src={`/bytec-healthcare/logo-white.webp`} alt="logo" />
                     </div>
                     <div className="text-white/90 text-sm leading-relaxed space-y-1 max-w-sm">
                         <p>Bytec Healthcare Limited,</p>
@@ -72,7 +72,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex items-center lg:justify-end justify-center gap-2 mt-2">
-                    <img src={`/bytec-healthcare/home/footer-1.png`} width={`220px`} alt="footer" />
+                    <img src={`/bytec-healthcare/home/footer-1.webp`} width={`220px`} alt="footer" />
                 </div>
             </div>
         </footer>

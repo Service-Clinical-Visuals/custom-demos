@@ -11,14 +11,14 @@ const infoCards = [
   {
     id: 1,
     title: "Corporate Functions",
-    img: "/medical/hr-healthcare/hr-card-3.png",
+    img: "/medical/hr-healthcare/hr-card-3.webp",
     description:
       "The corporate functions group provides centralized, shared services in Human Resources, IT, Business Intelligence, and Accounting across the company, playing vital role in supporting operational performance and strategic initiatives.",
   },
   {
     id: 2,
     title: "Manufacturing and Operations",
-    img: "/medical/hr-healthcare/hr-card-4.png",
+    img: "/medical/hr-healthcare/hr-card-4.webp",
     description:
       "Our 100,000 square foot Concord facility, located in York, Pennsylvania, is home to our manufacturing and operations. The facility supports compounding, production, quality and regulatory, engineering, warehouse distribution, and supply chain.",
   },
@@ -44,7 +44,7 @@ export default function HrAboutCard() {
             className="relative h-[485px] overflow-hidden rounded-[6px]"
           >
             <img
-              src="/medical/hr-healthcare/hr-card-1.png"
+              src="/medical/hr-healthcare/hr-card-1.webp"
               alt="building"
               className="h-full w-full object-cover"
             />
@@ -60,7 +60,7 @@ export default function HrAboutCard() {
             className="relative mt-4 h-full overflow-hidden rounded-[6px] lg:mt-4"
           >
             <img
-              src="/medical/hr-healthcare/hr-card-2.png"
+              src="/medical/hr-healthcare/hr-card-2.webp"
               alt="worker"
               className="h-full w-full object-cover"
             />

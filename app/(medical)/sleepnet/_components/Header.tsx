@@ -29,7 +29,7 @@ export default function Header() {
             <div className="container mx-auto px-6 h-20 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center gap-2">
-                    <img src={`/sleepnet/logo.png`} alt="Sleepnet" width={`140px`} className="md:w-[170px]" />
+                    <img src={`/sleepnet/logo.webp`} alt="Sleepnet" width={`140px`} className="md:w-[170px]" />
                 </div>
 
                 {/* Desktop Nav */}

@@ -72,7 +72,7 @@ export default function About() {
                     <div className="lg:col-span-6" data-aos="fade-left" data-aos-delay="200">
                         <div className="w-full overflow-hidden rounded-2xl shadow-lg border border-gray-100 aspect-[4/3] lg:aspect-auto">
                             <img
-                                src="/medical/lumed-srl/healthcare.png"
+                                src="/medical/lumed-srl/healthcare.webp"
                                 alt="Collaborating and discussing medical diagnostics"
                                 className="w-full h-full object-cover rounded-2xl hover:scale-105 transition-transform duration-700 ease-out"
                             />

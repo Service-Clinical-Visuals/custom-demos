@@ -14,7 +14,7 @@ export default function KnowMore() {
       >
         {/* Background Image */}
         <img
-          src={`/invotec/assets/footer-bg.png`}
+          src={`/invotec/assets/footer-bg.webp`}
           alt="Medical Background"
           className="object-cover w-full absolute -top-[50%]"
         />

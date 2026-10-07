@@ -10,29 +10,29 @@ const products = [
     title: "Endura™ Ureteral Stents",
     description:
       "Provides long-term drainage and patient comfort during extended stent placement.",
-    image: "/cathegenix/cathe-innovation-1.png",
+    image: "/cathegenix/cathe-innovation-1.webp",
   },
   {
     title: "Lumena™ Ureteral Access Sheath (Bendable-Tip)",
     description:
       "Provides reliable access to the ureter while protecting surrounding tissues and enhancing procedural control.",
-    image: "/cathegenix/cathe-innovation-2.png",
+    image: "/cathegenix/cathe-innovation-2.webp",
   },
   {
     title: "Lumena™ Ureteral Access Sheath (Straight-Tip)",
     description:
       "Provides reliable access to the ureter while protecting surrounding tissues and enhancing procedural control.",
-    image: "/cathegenix/cathe-innovation-3.png",
+    image: "/cathegenix/cathe-innovation-3.webp",
   },
   {
     title: "NaviGlide™ Zebra Guidewire",
     description: "Designed for precision, safety, and seamless navigation in urological procedures. It is utilized alongside...",
-    image: "/cathegenix/cathe-innovation-4.png",
+    image: "/cathegenix/cathe-innovation-4.webp",
   },
   {
     title: "NaviHydro™ GuideWire",
     description: "This hydrophilic guidewire offers outstanding navigability through complex and narrow anatomical",
-    image: "/cathegenix/cathe-innovation-5.png",
+    image: "/cathegenix/cathe-innovation-5.webp",
   }
 ];
 

@@ -64,7 +64,7 @@ export default function AboutSection() {
                     <div className="lg:w-1/2 relative w-full" data-aos="fade-left">
                         <div className="rounded-[2.5rem] overflow-hidden">
                             <img
-                                src={`/uzumcu/images/home/abt-2.jpg`}
+                                src={`/uzumcu/images/home/abt-2.webp`}
                                 alt="Uzumcu Operating Table"
                                 className="w-full h-full object-cover"
                             />

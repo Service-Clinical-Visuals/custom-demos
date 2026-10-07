@@ -49,7 +49,7 @@ export const Header = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between">
                         <Link href="/" className="flex items-center gap-2">
-                            <img src={`/hey-patient/images/home/logo.png`} alt="Hey Patient" className="h-12 object-contain" />
+                            <img src={`/hey-patient/images/home/logo.webp`} alt="Hey Patient" className="h-12 object-contain" />
                         </Link>
 
                         <nav className="hidden lg:flex items-center space-x-5 xl:space-x-7">
@@ -71,7 +71,7 @@ export const Header = () => {
                         <div className="hidden lg:flex items-center gap-3">
                             <div className="flex items-center gap-1.5 font-bold text-[#1E293B] bg-[#F1F5F9] hover:bg-gray-200 transition-colors rounded-md px-3 py-1.5 cursor-pointer">
                                 <div className="text-[16px] leading-none rounded-full">
-                                    <img src={`/hey-patient/images/home/usa.png`} alt="" className='w-5 h-5 rounded-full' />
+                                    <img src={`/hey-patient/images/home/usa.webp`} alt="" className='w-5 h-5 rounded-full' />
                                 </div>
                                 <span>EN</span>
                                 <span className="text-[8px] ml-0.5 mt-0.5">▼</span>

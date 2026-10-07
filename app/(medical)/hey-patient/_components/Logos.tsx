@@ -2,14 +2,14 @@ import React from 'react';
 
 
 const logos = [
-    "/images/home/healthcare-1.png",
-    "/images/home/healthcare-2.png",
-    "/images/home/healthcare-3.png",
-    "/images/home/healthcare-4.png",
-    "/images/home/healthcare-5.png",
-    "/images/home/healthcare-6.png",
-    "/images/home/healthcare-7.png",
-    "/images/home/healthcare-8.png"
+    "/images/home/healthcare-1.webp",
+    "/images/home/healthcare-2.webp",
+    "/images/home/healthcare-3.webp",
+    "/images/home/healthcare-4.webp",
+    "/images/home/healthcare-5.webp",
+    "/images/home/healthcare-6.webp",
+    "/images/home/healthcare-7.webp",
+    "/images/home/healthcare-8.webp"
 ];
 export const Logos = () => {
     return (

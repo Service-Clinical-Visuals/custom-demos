@@ -6,11 +6,11 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import { ArrowUpRight } from 'lucide-react';
 
 const departments = [
-    { img: "/images/home/dept-1.png", title: 'Hospitals & Clinics', desc: 'Automated patient logistics and self-Services to ease staff-workload' },
-    { img: "/images/home/dept-2.png", title: 'Rehab', desc: 'Effortless navigation, real-time therapy plans, and up-to-date information.' },
-    { img: "/images/home/dept-3.png", title: 'Affiliated Clinics', desc: 'Seamless access, timely notification, and optimal support.' },
-    { img: "/images/home/dept-4.png", title: 'Psychiatry', desc: 'Intuitive interaction, navigation, always up-to-date schedules, information, day plans and more' },
-    { img: "/images/home/dept-5.png", title: 'Practices', desc: 'Digital entry and online-booking, automated interaction, and ready-made documents.' }
+    { img: "/images/home/dept-1.webp", title: 'Hospitals & Clinics', desc: 'Automated patient logistics and self-Services to ease staff-workload' },
+    { img: "/images/home/dept-2.webp", title: 'Rehab', desc: 'Effortless navigation, real-time therapy plans, and up-to-date information.' },
+    { img: "/images/home/dept-3.webp", title: 'Affiliated Clinics', desc: 'Seamless access, timely notification, and optimal support.' },
+    { img: "/images/home/dept-4.webp", title: 'Psychiatry', desc: 'Intuitive interaction, navigation, always up-to-date schedules, information, day plans and more' },
+    { img: "/images/home/dept-5.webp", title: 'Practices', desc: 'Digital entry and online-booking, automated interaction, and ready-made documents.' }
 ];
 
 export const Departments = () => {
@@ -21,7 +21,7 @@ export const Departments = () => {
                     {/* Background Image and Overlay */}
                     <div className="absolute inset-0 z-0">
                         <img
-                            src={`/hey-patient/images/home/dept-bg.png`}
+                            src={`/hey-patient/images/home/dept-bg.webp`}
                             alt="Background"
                             className="w-full h-full object-cover "
                         />
@@ -55,7 +55,7 @@ export const Departments = () => {
                                         Visit our Portal <ArrowUpRight className="w-4 h-4" />
                                     </button>
                                 </div>
-                                <img src={`/hey-patient/images/home/medical-dr.png`} alt="Doctor" className="absolute bottom-0 right-0 w-100 h-auto object-contain opacity-90 group-hover:scale-105 transition-transform duration-500" />
+                                <img src={`/hey-patient/images/home/medical-dr.webp`} alt="Doctor" className="absolute bottom-0 right-0 w-100 h-auto object-contain opacity-90 group-hover:scale-105 transition-transform duration-500" />
                             </div>
                         </div>
 
@@ -92,7 +92,7 @@ export const Departments = () => {
                                         <button className="bg-white text-[#08949E] text-xs font-semibold py-2 px-4 rounded-full flex items-center gap-2 w-max relative z-10">
                                             Visit our Portal <ArrowUpRight className="w-4 h-4" />
                                         </button>
-                                        <img src={`/hey-patient/images/home/medical-dr.png`} alt="Doctor" className="absolute -bottom-4 -right-4 w-32 object-contain opacity-50" />
+                                        <img src={`/hey-patient/images/home/medical-dr.webp`} alt="Doctor" className="absolute -bottom-4 -right-4 w-32 object-contain opacity-50" />
                                     </div>
                                 </SwiperSlide>
 

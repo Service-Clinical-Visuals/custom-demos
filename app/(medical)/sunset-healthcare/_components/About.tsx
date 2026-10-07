@@ -7,7 +7,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image Placeholder */}
           <div data-aos="fade-right" className="w-full h-[350px] md:h-[450px] bg-gray-100 rounded-2xl overflow-hidden relative shadow-sm flex items-center justify-center">
-            <img src="/sunset-healthcare/home/about.jpg" alt="About" className="w-full h-full object-cover" />
+            <img src="/sunset-healthcare/home/about.webp" alt="About" className="w-full h-full object-cover" />
           </div>
 
           {/* Content */}

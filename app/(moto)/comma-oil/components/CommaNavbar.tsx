@@ -37,9 +37,9 @@ export default function CommaNavbar() {
         {/* Right-side info + LOGIN */}
         <div className="z-10 flex h-full items-center justify-between bg-[#181818] max-w-[90%]! mx-auto">
           <div className="hidden items-center gap-0 text-[20px] text-white sm:flex font1 font-normal! tracking-[0px]! leading-[100%]!">
-            <img src="/comma/mail.png" /> <span className="pr-6 ml-2 ">support@gmail.com</span>
+            <img src="/comma/mail.webp" /> <span className="pr-6 ml-2 ">support@gmail.com</span>
             <div className="h-4 w-px bg-white/25" />
-            <img src="/comma/clock.png" /> <span className="pr-6 ml-2">Mon to Fri : 8:30 am to 5:30 pm</span>
+            <img src="/comma/clock.webp" /> <span className="pr-6 ml-2">Mon to Fri : 8:30 am to 5:30 pm</span>
           </div>
           <div className="flex items-center gap-1 border-l border-white/25 ">
             <div className="flex items-center gap-1 border-l border-white/25 px-6">
@@ -47,7 +47,7 @@ export default function CommaNavbar() {
                   <img
                     width={"62px"}
                     height={"33px"}
-                    src="/comma/globe.png"
+                    src="/comma/globe.webp"
                   />
                 </span>
             </div>
@@ -65,7 +65,7 @@ export default function CommaNavbar() {
           {/* Logo — sits over the white panel */}
           <div className="flex h-full items-center">
             <img
-              src="/comma/comma_logo.png"
+              src="/comma/comma_logo.webp"
               alt="COMMA"
               className="h-[50px] w-auto"
             />
@@ -94,7 +94,7 @@ export default function CommaNavbar() {
               className="flex-1 bg-transparent text-[24px] outline-none placeholder:text-[#333333A6] font1"
             />
             <img
-              src="/comma/search.png"
+              src="/comma/search.webp"
               alt="search"
               className="h-[38px] w-auto"
             />

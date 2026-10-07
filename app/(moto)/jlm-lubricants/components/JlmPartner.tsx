@@ -101,7 +101,7 @@ export default function JlmPartner() {
             className="overflow-hidden"
           >
             <img
-              src="/jlm/jlm-partner-1.png"
+              src="/jlm/jlm-partner-1.webp"
               alt=""
               className="
                 h-full
@@ -136,7 +136,7 @@ export default function JlmPartner() {
             className="overflow-hidden"
           >
             <img
-              src="/jlm/jlm-partner-2.png"
+              src="/jlm/jlm-partner-2.webp"
               alt=""
               className="
                 h-full
@@ -180,7 +180,7 @@ export default function JlmPartner() {
               <div className="flex gap-4">
 
                 <img
-                  src="/jlm/jlm-wheel.png"
+                  src="/jlm/jlm-wheel.webp"
                   alt="wheel-icon"
                   className="h-8 w-8 shrink-0 object-contain"
                 />
@@ -198,7 +198,7 @@ export default function JlmPartner() {
 
               <div className="flex gap-4">
                 <img
-                  src="/jlm/jlm-wheel.png"
+                  src="/jlm/jlm-wheel.webp"
                   alt="wheel-icon"
                   className="h-8 w-8 shrink-0 object-contain"
                 />

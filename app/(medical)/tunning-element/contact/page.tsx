@@ -42,7 +42,7 @@ export default function ContactPage() {
                   placeholder="Enter your Full Name *" 
                   className="w-full bg-[#FCF3EF] text-gray-700 font-body px-5 py-4 outline-none focus:ring-2 focus:ring-white/50 rounded-sm pr-12"
                 />
-                <img src="/medical/tunning-element/person.png" alt="user" className="absolute right-4 top-1/2 -translate-y-1/2" />
+                <img src="/medical/tunning-element/person.webp" alt="user" className="absolute right-4 top-1/2 -translate-y-1/2" />
               </div>
               
               {/* Input 2 */}
@@ -52,7 +52,7 @@ export default function ContactPage() {
                   placeholder="Enter your Email*" 
                   className="w-full bg-[#FCF3EF] text-gray-700 font-body px-5 py-4 outline-none focus:ring-2 focus:ring-white/50 rounded-sm pr-12"
                 />
-                <img src="/medical/tunning-element/Mail.png" alt="user" className="absolute right-4 top-1/2 -translate-y-1/2" />
+                <img src="/medical/tunning-element/Mail.webp" alt="user" className="absolute right-4 top-1/2 -translate-y-1/2" />
               </div>
               
               {/* Input 3 */}
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   placeholder="Enter subject Line" 
                   className="w-full bg-[#FCF3EF] text-gray-700 font-body px-5 py-4 outline-none focus:ring-2 focus:ring-white/50 rounded-sm pr-12"
                 />
-                <img src="/medical/tunning-element/txt.png" alt="user" className="absolute right-4 top-1/2 -translate-y-1/2" />
+                <img src="/medical/tunning-element/txt.webp" alt="user" className="absolute right-4 top-1/2 -translate-y-1/2" />
               </div>
               
               {/* Textarea */}
@@ -72,7 +72,7 @@ export default function ContactPage() {
                   rows={4}
                   className="w-full bg-[#FCF3EF] text-gray-700 font-body px-5 py-4 outline-none focus:ring-2 focus:ring-white/50 rounded-sm pr-12 resize-none"
                 ></textarea>
-                <img src="/medical/tunning-element/msg.png" alt="message icon" className="absolute right-4 top-4 w-5 h-5 object-contain" />
+                <img src="/medical/tunning-element/msg.webp" alt="message icon" className="absolute right-4 top-4 w-5 h-5 object-contain" />
               </div>
               
               {/* Submit Button */}
@@ -95,26 +95,26 @@ export default function ContactPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 bg-[#FCF3EF] border border-[#e0cdbf] rounded-sm overflow-hidden shadow-sm h-full max-h-[400px]">
               <div className="p-8 flex flex-col justify-center">
                 <div className="flex items-center space-x-3 mb-8">
-                                    <img src="/medical/tunning-element/hdofz.png" alt="map pin" className="w-6 h-6" />
+                                    <img src="/medical/tunning-element/hdofz.webp" alt="map pin" className="w-6 h-6" />
 
                   <h3 className="font-heading font-semibold text-[#1c2331] product-title">Head Office</h3>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <img src="/medical/tunning-element/loc.png" alt="map pin" className="w-5 h-6" />
+                    <img src="/medical/tunning-element/loc.webp" alt="map pin" className="w-5 h-6" />
                     <span className="text-gray-600 font-body section-text leading-relaxed">
                       1440 State Highway 248, Suite Q435, Branson, MO 65616
                     </span>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <img src="/medical/tunning-element/phon.png" alt="map pin" className="w-5 h-5" />
+                    <img src="/medical/tunning-element/phon.webp" alt="map pin" className="w-5 h-5" />
                     <span className="text-gray-600 font-body section-text">
                       (417) 973-0000
                     </span>
                   </div>
                   <div className="flex items-start space-x-4">
-                    <img src="/medical/tunning-element/clk.png" alt="map pin" className="w-5 h-5" />
+                    <img src="/medical/tunning-element/clk.webp" alt="map pin" className="w-5 h-5" />
                     <span className="text-gray-600 font-body section-text leading-relaxed">
                       Monday-Friday 9am - 4pm, Closed Saturday & Sunday
                     </span>
@@ -145,25 +145,25 @@ export default function ContactPage() {
               
               <div className="p-8 flex flex-col justify-center order-1 sm:order-2">
                 <div className="flex items-center space-x-3 mb-8">
-                  <img src="/medical/tunning-element/grandvilage.png" alt="map pin" className="w-6 h-6" />
+                  <img src="/medical/tunning-element/grandvilage.webp" alt="map pin" className="w-6 h-6" />
                   <h3 className="font-heading font-semibold text-[#1c2331] product-title">Grand Village Shops</h3>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                   <img src="/medical/tunning-element/loc.png" alt="map pin" className="w-5 h-6" />
+                   <img src="/medical/tunning-element/loc.webp" alt="map pin" className="w-5 h-6" />
                     <span className="text-gray-600 font-body section-text leading-relaxed">
                       2800 MO-76, Suite 14, Branson, MO 65616
                     </span>
                   </div>
                   <div className="flex items-center space-x-4">
-                   <img src="/medical/tunning-element/phon.png" alt="map pin" className="w-5 h-5" />
+                   <img src="/medical/tunning-element/phon.webp" alt="map pin" className="w-5 h-5" />
                     <span className="text-gray-600 font-body section-text">
                       (417) 238-0076
                     </span>
                   </div>
                   <div className="flex items-start space-x-4">
-                    <img src="/medical/tunning-element/clk.png" alt="map pin" className="w-5 h-5" />
+                    <img src="/medical/tunning-element/clk.webp" alt="map pin" className="w-5 h-5" />
                     <span className="text-gray-600 font-body section-text leading-relaxed">
                       March - December: Monday - Sunday, 10 am - 5 pm January 2, 3, 8-10, 15-17, 22-24, 29-30 February 5-7, 12-14, 19-21, 26-28
                     </span>

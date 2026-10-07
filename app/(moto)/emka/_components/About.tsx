@@ -15,7 +15,7 @@ export default function About() {
           <div className="relative w-full aspect-square md:aspect-[4/3] lg:aspect-square flex items-center justify-center">
             {/* Bottom Right: ATV */}
             <img
-              src="/moto/emka/section1.png"
+              src="/moto/emka/section1.webp"
               alt="ATV in desert"
               className="absolute w-full h-full object-cover z-40"
             />
@@ -49,7 +49,7 @@ export default function About() {
               ].map((text, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1 shrink-0">
-                    <img src="/moto/emka/steering.png" alt="bullet point icon" className="w-5 h-5 xl:w-7 xl:h-7 object-contain" />
+                    <img src="/moto/emka/steering.webp" alt="bullet point icon" className="w-5 h-5 xl:w-7 xl:h-7 object-contain" />
                   </div>
                   <Typography variant="body" color="body" className="font-exo">
                     {text}

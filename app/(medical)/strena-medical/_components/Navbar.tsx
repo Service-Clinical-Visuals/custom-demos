@@ -42,7 +42,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/strena-medical" className="flex items-center gap-2">
            <img
-            src="/strena/images/strena-logo.png"
+            src="/strena/images/strena-logo.webp"
             alt="Strena Medical Logo"
             className="h-10 lg:h-12 w-auto object-contain"
           />

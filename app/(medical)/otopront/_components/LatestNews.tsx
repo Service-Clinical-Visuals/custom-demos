@@ -4,13 +4,13 @@ export default function LatestNews() {
   const newsItems = [
     {
       title: "PES PILOT HDpro",
-      path: "/otopront/images/news-1.png",
+      path: "/otopront/images/news-1.webp",
       text: "The PES PILOT HDpro speeds up the videoendoscopic examination. Its front-mounted, swivelling touchscreen facilitates operation and ensures an optimal viewing angle at all times.",
       hasBadges: true,
     },
     {
       title: "German Design Winner Award 2022",
-      path: "/otopront/images/news-2.png",
+      path: "/otopront/images/news-2.webp",
       text: "Jury statement: \"The 'PES PILOT HDpro' is a state-of-the-art medical device for videoendoscopic examination. It has no visible buttons and is operated in a modern and comfortable way via the front-mounted, swivelling touchscreen.\"",
       hasBadges: false,
     }
@@ -61,7 +61,7 @@ export default function LatestNews() {
                 {/* Badges for Card 1 */}
                 {item.hasBadges && (
                   <div className="flex flex-wrap gap-2 mt-auto">
-                    <img src="otopront/images/4k.png" alt="" />
+                    <img src="otopront/images/4k.webp" alt="" />
                   </div>
                 )}
               </div>

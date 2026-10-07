@@ -9,7 +9,7 @@ export default function WhyOsteobionix() {
           {/* Image Content (Left) */}
           <div className="relative w-full h-[350px] md:h-[450px] lg:h-[550px] xl:h-auto rounded-[2rem] overflow-hidden" data-aos="fade-right">
             <img
-              src="/osteobionix/abt-2.png"
+              src="/osteobionix/abt-2.webp"
               alt="Surgeons in operation"
               className="absolute inset-0 w-full h-full object-cover"
             />

@@ -8,22 +8,22 @@ import Button from "./Button";
 export default function Choose() {
   const cards = [
     {
-      icon: "/moto/german-gold/section4.png",
+      icon: "/moto/german-gold/section4.webp",
       title: "Premium Quality",
       desc: "Formulated with high-quality base oils and advanced additives to deliver superior protection, enhanced performance, and long-lasting reliability under demanding operating conditions."
     },
     {
-      icon: "/moto/german-gold/section41.png",
+      icon: "/moto/german-gold/section41.webp",
       title: "Advanced Technology",
       desc: "Driven by continuous research and innovation, German Gold develops advanced lubricant solutions that meet the evolving demands of modern engines and mach.."
     },
     {
-      icon: "/moto/german-gold/section42.png",
+      icon: "/moto/german-gold/section42.webp",
       title: "Reliable Performance",
       desc: "Tested under demanding conditions, German Gold lubricants deliver consistent protection, enhanced durability, and reliable performance to help maximize engine and equipment life."
     },
     {
-      icon: "/moto/german-gold/section43.png",
+      icon: "/moto/german-gold/section43.webp",
       title: "Sustainable Approach",
       desc: "German Gold develops environmentally responsible lubricant solutions that help improve efficiency, reduce emissions, and support a cleaner, more sustainable future."
     }

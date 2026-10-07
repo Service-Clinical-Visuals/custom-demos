@@ -71,7 +71,7 @@ export default function OneCableDesign() {
               {/* Image 1 */}
               <div className="aspect-square rounded-[24px] overflow-hidden shadow-sm">
                 <img 
-                  src="/alivecor/images/one-cable-1.png" 
+                  src="/alivecor/images/one-cable-1.webp" 
                   alt="Doctor and patient using Kardia device" 
                   className="w-full h-full object-cover"
                 />
@@ -79,7 +79,7 @@ export default function OneCableDesign() {
               {/* Image 2 */}
               <div className="aspect-square rounded-[24px] overflow-hidden shadow-sm">
                 <img 
-                  src="/alivecor/images/one-cable-2.png" 
+                  src="/alivecor/images/one-cable-2.webp" 
                   alt="Smiling people holding KardiaMobile devices" 
                   className="w-full h-full object-cover"
                 />
@@ -87,7 +87,7 @@ export default function OneCableDesign() {
               {/* Image 3 */}
               <div className="aspect-square rounded-[24px] overflow-hidden shadow-sm">
                 <img 
-                  src="/alivecor/images/one-cable-3.png" 
+                  src="/alivecor/images/one-cable-3.webp" 
                   alt="Kardia 12L resting ECG system" 
                   className="w-full h-full object-cover"
                 />
@@ -95,7 +95,7 @@ export default function OneCableDesign() {
               {/* Image 4 */}
               <div className="aspect-square rounded-[24px] overflow-hidden shadow-sm">
                 <img 
-                  src="/alivecor/images/one-cable-4.jpg" 
+                  src="/alivecor/images/one-cable-4.webp" 
                   alt="Kardia accessories" 
                   className="w-full h-full object-cover"
                 />

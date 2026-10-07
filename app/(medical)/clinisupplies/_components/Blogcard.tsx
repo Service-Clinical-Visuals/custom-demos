@@ -5,21 +5,21 @@ import Image from "next/image";
 export default function BlogCard() {
   const blogs = [
     {
-      image: "/clinisupplies/card-1.png",
+      image: "/clinisupplies/card-1.webp",
       title:
         "Empowering Patients with Reliable Continence Guidance: Introducing the CONfidence App",
       description:
         "Trusted Self‑Help Support for Bladder and Bowel Health Many people experiencing bladder or bowel symptoms delay seekin...",
     },
     {
-      image: "/clinisupplies/card-2.png",
+      image: "/clinisupplies/card-2.webp",
       title:
         "International Women’s Day: Crossing Lake Khövsgöl with Women on a Mission",
       description:
         "At -40°C the world becomes very simple. You notice small things. The sharpness of the air inside your nostrils. The cru...",
     },
     {
-      image: "/clinisupplies/card-3.png",
+      image: "/clinisupplies/card-3.webp",
       title:
         "TAI Consensus Paper, by Julie Storrie- Clinical Lead, Bowel at Clinisupplies",
       description:

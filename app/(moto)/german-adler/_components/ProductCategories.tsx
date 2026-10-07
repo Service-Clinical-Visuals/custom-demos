@@ -4,31 +4,31 @@ import Button from './Button';
 export default function ProductCategories() {
   const categories = [
     {
-      num: "/moto/german-adler/01.png",
+      num: "/moto/german-adler/01.webp",
       title: "TRUCK MOTOR OILS",
       subtitle: "GERMAN ADLERTX SYNT SAE 5W-30 HC-LS",
       desc: "High-performance synthetic motor oil with low SAPS, wear protection, fuel efficiency, and reliable engine performance.",
     },
     {
-      num: "/moto/german-adler/02.png",
+      num: "/moto/german-adler/02.webp",
       title: "MOTORCYCLE OILS",
       subtitle: "GERMAN ADLER 2T-F",
       desc: "Fully synthetic racing oil with advanced low-ash technology for superior lubrication and cleaner combustion.",
     },
     {
-      num: "/moto/german-adler/03.png",
+      num: "/moto/german-adler/03.webp",
       title: "GEAR OILS",
       subtitle: "GERMAN ADLERTX SYNT SAE 5W-30 HC-LS",
       desc: "High-performance gear oil for smooth shifting, superior protection, and extended service life.",
     },
     {
-      num: "/moto/german-adler/04.png",
+      num: "/moto/german-adler/04.webp",
       title: "BREAK FLUID",
       subtitle: "GERMAN ADLER BRAKE FLUID DOT 4",
       desc: "Synthetic brake fluid with high performance and corrosion protection.",
     },
     {
-      num: "/moto/german-adler/05.png",
+      num: "/moto/german-adler/05.webp",
       title: "CAR MOTOR OILS",
       subtitle: "GERMAN ADLER SYNT SAE 0W-12",
       desc: "Fully synthetic high-performance premium motor oil, for the latest petrol and hybrid petrol engines from BMW.",

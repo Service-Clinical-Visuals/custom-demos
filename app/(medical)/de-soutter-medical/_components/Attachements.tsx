@@ -10,7 +10,7 @@ export default function Attachments() {
       {/* BACKGROUND IMAGE (15% opacity) */}
       <div className="absolute inset-0">
         <Image
-          src="/de-soutter-medical/bg-2.jpg" // 👉 your bg image
+          src="/de-soutter-medical/bg-2.webp" // 👉 your bg image
           alt="background"
           fill
           className="object-cover opacity-[0.15]"
@@ -62,7 +62,7 @@ export default function Attachments() {
           {/* SMALL IMAGE */}
           <div className="w-full h-70 relative rounded-2xl overflow-hidden bg-[#F9F9F9] shadow-md">
             <Image
-              src="/de-soutter-medical/attachment.png" // 👉 second image
+              src="/de-soutter-medical/attachment.webp" // 👉 second image
               alt="Attachments Set"
               fill
               className="object-contain p-4"

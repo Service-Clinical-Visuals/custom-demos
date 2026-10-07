@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="w-full bg-white relative">
       
       {/* 1. Top Call-to-Action Banner */}
-      <div className="bg-[url('/7s-medical/learning-journey.png')] bg-cover bg-center bg-no-repeat relative overflow-hidden py-16 md:py-20">
+      <div className="bg-[url('/7s-medical/learning-journey.webp')] bg-cover bg-center bg-no-repeat relative overflow-hidden py-16 md:py-20">
         
         <div className="relative z-10 container mx-auto px-6 text-center">
           <h2 className="text-[28px] md:text-[30px] lg:text-[32px] font-bold mb-4 text-white!">
@@ -36,7 +36,7 @@ export default function Footer() {
             {/* Logo Group */}
             <Link href="#top" className="flex items-center gap-3">
               <div className="flex flex-col items-start leading-none">
-                <img src="/7s-medical/7s-medical.png" alt="7s Medical Logo" className="h-16" />
+                <img src="/7s-medical/7s-medical.webp" alt="7s Medical Logo" className="h-16" />
               </div>
             </Link>
 

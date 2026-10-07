@@ -33,7 +33,7 @@ export default function AboutHero() {
                     </div>
                     <div className="lg:w-1/2 relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-lg" data-aos="fade-left" data-aos-delay="100">
                         <img
-                            src={`/kap-medical/images/about/abt-kap.jpg`}
+                            src={`/kap-medical/images/about/abt-kap.webp`}
                             alt="About KAP Medical"
                             className="object-cover"
                         />

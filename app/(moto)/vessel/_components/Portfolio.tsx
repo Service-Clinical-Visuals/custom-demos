@@ -9,43 +9,43 @@ import Typography from "./Typography";
 
 const products = [
   {
-    image: "/moto/vessel/d1.png",
+    image: "/moto/vessel/d1.webp",
     name: "Screwdriving Bits",
   },
   {
-    image: "/moto/vessel/d2.png",
+    image: "/moto/vessel/d2.webp",
     name: "Hand Tools",
   },
   {
-    image: "/moto/vessel/d3.png",
+    image: "/moto/vessel/d3.webp",
     name: "Air Impact Wrenches",
   },
   {
-    image: "/moto/vessel/d4.png",
+    image: "/moto/vessel/d4.webp",
     name: "Oil Xtra Air Screwdrivers",
   },
   {
-    image: "/moto/vessel/d5.png",
+    image: "/moto/vessel/d5.webp",
     name: "Air Micro Grinders",
   },
   {
-    image: "/moto/vessel/d6.png",
+    image: "/moto/vessel/d6.webp",
     name: "Air Dusters",
   },
   {
-    image: "/moto/vessel/d7.png",
+    image: "/moto/vessel/d7.webp",
     name: "Air Nippers",
   },
   {
-    image: "/moto/vessel/d8.png",
+    image: "/moto/vessel/d8.webp",
     name: "Anti-static Solution Device",
   },
   {
-    image: "/moto/vessel/d9.png",
+    image: "/moto/vessel/d9.webp",
     name: "Gasoline Engine Impact Wrench",
   },
   {
-    image: "/moto/vessel/d10.png",
+    image: "/moto/vessel/d10.webp",
     name: "SP AIR",
   },
 ];

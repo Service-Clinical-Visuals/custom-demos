@@ -49,7 +49,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex items-center group">
           <img
-            src="/medical/o-two/logo.png"
+            src="/medical/o-two/logo.webp"
             alt="O-Two Medical Technologies"
             className="h-10 w-auto object-contain"
           />

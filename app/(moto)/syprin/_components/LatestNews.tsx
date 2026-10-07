@@ -12,7 +12,7 @@ export default function LatestNews() {
   const articles = [
     {
       id: 1,
-      image: "/moto/syprin/n1.png",
+      image: "/moto/syprin/n1.webp",
       featuredDate: "28 July 2026",
       listDate: "28 July 2026",
       comments: "24 Comments",
@@ -23,7 +23,7 @@ export default function LatestNews() {
     },
     {
       id: 2,
-      image: "/moto/syprin/n3.png",
+      image: "/moto/syprin/n3.webp",
       featuredDate: "16 July 2026",
       listDate: "16 July 2025",
       comments: "18 Comments",
@@ -34,7 +34,7 @@ export default function LatestNews() {
     },
     {
       id: 3,
-      image: "/moto/syprin/n4.png",
+      image: "/moto/syprin/n4.webp",
       featuredDate: "25 May 2026",
       listDate: "25 May 2023",
       comments: "12 Comments",
@@ -84,7 +84,7 @@ export default function LatestNews() {
                 <div className="flex items-center gap-4 mb-4 min-[3800px]:mb-6">
                   <div className="flex items-center gap-2 font-bold text-[#F6F6F6]">
                     <img
-                      src="/moto/syprin/cal.png"
+                      src="/moto/syprin/cal.webp"
                       alt="Date"
                       className="w-[18px] h-[18px] min-[3800px]:w-[26px] min-[3800px]:h-[26px] object-contain shrink-0"
                     />
@@ -96,7 +96,7 @@ export default function LatestNews() {
 
                   <div className="flex items-center gap-2 font-bold text-[#F6F6F6]">
                     <img
-                      src="/moto/syprin/msg.png"
+                      src="/moto/syprin/msg.webp"
                       alt="Comments"
                       className="w-[18px] h-[18px] min-[3800px]:w-[26px] min-[3800px]:h-[26px] object-contain shrink-0"
                     />
@@ -156,7 +156,7 @@ export default function LatestNews() {
                     <div className="flex-1 flex flex-col justify-center">
                       <div className="flex items-center gap-2 text-white font-bold mb-1.5">
                         <img
-                          src="/moto/syprin/cal.png"
+                          src="/moto/syprin/cal.webp"
                           alt="Date"
                           className="w-[16px] h-[16px] min-[3800px]:w-[24px] min-[3800px]:h-[24px] object-contain shrink-0"
                         />

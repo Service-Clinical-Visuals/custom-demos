@@ -35,7 +35,7 @@ export default function About() {
             {/* Item 1 */}
             <div className="flex gap-4">
               <div className="w-12 h-12 shrink-0 rounded-lg flex items-center justify-center">
-                <img src="/vectracor/ecg-machine.png" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
+                <img src="/vectracor/ecg-machine.webp" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
               </div>
               <div>
                 <h4 className="font-semibold subheadingblack">
@@ -50,7 +50,7 @@ export default function About() {
             {/* Item 2 */}
             <div className="flex gap-4">
               <div className="w-12 h-12 shrink-0 rounded-lg flex items-center justify-center">
-                <img src="/vectracor/ct-scan.png" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
+                <img src="/vectracor/ct-scan.webp" className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain" />
               </div>
               <div>
                 <h4 className="font-semibold subheadingblack">
@@ -95,7 +95,7 @@ export default function About() {
 
           {/* Image */}
           <img
-            src="/vectracor/about.png"
+            src="/vectracor/about.webp"
             alt="About VectraCor"
             className="w-full h-56 sm:h-72 md:h-96 lg:h-full"
           />

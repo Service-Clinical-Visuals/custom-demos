@@ -17,7 +17,7 @@ export default function VapoFooter() {
             
             {/* LOGO */}
 
-            <Image src="/vapotherm/assets/vapotherm-logo.png" alt="Vapotherm Logo" width={300} height={200} />
+            <Image src="/vapotherm/assets/vapotherm-logo.webp" alt="Vapotherm Logo" width={300} height={200} />
             {/* NEWSLETTER */}
             <p className="text-gray-700 text-md lg:text-lg 2xl:text-lg  mb-4 font-semibold mt-6">
               Subscribe to Our Newsletter

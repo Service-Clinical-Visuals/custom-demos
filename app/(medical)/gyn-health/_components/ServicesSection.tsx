@@ -76,7 +76,7 @@ export default function ServicesSection() {
     return (
         <section
             className="relative overflow-hidden py-24 bg-cover bg-center"
-            style={{ backgroundImage: "url('/gyn-health/home/bg.jpg')" }}
+            style={{ backgroundImage: "url('/gyn-health/home/bg.webp')" }}
         >
             <div className="absolute inset-0 bg-[#C0E0CD]/70 pointer-events-none"></div>
 

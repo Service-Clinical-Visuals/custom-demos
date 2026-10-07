@@ -13,7 +13,7 @@ export default function Footer() {
                     {/* Logo Area */}
                     <Link href="/lumed-srl" className="flex items-center gap-3">
                         <img
-                            src="/medical/lumed-srl/logo.png"
+                            src="/medical/lumed-srl/logo.webp"
                             alt="LUMED Logo"
                             className="h-11 xl:h-15 w-auto object-contain"
                         />

@@ -6,12 +6,12 @@ import "swiper/css/pagination";
 
 export default function WhatToSeeCatalog() {
   const cards = [
-    { id: "01", title: "Wheel Aligners", category: "Wheel Aligners", img: "see-1.png" },
-    { id: "02", title: "OEM Aligners", category: "OEM Aligners", img: "see-2.png" },
-    { id: "03", title: "ADAS", category: "ADAS", img: "see-3.png" },
-    { id: "04", title: "2-Post Alignment", category: "2-POST ALIGNMENT", img: "see-4.png" },
-    { id: "05", title: "Motorsport", category: "Motorsport", img: "see-5.png" },
-    { id: "06", title: "Extras", category: "Extras", img: "see-6.png" },
+    { id: "01", title: "Wheel Aligners", category: "Wheel Aligners", img: "see-1.webp" },
+    { id: "02", title: "OEM Aligners", category: "OEM Aligners", img: "see-2.webp" },
+    { id: "03", title: "ADAS", category: "ADAS", img: "see-3.webp" },
+    { id: "04", title: "2-Post Alignment", category: "2-POST ALIGNMENT", img: "see-4.webp" },
+    { id: "05", title: "Motorsport", category: "Motorsport", img: "see-5.webp" },
+    { id: "06", title: "Extras", category: "Extras", img: "see-6.webp" },
   ];
 
   return (

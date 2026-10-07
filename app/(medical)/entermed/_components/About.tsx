@@ -29,13 +29,13 @@ export default function About() {
             {/* Globe Image Placeholder */}
             <div className="rounded-[20px] border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.14)] aspect-square bg-white flex items-center justify-center p-6 relative overflow-hidden">
               <div className="w-full h-full rounded-full border border-blue-200/50 border-dashed flex items-center justify-center bg-blue-50/20">
-                <img src="/entermed/about-1.png" alt="about-1" className="w-full h-full object-cover" />
+                <img src="/entermed/about-1.webp" alt="about-1" className="w-full h-full object-cover" />
               </div>
             </div>
 
             {/* People Image Placeholder */}
             <div className="rounded-[20px] shadow-[0_4px_20px_rgba(0,0,0,0.06)] aspect-square bg-gray-100 flex items-center justify-center relative overflow-hidden border border-gray-100">
-              <img src="/entermed/about-2.png" alt="about-2" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="/entermed/about-2.webp" alt="about-2" className="absolute inset-0 w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 items-center">
           {/* Large Image Content */}
           <div className="rounded-[20px] aspect-[2/1.3] bg-gray-100 flex items-center justify-center overflow-hidden border border-gray-100 order-2 lg:order-1 relative" data-aos="fade-right">
-            <img src="/entermed/about-3.png" alt="about-3" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/entermed/about-3.webp" alt="about-3" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Text Content */}

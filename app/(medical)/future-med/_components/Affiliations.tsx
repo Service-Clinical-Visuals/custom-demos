@@ -1,5 +1,5 @@
 export default function Affiliations() {
-  const placeholders = ["paticipate-1.png", "paticipate-2.png", "paticipate-3.png", "paticipate-4.png"];
+  const placeholders = ["paticipate-1.webp", "paticipate-2.webp", "paticipate-3.webp", "paticipate-4.webp"];
 
   return (
     <section className="w-full py-24 bg-white">

@@ -73,7 +73,7 @@ export default function Kardia12L() {
           {/* Right Accessory Image */}
           <div className="hidden xl:block xl:col-span-3 w-full flex items-center justify-center" data-aos="fade-left" data-aos-delay="400">
             <img 
-              src="/alivecor/images/kardia.png" 
+              src="/alivecor/images/kardia.webp" 
               alt="Kardia 12L Accessories" 
               className="w-full h-auto rounded-3xl object-cover shadow-lg" 
             />

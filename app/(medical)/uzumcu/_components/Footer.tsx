@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-24 items-start mb-20 leading-relaxed text-[#111827]">
                     {/* Logo Column */}
                     <div className="lg:col-span-1">
-                        <img src={`/uzumcu/images/uzumcu-logo.png`} alt="UZUMCU" className="h-10 mb-8" />
+                        <img src={`/uzumcu/images/uzumcu-logo.webp`} alt="UZUMCU" className="h-10 mb-8" />
 
                     </div>
 

@@ -11,7 +11,7 @@ export default function FeatureSection() {
 
             {/* Image Placeholder */}
             <div className="relative z-10 w-full aspect-4/2.8 bg-gray-200 rounded-lg shadow-lg overflow-hidden flex items-center justify-center text-gray-500 border border-gray-100">
-              <img src={`/future-med/home/about.png`} alt="Feature Image" className="w-full h-full object-cover" />
+              <img src={`/future-med/home/about.webp`} alt="Feature Image" className="w-full h-full object-cover" />
             </div>
           </div>
 

@@ -56,7 +56,7 @@ export default function Header() {
             {/* Logo Section */}
             <Link href="/nihon" className="flex items-center gap-3">
               <div className="flex items-center">
-                <img src="/nihon/images/nihon-logo.png" alt="Nihon Kohden Logo" className="w-55 object-contain" />
+                <img src="/nihon/images/nihon-logo.webp" alt="Nihon Kohden Logo" className="w-55 object-contain" />
               </div>
             </Link>
 

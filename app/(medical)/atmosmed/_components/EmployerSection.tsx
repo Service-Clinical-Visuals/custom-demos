@@ -12,22 +12,22 @@ export default function EmployerSection() {
     {
       name: "Evgeny Shabash, Area Sales Manager",
       desc: "I like what I do, because ultimately the world is getting better thanks to the distribution of our products and our innovations.",
-      img: "/atmosmed/assets/emp_1_atmos.jpg",
+      img: "/atmosmed/assets/emp_1_atmos.webp",
     },
     {
       name: "Britta-Andrea Jurecka, Director HR & Legal",
       desc: "At ATMOS, I can reach my full potential personally and professionally as part of a great, global team and make my concepts of good HR work and corporate culture come true.",
-      img: "/atmosmed/assets/emp_2_atmos.jpg",
+      img: "/atmosmed/assets/emp_2_atmos.webp",
     },
     {
       name: "Sabrina Hogg, Director Marketing & Communications",
       desc: "Right from my first day at ATMOS, I had the freedom and trust to transform what had been a purely operational advertising department into strategic marketing.",
-      img: "/atmosmed/assets/emp_3_atmos.jpg",
+      img: "/atmosmed/assets/emp_3_atmos.webp",
     },
     {
       name: "Ohannes Jaschke, Industrial Mechanic and Trainer in the Metal Center Division",
       desc: "When I do the programming for turned and milled parts, I contribute to the development of new products and thus to the best solution of the highest quality for doctors and medical professionals.",
-      img: "/atmosmed/assets/emp_4_atmos.jpg",
+      img: "/atmosmed/assets/emp_4_atmos.webp",
     },
   ];
 

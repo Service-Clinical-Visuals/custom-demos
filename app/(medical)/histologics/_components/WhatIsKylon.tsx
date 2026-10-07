@@ -31,7 +31,7 @@ export default function WhatIsKylon() {
                     <div className="lg:col-span-5 bg-[#f4f4f4] flex items-center justify-center min-h-[300px] md:min-h-[400px] lg:min-h-[700px]" data-aos="fade-left">
                         <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
                             <img
-                                src={`/histologics/images/kylon.png`}
+                                src={`/histologics/images/kylon.webp`}
                                 alt="Kylon device close up"
                                 className="object-contain"
                             />

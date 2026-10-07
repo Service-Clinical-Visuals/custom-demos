@@ -79,7 +79,7 @@ export default function Header() {
                          style={{ 
                             width: 'calc(var(--logo-width) - 80px)', 
                             clipPath: 'polygon(0 0, 100% 0, 88% 100%, 0 100%)',
-                            background: "url('/arnott/images/dark-bg.png')"
+                            background: "url('/arnott/images/dark-bg.webp')"
                          }}>
                         <div className="absolute inset-0 opacity-10 pointer-events-none"></div>
                     </div>
@@ -90,7 +90,7 @@ export default function Header() {
                     <div className="h-full flex items-center px-4 md:px-12 pr-16 md:pr-24">
                         <Link href="/arnott" className="flex items-center gap-3">
                             <div className="">
-                                <img src="/arnott/images/arnott-logo.png" alt="arnott logo" className="w-25 lg:w-35" />
+                                <img src="/arnott/images/arnott-logo.webp" alt="arnott logo" className="w-25 lg:w-35" />
                             </div>
                         </Link>
                     </div>

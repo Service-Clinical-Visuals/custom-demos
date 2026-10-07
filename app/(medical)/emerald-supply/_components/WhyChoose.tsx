@@ -6,19 +6,19 @@ import Button from "./Button";
 const whyFeatures = [
   {
     title: "Skilled Product Development Team",
-    icon: "/emerald/images/skill.png"
+    icon: "/emerald/images/skill.webp"
   },
   {
     title: "Quick order Processing & Shipment",
-    icon: "/emerald/images/truck.png"
+    icon: "/emerald/images/truck.webp"
   },
   {
     title: "Lasting Products You Can Rely On",
-    icon: "/emerald/images/diamond.png"
+    icon: "/emerald/images/diamond.webp"
   },
   {
     title: "Dedicated Customer support team",
-    icon: "/emerald/images/call-center.png"
+    icon: "/emerald/images/call-center.webp"
   }
 ];
 
@@ -46,7 +46,7 @@ const WhyChoose = () => {
           <div data-aos="fade-right" className="w-full lg:w-1/2">
             <div className="rounded-[2.5rem] overflow-hidden shadow-2xl">
               <img
-                src="/emerald/images/supply.png"
+                src="/emerald/images/supply.webp"
                 alt="Emerald Supply Setup"
                 className="w-full h-auto object-cover"
               />
@@ -75,7 +75,7 @@ const WhyChoose = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6">
               {checklist.map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <img src="/emerald/images/check.png" alt="Check" className="w-5 h-5 object-contain" />
+                  <img src="/emerald/images/check.webp" alt="Check" className="w-5 h-5 object-contain" />
                   <span className="text-[15px] text-[#333333] font-medium">{item}</span>
                 </div>
               ))}

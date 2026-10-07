@@ -12,7 +12,7 @@ export default function Development() {
           data-aos="fade-left"
           className="w-full h-full relative rounded-2xl overflow-hidden">
           <Image
-            src="/de-soutter-medical/development.png" // 👉 place image in public/about/
+            src="/de-soutter-medical/development.webp" // 👉 place image in public/about/
             alt="About"
             fill
             className="object-cover"

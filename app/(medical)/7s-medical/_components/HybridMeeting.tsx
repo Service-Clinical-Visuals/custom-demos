@@ -13,17 +13,17 @@ export default function HybridMeeting() {
   const videos = [
     {
       title: "The Tibial Plateau Fracture",
-      image: "/medical/7s-medical/meet-1.png",
+      image: "/medical/7s-medical/meet-1.webp",
       youtubeLink: "#",
     },
     {
       title: "The Proximal Femur Fracture",
-      image: "/medical/7s-medical/meet-2.png",
+      image: "/medical/7s-medical/meet-2.webp",
       youtubeLink: "#",
     },
     {
       title: "The Locking Compression Technique",
-      image: "/medical/7s-medical/meet-3.png",
+      image: "/medical/7s-medical/meet-3.webp",
       youtubeLink: "#",
     },
   ];

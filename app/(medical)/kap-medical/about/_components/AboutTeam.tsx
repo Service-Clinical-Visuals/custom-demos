@@ -18,19 +18,19 @@ export default function AboutTeam() {
                             name: 'Raj K. Gowda',
                             role: 'Doctor',
                             description: 'Raj is an Engineer with over 25 years of medical device R&D, Design, Regulatory and Manufacturing experience.',
-                            image: '/images/about/team-1.jpg'
+                            image: '/images/about/team-1.webp'
                         },
                         {
                             name: 'Dan F. Rosenmayer',
                             role: 'Doctor',
                             description: 'Dan is an Engineer with over 15 years of medical device R&D, Design and Manufacturing experience.',
-                            image: '/images/about/team-2.jpg'
+                            image: '/images/about/team-2.webp'
                         },
                         {
                             name: 'Dave D. Lewis',
                             role: 'Doctor',
                             description: 'Dave is an Engineer with over 15 years of medical device R&D, Design and Manufacturing experience.',
-                            image: '/images/about/team-3.jpg'
+                            image: '/images/about/team-3.webp'
                         }
                     ].map((member, index) => (
                         <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay={index * 100}>

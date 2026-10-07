@@ -29,7 +29,7 @@ export default function About() {
 
               {/* Left Grey Image Placeholder */}
               <div className=" sm:col-span-5 rounded-xl overflow-hidden min-h-[350px] w-full h-full" data-aos="fade-right" data-aos-delay="200">
-                <img src="/medstrom/images/home/abt-2.png" alt="" className="h-full w-full object-cover" />
+                <img src="/medstrom/images/home/abt-2.webp" alt="" className="h-full w-full object-cover" />
               </div>
 
               {/* Middle Text / Actions */}
@@ -100,7 +100,7 @@ export default function About() {
             {/* Top Image */}
             <div className="flex-1 w-full rounded-xl overflow-hidden shadow-sm relative min-h-[250px]" data-aos="fade-left" data-aos-delay="400">
               <img
-                src="/medstrom/images/home/abt-1.png"
+                src="/medstrom/images/home/abt-1.webp"
                 alt="Hospital staff looking at a screen"
                 className="w-full h-full object-cover absolute inset-0"
               />

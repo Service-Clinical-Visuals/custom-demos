@@ -12,14 +12,14 @@ export default function Event() {
       description:
         "We will be attending EFORT. We look forward to seeing you there. (Find us at stand 34)",
       link: "efort.org",
-      image: "/de-soutter-medical/event-1.png", // Replace with your actual paths
+      image: "/de-soutter-medical/event-1.webp", // Replace with your actual paths
     },
     {
       title: "ACORN, Brisbane Convention Centre",
       date: "14/05/26",
       description: "Join our Australian team at ACORN (Stand number TBC)",
       link: "www.acorn.org.au",
-      image: "/de-soutter-medical/event-2.png",
+      image: "/de-soutter-medical/event-2.webp",
     },
     {
       title: "A.I.I.S.G., Yes Hotel Touring Rimini",
@@ -27,7 +27,7 @@ export default function Event() {
       description:
         "Our Italian team will be attending XVII Congresso Nazionale A.I.I.S.G.",
       link: "www.aiisg.org",
-      image: "/de-soutter-medical/event-3.png",
+      image: "/de-soutter-medical/event-3.webp",
     },
     {
       title: "WHX MIAMI (FIME), Miami Beach...",
@@ -35,7 +35,7 @@ export default function Event() {
       description:
         "Our U.S team will be attending WHX MIAMI. (Find us at stand number A10)",
       link: "WHXmiami",
-      image: "/de-soutter-medical/event-4.png",
+      image: "/de-soutter-medical/event-4.webp",
     },
     {
       title: "BESS, The Glasshouse",
@@ -43,7 +43,7 @@ export default function Event() {
       description:
         "We look forward to seeing you at BESS. . (Find us at stand 8.)",
       link: "bess.ac.uk",
-      image: "/de-soutter-medical/event-5.png",
+      image: "/de-soutter-medical/event-5.webp",
     },
     {
       title: "BAOMS, ICC",
@@ -51,7 +51,7 @@ export default function Event() {
       description:
         "We look forward to seeing you at BAOMS.  (Find us at stand TBC.)",
       link: "www.baoms.org.uk",
-      image: "/de-soutter-medical/event-6.png",
+      image: "/de-soutter-medical/event-6.webp",
     },
     {
       title: "AOP, Eastwood Hall   ",
@@ -59,7 +59,7 @@ export default function Event() {
       description:
         "We will be attending the AOP annual conference, we look forward to seeing you there.",
       link: "www.aop-uk.com",
-      image: "/de-soutter-medical/event-7.png",
+      image: "/de-soutter-medical/event-7.webp",
     },
     {
       title: "EAHM, Church House",
@@ -67,7 +67,7 @@ export default function Event() {
       description:
         "We will be attending European Anterior Hip Meeting, we look forward to seeing you there. ",
       link: "www.eahm",
-      image: "/de-soutter-medical/event-8.png",
+      image: "/de-soutter-medical/event-8.webp",
     },
     {
       title: "NSpine, Royal Horseguards ",
@@ -75,7 +75,7 @@ export default function Event() {
       description:
         "We look forward to seeing you at the BritSpine meeting. (Find us at stand TBC.)",
       link: "www.nspine.com",
-      image: "/de-soutter-medical/event-9.png",
+      image: "/de-soutter-medical/event-9.webp",
     },
     {
       title: "SICOT, Kyoto  ",
@@ -83,7 +83,7 @@ export default function Event() {
       description:
         "We will be attending SICOT. We look forward to seeing you there. (Find us at stand TBC.)",
       link: "www.sicot.org",
-      image: "/de-soutter-medical/event-10.png",
+      image: "/de-soutter-medical/event-10.webp",
     },
   ];
   return (

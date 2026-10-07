@@ -43,7 +43,7 @@ export default function Header() {
             {/* Logo */}
             <div className="flex-shrink-0 z-10">
               <Link href="/" className="flex items-center gap-2">
-                <img src="/xion/images/logo.png" alt="XION Medical" className="w-30" />
+                <img src="/xion/images/logo.webp" alt="XION Medical" className="w-30" />
               </Link>
             </div>
 
@@ -105,7 +105,7 @@ export default function Header() {
                 className="fixed inset-0 bg-white z-[60] flex flex-col p-8 lg:hidden"
               >
                 <div className="flex justify-between items-center mb-12">
-                  <img src="/xion/images/logo.png" alt="XION Medical" className="w-20" />
+                  <img src="/xion/images/logo.webp" alt="XION Medical" className="w-20" />
                   <button onClick={() => setMobileMenuOpen(false)}><X size={32} /></button>
                 </div>
                 <div className="flex flex-col gap-6">

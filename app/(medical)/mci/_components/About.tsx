@@ -9,17 +9,17 @@ const About = () => {
     const cards = [
         {
             title: "Mission",
-            icon: "/mci/images/mission.png",
+            icon: "/mci/images/mission.webp",
             description: "Advance patient care with innovative, trusted medical devices built through global collaboration.",
         },
         {
             title: "Vision",
-            icon: "/mci/images/vision.png",
+            icon: "/mci/images/vision.webp",
             description: "Be a global leader in medical devices, known for innovation, quality, and improving patient outcomes.",
         },
         {
             title: "Values",
-            icon: "/mci/images/values.png",
+            icon: "/mci/images/values.webp",
             description: "Teamwork, responsibility, agility, innovation, and a strong commitment to continuous improvement.",
         }
     ];
@@ -32,7 +32,7 @@ const About = () => {
                     {/* Left: Image Placeholder */}
                     <div className="relative lg:col-span-6" data-aos="fade-right">
                         <div className="rounded-lg overflow-hidden bg-white shadow-sm flex items-center justify-center border border-gray-100 max-h-[800px]">
-                            <img src="/mci/images/abt.png" alt="" className="w-full h-full object-cover" />
+                            <img src="/mci/images/abt.webp" alt="" className="w-full h-full object-cover" />
                         </div>
                     </div>
 

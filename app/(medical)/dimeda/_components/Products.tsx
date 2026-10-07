@@ -22,32 +22,32 @@ if (!mounted) return null
   };
   const products = [
     {
-      img: "/dimeda/dental.png",
+      img: "/dimeda/dental.webp",
       title: "Dental instruments",
       desc: "Broad range for almost all surgical disciplines – reliable, durable and proven in the OR.",
     },
     {
-      img: "/dimeda/endoscopy.png",
+      img: "/dimeda/endoscopy.webp",
       title: "Endoscopy",
       desc: "Modern endoscopy systems for precise diagnostics and interventional procedures – reliable in daily use.",
     },
     {
-      img: "/dimeda/cmf.png",
+      img: "/dimeda/cmf.webp",
       title: "CMF Systems",
       desc: "Reliable solutions for oral and maxillofacial surgery.",
     },
     {
-      img: "/dimeda/sterilization.png",
+      img: "/dimeda/sterilization.webp",
       title: "Sterilization container",
       desc: "Safe and efficient solutions for instrument reprocessing – optimal protection, validated processes and long-lasting quality.",
     },
     {
-      img: "/dimeda/microsurgery.png",
+      img: "/dimeda/microsurgery.webp",
       title: "Microsurgery",
       desc: "High-precision instruments for the finest structures – when every detail matters.",
     },
     {
-      img: "/dimeda/vascular.png",
+      img: "/dimeda/vascular.webp",
       title: "Vascular and thoracic surgery",
       desc: "From supercut scissors to rib spreaders – a portfolio that combines performance and precision.",
     },

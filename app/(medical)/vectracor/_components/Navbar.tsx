@@ -32,7 +32,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <div>
-          <img src="/vectracor/VectraCor.png" className="w-48 h-16 md:w-60 md:h-20 object-contain" />
+          <img src="/vectracor/VectraCor.webp" className="w-48 h-16 md:w-60 md:h-20 object-contain" />
         </div>
 
         {/* Desktop Nav Links */}

@@ -42,7 +42,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex flex-col justify-center">
               <Link href="/alivecor" className="flex flex-col">
-                <img src="/alivecor/images/alivecor-logo.png" alt="alivecor-logo" className="h-5 xl:h-7 w-auto" />
+                <img src="/alivecor/images/alivecor-logo.webp" alt="alivecor-logo" className="h-5 xl:h-7 w-auto" />
               </Link>
             </div>
 
@@ -105,7 +105,7 @@ export default function Header() {
                 >
                   <div className="flex justify-between items-center mb-12">
                     <div className="flex flex-col">
-                      <img src="/alivecor/images/alivecor-logo.png" alt="alivecor-logo" className="h-4 w-auto" />
+                      <img src="/alivecor/images/alivecor-logo.webp" alt="alivecor-logo" className="h-4 w-auto" />
                     </div>
                     <button 
                       onClick={() => setMobileMenuOpen(false)} 

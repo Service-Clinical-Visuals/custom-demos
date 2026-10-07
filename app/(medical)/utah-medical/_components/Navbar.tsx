@@ -28,7 +28,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2 cursor-pointer">
           <img
-            src="/utah-medical/assets/utah-logo.png"
+            src="/utah-medical/assets/utah-logo.webp"
             alt="Logo"
             className="w-56 lg:w-52 xl:w-72 h-auto"
           />

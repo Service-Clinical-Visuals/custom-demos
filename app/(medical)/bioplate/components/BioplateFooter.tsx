@@ -31,7 +31,7 @@ export default function BioplateFooter() {
           <div className="relative h-[300px] w-full overflow-hidden rounded-[24px]">
             {/* PLACEHOLDER IMAGE */}
             <img
-              src="/bioplate/bioplate-footer.png"
+              src="/bioplate/bioplate-footer.webp"
               alt="Footer Banner"
               className="h-full w-full object-cover"
             />
@@ -87,7 +87,7 @@ export default function BioplateFooter() {
             {/* LOGO */}
             <div className="flex items-center gap-4">
                 <img 
-                  src="/bioplate/bioplate-footer-logo.png"
+                  src="/bioplate/bioplate-footer-logo.webp"
                   alt="Bioplate Logo"
                   className="h-16 w-auto"
                 />

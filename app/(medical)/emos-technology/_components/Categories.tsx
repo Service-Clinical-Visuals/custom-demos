@@ -7,21 +7,21 @@ const categories = [
         slug: "human",
         description: "Endoscopes MADE IN GERMANY for the various medical subjects.",
         buttonText: "Endoscopy Solutions",
-        image: "/images/home/human.jpg"
+        image: "/images/home/human.webp"
     },
     {
         title: "VETERINARY",
         slug: "veterinary",
         description: "Special products and services for veterinary procedures.",
         buttonText: "Endoscopy Solutions",
-        image: "/images/home/veterinary.jpg"
+        image: "/images/home/veterinary.webp"
     },
     {
         title: "INDUSTRY",
         slug: "industry",
         description: "Endoscopes for inspection and analysis.",
         buttonText: "Endoscopy Solutions",
-        image: "/images/home/industry.jpg"
+        image: "/images/home/industry.webp"
     }
 ];
 

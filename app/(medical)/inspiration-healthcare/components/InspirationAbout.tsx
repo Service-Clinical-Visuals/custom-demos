@@ -11,10 +11,10 @@ export default function InspirationAbout() {
         {/* LEFT IMAGE */}
         <div data-aos="fade-right" className="relative max-w-[750px] w-full xl:col-span-6 pl-6 pb-6 md:pl-10 md:pb-10 mx-auto md:mx-0 overflow-hidden order-2">
           {/* Grey chamfered frame — absolute, peeks out bottom-left */}
-          <img src="/inspiration-healthcare/assets/subtract.png" alt="frame" className="w-full h-full object-cover" />
+          <img src="/inspiration-healthcare/assets/subtract.webp" alt="frame" className="w-full h-full object-cover" />
           {/* Image — sits on top, offset to top-right by the padding */}
           <img
-            src="/inspiration-healthcare/assets/inspiration-about.png"
+            src="/inspiration-healthcare/assets/inspiration-about.webp"
             alt="about"
             className="absolute w-[79%] aspect-[49/46] object-cover object-center block z-10 top-[6%] right-[8.3%] shadow-2xl"
           />

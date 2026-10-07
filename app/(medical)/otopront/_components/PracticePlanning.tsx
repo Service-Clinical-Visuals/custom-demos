@@ -18,7 +18,7 @@ export default function PracticePlanning() {
   ];
 
   return (
-    <section className="relative w-full py-24 overflow-hidden bg-[url('/otopront/images/planing-bg.png')] bg-cover bg-center bg-no-repeat">
+    <section className="relative w-full py-24 overflow-hidden bg-[url('/otopront/images/planing-bg.webp')] bg-cover bg-center bg-no-repeat">
       {/* Background Image Placeholder with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/75 z-10"></div>

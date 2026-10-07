@@ -122,7 +122,7 @@ export default function Footer() {
             {/* Logo on the left */}
             <div className="flex-shrink-0 self-start md:self-auto">
               <Link href="#" className="inline-block select-none">
-                <img src="/vascular-flow/vascular-logo.png" alt="" className="h-8 lg:h-12" />
+                <img src="/vascular-flow/vascular-logo.webp" alt="" className="h-8 lg:h-12" />
               </Link>
             </div>
 

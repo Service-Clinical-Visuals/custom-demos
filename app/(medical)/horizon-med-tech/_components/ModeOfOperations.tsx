@@ -28,7 +28,7 @@ export default function ModeOfOperations() {
             {/* Servo Mode */}
             <div className="flex items-start gap-4">
               <div className="p-2 w-14 h-14 bg-[#064163] rounded-xl flex items-center justify-center shrink-0 shadow-lg shadow-[#064163]/10">
-                <img src="/horizon/images/thermometer.png" alt="Servo Controlled Mode" className="w-full h-full object-contain" />
+                <img src="/horizon/images/thermometer.webp" alt="Servo Controlled Mode" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h4 className="text-[#1A1A1A] font-bold mb-1 uppercase tracking-tight text-[20px]">Servo-Controlled Mode</h4>
@@ -39,7 +39,7 @@ export default function ModeOfOperations() {
             {/* Mattress Mode */}
             <div className="flex items-start gap-4">
               <div className="p-2 w-14 h-14 bg-[#064163] rounded-xl flex items-center justify-center shrink-0 shadow-lg shadow-[#064163]/10">
-                <img src="/horizon/images/mattress.png" alt="Mattress Mode" className="w-full h-full object-contain" />
+                <img src="/horizon/images/mattress.webp" alt="Mattress Mode" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h4 className="text-[#1A1A1A] font-bold mb-1 uppercase tracking-tight text-[20px]">Mattress Mode</h4>

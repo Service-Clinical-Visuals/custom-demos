@@ -61,7 +61,7 @@ function AnimatedCounter({
 
 export default function OurCustomers() {
   return (
-    <section className="relative bg-[url('/alivecor/images/customers-bg.png')] bg-cover bg-center py-16 md:py-24 overflow-hidden">
+    <section className="relative bg-[url('/alivecor/images/customers-bg.webp')] bg-cover bg-center py-16 md:py-24 overflow-hidden">
       
       <div className="container mx-auto px-4 lg:px-12 relative z-10">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 lg:gap-16 items-stretch">

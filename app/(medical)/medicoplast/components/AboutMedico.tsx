@@ -58,7 +58,7 @@ export default function AboutMedico() {
           <div className="rounded-lg overflow-hidden w-full h-full">
             {/* Replace with your actual image */}
             <img
-              src="/medicoplast/assets/medico-about.png"
+              src="/medicoplast/assets/medico-about.webp"
               alt="Medicoplast Facility"
               className="w-full h-full object-cover"
             />

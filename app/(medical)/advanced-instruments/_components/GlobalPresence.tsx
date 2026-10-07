@@ -19,7 +19,7 @@ const GlobalPresence = () => {
     };
 
     return (
-        <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/global-bg.png')] bg-cover bg-center relative overflow-hidden advance-inc-root">
+        <section className="py-16 md:py-20 bg-[url('/advanced-instruments/images/global-bg.webp')] bg-cover bg-center relative overflow-hidden advance-inc-root">
             <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-20 items-center">
                 <div
                     className="z-10"
@@ -49,7 +49,7 @@ const GlobalPresence = () => {
                             "Ultrasonic Table Top Dopplers",
                         ].map((item, index) => (
                             <div key={index} className="flex items-center gap-3" data-aos="fade-up" data-aos-delay={300 + (index % 4) * 100}>
-                                <img src="advanced-instruments/images/Turbine_fill-white.png" alt="Turbine_fill" className="w-6 h-6" />
+                                <img src="advanced-instruments/images/Turbine_fill-white.webp" alt="Turbine_fill" className="w-6 h-6" />
                                 <span className="text-white text-base font-semibold">{item}</span>
                             </div>
                         ))}

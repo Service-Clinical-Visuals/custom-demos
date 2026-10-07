@@ -28,7 +28,7 @@ export default function IntroSection() {
                 {/* Image Content */}
                 <div className="lg:w-1/2 relative" data-aos="fade-left">
                     <img
-                        src={`/tsi-incorporated/images/home/abt.jpg`}
+                        src={`/tsi-incorporated/images/home/abt.webp`}
                         alt="Expert in industrial setting"
                         className="w-full object-cover rounded-2xl shadow-md"
                     />

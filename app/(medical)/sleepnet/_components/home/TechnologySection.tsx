@@ -25,7 +25,7 @@ export default function TechnologySection() {
                         </div>
                         {/* Image Block */}
                         <div className="w-full md:w-1/2 bg-[#F8F9FA] h-96 md:h-auto min-h-[400px] flex items-center justify-center relative border border-gray-100/50" data-aos="fade-left">
-                            <img src={`/sleepnet/home/unique-air.png`} alt="" />
+                            <img src={`/sleepnet/home/unique-air.webp`} alt="" />
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@ export default function TechnologySection() {
                         </div>
                         {/* Image Block */}
                         <div className="w-full md:w-1/2 bg-[#F8F9FA] h-96 md:h-auto min-h-[400px] flex items-center justify-center relative border border-gray-100/50" data-aos="fade-right">
-                            <img src={`/sleepnet/home/custom-fit.png`} alt="" />
+                            <img src={`/sleepnet/home/custom-fit.webp`} alt="" />
                         </div>
                     </div>
 

@@ -6,25 +6,25 @@ import "aos/dist/aos.css";
 
 const cards = [
   {
-    icon: "/medical/hr-healthcare/hr-solution-1.png",
+    icon: "/medical/hr-healthcare/hr-solution-1.webp",
     title: "Our Purpose",
     description:
       "Working together with one purpose. Who we are as individuals aligns with who we are as a Company. Unified in our purpose to grow together and positively impact people’s lives.",
   },
   {
-    icon: "/medical/hr-healthcare/hr-solution-2.png",
+    icon: "/medical/hr-healthcare/hr-solution-2.webp",
     title: "Our Difference",
     description:
       "We measure success by the number of lives we touch. We care deeply about all the people we serve and strive to deliver high-quality solutions to help them live their best life.",
   },
   {
-    icon: "/medical/hr-healthcare/hr-solution-3.png",
+    icon: "/medical/hr-healthcare/hr-solution-3.webp",
     title: "Our Culture",
     description:
       "Corporate, manufacturing, and warehousing operations all nestled in the heart of York, PA.",
   },
   {
-    icon: "/medical/hr-healthcare/hr-solution-4.png",
+    icon: "/medical/hr-healthcare/hr-solution-4.webp",
     title: "Cooperate Headquarters",
     description:
       "Collaborative environment equipped with gym, game room, cafeteria and more.",
@@ -116,7 +116,7 @@ export default function HrSolutions() {
             className="relative overflow-hidden rounded-[6px]"
           >
             <img
-              src="/medical/hr-healthcare/hr-solution.png"
+              src="/medical/hr-healthcare/hr-solution.webp"
               alt="Healthcare Team"
               className="h-[420px] w-full object-cover"
             />

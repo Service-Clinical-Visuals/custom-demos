@@ -6,32 +6,32 @@ import { ArrowLeftCircle, ArrowRightCircle, ChevronRight } from "lucide-react";
 const partners = [
   {
     name: "Bound Tree",
-    image: "/pulmo/pulmo-partner-1.png",
+    image: "/pulmo/pulmo-partner-1.webp",
     imgClass: "h-[62px]",
   },
   {
     name: "Emergency Medical Products",
-    image: "/pulmo/pulmo-partner-2.png",
+    image: "/pulmo/pulmo-partner-2.webp",
     imgClass: "h-[62px]",
   },
   {
     name: "Henry Schein",
-    image: "/pulmo/pulmo-partner-3.png",
+    image: "/pulmo/pulmo-partner-3.webp",
     imgClass: "h-[62px]",
   },
   {
     name: "Life Assist",
-    image: "/pulmo/pulmo-partner-4.png",
+    image: "/pulmo/pulmo-partner-4.webp",
     imgClass: "h-[42px]",
   },
   {
     name: "Mckesson",
-    image: "/pulmo/pulmo-partner-5.png",
+    image: "/pulmo/pulmo-partner-5.webp",
     imgClass: "h-[42px]",
   },
   {
     name: "EMS",
-    image: "/pulmo/pulmo-partner-6.png",
+    image: "/pulmo/pulmo-partner-6.webp",
     imgClass: "h-[42px]",
   },
 ];
@@ -71,7 +71,7 @@ export default function PulmoPartners() {
             {/* IMAGE */}
             <div className="aspect-[1.22/0.82] w-full">
               <img
-                src="/pulmo/pulmo-partner.png"
+                src="/pulmo/pulmo-partner.webp"
                 alt="Distribution"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
               />

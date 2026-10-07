@@ -26,12 +26,12 @@ const stats = [
   {
     stat: "200M",
     text: "We manufacture automotive parts for over 200 million vehicles across Europe, delivering reliable performance and trusted aftermarket solutions worldwide.",
-    icon: <img src="/bm-catalysts/images/parts-1.png" alt="Globe Icon" className="w-9 h-9 object-contain" />
+    icon: <img src="/bm-catalysts/images/parts-1.webp" alt="Globe Icon" className="w-9 h-9 object-contain" />
   },
   {
     stat: "14%",
     text: "Everything we do is focussed on exceeding quality standards as well as delivering value e.g. our lambda sensor ports are 14% thicker than other suppliers",
-    icon: <img src="/bm-catalysts/images/parts-2.png" alt="Caliper Icon" className="w-9 h-9 object-contain" />
+    icon: <img src="/bm-catalysts/images/parts-2.webp" alt="Caliper Icon" className="w-9 h-9 object-contain" />
   },
   {
     stat: "409",
@@ -47,7 +47,7 @@ const stats = [
 
 export default function OurParts() {
   return (
-    <section className="py-16 lg:py-20 bg-[url('/bm-catalysts/images/parts-bg.png')] bg-cover bg-center bg-no-repeat flex justify-center w-full">
+    <section className="py-16 lg:py-20 bg-[url('/bm-catalysts/images/parts-bg.webp')] bg-cover bg-center bg-no-repeat flex justify-center w-full">
       <div className="container mx-auto px-4 lg:px-8">
         
         {/* Header Block: Grid for perfect responsiveness and alignment */}

@@ -93,7 +93,7 @@ export default function VapoProducts() {
           <div data-aos="fade-left" className="flex gap-4 h-48 sm:h-56 md:h-[220px]">
             
             <img
-              src="/vapotherm/assets/vapotherm-ventilation.png"
+              src="/vapotherm/assets/vapotherm-ventilation.webp"
               alt="img1"
               className="w-full h-full object-cover rounded-lg"
             />

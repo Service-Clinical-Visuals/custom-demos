@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   title: "Gyn Health - Women for Women",
   description: "Specialized healthcare for women at every stage of life.",
   icons: {
-    icon: `/gyn-health/logo.png`,
-    shortcut: `/gyn-health/logo.png`,
-    apple: `/gyn-health/logo.png`,
+    icon: `/gyn-health/logo.webp`,
+    shortcut: `/gyn-health/logo.webp`,
+    apple: `/gyn-health/logo.webp`,
   },
 };
 

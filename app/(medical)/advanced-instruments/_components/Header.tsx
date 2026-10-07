@@ -41,7 +41,7 @@ const Header = ({ isSticky = false }: HeaderProps) => {
                 {/* Logo */}
                 <Link href="/advanced-instruments" className="flex items-center">
                     <div className="flex flex-col">
-                        <img src="/advanced-instruments/images/advanced-logo.png" alt="Advanced Instruments" className="w-35 md:w-55" />
+                        <img src="/advanced-instruments/images/advanced-logo.webp" alt="Advanced Instruments" className="w-35 md:w-55" />
                     </div>
                 </Link>
 

@@ -51,7 +51,7 @@ export default function HelpSection() {
                       <ul className="flex flex-col gap-4">
                         <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
                           <img
-                            src="/osteobionix/Vector.png"
+                            src="/osteobionix/Vector.webp"
                             alt="check"
                             className="w-4 h-4 mt-1 flex-shrink-0"
                           />
@@ -62,7 +62,7 @@ export default function HelpSection() {
 
                         <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
                           <img
-                            src="/osteobionix/Vector.png"
+                            src="/osteobionix/Vector.webp"
                             alt="check"
                             className="w-3 h-3 mt-1 flex-shrink-0"
                           />
@@ -73,7 +73,7 @@ export default function HelpSection() {
 
                         <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
                           <img
-                            src="/osteobionix/Vector.png"
+                            src="/osteobionix/Vector.webp"
                             alt="check"
                             className="w-4 h-4 mt-1 flex-shrink-0"
                           />
@@ -107,7 +107,7 @@ export default function HelpSection() {
                       <ul className="flex flex-col gap-4">
                         <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
                           <img
-                            src="/osteobionix/Vector.png"
+                            src="/osteobionix/Vector.webp"
                             alt="check"
                             className="w-4 h-4 mt-1 flex-shrink-0"
                           />
@@ -118,7 +118,7 @@ export default function HelpSection() {
 
                         <li className="flex items-start gap-3 text-white/90 text-sm md:text-base leading-relaxed">
                           <img
-                            src="/osteobionix/Vector.png"
+                            src="/osteobionix/Vector.webp"
                             alt="check"
                             className="w-3 h-3 mt-1 flex-shrink-0"
                           />
@@ -139,7 +139,7 @@ export default function HelpSection() {
           {/* Right Column: Image */}
           <div className="w-full aspect-[4/3] relative rounded-2xl overflow-hidden shadow-md" data-aos="fade-left">
             <img
-              src="/osteobionix/help.png"
+              src="/osteobionix/help.webp"
               alt="Patient Rehabilitation"
               className="absolute inset-0 w-full h-full object-cover"
             />

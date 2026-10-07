@@ -5,19 +5,19 @@ import React from "react";
 const services = [
   {
     title: "Computer Aided Design Services",
-    image: "/vascular-flow/service-1.png",
+    image: "/vascular-flow/service-1.webp",
     description: "Vascular Flow utilises the latest Solidworks 3D CAD software to compliment its R&D offering...",
     link: "#cad"
   },
   {
     title: "In Vitro Flow Services",
-    image: "/vascular-flow/service-2.png",
+    image: "/vascular-flow/service-2.webp",
     description: "In vitro tests with a bespoke, computer-controlled flow rig are used to verify the outcomes of medical devices ...",
     link: "#in-vitro"
   },
   {
     title: "Prototyping & Testing Services",
-    image: "/vascular-flow/service-3.png",
+    image: "/vascular-flow/service-3.webp",
     description: "To assist our clients to rapidly get their products to market, we offer a range of rapid prototyping services including ...",
     link: "#prototyping"
   }

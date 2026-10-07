@@ -43,7 +43,7 @@ export default function AdvancedTechnologies() {
             <ul className="space-y-6 mb-8">
               {technologies.map((tech, index) => (
                 <li key={index} className="flex items-start gap-4">
-                  <img src="/strena/images/check-b.png" alt="check-blue" className="w-5 h-5" />
+                  <img src="/strena/images/check-b.webp" alt="check-blue" className="w-5 h-5" />
                   <p className="text-[15px] lg:text-[16px] leading-relaxed">
                     <span className="text-[#00427C] font-semibold text-[15px] lg:text-[16px]">
                       {tech.title}:
@@ -67,7 +67,7 @@ export default function AdvancedTechnologies() {
           <div data-aos="fade-left" className="relative">
             <div className="inset-0 overflow-hidden rounded-2xl">
                 <img 
-                  src="/strena/images/technologies.png" 
+                  src="/strena/images/technologies.webp" 
                   alt="Strena Technologies" 
                   className="w-full object-cover rounded-2xl" 
                 />

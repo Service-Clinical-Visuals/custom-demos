@@ -5,17 +5,17 @@ import Button from "./Button";
 const solutions = [
   {
     title: "Laryngo-stroboscopy and phoniatrics",
-    path: "/xion/images/service-1.png",
+    path: "/xion/images/service-1.webp",
     description: "The modular concept of XION's system components enables a multitude of useful combinations and thus optimal adaptation to concrete user requirements."
   },
   {
     title: "System solutions for surgery",
-    path: "/xion/images/service-2.png",
+    path: "/xion/images/service-2.webp",
     description: "Besides the obvious financial advantage that it offers, a multi-functional, future-proof platform facilitates predictable investments for expanding the system and using latest technologies."
   },
   {
     title: "Swallowing Diagnostics",
-    path: "/xion/images/service-3.png",
+    path: "/xion/images/service-3.webp",
     description: "The modular concept of XION's system components enables a multitude of useful combinations and thus optimal adaptation to concrete user requirements."
   }
 ];

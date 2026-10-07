@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Invotec Clone",
   description: "Precision Medical Devices",
   icons: {
-    icon: "/invotec/assets/logo.png",
+    icon: "/invotec/assets/logo.webp",
   },
 };
 

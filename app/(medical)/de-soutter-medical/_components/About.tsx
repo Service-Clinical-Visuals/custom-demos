@@ -12,7 +12,7 @@ export default function About() {
           data-aos="fade-left"
           className="w-full h-full relative rounded-2xl overflow-hidden">
           <Image
-            src="/de-soutter-medical/about.jpg" // 👉 place image in public/about/
+            src="/de-soutter-medical/about.webp" // 👉 place image in public/about/
             alt="About"
             fill
             className="object-cover"
@@ -43,7 +43,7 @@ export default function About() {
           <div className="flex items-start gap-4">
             <div className="bg-[#5E76BA] text-[#FFFFFF] p-3 rounded-full shrink-0">
               <img
-                src="/de-soutter-medical/icon-1.png"
+                src="/de-soutter-medical/icon-1.webp"
                 alt="Innovation"
                 className="w-9 h-9"
               />
@@ -63,7 +63,7 @@ export default function About() {
           <div className="flex items-start gap-4">
             <div className="bg-[#5E76BA] text-[#FFFFFF] p-3 rounded-full shrink-0">
               <img
-                src="/de-soutter-medical/icon-2.png"
+                src="/de-soutter-medical/icon-2.webp"
                 alt="Innovation"
                 className="w-9 h-9"
               />

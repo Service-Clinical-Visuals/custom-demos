@@ -28,7 +28,7 @@ export default function TeamSection() {
         className="w-full h-65 md:h-80 xl:h-96 bg-gray-300"
       >
         {/* Background image will be added here */}
-        <img src={"/atmosmed/assets/teams_atmos.png"} alt="teams" className="w-full h-full object-cover" />
+        <img src={"/atmosmed/assets/teams_atmos.webp"} alt="teams" className="w-full h-full object-cover" />
       </div>
 
       {/* OVERLAP CONTENT */}

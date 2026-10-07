@@ -7,7 +7,7 @@ export default function WhyChooseUsSection() {
       <div className="max-w-[1560px] 2xl:max-w-[80%] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-8 2xl:gap-20 items-center">
 
-          <img src="/accu-scope/WorkWithUs.png" alt=""
+          <img src="/accu-scope/WorkWithUs.webp" alt=""
             width={700}
             height={400}
             className="rounded-2xl w-full"></img>

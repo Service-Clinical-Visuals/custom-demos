@@ -23,7 +23,7 @@ export const Features = () => {
                         <div data-aos="fade-right" data-aos-duration="1000">
                             <div className="relative w-full aspect-[4/3] bg-[#F1F1F1] rounded-sm flex items-center justify-center p-8">
                                 <img
-                                    src={`/hey-patient/images/home/abt.png`}
+                                    src={`/hey-patient/images/home/abt.webp`}
                                     alt="Platform Screenshot"
                                     className="w-full h-auto object-contain shadow-2xl"
                                 />
@@ -39,14 +39,14 @@ export const Features = () => {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                                 <div className="bg-[#08949E] text-white p-10 rounded-xl flex flex-col items-center justify-center text-center shadow-md">
                                     <div className="w-20 h-20 mb-6 flex items-center justify-center">
-                                        <img src={`/hey-patient/images/home/abt-1.png`} alt="Accident Icon" className="w-full h-full object-contain brightness-0 invert" />
+                                        <img src={`/hey-patient/images/home/abt-1.webp`} alt="Accident Icon" className="w-full h-full object-contain brightness-0 invert" />
                                     </div>
                                     <h4 className="font-bold text-white! leading-tight">Accident<br />Broken Arm</h4>
                                 </div>
 
                                 <div className="bg-[#08949E] text-white p-10 rounded-xl flex flex-col items-center justify-center text-center shadow-md">
                                     <div className="w-20 h-20 mb-6 flex items-center justify-center">
-                                        <img src={`/hey-patient/images/home/abt-2.png`} alt="Forms Icon" className="w-full h-full object-contain brightness-0 invert" />
+                                        <img src={`/hey-patient/images/home/abt-2.webp`} alt="Forms Icon" className="w-full h-full object-contain brightness-0 invert" />
                                     </div>
                                     <h4 className="font-bold text-white! leading-tight">Stack of Forms, Search<br />for Documents, Clarify<br />Information</h4>
                                 </div>

@@ -47,7 +47,7 @@ export default function Navbar() {
       >
         {/* Logo */}
         <div className="font-bold text-xl text-blue-600">
-          <img src={`/atmosmed/assets/atmos_logo 1.png`} alt="Logo" width={50} height={50} />
+          <img src={`/atmosmed/assets/atmos_logo 1.webp`} alt="Logo" width={50} height={50} />
         </div>
 
         {/* Desktop Menu */}

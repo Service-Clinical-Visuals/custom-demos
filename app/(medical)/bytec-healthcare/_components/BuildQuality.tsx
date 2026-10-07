@@ -36,7 +36,7 @@ export default function BuildQuality() {
                         </ul>
                     </div>
                     <div className="flex justify-center" data-aos="fade-left">
-                        <img src={`/bytec-healthcare/home/build-quality.png`} alt="Built on 25 years of expertise." />
+                        <img src={`/bytec-healthcare/home/build-quality.webp`} alt="Built on 25 years of expertise." />
                     </div>
                 </div>
             </div>

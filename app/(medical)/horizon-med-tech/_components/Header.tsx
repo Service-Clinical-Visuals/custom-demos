@@ -67,7 +67,7 @@ export default function Header() {
             {/* Logo Section */}
             <Link href="/horizon-med-tech" className="flex items-center">
               <div className="">
-                <img src="/horizon/images/horizon-logo.png" alt="horizon-logo" className="w-28" />
+                <img src="/horizon/images/horizon-logo.webp" alt="horizon-logo" className="w-28" />
               </div>
             </Link>
 

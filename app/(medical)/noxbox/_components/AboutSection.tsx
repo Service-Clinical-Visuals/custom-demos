@@ -15,7 +15,7 @@ export default function AboutSection() {
               className="relative h-45 md:h-55 rounded-2xl overflow-hidden"
             >
               <img
-                src={`/noxbox/assets/noxbox_product.jpg`}
+                src={`/noxbox/assets/noxbox_product.webp`}
                 alt="product"
                 className="object-cover w-full h-full"
               />
@@ -27,7 +27,7 @@ export default function AboutSection() {
               className="relative h-45 md:h-55 rounded-2xl overflow-hidden"
             >
               <img
-                src={`/noxbox/assets/noxbox_care.png`}
+                src={`/noxbox/assets/noxbox_care.webp`}
                 alt="baby"
                 className="object-cover w-full h-full"
               />
@@ -39,7 +39,7 @@ export default function AboutSection() {
               className="relative col-span-2 h-70 md:h-85 rounded-2xl overflow-hidden"
             >
               <img
-                src={`/noxbox/assets/noxbox_office.png`}
+                src={`/noxbox/assets/noxbox_office.webp`}
                 alt="building"
                 className="object-cover w-full h-full"
               />
@@ -54,7 +54,7 @@ export default function AboutSection() {
           {/* Title */}
           <div className="flex items-center gap-3 mb-4" data-aos="fade-up">
             <img
-              src={`/noxbox/assets/gemini_logo.png`}
+              src={`/noxbox/assets/gemini_logo.webp`}
               alt="gemini logo"
               width={34}
               height={34}

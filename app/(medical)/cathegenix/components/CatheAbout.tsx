@@ -26,7 +26,7 @@ export default function CatheAbout() {
             <div className="relative h-full min-h-[320px] overflow-hidden rounded-[24px]">
               {/* PLACEHOLDER IMAGE */}
               <img
-                src="/cathegenix/cathe-about.jpg"
+                src="/cathegenix/cathe-about.webp"
                 alt="CatheGenix Office"
                 className="absolute inset-0 h-full w-full object-cover object-top"
               />

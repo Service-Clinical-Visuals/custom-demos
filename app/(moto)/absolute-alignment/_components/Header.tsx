@@ -44,7 +44,7 @@ export default function Header() {
             {/* Logo Section */}
             <div className="flex items-center px-6 h-full ">
               <Link href="/" className="relative w-[180px] block transition-transform hover:scale-105">
-                <img src="/absolute-alignment/logo.png" className="w-full h-auto" alt="Absolute Alignment" />
+                <img src="/absolute-alignment/logo.webp" className="w-full h-auto" alt="Absolute Alignment" />
               </Link>
             </div>
 
@@ -95,7 +95,7 @@ export default function Header() {
           }`}>
           <div className="container mx-auto px-4 flex items-center justify-between">
             <Link href="/" className="w-[140px]">
-              <img src="/absolute-alignment/logo.png" className="w-full h-auto" alt="Logo" />
+              <img src="/absolute-alignment/logo.webp" className="w-full h-auto" alt="Logo" />
             </Link>
             <div className="flex items-center gap-4">
               <a href="tel:01252549340" className="p-2 text-primary bg-gray-50 rounded-full">
@@ -118,7 +118,7 @@ export default function Header() {
             {/* Mini Logo on Scroll */}
             <div className={`hidden lg:block absolute left-4 transition-all duration-500 ${isScrolled ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-4 pointer-events-none"}`}>
               <Link href="/">
-                <img src="/absolute-alignment/logo.png" className="h-10" alt="Logo" />
+                <img src="/absolute-alignment/logo.webp" className="h-10" alt="Logo" />
               </Link>
             </div>
 
@@ -164,7 +164,7 @@ export default function Header() {
               className="fixed right-0 top-0 h-full w-[85%] max-w-[400px] bg-white z-50 lg:hidden shadow-2xl flex flex-col"
             >
               <div className="p-6 flex justify-between items-center border-b">
-                <img src="/absolute-alignment/logo.png" className="w-[150px]" alt="Logo" />
+                <img src="/absolute-alignment/logo.webp" className="w-[150px]" alt="Logo" />
                 <button onClick={() => setIsOpen(false)} className="p-2 text-gray-500">
                   <X size={28} />
                 </button>

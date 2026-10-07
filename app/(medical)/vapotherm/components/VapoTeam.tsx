@@ -7,7 +7,7 @@ export default function VapoTeam() {
       
       {/* BACKGROUND IMAGE */}
       <img
-        src="/vapotherm/assets/vapotherm-team.png"
+        src="/vapotherm/assets/vapotherm-team.webp"
         alt="team"
         className="absolute inset-0 w-full h-full object-cover"
       />

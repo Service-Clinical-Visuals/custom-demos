@@ -29,7 +29,7 @@ export default function Philosophy() {
           {/* Header Section */}
           <div className="flex flex-col items-center justify-center mb-12">
             <div className="flex items-center gap-3 mb-6 relative">
-              <img src="/moto/omni/bulletdot1.png" className="w-3.5 h-3.5 "/>
+              <img src="/moto/omni/bulletdot1.webp" className="w-3.5 h-3.5 "/>
               <h2 className="text-2xl md:text-[26px] xl:text-[30px] !font-normal !text-[#ffffff] uppercase tracking-tight leading-none font-heading">
                 OUR PHILOSOPHY
               </h2>
@@ -55,7 +55,7 @@ export default function Philosophy() {
             <div className="w-full lg:w-1/2 flex items-center" data-aos="fade-right">
              
                 <img 
-                  src="/moto/omni/ourphilosophy.jpg" 
+                  src="/moto/omni/ourphilosophy.webp" 
                   alt="Our Philosophy" 
                   className="w-full h-full object-cover object-center opacity-90 hover:opacity-100 transition-opacity duration-500 rounded-4xl"
                 />

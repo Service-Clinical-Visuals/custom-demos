@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="lg:col-span-2 flex flex-col items-start pr-4">
             <div className="mb-4">
               {/* Keeping logo bigger in size just like the image */}
-              <img src="/moto/german-gold/footerlogo.png" alt="German Gold Logo" className="h-20 sm:h-24 md:h-28 object-contain" />
+              <img src="/moto/german-gold/footerlogo.webp" alt="German Gold Logo" className="h-20 sm:h-24 md:h-28 object-contain" />
             </div>
 
             <div className="flex  gap-4 mt-6">

@@ -4,17 +4,17 @@ const cards = [
   {
     title: "Emergency Room",
     desc: "With the clinical ease and capabilities of typical high flow plus clinical proof in a wide range of acutely ill patients, Vapotherm high velocity therapy is a trusted tool in emergency rooms.",
-    img: "/vapotherm/assets/vapotherm-emergency.jpg",
+    img: "/vapotherm/assets/vapotherm-emergency.webp",
   },
   {
     title: "Adult Critical Care",
     desc: "With high velocity therapy, you can offer patients in respiratory distress an attractive alternative to NiPPV for spontaneously breathing patients.",
-    img: "/vapotherm/assets/vapotherm-adult.jpg",
+    img: "/vapotherm/assets/vapotherm-adult.webp",
   },
   {
     title: "Pediatric Care",
     desc: "With the clinical ease and capabilities of typical high flow plus clinical proof in a wide range of acutely ill patients, Vapotherm high velocity therapy is a trusted tool in emergency rooms.",
-    img: "/vapotherm/assets/vapotherm-pediatric.jpg",
+    img: "/vapotherm/assets/vapotherm-pediatric.webp",
   },
 ];
 

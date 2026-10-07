@@ -5,12 +5,12 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import PrimaryButton from "./Button";
 
 const heroImages = [
-  "/medical/carepump/images/carepumpmove1.jpg",
-  "/medical/carepump/images/carepumpmove2.jpg",
-  "/medical/carepump/images/carepumpmove3.jpg",
-  "/medical/carepump/images/carepumpmove4.jpg",
-  "/medical/carepump/images/carepumpmove5.jpg",
-  "/medical/carepump/images/carepumpmove6.jpg",
+  "/medical/carepump/images/carepumpmove1.webp",
+  "/medical/carepump/images/carepumpmove2.webp",
+  "/medical/carepump/images/carepumpmove3.webp",
+  "/medical/carepump/images/carepumpmove4.webp",
+  "/medical/carepump/images/carepumpmove5.webp",
+  "/medical/carepump/images/carepumpmove6.webp",
 ];
 
 export default function CarePumpMovePro() {
@@ -18,7 +18,7 @@ export default function CarePumpMovePro() {
     <section className="relative twok overflow-hidden w-full py-12 md:py-16 lg:py-20">
       <div className="pointer-events-none absolute inset-0 opacity-100">
         <Image
-          src="/medical/carepump/images/carepumpmove-bg.png"
+          src="/medical/carepump/images/carepumpmove-bg.webp"
           alt="CarePump background pattern"
           fill
           className="object-cover"
@@ -89,7 +89,7 @@ export default function CarePumpMovePro() {
 
             <div className="flex items-center gap-3 rounded-2xl border border-white/80 bg-white/90 px-4 py-3 mb-3 shadow-md">
               <img
-                src="/carepump/images/medal 1.png"
+                src="/carepump/images/medal 1.webp"
                 alt="Certification Badge"
                 className="h-6 w-6"
               />

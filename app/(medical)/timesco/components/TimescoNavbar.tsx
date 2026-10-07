@@ -48,7 +48,7 @@ export default function TimescoNavbar() {
 
           {/* Logo */}
           <div>
-            <img src="/timesco/timesco-logo.png" alt="logo" className="h-8 w-auto" />
+            <img src="/timesco/timesco-logo.webp" alt="logo" className="h-8 w-auto" />
           </div>
 
           {/* Nav (desktop) */}

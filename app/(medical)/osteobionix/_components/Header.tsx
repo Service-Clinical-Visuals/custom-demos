@@ -45,7 +45,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex flex-col justify-center">
               <Link href="/osteobionix" className="flex flex-col">
-                <img src="/osteobionix/osteobionix-logo.png" alt="logo" className="w-60 h-auto" />
+                <img src="/osteobionix/osteobionix-logo.webp" alt="logo" className="w-60 h-auto" />
               </Link>
             </div>
 
@@ -89,7 +89,7 @@ export default function Header() {
                 <div className="flex justify-between items-center mb-12">
                   <div className="flex flex-col">
                     <Link href="/osteobionix" className="flex flex-col">
-                      <img src="/osteobionix/osteobionix-logo.png" alt="logo" className="w-32 h-auto" />
+                      <img src="/osteobionix/osteobionix-logo.webp" alt="logo" className="w-32 h-auto" />
                     </Link>
                   </div>
                   <button onClick={() => setMobileMenuOpen(false)} className="text-[#111111]"><X size={32} /></button>

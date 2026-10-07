@@ -56,7 +56,7 @@ export default function SternAbout() {
           {/* RIGHT IMAGE */}
           <div data-aos="fade-left" className="relative self-stretch">
             <div className="rounded-xl overflow-hidden shadow-lg h-full">
-              <Image src="/stern-med/stern-about.png" alt="About SternMed" width={500} height={400} className="object-cover w-full h-full" />6            </div>
+              <Image src="/stern-med/stern-about.webp" alt="About SternMed" width={500} height={400} className="object-cover w-full h-full" />6            </div>
           </div>
 
         </div>

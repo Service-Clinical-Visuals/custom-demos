@@ -8,21 +8,21 @@ export default function AboutPurpose() {
             title: "Our Mission",
             id: "mission",
             icon: <Target className="text-white" size={28} />,
-            image: "images/about/mission.jpg",
+            image: "images/about/mission.webp",
             description: "To design and manufacture innovative therapeutic support surfaces and medical electronic solutions that enhance patient outcomes, support caregivers, and uphold the highest standards of quality and safety."
         },
         {
             title: "Our Vision",
             id: "vision",
             icon: <Eye className="text-white" size={28} />,
-            image: "images/about/vision.jpg",
+            image: "images/about/vision.webp",
             description: "To be a trusted U.S. leader in advanced medical support technologies, recognized for engineering excellence, regulatory integrity, and unwavering commitment to healthcare innovation."
         },
         {
             title: "Our Values",
             id: "values",
             icon: <Heart className="text-white" size={28} />,
-            image: "images/about/values.jpg",
+            image: "images/about/values.webp",
             description: "We are committed to advancing healthcare technology through continuous research, thoughtful design, and engineering excellence."
         }
     ];

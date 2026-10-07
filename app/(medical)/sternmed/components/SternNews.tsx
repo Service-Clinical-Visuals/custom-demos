@@ -12,28 +12,28 @@ const newsCards = [
       "Engage with SternMed at Arab Health 2025: Solutions for a Healthier Tomorrow!",
       excerpt:
       "SternMed is once again taking part in Arab Health 2025...",
-      img: "/stern-med/stern-news-1.png",
+      img: "/stern-med/stern-news-1.webp",
   },
   {
     title:
       "Exciting News: SternMed to Showcase at MEDICA 2024 in Baden-Württemberg Pavilion",
     excerpt:
       "We are thrilled to announce that SternMed will be participating...",
-    img: "/stern-med/stern-news-2.png",
+    img: "/stern-med/stern-news-2.webp",
   },
   {
     title:
       "Pioneering Healthcare Innovation in Romania and Moldova: SternMed’s Strategic Initiative",
     excerpt:
       "SternMed is set to explore emerging markets in Romania...",
-    img: "/stern-med/stern-news-3.png",
+    img: "/stern-med/stern-news-3.webp",
   },
   {
     title:
       "Discover the Future of Breast Imaging with SternMed at the Karlsruhe Congress",
     excerpt:
       "On October 25, 2024, SternMed will showcase our imaging...",
-    img: "/stern-med/stern-news-4.png",
+    img: "/stern-med/stern-news-4.webp",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function SternNews() {
 
       <div
         className="absolute inset-0 bg-cover bg-bottom-right bg-no-repeat"
-        style={{ backgroundImage: "url('/stern-med/stern-bg.jpg')" }}
+        style={{ backgroundImage: "url('/stern-med/stern-bg.webp')" }}
       />
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-gray-200/95" />

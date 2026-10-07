@@ -5,28 +5,28 @@ const products = [
   {
     id: 1,
     title: "RC500",
-    image: "/accu-scope/products/mc1.png",
+    image: "/accu-scope/products/mc1.webp",
     description:
       "The ACCU-SCOPE RC500 remote collaboration system enables seamless..."
   },
   {
     id: 2,
     title: "EXC-500",
-    image: "/accu-scope/products/mc2.png",
+    image: "/accu-scope/products/mc2.webp",
     description:
       "ACCU-SCOPE’s flagship EXC-500 Microscope offers best-in-class performance and value..."
   },
   {
     id: 3,
     title: "EXC-400",
-    image: "/accu-scope/products/mc3.png",
+    image: "/accu-scope/products/mc3.webp",
     description:
       "The EXC-400 from ACCU-SCOPE is designed for a broad range of microscopy...."
   },
   {
     id: 4,
     title: "EXC-360",
-    image: "/accu-scope/products/mc4.png",
+    image: "/accu-scope/products/mc4.webp",
     description:
       "The NEW EXC-360 from ACCU-SCOPE delivers exceptional optical performance, versatility..."
   },

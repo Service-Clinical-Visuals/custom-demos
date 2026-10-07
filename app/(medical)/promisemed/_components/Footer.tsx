@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Brand Column */}
         <div data-aos="fade-up" className="space-y-4">
           <img
-            src="/promisemed/logo.png"
+            src="/promisemed/logo.webp"
             alt="Promisemed Logo"
             width='160'
             height='40'
@@ -25,8 +25,8 @@ export default function Footer() {
           </h3>
 
           <div className="flex gap-4">
-            <img src="/promisemed/youtube.png" alt="YouTube" width={20} height={20} />
-            <img src="/promisemed/linkedin.png" alt="LinkedIn" width={20} height={20} />
+            <img src="/promisemed/youtube.webp" alt="YouTube" width={20} height={20} />
+            <img src="/promisemed/linkedin.webp" alt="LinkedIn" width={20} height={20} />
           </div>
         </div>
 

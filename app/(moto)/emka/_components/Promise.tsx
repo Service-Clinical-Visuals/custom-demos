@@ -42,7 +42,7 @@ export default function PromiseSection() {
           {/* Left Image (Middle on smaller screens) */}
           <div className="relative w-full lg:w-[600px] lg:mx-auto 2xl:mx-0 2xl:w-[750px] shrink-0 aspect-[750/484] overflow-hidden order-2 2xl:order-1 2xl:col-start-1 2xl:row-start-1">
             <img
-              src="/moto/emka/promise.jpg"
+              src="/moto/emka/promise.webp"
               alt="EMKA branded Mustang"
               className="absolute inset-0 w-full h-full object-cover"
             />

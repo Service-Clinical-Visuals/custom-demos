@@ -51,7 +51,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center border-b border-white/10 pb-5 mb-14 gap-8">
           <Link href="/" className="shrink-0">
             <img
-              src="/dm-orthotics/logo.png"
+              src="/dm-orthotics/logo.webp"
               width={160}
               height={45}
               alt="Logo"

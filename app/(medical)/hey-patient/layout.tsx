@@ -7,7 +7,7 @@ import { ScrollToTop } from "./_components/ScrollToTop";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/hey-patient/images/home/fav-icon.png",
+    icon: "/hey-patient/images/home/fav-icon.webp",
   },
   title: "heyPatient",
   description: "HeyPatient helps hospitals and clinics reduce administrative workload while enhancing patient engagement and satisfaction.",

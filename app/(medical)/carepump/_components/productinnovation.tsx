@@ -2,11 +2,11 @@ import Image from "next/image";
 
 
 const gallery = [
-  { src: "/medical/carepump/images/productinnovation1.jpg", span: false },
-  { src: "/medical/carepump/images/productinnovation3.jpg", span: true },
-  { src: "/medical/carepump/images/productinnovation4.jpg", span: false },
-  { src: "/medical/carepump/images/productinnovation2.jpg", span: false },
-  { src: "/medical/carepump/images/productinnovation5.jpg", span: false },
+  { src: "/medical/carepump/images/productinnovation1.webp", span: false },
+  { src: "/medical/carepump/images/productinnovation3.webp", span: true },
+  { src: "/medical/carepump/images/productinnovation4.webp", span: false },
+  { src: "/medical/carepump/images/productinnovation2.webp", span: false },
+  { src: "/medical/carepump/images/productinnovation5.webp", span: false },
 ];
 
 

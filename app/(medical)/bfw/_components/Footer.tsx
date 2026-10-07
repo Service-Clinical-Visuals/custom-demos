@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-4 lg:col-span-1 flex flex-col gap-5 min-[2500px]:gap-8 min-[3800px]:gap-10 lg:pr-16 xl:pr-24 min-[3800px]:pr-40" data-aos="fade-right">
             <Link href="/" className="inline-block w-fit">
               <img
-                src="/medical/bfw/logo.png"
+                src="/medical/bfw/logo.webp"
                 alt="BFW"
                 className="w-[190px] lg:w-[210px] xl:w-[235px] min-[2500px]:w-[340px] min-[3800px]:w-[480px] h-auto object-contain"
               />

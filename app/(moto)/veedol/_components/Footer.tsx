@@ -38,7 +38,7 @@ export default function Footer() {
               <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
                 <Link href="/veedol" aria-label="Veedol Home">
                   <img
-                    src="/moto/veedol-moto/logo 1.png"
+                    src="/moto/veedol-moto/logo 1.webp"
                     alt="Veedol Logo"
                     className="h-10 w-auto xl:h-15  object-contain"
                   />

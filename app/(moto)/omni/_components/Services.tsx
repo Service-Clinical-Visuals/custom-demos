@@ -7,17 +7,17 @@ export default function Services() {
   const servicesData = [
     {
       title: "PACKAGING",
-      image: "/moto/omni/service3.jpg",
+      image: "/moto/omni/service3.webp",
       text: "Omni Specialty Packaging, LLC houses a state-of-the-art production facility. Operating out of the port of Bossier/Shreveport located on the Red River, We remain...",
     },
     {
       title: "DISTRIBUTION",
-      image: "/moto/omni/service2.png",
+      image: "/moto/omni/service2.webp",
       text: "We serve as a supplier and distributor of automotive and industrial chemicals and fluids to mass merchandisers, retailers, wholesale distributors. Omni Freight Systems...",
     },
     {
       title: "BLENDING",
-      image: "/moto/omni/service1.jpg",
+      image: "/moto/omni/service1.webp",
       text: "Omni Specialty Packaging, LLC, has the storage capability and capacity to purchase raw materials in bulk, thus allowing them to maximize their production...",
     },
   ];
@@ -32,7 +32,7 @@ export default function Services() {
           {/* Header */}
           <div className="flex flex-col items-center justify-center mb-6 max-w-6xl text-center">
             <div className="flex items-center gap-3 mb-6 relative">
-              <img src="/moto/omni/bulletdot.png" className="w-3.5 h-3.5 "/>
+              <img src="/moto/omni/bulletdot.webp" className="w-3.5 h-3.5 "/>
             
               <h2 className="text-2xl md:text-[26px] xl:text-[30px] !font-normal text-[#333333] uppercase tracking-tight leading-none font-heading">
                 OUR SERVICES

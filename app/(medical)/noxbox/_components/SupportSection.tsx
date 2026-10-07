@@ -15,7 +15,7 @@ export default function SupportSection() {
             data-aos="fade-up"
           >
             <img
-              src={`/noxbox/assets/gemini_logo.png`}
+              src={`/noxbox/assets/gemini_logo.webp`}
               alt="gemini logo"
               width={34}
               height={34}
@@ -52,21 +52,21 @@ export default function SupportSection() {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
           <SupportCard
-            icon={<img src={`/noxbox/assets/improved_safety.png`} alt="Improved Safety" width={38} height={38} />}
+            icon={<img src={`/noxbox/assets/improved_safety.webp`} alt="Improved Safety" width={38} height={38} />}
             title="Improved Safety"
             text="Regular maintenance and routine inspections ensure medical devices operate safely by identifying potential issues early, reducing the risk of malfunction, and protecting both patients and medical staff."
             delay={300}
           />
 
           <SupportCard
-            icon={<img src={`/noxbox/assets/efficient_running.png`} alt="Efficient Running" width={38} height={38} />}
+            icon={<img src={`/noxbox/assets/efficient_running.webp`} alt="Efficient Running" width={38} height={38} />}
             title="Efficient Running"
             text="Routine maintenance improves operational efficiency by allowing hospitals and surgical facilities to proactively schedule equipment servicing and plan for downtime with minimal disruption."
             delay={400}
           />
 
           <SupportCard
-            icon={<img src={`/noxbox/assets/cost_savings.png`} alt="Cost Savings" width={38} height={38} />}
+            icon={<img src={`/noxbox/assets/cost_savings.webp`} alt="Cost Savings" width={38} height={38} />}
             title="Cost Savings"
             text="Preventive maintenance reduces costs by avoiding expensive emergency repairs and replacements, keeps equipment operating at peak efficiency, extends its lifespan, and improves long-term return on investment."
             delay={500}

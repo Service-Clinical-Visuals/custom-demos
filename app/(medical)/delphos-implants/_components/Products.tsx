@@ -9,19 +9,19 @@ const products = {
     title: "D2 FACE",
     desc: "Our extensive portfolio of plates and screws allows us to meet all our customers' needs, guaranteeing excellent results. We are always looking for ways to improve our products..",
     desc2: "Plates and screws designed for fractures of the jaw area or even for bone replacement in cases of tumors; Plates and screws designed for fractures of the jaw area or even for bone replacement in cases of tumors.",
-    img: "/delphos-implants/images/p-1.png",
+    img: "/delphos-implants/images/p-1.webp",
   },
   hand: {
     title: "D2 HAND",
     desc: "Complete system of plates and screws for the treatment of fractures of the finger and hand bones. All plates offer the possibility of screws with fixation in the plate itself (locking screws).",
     desc2: "Complete system of plates and screws for the treatment of fractures of the finger and hand bones. All plates offer the possibility of screws with fixation in the plate itself (locking screws). In the same hole, it is possible to choose between a locking screw or a non-locking screw.",
-    img: "/delphos-implants/images/p-2.png",
+    img: "/delphos-implants/images/p-2.webp",
   },
   extremities: {
     title: "D2 EXTREMITIES",
     desc: "Delphos brings to market two important screws for use in hand and foot surgeries: the Conical Headless and Hurricane screw families. The key highlight is that both families offer screws with a thickness of 1.7mm, filling a market gap for patients with small bones or very delicate hands.",
     desc2: "Fully threaded screw, where the proximal end terminates with a conical head. Generally used in fractures where stability is needed to allow for proper bone healing.",
-    img: "/delphos-implants/images/p-3.png",
+    img: "/delphos-implants/images/p-3.webp",
   },
 };
 
@@ -93,7 +93,7 @@ export default function ProductsSection() {
               aria-hidden="true"
             >
               <img
-                src="/delphos-implants/images/product-bg.jpg"
+                src="/delphos-implants/images/product-bg.webp"
                 alt="bg"
                 className="w-full h-full object-cover opacity-40"
               />

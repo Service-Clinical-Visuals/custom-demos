@@ -8,7 +8,7 @@ export default function TherapyGuideSection() {
       {/* Hero Image */}
       <div className="relative">
         <img
-          src="/carepump/images/therapybg.png"
+          src="/carepump/images/therapybg.webp"
           alt="Therapy Guide"
           className="object-cover"
         />

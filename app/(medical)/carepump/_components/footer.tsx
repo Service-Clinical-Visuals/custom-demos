@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Logo + Newsletter */}
           <div data-aos="fade-up" data-aos-delay="0" data-aos-anchor="#carepump-footer" data-aos-offset="0">
             <img
-              src="/carepump/images/carepumpicon.png"
+              src="/carepump/images/carepumpicon.webp"
               alt="CarePump"
               className="w-[280px] h-auto max-w-full mb-8"
             />

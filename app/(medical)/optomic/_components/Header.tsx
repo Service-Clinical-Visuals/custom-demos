@@ -73,7 +73,7 @@ export default function Header() {
                         <Link href="/optomic" className="flex items-center gap-2 shrink-0">
                             {/* Logo Image Placeholder */}
                             <div className="w-[180px] rounded-full flex items-center justify-center">
-                                <img src="/optomic/optomic-logo.png" alt="Optomic Logo" className="" />
+                                <img src="/optomic/optomic-logo.webp" alt="Optomic Logo" className="" />
                             </div>
                         </Link>
 

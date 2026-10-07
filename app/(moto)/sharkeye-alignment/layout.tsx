@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "SharkEye Alignment",
   description: "Wheel Alignment Equipment Experts",
   icons: {
-    icon: "/shark/shark-favicon.png",
+    icon: "/shark/shark-favicon.webp",
   },
 };
 

@@ -4,7 +4,7 @@ import { MailIcon, PhoneIcon, LocationIcon, FacebookIcon } from "./Icons";
 export default function Footer() {
   return (
     <footer className="w-full bg-primary text-white pt-16 bg-[radial-gradient(ellipse_at_bottom_right,var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent relative">
-      <div className="absolute inset-0 bg-[url('/future-med/home/bg.png')] bg-no-repeat bg-cover opacity-30"></div>
+      <div className="absolute inset-0 bg-[url('/future-med/home/bg.webp')] bg-no-repeat bg-cover opacity-30"></div>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
 
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6" data-aos="fade-up">
             <div className="flex items-center rounded overflow-hidden">
               {/* Footer Logo space */}
-              <img src={`/future-med/logo.png`} alt="Logo" className="w-20 h-20 object-cover" />
+              <img src={`/future-med/logo.webp`} alt="Logo" className="w-20 h-20 object-cover" />
             </div>
 
             <div className="flex flex-col gap-3 max-w-[240px]">

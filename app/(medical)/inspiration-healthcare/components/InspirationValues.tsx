@@ -79,7 +79,7 @@ export default function InspirationValues() {
         data-aos="zoom-in"
       >
         <img
-          src="/inspiration-healthcare/assets/inspiration-value.jpg"
+          src="/inspiration-healthcare/assets/inspiration-value.webp"
           alt="Floating Image"
           className="w-full h-full object-cover"
         />
@@ -90,22 +90,22 @@ export default function InspirationValues() {
 
 const values = [
   {
-    icon: "/inspiration-healthcare/assets/inspiration-value1.png",
+    icon: "/inspiration-healthcare/assets/inspiration-value1.webp",
     title: "Outcome Changing",
     desc: "Focused on delivering measurable impact in patient care",
   },
   {
-    icon: "/inspiration-healthcare/assets/inspiration-value2.png",
+    icon: "/inspiration-healthcare/assets/inspiration-value2.webp",
     title: "Research Driven",
     desc: "Built on continuous learning and scientific advancement",
   },
   {
-    icon: "/inspiration-healthcare/assets/inspiration-value3.png",
+    icon: "/inspiration-healthcare/assets/inspiration-value3.webp",
     title: "Patient Focused",
     desc: "Centered on improving patient experience and outcomes",
   },
   {
-    icon: "/inspiration-healthcare/assets/inspiration-value4.png",
+    icon: "/inspiration-healthcare/assets/inspiration-value4.webp",
     title: "Pioneering",
     desc: "Committed to innovation and forward-thinking solutions",
   },

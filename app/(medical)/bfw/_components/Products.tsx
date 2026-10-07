@@ -10,16 +10,16 @@ import Typography from "./Typography";
 import ArrowIcon from "./ArrowIcon";
 
 const products = [
-  { name: "Pharos HD™", description: "Fiber optic headlight & coaxial HD camera system.", image: "/medical/bfw/p1.png", href: "#" },
-  { name: "Daymark Victory™", description: "Our Brightest Portable Headlight Ever", image: "/medical/bfw/p2.png", href: "#" },
-  { name: "Daymark™", description: "High-intensity portable LED surgical headlight system", image: "/medical/bfw/p3.png", href: "#" },
-  { name: "Bristol-Plus™", description: "Medium-intensity portable LED surgical headlight", image: "/medical/bfw/p4.png", href: "#" },
-  { name: "Dover™", description: "Lightweight, portable LED exam headlight with adjustable spot size", image: "/medical/bfw/p5.png", href: "#" },
-  { name: "Maui Bristol-Plus™", description: "Medium-intensity cordless LED surgical headlight", image: "/medical/bfw/p6.png", href: "#" },
-  { name: "Maui Dover™", description: "Lightweight, portable LED exam headlight with fixed spot size", image: "/medical/bfw/p7.png", href: "#" },
-  { name: "AtoN™", description: "High-intensity fiber optic headlight", image: "/medical/bfw/p8.png", href: "#" },
-  { name: "Kitsilano™", description: "Ultra-lightweight, portable LED headlight", image: "/medical/bfw/p9.png", href: "#" },
-  { name: "High Bright Hatteras™", description: "High-intensity LED light source", image: "/medical/bfw/p10.png", href: "#" },
+  { name: "Pharos HD™", description: "Fiber optic headlight & coaxial HD camera system.", image: "/medical/bfw/p1.webp", href: "#" },
+  { name: "Daymark Victory™", description: "Our Brightest Portable Headlight Ever", image: "/medical/bfw/p2.webp", href: "#" },
+  { name: "Daymark™", description: "High-intensity portable LED surgical headlight system", image: "/medical/bfw/p3.webp", href: "#" },
+  { name: "Bristol-Plus™", description: "Medium-intensity portable LED surgical headlight", image: "/medical/bfw/p4.webp", href: "#" },
+  { name: "Dover™", description: "Lightweight, portable LED exam headlight with adjustable spot size", image: "/medical/bfw/p5.webp", href: "#" },
+  { name: "Maui Bristol-Plus™", description: "Medium-intensity cordless LED surgical headlight", image: "/medical/bfw/p6.webp", href: "#" },
+  { name: "Maui Dover™", description: "Lightweight, portable LED exam headlight with fixed spot size", image: "/medical/bfw/p7.webp", href: "#" },
+  { name: "AtoN™", description: "High-intensity fiber optic headlight", image: "/medical/bfw/p8.webp", href: "#" },
+  { name: "Kitsilano™", description: "Ultra-lightweight, portable LED headlight", image: "/medical/bfw/p9.webp", href: "#" },
+  { name: "High Bright Hatteras™", description: "High-intensity LED light source", image: "/medical/bfw/p10.webp", href: "#" },
 ];
 
 const Products = () => {

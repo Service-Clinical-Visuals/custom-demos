@@ -28,7 +28,7 @@ export default function Header() {
                 <div className="flex items-center gap-2">
                     {/* Logo Placeholder - Bytec Healthcare */}
                     <div className="flex items-center gap-2">
-                        <img src={`/bytec-healthcare/logo.png`} alt="Logo" />
+                        <img src={`/bytec-healthcare/logo.webp`} alt="Logo" />
                     </div>
                 </div>
 

@@ -5,25 +5,25 @@ export default function Solutions() {
     {
       title: "eAdvantage",
       description: "Meet the revolutionary analgesia device that is set to redefine patient care standards with reliable performance and fast, effective pain relief for healthcare environments.",
-      imageSrc: "/o-two/home/section-2-1.png",
+      imageSrc: "/o-two/home/section-2-1.webp",
       imageAlt: "eAdvantage Product",
     },
     {
       title: "e700 Ventilator",
       description: "Discover the game-changing power of the e700 Transport Ventilator – unlocking unmatched performance and precision in patient care.",
-      imageSrc: "/o-two/home/section-2-2.png",
+      imageSrc: "/o-two/home/section-2-2.webp",
       imageAlt: "e700 Ventilator Product",
     },
     {
       title: "Single Use CPAP",
       description: "Award-winning, compact, low-flow ventilation designed for respiratory distressed patients with reliable care across emergency and critical care settings.",
-      imageSrc: "/o-two/home/section-2-3.png",
+      imageSrc: "/o-two/home/section-2-3.webp",
       imageAlt: "Single Use CPAP Product",
     },
   ];
 
   return (
-    <section className="o-two-medical-root py-12 md:py-16 lg:py-24 relative overflow-hidden bg-[url('/o-two/home/bg.jpg')] bg-cover bg-center" id="products">
+    <section className="o-two-medical-root py-12 md:py-16 lg:py-24 relative overflow-hidden bg-[url('/o-two/home/bg.webp')] bg-cover bg-center" id="products">
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#97deff] opacity-80 backdrop-blur-[2px]" />
 

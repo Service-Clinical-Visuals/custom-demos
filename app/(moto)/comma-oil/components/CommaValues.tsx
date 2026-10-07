@@ -8,22 +8,22 @@ const values = [
   {
     tag: "Knowledge to succeed",
     text: "We give you the confidence to keep your business, and your customers' vehicles, performing at their best. From digital tools to technical training, we provide you with the right knowledge at the right time.",
-    image: "/moto/comma/what_we_stand3.png",
+    image: "/moto/comma/what_we_stand3.webp",
   },
   {
     tag: "Part of your world",
     text: "We're not just part of industry communities, we're right in the heart of them. We work hand-in-hand with workshops to understand your challenges and needs to let us explore how we can help you do more.",
-    image: "/moto/comma/what_we_stand4.png",
+    image: "/moto/comma/what_we_stand4.webp",
   },
   {
     tag: "Knowledge to succeed",
     text: "We give you the confidence to keep your business, and your customers' vehicles, performing at their best. From digital tools to technical training, we provide you with the right knowledge at the right time.",
-    image: "/moto/comma/what_we_stand3.png",
+    image: "/moto/comma/what_we_stand3.webp",
   },
   {
     tag: "Part of your world",
     text: "We're not just part of industry communities, we're right in the heart of them. We work hand-in-hand with workshops to understand your challenges and needs to let us explore how we can help you do more.",
-    image: "/moto/comma/what_we_stand4.png",
+    image: "/moto/comma/what_we_stand4.webp",
   },
 ];
 

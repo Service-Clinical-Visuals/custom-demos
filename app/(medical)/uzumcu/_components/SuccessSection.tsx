@@ -5,22 +5,22 @@ export default function SuccessSection() {
         {
             title: "Catalogs",
             description: "Innovative operating room and medical gas solutions for modern healthcare.",
-            img: "/images/home/broucher.png",
+            img: "/images/home/broucher.webp",
         },
         {
             title: "Company Profile",
             description: "A trusted provider of advanced medical and operating room solutions.",
-            img: "/images/home/company.png",
+            img: "/images/home/company.webp",
         },
         {
             title: "Company Video",
             description: "Discover our journey of innovation and dedication to healthcare.",
-            img: "/images/home/company.png",
+            img: "/images/home/company.webp",
         },
         {
             title: "Latest News",
             description: "Explore our newest developments, events, and achievements.",
-            img: "/images/home/news.png",
+            img: "/images/home/news.webp",
         },
     ];
 

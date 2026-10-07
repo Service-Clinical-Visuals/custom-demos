@@ -12,7 +12,7 @@ export default function Intro() {
             {/* Styled Image Container with source-inspired overlay/frame */}
             <div className="relative z-10 rounded-2xl overflow-hidden aspect-4/3 shadow-2xl shadow-black/5 group">
               <img
-                src="/dm-orthotics/home/about.png"
+                src="/dm-orthotics/home/about.webp"
                 alt="Children in DMO Suits"
                 className="object-cover group-hover:scale-[1.02] transition-transform duration-700 w-full h-full"
               />

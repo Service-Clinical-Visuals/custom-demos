@@ -3,11 +3,11 @@
 import ReactHealthButton from "./ReactHealthButton";
 
 const partners = [
-  { name: "Silver CP Badge", logo: "/react-health/partner-1.png" },
-  { name: "Mames", logo: "/react-health/partner-2.png" },
-  { name: "Sleep Tech Talk", logo: "/react-health/partner-3.png" },
-  { name: "HomeCare Heros", logo: "/react-health/partner-4.png" },
-  { name: "AASMF", logo: "/react-health/partner-5.png" },
+  { name: "Silver CP Badge", logo: "/react-health/partner-1.webp" },
+  { name: "Mames", logo: "/react-health/partner-2.webp" },
+  { name: "Sleep Tech Talk", logo: "/react-health/partner-3.webp" },
+  { name: "HomeCare Heros", logo: "/react-health/partner-4.webp" },
+  { name: "AASMF", logo: "/react-health/partner-5.webp" },
 ];
 
 export default function AboutReactHealth() {
@@ -67,7 +67,7 @@ export default function AboutReactHealth() {
             className="relative w-full aspect-[4/3] rounded-[2.5rem] overflow-hidden bg-gray-100 shadow-2xl border border-gray-200"
           >
             <div className="absolute inset-0 flex items-center justify-center">
-              <img src="/react-health/about.jpg" alt="About React Health" className="w-full h-full object-cover" />
+              <img src="/react-health/about.webp" alt="About React Health" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

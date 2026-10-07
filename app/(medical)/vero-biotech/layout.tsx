@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "VERO Biotech",
   description: "Transforming The Delivery of Inhaled Nitric Oxide",
   icons: {
-    icon: "/vero-biotech/logo.png"
+    icon: "/vero-biotech/logo.webp"
   }
 };
 

@@ -14,37 +14,37 @@ const ProductCatalog = () => {
     const products = [
         {
             title: "Operating Tables and Accessories",
-            icon: "/images/home/pc-1.png",
+            icon: "/images/home/pc-1.webp",
             description: "High-performance operating tables and accessories built with advanced technology for efficient and safe surgical procedures.",
             link: "#"
         },
         {
             title: "Medical Lights",
-            icon: "/images/home/pc-2.png",
+            icon: "/images/home/pc-2.webp",
             description: "Advanced medical lighting solutions providing bright, shadow-free illumination for improved surgical precision.",
             link: "#"
         },
         {
             title: "Suction Units",
-            icon: "/images/home/pc-3.png",
+            icon: "/images/home/pc-3.webp",
             description: "Advanced suction units providing powerful vacuum performance for precise and reliable fluid removal during surgery.",
             link: "#"
         },
         {
             title: "Stainless Steel Hospital Equipment",
-            icon: "/images/home/pc-4.png",
+            icon: "/images/home/pc-4.webp",
             description: "Reliable stainless steel hospital solutions designed to support efficiency, hygiene, and durability in healthcare settings.",
             link: "#"
         },
         {
             title: "Electrosurgical Units",
-            icon: "/images/home/pc-5.png",
+            icon: "/images/home/pc-5.webp",
             description: "Advanced electrosurgical units designed for precise cutting and coagulation, ensuring safe and efficient surgical performance.",
             link: "#"
         },
         {
             title: "Medical Gas Systems",
-            icon: "/images/home/pc-6.png",
+            icon: "/images/home/pc-6.webp",
             description: "Reliable medical gas systems designed for safe distribution and efficient use in healthcare environments.",
             link: "#"
         }

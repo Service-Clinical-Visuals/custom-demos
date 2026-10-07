@@ -7,10 +7,10 @@ import Button from "./Button";
 
 export default function Approvals() {
   const logos = [
-    { src: "/moto/german-gold/approval1.png", name: "MERCEDES BENZ" },
-    { src: "/moto/german-gold/approval2.png", name: "BMW" },
-    { src: "/moto/german-gold/approval3.png", name: "VW" },
-    { src: "/moto/german-gold/approval4.png", name: "AUDI" }
+    { src: "/moto/german-gold/approval1.webp", name: "MERCEDES BENZ" },
+    { src: "/moto/german-gold/approval2.webp", name: "BMW" },
+    { src: "/moto/german-gold/approval3.webp", name: "VW" },
+    { src: "/moto/german-gold/approval4.webp", name: "AUDI" }
   ];
 
   return (
@@ -62,7 +62,7 @@ export default function Approvals() {
 
             {/* Right Image */}
             <div className="lg:col-span-5 flex justify-center order-1 lg:order-2" data-aos="fade-left">
-              <img src="/moto/german-gold/approval.png" alt="German Gold Products" className="w-full max-w-[20%] sm:max-w-[30%] lg:max-w-[40%] xl:max-w-[70%] h-auto object-contain transform lg:scale-110 " />
+              <img src="/moto/german-gold/approval.webp" alt="German Gold Products" className="w-full max-w-[20%] sm:max-w-[30%] lg:max-w-[40%] xl:max-w-[70%] h-auto object-contain transform lg:scale-110 " />
             </div>
 
           </div>

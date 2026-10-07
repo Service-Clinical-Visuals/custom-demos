@@ -53,7 +53,7 @@ export default function JustBreathe() {
             data-aos-delay="150"
           >
             <img
-              src="/o-two/home/section-5.jpg"
+              src="/o-two/home/section-5.webp"
               alt="O-Two Medical Care"
               className="w-full h-full object-cover"
             />

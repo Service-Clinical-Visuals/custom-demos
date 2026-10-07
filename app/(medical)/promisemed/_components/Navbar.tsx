@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="custom-container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <img
-          src="/promisemed/logo.png"
+          src="/promisemed/logo.webp"
           alt="logo"
           width={180}
           height={40}

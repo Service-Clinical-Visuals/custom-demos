@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/gynex/images/favicon.png",
+    icon: "/gynex/images/favicon.webp",
   },
   title: "Gynex - Clinical Visuals",
   description: "Providers of high-quality OB/GYN instruments and equipment to customers worldwide.",

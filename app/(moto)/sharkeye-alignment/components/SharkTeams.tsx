@@ -8,21 +8,21 @@ const teamMembers = [
   {
     name: "CARL GIBSON",
     role: "MD / Sales / Production",
-    img: "/moto/shark/shark-team-1.png",
+    img: "/moto/shark/shark-team-1.webp",
     description:
       "Owner and founder of SharkEye. He boasts a degree in Philosophy, so if he looks deep in thought, that's why. When he's not running his global wheel alignment enterprise, he can be found chasing after his three young children - with half an eye on the fortunes of Leeds United.",
   },
   {
     name: "ROZINA SHAININGWALA",
     role: "Finance Controller",
-    img: "/moto/shark/shark-team-2.png",
+    img: "/moto/shark/shark-team-2.webp",
     description:
       "Before joining SharkEye, Rozina, a Chartered Accountant, worked for major brands including Disney and Universal. Outside work she’s taking flying lessons with a view to gaining a pilot’s licence.",
   },
   {
     name: "FAIZ SHAININGWALA",
     role: "Fasep Products Manager / Production",
-    img: "/moto/shark/shark-team-3.png",
+    img: "/moto/shark/shark-team-3.webp",
     description:
       "Specialising in all things Fasep, the Italian manufacturer of premium-grade wheel aligners, which SharkEye enjoys sole UK distribution rights for. Faiz has a diploma and a degree in engineering. He’s also a Level 5 network engineer. And like his brother, he hits the gym regularly.",
   },

@@ -57,7 +57,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-[80px]">
             {/* Logo */}
             <Link href="/kimal" className="flex flex-col leading-tight z-50">
-              <img src="/kimal/images/kimal-logo.png" alt="kimal-logo" className="w-32 md:w-36 xl:w-40 object-contain" />
+              <img src="/kimal/images/kimal-logo.webp" alt="kimal-logo" className="w-32 md:w-36 xl:w-40 object-contain" />
             </Link>
 
             {/* Navigation */}

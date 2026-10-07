@@ -15,7 +15,7 @@ export default function MedasGrid() {
           className="xl:h-[500px]"
         >
           <img
-            src="/medas-innovation/assets/medas-grid1.png"
+            src="/medas-innovation/assets/medas-grid1.webp"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -82,7 +82,7 @@ export default function MedasGrid() {
           className=" xl:h-[450px]"
         >
           <img
-            src="/medas-innovation/assets/medas-grid2.png"
+            src="/medas-innovation/assets/medas-grid2.webp"
             alt=""
             className="w-full h-full bg-cover object-cover object-bottom-right"
           />

@@ -5,7 +5,7 @@ const Excellence = () => {
     return (
         <section className="relative lg:min-h-[calc(100vh-70px)] bg-white flex flex-col justify-center pt-4 pb-6 lg:pb-12  ">
             {/* Left Decorative Background with Waves */}
-            <div className="absolute top-0 left-0 w-full lg:w-[40%] h-full bg-[url(/mci/images/excellence.png)] z-0 overflow-hidden bg-cover bg-center bg-no-repeat">
+            <div className="absolute top-0 left-0 w-full lg:w-[40%] h-full bg-[url(/mci/images/excellence.webp)] z-0 overflow-hidden bg-cover bg-center bg-no-repeat">
             </div>
 
             <div className="custom-container mx-auto px-6 md:px-12 relative z-10 flex flex-col items-center">

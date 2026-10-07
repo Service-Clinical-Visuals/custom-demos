@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="col-span-2 lg:col-span-3 flex items-start">
               <Link href="/syprin" className="inline-block">
                 <img
-                  src="/moto/syprin/logo.png"
+                  src="/moto/syprin/logo.webp"
                   alt="Original Syprin"
                   className="w-[170px] sm:w-[200px] xl:w-[250px] min-[2500px]:w-[360px] min-[3800px]:w-[480px] h-auto object-contain"
                 />

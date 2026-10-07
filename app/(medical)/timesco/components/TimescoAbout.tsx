@@ -89,7 +89,7 @@ export default function TimescoAbout() {
             "
           >
             <img
-              src="/timesco/timesco-about.png"
+              src="/timesco/timesco-about.webp"
               alt="Warehouse"
               className="
                 h-auto

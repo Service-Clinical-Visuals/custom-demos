@@ -4,15 +4,15 @@ import Link from 'next/link';
 import Button from './Button';
 
 const leftAmbassadors = [
-  { title: 'JET SKI', image: '/moto/lucas-oil/ambassador1.jpg' },
-  { title: 'OPEN WHEEL', image: '/moto/lucas-oil/ambassador3.jpg' },
-  { title: 'DRAG RACING', image: '/moto/lucas-oil/ambassador5.jpg' },
+  { title: 'JET SKI', image: '/moto/lucas-oil/ambassador1.webp' },
+  { title: 'OPEN WHEEL', image: '/moto/lucas-oil/ambassador3.webp' },
+  { title: 'DRAG RACING', image: '/moto/lucas-oil/ambassador5.webp' },
 ];
 
 const rightAmbassadors = [
-  { title: 'MONSTER TRUCKS', image: '/moto/lucas-oil/ambassador2.jpg' },
-  { title: 'DRIFTING', image: '/moto/lucas-oil/ambassador4.jpg' },
-  { title: 'MOTORCYCLE', image: '/moto/lucas-oil/ambassador6.jpg' },
+  { title: 'MONSTER TRUCKS', image: '/moto/lucas-oil/ambassador2.webp' },
+  { title: 'DRIFTING', image: '/moto/lucas-oil/ambassador4.webp' },
+  { title: 'MOTORCYCLE', image: '/moto/lucas-oil/ambassador6.webp' },
 ];
 
 export default function Ambassadors() {
@@ -21,7 +21,7 @@ export default function Ambassadors() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/moto/lucas-oil/bg_ambassodor.png"
+          src="/moto/lucas-oil/bg_ambassodor.webp"
           alt="Ambassadors Background"
           fill
           className="object-cover "
@@ -92,7 +92,7 @@ export default function Ambassadors() {
     " data-aos="zoom-in">
             <div className="flex items-center space-x-3 mb-6">
               <img
-                src="/moto/lucas-oil/setting.png"
+                src="/moto/lucas-oil/setting.webp"
                 alt="Setting icon"
                 className="w-5 h-5 md:w-6 md:h-6 object-contain"
               />

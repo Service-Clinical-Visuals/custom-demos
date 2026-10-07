@@ -47,7 +47,7 @@ export default function AboutSection() {
 
                         {/* Image: Two people */}
                         <div className="w-full" data-aos="zoom-in" data-aos-delay="300">
-                            <img src={`/sleepnet/home/about-1.png`} alt="" />
+                            <img src={`/sleepnet/home/about-1.webp`} alt="" />
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@ export default function AboutSection() {
                     <div className="w-full lg:w-2/5 flex flex-col gap-6 md:gap-8 mt-4 lg:mt-0" data-aos="fade-left">
                         {/* Image: Masks */}
                         <div className="w-full">
-                            <img src={`/sleepnet/home/about-2.png`} alt="" />
+                            <img src={`/sleepnet/home/about-2.webp`} alt="" />
                         </div>
 
                         {/* 35+ Years of Experience */}

@@ -9,7 +9,7 @@ const cards = [
     id: 1,
     eyebrow: "HR Healthcare Careers",
     title: "Careers Built on Purpose & People",
-    icon: "/medical/hr-healthcare/hr-about-1.png",
+    icon: "/medical/hr-healthcare/hr-about-1.webp",
     description:
       "With purpose as our top priority, we shape actions to better lives. Our family-owned team is deeply invested in ensuring employees find lasting fulfillment in their personal lives and careers.",
   },
@@ -17,14 +17,14 @@ const cards = [
     id: 2,
     eyebrow: "HR HealthCare Patient Services",
     title: "Connected Care Through One Team",
-    icon: "/medical/hr-healthcare/hr-about-2.png",
+    icon: "/medical/hr-healthcare/hr-about-2.webp",
     description:
       "Patient Services integrates medical supply management as a seamless one-company, one-team, one-connection approach to enhance clinician and patient experiences. Inspired by our purpose, we unite products, order processing, and delivery.",
   },
   {
     id: 3,
     eyebrow: "TruAdvance 4P™ Urological Solution",
-    icon: "/medical/hr-healthcare/hr-about-3.png",
+    icon: "/medical/hr-healthcare/hr-about-3.webp",
     title: "Simplify, Standardize, Prevent CAUTI",
     description:
       "The TruAdvance 4P framework transforms leading, evidence-based guidance into an easy-to-follow model that brings clarity and confidence to bladder management. At the core of this initiative are nurses.",

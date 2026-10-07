@@ -40,7 +40,7 @@ export default function BioplateNavbar() {
             {/* LOGO */}
             <div className="flex items-center gap-3">
               <img
-                src="/bioplate/bioplate-logo.png"
+                src="/bioplate/bioplate-logo.webp"
                 alt="Logo"
                 className="h-9 w-auto shrink-0 sm:h-11 lg:h-12"
               />

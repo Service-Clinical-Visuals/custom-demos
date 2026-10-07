@@ -13,7 +13,7 @@ const About = () => {
           <div data-aos="fade-right" className="w-full lg:w-1/2">
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative group">
               <img
-                src="/emerald/images/about.png"
+                src="/emerald/images/about.webp"
                 alt="Hospital Bed"
                 className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -40,7 +40,7 @@ const About = () => {
                 "We are a brand that really knows the true needs and expectations of your customers"
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <img src="/emerald/images/check.png" alt="Check" className="w-5 h-5" />
+                  <img src="/emerald/images/check.webp" alt="Check" className="w-5 h-5" />
                   <span className="text-[17px] text-[#333333]">{item}</span>
                 </li>
               ))}

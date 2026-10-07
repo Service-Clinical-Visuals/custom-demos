@@ -10,14 +10,14 @@ const news = [
     date: "19.08.2024",
     description:
       "Where to find us : Explore Our Upcoming Events and Exhibitions",
-    image: "/optimed/optimed-news-1.png",
+    image: "/optimed/optimed-news-1.webp",
   },
   {
     title: "Optimed & Rocamed enter into partnership",
     date: "22.09.2023",
     description:
       "optimed Partners with Rocamed to Enhance High-Quality Urology...",
-    image: "/optimed/optimed-news-2.png",
+    image: "/optimed/optimed-news-2.webp",
   },
 ];
 

@@ -10,15 +10,15 @@ import Image from "next/image";
 const hubItems = [
   {
     title: "Our Time In Hobart, Australia",
-    image: "/dm-orthotics/home/hub-1.png",
+    image: "/dm-orthotics/home/hub-1.webp",
   },
   {
     title: "Our Time At WHX Dubai 2026",
-    image: "/dm-orthotics/home/hub-2.png",
+    image: "/dm-orthotics/home/hub-2.webp",
   },
   {
     title: "APCP Annual Conference 2026",
-    image: "/dm-orthotics/home/hub-3.png",
+    image: "/dm-orthotics/home/hub-3.webp",
   }
 ];
 

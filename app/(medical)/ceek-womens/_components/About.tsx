@@ -18,7 +18,7 @@ export default function About() {
 
             <div className="relative z-10 rounded-xl overflow-hidden p-8">
               <Image
-                src="/ceek/about.png"
+                src="/ceek/about.webp"
                 alt="about"
                 width={581}
                 height={560}
@@ -29,7 +29,7 @@ export default function About() {
           <div className="w-full flex p-8">
             <div className="max-w-145.25 w-full">
               <Image
-                src="/ceek/about-2.png"
+                src="/ceek/about-2.webp"
                 alt="about"
                 width={581}
                 height={560}

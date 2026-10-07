@@ -18,7 +18,7 @@ export default function Header() {
             <div className="bg-white rounded-[2rem] border border-[#43C056] px-4 md:px-6 py-2 flex items-center justify-between shadow-sm">
                 {/* Logo */}
                 <div className="flex items-center gap-2 pl-2">
-                    <img src={`/integra/logo.png`} alt="Logo" className="w-40" />
+                    <img src={`/integra/logo.webp`} alt="Logo" className="w-40" />
                 </div>
 
                 {/* Nav Links */}

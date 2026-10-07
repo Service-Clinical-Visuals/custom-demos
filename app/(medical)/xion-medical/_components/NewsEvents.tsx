@@ -6,17 +6,17 @@ import Button from "./Button";
 const events = [
   {
     title: "CEORL-HNS 2026 | 8th Congress of European ORL-HNS, Gothenburg",
-    path: "/xion/images/news-1.png",
+    path: "/xion/images/news-1.webp",
     date: "25 – 29 April 2026",
   },
   {
     title: "CEORL-HNS Congress in Gothenburg",
-    path: "/xion/images/news-2.png",
+    path: "/xion/images/news-2.webp",
     date: "25 – 29 April 2026",
   },
   {
     title: "97th Annual Meeting of the DGHNO-KHC, Ulm",
-    path: "/xion/images/news-3.png",
+    path: "/xion/images/news-3.webp",
     date: "13 – 16 May 2026",
   }
 ];

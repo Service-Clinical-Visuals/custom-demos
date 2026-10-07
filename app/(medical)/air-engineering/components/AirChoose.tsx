@@ -195,7 +195,7 @@ export default function AirChoose() {
             blur-[1px]
           "
         >
-          <img src="/ae/ae-choose.png" alt="bg-choose" />
+          <img src="/ae/ae-choose.webp" alt="bg-choose" />
         </div>
 
         {/* CONTENT */}

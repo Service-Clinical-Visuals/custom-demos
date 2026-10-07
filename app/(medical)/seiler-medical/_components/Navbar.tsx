@@ -46,7 +46,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center shrink-0 lg:h-22">
             <Image
-              src="/seiler/logo.png"
+              src="/seiler/logo.webp"
               alt="Seiler Medical"
               width={120}
               height={36}

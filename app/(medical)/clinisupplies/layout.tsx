@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Clinisupplies",
   description: "Clinisupplies",
   icons: {
-    icon: "/clinisupplies/logo.png",
+    icon: "/clinisupplies/logo.webp",
   },
 };
 

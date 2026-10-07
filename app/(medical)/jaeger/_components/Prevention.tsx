@@ -58,7 +58,7 @@ const Prevention = () => {
 
           <div className="lg:ml-10 relative h-85 md:h-100 rounded-3xl overflow-hidden shadow-lg">
             <img
-              src="/jaeger/prevention.png"
+              src="/jaeger/prevention.webp"
               alt="Service Engineer"
               className="w-full h-full object-cover"
             />

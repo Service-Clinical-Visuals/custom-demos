@@ -42,7 +42,7 @@ export default function Technology() {
             {/* Image Box */}
             <div className="w-full h-full min-h-[300px] rounded-2xl overflow-hidden relative">
               <img
-                src="/osteobionix/techs.png"
+                src="/osteobionix/techs.webp"
                 alt="Medical Professional examining X-Ray"
                 className="absolute inset-0 w-full h-full object-cover"
               />

@@ -25,7 +25,7 @@ export default function Navbar() {
     >
       <Container className="flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <img src="/jaeger/logo.png" className="w-60 h-15 object-contain" />
+        <img src="/jaeger/logo.webp" className="w-60 h-15 object-contain" />
 
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-6 text-[#333333] text-base font-medium">

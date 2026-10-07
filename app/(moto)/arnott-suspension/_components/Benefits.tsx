@@ -57,7 +57,7 @@ export default function Benefits() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Bottom Left: Large Image Placeholder */}
                     <div className="bg-[#F2F2F2] overflow-hidden rounded-sm max-h-[400px] lg:max-h-[450px] flex items-center justify-center" data-aos="zoom-in">
-                        <img src="/arnott/images/suspention.png" alt="" className="w-full h-full object-contain" />
+                        <img src="/arnott/images/suspention.webp" alt="" className="w-full h-full object-contain" />
                     </div>
 
                     {/* Bottom Right: Features Grid */}

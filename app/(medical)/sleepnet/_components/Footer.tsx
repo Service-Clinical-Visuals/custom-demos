@@ -9,7 +9,7 @@ export default function Footer() {
 
             {/* Newsletter Overlay */}
             <div className="container mx-auto px-6 relative -top-16 lg:-top-24">
-                <div className="w-full bg-[url('/sleepnet/home/subscribe-bg.jpg')] rounded-lg p-10 md:p-16 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl overflow-hidden relative">
+                <div className="w-full bg-[url('/sleepnet/home/subscribe-bg.webp')] rounded-lg p-10 md:p-16 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl overflow-hidden relative">
 
                     {/* Decorative Background Elements */}
                     <div className="absolute top-0 left-0 w-64 h-full bg-black/10 rounded-full blur-3xl -ml-32" />
@@ -43,7 +43,7 @@ export default function Footer() {
                     <div className="lg:w-1/4 flex flex-col gap-6">
                         {/* Logo */}
                         <div className="flex items-center gap-2 mb-4">
-                            <img src={`/sleepnet/logo-white.png`} alt="Sleepnet" width={`170px`} />
+                            <img src={`/sleepnet/logo-white.webp`} alt="Sleepnet" width={`170px`} />
                         </div>
 
                         {/* Contact Details */}

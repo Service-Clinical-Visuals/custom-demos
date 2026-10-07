@@ -8,12 +8,12 @@ export default function News() {
   const newsItems = [
     {
       title: "The Flexible Video Rhinolaryngoscope",
-      path: "/entermed/news-1.png",
+      path: "/entermed/news-1.webp",
       description: "The Flexible Video Rhinolaryngoscope features a tiny image sensor and four LEDs integrated into its distal end with a diameter of 3.4mm, offering high-quality imaging."
     },
     {
       title: "EROC GLOBAL FORUM- WTC Dubai",
-      path: "/entermed/news-2.png",
+      path: "/entermed/news-2.webp",
       description: "The annual EROC conference continues to be a transformative event for otorhinolaryngology and audiology professionals. This year's programme features a wide..."
     }
   ];

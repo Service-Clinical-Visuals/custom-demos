@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <img
-            src={`/invotec/assets/Invotec-Logo-Basic-FC--white-text 1.png`}
+            src={`/invotec/assets/Invotec-Logo-Basic-FC--white-text 1.webp`}
             alt="Invotec Logo"
             width={180}
             height={24}

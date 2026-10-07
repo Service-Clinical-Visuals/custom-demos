@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: `/bytec-healthcare/favicon.png`,
-    shortcut: `/bytec-healthcare/favicon.png`,
-    apple: `/bytec-healthcare/favicon.png`,
+    icon: `/bytec-healthcare/favicon.webp`,
+    shortcut: `/bytec-healthcare/favicon.webp`,
+    apple: `/bytec-healthcare/favicon.webp`,
   },
   title: "Bytec Healthcare | Premium Mobile Medical Platforms",
   description: "Standard mobile workstations and ergonomic product line for today's modern healthcare environments.",

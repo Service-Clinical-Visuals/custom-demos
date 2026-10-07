@@ -37,12 +37,12 @@ export default function AboutSection() {
 
                         {/* Top Right Image */}
                         <div className="col-span-3 rounded-2xl md:rounded-3xl overflow-hidden h-[180px] sm:h-[220px] md:h-[260px] shadow-lg">
-                            <img src={`/soniquence/home/about-1.png`} alt="Medical Innovation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                            <img src={`/soniquence/home/about-1.webp`} alt="Medical Innovation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                         </div>
 
                         {/* Bottom Image */}
                         <div className="col-span-5 rounded-2xl md:rounded-3xl overflow-hidden h-[200px] sm:h-[260px] md:h-[320px] shadow-lg">
-                            <img src={`/soniquence/home/about-2.png`} alt="Surgical Excellence" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                            <img src={`/soniquence/home/about-2.webp`} alt="Surgical Excellence" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                         </div>
                     </div>
 

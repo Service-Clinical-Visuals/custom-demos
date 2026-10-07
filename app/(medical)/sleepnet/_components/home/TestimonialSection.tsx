@@ -47,7 +47,7 @@ export default function TestimonialSection() {
                     <div className="w-full lg:w-[50%] relative z-10 flex justify-start" data-aos="fade-right">
                         <div className="w-full aspect-9/10 shadow-2xl overflow-hidden rounded-sm transform -translate-y-[100px]">
                             <img
-                                src={`/sleepnet/home/testi-img.png`}
+                                src={`/sleepnet/home/testi-img.webp`}
                                 alt="Doctor and patient"
                                 className="w-full h-full object-cover"
                             />

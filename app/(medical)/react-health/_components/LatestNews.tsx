@@ -24,7 +24,7 @@ export default function LatestNews() {
   return (
     <section className="py-24 bg-react-purple relative overflow-hidden">
       {/* Background patterns */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('/react-health/bg.png')] bg-cover bg-no-repeat bg-center opacity-10" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('/react-health/bg.webp')] bg-cover bg-no-repeat bg-center opacity-10" />
 
       <div className="react-container relative z-10">
         <div className="text-center mb-16" data-aos="fade-up">

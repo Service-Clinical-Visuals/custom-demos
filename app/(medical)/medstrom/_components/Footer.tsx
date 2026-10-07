@@ -25,7 +25,7 @@ export default function Footer() {
               <button
                 className="bg-[#2A317A] px-4 py-3 flex items-center justify-center transition-colors hover:bg-[#4BCBF5] focus:outline-none group flex-shrink-0"
               >
-                <img src="/medstrom/images/send.png" alt="" className="h-5" />
+                <img src="/medstrom/images/send.webp" alt="" className="h-5" />
               </button>
             </div>
 

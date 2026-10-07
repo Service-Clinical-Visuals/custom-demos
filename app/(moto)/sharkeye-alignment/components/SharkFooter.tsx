@@ -42,7 +42,7 @@ export default function SharkFooter() {
               className="flex items-center"
             >
               <div className="relative w-[230px] h-[72px] bg-white shadow-sm overflow-hidden border border-black/5">
-                <img src="/moto/shark/shark-logo.png" alt="logo" className="w-full h-full object-cover" />
+                <img src="/moto/shark/shark-logo.webp" alt="logo" className="w-full h-full object-cover" />
               </div>
             </div>
 
@@ -64,7 +64,7 @@ export default function SharkFooter() {
 
               {/* BADGE */}
               <div className="w-[78px] h-[78px] rounded-full bg-[#1d1d1d] border-[4px] border-[#d6b95d] shadow-lg flex items-center justify-center">
-                <img src="/moto/shark/shark-workshop.png" alt="logo" className="w-full h-full object-cover" />
+                <img src="/moto/shark/shark-workshop.webp" alt="logo" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function SharkFooter() {
        <div className="absolute inset-0 z-[1] bg-[#231f20df]"></div>
       {/* BACKGROUND */}
       <div className="absolute inset-0">
-       <img src="/moto/shark/shark-products-bg.jpg" alt="bg" className="w-full h-full object-cover"/>
+       <img src="/moto/shark/shark-products-bg.webp" alt="bg" className="w-full h-full object-cover"/>
         </div>
         {/* CONTENT */}
         <div className="relative z-10 max-w-380 mx-auto py-16 px-4 sm:px-6">

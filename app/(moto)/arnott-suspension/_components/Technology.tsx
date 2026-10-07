@@ -58,7 +58,7 @@ export default function Technology() {
 
                         {/* Logo Placeholder */}
                         <div className="h-12 flex items-center">
-                            <img src="/arnott/images/category-1.png" alt="Technology Logo" className="h-full w-auto object-contain" />
+                            <img src="/arnott/images/category-1.webp" alt="Technology Logo" className="h-full w-auto object-contain" />
                         </div>
 
                         <div className="min-h-[180px]">

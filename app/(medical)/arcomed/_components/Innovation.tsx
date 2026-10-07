@@ -66,7 +66,7 @@ export default function InnovationSection() {
           {/* Right Column: Visual Image */}
           <div data-aos="fade-up" className="relative h-full">
             <img
-              src="/arcomed/innovation.png" // Replace with your image
+              src="/arcomed/innovation.webp" // Replace with your image
               alt="Innovation in action"
               className="w-full h-full object-cover rounded-2xl shadow-2xl"
             />

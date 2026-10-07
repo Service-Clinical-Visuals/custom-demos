@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Column 1: Logo and About */}
           <div className="w-full lg:max-w-[340px]">
             <div className="mb-6">
-              <img src="/vero-biotech/logo.png" alt="Vero Logo" className="w-32 lg:w-40" />
+              <img src="/vero-biotech/logo.webp" alt="Vero Logo" className="w-32 lg:w-40" />
             </div>
             <p className="text-[15px] lg:text-[16px] lg:text-justify leading-relaxed mb-6">
               Vero biotech is an emerging biotechnology company focused on the design, development, and commercialization of next generation inhaled nitric oxide (NO) delivery systems to address unmet medical needs of patients with cardiopulmonary conditions.
@@ -64,7 +64,7 @@ export default function Footer() {
             </Link>
 
             <div className="">
-              <img src="/vero-biotech/home/footer.png" alt="Accreditations" className="w-[170px] lg:w-[190px]" />
+              <img src="/vero-biotech/home/footer.webp" alt="Accreditations" className="w-[170px] lg:w-[190px]" />
             </div>
           </div>
 

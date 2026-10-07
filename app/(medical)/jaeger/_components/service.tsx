@@ -9,13 +9,13 @@ export default function ServicesSection() {
       title: "Vyntus™ Protect - Service Programs",
       description:
         "Breathe easy knowing your Jaeger products are cared for by our expert team of service professionals.",
-      image: "/jaeger/service-1.png", // Replace with your actual path
+      image: "/jaeger/service-1.webp", // Replace with your actual path
     },
     {
       title: "Effortless Efficiency: Vyntus™ Protect Service...",
       description:
         "With the rise in cardiopulmonary diseases, PFT and CPET labs are facing higher patient volumes...",
-      image: "/jaeger/service-2.png", // Replace with your actual path
+      image: "/jaeger/service-2.webp", // Replace with your actual path
     },
   ];
 

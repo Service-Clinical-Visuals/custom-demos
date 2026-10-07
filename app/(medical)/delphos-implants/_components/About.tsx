@@ -16,7 +16,7 @@ export default function AboutSection() {
             data-aos="fade-left"
             className="rounded-2xl overflow-hidden ">
             <img
-              src="/delphos-implants/images/about.png" // replace with your image
+              src="/delphos-implants/images/about.webp" // replace with your image
               alt="about"
               width={600}
               height={400}
@@ -63,7 +63,7 @@ export default function AboutSection() {
               {/* LEFT (4 cols) */}
               <div className="col-span-12 sm:col-span-4 bg-gray-200">
                 <img
-                  src={active === "vision" ? "/delphos-implants/images/vision.png" : "/delphos-implants/images/mission.png"}
+                  src={active === "vision" ? "/delphos-implants/images/vision.webp" : "/delphos-implants/images/mission.webp"}
                   alt={active}
                   className="h-full w-full object-cover"
                 />
@@ -101,12 +101,12 @@ export default function AboutSection() {
         <div
           data-aos="fade-up"
           className="bg-[#F5F5F5] rounded-2xl py-6 px-6 flex flex-wrap items-center justify-evenly gap-10">
-          <img src="/delphos-implants/images/cert1.png" alt="cert" width={120} height={120} />
-          <img src="/delphos-implants/images/cert2.png" alt="cert" width={120} height={120} />
-          <img src="/delphos-implants/images/cert3.png" alt="cert" width={120} height={120} />
-          <img src="/delphos-implants/images/cert4.png" alt="cert" width={120} height={120} />
-          <img src="/delphos-implants/images/cert5.png" alt="cert" width={120} height={120} />
-          <img src="/delphos-implants/images/cert6.png" alt="cert" width={180} height={180} />
+          <img src="/delphos-implants/images/cert1.webp" alt="cert" width={120} height={120} />
+          <img src="/delphos-implants/images/cert2.webp" alt="cert" width={120} height={120} />
+          <img src="/delphos-implants/images/cert3.webp" alt="cert" width={120} height={120} />
+          <img src="/delphos-implants/images/cert4.webp" alt="cert" width={120} height={120} />
+          <img src="/delphos-implants/images/cert5.webp" alt="cert" width={120} height={120} />
+          <img src="/delphos-implants/images/cert6.webp" alt="cert" width={180} height={180} />
         </div>
       </div>
     </section>

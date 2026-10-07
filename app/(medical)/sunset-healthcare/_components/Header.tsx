@@ -40,7 +40,7 @@ export default function Header() {
         <div className="flex-shrink-0">
           <Link href="/sunset-healthcare" className="flex items-center">
             <div className="w-[150px] md:w-[200px] h-[40px] md:h-[50px] flex flex-col items-center justify-center rounded overflow-hidden">
-              <img src="/sunset-healthcare/logo.png" alt="Logo" className="h-full object-contain" />
+              <img src="/sunset-healthcare/logo.webp" alt="Logo" className="h-full object-contain" />
             </div>
           </Link>
         </div>

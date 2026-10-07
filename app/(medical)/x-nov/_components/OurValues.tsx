@@ -18,7 +18,7 @@ export default function OurValues() {
           {/* Left Column: Image Area */}
           <div className="lg:col-span-6 flex items-center justify-center lg:justify-start" data-aos="fade-right">
             <div className="relative w-full  rounded-[32px] overflow-hidden shadow-xl bg-[#f4f6f9] border border-gray-100 flex items-center justify-center transition-all duration-500 hover:shadow-2xl hover:scale-[1.01]">
-              <img src="/x-nov/values.jpg" alt="Our Values" className="w-full h-full object-cover" />
+              <img src="/x-nov/values.webp" alt="Our Values" className="w-full h-full object-cover" />
             </div>
           </div>
 

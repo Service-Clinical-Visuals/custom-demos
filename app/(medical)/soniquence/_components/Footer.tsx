@@ -16,7 +16,7 @@ export default function Footer() {
                         <div data-aos="fade-up" data-aos-delay="0" className="space-y-6">
                             {/* Logo placeholder - replace with actual image when available */}
                             <div className="flex items-center gap-2 font-bold text-2xl tracking-tighter mb-4">
-                                <img src={`/soniquence/logo.png`} alt="Logo" width={150} className="brightness-0 invert" style={{ filter: 'brightness(0) invert(1)' }} />
+                                <img src={`/soniquence/logo.webp`} alt="Logo" width={150} className="brightness-0 invert" style={{ filter: 'brightness(0) invert(1)' }} />
                             </div>
 
                             <ul className="space-y-4 text-[15px] font-medium leading-relaxed">

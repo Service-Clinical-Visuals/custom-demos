@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "CatheGenix | Investing in Science, Innovating For Patients",
   description: "CatheGenix | Investing in Science, Innovating For Patients",
   icons: {
-    icon: "/cathegenix/cathe-favicon.png",
+    icon: "/cathegenix/cathe-favicon.webp",
   },
 };
 

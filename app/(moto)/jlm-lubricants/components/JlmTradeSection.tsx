@@ -8,15 +8,15 @@ export default function JlmTradeSection() {
   const cards = [
     {
       title: "Shop",
-      image: "/jlm/jlm-trust-1.png",
+      image: "/jlm/jlm-trust-1.webp",
     },
     {
       title: "Locator",
-      image: "/jlm/jlm-trust-2.png",
+      image: "/jlm/jlm-trust-2.webp",
     },
     {
       title: "Problem Solver",
-      image: "/jlm/jlm-trust-3.png",
+      image: "/jlm/jlm-trust-3.webp",
     },
   ];
 

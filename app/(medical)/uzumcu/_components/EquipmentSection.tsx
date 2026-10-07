@@ -11,37 +11,37 @@ const EquipmentSection = () => {
         {
             title: "Operating Tables And Accessories",
             description: "Operating table accessories designed for flexibility, precision, and enhanced patient safety.",
-            image: "/uzumcu/images/home/product-1.jpg",
+            image: "/uzumcu/images/home/product-1.webp",
         },
         {
             title: "Medical Lights",
             description: "Our medical lights provide sharp, shadow-free illumination for precise and efficient surgical performance.",
-            image: "/uzumcu/images/home/product-2.jpg",
+            image: "/uzumcu/images/home/product-2.webp",
         },
         {
             title: "Suction Units",
             description: "Our surgical suction units provide powerful, reliable vacuum performance for safe and efficient fluid removal in surgical settings.",
-            image: "/uzumcu/images/home/product-3.jpg",
+            image: "/uzumcu/images/home/product-3.webp",
         },
         {
             title: "Electrosurgical Units",
             description: "Our electrosurgical units provide precise cutting and coagulation for safe, efficient surgical performance.",
-            image: "/uzumcu/images/home/product-4.jpg",
+            image: "/uzumcu/images/home/product-4.webp",
         },
         {
             title: "Stainless Steel Hospital Equipment",
             description: "Durable and hygienic stainless steel equipment designed for reliable performance in healthcare environments.",
-            image: "/uzumcu/images/home/product-5.jpg",
+            image: "/uzumcu/images/home/product-5.webp",
         },
         {
             title: "Medical Gas Systems",
             description: "Safe and reliable medical gas systems designed for precise distribution and uninterrupted patient care.",
-            image: "/uzumcu/images/home/product-6.jpg",
+            image: "/uzumcu/images/home/product-6.webp",
         },
     ];
 
     return (
-        <section className="py-12 relative overflow-hidden bg-[url('/uzumcu/images/home/product-bg.png')] bg-cover bg-center bg-no-repeat">
+        <section className="py-12 relative overflow-hidden bg-[url('/uzumcu/images/home/product-bg.webp')] bg-cover bg-center bg-no-repeat">
             <div className="container mx-auto px-4 relative z-10">
                 {/* Header Section */}
                 <div className="text-center mb-16 text-white" data-aos="fade-up">

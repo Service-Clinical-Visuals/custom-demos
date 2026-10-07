@@ -31,7 +31,7 @@ export default function ProductFeature() {
           <ul className="flex flex-col gap-4">
             {features.map((feature, idx) => (
               <li key={idx} className="flex items-start gap-3">
-                <img src="/horizon/images/check-circle.png" alt="check" className="w-6 h-6" />
+                <img src="/horizon/images/check-circle.webp" alt="check" className="w-6 h-6" />
                 <span className="text-[#827E76] font-normal text-[16px] md:text-[17px] leading-relaxed">{feature}</span>
               </li>
             ))}

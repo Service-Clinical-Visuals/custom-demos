@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex items-center justify-between py-3">
           {/* Logo Area */}
           <div className="flex-shrink-0">
-                      <img src="/moto/lucas-oil/lucaslogo.png" className="w-[140px] lg:w-[150px] xl:w-[180px] h-auto object-contain" />
+                      <img src="/moto/lucas-oil/lucaslogo.webp" className="w-[140px] lg:w-[150px] xl:w-[180px] h-auto object-contain" />
           </div>
 
           {/* Desktop Navigation */}

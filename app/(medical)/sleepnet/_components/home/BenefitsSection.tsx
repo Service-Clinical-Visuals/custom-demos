@@ -22,7 +22,7 @@ export default function BenefitsSection() {
                             data-aos-delay="0"
                         >
                             <div className="w-20 h-20 relative mb-4">
-                                <img src={`/sleepnet/home/why-1.png`} alt="Made in USA" className="object-contain" />
+                                <img src={`/sleepnet/home/why-1.webp`} alt="Made in USA" className="object-contain" />
                             </div>
                             <h3 className="text-primary font-bold text-base">Made in USA</h3>
                         </div>
@@ -34,7 +34,7 @@ export default function BenefitsSection() {
                             data-aos-delay="100"
                         >
                             <div className="w-20 h-20 relative mb-4">
-                                <img src={`/sleepnet/home/why-2.png`} alt="Quality" className="object-contain" />
+                                <img src={`/sleepnet/home/why-2.webp`} alt="Quality" className="object-contain" />
                             </div>
                             <h3 className="text-primary font-bold text-base">Quality</h3>
                         </div>
@@ -46,7 +46,7 @@ export default function BenefitsSection() {
                             data-aos-delay="200"
                         >
                             <div className="w-20 h-20 relative mb-4">
-                                <img src={`/sleepnet/home/why-3.png`} alt="Dependable" className="object-contain" />
+                                <img src={`/sleepnet/home/why-3.webp`} alt="Dependable" className="object-contain" />
                             </div>
                             <h3 className="text-primary font-bold text-base">Dependable</h3>
                         </div>
@@ -58,7 +58,7 @@ export default function BenefitsSection() {
                             data-aos-delay="300"
                         >
                             <div className="w-20 h-20 relative mb-4">
-                                <img src={`/sleepnet/home/why-4.png`} alt="Quick Ship" className="object-contain" />
+                                <img src={`/sleepnet/home/why-4.webp`} alt="Quick Ship" className="object-contain" />
                             </div>
                             <h3 className="text-primary font-bold text-base">Quick Ship</h3>
                         </div>

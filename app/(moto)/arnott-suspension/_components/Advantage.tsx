@@ -29,7 +29,7 @@ export default function Advantage() {
                     <h2 className="text-[28px] md:text-[32px] font-bold text-white! mb-3 uppercase tracking-tight flex flex-wrap items-center justify-center gap-x-4">
                         <span>The</span> 
                         <span>
-                            <img src="/arnott/images/arnott-logo.png" alt="" className="w-35" />
+                            <img src="/arnott/images/arnott-logo.webp" alt="" className="w-35" />
                         </span> 
                         <span>Advantage</span>
                     </h2>

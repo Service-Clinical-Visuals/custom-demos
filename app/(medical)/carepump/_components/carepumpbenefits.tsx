@@ -5,19 +5,19 @@ import PrimaryButton from "./Button";
 
 const benefits = [
   {
-    icon: "/carepump/images/sport-recovery 1.png",
+    icon: "/carepump/images/sport-recovery 1.webp",
     title: "Fast recovery of athletes",
     description:
       "Active regeneration combined with relaxation. Removal of muscle pain, tension and fatigue after training or competitions. Increased body performance. Less risk of injury.",
   },
   {
-    icon: "/carepump/images/vector.png",
+    icon: "/carepump/images/vector.webp",
     title: "Home treatment of oedemas",
     description:
       `Effective removal of lymphoedema and the feeling of "heavy legs". Prevention of venous and lymphatic system insufficiency. Home lymphatic drainage - effect like after a visit to the office.`,
   },
   {
-    icon: "/carepump/images/anticellulite 1.png",
+    icon: "/carepump/images/anticellulite 1.webp",
     title: "Healthier body without cellulite",
     description:
       "Faster metabolism, reduction of cellulite, firming and slimming of the body. Relaxing treatment in any place. Duration of the treatment: 1-120 minutes.",

@@ -10,27 +10,27 @@ const teamMembers = [
   {
     name: "Thomas Hopson",
     role: "President",
-    image: "/bioplate/bioplate-teams-1.png",
+    image: "/bioplate/bioplate-teams-1.webp",
   },
   {
     name: "Erin Hickey",
     role: "Business Operations",
-    image: "/bioplate/bioplate-teams-2.png",
+    image: "/bioplate/bioplate-teams-2.webp",
   },
   {
     name: "Jamie Press",
     role: "Human Resources",
-    image: "/bioplate/bioplate-teams-3.png",
+    image: "/bioplate/bioplate-teams-3.webp",
   },
     {
     name: "Alan Zhu",
     role: "Global Sales",
-    image: "/bioplate/bioplate-teams-4.png",
+    image: "/bioplate/bioplate-teams-4.webp",
   },
   {
     name: "Yoon Choi",
     role: "Quality & Regulations",
-    image: "/bioplate/bioplate-teams-5.png",
+    image: "/bioplate/bioplate-teams-5.webp",
   },
 ];
 

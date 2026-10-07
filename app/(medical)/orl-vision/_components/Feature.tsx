@@ -40,7 +40,7 @@ const Features = () => {
           data-aos="fade-left"
           className="col-span-12 md:col-span-4 bg-gray-100 rounded-xl flex items-center justify-center">
           <img
-            src="/orlvision/plug.png"
+            src="/orlvision/plug.webp"
             alt="Plug"
             className="w-full h-full object-contain"
           />
@@ -50,7 +50,7 @@ const Features = () => {
           data-aos="fade-left"
           className="col-span-12 md:col-span-8 bg-gray-100 rounded-xl flex items-center justify-center">
           <img
-            src="/orlvision/service.png"
+            src="/orlvision/service.webp"
             alt="Service"
             className="w-full h-full object-cover"
           />
@@ -61,7 +61,7 @@ const Features = () => {
           data-aos="fade-right"
           className="col-span-12 md:col-span-4 bg-gray-100 rounded-xl  flex items-center justify-center">
           <img
-            src="/orlvision/paediatrics.png"
+            src="/orlvision/paediatrics.webp"
             alt="Paediatrics"
             className="w-full h-full object-cover"
           />
@@ -72,7 +72,7 @@ const Features = () => {
           className="col-span-12 md:col-span-4 grid grid-rows-2 gap-0">
           <div className="bg-gray-100 rounded-xl p-2 flex items-center justify-center">
             <img
-              src="/orlvision/star.jpg"
+              src="/orlvision/star.webp"
               alt="Img2a"
               className="w-full h-full object-fill rounded-lg"
             />
@@ -80,7 +80,7 @@ const Features = () => {
 
           <div className="bg-gray-100 rounded-xl p-2 flex items-center justify-center">
             <img
-              src="/orlvision/back.png"
+              src="/orlvision/back.webp"
               alt="Img2b"
               className="w-full h-full object-fill rounded-lg"
             />
@@ -91,7 +91,7 @@ const Features = () => {
           data-aos="fade-right"
           className="col-span-12 md:col-span-4 bg-gray-100 rounded-xl  flex items-center justify-center">
           <img
-            src="/orlvision/compatible.png"
+            src="/orlvision/compatible.webp"
             alt="Compatible"
             className="w-full h-full object-cover"
           />

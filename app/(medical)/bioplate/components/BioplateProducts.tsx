@@ -16,15 +16,15 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 const products = [
   {
     title: "Osteopore® Bioresorbable Bone Scaffold",
-    image: "/bioplate/bioplate-product-1.png",
+    image: "/bioplate/bioplate-product-1.webp",
   },
   {
     title: "Sterile kit",
-    image: "/bioplate/bioplate-product-2.png",
+    image: "/bioplate/bioplate-product-2.webp",
   },
   {
     title: "BIOMESH® System",
-    image: "/bioplate/bioplate-product-3.png",
+    image: "/bioplate/bioplate-product-3.webp",
   },
 ];
 
