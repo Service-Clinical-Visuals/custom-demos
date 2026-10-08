@@ -20,7 +20,7 @@ export const NavbarMedico = () => {
         {/* Logo */}
         <div className="flex items-center gap-2 -mt-4.5 cursor-pointer">
             <img
-             src="/medicoplast/assets/medico-logo.png"
+             src="/medicoplast/assets/medico-logo.webp"
              alt="Logo"
              className="w-40 md:w-80 h-auto"/>
         </div>
@@ -43,9 +43,9 @@ export const NavbarMedico = () => {
 
           {/* Flags */}
           <div className="flex items-center gap-2 cursor-pointer">
-            <img src="/medicoplast/assets/medico-flag.png" alt="DE" className="w-10 h-7 object-cover" />
+            <img src="/medicoplast/assets/medico-flag.webp" alt="DE" className="w-10 h-7 object-cover" />
             <div className="w-10 h-7 flex items-center justify-center rounded-full  border-gray-900">
-            <img src="/medicoplast/assets/medico-country.png" alt="EN" className="w-6 h-6 object-cover shrink-0 rounded-full" />
+            <img src="/medicoplast/assets/medico-country.webp" alt="EN" className="w-6 h-6 object-cover shrink-0 rounded-full" />
             </div>
           </div>
 
@@ -76,9 +76,9 @@ export const NavbarMedico = () => {
           <a href="#" className="hover:text-black py-3 border-b border-gray-100">Catalog ▾</a>
           <a href="#" className="hover:text-black py-3 border-b border-gray-100">Download/IFU</a>
           <div className="flex items-center gap-3 pt-4">
-            <img src="/medicoplast/assets/medico-flag.png" alt="DE" className="w-10 h-7 object-cover" />
+            <img src="/medicoplast/assets/medico-flag.webp" alt="DE" className="w-10 h-7 object-cover" />
             <div className="w-10 h-7 flex items-center justify-center rounded-full border-gray-900">
-              <img src="/medicoplast/assets/medico-country.png" alt="EN" className="w-6 h-6 object-cover shrink-0 rounded-full" />
+              <img src="/medicoplast/assets/medico-country.webp" alt="EN" className="w-6 h-6 object-cover shrink-0 rounded-full" />
             </div>
             <button className="ml-auto bg-[#F29100] hover:bg-[#F29100] text-white text-[14px] px-6 py-3 font-bold cursor-pointer min-h-11">
               CONTACT US

@@ -22,7 +22,7 @@ export default function PatientPositioning() {
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="/medical/fisso-medical/background1.jpg"
+            src="/medical/fisso-medical/background1.webp"
             alt=""
             className="w-full h-full object-cover"
           />

@@ -74,7 +74,7 @@ const Header = () => {
               aria-label="Vessel Home"
             >
               <img
-                src="/moto/vessel/logo.png"
+                src="/moto/vessel/logo.webp"
                 alt="Vessel Logo"
                 className="h-7 sm:h-8 md:h-9 lg:h-10 min-[2500px]:h-16 min-[3800px]:h-22 w-auto object-contain"
               />

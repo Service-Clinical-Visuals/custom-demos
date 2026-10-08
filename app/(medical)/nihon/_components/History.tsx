@@ -12,7 +12,7 @@ export default function History() {
           {/* Illustration Section */}
           <div className="flex justify-center lg:justify-start" data-aos="fade-up">
             <img
-              src="/nihon/images/about.png"
+              src="/nihon/images/about.webp"
               alt="Nihon Kohden Wing Illustration"
               className="max-w-full h-auto object-cover"
             />
@@ -43,7 +43,7 @@ export default function History() {
             <div className="flex flex-col gap-8 mb-10">
               <div className="flex gap-5" data-aos="fade-up">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#0068B3] flex items-center justify-center text-white shadow-lg p-2">
-                  <img src="/nihon/images/target.png" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
+                  <img src="/nihon/images/target.webp" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <h4 className="font-semibold text-[#333] text-[20px] mb-1">A Spark from Nature</h4>
@@ -55,7 +55,7 @@ export default function History() {
 
               <div className="flex gap-5" data-aos="fade-up">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#0068B3] flex items-center justify-center text-white shadow-lg p-2">
-                  <img src="/nihon/images/idea.png" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
+                  <img src="/nihon/images/idea.webp" alt="Spark of Nature" className="max-w-full h-auto object-contain" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <h4 className="font-semibold text-[#333] text-[20px] mb-1">Realizing the Limits of Technology</h4>

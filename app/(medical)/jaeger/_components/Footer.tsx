@@ -49,7 +49,7 @@ const Footer = () => {
           {/* Brand Column - Wider than others */}
           <div data-aos="fade-up" className="lg:col-span-4 space-y-6">
             <img
-              src="/jaeger/logo.png"
+              src="/jaeger/logo.webp"
               alt="JAEGER Logo"
               className="h-10 w-auto"
             />

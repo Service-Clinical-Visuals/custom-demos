@@ -39,7 +39,7 @@ const Feature = () => {
                 <li key={index} className="flex items-start gap-3">
                   <div className="mt-1">
                     <img
-                      src="/clinisupplies/check.png" // 👉 put your image in public/icons/
+                      src="/clinisupplies/check.webp" // 👉 put your image in public/icons/
                       alt="check"
                       className="w-5 h-5 object-contain"
                     />

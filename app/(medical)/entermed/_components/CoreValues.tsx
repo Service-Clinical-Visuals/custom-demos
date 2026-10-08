@@ -7,17 +7,17 @@ import Button from "./Button";
 export default function CoreValues() {
   const values = [
     {
-      icon: <img src="/entermed/logo-1.png" alt="core-values" className="w-7 h-7 text-primary" />,
+      icon: <img src="/entermed/logo-1.webp" alt="core-values" className="w-7 h-7 text-primary" />,
       title: "Dedication",
       description: "Our customers define our products. The ENT treatment units are designed based on their needs."
     },
     {
-      icon: <img src="/entermed/logo-2.png" alt="core-values" className="w-7 h-7 text-primary" />,
+      icon: <img src="/entermed/logo-2.webp" alt="core-values" className="w-7 h-7 text-primary" />,
       title: "Innovation",
       description: "Our products are based on years of innovation. Continuous development defines who we are."
     },
     {
-      icon: <img src="/entermed/logo-3.png" alt="core-values" className="w-7 h-7 text-primary" />,
+      icon: <img src="/entermed/logo-3.webp" alt="core-values" className="w-7 h-7 text-primary" />,
       title: "Safety guaranteed",
       description: "We put safety for doctors and patients first. All of our products are hand built to the highest safety and quality standards."
     }
@@ -32,7 +32,7 @@ export default function CoreValues() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 ">
           {/* Left Content - Image */}
           <div className="rounded-[20px] shadow-md bg-gray-200 overflow-hidden border border-gray-100 relative w-full lg:h-full" data-aos="fade-right">
-            <img src="/entermed/core-values.png" alt="core-values" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/entermed/core-values.webp" alt="core-values" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Right Content */}

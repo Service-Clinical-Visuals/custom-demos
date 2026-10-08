@@ -7,43 +7,43 @@ const products = [
   {
     title : "SharkEye BigEye 4 Wheel Laser Aligner - BE4WLA",
     amount : "₹311,875.20",
-    image : "/moto/shark/shark-trust-1.png",
+    image : "/moto/shark/shark-trust-1.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE USA",
   },
   {
     title : "SharkEye Hawk SC4WLA 4 Wheel Laser Alignment Gauges. UK Made",
     amount : "₹203,585.20 ",
-    image : "/moto/shark/shark-trust-2.png",
+    image : "/moto/shark/shark-trust-2.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE EUROPE",
   },
   {
     title : "SharkEye Zubra TWIN STEER Laser truck wheel alignment tool - HGTSLA",
     amount : "₹₹373,755.20",
-    image : "/moto/shark/shark-trust-3.png",
+    image : "/moto/shark/shark-trust-3.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE AUSTRALIA",
   },
   {
     title : "SharkEye Roller Car 4 Wheel Laser Aligner - RO4WLA",
     amount : "₹251,851.60",
-    image : "/moto/shark/shark-trust-4.png",
+    image : "/moto/shark/shark-trust-4.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE INDIA",
   },
   {
     title : "SharkEye Falcon 4 Wheel Laser Aligner for Car & Van - LC4WLA",
     amount : "₹162,125.60 ",
-    image : "/moto/shark/shark-trust-5.png",
+    image : "/moto/shark/shark-trust-5.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE AFRICA",
   },
   {
     title : "SharkEye Eagle 4 Wheel Laser Alignment Gauges - PC4WLA",
     amount : "₹227,099.60",
-    image : "/moto/shark/shark-trust-6.png",
+    image : "/moto/shark/shark-trust-6.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE GLOBALLY",
   },
   {
     title : "SharkEye Roller Car 4 Wheel Laser Aligner - RO4WLA",
     amount : "₹251,851.60",
-    image : "/moto/shark/shark-trust-7.png",
+    image : "/moto/shark/shark-trust-7.webp",
     thumbnailText : "BEST SELLING WHEEL ALIGNER IN THE UK",
   }
 ];
@@ -61,7 +61,7 @@ export default function SharkDistributor() {
         data-aos="fade-down"
         className="relative w-full h-[200px] bg-white overflow-hidden border-b border-black/5"
       >
-        <img src="/moto/shark/shark-distributor.png" alt="distributor" className="w-full h-full object-cover" />
+        <img src="/moto/shark/shark-distributor.webp" alt="distributor" className="w-full h-full object-cover" />
       </div>
 
       {/* MAIN CONTENT */}

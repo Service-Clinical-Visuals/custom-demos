@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Timesco | Home",
   description: "CatheGenix | Investing in Science, Innovating For Patients",
   icons: {
-    icon: "/cathegenix/cathe-favicon.png",
+    icon: "/cathegenix/cathe-favicon.webp",
   },
 };
  

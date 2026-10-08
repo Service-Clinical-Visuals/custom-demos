@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function MercuryHipImplant() {
   return (
-    <section className="py-16 md:py-20 bg-[url('/x-nov/mercury-bg.png')] relative overflow-hidden x-nov-root">
+    <section className="py-16 md:py-20 bg-[url('/x-nov/mercury-bg.webp')] relative overflow-hidden x-nov-root">
       {/* Optional subtle background pattern can be added here */}
       
       <div className="custom-container mx-auto px-6 lg:px-16 relative z-10">

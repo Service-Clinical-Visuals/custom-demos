@@ -52,7 +52,7 @@ const NewsSection = () => {
         <div data-aos="fade-right" className="lg:col-span-6 relative">
           <div className="bg-[#E6F0EB] rounded-xl overflow-hidden shadow-2xl min-h-100 relative">
             <img
-              src="/arcomed/news.png" // place your image in public/images/
+              src="/arcomed/news.webp" // place your image in public/images/
               alt="Infusion Therapy"
               className="w-full h-full object-cover"
             />

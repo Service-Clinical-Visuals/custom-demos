@@ -10,31 +10,31 @@ export default function ServicesSection() {
         {
             id: "01",
             title: "Neurology",
-            img: "/integra/home/service-1.png",
+            img: "/integra/home/service-1.webp",
             description: "We are the global leader in neurosurgery, offering a broad portfolio of products and solutions for dural access and repair, cerebral spinal fluid management and neuro-critical care.",
         },
         {
             id: "02",
             title: "Wound Reconstruction and Care",
-            img: "/integra/home/service-2.png",
+            img: "/integra/home/service-2.webp",
             description: "Integra offers a broad portfolio addressing a full spectrum of needs when managing complex wounds. Learn more about our comprehensive solutions in tissue regeneration and advanced wound care.",
         },
         {
             id: "03",
             title: "Surgical Reconstruction",
-            img: "/integra/home/service-3.png",
+            img: "/integra/home/service-3.webp",
             description: "Explore Integra's advanced solutions for plastic and reconstructive surgery, complex hernias, as well as nerve and tendon repair and protection.",
         },
         {
             id: "04",
             title: "Ear, Nose and Throat",
-            img: "/integra/home/service-4.png",
+            img: "/integra/home/service-4.webp",
             description: "Partnering with physicians to deliver new technology that enables safe, fast and effective treatments in ENT.",
         },
         {
             id: "05",
             title: "Surgical Instrumentation and Lightning",
-            img: "/integra/home/service-5.png",
+            img: "/integra/home/service-5.webp",
             description: "Partnering with physicians to deliver new technology that enables safe, fast and effective treatments in ENT.",
         }
     ];
@@ -43,16 +43,16 @@ export default function ServicesSection() {
         <section className="relative w-full bg-[#EAF8F1] py-16 md:py-24 px-4 md:px-8 overflow-hidden">
             {/* Decorative Asterisks */}
             <div className="absolute top-12 left-12 opacity-80 z-0">
-                <img src={`/integra/home/star-l.png`} alt="Asterisk" className="w-30" />
+                <img src={`/integra/home/star-l.webp`} alt="Asterisk" className="w-30" />
             </div>
             <div className="absolute top-12 right-12 opacity-80 z-0">
-                <img src={`/integra/home/star-l.png`} alt="Asterisk" className="w-35" />
+                <img src={`/integra/home/star-l.webp`} alt="Asterisk" className="w-35" />
             </div>
             <div className="absolute top-1/2 -right-8 opacity-80 z-0">
-                <img src={`/integra/home/star.png`} alt="Asterisk" className="w-25" />
+                <img src={`/integra/home/star.webp`} alt="Asterisk" className="w-25" />
             </div>
             <div className="absolute bottom-12 left-16 opacity-80 z-0">
-                <img src={`/integra/home/star.png`} alt="Asterisk" className="w-35" />
+                <img src={`/integra/home/star.webp`} alt="Asterisk" className="w-35" />
             </div>
 
             <div className="max-w-[1280px] w-full mx-auto relative z-10 flex flex-col items-center">

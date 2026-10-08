@@ -5,19 +5,19 @@ import React from "react";
 const sites = [
   {
     title: "Reed Mill",
-    image: "/bm-catalysts/images/site-1.jpg",
+    image: "/bm-catalysts/images/site-1.webp",
   },
   {
     title: "Fulwood Rise",
-    image: "/bm-catalysts/images/site-2.jpg",
+    image: "/bm-catalysts/images/site-2.webp",
   },
   {
     title: "Unit 1 Fulwood Rise",
-    image: "/bm-catalysts/images/site-3.jpg",
+    image: "/bm-catalysts/images/site-3.webp",
   },
   {
     title: "Stoke",
-    image: "/bm-catalysts/images/site-4.jpg",
+    image: "/bm-catalysts/images/site-4.webp",
   }
 ];
 

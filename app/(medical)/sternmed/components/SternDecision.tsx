@@ -42,7 +42,7 @@ export default function SternDecision() {
           {/* CENTER IMAGE */}
           <div data-aos="zoom-in" className="self-stretch h-full">
             <div className="rounded-xl overflow-hidden h-full">
-              <Image src="/stern-med/stern-buy.jpg" alt="Buying medical device" width={400} height={300} className="w-full h-full object-cover"/>
+              <Image src="/stern-med/stern-buy.webp" alt="Buying medical device" width={400} height={300} className="w-full h-full object-cover"/>
             </div>
           </div>
 

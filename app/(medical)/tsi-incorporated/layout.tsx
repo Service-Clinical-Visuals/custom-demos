@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: "Global leader in precision measurement instrumentation, software services, and workflow management for industrial hygiene, environmental monitoring, health and safety, and HVAC testing.",
   keywords: ["TSI", "industrial sensor", "HVAC testing", "measurement instrumentation", "aerosol science"],
   icons: {
-    icon: "/tsi-incorporated/images/favicon.png",
+    icon: "/tsi-incorporated/images/favicon.webp",
   },
 };
 

@@ -12,7 +12,7 @@ export default function CleanRoom() {
           <p className="flex items-center gap-2 text-sm mb-3">
             <span className="w-3 h-3 rounded-full overflow-hidden">
               <Image
-                src="/austofix/screw.png"
+                src="/austofix/screw.webp"
                 alt="icon"
                 width={12}
                 height={12}
@@ -45,7 +45,7 @@ export default function CleanRoom() {
         {/* Right Image */}
         <div data-aos="fade-right" className="rounded-2xl overflow-hidden">
           <Image
-            src="/austofix/blank.png"
+            src="/austofix/blank.webp"
             alt="idea"
             width={1000}
             height={600}

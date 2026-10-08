@@ -38,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="/react-health/logo.jpg"
+              src="/react-health/logo.webp"
               alt="React Health"
               className="object-contain w-[100px] md:w-[120px]"
             />

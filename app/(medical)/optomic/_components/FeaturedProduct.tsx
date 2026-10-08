@@ -11,7 +11,7 @@ export default function FeaturedProduct() {
             {/* Content Overlay */}
             <div className="relative inset-0 pt-12 md:pt-24 pb-20">
 
-                <div className="absolute bottom-0 left-0 bg-[url('/optomic/bg-why.png')] bg-cover bg-center h-[200px] lg:h-[600px] w-full" />
+                <div className="absolute bottom-0 left-0 bg-[url('/optomic/bg-why.webp')] bg-cover bg-center h-[200px] lg:h-[600px] w-full" />
 
                 <div className="container mx-auto px-6 md:px-12 flex flex-col h-full">
 

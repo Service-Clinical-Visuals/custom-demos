@@ -75,7 +75,7 @@ export default function ProductDetail() {
             <ul className="space-y-4">
               {specs.map((spec) => (
                 <li key={spec.label} className="flex items-start gap-3">
-                  <img src="/moto/veedol-moto/Vector.png" alt="Icon" className="w-5 h-5 mt-1 object-contain" />
+                  <img src="/moto/veedol-moto/Vector.webp" alt="Icon" className="w-5 h-5 mt-1 object-contain" />
                   <p className="text-sm sm:text-[15px] text-[#555] leading-relaxed">
                     <span className="font-bold text-dark ">
                       <Typography as="span" variant="h5" color="dark" weight="bold">

@@ -11,7 +11,7 @@ export default function About() {
           data-aos="fade-left"
           className="lg:col-span-6 relative h-full w-full">
           <img
-            src="/arcomed/about.png" // Replace with your image path
+            src="/arcomed/about.webp" // Replace with your image path
             alt="Zürich City View"
             className="rounded-2xl object-cover w-full h-full shadow-lg"
           />

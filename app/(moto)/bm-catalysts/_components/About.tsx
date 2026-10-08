@@ -19,7 +19,7 @@ export default function About() {
             {/* Top Wide Image - Factory Aerial view */}
             <div className="rounded-[2.5rem] overflow-hidden shadow-lg relative group aspect-[2.1/1] bg-slate-100">
               <img
-                src="bm-catalysts/images/about-1.png"
+                src="bm-catalysts/images/about-1.webp"
                 alt="BM Belton Massey Factory"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -31,7 +31,7 @@ export default function About() {
               {/* Bottom Left Square-ish Image - Brand Sign */}
               <div className="col-span-5 rounded-[2rem] overflow-hidden shadow-lg relative group aspect-square bg-slate-100">
                 <img
-                  src="bm-catalysts/images/about-2.png"
+                  src="bm-catalysts/images/about-2.webp"
                   alt="BM Belton Massey Sign"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -40,7 +40,7 @@ export default function About() {
               {/* Bottom Right Horizontal Image - Staff Engineer */}
               <div className="col-span-7 rounded-[2rem] overflow-hidden shadow-lg relative group aspect-[1.4/1] bg-slate-100">
                 <img
-                  src="bm-catalysts/images/about-3.jpg"
+                  src="bm-catalysts/images/about-3.webp"
                   alt="BM Catalysts Staff Member"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />

@@ -15,7 +15,7 @@ export default function MedasNews() {
         >
           {/* IMAGE */}
           <img
-            src="/medas-innovation/assets/medas-news.png"
+            src="/medas-innovation/assets/medas-news.webp"
             alt="news"
             className="w-full h-full object-cover"
           />
@@ -44,7 +44,7 @@ export default function MedasNews() {
           className="relative  text-white flex items-center bg-[#3f5f9a]"
         >
           {/* PATTERN OVERLAY */}
-          <div className="absolute inset-0 opacity-10 bg-[url('/medas-innovation/assets/medas-pattern.png')] bg-repeat"></div>
+          <div className="absolute inset-0 opacity-10 bg-[url('/medas-innovation/assets/medas-pattern.webp')] bg-repeat"></div>
 
           <div className="relative p-6 md:p-10 max-w-3xl space-y-4">
             

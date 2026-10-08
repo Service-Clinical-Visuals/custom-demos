@@ -15,7 +15,7 @@ const Designed = () => {
     <section className="w-full py-16 xl:py-24 overflow-hidden relative bg-white">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center opacity-8"
-        style={{ backgroundImage: 'url("/moto/vessel/bg.jpg")' }}
+        style={{ backgroundImage: 'url("/moto/vessel/bg.webp")' }}
       ></div>
       <div className="absolute inset-0 z-0 bg-[#D7E0E3]/50"></div>
 

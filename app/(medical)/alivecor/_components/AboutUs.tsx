@@ -13,7 +13,7 @@ export default function AboutUs() {
             {/* Left: Image */}
             <div className="w-full" data-aos="fade-right">
               <img 
-                src="/alivecor/images/about.png" 
+                src="/alivecor/images/about.webp" 
                 alt="About Us - Doctor and Patient" 
                 className="w-full h-full aspect-[4/1.5] object-cover rounded-[32px] lg:rounded-br-none" 
               />
@@ -55,7 +55,7 @@ export default function AboutUs() {
             {/* Right: Image */}
             <div className="w-full order-1 lg:order-2" data-aos="fade-left">
               <img 
-                src="/alivecor/images/our-solution.png" 
+                src="/alivecor/images/our-solution.webp" 
                 alt="Our Solutions - People holding KardiaMobile" 
                 className="w-full h-full aspect-[4/1.5] object-cover rounded-[32px] lg:rounded-tl-none" 
               />

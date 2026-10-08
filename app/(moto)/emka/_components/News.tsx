@@ -11,25 +11,25 @@ export default function News() {
       id: 1,
       title: "US CAR EVENT, GERA, GERMANY",
       date: "10. June 2026",
-      image: "/moto/emka/news1.png"
+      image: "/moto/emka/news1.webp"
     },
     {
       id: 2,
       title: "PRICE ADJUSTMENTS",
       date: "22. May 2026",
-      image: "/moto/emka/news2.png"
+      image: "/moto/emka/news2.webp"
     },
     {
       id: 3,
       title: "WERK 80 AND EMKA",
       date: "09. May 2026",
-      image: "/moto/emka/news3.png"
+      image: "/moto/emka/news3.webp"
     },
     {
       id: 4,
       title: "BESKO IN WUPPERTAL AND HERNE",
       date: "05. May 2026", // Assuming a date for formatting consistency
-      image: "/moto/emka/news4.png"
+      image: "/moto/emka/news4.webp"
     }
   ];
 

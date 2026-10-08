@@ -10,49 +10,49 @@ const trainingEvents = [
   {
     title: "Basic Service Medical IT Training",
     date: "04.05.2026",
-    image: "/nihon/images/innovative-1.png",
+    image: "/nihon/images/innovative-1.webp",
     description: "This foundational course is designed to equip service personnel with the ess...",
     location: "Rosbach vor der Höhe, Germany"
   },
   {
     title: "IVD Service Practical Training: MEK-6550K Series",
     date: "15.06.2026",
-    image: "/nihon/images/innovative-2.png",
+    image: "/nihon/images/innovative-2.webp",
     description: "This practical training is designed for service professionals supporting the...",
     location: "Rosbach vor der Höhe, Germany"
   },
   {
     title: "Service Practical Training: NKV-330, NKV-440 and NKV-550",
     date: "15.06.2026",
-    image: "/nihon/images/innovative-3.png",
+    image: "/nihon/images/innovative-3.webp",
     description: "This intensive, hands-on course is specifically designed for service tec...",
     location: "Rosbach vor der Höhe, Germany"
   },
   {
     title: "Advanced Service Medical IT Training",
     date: "05.10.2026",
-    image: "/nihon/images/innovative-4.png",
+    image: "/nihon/images/innovative-4.webp",
     description: "The Advanced Service Medical IT Training is designed to equip service engine...",
     location: "Rosbach vor der Höhe, Germany"
   },
   {
     title: "Service Practical Training: PMS, ECG and Defibrillator",
     date: "12.10.2026",
-    image: "/nihon/images/innovative-5.png",
+    image: "/nihon/images/innovative-5.webp",
     description: "This intensive course provides participants with essential service knowledge...",
     location: "Rosbach vor der Höhe, Germany"
   },
   {
     title: "Praktisches Service-Training: PMS, EKG & Defibrillator",
     date: "27.10.2026",
-    image: "/nihon/images/innovative-6.png",
+    image: "/nihon/images/innovative-6.webp",
     description: "Dieser Intensivkurs vermittelt den Teilnehmenden grundlegendes Service...",
     location: "Rosbach vor der Höhe, Germany"
   },
   {
     title: "Service Practice Training: Neurofax EEG-1200 & polaris.ONE",
     date: "02.11.2026",
-    image: "/nihon/images/innovative-7.jpg",
+    image: "/nihon/images/innovative-7.webp",
     description: "This practical training program is designed for technical service profes...",
     location: "Rosbach vor der Höhe, Germany"
   }

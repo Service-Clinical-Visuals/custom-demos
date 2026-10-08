@@ -2,9 +2,9 @@ import Link from "next/link";
 import React from "react";
 
 const newsArticles = [
-  { id: 1, title: "Meet the Medstrom Team: Emma", date: "18 March 2026", image: "/medstrom/images/home/news-1.jpg" },
-  { id: 2, title: "Infection Control Challenges in Corridor Care", date: "6 March 2026", image: "/medstrom/images/home/news-2.png" },
-  { id: 3, title: "Fundamentals of Care | The Importance of Patient Washing", date: "17 February 2026", image: "/medstrom/images/home/news-3.jpg" },
+  { id: 1, title: "Meet the Medstrom Team: Emma", date: "18 March 2026", image: "/medstrom/images/home/news-1.webp" },
+  { id: 2, title: "Infection Control Challenges in Corridor Care", date: "6 March 2026", image: "/medstrom/images/home/news-2.webp" },
+  { id: 3, title: "Fundamentals of Care | The Importance of Patient Washing", date: "17 February 2026", image: "/medstrom/images/home/news-3.webp" },
 ];
 
 export default function News() {

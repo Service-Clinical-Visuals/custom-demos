@@ -13,7 +13,7 @@ export default function About() {
           {/* Left Column - Image */}
           <div className="w-full lg:w-1/2 relative min-h-[350px] lg:min-h-full rounded-tl-[4rem] rounded-br-[4rem]  overflow-hidden " data-aos="fade-right">
             <img 
-              src="/moto/omni/omniabout.jpg" 
+              src="/moto/omni/omniabout.webp" 
               alt="Industrial Tanks" 
               className="absolute inset-0 w-full h-full object-cover object-center"
             />
@@ -24,7 +24,7 @@ export default function About() {
             
             {/* Heading */}
             <div className="flex items-center mb-6">
-              <img src="/moto/omni/bulletdot.png" className="w-3.5 h-3.5 mr-2"/>
+              <img src="/moto/omni/bulletdot.webp" className="w-3.5 h-3.5 mr-2"/>
                <h2 className="text-2xl md:text-[26px] xl:text-[30px] !font-normal text-[#333333] uppercase tracking-tight leading-none font-heading">
                 ABOUT OUR PURPOSE
               </h2>

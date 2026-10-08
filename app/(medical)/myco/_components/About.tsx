@@ -26,7 +26,7 @@ export default function About() {
           {/* Center: image + button */}
           <div className="flex flex-col items-center gap-5 mb-10" data-aos="fade-up" data-aos-delay="150">
             <img
-              src="/medical/myco-medical/aboutus.png"
+              src="/medical/myco-medical/aboutus.webp"
               alt="Myco Medical team at conference"
               className="w-full rounded-lg object-cover"
             />

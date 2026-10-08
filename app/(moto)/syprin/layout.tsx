@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Original Syprin | Petrol Performance Protection",
   description: "More Protection. More Performance. High-quality fuel additives, cleaners, and precision lubrication made in Germany.",
   icons: {
-    icon: "/moto/syprin/logo.png",
+    icon: "/moto/syprin/logo.webp",
   },
 };
 

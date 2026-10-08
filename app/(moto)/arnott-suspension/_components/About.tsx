@@ -54,7 +54,7 @@ export default function About() {
                     {/* Left Side: Stats and Image */}
                     <div className="lg:col-span-6 relative flex items-center min-h-[700px]" data-aos="fade-right">
                         {/* Dark Background Bar (Behind the image) */}
-                        <div className="absolute left-0 top-0 bottom-0 w-[45%] z-0 overflow-hidden bg-[url('/arnott/images/dark-bg.png')]">
+                        <div className="absolute left-0 top-0 bottom-0 w-[45%] z-0 overflow-hidden bg-[url('/arnott/images/dark-bg.webp')]">
                             
                             {/* Stats Content on the Dark Bar */}
                             <div className="relative z-20 h-full flex flex-col justify-center pl-7">
@@ -77,7 +77,7 @@ export default function About() {
 
                         {/* Image (Overlapping the dark bar) */}
                         <div className="relative z-10 ml-[25%] w-[85%] h-[480px] md:h-[550px] shadow-2xl overflow-hidden rounded-sm">
-                            <img src="/arnott/images/about.png" alt="Arnott Technician" className="w-full h-full object-cover" />
+                            <img src="/arnott/images/about.webp" alt="Arnott Technician" className="w-full h-full object-cover" />
                         </div>
                     </div>
 
@@ -105,7 +105,7 @@ export default function About() {
                             {/* Features */}
                             <div className="flex flex-col gap-8 mb-6">
                                 <div className="flex items-start gap-4">
-                                    <img src="/arnott/images/damper.png" alt="Zap Icon" className="w-10 h-10 object-contain" />
+                                    <img src="/arnott/images/damper.webp" alt="Zap Icon" className="w-10 h-10 object-contain" />
                                     <div>
                                         <h5 className="font-semibold text-[24px] text-[#171717] mb-1">Relentless Innovation</h5>
                                         <p className="text-base md:text-[17px] leading-relaxed">
@@ -115,7 +115,7 @@ export default function About() {
                                 </div>
 
                                 <div className="flex items-start gap-4">
-                                    <img src="/arnott/images/car.png" alt="Zap Icon" className="w-10 h-10 object-contain" />
+                                    <img src="/arnott/images/car.webp" alt="Zap Icon" className="w-10 h-10 object-contain" />
                                     <div>
                                         <h5 className="font-bold text-[24px] text-[#171717] mb-1">Built to Last</h5>
                                         <p className="text-base md:text-[17px] leading-relaxed">

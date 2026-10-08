@@ -7,19 +7,19 @@ export default function FeaturesNews() {
       title: "MAKING AN EXHIBITION OF OURSELVES - 2025/2026",
       date: "Wednesday, January 28, 2026",
       description: "Check out where and when you can see Absolute Alignment products at exhibitions...",
-      imageSpace: "/absolute-alignment/home/blog-1.png",
+      imageSpace: "/absolute-alignment/home/blog-1.webp",
     },
     {
       title: "ABSOLUTE ALIGNMENT RACES TO SUCCESS",
       date: "Thursday, November 27, 2025",
       description: "It is safe to say that motor sport is in the DNA of Absolute Alignment the...",
-      imageSpace: "/absolute-alignment/home/blog-2.png",
+      imageSpace: "/absolute-alignment/home/blog-2.webp",
     },
     {
       title: "ABSOLUTE ALIGNMENT ADDS SUPPORT TO PMR'S PHOENIX RECOVERY",
       date: "Wednesday, January 28, 2026",
       description: "Absolute Alignment has helped its Technical Partner Power Maxed Racing arise...",
-      imageSpace: "/absolute-alignment/home/blog-3.png",
+      imageSpace: "/absolute-alignment/home/blog-3.webp",
     }
   ];
 

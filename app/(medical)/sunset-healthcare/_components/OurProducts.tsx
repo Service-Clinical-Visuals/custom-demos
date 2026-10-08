@@ -1,9 +1,9 @@
 export default function OurProducts() {
   const products = [
-    { name: "CM207 Vesper Nasal CPAP Mask", img: "/product-1.png" },
-    { name: "Cough Assist", img: "/product-2.png" },
-    { name: "CPAP Machines", img: "/product-3.png" },
-    { name: "CPAP Batteries", img: "/product-4.png" },
+    { name: "CM207 Vesper Nasal CPAP Mask", img: "/product-1.webp" },
+    { name: "Cough Assist", img: "/product-2.webp" },
+    { name: "CPAP Machines", img: "/product-3.webp" },
+    { name: "CPAP Batteries", img: "/product-4.webp" },
   ];
 
   return (

@@ -29,7 +29,7 @@ export default function MedacureAbout() {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <img
-          src="/medacure/assets/medacure-bg.jpg"
+          src="/medacure/assets/medacure-bg.webp"
           alt="pattern"
           className="w-full h-full object-cover"
         />
@@ -39,7 +39,7 @@ export default function MedacureAbout() {
 
         {/* LEFT - HEX IMAGES */}
         <div className="" data-aos="fade-right">
-          <img src="/medacure/assets/medacure-about1.png" alt="hex-bg" className="w-full h-full object-cover" />
+          <img src="/medacure/assets/medacure-about1.webp" alt="hex-bg" className="w-full h-full object-cover" />
         </div>
 
         {/* RIGHT - CONTENT */}

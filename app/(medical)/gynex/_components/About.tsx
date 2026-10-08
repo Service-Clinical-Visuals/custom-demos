@@ -11,7 +11,7 @@ export default function About() {
                     {/* Left Side: Image Placeholder */}
                     <div className="lg:col-span-6">
                         <div className="bg-[#F1F1F1] rounded-[30px] overflow-hidden">
-                            <img src="/gynex/images/abt.png" alt="about" className="w-full h-auto" />
+                            <img src="/gynex/images/abt.webp" alt="about" className="w-full h-auto" />
                         </div>
                     </div>
 

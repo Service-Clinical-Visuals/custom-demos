@@ -6,22 +6,22 @@ const brandsData = [
   {
     title: "Official Distributor of Mobil lubricants",
     desc: "We are an Authorised Distributor of Mobil lubricants. Delivering innovative lubricant solutions for automotive and industrial applications. We work alongside ExxonMobil to provide...",
-    imgSrc: "/moove/home/who-2.png",
+    imgSrc: "/moove/home/who-2.webp",
   },
   {
     title: "Our proprietary brand: Comma",
     desc: "Since 1965, Comma has been supporting workshops to get the job done right, first time every time. Our Comma lubricants are specially formulated for workshops across almost every OEM.",
-    imgSrc: "/moove/home/who-3.png",
+    imgSrc: "/moove/home/who-3.webp",
   },
   {
     title: "Mobil lubricants and Ancillaries by Moove",
     desc: "We're proud to be the authorized licensee of Mobil Ancillaries. We manufacture sell, market and distribute Mobil Ancillaries across Europe. Including advanced antifreezes, coolants for all PV...",
-    imgSrc: "/moove/home/who-4.png",
+    imgSrc: "/moove/home/who-4.webp",
   },
 ];
 export default function About() {
   return (
-    <section className="relative w-full bg-[url('/moove/home/bg.jpg')] bg-cover bg-no-repeat bg-center text-white py-16">
+    <section className="relative w-full bg-[url('/moove/home/bg.webp')] bg-cover bg-no-repeat bg-center text-white py-16">
       <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/80" />
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] mb-10">
@@ -59,7 +59,7 @@ export default function About() {
           {/* Right: image within container */}
           <div className="relative h-[300px] lg:h-auto min-h-[300px] my-8 overflow-hidden rounded-sm">
             <img
-              src="/moove/home/who-1.png"
+              src="/moove/home/who-1.webp"
               alt="Who We Are - Moove"
               className="absolute inset-0 w-full h-full object-cover"
             />

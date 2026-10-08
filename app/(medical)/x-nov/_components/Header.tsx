@@ -38,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/">
             <img
-              src="/x-nov/x-nov_logo.png"
+              src="/x-nov/x-nov_logo.webp"
               alt="X-NOV"
               className="h-10 w-auto"
             />

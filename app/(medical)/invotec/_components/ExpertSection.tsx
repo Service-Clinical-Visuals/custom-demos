@@ -9,21 +9,21 @@ const teams = [
     title: "Jeffrey Aull",
     description:
       "Chief Executive officer",
-    image: "/invotec/assets/CEO_Jeffery 1.png",
+    image: "/invotec/assets/CEO_Jeffery 1.webp",
     linkedin: "",
     facebook: ""
   },
   {
     title: "Susan Reece",
     description: "Director of Operations",
-    image: "/invotec/assets/Ken Pawlowski 1.png",
+    image: "/invotec/assets/Ken Pawlowski 1.webp",
     linkedin: "",
     facebook: ""
   },
   {
     title: "Scott Aull",
     description: "Director of International Sales",
-    image: "/invotec/assets/Hector_salazar 1.png",
+    image: "/invotec/assets/Hector_salazar 1.webp",
     linkedin: "",
     facebook: ""
   },
@@ -37,7 +37,7 @@ export default function ExpertSection() {
 
       {/* Background Pattern */}
       <div
-        style={{ backgroundImage: `url(/invotec/assets/NetBackground.png)` }}
+        style={{ backgroundImage: `url(/invotec/assets/NetBackground.webp)` }}
         className="absolute inset-0 bg-contain bg-center bg-no-repeat opacity-[0.18] z-0"
       />
 
@@ -75,7 +75,7 @@ export default function ExpertSection() {
               <div className="relative w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28
                 rounded-full overflow-hidden border-4 border-white shadow-md">
                 <img
-                  src={`/invotec/assets/avatar.png`}
+                  src={`/invotec/assets/avatar.webp`}
                   alt={"Avatar"}
                   className="object-cover w-full"
                 />

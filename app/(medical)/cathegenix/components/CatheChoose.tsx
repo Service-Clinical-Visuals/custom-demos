@@ -152,7 +152,7 @@ export default function CatheChoose() {
             <div className="aspect-[16/9] w-full">
               {/* PLACEHOLDER IMAGE */}
               <img
-                src="/cathegenix/cathe-choose.jpg"
+                src="/cathegenix/cathe-choose.webp"
                 alt="Corporate Building"
                 className="h-full w-full object-cover"
               />

@@ -10,7 +10,7 @@ const RepairSection = () => {
                     <div className="flex flex-col" data-aos="fade-right">
                         <div className="relative h-96 w-full mb-8 rounded-lg overflow-hidden group">
                             <img
-                                src={`/emos-technology/images/home/repair-1.jpg`}
+                                src={`/emos-technology/images/home/repair-1.webp`}
                                 alt="About EMOS"
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                             />
@@ -38,7 +38,7 @@ const RepairSection = () => {
                     <div className="flex flex-col md:flex-col-reverse" data-aos="fade-left">
                         <div className="relative h-96 w-full mb-8 md:mb-0 md:mt-8 rounded-lg overflow-hidden group">
                             <img
-                                src={`/emos-technology/images/home/repair-2.jpg`}
+                                src={`/emos-technology/images/home/repair-2.webp`}
                                 alt="Repair Service"
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                             />

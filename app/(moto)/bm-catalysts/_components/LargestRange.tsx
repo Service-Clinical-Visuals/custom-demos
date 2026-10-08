@@ -8,7 +8,7 @@ export default function LargestRange() {
   return (
     <section 
       className="py-16 lg:py-20 bg-[#1B1537] bg-cover bg-center bg-no-repeat relative overflow-hidden flex justify-center w-full"
-      style={{ backgroundImage: `url('/bm-catalysts/images/cta-bg.png')` }}
+      style={{ backgroundImage: `url('/bm-catalysts/images/cta-bg.webp')` }}
     >
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -45,7 +45,7 @@ export default function LargestRange() {
           >
             <div className="w-full max-w-lg lg:max-w-xl">
               <img 
-                src="/bm-catalysts/images/vehicles.png" 
+                src="/bm-catalysts/images/vehicles.webp" 
                 alt="BM Catalysts Vehicles Coverage" 
                 className="w-full h-auto object-contain select-none"
               />

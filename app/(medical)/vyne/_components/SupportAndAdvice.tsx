@@ -14,7 +14,7 @@ const articles = [
     {
         id: 1,
         title: "What causes a UTI?",
-        image: "/vyne/home/blog-1.png",
+        image: "/vyne/home/blog-1.webp",
         description: "A Urinary Tract Infection (UTI), is a common type of infection affecting your bladder (cystitis), urethra (urethritis) or kidneys (kidney infection).",
         author: "Lily M",
         date: "Feb 24, 2026",
@@ -24,7 +24,7 @@ const articles = [
     {
         id: 2,
         title: "Foley Catheter Basics",
-        image: "/vyne/home/blog-2.png",
+        image: "/vyne/home/blog-2.webp",
         description: "Do you have questions about foley catheters, or urethral catheters? Perhaps you or a loved will be having one fitted soon, and you currently know little to nothing about them, or how they work?",
         author: "Lily M",
         date: "Jan 29, 2026",
@@ -34,7 +34,7 @@ const articles = [
     {
         id: 3,
         title: "Why is my urine bag leaking?",
-        image: "/vyne/home/blog-3.png",
+        image: "/vyne/home/blog-3.webp",
         description: "Let's take a look at some of the most common causes of a leaking urine bag.",
         author: "Sam H",
         date: "Aug 13, 2025",
@@ -44,7 +44,7 @@ const articles = [
     {
         id: 4,
         title: "What are the different types of catheters?",
-        image: "/vyne/home/blog-4.jpg",
+        image: "/vyne/home/blog-4.webp",
         description: "If you're new to the world of catheters, you may not yet be aware of the different varieties which...",
         author: "Sam H",
         date: "Aug 6, 2024",
@@ -54,7 +54,7 @@ const articles = [
     {
         id: 5,
         title: "A-Z Intermittent Self-Catheterisation (ISC)",
-        image: "/vyne/home/blog-5.jpg",
+        image: "/vyne/home/blog-5.webp",
         description: "Intermittent self-catheterisation, or ISC for short, is used if you can't empty your bladder by y...",
         author: "Sam H",
         date: "Jul 31, 2024",
@@ -64,7 +64,7 @@ const articles = [
     {
         id: 6,
         title: "Finding the right ISC size for you",
-        image: "/vyne/home/blog-6.jpg",
+        image: "/vyne/home/blog-6.webp",
         description: "Everyone has different bodies and unique needs, so finding the right catheter for you is very imp...",
         author: "Sam H",
         date: "Jul 30, 2024",
@@ -74,7 +74,7 @@ const articles = [
     {
         id: 7,
         title: "Bowel blockage and obstruction",
-        image: "/vyne/home/blog-7.jpg",
+        image: "/vyne/home/blog-7.webp",
         description: "Constipation, loose stools, and diarrhoea are among the fairly common experiences after an ileost...",
         author: "Sam H",
         date: "Jun 7, 2022",
@@ -84,7 +84,7 @@ const articles = [
     {
         id: 8,
         title: "A-Z Colostomy",
-        image: "/vyne/home/blog-8.jpg",
+        image: "/vyne/home/blog-8.webp",
         description: "What is a colostomy? A colostomy is a surgical procedure by which a surgeon brings part of your l...",
         author: "Sam H",
         date: "Jun 7, 2022",
@@ -94,7 +94,7 @@ const articles = [
     {
         id: 9,
         title: "What is the difference between a colostomy and an ileostomy?",
-        image: "/vyne/home/blog-9.jpg",
+        image: "/vyne/home/blog-9.webp",
         description: "On a first glance, both colostomies and ileostomies sound fairly similar. As the name suggests, t...",
         author: "Sam H",
         date: "Jul 14, 2021",
@@ -104,7 +104,7 @@ const articles = [
     {
         id: 10,
         title: "A-Z Ileostomy",
-        image: "/vyne/home/blog-4.jpg",
+        image: "/vyne/home/blog-4.webp",
         description: "An ileostomy means that your small intestine is brought out through an opening in your abdomen to...",
         author: "Sam H",
         date: "Jul 31, 2024",
@@ -114,7 +114,7 @@ const articles = [
     {
         id: 11,
         title: "Bowel blockage and obstruction",
-        image: "/vyne/home/blog-7.jpg",
+        image: "/vyne/home/blog-7.webp",
         description: "Constipation, loose stools, and diarrhoea are among the fairly common experiences after an ileost...",
         author: "Sam H",
         date: "Jun 7, 2022",
@@ -124,7 +124,7 @@ const articles = [
     {
         id: 12,
         title: "What is the difference between a colostomy and an ileostomy?",
-        image: "/vyne/home/blog-9.jpg",
+        image: "/vyne/home/blog-9.webp",
         description: "On a first glance, both colostomies and ileostomies sound fairly similar. As the name suggests, t...",
         author: "Sam H",
         date: "Jul 14, 2021",
@@ -134,7 +134,7 @@ const articles = [
     {
         id: 13,
         title: "Common bowel problems - stoma odour, wind, diarrhoea and constipation",
-        image: "/vyne/home/blog-11.jpg",
+        image: "/vyne/home/blog-11.webp",
         description: "Constipation, loose stools, and diarrhoea are among the fairly common experiences after an ileost...",
         author: "Sam H",
         date: "Jun 7, 2022",
@@ -144,7 +144,7 @@ const articles = [
     {
         id: 14,
         title: "The most common stoma problems",
-        image: "/vyne/home/blog-10.jpg",
+        image: "/vyne/home/blog-10.webp",
         description: "If you're living with a stoma, all sorts of issues can come up over time. There's usually no need...",
         author: "Sam H",
         date: "Jun 7, 2022",
@@ -154,7 +154,7 @@ const articles = [
     {
         id: 15,
         title: "Stoma retraction or prolapse",
-        image: "/vyne/home/blog-12.jpg",
+        image: "/vyne/home/blog-12.webp",
         description: "When your stoma suddenly doesn't stick out anymore but lays flat on the skin or has even sunken b...",
         author: "Sam H",
         date: "Jun 7, 2022",
@@ -186,7 +186,7 @@ export default function SupportAndAdvice() {
     return (
         <section className="bg-gray-50 py-24 w-full relative overflow-hidden">
             {/* Background pattern overlay */}
-            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.png')] bg-cover bg-no-repeat">
+            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[url('/vyne/home/bg-patten.webp')] bg-cover bg-no-repeat">
             </div>
             <div className="container-custom relative z-10">
                 {/* Header Section */}

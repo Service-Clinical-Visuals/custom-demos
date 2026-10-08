@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="lg:col-span-4">
             <div className="mb-6">
               <Link href="/bexen-medical" className="flex items-center">
-                <img src="/medical/bexen-medical/logo-footer.png" alt="Bexen Medical" className="h-10 lg:h-18 object-contain" />
+                <img src="/medical/bexen-medical/logo-footer.webp" alt="Bexen Medical" className="h-10 lg:h-18 object-contain" />
               </Link>
             </div>
             <p className="text-[16px] text-gray-500 leading-relaxed max-w-sm text-justify">

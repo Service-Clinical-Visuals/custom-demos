@@ -32,7 +32,7 @@ export default function SharkNavbar() {
         <div className="flex items-center gap-12">
           {/* LOGO */}
           <div className="flex items-center">
-            <img src="/moto/shark/shark-logo.png" alt="logo" className="w-auto h-16" />
+            <img src="/moto/shark/shark-logo.webp" alt="logo" className="w-auto h-16" />
           </div>
 
           {/* DESKTOP MENU */}

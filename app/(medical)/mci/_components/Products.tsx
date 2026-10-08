@@ -10,25 +10,25 @@ const Products = () => {
     const products = [
         {
             title: "CMF SYSTEM 1.5/2.0",
-            path: "/mci/images/p-1.png",
+            path: "/mci/images/p-1.webp",
             description: "MCI CMF System is used for maxilla, fractures and craniofacial reconstructive surgeries.",
             color: "bg-[#14305f]/10"
         },
         {
             title: "MCI – NEUROFIXATION SYSTEM",
-            path: "/mci/images/p-2.png",
+            path: "/mci/images/p-2.webp",
             description: "Titanium solution for cranial fixation with self-drilling screws, released non-sterile.",
             color: "bg-[#4a5f97]/10"
         },
         {
             title: "MCI – MEMBRANE FIXATION SYSTEM",
-            path: "/mci/images/p-3.png",
+            path: "/mci/images/p-3.webp",
             description: "MCI Membrane Fixation System is used for stable fixation of bone grafts and collagen membranes.",
             color: "bg-[#76e5b0]/10"
         },
         {
             title: "MCI – IMF SCREWS",
-            path: "/mci/images/p-4.png",
+            path: "/mci/images/p-4.webp",
             description: "MCI IMF Screw provides excellent solution for jaw and facial trauma and maxillomandibular.",
             color: "bg-[#f1715b]/10"
         }

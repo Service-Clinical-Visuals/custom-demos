@@ -8,42 +8,42 @@ const testimonials = [
     name: "Stacy Hartshorn",
     title: "Strategic Development Manager & Implementation Project Lead for Bed and Mattresses, Norfolk and Norwich University Hospitals NHS Foundation Trust",
     quote: "The Medstrom team has always shown professionalism, efficiency and care for our equipment, staff and patients.",
-    image: "/medstrom/images/home/t-1.png"
+    image: "/medstrom/images/home/t-1.webp"
   },
   {
     id: 2,
     name: "Suzanne Birchall",
     title: "Clinical Procurement Nurse, Milton Keynes University Hospital NHS Foundation Trust",
     quote: "The planning and support we got from Medstrom gave us confidence in the implementation process.",
-    image: "/medstrom/images/home/t-2.png"
+    image: "/medstrom/images/home/t-2.webp"
   },
   {
     id: 3,
     name: "Claire O'Keeffe",
     title: "Stroke Rehabilitation Ward Manager, Cardiff and Vale Health Board",
     quote: "We always receive a good service from Medstrom. Our clinical advisor has been fantastic at assisting with training all the staff on using the beds.",
-    image: "/medstrom/images/home/t-3.png"
+    image: "/medstrom/images/home/t-3.webp"
   },
   {
     id: 4,
     name: "Julie Hatch",
     title: "Tissue Viability Specialist Nurse, Princess Alexandra Hospital NHS Trust",
     quote: "Medstrom communicated well with PAH about requirements beforehand and the staff working alongside PAH clinicians were very approachable, helpful, professional and organised.",
-    image: "/medstrom/images/home/t-4.png"
+    image: "/medstrom/images/home/t-4.webp"
   },
   {
     id: 5,
     name: "Martin Quinton",
     title: "Critical Care Practitioner, Sheffield Children's Hospital",
     quote: "The device is good, but the support is as good. It's that whole family package which works really well for us.",
-    image: "/medstrom/images/home/t-5.png"
+    image: "/medstrom/images/home/t-5.webp"
   },
   {
     id: 6,
     name: "Keith Dickinson",
     title: "Chief Finance Officer, Blackpool Teaching Hospitals NHS Foundation Trust",
     quote: "I would like to put on record my sincere thanks and appreciation of all the hard work and professionalism you and your organisation have shown.",
-    image: "/medstrom/images/home/t-6.png"
+    image: "/medstrom/images/home/t-6.webp"
   },
 ];
 

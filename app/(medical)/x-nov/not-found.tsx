@@ -12,7 +12,7 @@ export default function XNovNotFound() {
         
         {/* Brand Logo */}
         <div className="mb-12 select-none">
-          <img src="/x-nov/x-nov_logo.png" alt="X.NOV" className="h-10 w-auto opacity-90" />
+          <img src="/x-nov/x-nov_logo.webp" alt="X.NOV" className="h-10 w-auto opacity-90" />
         </div>
 
         {/* Big visual 404 */}

@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const clients = [
   {
-    image: "/accu-scope/trusted/Northwell.png",
+    image: "/accu-scope/trusted/Northwell.webp",
   },
   {
-    image: "/accu-scope/trusted/Zoetis.png",
+    image: "/accu-scope/trusted/Zoetis.webp",
   },
   {
-    image: "/accu-scope/trusted/Texas.png",
+    image: "/accu-scope/trusted/Texas.webp",
   },
   {
-    image: "/accu-scope/trusted/Scripps.png",
+    image: "/accu-scope/trusted/Scripps.webp",
   },
   {
-    image: "/accu-scope/trusted/PennState.png",
+    image: "/accu-scope/trusted/PennState.webp",
   },
   {
-    image: "/accu-scope/trusted/Lilly.png",
+    image: "/accu-scope/trusted/Lilly.webp",
   },
   {
-    image: "/accu-scope/trusted/Pfizer.png",
+    image: "/accu-scope/trusted/Pfizer.webp",
   },
   {
-    image: "/accu-scope/trusted/Yale.png",
+    image: "/accu-scope/trusted/Yale.webp",
   }
 ];
 

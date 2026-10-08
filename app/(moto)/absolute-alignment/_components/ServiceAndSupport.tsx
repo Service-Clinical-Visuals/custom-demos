@@ -41,7 +41,7 @@ export default function ServiceAndSupport() {
           {/* Right Column - Image Placeholder */}
           <div className="w-full lg:w-1/2" data-aos="fade-left">
             <div className="w-full aspect-[4/3] bg-gray-200 rounded-lg flex items-center justify-center border border-gray-300 overflow-hidden relative">
-              <img src="/absolute-alignment/home/service.png" alt="Team Image" className="w-full h-full object-cover" />
+              <img src="/absolute-alignment/home/service.webp" alt="Team Image" className="w-full h-full object-cover" />
             </div>
           </div>
 

@@ -7,19 +7,19 @@ const cards = [
     title: "Medical Supplies",
     subtitle: "Medical Supplies",
     gradient: "from-blue-900/80 to-blue-500/60",
-    img: "/medas-innovation/assets/medas-project1.png",
+    img: "/medas-innovation/assets/medas-project1.webp",
   },
   {
     title: "Medical Gloves",
     subtitle: "Medical Gloves",
     gradient: "from-purple-900/80 to-pink-500/60",
-    img: "/medas-innovation/assets/medas-project2.png",
+    img: "/medas-innovation/assets/medas-project2.webp",
   },
   {
     title: "Urology",
     subtitle: "Urology",
     gradient: "from-yellow-700/80 to-yellow-400/60",
-    img: "/medas-innovation/assets/medas-project3.png",
+    img: "/medas-innovation/assets/medas-project3.webp",
   },
 ];
 

@@ -7,17 +7,17 @@ export default function Divisions() {
     {
       title: "Bexen Medical",
       desc: "Manufacturer of healthcare material since 1978 with 3 domestic production plants.",
-      image: "/medical/bexen-medical/home/blog-1.png"
+      image: "/medical/bexen-medical/home/blog-1.webp"
     },
     {
       title: "Bexen Bioservices",
       desc: "Manufacturer of heSpecialists in the Biotechnology sector with 3 private biorepository branches",
-      image: "/medical/bexen-medical/home/blog-2.png"
+      image: "/medical/bexen-medical/home/blog-2.webp"
     },
     {
       title: "Bexen Cardio",
       desc: "Domestic manufacturers of defibrillators with a wide international market.",
-      image: "/medical/bexen-medical/home/blog-3.png"
+      image: "/medical/bexen-medical/home/blog-3.webp"
     }
   ];
 

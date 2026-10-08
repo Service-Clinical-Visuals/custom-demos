@@ -58,7 +58,7 @@ export default function Precision() {
               {features.map((feature, index) => (
                 <li key={feature} className="flex items-start gap-3" data-aos="fade-up" data-aos-delay={index * 100}>
                   <img
-                    src="/medical/myco-medical/check.png"
+                    src="/medical/myco-medical/check.webp"
                     alt=""
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
                   />

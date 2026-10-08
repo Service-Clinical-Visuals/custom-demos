@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6 h-20">
         {/* Logo */}
         <Image
-          src="/de-soutter-medical/logo.png"
+          src="/de-soutter-medical/logo.webp"
           alt="logo"
           width={140}
           height={40}
@@ -54,7 +54,7 @@ export default function Navbar() {
         {/* Top bar */}
         <div className="flex items-center justify-between px-6 h-20 border-b border-white/20">
           <Image
-            src="/de-soutter-medical/logo.png"
+            src="/de-soutter-medical/logo.webp"
             alt="logo"
             width={120}
             height={40}

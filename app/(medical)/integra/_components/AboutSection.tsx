@@ -20,7 +20,7 @@ export default function AboutSection() {
                     {/* Main image — rounded corners, portrait ratio */}
                     <div className="w-full rounded-3xl overflow-hidden shadow-lg relative">
                         <img
-                            src={`/integra/home/about.png`}
+                            src={`/integra/home/about.webp`}
                             alt="About"
                             className="w-full h-full object-cover"
                         />

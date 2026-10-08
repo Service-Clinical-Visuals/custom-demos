@@ -9,11 +9,11 @@ import BexenButton from "./BexenButton";
 
 export default function SocialInitiatives() {
   const initiatives = [
-    { title: "Pausoka", image: "/medical/bexen-medical/home/social-1.png" },
-    { title: "Hernaniko Arraun", image: "/medical/bexen-medical/home/social-2.png" },
-    { title: "Batzen Emaktiva", image: "/medical/bexen-medical/home/social-3.png" },
-    { title: "Colegio Oficial de Enfermería de Gipuzkoa", image: "/medical/bexen-medical/home/social-4.png" },
-    { title: "CDIA", image: "/medical/bexen-medical/home/social-5.png" }
+    { title: "Pausoka", image: "/medical/bexen-medical/home/social-1.webp" },
+    { title: "Hernaniko Arraun", image: "/medical/bexen-medical/home/social-2.webp" },
+    { title: "Batzen Emaktiva", image: "/medical/bexen-medical/home/social-3.webp" },
+    { title: "Colegio Oficial de Enfermería de Gipuzkoa", image: "/medical/bexen-medical/home/social-4.webp" },
+    { title: "CDIA", image: "/medical/bexen-medical/home/social-5.webp" }
   ];
 
   return (

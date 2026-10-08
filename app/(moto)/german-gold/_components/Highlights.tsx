@@ -7,11 +7,11 @@ import Button from "./Button";
 
 export default function Highlights() {
   const highlights = [
-    { src: "/moto/german-gold/highlight1.png", alt: "SECURITY HOLOGRAM" },
-    { src: "/moto/german-gold/highlight2.png", alt: "MADE IN GERMANY" },
-    { src: "/moto/german-gold/highlight3.png", alt: "ISO CERTIFIED" },
-    { src: "/moto/german-gold/highlight4.png", alt: "ADVANCED TECHNOLOGY" },
-    { src: "/moto/german-gold/highlight5.png", alt: "FOR ALL BRANDS" }
+    { src: "/moto/german-gold/highlight1.webp", alt: "SECURITY HOLOGRAM" },
+    { src: "/moto/german-gold/highlight2.webp", alt: "MADE IN GERMANY" },
+    { src: "/moto/german-gold/highlight3.webp", alt: "ISO CERTIFIED" },
+    { src: "/moto/german-gold/highlight4.webp", alt: "ADVANCED TECHNOLOGY" },
+    { src: "/moto/german-gold/highlight5.webp", alt: "FOR ALL BRANDS" }
   ];
 
   return (

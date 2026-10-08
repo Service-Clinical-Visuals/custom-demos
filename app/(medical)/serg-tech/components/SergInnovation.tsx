@@ -18,7 +18,7 @@ export default function SergInnovation() {
             {/* IMAGE CONTAINER */}
             <div className="">
               <img
-                src="/sergtech/serg-innovation.png"
+                src="/sergtech/serg-innovation.webp"
                 alt="Healthcare Innovation"
                 className="object-cover"
               />

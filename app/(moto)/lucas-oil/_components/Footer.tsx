@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="w-full lg:w-[30%] mb-12 lg:mb-0 lg:pr-12">
             <div className="mb-6">
               <img 
-                src="/moto/lucas-oil/lucaslogo.png" 
+                src="/moto/lucas-oil/lucaslogo.webp" 
                 alt="Lucas Oil" 
                 className="h-12 object-contain"
                

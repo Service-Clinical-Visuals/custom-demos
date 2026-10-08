@@ -131,7 +131,7 @@ const Header = () => {
             {/* Logo Section (Centered) */}
             <Link href="/" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center shrink-0">
               <img
-                src="/german-gold/footerlogo.png"
+                src="/german-gold/footerlogo.webp"
                 alt="German Gold Logo"
                 className="h-6 sm:h-8 md:h-10 lg:h-16  w-auto object-contain"
               />

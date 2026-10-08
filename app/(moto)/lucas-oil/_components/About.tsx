@@ -13,7 +13,7 @@ export default function About() {
           <div className="flex flex-col space-y-6 mt-5" data-aos="fade-right">
             <div className="flex items-center space-x-3 h-auto">
               <img 
-                src="/moto/lucas-oil/setting.png" 
+                src="/moto/lucas-oil/setting.webp" 
                 alt="Setting icon" 
                 className="w-6 h-6 object-contain"
               />
@@ -30,7 +30,7 @@ export default function About() {
             
             <div className="w-full h-full rounded-tr-[42px] rounded-bl-[42px] overflow-hidden mt-2 border border-white/10 shadow-lg">
               <img 
-                src="/moto/lucas-oil/lucasAbout.png" 
+                src="/moto/lucas-oil/lucasAbout.webp" 
                 alt="Lucas Oil Team" 
                 className="w-full h-full object-cover"
               />

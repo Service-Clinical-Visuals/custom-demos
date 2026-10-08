@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function SearchFilter() {
     return (
-        <section className="py-16 bg-[url('/arnott/images/dark-bg.png')] text-white">
+        <section className="py-16 bg-[url('/arnott/images/dark-bg.webp')] text-white">
             <div className="container mx-auto px-4 md:px-12">
                 <div className="text-center mb-12" data-aos="fade-up">
                     <div>

@@ -5,15 +5,15 @@ import Button from './Button';
 
 const features = [
   {
-    id: '/moto/lucas-oil/01.png',
+    id: '/moto/lucas-oil/01.webp',
     text: 'Mid-SAPS formulation protects petrol, diesel, and LPG engines, ensuring compatibility with DPFs and catalytic converters.'
   },
   {
-    id: '/moto/lucas-oil/02.png',
+    id: '/moto/lucas-oil/02.webp',
     text: 'Low-friction synthetic base oils improve fuel economy and reduce engine wear under load.'
   },
   {
-    id: '/moto/lucas-oil/03.png',
+    id: '/moto/lucas-oil/03.webp',
     text: 'Advanced detergent system maintains engine cleanliness and reduces sludge formation.'
   }
 ];

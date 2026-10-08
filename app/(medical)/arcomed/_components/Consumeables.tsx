@@ -4,7 +4,7 @@ import { CheckCircle2, ArrowRight, ArrowRightIcon } from "lucide-react";
 const products = [
   {
     title: "I.V. Sets",
-    image: "/arcomed/c1.png", // Replace with actual image
+    image: "/arcomed/c1.webp", // Replace with actual image
     features: [
       "Dedicated and non-dedicated",
       "Less toxicity for patients and the environment",
@@ -12,7 +12,7 @@ const products = [
   },
   {
     title: "Syringes and extension lines",
-    image: "/arcomed/c2.png",
+    image: "/arcomed/c2.webp",
     features: [
       "Standard and light-protected options",
       "Low-volume extension lines",
@@ -20,14 +20,14 @@ const products = [
   },
   {
     title: "Other consumables",
-    image: "/arcomed/c3.png",
+    image: "/arcomed/c3.webp",
     features: ["Extensive range of accessories", "Transfer devices"],
   },
 ];
 
 export default function Consumables() {
   return (
-    <section className="bg-[url('/arcomed/bg.png')] py-16 lg:py-20 arcomed-root">
+    <section className="bg-[url('/arcomed/bg.webp')] py-16 lg:py-20 arcomed-root">
       <div className="custom-container px-6 space-y-12">
         <div
           data-aos="fade-up"
@@ -63,7 +63,7 @@ export default function Consumables() {
                         key={i}
                         className="flex items-center gap-2 text-base text-[#333333]">
                         <img
-                          src="/arcomed/check1.png" // place inside public/icons/
+                          src="/arcomed/check1.webp" // place inside public/icons/
                           alt="check"
                           className="w-6 h-6 shrink-0 mt-1 object-contain"
                         />

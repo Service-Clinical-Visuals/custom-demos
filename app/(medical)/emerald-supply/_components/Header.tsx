@@ -46,7 +46,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center">
           <div className="flex items-center gap-0">
-            <img src="/emerald/images/emerald-logo.png" alt="logo" className="w-40" />
+            <img src="/emerald/images/emerald-logo.webp" alt="logo" className="w-40" />
           </div>
         </div>
 

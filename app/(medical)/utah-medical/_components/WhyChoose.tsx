@@ -6,22 +6,22 @@ import AOS from "aos";
 
 const features = [
   {
-    img : "/utah-medical/assets/utah-service.png",
+    img : "/utah-medical/assets/utah-service.webp",
     title: "Femcare Excellence",
     desc: "Recognized for leading global brand in specialty medical devices with focus on female-centric consumables.",
   },
   {
-    img : "/utah-medical/assets/utah-reach.png",
+    img : "/utah-medical/assets/utah-reach.webp",
     title: "Global Reach",
     desc: "Expanding availability of life-saving specialty medical devices across the globe with established relationships in 100+ countries.",
   },
   {
-    img : "/utah-medical/assets/utah-commit.png",
+    img : "/utah-medical/assets/utah-commit.webp",
     title: "Quality Commitment",
     desc: "With a clear commitment to continuous quality improvement, Utah Medical takes pride in effectively responding to customer needs.",
   },
   {
-    img : "/utah-medical/assets/utah-manage.png",
+    img : "/utah-medical/assets/utah-manage.webp",
 
     title: "Innovation",
     desc: "Leading the industry with patented and intuitive designs for innovative medical solutions.",
@@ -30,15 +30,15 @@ const features = [
 
 const listing = [
   {
-    img : "/utah-medical/assets/utah-commit.png",
+    img : "/utah-medical/assets/utah-commit.webp",
     title: "Trusted by healthcare professionals in 100+ countries for delivering reliable, high-quality solutions.",
   },
     {
-    img : "/utah-medical/assets/utah-target.png",
+    img : "/utah-medical/assets/utah-target.webp",
     title: "Focused on improving long-term patient outcomes through precision, safety, and clinical excellence.",
   },
     {
-    img : "/utah-medical/assets/utah-complete.png",
+    img : "/utah-medical/assets/utah-complete.webp",
     title:  "Delivering solutions that enhance patient safety and treatment outcomes worldwide.",
   },
 ]
@@ -106,7 +106,7 @@ export default function WhyChoose() {
         >
           {/* Image */}
           <div className="md:col-span-1 lg:col-span-4 h-56 sm:h-72 md:h-full lg:h-112">
-            <img src="/utah-medical/assets/utah-choose.png" alt="Logo" className="w-full h-full object-cover" />
+            <img src="/utah-medical/assets/utah-choose.webp" alt="Logo" className="w-full h-full object-cover" />
           </div>
 
           {/* Content */}

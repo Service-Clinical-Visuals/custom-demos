@@ -15,7 +15,7 @@ const Regulatory = () => {
       {/* Wave/DNA graphic simulation */}
       <div
         className="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/medical/seiler/bg-2.jpg')" }} // replace with your image
+        style={{ backgroundImage: "url('/medical/seiler/bg-2.webp')" }} // replace with your image
       />
 
       <div className="relative z-10 container mx-auto flex flex-col lg:flex-row items-center gap-12">
@@ -72,7 +72,7 @@ const Regulatory = () => {
         <div className="w-full lg:w-1/2">
           <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-[#FFFFFF]/10">
             <img
-              src="/medical/seiler/regulatory.png" // Replace with your image
+              src="/medical/seiler/regulatory.webp" // Replace with your image
               alt="Medical professionals using Seiler equipment"
               className="w-full h-full object-cover"
             />

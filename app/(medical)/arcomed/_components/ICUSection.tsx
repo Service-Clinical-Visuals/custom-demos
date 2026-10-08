@@ -59,7 +59,7 @@ export default function ICUSection() {
                   key={item}
                   className="flex items-center gap-2 text-base text-[#333333]">
                   <img
-                    src="/arcomed/check.png" // place inside public/icons/
+                    src="/arcomed/check.webp" // place inside public/icons/
                     alt="check"
                     className="w-6 h-6 shrink-0 mt-1 object-contain"
                   />
@@ -86,7 +86,7 @@ export default function ICUSection() {
                   key={item}
                   className="flex items-center gap-2 text-base text-[#333333]">
                   <img
-                    src="/arcomed/check.png" // place inside public/icons/
+                    src="/arcomed/check.webp" // place inside public/icons/
                     alt="check"
                     className="w-6 h-6 shrink-0 mt-1 object-contain"
                   />

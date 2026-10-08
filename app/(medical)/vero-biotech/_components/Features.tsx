@@ -45,7 +45,7 @@ export default function Features() {
           <div data-aos="fade-left" className="flex justify-center mt-12 lg:mt-0">
             <div className="relative w-full max-w-[320px] sm:max-w-md aspect-[3/4] bg-[#f0f0f0] rounded-2xl flex items-center justify-center p-6 lg:p-8">
               {/* Device Image Placeholder */}
-              <img alt="GENOSYL Delivery System" className="object-contain w-full h-full" src="/vero-biotech/home/stand.png" />
+              <img alt="GENOSYL Delivery System" className="object-contain w-full h-full" src="/vero-biotech/home/stand.webp" />
             </div>
           </div>
 

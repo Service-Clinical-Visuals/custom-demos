@@ -4,10 +4,10 @@ import React from "react";
 export default function Gallery() {
   // Array of image paths - ensure these are in your /public folder
   const images = [
-    { src: "/delphos-implants/images/event-1.png", alt: "Nantes Event" },
-    { src: "/delphos-implants/images/event-2.png", alt: "Hospitalar Event" },
-    { src: "/delphos-implants/images/event-3.png", alt: "Basel Event" },
-    { src: "/delphos-implants/images/event-4.png", alt: "Miami Event" },
+    { src: "/delphos-implants/images/event-1.webp", alt: "Nantes Event" },
+    { src: "/delphos-implants/images/event-2.webp", alt: "Hospitalar Event" },
+    { src: "/delphos-implants/images/event-3.webp", alt: "Basel Event" },
+    { src: "/delphos-implants/images/event-4.webp", alt: "Miami Event" },
   ];
 
   return (

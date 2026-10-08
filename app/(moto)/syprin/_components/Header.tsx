@@ -39,7 +39,7 @@ export default function Header() {
         {/* Left: Logo */}
         <Link href="/syprin" className="flex items-center flex-shrink-0 z-10">
           <img
-            src="/moto/syprin/logo.png"
+            src="/moto/syprin/logo.webp"
             alt="Original Syprin"
             className="h-[42px] sm:h-[50px] md:h-[58px] lg:h-[66px] xl:h-[76px] min-[2500px]:h-[110px] min-[3800px]:h-[155px] w-auto object-contain"
           />
@@ -98,7 +98,7 @@ export default function Header() {
           {/* Language Selector */}
           <div className="hidden sm:flex items-center gap-2.5 h-[38px] sm:h-[42px] md:h-[46px] min-[2500px]:h-[68px] min-[3800px]:h-[88px] px-3.5 min-[2500px]:px-6 min-[3800px]:px-8 border border-[#F6F6F6] rounded-[8px] min-[3800px]:rounded-[16px] cursor-pointer hover:border-[#A12624] transition-colors select-none">
             <img
-              src="/moto/syprin/flag-en.png"
+              src="/moto/syprin/flag-en.webp"
               alt="EN"
               className="w-[22px] h-[15px] sm:w-[26px] sm:h-[18px] min-[2500px]:w-[38px] min-[2500px]:h-[26px] min-[3800px]:w-[48px] min-[3800px]:h-[32px] object-cover rounded-[3px]"
             />
@@ -140,7 +140,7 @@ export default function Header() {
           <div className="pt-2 flex items-center justify-center w-full">
             <div className="flex items-center justify-center gap-2.5 h-[44px] px-4 border border-[#F6F6F6] rounded-[8px]">
               <img
-                src="/moto/syprin/flag-en.png"
+                src="/moto/syprin/flag-en.webp"
                 alt="EN"
                 className="w-[24px] h-[16px] object-cover rounded-[3px]"
               />

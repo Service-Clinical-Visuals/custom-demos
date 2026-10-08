@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: "Vectracor",
   description: "Vectracor Website",
   icons: {
-    icon: "/vectracor/vectracor-favicon.png",
+    icon: "/vectracor/vectracor-favicon.webp",
   },
 };
 

@@ -18,7 +18,7 @@ export default function WhyChooseUs() {
     {
       title: "Innovative Medical Technology",
       desc: "Advanced medical devices designed to improve clinical precision and patient care.",
-      icon: "/atmosmed/assets/brain.png"
+      icon: "/atmosmed/assets/brain.webp"
     },
     {
       title: "Complete Medical Solutions",
@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
     {
       title: "Complete Medical Supply",
       desc: "Lorem ipsum or lipsum as it is sometimes known",
-      icon: "/atmosmed/assets/care.png"
+      icon: "/atmosmed/assets/care.webp"
     },
   ];
 

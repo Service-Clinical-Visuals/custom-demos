@@ -7,31 +7,31 @@ const products = [
   {
     id: 1,
     title: "BiTrac® NIV Nasal Mask",
-    image: "/pulmo/pulmo-product-1.png",
+    image: "/pulmo/pulmo-product-1.webp",
     category: "Respiratory",
   },
   {
     id: 2,
     title: "O2-MAX®",
-    image: "/pulmo/pulmo-product-2.png",
+    image: "/pulmo/pulmo-product-2.webp",
     category: "EMS",
   },
   {
     id: 3,
     title: "BiTrac® NIV Nasal Mask",
-    image: "/pulmo/pulmo-product-3.png",
+    image: "/pulmo/pulmo-product-3.webp",
     category: "Anesthesia",
   },
   {
     id: 4,
     title: "GO-PAP™",
-    image: "/pulmo/pulmo-product-4.png",
+    image: "/pulmo/pulmo-product-4.webp",
     category: "Respiratory",
   },
   {
     id: 5,
     title: "Control-Cric®",
-    image: "/pulmo/pulmo-product-5.png",
+    image: "/pulmo/pulmo-product-5.webp",
     category: "Respiratory",
   },
 ];

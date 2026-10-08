@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="w-[180px] mb-8">
               <img
-                src="/react-health/logo.jpg"
+                src="/react-health/logo.webp"
                 alt="React Health"
                 className="object-contain"
               />

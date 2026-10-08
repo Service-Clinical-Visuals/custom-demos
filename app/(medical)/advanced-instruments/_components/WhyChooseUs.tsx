@@ -12,22 +12,22 @@ const bannerVideos = [
 
 const items = [
     {
-        icon: "/advanced-instruments/images/quality.png",
+        icon: "/advanced-instruments/images/quality.webp",
         label: "Premium Quality",
         description: "Built for international standards",
     },
     {
-        icon: "/advanced-instruments/images/support.png",
+        icon: "/advanced-instruments/images/support.webp",
         label: "Expert Support",
         description: "Strong technical assistance",
     },
     {
-        icon: "/advanced-instruments/images/global.png",
+        icon: "/advanced-instruments/images/global.webp",
         label: "Global Reach",
         description: "Worldwide distribution network",
     },
     {
-        icon: "/advanced-instruments/images/customer.png",
+        icon: "/advanced-instruments/images/customer.webp",
         label: "Customer Focus",
         description: "Smooth and efficient experience",
     }
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
         setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % bannerVideos.length);
     };
     return (
-        <section className="advance-inc-root py-16 md:py-20 bg-[url('/advanced-instruments/images/why-bg.png')] bg-cover bg-center relative overflow-hidden">
+        <section className="advance-inc-root py-16 md:py-20 bg-[url('/advanced-instruments/images/why-bg.webp')] bg-cover bg-center relative overflow-hidden">
 
             <div className="custom-container mx-auto px-4 md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-20 relative z-10 items-center">
                 <div>

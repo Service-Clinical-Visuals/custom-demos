@@ -24,7 +24,7 @@ export default function BeyondInnovation() {
       <div className="absolute inset-0 -z-10">
         <div className="w-full h-full bg-gradient-to-r from-[#0ea5e9] to-[#0284c7] aspect-video" />
         {/* Add your bg image here */}
-        <img src="/beyond-air/assets/beyond-bg.png" className="absolute inset-0 w-full h-full object-cover opacity-30" />
+        <img src="/beyond-air/assets/beyond-bg.webp" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
 
       <div className="custom-container mx-auto grid xl:grid-cols-2 md:grid-cols-1 gap-8 lg:gap-12 items-center">

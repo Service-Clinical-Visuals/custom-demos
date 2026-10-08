@@ -21,7 +21,7 @@ const Footer = () => {
         <div data-aos="fade-up" className="lg:col-span-3 space-y-6">
           <div className="flex items-start">
             <img
-              src="/arcomed/logo.png" // place inside public/images/
+              src="/arcomed/logo.webp" // place inside public/images/
               alt="Arcomed Logo"
               className="h-20 w-auto object-contain"
             />

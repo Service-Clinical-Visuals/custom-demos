@@ -85,7 +85,7 @@ export default function DeltaFooter() {
           >
             <div className="flex items-center gap-5">
 
-              <img src="/delta/delta-logo.png" alt="logo" className="w-80 h-auto" />
+              <img src="/delta/delta-logo.webp" alt="logo" className="w-80 h-auto" />
             </div>
           </div>
 

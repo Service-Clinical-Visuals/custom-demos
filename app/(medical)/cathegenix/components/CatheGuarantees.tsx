@@ -7,25 +7,25 @@ const services = [
     title: "Unwavering Assurance",
     description:
       "Adhering to the highest standards with ISO 13485-certified quality management systems and FDA registration for absolute trust and reliability.",
-    image: "/cathegenix/cathe-guarantee-1.jpg",
+    image: "/cathegenix/cathe-guarantee-1.webp",
   },
   {
     title: "Comprehensive Product Solutions",
     description:
       "Delivering a seamless supply of high-quality products with end-to-end support, from concept development to regulatory approval and successful market launch.",
-    image: "/cathegenix/cathe-guarantee-2.jpg",
+    image: "/cathegenix/cathe-guarantee-2.webp",
   },
   {
     title: "Unmatched Efficiency",
     description:
       "Accelerating timelines with an industry-leading 7-day lead time to meet your urgent needs.",
-    image: "/cathegenix/cathe-guarantee-3.jpg",
+    image: "/cathegenix/cathe-guarantee-3.webp",
   },
   {
     title: "Personalized Support",
     description:
       "Providing dedicated, one-on-one assistance from our expert technical team, ensuring seamless delivery of customized solutions and exceptional service.",
-    image: "/cathegenix/cathe-guarantee-4.jpg",
+    image: "/cathegenix/cathe-guarantee-4.webp",
   },
 ];
 

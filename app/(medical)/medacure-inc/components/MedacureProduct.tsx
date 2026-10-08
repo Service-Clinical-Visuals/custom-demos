@@ -55,15 +55,15 @@ export default function MedacureProduct() {
         {/* Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProductCard
-            img="/medacure/assets/medacure-product1.png"
+            img="/medacure/assets/medacure-product1.webp"
             title="AeroLite Portable Oxygen Concentrator"
           />
           <ProductCard
-            img="/medacure/assets/medacure-product2.png"
+            img="/medacure/assets/medacure-product2.webp"
             title="Assist & Turn Sit to Stand Transfer Aid"
           />
           <ProductCard
-            img="/medacure/assets/medacure-product3.png"
+            img="/medacure/assets/medacure-product3.webp"
             title="Professional Bladder Scanner"
           />
         </div>

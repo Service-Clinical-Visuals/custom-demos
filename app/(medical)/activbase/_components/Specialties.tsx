@@ -56,14 +56,14 @@ export default function Specialties() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="flex flex-col h-full" data-aos="fade-up" data-aos-delay="200">
               <SpecialtyCard
-                image="/activbase/home/spec-1.png"
+                image="/activbase/home/spec-1.webp"
                 title="Sports Injury Rehabilitation"
                 description="We are experts in Rehabilitation as well as sports. Our personalized and systematic protocol based on various sports..."
               />
             </div>
             <div className="flex flex-col h-full" data-aos="fade-up" data-aos-delay="400">
               <SpecialtyCard
-                image="/activbase/home/spec-2.png"
+                image="/activbase/home/spec-2.webp"
                 title="Orthopedic Physiotherapy"
                 description="Complete rehabilitation from various Musculoskeletal injuries enabling return to activity without any difficulty."
               />

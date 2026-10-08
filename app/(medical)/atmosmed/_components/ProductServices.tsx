@@ -5,15 +5,15 @@ export default function ProductServices() {
   const services = [
     {
       title: "Repairs & Maintenance",
-      icon: "/assets/wartung 1.png",
+      icon: "/assets/wartung 1.webp",
     },
     {
       title: "Returns & Complaints",
-      icon: "/assets/retour 1.png",
+      icon: "/assets/retour 1.webp",
     },
     {
       title: "Repairs & Maintenance",
-      icon: "/assets/wartung 1.png",
+      icon: "/assets/wartung 1.webp",
     },
   ];
 

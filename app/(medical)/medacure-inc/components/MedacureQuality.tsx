@@ -45,7 +45,7 @@ export default function MedacureQuality() {
           <div className="w-full h-[350px] md:h-[360px] xl:h-[450px] 2xl:h-[650px] bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center text-gray-500">
             {/* Replace with actual image */}
             <img
-                src="/medacure/assets/medacure-quality.png"
+                src="/medacure/assets/medacure-quality.webp"
                 alt="medacure-quality"
                 className="w-full h-full object-cover"
             />

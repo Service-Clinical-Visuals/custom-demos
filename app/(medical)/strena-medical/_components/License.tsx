@@ -21,9 +21,9 @@ export default function License() {
           {/* Right Logos Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6" data-aos="fade-left">
             {[
-              { src: "/strena/images/certifiction-1.png", label: "ISO 13485" },
-              { src: "/strena/images/certifiction-2.png", label: "ISO 9001" },
-              { src: "/strena/images/certifiction-3.png", label: "FDA Approved" },
+              { src: "/strena/images/certifiction-1.webp", label: "ISO 13485" },
+              { src: "/strena/images/certifiction-2.webp", label: "ISO 9001" },
+              { src: "/strena/images/certifiction-3.webp", label: "FDA Approved" },
             ].map((logo, index) => (
               <div 
                 key={index}

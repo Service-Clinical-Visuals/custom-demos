@@ -55,7 +55,7 @@ export default function Button({
       <span className={`whitespace-nowrap ${uppercase ? 'uppercase' : ''}`}>{children}</span>
       {showIcon && (
         <div className="flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
-          <img src="/nihon/images/arrow.png" alt="Icon" className="transition-transform duration-300" width={iconSizes[size]} height={iconSizes[size]} />
+          <img src="/nihon/images/arrow.webp" alt="Icon" className="transition-transform duration-300" width={iconSizes[size]} height={iconSizes[size]} />
         </div>
       )}
     </>

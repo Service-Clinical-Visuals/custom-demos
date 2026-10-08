@@ -22,15 +22,15 @@ export default function Expertise() {
   const points = [
     {
       text: "We develop equipment tailored to daily clinical practice through close collaboration with ENT specialists.",
-      icon: "/orlvision/icon1.png",
+      icon: "/orlvision/icon1.webp",
     },
     {
       text: "Our solutions improve consultation and usability for hearing care professionals.",
-      icon: "/orlvision/icon2.png",
+      icon: "/orlvision/icon2.webp",
     },
     {
       text: "Accurate diagnostics powered by advanced technology.",
-      icon: "/orlvision/icon3.png",
+      icon: "/orlvision/icon3.webp",
     },
   ];
 

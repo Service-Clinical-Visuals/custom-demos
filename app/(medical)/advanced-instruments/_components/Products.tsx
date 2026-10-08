@@ -6,21 +6,21 @@ import SectionHeader from "./SectionHeader";
 const products = [
     {
         category: "ANESTHESIA",
-        image: "/advanced-instruments/images/anesthesia.jpg",
+        image: "/advanced-instruments/images/anesthesia.webp",
         title: "Advanced Anesthesia Technology for All Clinical Needs",
         description: "The AM-6000 is an advanced anesthesia ventilator offering safety, precision, and ease of use for both pediatric and adult procedures, featuring modular design and intelligent monitoring.",
         imageLabel: "Anesthesia Machine",
     },
     {
         category: "CARDIOLOGY",
-        image: "/advanced-instruments/images/cardiology.jpg",
+        image: "/advanced-instruments/images/cardiology.webp",
         title: "Comprehensive Cardiology Monitoring & Diagnostic Solutions",
         description: "Advanced cardiology devices designed for accurate diagnosis, continuous monitoring, and reliable care. Each with modern technology, these solutions ensure precision, ease of use, and improved clinical outcomes.",
         imageLabel: "ECG / Cardiology Device",
     },
     {
         category: "HOSPITAL FURNITURE",
-        image: "/advanced-instruments/images/furniture.jpg",
+        image: "/advanced-instruments/images/furniture.webp",
         title: "Advanced Hospital Furniture & Patient Care Solutions",
         description: "Our hospital furniture and patient care solutions are designed for comfort, safety, and efficiency. Built for durability and ease of use, they support smooth patient handling and improved healthcare operations.",
         imageLabel: "Hospital Bed",
@@ -29,7 +29,7 @@ const products = [
 
 const Products = () => {
     return (
-        <section className="advance-inc-root py-10 md:py-15 bg-[url('/advanced-instruments/images/products-bg.png')] bg-cover bg-center relative overflow-hidden" id="products">
+        <section className="advance-inc-root py-10 md:py-15 bg-[url('/advanced-instruments/images/products-bg.webp')] bg-cover bg-center relative overflow-hidden" id="products">
             <div className="custom-container mx-auto px-4 md:px-0">
                 <SectionHeader
                     label="Our Products"

@@ -46,7 +46,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="#" className="flex items-center gap-2 shrink-0">
             <img
-              src="/medical/fisso-medical/fisso-logo 1.png"
+              src="/medical/fisso-medical/fisso-logo 1.webp"
               alt="FISSO Swiss Made"
               className="h-8 sm:h-9 lg:h-10 xl:h-11 2xl:h-12 w-auto object-contain"
             />

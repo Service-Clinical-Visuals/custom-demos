@@ -6,19 +6,19 @@ import DeltaScrollRevealText from "./DeltaScrollRevealText";
 const products = [
   {
     title: "Notte Series",
-    image: "/delta/delta-product-1.png",
+    image: "/delta/delta-product-1.webp",
     description:
       "DeltaSleep’s Notte Series offers ultra-quiet, Canadian-engineered CPAP and BiPAP therapy. Featuring intelligent humidification and automated leak compensation, these compact devices ensure precise, restorative sleep for every patient.",
   },
   {
     title: "Full Face Mask FM-1",
-    image: "/delta/delta-product-2.png",
+    image: "/delta/delta-product-2.webp",
     description:
       "Engineered for mouth-breathing and high-pressure therapy, the FM01 utilizes a brace-free design to maximize visibility while maintaining optimal interface stability.",
   },
   {
     title: "Nasal Mask NM-1",
-    image: "/delta/delta-product-3.png",
+    image: "/delta/delta-product-3.webp",
     description:
       "Experience a new level of freedom with the NM-1 Nasal Mask. Engineered for minimal contact and maximum stability, this mask features a “Less Block, Better Vision” design that allows you to read or watch TV comfortably before falling asleep.",
   },

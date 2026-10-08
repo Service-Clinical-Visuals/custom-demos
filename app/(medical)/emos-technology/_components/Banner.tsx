@@ -17,7 +17,7 @@ const Banner = () => {
                 </video>
                 {/* 
                 <img
-                    src={`/emos-technology/images/home/bg-passion.jpg`}
+                    src={`/emos-technology/images/home/bg-passion.webp`}
                     alt="EMOS Precision Instrument"
                     className="object-contain lg:object-cover object-bottom lg:object-center"
                 />

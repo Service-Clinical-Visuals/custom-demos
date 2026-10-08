@@ -28,23 +28,23 @@ export default function Partners() {
 
           <div data-aos="fade-left" data-aos-delay="300" className="w-full lg:w-[320px] shrink-0">
             <div className="bg-white border border-gray-200 rounded-xl p-8 flex flex-col items-center justify-center min-h-[220px] w-full shadow-lg">
-              <img src="/sunset-healthcare/home/partner-1.png" alt="Partner 1" className="w-full h-full object-contain max-h-[160px]" />
+              <img src="/sunset-healthcare/home/partner-1.webp" alt="Partner 1" className="w-full h-full object-contain max-h-[160px]" />
             </div>
           </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
           <div data-aos="fade-up" data-aos-delay="400" className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col items-center justify-center h-[160px] shadow-lg">
-            <img src="/sunset-healthcare/home/partner-2.png" alt="Partner 2" className="w-full h-full object-contain" />
+            <img src="/sunset-healthcare/home/partner-2.webp" alt="Partner 2" className="w-full h-full object-contain" />
           </div>
           <div data-aos="fade-up" data-aos-delay="500" className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col items-center justify-center h-[160px] shadow-lg">
-            <img src="/sunset-healthcare/home/partner-3.png" alt="Partner 3" className="w-full h-full object-contain" />
+            <img src="/sunset-healthcare/home/partner-3.webp" alt="Partner 3" className="w-full h-full object-contain" />
           </div>
           <div data-aos="fade-up" data-aos-delay="600" className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col items-center justify-center h-[160px] shadow-lg">
-            <img src="/sunset-healthcare/home/partner-4.png" alt="Partner 4" className="w-full h-full object-contain" />
+            <img src="/sunset-healthcare/home/partner-4.webp" alt="Partner 4" className="w-full h-full object-contain" />
           </div>
           <div data-aos="fade-up" data-aos-delay="700" className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col items-center justify-center h-[160px] shadow-lg">
-            <img src="/sunset-healthcare/home/partner-5.png" alt="Partner 5" className="w-full h-full object-contain" />
+            <img src="/sunset-healthcare/home/partner-5.webp" alt="Partner 5" className="w-full h-full object-contain" />
           </div>
         </div>
       </div>

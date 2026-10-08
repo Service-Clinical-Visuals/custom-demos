@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Logo Column */}
           <div className="flex flex-col" data-aos="fade-up" data-aos-delay="0">
             <Link href="/kimal" className="flex flex-col leading-tight mb-8">
-              <img src="/kimal/images/kimal-logo.png" alt="Kimal Logo" className="w-46 h-auto" />
+              <img src="/kimal/images/kimal-logo.webp" alt="Kimal Logo" className="w-46 h-auto" />
             </Link>
           </div>
 

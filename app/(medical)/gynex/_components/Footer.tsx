@@ -12,7 +12,7 @@ export default function Footer() {
                     {/* Brand Section */}
                     <div className="flex flex-col gap-6 lg:col-span-4">
                         <Link href="/gynex" className="text-2xl font-bold tracking-widest">
-                            <img src="/gynex/images/g-logo.png" alt="Gynex" className="w-50 object-contain" />
+                            <img src="/gynex/images/g-logo.webp" alt="Gynex" className="w-50 object-contain" />
                         </Link>
                         <p className="text-gray-500  leading-relaxed text-justify">
                             Gynex is dedicated to providing customers with high-quality OB/GYN instruments, gynecologist equipment, and practice solutions at a fair price to all customers.

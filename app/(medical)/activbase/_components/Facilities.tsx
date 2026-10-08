@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const facilities = [
-  { title: "Pain Lab Treatment Clinic", img: "/activbase/home/services-1.png" },
-  { title: "High performance Lab Gym, Ground and Track", img: "/activbase/home/services-2.png" },
-  { title: "Hydrotherapy pool with underwater exercise equipment", img: "/activbase/home/services-3.png" },
+  { title: "Pain Lab Treatment Clinic", img: "/activbase/home/services-1.webp" },
+  { title: "High performance Lab Gym, Ground and Track", img: "/activbase/home/services-2.webp" },
+  { title: "Hydrotherapy pool with underwater exercise equipment", img: "/activbase/home/services-3.webp" },
   // { title: "Advanced Rehabilitation Center" },
   // { title: "Sports Biomechanics Lab" }
 ];

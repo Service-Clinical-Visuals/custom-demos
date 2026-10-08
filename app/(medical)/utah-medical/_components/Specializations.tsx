@@ -5,32 +5,32 @@ import { useState } from "react";
 
 const items = [
   {
-    img : "/utah-medical/assets/utah-critical.png",
+    img : "/utah-medical/assets/utah-critical.webp",
     title: "Critical Care",
     desc: "UTMD's specialized critical care devices are used for arterial blood collection and invasive blood pressure monitoring.",
   },
   {
-    img : "/utah-medical/assets/utah-gynec.png",
+    img : "/utah-medical/assets/utah-gynec.webp",
     title: "Gynecology",
     desc: "UTMD's specialized gynecology devices are used for endometrial sampling, hysterosalpingography & saline infusion sonography, loop excision of the transformation zone, pelvic floor stimulation therapy and uterine laparoscopy.",
   },
   {
-    img : "/utah-medical/assets/utah-neon.jpg",
+    img : "/utah-medical/assets/utah-neon.webp",
     title: "Neonatology/Pediatrics",
     desc: "UTMD's specialized gynecology devices are used for endometrial sampling, hysterosalpingography & saline infusion sonography, loop excision of the transformation zone, pelvic floor stimulation therapy and uterine laparoscopy.",
   },
     {
-    img : "/utah-medical/assets/utah-critical.png",
+    img : "/utah-medical/assets/utah-critical.webp",
     title: "Critical Care",
     desc: "UTMD's specialized critical care devices are used for arterial blood collection and invasive blood pressure monitoring.",
   },
   {
-    img : "/utah-medical/assets/utah-gynec.png",
+    img : "/utah-medical/assets/utah-gynec.webp",
     title: "Gynecology",
     desc: "UTMD's specialized gynecology devices are used for endometrial sampling, hysterosalpingography & saline infusion sonography, loop excision of the transformation zone, pelvic floor stimulation therapy and uterine laparoscopy.",
   },
   {
-    img : "/utah-medical/assets/utah-neon.jpg",
+    img : "/utah-medical/assets/utah-neon.webp",
     title: "Neonatology/Pediatrics",
     desc: "UTMD's specialized gynecology devices are used for endometrial sampling, hysterosalpingography & saline infusion sonography, loop excision of the transformation zone, pelvic floor stimulation therapy and uterine laparoscopy.",
   },

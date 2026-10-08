@@ -10,12 +10,12 @@ export default function OurProductsSection() {
         {
             id: 1,
             title: 'SmoothWave i100',
-            image: '/product-1.png'
+            image: '/product-1.webp'
         },
         {
             id: 2,
             title: 'SmoothWave i200',
-            image: '/product-2.png'
+            image: '/product-2.webp'
         },
         {
             id: 3,
@@ -25,17 +25,17 @@ export default function OurProductsSection() {
         {
             id: 4,
             title: 'Advanced Silver Smooth Bipolar Forceps',
-            image: '/accessories-1.png'
+            image: '/accessories-1.webp'
         },
         {
             id: 5,
             title: '3-Button Fingerswitch Wand',
-            image: '/accessories-2.png'
+            image: '/accessories-2.webp'
         },
         {
             id: 6,
             title: 'Precision Bipolar Scissors',
-            image: '/accessories-3.png'
+            image: '/accessories-3.webp'
         }
     ];
 

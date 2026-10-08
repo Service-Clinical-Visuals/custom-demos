@@ -51,7 +51,7 @@ export function Header() {
           {/* Logo */}
           <div className="shrink-0 flex items-center">
             <Link href="/" className="flex flex-col">
-              <img src={`/pmf-medical/logo.png`} className="w-32 md:w-50" alt="Logo" />
+              <img src={`/pmf-medical/logo.webp`} className="w-32 md:w-50" alt="Logo" />
             </Link>
           </div>
 

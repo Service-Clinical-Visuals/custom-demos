@@ -7,24 +7,24 @@ import { motion } from "framer-motion";
 const technologies = [
   {
     title: "Pulse Oximeter",
-    logo: "/nihon/images/tech-s1.png",
-    image: "/nihon/images/tech-b1.png",
+    logo: "/nihon/images/tech-s1.webp",
+    image: "/nihon/images/tech-b1.webp",
     description: "The Pulse Oximeter is a device that continuously and non-invasively monitors the level of oxygen in patients' bloodstream...",
     link: "#",
     logoName: "BluPRO"
   },
   {
     title: "iNIBP",
-    logo: "/nihon/images/tech-s2.png",
-    image: "/nihon/images/tech-b2.png",
+    logo: "/nihon/images/tech-s2.webp",
+    image: "/nihon/images/tech-b2.webp",
     description: "iNIBP is Nihon Kohden's non-invasive blood pressure measurement algorithm using inflation technology. iNIBP completes...",
     link: "#",
     logoName: "iNIBP"
   },
   {
     title: "esCCO",
-    logo: "/nihon/images/tech-s3.png",
-    image: "/nihon/images/tech-b3.png",
+    logo: "/nihon/images/tech-s3.webp",
+    image: "/nihon/images/tech-b3.webp",
     description: "esCCO provides cardiac output information only using common vital sign parameters of ECG, SpO2 and blood pressure...",
     link: "#",
     logoName: "esCCO"

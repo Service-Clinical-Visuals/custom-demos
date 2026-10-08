@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: AliveCor Logo & Description */}
           <div className="lg:col-span-1 flex flex-col items-start">
             <Link href="/alivecor" className="flex items-center mb-6">
-              <img src="/alivecor/images/alivecor-footer.png" alt="Footer Logo" className="w-40" />
+              <img src="/alivecor/images/alivecor-footer.webp" alt="Footer Logo" className="w-40" />
             </Link>
             <p className="font-sans text-[12px] leading-relaxed font-light mb-6 pr-4">
               We are advancing our mission with end-to-end cardiological care and services for consumers, patients, providers, and payers that use state-of-the-art tools to improve diagnosis and treatment and help reduce disparities in care.
@@ -57,7 +57,7 @@ export default function Footer() {
           {/* Column 4: Kardia Products */}
           <div className="flex flex-col items-start">
             <Link href="#" className="flex items-center mb-6">
-              <img src="/alivecor/images/kardia-footer.png" alt="Kardia Logo" className="w-40" />
+              <img src="/alivecor/images/kardia-footer.webp" alt="Kardia Logo" className="w-40" />
             </Link>
             <ul className="flex flex-col gap-6 font-sans text-[16px] font-medium text-[#666666]">
               <li><Link href="#" className="hover:text-[#004B87]">KardiaMobile Card</Link></li>

@@ -25,7 +25,7 @@ export default function Navbar() {
                 <div className="flex h-20 items-center justify-between">
                     <div className="flex-shrink-0">
                         <Link href="/" className="flex items-center">
-                            <img src={`/kap-medical/images/logo.png`} alt="logo" className="h-10 md:h-12" />
+                            <img src={`/kap-medical/images/logo.webp`} alt="logo" className="h-10 md:h-12" />
                         </Link>
                     </div>
 

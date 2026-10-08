@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Logo */}
           <div data-aos="fade-up" className="cursor-pointer">
             <Image
-              src="/dimeda/logo.png" // put your logo here
+              src="/dimeda/logo.webp" // put your logo here
               alt="Dimeda Logo"
               width={160}
               height={80}

@@ -33,7 +33,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="flex justify-center items-center space-x-3 mb-12 lg:mb-16" data-aos="fade-up">
           <img 
-            src="/moto/lucas-oil/setting.png" 
+            src="/moto/lucas-oil/setting.webp" 
             alt="Setting icon" 
             className="w-5 h-5 md:w-6 md:h-6 object-contain"
           />
@@ -50,7 +50,7 @@ export default function Testimonials() {
               {/* Content */}
               <div>
                 <img 
-                  src="/moto/lucas-oil/valve.png" 
+                  src="/moto/lucas-oil/valve.webp" 
                   alt="Engine" 
                   className="w-8 h-8 mb-4 object-contain opacity-80" 
                 

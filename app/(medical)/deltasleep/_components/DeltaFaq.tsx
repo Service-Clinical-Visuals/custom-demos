@@ -72,7 +72,7 @@ export default function DeltaFaq() {
             {/* Image */}
             <div className="relative mt-5 rounded-[20px] overflow-hidden flex-1 min-h-[200px]">
               <img
-                src="/delta/delta-faq.png"
+                src="/delta/delta-faq.webp"
                 alt="FAQ"
                 className="absolute inset-0 w-full h-full object-cover"
               />

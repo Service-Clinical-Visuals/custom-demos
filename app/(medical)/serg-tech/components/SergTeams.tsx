@@ -11,22 +11,22 @@ export default function SergTeams() {
     {
       name: "Dr Samuel Wilson",
       role: "CEO",
-      image: "/sergtech/serg-teams-1.png",
+      image: "/sergtech/serg-teams-1.webp",
     },
     {
       name: "Diana Darko",
       role: "COO",
-      image: "/sergtech/serg-teams-2.png",
+      image: "/sergtech/serg-teams-2.webp",
     },
     {
       name: "Ewan Phillips",
       role: "CFO",
-      image: "/sergtech/serg-teams-3.png",
+      image: "/sergtech/serg-teams-3.webp",
     },
     {
       name: "Dr Christos Kapatos",
       role: "CBO",
-      image: "/sergtech/serg-teams-4.png",
+      image: "/sergtech/serg-teams-4.webp",
     },
   ];
 

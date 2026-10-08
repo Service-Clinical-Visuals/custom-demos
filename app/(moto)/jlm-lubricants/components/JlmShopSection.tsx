@@ -24,19 +24,19 @@ export default function JlmShopSection() {
       images : [
         {
           title: "Transmission",
-          img: "/jlm/jlm-oils-1.png"
+          img: "/jlm/jlm-oils-1.webp"
         },
         {
           title: "Pistons",
-          img: "/jlm/jlm-oils-2.png"
+          img: "/jlm/jlm-oils-2.webp"
         },
         {
           title: "Oil Systems", 
-          img: "/jlm/jlm-oils-3.png" 
+          img: "/jlm/jlm-oils-3.webp" 
         },
         {
           title: "Hydraulic Valve Lifter",
-          img: "/jlm/jlm-oils-4.png" 
+          img: "/jlm/jlm-oils-4.webp" 
         }
       ] 
     },
@@ -45,23 +45,23 @@ export default function JlmShopSection() {
       images : [
         {
           title: "AdBlue Systemd",
-          img: "/jlm/jlm-diesel-1.png"
+          img: "/jlm/jlm-diesel-1.webp"
         },
         {
           title: "SCR Catalyst",
-          img: "/jlm/jlm-diesel-2.png"
+          img: "/jlm/jlm-diesel-2.webp"
         },
         {
           title: "Injector-Diesel",
-          img: "/jlm/jlm-diesel-3.png" 
+          img: "/jlm/jlm-diesel-3.webp" 
         },
         {
           title: "DPF",
-          img: "/jlm/jlm-diesel-4.png"  
+          img: "/jlm/jlm-diesel-4.webp"  
         },
         {
           title: "EGR Valve-Diesel ",
-          img: "/jlm/jlm-diesel-5.png"  
+          img: "/jlm/jlm-diesel-5.webp"  
         }
       ]
     },
@@ -70,23 +70,23 @@ export default function JlmShopSection() {
       images : [
         {
           title: "EGR Valve-Petrol",
-          img: "/jlm/jlm-petrol-1.png"
+          img: "/jlm/jlm-petrol-1.webp"
         },
         {
           title: "Injector-Petrol",
-          img: "/jlm/jlm-petrol-2.png"
+          img: "/jlm/jlm-petrol-2.webp"
         },
         {
           title: "GPF ",
-          img: "/jlm/jlm-petrol-3.png" 
+          img: "/jlm/jlm-petrol-3.webp" 
         },
         {
           title: "Fuel system-Petrol",
-          img: "/jlm/jlm-petrol-4.png"  
+          img: "/jlm/jlm-petrol-4.webp"  
         },
         {
           title: "Combustion chamber-Petrol",
-          img: "/jlm/jlm-petrol-5.png"
+          img: "/jlm/jlm-petrol-5.webp"
         } 
       ]
     },
@@ -95,7 +95,7 @@ export default function JlmShopSection() {
       images: [
         {
           title: "EGR Valve-Petrol",
-          img: "/jlm/jlm-autogas.png"
+          img: "/jlm/jlm-autogas.webp"
         }
       ]
     },
@@ -104,23 +104,23 @@ export default function JlmShopSection() {
       images: [
         {
           title: "Locks and hinges",
-          img: "/jlm/jlm-service-1.png"
+          img: "/jlm/jlm-service-1.webp"
         },
         {
           title: "Bicycle chain",
-          img: "/jlm/jlm-service-2.png"
+          img: "/jlm/jlm-service-2.webp"
         },
         {
           title: "Rusted bolts nuts,screws",
-          img: "/jlm/jlm-service-3.png"
+          img: "/jlm/jlm-service-3.webp"
         },
         {
           title: "Brakes",
-          img: "/jlm/jlm-service-4.png"
+          img: "/jlm/jlm-service-4.webp"
         },
         {
           title: "UnderBody",
-          img: "/jlm/jlm-service-5.png"
+          img: "/jlm/jlm-service-5.webp"
         } 
       ]
     },
@@ -129,15 +129,15 @@ export default function JlmShopSection() {
       images: [
         {
           title: "Radiator",
-          img: "/jlm/jlm-coolant-1.png"
+          img: "/jlm/jlm-coolant-1.webp"
         },
         {
           title: "Head Gasket",
-          img: "/jlm/jlm-coolant-2.png"
+          img: "/jlm/jlm-coolant-2.webp"
         },
         {
           title: "Cooling and heating system",
-          img: "/jlm/jlm-coolant-3.png"
+          img: "/jlm/jlm-coolant-3.webp"
         }
       ]
     },
@@ -146,15 +146,15 @@ export default function JlmShopSection() {
       images : [
         {
           title: "Air conditioning system",
-          img: "/jlm/jlm-car-1.png"
+          img: "/jlm/jlm-car-1.webp"
         },
         {
           title: "Evaporator",
-          img: "/jlm/jlm-car-2.png"
+          img: "/jlm/jlm-car-2.webp"
         },
         {
           title: "Vehicle interior",
-          img: "/jlm/jlm-car-3.png"
+          img: "/jlm/jlm-car-3.webp"
         }
       ]
     }
@@ -178,7 +178,7 @@ export default function JlmShopSection() {
         "
         style={{
           backgroundImage:
-            "url('/jlm/jlm-shop-bg.png')",
+            "url('/jlm/jlm-shop-bg.webp')",
         }}
       />
 

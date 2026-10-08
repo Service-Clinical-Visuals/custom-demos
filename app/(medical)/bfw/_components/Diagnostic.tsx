@@ -10,11 +10,11 @@ import Typography from "./Typography";
 import ArrowIcon from "./ArrowIcon";
 
 const solutions = [
-  { title: "Uniform Lighting Across The Surgeon’s Field of View", img: "/medical/bfw/a1.jpg", href: "#" },
-  { title: "You Deserve Cutting-Edge Technology", img: "/medical/bfw/a2.jpg", href: "#" },
-  { title: "Easy Maintenance, Cleaning & Disinfection", img: "/medical/bfw/a3.jpg", href: "#" },
-  { title: "Lower Cost of Ownership", img: "/medical/bfw/a4.jpg", href: "#" },
-  { title: "Make Long-Term Comfort a Priority", img: "/medical/bfw/a5.jpg", href: "#" },
+  { title: "Uniform Lighting Across The Surgeon’s Field of View", img: "/medical/bfw/a1.webp", href: "#" },
+  { title: "You Deserve Cutting-Edge Technology", img: "/medical/bfw/a2.webp", href: "#" },
+  { title: "Easy Maintenance, Cleaning & Disinfection", img: "/medical/bfw/a3.webp", href: "#" },
+  { title: "Lower Cost of Ownership", img: "/medical/bfw/a4.webp", href: "#" },
+  { title: "Make Long-Term Comfort a Priority", img: "/medical/bfw/a5.webp", href: "#" },
 ];
 
 // Swiper loop needs at least 2x slidesPerView slides, so the list is duplicated

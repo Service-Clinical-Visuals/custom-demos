@@ -28,7 +28,7 @@ export default function JlmAbout() {
           }}
         >
           <img
-            src="/jlm/jlm-about.png"
+            src="/jlm/jlm-about.webp"
             alt=""
             className="
               h-auto

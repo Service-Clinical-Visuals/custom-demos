@@ -47,7 +47,7 @@ export default function BeyondWhoWe() {
 
             {/* Replace this with your image */}
             <div className="w-full h-64 sm:h-80 lg:h-96 2xl:h-110 4xl:h-128 rounded-xl flex items-center justify-center">
-             <img src="/beyond-air/assets/beyond-lungfit.png" alt="Beyond Who We" className="w-full h-full object-contain" />
+             <img src="/beyond-air/assets/beyond-lungfit.webp" alt="Beyond Who We" className="w-full h-full object-contain" />
             </div>
 
           </div>

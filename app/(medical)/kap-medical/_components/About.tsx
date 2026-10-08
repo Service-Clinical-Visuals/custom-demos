@@ -46,7 +46,7 @@ export default function About() {
                             {/* Main Image - Relative on mobile, Absolute on Desktop */}
                             <div className="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 left-0 lg:-left-25 w-full lg:w-[115%] aspect-[1.2/1] rounded-lg overflow-hidden shadow-2xl z-10 duration-500">
                                 <img
-                                    src={`/kap-medical/images/abt-1.png`}
+                                    src={`/kap-medical/images/abt-1.webp`}
                                     alt="About KAP medical professionals"
                                     className="object-cover w-full h-full"
                                 />

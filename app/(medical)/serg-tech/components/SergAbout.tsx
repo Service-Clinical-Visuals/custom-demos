@@ -21,7 +21,7 @@ export default function SergAbout() {
             {/* Replace with real image later */}
 
             <Image
-              src="/sergtech/serg-about-1.jpg"
+              src="/sergtech/serg-about-1.webp"
               alt="meeting"
               fill
               className="object-cover"
@@ -98,7 +98,7 @@ export default function SergAbout() {
             {/* Replace with actual image later */}
 
             <Image
-              src="/sergtech/serg-about-2.jpg"
+              src="/sergtech/serg-about-2.webp"
               alt="team meeting"
               fill
               className="object-cover"

@@ -22,7 +22,7 @@ export default function Products() {
           {/* Header */}
           <div className="flex flex-col items-center justify-center mb-10">
             <div className="flex items-center gap-3 mb-6">
-              <img src="/moto/omni/bulletdot1.png" className="w-3.5 h-3.5 "/>
+              <img src="/moto/omni/bulletdot1.webp" className="w-3.5 h-3.5 "/>
               
               <h2 className="text-2xl md:text-[26px] xl:text-[30px] !font-normal !text-white uppercase tracking-tight leading-none font-heading">
                 OUR PRODUCT

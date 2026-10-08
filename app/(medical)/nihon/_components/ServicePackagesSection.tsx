@@ -12,7 +12,7 @@ export default function ServicePackagesSection() {
           {/* Left Image Section */}
           <div className="rounded-3xl overflow-hidden shadow-lg aspect-[1.4/1]" data-aos="fade-up">
             <img
-              src="/nihon/images/solution-1.png"
+              src="/nihon/images/solution-1.webp"
               alt="Tailor-Made Service Packages"
               className="w-full h-full object-cover"
             />

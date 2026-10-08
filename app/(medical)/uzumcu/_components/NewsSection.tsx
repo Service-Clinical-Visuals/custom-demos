@@ -3,22 +3,22 @@ export default function NewsSection() {
         {
             title: "Innovation in Operating Room Technology",
             description: "Discover how Uzumcu Medical is advancing surgical environments with modern operating tables",
-            img: "/images/home/news-1.png"
+            img: "/images/home/news-1.webp"
         },
         {
             title: "Improving Surgical Efficiency with Smart Medical Equipment",
             description: "Discover how innovative operating room solutions improve surgical efficiency, patient care, and safety.",
-            img: "/images/home/news-2.png"
+            img: "/images/home/news-2.webp"
         },
         {
             title: "The Future of Sterilization and Infection Control",
             description: "Explore modern sterilization technologies that ensure high hygiene standards and patient safety.",
-            img: "/images/home/news-3.png"
+            img: "/images/home/news-3.webp"
         },
         {
             title: "Designing Modern Hospitals for Better Healthcare",
             description: "See how advanced medical equipment and smart hospital design improve workflow and surgical outcomes.",
-            img: "/images/home/news-4.png"
+            img: "/images/home/news-4.webp"
         },
     ];
 

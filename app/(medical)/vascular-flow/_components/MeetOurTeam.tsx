@@ -6,22 +6,22 @@ const team = [
   {
     name: "CRAIG DUNLOP",
     role: "General Manager",
-    image: "/vascular-flow/team-1.png"
+    image: "/vascular-flow/team-1.webp"
   },
   {
     name: "GRAEME HOUSTON",
     role: "Non-executive Medical Director",
-    image: "/vascular-flow/team-2.png"
+    image: "/vascular-flow/team-2.webp"
   },
   {
     name: "ANGELA PATERSON",
     role: "Head of Quality Assurance & Regulatory affairs",
-    image: "/vascular-flow/team-3.png"
+    image: "/vascular-flow/team-3.webp"
   },
   {
     name: "LUCY PETERSEN",
     role: "QA & RA Manager",
-    image: "/vascular-flow/team-4.png"
+    image: "/vascular-flow/team-4.webp"
   }
 ];
 

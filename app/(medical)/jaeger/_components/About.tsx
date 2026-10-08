@@ -40,7 +40,7 @@ export default function About() {
           precision.
         </>
       ),
-      image: "/jaeger/about3.png",
+      image: "/jaeger/about3.webp",
       points: [
         "Global leader in respiratory diagnostic technology",
         "Backed by a globally established healthcare group",
@@ -58,7 +58,7 @@ export default function About() {
           people who live with respiratory disease.
         </>
       ),
-      image: "/jaeger/about4.png",
+      image: "/jaeger/about4.webp",
       points: [
         "Patients and caregivers are at the heart of everything we do.",
         "We support accurate diagnosis and treatment.",
@@ -78,7 +78,7 @@ export default function About() {
           {/* Big Image */}
           <div data-aos="fade-up" className="col-span-2">
             <img
-              src="/jaeger/building.png"
+              src="/jaeger/building.webp"
               alt="Building"
               width={600}
               height={350}
@@ -88,7 +88,7 @@ export default function About() {
 
           {/* baseall Image 1 */}
           <img
-            src="/jaeger/about1.png"
+            src="/jaeger/about1.webp"
             alt="Office"
             width={300}
             height={200}
@@ -97,7 +97,7 @@ export default function About() {
 
           {/* baseall Image 2 */}
           <img
-            src="/jaeger/about2.png"
+            src="/jaeger/about2.webp"
             alt="Lab"
             width={300}
             height={200}

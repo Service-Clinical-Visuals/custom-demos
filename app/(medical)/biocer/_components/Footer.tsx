@@ -34,7 +34,7 @@ export default function Footer() {
 
                     {/* Left: Brand & Social */}
                     <div className="flex flex-col gap-2 lg:w-[30%]">
-                        <img src={`/biocer/logo-white.png`} width={160} alt="BioCer Logo" />
+                        <img src={`/biocer/logo-white.webp`} width={160} alt="BioCer Logo" />
                         <p className="text-white/90 text-[16px] leading-relaxed max-w-[280px]">
                             Transforming beauty with expert care and personalized treatments.
                         </p>

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/emos-technology/images/logo.png",
+    icon: "/emos-technology/images/logo.webp",
   },
   title: "EMOS Technology | Precision Endoscopy & Medical Solutions",
   description: "German-engineered rigid and flexible endoscopes, accessories, and components for diverse clinical applications.",

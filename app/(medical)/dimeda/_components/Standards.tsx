@@ -17,17 +17,17 @@ export default function Standards() {
   };
   const items = [
     {
-      img: "/dimeda/star.png",
+      img: "/dimeda/star.webp",
       title: "Quality that builds trust",
       desc: "All DIMEDA products meet the basic requirements of EC Directive 93/42/EEC and are therefore marked with the CE mark.",
     },
     {
-      img: "/dimeda/manufacturing.png",
+      img: "/dimeda/manufacturing.webp",
       title: "Manufacturing with experience",
       desc: "All instruments and devices in our range are manufactured by trained and experienced specialists with skilled craftsmanship using state-of-the-art machines and equipment.",
     },
     {
-      img: "/dimeda/globe.png",
+      img: "/dimeda/globe.webp",
       title: "Reliable worldwide",
       desc: "Doctors around the world have been using our surgical instruments for decades. There is hardly a country where we are not represented.",
     },

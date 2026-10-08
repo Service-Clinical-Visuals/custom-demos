@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Utah Medical",
   description: "Utah Medical",
   icons: {
-    icon: "/utah-medical/assets/utah-favicon.png",
+    icon: "/utah-medical/assets/utah-favicon.webp",
   },
 };
 

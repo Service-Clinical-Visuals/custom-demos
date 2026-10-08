@@ -6,17 +6,17 @@ export default function ProductCategories() {
     {
       title: "Medical Suction Systems",
       desc: "Together with our customers in hospitals and the homecare sector, we have been developing medical suction systems for daily use on patients for over 130 years.",
-      img: "/atmosmed/assets/medical_atmos.png",
+      img: "/atmosmed/assets/medical_atmos.webp",
     },
     {
       title: "ENT",
       desc: "We develop our solutions based on the application and together with medical professionals. Intuitive operation, safety, infection control, and efficiency are top priorities.",
-      img: "/atmosmed/assets/ent_atmos.jpg",
+      img: "/atmosmed/assets/ent_atmos.webp",
     },
     {
       title: "Gynecology",
       desc: "More than 130 years of expertise in the development of medical technology devices, products, and solutions along with the worldwide service.",
-      img: "/atmosmed/assets/gynec_atmos.png",
+      img: "/atmosmed/assets/gynec_atmos.webp",
     },
   ];
 

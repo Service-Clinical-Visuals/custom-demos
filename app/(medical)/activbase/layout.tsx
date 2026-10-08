@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Activbase",
   description: "Expert and personalised physiotherapy care in Kochi.",
   icons: {
-    icon: "/activbase/logo.png",
+    icon: "/activbase/logo.webp",
   },
 };
 

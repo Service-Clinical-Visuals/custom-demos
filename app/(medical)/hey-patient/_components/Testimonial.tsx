@@ -16,28 +16,28 @@ export const Testimonial = () => {
             name: "Dr. Daniel Heller",
             role: "President of the Board",
             hospital: "Kantonsspital Baden AG",
-            image: "/images/home/testimonials-1.png",
+            image: "/images/home/testimonials-1.webp",
             content: "As a leading tertiary care hospital in Switzerland, we use the patient portal from heyPatient. In our new building, Agnes, we rely on their smart patient call system, which is redefining efficiency and the patient experience. This sets new standards in patient guidance and support.\n\nThe experts at heyPatient excel in high-level process automation and develop practical solutions in co-creation with hospital professionals. They are visionary, always open to feedback, and willing to go the extra mile. heyPatient is a reliable partner, and we look forward to continued collaboration and future innovations."
         },
         {
             name: "Adriano Mari",
             role: "CEO",
             hospital: "Swiss Medical Care Compass",
-            image: "/images/home/testimonials-2.png",
+            image: "/images/home/testimonials-2.webp",
             content: "The start of our collaboration with heyPatient was shaped through joint design workshops.\nFrom our digitalization initiative, a holistic target vision emerged for a modern digital patient experience, including a refreshed appearance, structured digital onboarding and seamless end to end processes.Today, we use a fully branded heyPatient app with dedicated functionalities as well as an integrated web registration, both enhanced with a Patient Concierge bot and tailored to our international patients.\n\nThe expertise of heyPatient in integrating third party systems is particularly valuable, supporting both internal automation and patient facing features. The collaboration is based on partnership, solution oriented thinking and continuously delivers new impulses for innovative offerings in the market."
         },
         {
             name: "René Künzli",
             role: "Head of Services",
             hospital: "Swiss Paraplegic Center",
-            image: "/images/home/testimonials-3.png",
+            image: "/images/home/testimonials-3.webp",
             content: "Enabling our patients to plan their stay online is a logical step in our digitalization strategy.\n\nheyPatient offers a convincing solution for this."
         },
         {
             name: "Dr. Justus von Grone",
             role: "Managing Director",
             hospital: "CSI-HSG, Universität St. Gallen",
-            image: "/images/home/testimonials-4.png",
+            image: "/images/home/testimonials-4.webp",
             content: "As part of the Partnership Catalyst Program, which we had the opportunity to implement together with the Swiss Agency for Development and Cooperation (SCD), we worked closely with heyPatient. The collaboration was enriching in every respect and marked by a high level of professionalism.\n\nWe were impressed by the precision and reliability with which the heyPatient team operated.\n\nCombined with their strong technical expertise and a clear understanding of economic feasibility, heyPatient made a significant contribution to the success of the program."
         }
     ];
@@ -50,7 +50,7 @@ export const Testimonial = () => {
                     {/* Background Motifs (Hexagons and Plus signs) */}
                     <div className="absolute inset-0 z-0">
                         {/* Hexagon Pattern Placeholder / Overlay */}
-                        <div className="absolute inset-0 bg-[url('/hey-patient/images/home/testimonials-bg.png')] bg-cover"></div>
+                        <div className="absolute inset-0 bg-[url('/hey-patient/images/home/testimonials-bg.webp')] bg-cover"></div>
                     </div>
 
                     <div className="container mx-auto px-4 sm:px-10 lg:px-20 relative z-10 w-full">

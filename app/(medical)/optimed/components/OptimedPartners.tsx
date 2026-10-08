@@ -21,7 +21,7 @@ export default function OptimedPartners() {
       {/* World Map Background */}
       <div className="absolute inset-0 opacity-[0.12]">
         <img
-          src="/optimed/optimed-partner-bg.png"
+          src="/optimed/optimed-partner-bg.webp"
           alt="world map"
           className="w-full h-full object-cover"
         />
@@ -40,7 +40,7 @@ export default function OptimedPartners() {
             className="relative rounded-[28px] overflow-hidden shadow-2xl h-[240px] sm:h-[360px] lg:h-[460px] xl:h-[560px]"
           >
             <img
-              src="/optimed/optimed-partner.png"
+              src="/optimed/optimed-partner.webp"
               alt="Partnership"
               className="w-full h-full object-cover"
             />

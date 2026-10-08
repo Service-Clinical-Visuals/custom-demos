@@ -38,49 +38,49 @@ export default function Products() {
   const medicalProducts: Product[] = [
     {
       id: 1,
-      image: "/medical/fisso-medical/products/product1.png",
+      image: "/medical/fisso-medical/products/product1.webp",
       title: "Medical Articulated Arms",
       badge: "OEM Components",
     },
     {
       id: 2,
-      image: "/medical/fisso-medical/products/product2.png",
+      image: "/medical/fisso-medical/products/product2.webp",
       title: "OEM Rail Clamps, Columns and Quick Release Holders",
       badge: "OEM Components",
     },
     {
       id: 3,
-      image: "/medical/fisso-medical/products/product3.png",
+      image: "/medical/fisso-medical/products/product3.webp",
       title: "FISSO Endoscope Holder",
       badge: "FISSO Medical Sets",
     },
     {
       id: 6,
-      image: "/medical/fisso-medical/products/product17.png",
+      image: "/medical/fisso-medical/products/product17.webp",
       title: "FISSO Instrument Holder",
       badge: "FISSO Medical Sets",
     },
     {
       id: 7,
-      image: "/medical/fisso-medical/products/product4.png",
+      image: "/medical/fisso-medical/products/product4.webp",
       title: "Arm Support and Body Support",
       badge: "FISSO Medical Sets",
     },
     {
       id: 8,
-      image: "/medical/fisso-medical/products/product13.png",
+      image: "/medical/fisso-medical/products/product13.webp",
       title: "FISSO Respiratory Circuit holder",
       badge: "FISSO Medical Sets",
     },
     {
       id: 4,
-      image: "/medical/fisso-medical/products/product5.png",
+      image: "/medical/fisso-medical/products/product5.webp",
       title: "Anaesthetic Tube holder",
       badge: "FISSO Medical Sets",
     },
     {
       id: 5,
-      image: "/medical/fisso-medical/products/product6.png",
+      image: "/medical/fisso-medical/products/product6.webp",
       title: "FISSO Pressure Transducer Plate Holder",
       badge: "FISSO Medical Sets",
     },
@@ -89,43 +89,43 @@ export default function Products() {
   const industrialProducts: Product[] = [
     {
       id: 101,
-      image: "/medical/fisso-medical/products/product7.png",
+      image: "/medical/fisso-medical/products/product7.webp",
       title: "Industrial Articulated Arms",
       badge: "OEM Components",
     },
     {
       id: 102,
-      image: "/medical/fisso-medical/products/product8.png",
+      image: "/medical/fisso-medical/products/product8.webp",
       title: "Industrial Bases and Clamps",
       badge: "OEM Components",
     },
     {
       id: 103,
-      image: "/medical/fisso-medical/products/product14.png",
+      image: "/medical/fisso-medical/products/product14.webp",
       title: "FISSO Dial Indicator Holders, Magnetic Bases & Stands",
       badge: "FISSO Industrial Sets",
     },
     {
       id: 104,
-      image: "/medical/fisso-medical/products/product9.png",
+      image: "/medical/fisso-medical/products/product9.webp",
       title: "Holders and Mounts for Machine Vision and Automation",
       badge: "FISSO Industrial Sets",
     },
     {
       id: 105,
-      image: "/medical/fisso-medical/products/product15.png",
+      image: "/medical/fisso-medical/products/product15.webp",
       title: "Photo Holders and Magic Arms for Photography and Film",
       badge: "FISSO Industrial Sets",
     },
     {
       id: 106,
-      image: "/medical/fisso-medical/products/product11.png",
+      image: "/medical/fisso-medical/products/product11.webp",
       title: "Industrial Holders",
       badge: "FISSO Industrial Sets",
     },
     {
       id: 107,
-      image: "/medical/fisso-medical/products/product12.png",
+      image: "/medical/fisso-medical/products/product12.webp",
       title: "Precision Run-Out Testing and Balancing for Industrial Applications",
       badge: "FISSO Industrial Sets",
     },
@@ -276,7 +276,7 @@ export default function Products() {
                       className="shrink-0 flex items-center justify-center hover:opacity-90 active:scale-95 transition-all duration-300 cursor-pointer w-9 h-9 sm:w-10 sm:h-10 2xl:w-11 2xl:h-11 bg-[#4E1E2D] rounded-full"
                     >
                       <img
-                        src="/medical/fisso-medical/Vector.png"
+                        src="/medical/fisso-medical/Vector.webp"
                         alt="View"
                         className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
                       />

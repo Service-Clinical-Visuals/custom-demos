@@ -8,14 +8,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const accessories = [
-  { label: "Ventilator Carrying Case", imageSrc: "/o-two/home/section-3-1.jpg" },
-  { label: "Resuscitation Mask", imageSrc: "/o-two/home/section-3-2.jpg" },
-  { label: "Ventilator Tubing Hose", imageSrc: "/o-two/home/section-3-3.png" },
-  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-4.jpg" },
-  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-5.jpg" },
-  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-6.png" },
-  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-7.jpg" },
-  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-8.jpg" },
+  { label: "Ventilator Carrying Case", imageSrc: "/o-two/home/section-3-1.webp" },
+  { label: "Resuscitation Mask", imageSrc: "/o-two/home/section-3-2.webp" },
+  { label: "Ventilator Tubing Hose", imageSrc: "/o-two/home/section-3-3.webp" },
+  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-4.webp" },
+  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-5.webp" },
+  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-6.webp" },
+  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-7.webp" },
+  { label: "Oxygen Supply Connector", imageSrc: "/o-two/home/section-3-8.webp" },
 ];
 
 export default function Flexibility() {

@@ -11,7 +11,7 @@ import { AosInit } from "./_components/AosInit";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/histologics/images/histologics-logo.png",
+    icon: "/histologics/images/histologics-logo.webp",
   },
   title: "Histologics",
   description: "Saving Lives Worldwide with Kylon Tissue-Based Devices",

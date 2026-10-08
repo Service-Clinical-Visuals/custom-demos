@@ -7,22 +7,22 @@ export default function Products() {
   const products = [
     {
       title: "ENT treatment units",
-      path: "/entermed/product-1.png",
+      path: "/entermed/product-1.webp",
       description: "Entermed ENT treatment units are hand built to the highest standards. Ergonomic, hygienic and digitally automated."
     },
     {
       title: "Endoscopes",
-      path: "/entermed/product-2.png",
+      path: "/entermed/product-2.webp",
       description: "Quality endoscopes with cristal clear optics. Seeing details throughout the entire field of view."
     },
     {
       title: "Headlights",
-      path: "/entermed/product-3.png",
+      path: "/entermed/product-3.webp",
       description: "Ergonomic headlights. For optimal lighting or enlargement of the research and treatment area."
     },
     {
       title: "Microscopes",
-      path: "/entermed/product-4.png",
+      path: "/entermed/product-4.webp",
       description: "The economical modern version for ENT practice and minor operations ."
     }
   ];

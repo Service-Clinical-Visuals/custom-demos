@@ -31,7 +31,7 @@ export default function SternNavbar() {
       <div className="max-w-380 mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <div>
-          <Image src="/stern-med/sternmed-logo.png" alt="SternMed Logo" width={190} height={120} />
+          <Image src="/stern-med/sternmed-logo.webp" alt="SternMed Logo" width={190} height={120} />
         </div>
 
         {/* Nav Links — desktop only */}

@@ -32,7 +32,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="w-40 cursor-pointer">
           <Image
-            src="/dimeda/logo.png"
+            src="/dimeda/logo.webp"
             alt="logo"
             width={130}
             height={40}

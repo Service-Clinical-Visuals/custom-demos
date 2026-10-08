@@ -12,7 +12,7 @@ export default function MedasAbout() {
           <div data-aos="fade-right" className="lg:col-span-6 w-full h-full">
             <div className="w-full h-[320px] md:h-[420px] lg:h-[460px] rounded-2xl overflow-hidden">
               <img
-                src="/medas-innovation/assets/medas-about.png"
+                src="/medas-innovation/assets/medas-about.webp"
                 alt="about"
                 className="w-full h-full object-cover"
               />

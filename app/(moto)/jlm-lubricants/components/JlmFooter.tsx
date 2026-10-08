@@ -41,7 +41,7 @@ export default function JlmFooter() {
             className="flex-1"
           >
             <img
-              src="/jlm/jlm-icon.png"
+              src="/jlm/jlm-icon.webp"
               alt="JLM"
               className="w-[110px]"
             />

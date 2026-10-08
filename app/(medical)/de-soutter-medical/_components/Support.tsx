@@ -8,7 +8,7 @@ export default function Support() {
       {/* BACKGROUND IMAGE (15% opacity) */}
       <div className="absolute inset-0">
         <Image
-          src="/de-soutter-medical/bg-1.png" // 👉 your bg image
+          src="/de-soutter-medical/bg-1.webp" // 👉 your bg image
           alt="background"
           fill
           className="object-cover opacity-[0.15]"
@@ -44,7 +44,7 @@ export default function Support() {
           className="bg-[#FFFFFF] rounded-2xl shadow-md flex overflow-hidden  lg:col-span-7">
           <div className="w-1/3 relative">
             <Image
-              src="/de-soutter-medical/support-1.png"
+              src="/de-soutter-medical/support-1.webp"
               alt="customer service"
               fill
               className="object-cover"
@@ -74,7 +74,7 @@ export default function Support() {
             className="bg-[#FFFFFF] rounded-2xl shadow-md flex overflow-hidden lg:col-span-5">
             <div className="w-1/3 relative">
               <Image
-                src="/de-soutter-medical/support-3.png"
+                src="/de-soutter-medical/support-3.webp"
                 alt="portal"
                 fill
                 className="object-cover"
@@ -100,7 +100,7 @@ export default function Support() {
             className="bg-[#FFFFFF] rounded-2xl shadow-md flex overflow-hidden lg:col-span-7">
             <div className="w-1/3 relative">
               <Image
-                src="/de-soutter-medical/support-2.png"
+                src="/de-soutter-medical/support-2.webp"
                 alt="maintenance"
                 fill
                 className="object-cover"

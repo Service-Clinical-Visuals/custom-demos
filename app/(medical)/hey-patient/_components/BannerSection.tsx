@@ -10,7 +10,7 @@ export const BannerSection = () => {
                     {/* Background Image and Overlay */}
                     <div className="absolute inset-0 z-0">
                         <img
-                            src={`/hey-patient/images/home/banner-bg.png`}
+                            src={`/hey-patient/images/home/banner-bg.webp`}
                             alt="Background"
                             className="w-full h-full object-cover"
                         />
@@ -38,7 +38,7 @@ export const BannerSection = () => {
                             <div className="hidden lg:block lg:col-span-5 flex justify-center lg:justify-end self-end" data-aos="fade-left">
                                 <div className="relative w-full max-w-[380px] h-full flex items-end">
                                     <img
-                                        src={`/hey-patient/images/home/doctor.png`}
+                                        src={`/hey-patient/images/home/doctor.webp`}
                                         alt="Doctor"
                                         className="w-full h-auto object-contain z-10"
                                     />
@@ -69,7 +69,7 @@ export const AppDownloadSection = () => {
                             </p>
 
                             <div className="flex items-center gap-4 py-2">
-                                <img src={`/hey-patient/images/home/microsoft.png`} alt="Microsoft" className="lg:h-12 h-10 object-contain" />
+                                <img src={`/hey-patient/images/home/microsoft.webp`} alt="Microsoft" className="lg:h-12 h-10 object-contain" />
                             </div>
 
                             <p className="lg:text-[24px]! text-[18px]! text-[#1E293B] leading-relaxed text-justify lg:text-left">
@@ -79,8 +79,8 @@ export const AppDownloadSection = () => {
 
                         <div className="flex flex-col items-center md:items-center gap-8 pt-4" data-aos="fade-left">
                             <div className="flex flex-wrap justify-between md:justify-end gap-4">
-                                <img src={`/hey-patient/images/home/h-appstore.png`} alt="App Store" className="lg:h-70 h-40 object-contain cursor-pointer transition-opacity" />
-                                <img src={`/hey-patient/images/home/h-google-play.png`} alt="Google Play" className="lg:h-70 h-40 object-contain cursor-pointer transition-opacity" />
+                                <img src={`/hey-patient/images/home/h-appstore.webp`} alt="App Store" className="lg:h-70 h-40 object-contain cursor-pointer transition-opacity" />
+                                <img src={`/hey-patient/images/home/h-google-play.webp`} alt="Google Play" className="lg:h-70 h-40 object-contain cursor-pointer transition-opacity" />
                             </div>
                         </div>
                     </div>

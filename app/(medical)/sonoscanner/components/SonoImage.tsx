@@ -28,7 +28,7 @@ const features = [
 
 export default function SonoImage() {
   return (
-    <section className="relative overflow-hidden  bg-[url('/sono-scanner/Advanced_image.jpg')] bg-cover bg-no-repeat bg-center py-20">
+    <section className="relative overflow-hidden  bg-[url('/sono-scanner/Advanced_image.webp')] bg-cover bg-no-repeat bg-center py-20">
       {/* BACKGROUND LAYERS */}
       <div className="absolute inset-0 z-10 bg-black/40" >
         {/* GRID */}

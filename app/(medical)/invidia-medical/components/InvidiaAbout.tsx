@@ -148,7 +148,7 @@ export default function InvidiaAbout() {
             {/* SAMPLE IMAGE */}
             
             <Image
-              src="/invidia/invidia-about.jpg"
+              src="/invidia/invidia-about.webp"
               alt="Medical"
               fill
               className="object-cover"

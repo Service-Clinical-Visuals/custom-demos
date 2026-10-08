@@ -43,9 +43,9 @@ export default function Company() {
 
           {/* Right Image */}
           <div className="relative w-full aspect-[4/3] lg:aspect-[16/10] rounded-xl overflow-hidden order-2 shadow-xl" data-aos="fade-left">
-            {/* Using product1.jpg as a placeholder for the missing facility image */}
+            {/* Using product1.webp as a placeholder for the missing facility image */}
             <img
-              src="/german-gold/SECTION21.jpg"
+              src="/german-gold/SECTION21.webp"
               alt="German Gold Facility"
               className="absolute w-full h-full aspect-[4/3] lg:aspect-[16/10]  object-cover z-40"
             />
@@ -59,7 +59,7 @@ export default function Company() {
           {/* Card 1 */}
           <div className="bg-white shadow-md flex items-stretch min-h-[120px]" data-aos="fade-up">
             <div className="bg-[#c68906] w-[110px] sm:w-[130px] shrink-0 flex items-center justify-center">
-              <img src="/german-gold/section2.png" alt="Globe" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
+              <img src="/german-gold/section2.webp" alt="Globe" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
             </div>
             <div className="flex flex-col justify-center px-6 py-4">
               <span className="font-exo  font-semibold text-[#181715] text-[28px] lg:text-[40px] leading-none mb-1">30+</span>
@@ -70,7 +70,7 @@ export default function Company() {
           {/* Card 2 */}
           <div className="bg-white shadow-md flex items-stretch min-h-[120px]" data-aos="fade-up" data-aos-delay="100">
             <div className="bg-[#c68906] w-[110px] sm:w-[130px] shrink-0 flex items-center justify-center">
-              <img src="/german-gold/section21.png" alt="Categories" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
+              <img src="/german-gold/section21.webp" alt="Categories" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
             </div>
             <div className="flex flex-col justify-center px-6 py-4">
               <span className="font-exo font-semibold text-[#181715] text-[28px] lg:text-[40px] leading-none mb-1">50+</span>
@@ -81,7 +81,7 @@ export default function Company() {
           {/* Card 3 */}
           <div className="bg-white shadow-md flex items-stretch min-h-[120px]" data-aos="fade-up" data-aos-delay="200">
             <div className="bg-[#c68906] w-[110px] sm:w-[130px] shrink-0 flex items-center justify-center">
-              <img src="/german-gold/section23.png" alt="Standards" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
+              <img src="/german-gold/section23.webp" alt="Standards" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
             </div>
             <div className="flex flex-col justify-center px-6 py-4">
               <span className="font-exo font-semibold text-[#181715] text-[24px] lg:text-[40px] leading-none mb-1">German</span>
@@ -92,7 +92,7 @@ export default function Company() {
           {/* Card 4 */}
           <div className="bg-white shadow-md flex items-stretch min-h-[120px]" data-aos="fade-up" data-aos-delay="300">
             <div className="bg-[#c68906] w-[110px] sm:w-[130px] shrink-0 flex items-center justify-center">
-              <img src="/german-gold/section24.png" alt="Network" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
+              <img src="/german-gold/section24.webp" alt="Network" className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] object-contain" />
             </div>
             <div className="flex flex-col justify-center px-6 py-4">
               <span className="font-exo font-semibold text-[#181715] text-[24px] lg:text-[40px] leading-none mb-1">Global</span>

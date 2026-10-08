@@ -31,7 +31,7 @@ export default function Navbar() {
         {/* LOGO */}
         <div className="flex items-center gap-2">
           <Image
-            src="/clinisupplies/logo.png"
+            src="/clinisupplies/logo.webp"
             alt="Clinisupplies"
             width={180}
             height={180}

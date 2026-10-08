@@ -8,13 +8,13 @@ const cards = [
   {
     title: "Our Mission",
     text: "To provide high-performance surgical illumination and imaging solutions through continuous innovation, quality, and reliable customer support, helping healthcare professionals deliver effective surgical care.",
-    icon: "/medical/bfw/icon1.png",
+    icon: "/medical/bfw/icon1.webp",
     iconPosition: "left",
   },
   {
     title: "Our Vision",
     text: "To drive innovation in surgical lighting and imaging by combining advanced technology, proven expertise, and commitment to quality, supporting healthcare professionals worldwide.",
-    icon: "/medical/bfw/icon2.png",
+    icon: "/medical/bfw/icon2.webp",
     iconPosition: "right",
   },
 ] as const;
@@ -31,7 +31,7 @@ const AboutUs = () => {
         >
           <div className="absolute inset-y-0 left-0 w-[80%] lg:w-[82%] overflow-hidden rounded-br-[30px] md:rounded-br-[40px] lg:rounded-br-[50px] min-[2500px]:rounded-br-[70px] min-[3800px]:rounded-br-[100px]">
             <img
-              src="/medical/bfw/bg.png"
+              src="/medical/bfw/bg.webp"
               alt=""
               aria-hidden="true"
               className="absolute inset-0 w-full h-full object-cover"
@@ -41,7 +41,7 @@ const AboutUs = () => {
 
           <div className="relative w-full aspect-[4/5] sm:aspect-[4/3] md:aspect-[16/11] lg:aspect-[677/764] overflow-hidden rounded-tl-[30px] rounded-br-[30px] md:rounded-tl-[40px] md:rounded-br-[40px] lg:rounded-tl-[50px] lg:rounded-br-[50px] min-[2500px]:rounded-tl-[70px] min-[2500px]:rounded-br-[70px] min-[3800px]:rounded-tl-[100px] min-[3800px]:rounded-br-[100px] shadow-lg">
             <img
-              src="/medical/bfw/section2.png"
+              src="/medical/bfw/section2.webp"
               alt="Surgeon wearing a BFW surgical headlight"
               className="absolute inset-0 w-full h-full object-cover object-[center_35%]"
             />

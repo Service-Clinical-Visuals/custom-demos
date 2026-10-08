@@ -11,7 +11,7 @@ export default function InspirationFooter() {
           {/* LOGO + SUBSCRIBE */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
                 <img
-                  src="/inspiration-healthcare/assets/inspiration-footer.png"
+                  src="/inspiration-healthcare/assets/inspiration-footer.webp"
                   alt="Inspiration Healthcare Logo"
                   className="h-16 mb-6"
                 />

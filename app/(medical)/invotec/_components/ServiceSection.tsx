@@ -8,19 +8,19 @@ const services = [
     title: "Providers",
     description:
       "Invotec International has partnered with the ENT and Plastic Surgery Community for over two decades to provide medical devices and supplies in Jacksonville, Fl.",
-    image: "/invotec/assets/Providers.png",
+    image: "/invotec/assets/Providers.webp",
   },
   {
     title: "Patient Resources",
     description:
       "Learn more about Middle Ear Infections and the treatment options available to patients. To understand hearing loss, we must know some about the way we hear.",
-    image: "/invotec/assets/PatientResources.png",
+    image: "/invotec/assets/PatientResources.webp",
   },
   {
     title: "Cosmetic Surgery",
     description:
       "We offer many different types of medical instruments for your cosmetic surgery needs. The medical instruments we carry include but are not limited to brain and facelifts...",
-    image: "/invotec/assets/CosmeticSurgery.png",
+    image: "/invotec/assets/CosmeticSurgery.webp",
   },
 ];
 

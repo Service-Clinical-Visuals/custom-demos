@@ -11,7 +11,7 @@ export default function ProductShowcase() {
 
           <div className="flex items-center gap-3 mb-6" data-aos="fade-up">
             <img
-              src={`/noxbox/assets/gemini_logo_blue.png`}
+              src={`/noxbox/assets/gemini_logo_blue.webp`}
               alt="gemini logo"
               width={34}
               height={34}
@@ -125,7 +125,7 @@ export default function ProductShowcase() {
           "
           >
             <img
-              src={`/noxbox/assets/noxbox_left_product.png`}
+              src={`/noxbox/assets/noxbox_left_product.webp`}
               alt="product"
               className="object-contain"
             />
@@ -150,7 +150,7 @@ export default function ProductShowcase() {
           "
           >
             <img
-              src={`/noxbox/assets/noxbox_right_product.png`}
+              src={`/noxbox/assets/noxbox_right_product.webp`}
               alt="product"
               className="object-contain"
             />

@@ -15,7 +15,7 @@ export default function ActionCards() {
                     {/* <div className="absolute inset-0 bg-linear-to-t from-primary-dark/80 from-10% to-transparent z-10"></div> */}
                     {/* Simulated Background Image */}
                     <div className="absolute inset-0 bg-gray-300">
-                        <img src={`/gyn-health/home/contact-1.png`} alt="Emergency" className="w-full h-full object-cover" />
+                        <img src={`/gyn-health/home/contact-1.webp`} alt="Emergency" className="w-full h-full object-cover" />
                     </div>
 
                     <div className="relative z-20 mt-auto">
@@ -38,7 +38,7 @@ export default function ActionCards() {
                     <div className="absolute inset-0 bg-primary-dark/60 z-11 mix-blend-multiply"></div>
                     {/* Simulated Background Image */}
                     <div className="absolute inset-0 bg-gray-300">
-                        <img src={`/gyn-health/home/contact-2.png`} alt="Emergency" className="w-full h-full object-cover" />
+                        <img src={`/gyn-health/home/contact-2.webp`} alt="Emergency" className="w-full h-full object-cover" />
                     </div>
 
                     <div className="relative z-20">

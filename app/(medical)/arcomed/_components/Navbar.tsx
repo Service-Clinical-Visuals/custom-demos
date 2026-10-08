@@ -42,7 +42,7 @@ export default function Navbar() {
       <div className="custom-container flex items-center justify-between px-6 h-20">
         {/* Logo */}
         <img
-          src="/arcomed/logo.png"
+          src="/arcomed/logo.webp"
           alt="logo"
           className="object-contain h-[40px] lg:h-[50px]"
         />

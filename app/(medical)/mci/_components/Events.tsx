@@ -9,19 +9,19 @@ const Events = () => {
     const events = [
         {
             title: "Arab Health 2023(Dubai)",
-            path: "/mci/images/blog-1.png",
+            path: "/mci/images/blog-1.webp",
             date: "JAN 30 - FEB 2, 2023",
             location: "Dubai World Trade Centre"
         },
         {
             title: "AAOMS 2022(New Orleans)",
-            path: "/mci/images/blog-2.png",
+            path: "/mci/images/blog-2.webp",
             date: "SEP 12 - 17, 2022",
             location: "New Orleans, Louisiana"
         },
         {
             title: "FIME 2022(Miami Beach)",
-            path: "/mci/images/blog-3.png",
+            path: "/mci/images/blog-3.webp",
             date: "JULY 27-29, 2022",
             location: "Miami Beach Convention Center"
         }

@@ -74,7 +74,7 @@ export default function LatestNews() {
                 
                 {/* 🏷️ High-Fidelity Branded Watermark in bottom right */}
                 <div className="absolute bottom-3.5 right-3.5 text-white px-3.5 py-1 rounded-md text-[9px] font-black tracking-widest font-oxanium uppercase border border-white/10 flex items-center shadow-lg">
-                 <img src="/bm-catalysts/images/logo-small.png" alt="bm catalysts" className="w-16 h-auto" />
+                 <img src="/bm-catalysts/images/logo-small.webp" alt="bm catalysts" className="w-16 h-auto" />
                 </div>
               </div>
 

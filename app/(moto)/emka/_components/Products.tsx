@@ -10,25 +10,25 @@ export default function Products() {
       id: 1,
       title: "AUTOMOTIVE",
       desc: "High-performance lubricants for engines can significantly enhance their performance and longevity...",
-      image: "/moto/emka/product1.png"
+      image: "/moto/emka/product1.webp"
     },
     {
       id: 2,
       title: "BFL HEAVY DUTY",
       desc: "In forestry and agriculture, a wide variety of machines and equipment are used. Therefore, lubricants are required...",
-      image: "/moto/emka/product2.png"
+      image: "/moto/emka/product2.webp"
     },
     {
       id: 3,
       title: "INDUSTRY",
       desc: "The highest precision, great efficiency, and absolute reliability are the benchmarks in your production. Our high...",
-      image: "/moto/emka/product3.png"
+      image: "/moto/emka/product3.webp"
     },
     {
       id: 4,
       title: "BIKES & QUADS",
       desc: "Whether for the road or off-road, choosing a high-quality engine oil is essential to ensure the longevity of motorcycles...",
-      image: "/moto/emka/product4.png"
+      image: "/moto/emka/product4.webp"
     }
   ];
 

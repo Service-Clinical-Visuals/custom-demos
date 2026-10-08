@@ -5,22 +5,22 @@ export default function LatestNewsSection() {
         {
             id: 1,
             title: "Integra LifeSciences Announces Key Executive Leadership Appointments",
-            image: "diff-1.png",
+            image: "diff-1.webp",
         },
         {
             id: 2,
             title: "Purpose in Motion: Turning Integrity into Impact",
-            image: "diff-2.png",
+            image: "diff-2.webp",
         },
         {
             id: 3,
             title: "Restoring Lives Beyond the Operating Room",
-            image: "diff-3.png",
+            image: "diff-3.webp",
         },
         {
             id: 4,
             title: "Integra LifeSciences Receives FDA 510(k) Clearance",
-            image: "diff-4.png",
+            image: "diff-4.webp",
         }
     ];
 
@@ -28,7 +28,7 @@ export default function LatestNewsSection() {
         <section className="relative w-full bg-[#EAF8F1] py-16 md:py-24 px-4 md:px-8 overflow-hidden rounded-t-[2rem] md:rounded-t-[3rem]">
             {/* Decorative Asterisk */}
             <div className="absolute -top-20 right-10 opacity-60 z-0">
-                <img src={`/integra/home/star-l.png`} alt="Asterisk" className="w-45" />
+                <img src={`/integra/home/star-l.webp`} alt="Asterisk" className="w-45" />
             </div>
 
             <div className="max-w-[1440px] w-full mx-auto relative z-10 flex flex-col items-center">

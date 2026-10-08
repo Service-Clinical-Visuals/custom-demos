@@ -5,22 +5,22 @@ import { CornerUpRight } from "lucide-react";
 
 const features = [
   {
-    img: "/clinisupplies/innovation.png",
+    img: "/clinisupplies/innovation.webp",
     title: "Innovative",
     desc: "product design",
   },
   {
-    img: "/clinisupplies/destination.png",
+    img: "/clinisupplies/destination.webp",
     title: "Home delivery",
     desc: "you can trust",
   },
   {
-    img: "/clinisupplies/qualified.png",
+    img: "/clinisupplies/qualified.webp",
     title: "Experienced",
     desc: "support",
   },
   {
-    img: "/clinisupplies/medical-team.png",
+    img: "/clinisupplies/medical-team.webp",
     title: "Bladder and bowel",
     desc: "specialist nursing",
   },
@@ -34,7 +34,7 @@ export default function AboutUs() {
         <div data-aos="fade-left" className="w-full h-full">
           <div className="relative w-full h-full min-h-100 rounded-xl overflow-hidden">
             <Image
-              src="/clinisupplies/about.png"
+              src="/clinisupplies/about.webp"
               alt="About"
               fill
               className="object-cover"

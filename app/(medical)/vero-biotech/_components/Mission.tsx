@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function Mission() {
   return (
     <section className="py-16 lg:py-28 bg-[#122b34] relative overflow-hidden">
-      <div className="w-full h-full absolute top-0 left-0 right-0 bg-[url('/vero-biotech/home/bg.png')] bg-cover bg-center opacity-35" />
+      <div className="w-full h-full absolute top-0 left-0 right-0 bg-[url('/vero-biotech/home/bg.webp')] bg-cover bg-center opacity-35" />
       <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           <div data-aos="fade-right">
             <div className="relative w-full aspect-[16/10] rounded-2xl overflow-hidden shadow-2xl">
-              <img alt="GENOSYL Delivery System" className="object-cover w-full h-full" src="/vero-biotech/home/mission.png" />
+              <img alt="GENOSYL Delivery System" className="object-cover w-full h-full" src="/vero-biotech/home/mission.webp" />
             </div>
           </div>
 

@@ -11,7 +11,7 @@ export default function NotFound() {
       <section className="flex-grow flex items-center justify-center py-32 px-4 relative overflow-hidden">
         {/* Background Topographic lines */}
         <div
-          className="absolute inset-0 opacity-[0.1] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
+          className="absolute inset-0 opacity-[0.1] pointer-events-none bg-[url('/horizon/images/about-bg.webp')] bg-cover bg-center"
         />
 
         <div className="custom-container relative z-10 text-center">

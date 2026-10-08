@@ -19,7 +19,7 @@ export default function Header() {
       <div className="container mx-auto px-4 lg:px-6 h-20 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center gap-1 group cursor-pointer">
-          <img src="/dm-orthotics/logo.png" className="w-[120px] md:w-[150px]" alt="Logo" />
+          <img src="/dm-orthotics/logo.webp" className="w-[120px] md:w-[150px]" alt="Logo" />
         </div>
 
         {/* Desktop Navigation */}
@@ -54,7 +54,7 @@ export default function Header() {
 
           {/* Language Selector - hidden on small mobile */}
           <div className="hidden sm:flex items-center gap-2 border border-border px-2 py-2 bg-gray-100  rounded-sm hover:border-primary transition-colors cursor-pointer ml-1">
-            <img src="/dm-orthotics/home/uk.png" className="w-[20px]" alt="UK" />
+            <img src="/dm-orthotics/home/uk.webp" className="w-[20px]" alt="UK" />
             <span className="text-[12px] font-medium text-dark uppercase tracking-tight">English</span>
             <ChevronDown size={14} className="text-muted" />
           </div>
@@ -87,7 +87,7 @@ export default function Header() {
               <Search size={20} /> Search
             </button>
             <div className="flex items-center justify-center gap-2 bg-gray-50 p-4 rounded-xl font-bold text-sm">
-              <img src="/dm-orthotics/home/uk.png" className="w-[20px]" alt="UK" /> EN
+              <img src="/dm-orthotics/home/uk.webp" className="w-[20px]" alt="UK" /> EN
             </div>
           </div>
         </div>

@@ -10,14 +10,14 @@ import "swiper/css/pagination";
 export default function ProductRange() {
 
   const products = [
-    { name: "Cineos®", image: "/medical/x-nov/product-1.png" },
-    { name: "Naos®", image: "/medical/x-nov/product-2.png" },
-    { name: "P130®", image: "/medical/x-nov/product-3.png" },
-    { name: "Xcup®", image: "/medical/x-nov/product-4.png" },
-    { name: "novium®", image: "/medical/x-nov/product-5.png" },
-    { name: "MERCURY®", image: "/medical/x-nov/product-6.png" },
-    { name: "MERCURY® PRESS-FIT", image: "/medical/x-nov/product-7.png" },
-    { name: "mobility®", image: "/medical/x-nov/product-8.png" },
+    { name: "Cineos®", image: "/medical/x-nov/product-1.webp" },
+    { name: "Naos®", image: "/medical/x-nov/product-2.webp" },
+    { name: "P130®", image: "/medical/x-nov/product-3.webp" },
+    { name: "Xcup®", image: "/medical/x-nov/product-4.webp" },
+    { name: "novium®", image: "/medical/x-nov/product-5.webp" },
+    { name: "MERCURY®", image: "/medical/x-nov/product-6.webp" },
+    { name: "MERCURY® PRESS-FIT", image: "/medical/x-nov/product-7.webp" },
+    { name: "mobility®", image: "/medical/x-nov/product-8.webp" },
   ];
 
   return (

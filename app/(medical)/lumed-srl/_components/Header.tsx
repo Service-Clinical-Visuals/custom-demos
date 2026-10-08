@@ -38,7 +38,7 @@ const Header = () => {
                 {/* Logo Section */}
                 <Link href="/lumed-srl" className="flex items-center gap-3">
                     <img
-                        src="/medical/lumed-srl/logolumed 1.png"
+                        src="/medical/lumed-srl/logolumed 1.webp"
                         alt="LUMED Logo"
                         className="h-11 w-auto object-contain"
                     />

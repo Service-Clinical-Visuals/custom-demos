@@ -40,7 +40,7 @@ export default function MedasServices() {
           <div data-aos="fade-left">
             <div className="w-full h-[260px] md:h-[340px] lg:h-[400px] rounded-xl overflow-hidden">
               <img
-                src="/medas-innovation/assets/medas-services.png"
+                src="/medas-innovation/assets/medas-services.webp"
                 alt="services"
                 className="w-full h-full object-cover"
               />

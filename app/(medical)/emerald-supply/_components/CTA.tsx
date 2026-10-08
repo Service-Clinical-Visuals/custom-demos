@@ -9,7 +9,7 @@ const CTA = () => {
       <div className="w-[95%] mx-auto bg-[#014D65] rounded-[2rem] p-8 md:p-12 text-center relative overflow-hidden">
         {/* Hexagonal Pattern Background */}
         <div className="absolute inset-0 opacity-10 pointer-events-none">
-          <div className="w-full h-full bg-[url('/emerald/images/bg-frame.jpg')] opacity-40 bg-cover bg-center"></div>
+          <div className="w-full h-full bg-[url('/emerald/images/bg-frame.webp')] opacity-40 bg-cover bg-center"></div>
         </div>
 
         <div className="relative z-10 space-y-3">

@@ -35,7 +35,7 @@ export default function VapoNavbar() {
         {/* Top Bar */}
         <div className="text-white text-sm px-4 md:px-6 lg:px-8 xl:px-4 xxl:px-0 py-3 flex justify-between items-center">
           <span className="flex gap-2 items-center text-sm font-medium">
-            <img src="/vapotherm/assets/vapothermphone.png" alt="" width={15} height={15}/> 1.844.381.8276
+            <img src="/vapotherm/assets/vapothermphone.webp" alt="" width={15} height={15}/> 1.844.381.8276
           </span>
           <div className="hidden sm:flex items-center gap-4">
             <span className="underline cursor-pointer text-sm font-medium">COVID-19</span>
@@ -51,7 +51,7 @@ export default function VapoNavbar() {
         <div className="custom-container py-4 flex items-center justify-between">
           {/* Logo */}
           <Image
-            src="/vapotherm/assets/vapotherm-logo.png"
+            src="/vapotherm/assets/vapotherm-logo.webp"
             alt="Vapotherm Logo"
             width={200}
             height={60}
@@ -62,7 +62,7 @@ export default function VapoNavbar() {
           <div className="hidden lg:flex gap-6 xl:gap-8 text-gray-700 text-sm xl:text-base font-medium">
             {navItems.map((item) => (
               <span key={item} className="flex items-center gap-1 cursor-pointer hover:text-[#0C66AF] transition-colors whitespace-nowrap">
-                {item} <img src="/vapotherm/assets/plus.png" alt="" width={20} height={20}/>
+                {item} <img src="/vapotherm/assets/plus.webp" alt="" width={20} height={20}/>
               </span>
             ))}
           </div>
@@ -99,7 +99,7 @@ export default function VapoNavbar() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item}
-                <img src="/vapotherm/assets/plus.png" alt="" width={20} height={20}/>
+                <img src="/vapotherm/assets/plus.webp" alt="" width={20} height={20}/>
               </button>
             ))}
           </div>

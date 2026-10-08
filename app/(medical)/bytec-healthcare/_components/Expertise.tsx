@@ -10,7 +10,7 @@ export default function Expertise() {
             </div>
             <div className="container">
                 <div className="flex justify-center mt-6" data-aos="zoom-in" data-aos-delay="200">
-                    <img src={`/bytec-healthcare/home/yoe.png`} alt="Built on 25 years of expertise." />
+                    <img src={`/bytec-healthcare/home/yoe.webp`} alt="Built on 25 years of expertise." />
                 </div>
             </div>
         </section>

@@ -38,7 +38,7 @@ export default function Customers() {
                 {customerGroups.map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <img 
-                      src="/moto/german-adler/customer_setting.png" 
+                      src="/moto/german-adler/customer_setting.webp" 
                       alt="bullet icon" 
                       className="w-[25px] h-[25px] object-contain" 
                     />
@@ -60,7 +60,7 @@ export default function Customers() {
             data-aos-delay="100"
           >
             <img 
-              src="/moto/german-adler/customer3.png" 
+              src="/moto/german-adler/customer3.webp" 
               alt="Grey Oil Bottles" 
               className="w-full h-full object-cover" 
             />
@@ -73,7 +73,7 @@ export default function Customers() {
             data-aos-delay="200"
           >
             <img 
-              src="/moto/german-adler/customer4.png" 
+              src="/moto/german-adler/customer4.webp" 
               alt="Yellow Oil Barrels" 
               className="w-full h-full object-cover" 
             />

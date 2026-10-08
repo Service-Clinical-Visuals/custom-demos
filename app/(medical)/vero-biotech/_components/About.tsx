@@ -17,7 +17,7 @@ export default function About() {
             <div className="absolute left-0 right-4 sm:right-6 top-0 bottom-0 bg-[#0E2630] rounded-3xl -z-10 w-[85%] h-[85%] rounded-tl-none" />
             {/* Image shifted right */}
             <div className="relative z-10 aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/vero-biotech/home/about.png" alt="GENOSYL Delivery System" className="object-cover w-full h-full" />
+              <img src="/vero-biotech/home/about.webp" alt="GENOSYL Delivery System" className="object-cover w-full h-full" />
             </div>
           </div>
 

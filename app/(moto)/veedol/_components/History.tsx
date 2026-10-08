@@ -9,7 +9,7 @@ const slides = [
     title: "First Airship",
     body:
       'It was also the lubricant of choice for the first airship to circumnavigate the globe, the Graf Zeppelin, as well as the first flight across the Pacific Ocean, in 1931 in a plane named "Miss Veedol".',
-    image: "/moto/veedol-moto/Group3.png",
+    image: "/moto/veedol-moto/Group3.webp",
     alt: "Graf Zeppelin and Miss Veedol plane",
   },
   {
@@ -17,7 +17,7 @@ const slides = [
     title: "Achieves a Record",
     body:
       "A Mercedes-Benz CIII-III wins nine world records in the diesel engine category, using Veedol motor oil and achieves a record speed over 325 kph in 1978.",
-    image: "/moto/veedol-moto/Group2.png",
+    image: "/moto/veedol-moto/Group2.webp",
     alt: "Mercedes-Benz CIII-III record car",
   },
   {
@@ -25,7 +25,7 @@ const slides = [
     title: "Veedol Synthetic Oils",
     body:
       "Veedol synthetic oils are used for the flight of the Space Shuttle Columbia, USA in 1979.",
-    image: "/moto/veedol-moto/Group1.png",
+    image: "/moto/veedol-moto/Group1.webp",
     alt: "Space Shuttle Columbia",
   },
 ];

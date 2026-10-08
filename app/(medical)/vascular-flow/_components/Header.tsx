@@ -44,7 +44,7 @@ export default function Header() {
             <div className="flex-shrink-0">
               <Link href="#" className="inline-block select-none">
                 <div className="rounded-sm inline-flex items-center font-sans">
-                  <img src="/vascular-flow/vascular-logo.png" alt="" className="lg:h-16 h-12" />
+                  <img src="/vascular-flow/vascular-logo.webp" alt="" className="lg:h-16 h-12" />
                 </div>
               </Link>
             </div>

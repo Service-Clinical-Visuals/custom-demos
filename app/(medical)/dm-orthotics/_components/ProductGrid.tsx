@@ -4,15 +4,15 @@ import Image from "next/image";
 const products = [
   {
     title: "Products By Body Area",
-    image: "/dm-orthotics/home/product-1.png",
+    image: "/dm-orthotics/home/product-1.webp",
   },
   {
     title: "Patients Clinics",
-    image: "/dm-orthotics/home/product-2.jpg",
+    image: "/dm-orthotics/home/product-2.webp",
   },
   {
     title: "Products By Conditions",
-    image: "/dm-orthotics/home/product-3.jpg",
+    image: "/dm-orthotics/home/product-3.webp",
   }
 ];
 

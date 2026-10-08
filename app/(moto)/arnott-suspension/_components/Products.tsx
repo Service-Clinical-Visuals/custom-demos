@@ -8,26 +8,26 @@ const categories = [
     {
         id: 1,
         title: "Air Struts & Shocks",
-        path: "/arnott/images/product-1.png",
+        path: "/arnott/images/product-1.webp",
         description: "Arnott Air Struts and Shocks deliver superior performance, comfort, and reliability, engineered in the USA and trusted worldwide.",
     },
     {
         id: 2,
         title: "Air Springs",
-        path: "/arnott/images/product-2.png",
+        path: "/arnott/images/product-2.webp",
         description: "Arnott Air Springs deliver a smooth, tunable ride with durable, high-performance designs engineered for load capacity, comfort, and reliability.",
     },
     {
         id: 3,
         title: "Air Helper Springs",
-        path: "/arnott/images/product-3.png",
+        path: "/arnott/images/product-3.webp",
         description: "Arnott air helper springs provide an adjustable solution for increased gross vehicle weight or axle load in LCVs and motorhomes.",
     }
 ];
 
 export default function Products() {
     return (
-        <section className="pt-24 pb-45 text-white relative overflow-hidden bg-[url('/arnott/images/dark-bg.png')]">
+        <section className="pt-24 pb-45 text-white relative overflow-hidden bg-[url('/arnott/images/dark-bg.webp')]">
 
             <div className="container mx-auto px-4 md:px-12 relative z-10">
                 {/* Header Row */}

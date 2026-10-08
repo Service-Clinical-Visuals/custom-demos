@@ -19,7 +19,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/tcp-logo.png",
+    icon: "/tcp-logo.webp",
   },
   title: "LUMED | Solutions in Cardiopulmonary Diagnostics",
   description: "Innovation, quality, and safety in cardiopulmonary diagnostics.",

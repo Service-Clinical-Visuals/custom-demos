@@ -102,7 +102,7 @@ export default function DeltaTech() {
               </h3>
               <div className="relative flex-1 flex items-end justify-center">
                 <img
-                  src="/delta/delta-tech-2.png"
+                  src="/delta/delta-tech-2.webp"
                   alt="NOTTE Device"
                   className="w-[80%] max-w-[500px] object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
                 />
@@ -140,7 +140,7 @@ export default function DeltaTech() {
         {/* Split Images Row */}
         <div className="mt-5 grid grid-cols-2 gap-5">
           <div data-aos="fade-up" className="relative overflow-hidden rounded-[18px] h-[280px]">
-            <img src="/delta/delta-tech-1.png" alt="Comfort Device" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/delta/delta-tech-1.webp" alt="Comfort Device" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
             <div className="absolute bottom-5 left-5">
               <p className="text-white text-[18px] font-medium">Engineered for comfort.</p>
@@ -151,7 +151,7 @@ export default function DeltaTech() {
             data-aos-delay="100"
             className="relative overflow-hidden rounded-[18px] h-[280px] bg-[#efefef] flex items-center justify-center"
           >
-            <img src="/delta/delta-tech-3.png" alt="Mask Device" className="w-[30%] object-top" />
+            <img src="/delta/delta-tech-3.webp" alt="Mask Device" className="w-[30%] object-top" />
             <div className="absolute inset-0 bg-linear-to-b from-white/10 to-transparent pointer-events-none" />
           </div>
         </div>

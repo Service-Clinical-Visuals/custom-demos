@@ -33,7 +33,7 @@ export default function About() {
 
             {/* Image Placeholder */}
             <div className="relative w-full rounded-[2rem] overflow-hidden bg-slate-100">
-              <img src="/kimal/images/about.png" alt="about-us" className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.03]" />
+              <img src="/kimal/images/about.webp" alt="about-us" className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.03]" />
             </div>
           </div>
 
@@ -56,7 +56,7 @@ export default function About() {
               {/* Feature 1 */}
               <div className="flex gap-4">
                 <div className="w-14 h-14 rounded-full bg-blue-50/70 border border-blue-100 flex items-center justify-center shrink-0">
-                  <img src="/kimal/images/support.png" alt="innovation" className="w-10 object-contain" />
+                  <img src="/kimal/images/support.webp" alt="innovation" className="w-10 object-contain" />
                 </div>
                 <div>
                   <h4 className="text-base lg:text-[20px] font-bold mb-1.5">Experience our innovation</h4>
@@ -67,7 +67,7 @@ export default function About() {
               {/* Feature 2 */}
               <div className="flex gap-4">
                 <div className="w-14 h-14 rounded-full bg-blue-50/70 border border-blue-100 flex items-center justify-center shrink-0">
-                  <img src="/kimal/images/service.png" alt="innovation" className="w-10 object-contain" />
+                  <img src="/kimal/images/service.webp" alt="innovation" className="w-10 object-contain" />
                 </div>
                 <div>
                   <h4 className="text-base lg:text-[20px] font-bold mb-1.5">Trusted support</h4>
@@ -78,7 +78,7 @@ export default function About() {
               {/* Feature 3 */}
               <div className="flex gap-4">
                 <div className="w-14 h-14 rounded-full bg-blue-50/70 border border-blue-100 flex items-center justify-center shrink-0">
-                  <img src="/kimal/images/exp.png" alt="innovation" className="w-10 object-contain" />
+                  <img src="/kimal/images/exp.webp" alt="innovation" className="w-10 object-contain" />
                 </div>
                 <div>
                   <h4 className="text-base lg:text-[20px] font-bold mb-1.5">Utilise our experience</h4>
@@ -89,7 +89,7 @@ export default function About() {
               {/* Feature 4 */}
               <div className="flex gap-4">
                 <div className="w-14 h-14 rounded-full bg-blue-50/70 border border-blue-100 flex items-center justify-center shrink-0">
-                  <img src="/kimal/images/excellence.png" alt="innovation" className="w-10 object-contain" />
+                  <img src="/kimal/images/excellence.webp" alt="innovation" className="w-10 object-contain" />
                 </div>
                 <div>
                   <h4 className="text-base lg:text-[20px] font-bold mb-1.5">Trust our commitment</h4>

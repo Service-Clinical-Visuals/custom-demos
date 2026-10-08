@@ -55,7 +55,7 @@ export default function BetterCare() {
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start space-x-4">
                   <img 
-                    src="/medical/tunning-element/chk.png" 
+                    src="/medical/tunning-element/chk.webp" 
                     alt="check"
                     className="object-contain w-6 h-6 shrink-0 mt-1"
                   />

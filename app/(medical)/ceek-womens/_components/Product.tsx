@@ -6,15 +6,15 @@ import Image from "next/image";
 const products = [
   {
     title: "Nella KIND (REUSABLE)",
-    image: "/ceek/product1.png",
+    image: "/ceek/product1.webp",
   },
   {
     title: "Nella KIND (SINGLE-USE)",
-    image: "/ceek/product2.png",
+    image: "/ceek/product2.webp",
   },
   {
     title: "Nella NEXT (SINGLE-USE)",
-    image: "/ceek/product3.png",
+    image: "/ceek/product3.webp",
   },
 ];
 

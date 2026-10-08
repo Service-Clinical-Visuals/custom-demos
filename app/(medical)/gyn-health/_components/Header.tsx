@@ -50,7 +50,7 @@ export default function Header() {
             <div className={`site-container max-[1600px]:max-w-full! transition-all duration-300 ${isSticky ? 'py-2' : 'py-3'}`}>
                 <div className="flex justify-between items-center gap-6">
                     <div className="flex flex-col items-center justify-center shrink-0">
-                        <img src={`/gyn-health/logo.png`} alt="Logo" width={`215px`} className='p-3 bg-[rgba(244,255,244,0.5)] min-[1450px]:w-[215px] w-[180px]' />
+                        <img src={`/gyn-health/logo.webp`} alt="Logo" width={`215px`} className='p-3 bg-[rgba(244,255,244,0.5)] min-[1450px]:w-[215px] w-[180px]' />
                     </div>
 
                     <div className="flex flex-col flex-1 items-end sm:items-center mt-2">
@@ -78,7 +78,7 @@ export default function Header() {
 
                     <div className="hidden xl:flex flex-col items-start min-[1400px]:min-w-[120px]">
                         <p className="text-gray-500 text-[11px] font-bold leading-[1.8]">Also Visit</p>
-                        <img src={`/gyn-health/logo-2.png`} alt="Logo" className='min-[1320px]:w-[110px] w-[80px]' />
+                        <img src={`/gyn-health/logo-2.webp`} alt="Logo" className='min-[1320px]:w-[110px] w-[80px]' />
                     </div>
 
                     {/* Mobile Menu Toggle */}
@@ -126,7 +126,7 @@ export default function Header() {
 
                         <div className="pt-6 border-t border-gray-100 flex flex-col gap-2">
                             <p className="text-gray-500 text-[11px] font-bold">Also Visit</p>
-                            <img src={`/gyn-health/logo-2.png`} alt="Logo" className='min-[1320px]:w-[110px] w-[80px]' />
+                            <img src={`/gyn-health/logo-2.webp`} alt="Logo" className='min-[1320px]:w-[110px] w-[80px]' />
                         </div>
                     </div>
                 </div>

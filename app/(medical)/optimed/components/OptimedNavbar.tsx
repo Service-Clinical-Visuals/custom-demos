@@ -46,7 +46,7 @@ export default function OptimedNavbar() {
           {/* Logo */}
           <div className="flex items-center shrink-0">
             <img
-              src="/optimed/optimed-logo.png"
+              src="/optimed/optimed-logo.webp"
               alt="OptiMed Logo"
               className="w-36 sm:w-44 lg:w-48 h-auto"
             />

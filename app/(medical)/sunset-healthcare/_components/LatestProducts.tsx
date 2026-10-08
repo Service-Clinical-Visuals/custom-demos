@@ -1,15 +1,15 @@
 export default function LatestProducts() {
   const products = [
-    { name: "PVC Disposable Laryngeal Masks", category: "Anesthesia, Laryngeal Masks", image: "/new-product-1.png" },
-    { name: "Flexible Silicone Reusable Laryngeal Mask", category: "Anesthesia, Laryngeal Masks", image: "/new-product-2.png" },
-    { name: "Silicone Reusable Laryngeal Mask", category: "Anesthesia, Laryngeal Masks", image: "/new-product-3.png" },
-    { name: "Silicone Disposable Laryngeal Mask", category: "Anesthesia, Laryngeal Masks", image: "/new-product-4.png" },
+    { name: "PVC Disposable Laryngeal Masks", category: "Anesthesia, Laryngeal Masks", image: "/new-product-1.webp" },
+    { name: "Flexible Silicone Reusable Laryngeal Mask", category: "Anesthesia, Laryngeal Masks", image: "/new-product-2.webp" },
+    { name: "Silicone Reusable Laryngeal Mask", category: "Anesthesia, Laryngeal Masks", image: "/new-product-3.webp" },
+    { name: "Silicone Disposable Laryngeal Mask", category: "Anesthesia, Laryngeal Masks", image: "/new-product-4.webp" },
   ];
 
   return (
     <section
       className="w-full py-16 md:py-24 text-white relative bg-cover bg-bottom"
-      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.jpg')" }}
+      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.webp')" }}
     >
       {/* Color overlay over the background image */}
       <div className="absolute inset-0 bg-[#54626d] opacity-97 z-0"></div>

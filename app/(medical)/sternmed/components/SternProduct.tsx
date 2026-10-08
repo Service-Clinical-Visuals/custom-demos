@@ -15,7 +15,7 @@ export default function SternProduct() {
       {/* BACKGROUND IMAGE */}
       <div
         className="absolute inset-0 bg-cover bg-bottom-right bg-no-repeat"
-        style={{ backgroundImage: "url('/stern-med/stern-bg.jpg')" }}
+        style={{ backgroundImage: "url('/stern-med/stern-bg.webp')" }}
       />
       <div className="absolute inset-0 bg-[#1E6FB6CF]" />
 

@@ -5,12 +5,12 @@ import Typography from "./Typography";
 import Container from "./Container";
 
 const partnersData = [
-  { name: "Mercedes-Benz", logo: "/moto/veedol-moto/product1.png" },
-  { name: "Volkswagen", logo: "/moto/veedol-moto/producy5.png" },
-  { name: "BMW", logo: "/moto/veedol-moto/product6.png" },
-  { name: "MAN", logo: "/moto/veedol-moto/product2.png" },
-  { name: "Volvo", logo: "/moto/veedol-moto/product4.png" },
-  { name: "Renault", logo: "/moto/veedol-moto/product7.png" },
+  { name: "Mercedes-Benz", logo: "/moto/veedol-moto/product1.webp" },
+  { name: "Volkswagen", logo: "/moto/veedol-moto/producy5.webp" },
+  { name: "BMW", logo: "/moto/veedol-moto/product6.webp" },
+  { name: "MAN", logo: "/moto/veedol-moto/product2.webp" },
+  { name: "Volvo", logo: "/moto/veedol-moto/product4.webp" },
+  { name: "Renault", logo: "/moto/veedol-moto/product7.webp" },
 ];
 
 export default function Partners() {

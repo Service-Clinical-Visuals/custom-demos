@@ -64,7 +64,7 @@ export default function Footer() {
           {/* Company Info Column (Leftmost) */}
           <div className="flex flex-col space-y-6 lg:pr-8">
             <Link href="/emka">
-              <img src="/moto/emka/logo 1 (1).png" alt="EMKA Logo" className="h-8 md:h-12 w-auto object-contain mb-2" />
+              <img src="/moto/emka/logo 1 (1).webp" alt="EMKA Logo" className="h-8 md:h-12 w-auto object-contain mb-2" />
             </Link>
 
             <Typography variant="body" color="white" className="font-exo text-sm leading-relaxed opacity-90 block">

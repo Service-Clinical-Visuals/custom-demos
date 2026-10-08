@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "SergTech | Home",
   description: "SergTech | Intelligent Digital Solutions for Parkinson’s Care",
   icons: {
-    icon: "/cathegenix/cathe-favicon.png",
+    icon: "/cathegenix/cathe-favicon.webp",
   },
 };
  

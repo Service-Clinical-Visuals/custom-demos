@@ -41,7 +41,7 @@ export default function Footer() {
                         {/* Logo Placeholder */}
                         <Link href="/optomic" className="flex items-center">
                             <div className="w-[250px] rounded-full flex items-center justify-center">
-                                <img src="/optomic/f-logo.png" alt="Optomic" className="w-full h-full object-cover" />
+                                <img src="/optomic/f-logo.webp" alt="Optomic" className="w-full h-full object-cover" />
                             </div>
                         </Link>
 
@@ -124,7 +124,7 @@ export default function Footer() {
                         </h4>
                         {/* World Map Placeholder */}
                         <div className="w-full aspect-[16/9] rounded-lg flex items-center justify-center overflow-hidden">
-                            <img src="/optomic/map.png" alt="World Map" className="w-full h-full object-cover" />
+                            <img src="/optomic/map.webp" alt="World Map" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ export default function About() {
                             {/* Image bounding box */}
                             <div className="relative z-10 w-[95%] aspect-[3/3] rounded-2xl overflow-hidden shadow-sm bg-gray-100">
                                 <img
-                                    src={`/histologics/images/abt-histologics.png`}
+                                    src={`/histologics/images/abt-histologics.webp`}
                                     alt="About Histologics"
                                     className="object-cover object-right"
                                 />

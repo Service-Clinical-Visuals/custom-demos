@@ -8,7 +8,7 @@ export default function BeyondFooter() {
     <footer className="relative bg-[#f5f7f9] pt-16 pb-6 overflow-hidden">
 
       {/* BACKGROUND IMAGE (you will replace) */}
-      <div className="absolute inset-0 opacity-4 bg-[url('/beyond-air/assets/beyond-bg.png')] bg-cover bg-center pointer-events-none" />
+      <div className="absolute inset-0 opacity-4 bg-[url('/beyond-air/assets/beyond-bg.webp')] bg-cover bg-center pointer-events-none" />
 
       <div className="relative custom-container mx-auto px-6 lg:px-6">
 
@@ -22,7 +22,7 @@ export default function BeyondFooter() {
             <div className="flex items-center gap-3">
         <div className="flex items-center gap-2">
           <Image
-            src="/beyond-air/assets/beyond-logo.png"
+            src="/beyond-air/assets/beyond-logo.webp"
             alt="logo"
             width={400}
             height={400}

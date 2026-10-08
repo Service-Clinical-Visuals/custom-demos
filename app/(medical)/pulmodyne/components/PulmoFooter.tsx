@@ -61,7 +61,7 @@ export default function PulmoFooter() {
         <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:justify-between">
           {/* LOGO */}
           <div data-aos="fade-up">
-            <img src="/pulmo/pulmo-logo.png" alt="Pulmo Logo" className="w-60" />
+            <img src="/pulmo/pulmo-logo.webp" alt="Pulmo Logo" className="w-60" />
           </div>
 
           {/* NEWSLETTER */}
@@ -115,7 +115,7 @@ export default function PulmoFooter() {
                 Proud Of
               </h3>
               <div className="mt-6 flex h-[130px] w-[110px] items-center justify-center rounded-[4px] border border-[#E4E4E4] bg-white shadow-[0_8px_18px_rgba(0,0,0,0.04)]">
-                <img src="/pulmo/pulmo-footer.jpg" alt="Proud Of" />
+                <img src="/pulmo/pulmo-footer.webp" alt="Proud Of" />
               </div>
             </div>
 

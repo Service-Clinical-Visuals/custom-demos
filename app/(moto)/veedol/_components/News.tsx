@@ -11,21 +11,21 @@ const newsItems = [
     date: "Monday, 18th August 2025",
     title:
       "Adrenalin Motorsport Team Mainhattan Wheels defends the lead with victory",
-    image: "/moto/veedol-moto/Rectangle 31.jpg",
+    image: "/moto/veedol-moto/Rectangle 31.webp",
     href: "#news",
   },
   {
     id: 2,
     date: "Friday, 25th July 2025",
     title: "Innovative milestone: VEEDOL launches high-performance",
-    image: "/moto/veedol-moto/Rectangle 32 (1).jpg",
+    image: "/moto/veedol-moto/Rectangle 32 (1).webp",
     href: "#news",
   },
   {
     id: 3,
     date: "Monday, 21st July 2025",
     title: "A Close Call",
-    image: "/moto/veedol-moto/Rectangle 33.jpg",
+    image: "/moto/veedol-moto/Rectangle 33.webp",
     href: "#news",
   },
 ];

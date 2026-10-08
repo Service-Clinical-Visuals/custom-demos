@@ -32,7 +32,7 @@ export default function AdvancedProtection() {
               
               {/* Heading */}
               <div className="flex items-center gap-3 mb-4">
-                <img src="/moto/omni/bulletdot.png" className="w-3.5 h-3.5 "/>
+                <img src="/moto/omni/bulletdot.webp" className="w-3.5 h-3.5 "/>
                 <h2 className="text-2xl md:text-[26px] xl:text-[30px] !font-normal text-[#333333] uppercase tracking-tight leading-none font-heading">
                   ADVANCED PROTECTION FOR EUROPEAN ENGINES
                 </h2>
@@ -55,7 +55,7 @@ export default function AdvancedProtection() {
                 {benefits.map((text, index) => (
                   <li key={index} className="flex items-start gap-3">
                    <img
-    src="/moto/omni/checkbox.png"
+    src="/moto/omni/checkbox.webp"
     className="checkbox-icon mt-0.5 shrink-0"
   />
                     {/* <span className="text-gray-500 text-[13px] md:text-[14px] leading-relaxed"> */}

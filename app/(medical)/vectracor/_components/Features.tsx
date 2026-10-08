@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 // components/VectraSection.tsx
 export default function VectraSection() {
   return (
-    <section className="relative w-full py-16 md:py-20 bg-[url('/vectracor/background_pattern.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center vectracor-root">
+    <section className="relative w-full py-16 md:py-20 bg-[url('/vectracor/background_pattern.webp')] bg-cover bg-center bg-no-repeat overflow-hidden flex items-center justify-center vectracor-root">
 
       {/* Pattern Layer */}
       <div className="absolute inset-0 bg-[#26487E]/90"></div>
@@ -41,27 +41,27 @@ export default function VectraSection() {
               {
                 title: "Smart",
                 desc: "Comes with our innovative CEB® technology",
-                icon: "/vectracor/idea.png"
+                icon: "/vectracor/idea.webp"
               },
               {
                 title: "Efficient",
                 desc: "Use just 5-electrodes to derive a 12 to 22-lead ECG",
-                icon: "/vectracor/efficiency.png"
+                icon: "/vectracor/efficiency.webp"
               },
               {
                 title: "Accurate",
                 desc: "Review our clinical validation",
-                icon: "/vectracor/accuracy.png"
+                icon: "/vectracor/accuracy.webp"
               },
               {
                 title: "Reliable",
                 desc: "3-year warranty included",
-                icon: "/vectracor/dependable.png"
+                icon: "/vectracor/dependable.webp"
               },
               {
                 title: "Regulatory Approval",
                 desc: "FDA Cleared and CE Marked",
-                icon: "/vectracor/quality.png"
+                icon: "/vectracor/quality.webp"
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 md:gap-5 items-center">

@@ -24,7 +24,7 @@ export default function FooterMedico() {
           <div className="mb-6">
                    <div className="flex items-center gap-2 md:-mt-12 cursor-pointer">
             <img
-             src="/medicoplast/assets/medico-logo.png"
+             src="/medicoplast/assets/medico-logo.webp"
              alt="Logo"
              className="w-56 md:w-96 h-auto"/>
         </div>

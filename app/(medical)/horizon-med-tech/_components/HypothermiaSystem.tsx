@@ -26,7 +26,7 @@ export default function HypothermiaSystem() {
               "Continuous cooling and warm (servo) modes"
             ].map((text, i) => (
               <li key={i} className="flex items-center gap-3">
-                <img src="/horizon/images/check-circle.png" alt="check" className="w-6 h-6" />
+                <img src="/horizon/images/check-circle.webp" alt="check" className="w-6 h-6" />
                 <span className="text-[#827E76] font-normal text-[16px] md:text-[17px]">{text}</span>
               </li>
             ))}
@@ -43,7 +43,7 @@ export default function HypothermiaSystem() {
         <div data-aos="fade-left">
           <div className="bg-[#F1F1F1] rounded-[40px] p-8 md:p-12 overflow-hidden">
             <img
-              src="/horizon/images/picterus-jaundice-pro.png"
+              src="/horizon/images/picterus-jaundice-pro.webp"
               alt="Brammi System"
               className="w-full h-auto object-contain"
             />

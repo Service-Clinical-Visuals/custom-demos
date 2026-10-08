@@ -10,14 +10,14 @@ const testimonials = [
     date: "February 9, 2026",
     content:
       "CatheGenix will be exhibiting at WHX Dubai 2026 held at the Dubai Exhibition Centre from February 9th to 12th, 2026. We cordially invite you to visit our booth N23 E79 for in-depth exchanges and further communication..",
-    image: "/medical/cathegenix/cathe-testimonial-1.png",
+    image: "/medical/cathegenix/cathe-testimonial-1.webp",
   },
   {
     title: "CatheGenix at FIME 2025: Showcasing Innovative Urological Solutions",
     date: "June 16, 2025",
     content:
       "FIME 2025—the Florida International Medical Expo—took place from June 11 to 13, 2025, at the Miami Beach Convention Center. The CatheGenix team brought a variety of products to this exhibition. As the largest medical trade event in the Americas, it drew over 16,000 professionals...",
-    image: "/medical/cathegenix/cathe-testimonial-2.png",
+    image: "/medical/cathegenix/cathe-testimonial-2.webp",
   },
   {
     title:
@@ -25,7 +25,7 @@ const testimonials = [
     date: "January 22, 2025",
     content:
       "In a bustling city, nestled among a network of renowned medical institutions, CatheGenix stands as a beacon of innovation and hope. Known for its advanced catheter solutions, it is not just a company focused on cutting-edge technology...",
-    image: "/medical/cathegenix/cathe-testimonial-3.jpg",
+    image: "/medical/cathegenix/cathe-testimonial-3.webp",
   },
   {
     title:
@@ -33,14 +33,14 @@ const testimonials = [
     date: "January 22, 2025",
     content:
       "Kidney stones are a common yet excruciating condition. During an acute attack, the pain can be described as knife-like, ranking at level eleven on the medical pain scale—a level that is nearly unbearable for most patients...",
-    image: "/medical/cathegenix/cathe-testimonial-4.jpg",
+    image: "/medical/cathegenix/cathe-testimonial-4.webp",
   },
   {
     title: "Join us at Arab Health 2025",
     date: "January 22, 2025",
     content:
       "CatheGenix will be present at Arab Health 2025 at the Dubai World Trade Center from Jan. 27 to Jan. 30, 2025. Our booth number is H8.A59. We look forward to seeing you there!",
-    image: "/medical/cathegenix/cathe-testimonial-5.png",
+    image: "/medical/cathegenix/cathe-testimonial-5.webp",
   },
 ];
 

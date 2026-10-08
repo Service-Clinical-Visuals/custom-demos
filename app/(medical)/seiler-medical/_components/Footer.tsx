@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
           <div className="flex items-center h-18">
                     <Image
-                      src="/seiler/logo.png"
+                      src="/seiler/logo.webp"
                       alt="Seiler Medical"
                       width={140}
                       height={40}

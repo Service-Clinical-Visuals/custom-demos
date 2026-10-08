@@ -28,7 +28,7 @@ export default function Button({
     <button onClick={onClick} className={baseClass}>
       <span className="ibm-plex-sans btn-text font-semibold">{children}</span>
       <img 
-        src="/medical/tunning-element/arrow-right.png" 
+        src="/medical/tunning-element/arrow-right.webp" 
         alt="rightarrow" 
         className={`w-5 h-5 ${isWhite ? 'brightness-0' : ''}`} // if we need a dark arrow for white bg later
       />

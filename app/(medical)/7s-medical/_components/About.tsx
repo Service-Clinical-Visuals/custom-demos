@@ -18,7 +18,7 @@ export default function About() {
           >
 
             <img
-              src="/7s-medical/about.png"
+              src="/7s-medical/about.webp"
               alt="7S Medical International AG Facility"
               className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
             />

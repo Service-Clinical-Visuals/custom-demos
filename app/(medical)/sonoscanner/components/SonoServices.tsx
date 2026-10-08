@@ -4,25 +4,25 @@ import { useState } from "react";
 
 const services = [
   {
-    icon: "/sono-scanner/sono-service-1.png",
+    icon: "/sono-scanner/sono-service-1.webp",
     title: "IMAGE QUALITY",
     description:
       "Sonoscanner ultrasound systems deliver exceptional Full HD image quality, providing clear and detailed visualization for enhanced diagnostic confidence. Advanced imaging supports accurate and reliable clinical decisions.",
   },
   {
-    icon: "/sono-scanner/sono-service-2.png",
+    icon: "/sono-scanner/sono-service-2.webp",
     title: "PORTABILITY",
     description:
       "Our ultrasound systems are designed for maximum mobility and convenience, making them easy to carry and ready to use whenever and wherever needed. Compact and lightweight for fast imaging access anywhere.",
   },
   {
-    icon: "/sono-scanner/sono-service-3.png",
+    icon: "/sono-scanner/sono-service-3.webp",
     title: "ERGONOMICS",
     description:
       "Designed with healthcare professionals in mind, Sonoscanner ultrasound systems offer an intuitive and user-friendly experience that simplifies everyday workflows. Ergonomic features enhance comfort, efficiency, and ease of use.",
   },
   {
-    icon: "/sono-scanner/sono-service-4.png",
+    icon: "/sono-scanner/sono-service-4.webp",
     title: "CUSTOMER SERVICE",
     description:
       "With a 96 % satisfaction rate, our Customer Service will accompany you and train you in the best way to use your Sonoscanner Ultrasound. We are committed to ensuring a smooth experience and long-term user confidence.",

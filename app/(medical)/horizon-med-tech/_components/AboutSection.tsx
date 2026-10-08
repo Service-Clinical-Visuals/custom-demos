@@ -12,7 +12,7 @@ export default function AboutSection() {
             <div className="rounded-3xl overflow-hidden shadow-sm relative group">
               <div className="bg-gray-100 aspect-[16/10] w-full flex items-center justify-center relative overflow-hidden">
                 <img
-                  src="/horizon/images/about.png"
+                  src="/horizon/images/about.webp"
                   alt="Horizon Team"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />

@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="container mx-auto h-20 flex items-center justify-between px-6 relative z-10">
         {/* LOGO */}
         <Image
-          src="/ceek/logo.png"
+          src="/ceek/logo.webp"
           alt="logo"
           width={120}
           height={50}

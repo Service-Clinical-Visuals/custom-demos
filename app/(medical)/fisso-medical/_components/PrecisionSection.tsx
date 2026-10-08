@@ -12,13 +12,13 @@ export default function PrecisionSection() {
       title: "Patient Positioning",
       body: "Patient positioning refers to the way patients are positioned and...",
       href: "#patient-positioning",
-      icon: "/medical/fisso-medical/specific1.png",
+      icon: "/medical/fisso-medical/specific1.webp",
     },
     {
       title: "Adaptable and Ergonomic Designs",
       body: "Fisso's positioning systems are user-friendly and...",
       href: "#ergonomic-designs",
-      icon: "/medical/fisso-medical/specific2.png",
+      icon: "/medical/fisso-medical/specific2.webp",
     },
   ];
 
@@ -27,13 +27,13 @@ export default function PrecisionSection() {
       title: "Fisso's Patient Positioning Solutions",
       body: "Fisso offers advanced patient positioning systems....",
       href: "#positioning-solutions",
-      icon: "/medical/fisso-medical/specific3.png",
+      icon: "/medical/fisso-medical/specific3.webp",
     },
     {
       title: "Commitment to Innovation",
       body: "Fisso continuously enhances its positioning systems with....",
       href: "#innovation-commitment",
-      icon: "/medical/fisso-medical/specific4.png",
+      icon: "/medical/fisso-medical/specific4.webp",
     },
   ];
 
@@ -51,7 +51,7 @@ export default function PrecisionSection() {
         >
           <div className="absolute inset-0 z-0">
             <img
-              src="/medical/fisso-medical/background2.png"
+              src="/medical/fisso-medical/background2.webp"
               alt=""
               className="w-full h-full object-cover"
             />

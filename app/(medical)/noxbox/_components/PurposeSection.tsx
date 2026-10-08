@@ -72,25 +72,25 @@ export default function PurposeSection() {
           >
 
             <Feature
-              img={`/noxbox/assets/compensation.png`}
+              img={`/noxbox/assets/compensation.webp`}
               title="Competitive Compensation"
               text="Linde offers competitive compensation packages that include base salary, bonuses, and discounts on company products and services."
             />
 
             <Feature
-              img={`/noxbox/assets/health.png`}
+              img={`/noxbox/assets/health.webp`}
               title="Purposeful Health & Wellbeing"
               text="Linde plc offers a comprehensive benefits package, including medical, dental, vision, life, and disability insurance."
             />
 
             <Feature
-              img={`/noxbox/assets/growth.png`}
+              img={`/noxbox/assets/growth.webp`}
               title="Opportunities for Growth"
               text="At Linde plc, employee development is prioritized with ample opportunities for domestic and international advancement."
             />
 
             <Feature
-              img={`/noxbox/assets/life-balance.png`}
+              img={`/noxbox/assets/life-balance.webp`}
               title="Work-Life Balance"
               text="Strong opportunities for career growth and advancement both locally and internationally."
             />
@@ -122,7 +122,7 @@ export default function PurposeSection() {
                 data-aos="fade-up"
               >
                 <img
-                  src={`/noxbox/assets/gemini_logo_blue.png`}
+                  src={`/noxbox/assets/gemini_logo_blue.webp`}
                   width={32}
                   height={32}
                   alt="logo"
@@ -148,7 +148,7 @@ export default function PurposeSection() {
             <div className="relative rounded-md overflow-hidden max-w-130 w-full cursor-pointer">
 
               <img
-                src={`/noxbox/assets/purpose_video_bg.jpg`}
+                src={`/noxbox/assets/purpose_video_bg.webp`}
                 className="w-full h-87.5 object-cover"
               />
 

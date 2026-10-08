@@ -41,7 +41,7 @@ export default function ManufacturingFacility() {
                  <div className="p-8 pb-0">
                     <div className="aspect-[16/9] bg-gray-50 rounded-[30px] overflow-hidden relative border border-gray-100">
                        <img 
-                         src={index === 0 ? "/xion/images/endoscopy-1.png" : "/xion/images/endoscopy-2.png"} 
+                         src={index === 0 ? "/xion/images/endoscopy-1.webp" : "/xion/images/endoscopy-2.webp"} 
                          alt={card.title} 
                          className="w-full h-full object-cover" 
                        />

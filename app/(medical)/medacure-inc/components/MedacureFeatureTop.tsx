@@ -14,7 +14,7 @@ export default function MedacureFeatureTop() {
       <div className="bg-[#2E2662] h-[220px] w-full" />
       <div className="absolute bottom-0 left-0 w-full h-1/2 bg-[radial-gradient(ellipse_at_top_right,var(--tw-gradient-stops))] from-white via-transparent to-transparent opacity-20 pointer-events-none">
         <img
-          src="/medacure/assets/medacure-bg.jpg"
+          src="/medacure/assets/medacure-bg.webp"
           alt="pattern"
           className="w-full h-full object-cover"
         />

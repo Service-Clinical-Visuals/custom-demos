@@ -6,7 +6,7 @@ import { Instagram, Facebook, Twitter, Linkedin, Navigation, Phone, ArrowRight, 
 
 export default function Footer() {
   return (
-    <footer className="pt-16 pb-6 bg-[#E3E3E3] bg-[url('/medical/accu-scope/footerbg.png')] bg-cover bg-center bg-no-repeat">
+    <footer className="pt-16 pb-6 bg-[#E3E3E3] bg-[url('/medical/accu-scope/footerbg.webp')] bg-cover bg-center bg-no-repeat">
       <div className="max-w-[80%] mx-auto px-4 lg:px-12">
 
         {/* Top 5-Column Layout */}
@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: AliveCor Logo & Description */}
           <div className="lg:col-span-1 flex flex-col items-start">
             <Link href="/accu-scope" className="flex items-center mb-6">
-              <img src="/accu-scope/accuscope-logo.png" alt="Footer Logo" className="w-[470px]" />
+              <img src="/accu-scope/accuscope-logo.webp" alt="Footer Logo" className="w-[470px]" />
             </Link>
             <p className="font-sans rubik text-[16px] leading-relaxed font-light mb-6 pr-4">
               We are a leading manufacturer of microscopes and related accessories for life science, clinical, research, education and industrial applications.

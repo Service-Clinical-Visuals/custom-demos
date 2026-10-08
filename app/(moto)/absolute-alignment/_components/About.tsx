@@ -6,7 +6,7 @@ export default function About() {
 
           <div className="w-full lg:w-[25%] rounded-2xl overflow-hidden shadow-2xl" data-aos="fade-right">
             <img
-              src="/moto/absolute-alignment/home/about-1.png"
+              src="/moto/absolute-alignment/home/about-1.webp"
               alt="Worn Tyre"
               className="w-full h-full object-cover"
             />
@@ -51,7 +51,7 @@ export default function About() {
             {/* Pothole Image */}
             <div className="flex-1 overflow-hidden rounded-2xl mt-5">
               <img
-                src="/moto/absolute-alignment/home/about-2.png"
+                src="/moto/absolute-alignment/home/about-2.webp"
                 alt="Pothole Road"
                 className="w-full h-full object-cover"
               />

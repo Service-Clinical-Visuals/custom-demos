@@ -10,7 +10,7 @@ export default function LutechFooter() {
           
           {/* LOGO */}
           <div data-aos="fade-up">
-            <img src="/lutech-medical/assets/lutech-black.png" alt="Lutech Logo" className="w-44 sm:w-56 lg:w-64" />
+            <img src="/lutech-medical/assets/lutech-black.webp" alt="Lutech Logo" className="w-44 sm:w-56 lg:w-64" />
           </div>
 
           {/* QUICK LINKS */}

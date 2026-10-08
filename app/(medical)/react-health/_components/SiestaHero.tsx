@@ -7,7 +7,7 @@ export default function SiestaHero() {
   return (
     <section className="relative w-full bg-react-purple overflow-hidden py-12 md:py-20 lg:py-24">
       {/* Background Pattern */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('/react-health/bg.png')] bg-cover bg-no-repeat bg-center opacity-10" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('/react-health/bg.webp')] bg-cover bg-no-repeat bg-center opacity-10" />
 
       <div className="react-container relative z-10">
         {/* Main Product Container - Image */}

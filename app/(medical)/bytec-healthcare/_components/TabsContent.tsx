@@ -9,7 +9,7 @@ const tabData = [
         subheading: "Building the Connected Operating Room of the Future",
         description: "Neagen Energist is leading innovation in cold plasma therapy for skin regeneration and scar reduction. Bytec Healthcare created a custom medical cart to house and support the system, ensuring safety, mobility, and reliability in hospitals and clinics, and helping make Neagen's pioneering treatment accessible worldwide.",
         video: "https://cdn.clinicalvisuals.com/medical/bytec/short_clips/Bytec_01.webm",
-        logo: "/home/tab-1.png"
+        logo: "/home/tab-1.webp"
     },
     {
         name: "Echo-Point",
@@ -17,7 +17,7 @@ const tabData = [
         subheading: "Revealing the Unseen in Cardiac Care",
         description: "EchoPoint Medical is transforming heart diagnostics with advanced microcatheter technology that reveals conditions traditional tools often miss. Bytec healthcare engineered the complete hardware platform, from the cart and housing to the electronics, turning EchoPoint's concept into a clinically deployable device that helps deliver more accurate and informed cardiac care.",
         video: "https://cdn.clinicalvisuals.com/medical/bytec/short_clips/Bytec_02.webm",
-        logo: "/home/tab-2.png"
+        logo: "/home/tab-2.webp"
     },
     {
         name: "Energist",
@@ -25,7 +25,7 @@ const tabData = [
         subheading: "Transforming Skin Regeneration",
         description: "Neagen Energist is leading innovation in cold plasma therapy for skin regeneration and scar reduction. Bytec Healthcare created a custom medical cart to house and support the system, ensuring safety, mobility, and reliability in hospitals and clinics, and helping make Neagen's pioneering treatment accessible worldwide.",
         video: "https://cdn.clinicalvisuals.com/medical/bytec/short_clips/Bytec_03.webm",
-        logo: "/home/tab-3.jpg"
+        logo: "/home/tab-3.webp"
     }
 ];
 

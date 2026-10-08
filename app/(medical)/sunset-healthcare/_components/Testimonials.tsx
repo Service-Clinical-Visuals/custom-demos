@@ -41,7 +41,7 @@ export default function Testimonials() {
   return (
     <section
       className="w-full py-16 md:py-24 text-white relative bg-cover bg-fixed bg-center overflow-hidden"
-      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.jpg')" }}
+      style={{ backgroundImage: "url('/sunset-healthcare/home/bg.webp')" }}
     >
       {/* Color overlay over the background image */}
       <div className="absolute inset-0 bg-[#54626d] opacity-97 z-0"></div>
@@ -102,7 +102,7 @@ export default function Testimonials() {
           <div data-aos="fade-left" data-aos-delay="300" className="relative group">
             <div className="w-full h-[350px] md:h-[500px] bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl transition-transform duration-700">
               <img
-                src="/sunset-healthcare/home/testi.jpg"
+                src="/sunset-healthcare/home/testi.webp"
                 className="w-full h-full object-cover transition-all duration-700"
                 alt="Testimonial background"
               />

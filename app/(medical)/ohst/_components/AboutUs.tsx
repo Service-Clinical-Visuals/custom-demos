@@ -6,7 +6,7 @@ import { Button } from "./ui/Button";
 
 const portraits = [
   {
-    src: "/medical/ohst/twopeople.jpg",
+    src: "/medical/ohst/twopeople.webp",
     alt: "OHST Management Team",
     name: "Sebastian Sturm & Stephan Dunke",
     role: "Management Team",
@@ -15,7 +15,7 @@ const portraits = [
     sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 50vw",
   },
   {
-    src: "/medical/ohst/person1.jpg",
+    src: "/medical/ohst/person1.webp",
     alt: "Sebastian Sturm",
     name: "Sebastian Sturm",
     role: "Production Director",
@@ -24,7 +24,7 @@ const portraits = [
     sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw",
   },
   {
-    src: "/medical/ohst/person2.jpg",
+    src: "/medical/ohst/person2.webp",
     alt: "Stephan Dunke",
     name: "Stephan Dunke",
     role: "Managing Director",
@@ -49,7 +49,7 @@ export default function AboutOHSTSection() {
             className="relative w-full aspect-[780/446] overflow-hidden rounded-[30px] shadow-[0px_3px_8px_0px_#0000003D]"
           >
             <Image
-              src="/medical/ohst/factory.jpg"
+              src="/medical/ohst/factory.webp"
               alt="OHST Factory"
               fill
               priority

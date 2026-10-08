@@ -37,7 +37,7 @@ export default function InvidiaQuality() {
             {/* OPTIONAL IMAGE */}
             
               <Image
-                src="/invidia/invidia-quality.png"
+                src="/invidia/invidia-quality.webp"
                 alt="Service"
                 fill
                 className="object-cover"

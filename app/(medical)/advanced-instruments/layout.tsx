@@ -12,7 +12,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/advanced-instruments/images/advanced-logo.png",
+    icon: "/advanced-instruments/images/advanced-logo.webp",
   },
   title: "Advanced Instrumentations | Medical Solutions for Healthcare Needs",
   description: "Providing high-quality medical equipment and solutions worldwide.",

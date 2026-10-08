@@ -52,7 +52,7 @@ export default function BeyondNavbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
-            src="/beyond-air/assets/beyond-logo.png"
+            src="/beyond-air/assets/beyond-logo.webp"
             alt="logo"
             width={200}
             height={200}

@@ -59,17 +59,17 @@ export default function InspirationProducts() {
 const cards = [
   {
     title: "Respiratory care, starting from the first breaths of life",
-    img: "/inspiration-healthcare/assets/inspiration-product1.jpg",
+    img: "/inspiration-healthcare/assets/inspiration-product1.webp",
     desc: "We have developed and manufactured respiratory equipment since 1977. Nurturing close relationships with leading universities, hospitals and industry specialists to understand the challenges facing clinicians when caring for the most critical babies.",
   },
   {
     title: "Simple, flexible and precise",
-    img: "/inspiration-healthcare/assets/inspiration-product2.png",
+    img: "/inspiration-healthcare/assets/inspiration-product2.webp",
     desc: "The Inspiration Air/Oxygen blender is a precision proportioning device for mixing medical grade air and oxygen, to any concentration from 21% to 100% oxygen and delivering it to a variety of respiratory care devices.",
   },
   {
     title: "Customise your ventilator",
-    img: "/inspiration-healthcare/assets/inspiration-product3.png",
+    img: "/inspiration-healthcare/assets/inspiration-product3.webp",
     desc: "Our SLE6000 multimode ventilator exclusively focuses on infants. The SLE6000 also supports our award winning OxyGenie module, a responsive Automatic O2 controller for the SLE6000.",
   },
 ];

@@ -48,7 +48,7 @@ export default function AirFooter() {
             {/* LOGO */}
             <div className="relative h-[56px] w-[250px]">
               <img
-                src="/ae/ae-logo.png"
+                src="/ae/ae-logo.webp"
                 alt="AEG Logo"
                 className="w-full h-full object-contain object-left"
               />

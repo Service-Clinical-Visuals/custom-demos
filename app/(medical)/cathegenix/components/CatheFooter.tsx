@@ -44,7 +44,7 @@ export default function CatheFooter() {
           <div data-aos="fade-up" className="max-w-[520px]">
             {/* LOGO */}
             <div className="flex items-center gap-4">
-                <img src="/cathegenix/cathe-logo.png" alt="logo" className="h-10 w-auto"/>
+                <img src="/cathegenix/cathe-logo.webp" alt="logo" className="h-10 w-auto"/>
             </div>
 
             {/* DESCRIPTION */}

@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="lg:col-span-3 flex flex-col items-start">
           <div data-aos="fade-up" className="mb-8">
             <Image
-              src="/ceek/logo.png" // Path to your logo in the public folder
+              src="/ceek/logo.webp" // Path to your logo in the public folder
               alt="Ceek Women's Health Logo"
               width={160} // Adjust width to match your design
               height={60} // Adjust height to match your design

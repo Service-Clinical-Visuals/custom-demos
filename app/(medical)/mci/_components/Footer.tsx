@@ -17,13 +17,13 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="relative pt-20 pb-4 bg-[url('/mci/images/footer-bg.png')] bg-cover bg-center overflow-hidden mci-root ">
+        <footer className="relative pt-20 pb-4 bg-[url('/mci/images/footer-bg.webp')] bg-cover bg-center overflow-hidden mci-root ">
             <div className="custom-container mx-auto px-6 md:px-12 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 items-start">
                     {/* Logo column */}
                     <div className="space-y-6" data-aos="fade-up">
                         <Link href="/mci">
-                            <img src="/mci/images/mci-logo.png" alt="MCI Logo" className="w-36" />
+                            <img src="/mci/images/mci-logo.webp" alt="MCI Logo" className="w-36" />
                         </Link>
                     </div>
 

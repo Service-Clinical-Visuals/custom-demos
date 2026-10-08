@@ -9,37 +9,37 @@ const cards = [
   {
     title: "Custom Fluid Manifolds",
     desc: "Our OEM Fluid Technology Division delivers custom fluid manifold solutions tailored to your specific needs.",
-    image: "/ae/ae-tech-1.png",
+    image: "/ae/ae-tech-1.webp",
     content: "Custom Manifolds"
   },
   {
     title: "Chassis Plates",
     desc: "AEG specialise in designing and manufacturing pneumatic and fluid control chassis assemblies that are fully integrated into your device.",
-    image: "/ae/ae-tech-2.png",
+    image: "/ae/ae-tech-2.webp",
     content: "Chassis Assembly"
   },
   {
     title: "Fluid Control Panels",
     desc: "Expertise in designing and manufacturing pneumatic and fluid control panels tailored to meet the unique needs of OEMs.",
-    image: "/ae/ae-tech-3.png",
+    image: "/ae/ae-tech-3.webp",
     content: "Fluid Control Panels"
   },
   {
     title: "Additive Manufacturing",
     desc: "Advanced additive manufacturing technologies, including FDM and SLA, to create high-precision, scalable solutions for OEMs.",
-    image: "/ae/ae-tech-4.png",
+    image: "/ae/ae-tech-4.webp",
     content: "Additive Solutions"
   },
   {
     title: "Subtractive Manufacturing",
     desc: "Our subtractive manufacturing services deliver precision-engineered custom components using advanced CNC machining techniques.",
-    image: "/ae/ae-tech-5.png",
+    image: "/ae/ae-tech-5.webp",
     content: "Subtractive Solutions"
   },
   {
     title : "Injection Moulding",
     desc: "Precision injection moulding services for custom components, supporting both low and high-volume production with quality results.",
-    image: "/ae/ae-tech-6.png",
+    image: "/ae/ae-tech-6.webp",
     content: "Moulding Solutions"
   }
 ];

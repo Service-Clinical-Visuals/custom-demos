@@ -28,7 +28,7 @@ const AboutUs = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 my-2 border-y border-gray-100 py-6">
             <div className="flex items-start gap-4">
-              <img src="/moto/vessel/icon1.png" alt="100+ Years" className="w-12 h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
+              <img src="/moto/vessel/icon1.webp" alt="100+ Years" className="w-12 h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
               <div className="flex flex-col">
                 <Typography variant="h4" color="dark" className="font-semibold">
                   100+ Years
@@ -40,7 +40,7 @@ const AboutUs = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <img src="/moto/vessel/icon2.png" alt="Japanese Craftsmanship" className="w-12 h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
+              <img src="/moto/vessel/icon2.webp" alt="Japanese Craftsmanship" className="w-12 h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
               <div className="flex flex-col">
                 <Typography variant="h4" color="dark" className="font-semibold">
                   Japanese Craftsmanship
@@ -69,7 +69,7 @@ const AboutUs = () => {
 
           <div className="relative z-10 w-full rounded-xl overflow-visible filter drop-shadow-xl">
             <img
-              src="/moto/vessel/section2.png"
+              src="/moto/vessel/section2.webp"
               alt="VESSEL Europe Facility"
               className="w-full h-auto object-contain"
             />

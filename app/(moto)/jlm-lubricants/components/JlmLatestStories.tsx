@@ -10,21 +10,21 @@ export default function JlmLatestStories() {
         "JLM Lubricants Launches New Car Care Range",
       description:
         "With the new Car Care products we now...",
-      image: "/jlm/jlm-story-1.png",
+      image: "/jlm/jlm-story-1.webp",
     },
     {
       title:
         "JLM Lubricants Joins FIA ERC as Official Liquid Tools Partner",
       description:
         "JLM Lubricants is proud to announce its partnership with the FIA European Rally Championship (ERC), becoming the Official Liquid Tools Partner.",
-      image: "/jlm/jlm-story-2.png",
+      image: "/jlm/jlm-story-2.webp",
     },
     {
       title:
         "Why Choose JLM Oil-Based Engine Flush Over Solvent-Based Flushes?",
       description:
         "When it comes to maintaining a clean and efficient engine, using an engine oil flush before an oil change is a smart decision.",
-      image: "/jlm/jlm-story-3.png",
+      image: "/jlm/jlm-story-3.webp",
     },
   ];
 

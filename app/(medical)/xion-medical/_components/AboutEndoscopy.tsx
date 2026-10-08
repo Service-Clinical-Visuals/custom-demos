@@ -17,14 +17,14 @@ export default function AboutEndoscopy() {
             <div className="relative">
               {/* Main Image */}
               <div className="relative aspect-square lg:w-[85%] bg-gray-200 overflow-hidden shadow-2xl z-10 border-[6px] border-white">
-                 <img src="/xion/images/about-1.png" alt="Exhibition" className="w-full h-full object-cover" />
+                 <img src="/xion/images/about-1.webp" alt="Exhibition" className="w-full h-full object-cover" />
               </div>
               
               {/* Secondary Inset Image (Bottom Right) */}
               <div 
                 className="hidden lg:block absolute right-0 -bottom-10 w-[60%] aspect-[1.4/1] bg-gray-300 overflow-hidden shadow-2xl border-[12px] border-white z-30"
               >
-                 <img src="/xion/images/about-2.png" alt="Surgery" className="w-full h-full object-cover" />
+                 <img src="/xion/images/about-2.webp" alt="Surgery" className="w-full h-full object-cover" />
               </div>
               
               {/* Teal Experience Badge (Floating Left) */}

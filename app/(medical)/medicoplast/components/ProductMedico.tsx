@@ -4,17 +4,17 @@ const products = [
   {
     title: "Urology",
     desc: "All functions including supply chain, value chain, project scheduling, manufacturing, services and spares, technology, R&D, etc. are integrated to give a complete solutions package.",
-    image: "/medicoplast/assets/medico-urology.png",
+    image: "/medicoplast/assets/medico-urology.webp",
   },
   {
     title: "Care & More",
     desc: "Artificial feeding techniques, their applications in pediatrics, and the use of rectal tubes are essential components in managing various medical conditions.",
-    image: "/medicoplast/assets/medico-care.png",
+    image: "/medicoplast/assets/medico-care.webp",
   },
   {
     title: "Airway",
     desc: "Airway management includes techniques and tools to keep a patient's airway open. This involves artificial respiration methods and accessories to aid breathing.",
-    image: "/medicoplast/assets/medico-lungs.png",
+    image: "/medicoplast/assets/medico-lungs.webp",
   },
 ];
 
@@ -22,7 +22,7 @@ export default function ProductMedico() {
 
 
   return (
-    <section className="w-full bg-[#faf8f5] py-20 bg-[url('/medicoplast/assets/medico-bg.png')] bg-cover bg-center">
+    <section className="w-full bg-[#faf8f5] py-20 bg-[url('/medicoplast/assets/medico-bg.webp')] bg-cover bg-center">
       <div className="max-w-380 mx-auto px-4 sm:px-6 text-center">
         
         {/* Header */}

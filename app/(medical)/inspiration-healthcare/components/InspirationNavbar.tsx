@@ -34,7 +34,7 @@ export default function InspirationNavbar() {
         {/* Logo */}
         <div className="flex items-center gap-3 shrink-0">
           <img
-            src="/inspiration-healthcare/assets/inspiration-logo.png"
+            src="/inspiration-healthcare/assets/inspiration-logo.webp"
             alt="Inspiration Healthcare Logo"
             className="h-8 lg:h-12"
           />

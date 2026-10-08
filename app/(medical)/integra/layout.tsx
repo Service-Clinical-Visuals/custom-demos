@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Integra LifeSciences",
   description: "Integra LifeSciences",
   icons: {
-    icon: "/integra/logo.png",
+    icon: "/integra/logo.webp",
   },
 };
 

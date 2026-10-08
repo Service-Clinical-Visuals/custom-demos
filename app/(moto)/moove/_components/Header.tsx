@@ -34,7 +34,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/moove" className="flex items-center">
           <img
-            src="/moove/logo.png"
+            src="/moove/logo.webp"
             alt="Moove"
             className="h-10 w-auto object-contain"
           />

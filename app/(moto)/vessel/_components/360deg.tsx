@@ -6,11 +6,11 @@ import Typography from "./Typography";
 import Button from "./Button";
 
 const features = [
-  { icon: "/moto/vessel/b1.png", title: "400 RPM", desc: "Fast and efficient electric operation" },
-  { icon: "/moto/vessel/b2.png", title: "60-Tooth Gear", desc: "Fine 6° operation process" },
-  { icon: "/moto/vessel/b3.png", title: "1.0 N.m", desc: "Electric output power" },
-  { icon: "/moto/vessel/b4.png", title: "60 N.m", desc: "Manual endurance torque" },
-  { icon: "/moto/vessel/b5.png", title: "USB Type-C", desc: "Convenient rechargeable design" },
+  { icon: "/moto/vessel/b1.webp", title: "400 RPM", desc: "Fast and efficient electric operation" },
+  { icon: "/moto/vessel/b2.webp", title: "60-Tooth Gear", desc: "Fine 6° operation process" },
+  { icon: "/moto/vessel/b3.webp", title: "1.0 N.m", desc: "Electric output power" },
+  { icon: "/moto/vessel/b4.webp", title: "60 N.m", desc: "Manual endurance torque" },
+  { icon: "/moto/vessel/b5.webp", title: "USB Type-C", desc: "Convenient rechargeable design" },
 ];
 
 const Deg360 = () => {
@@ -21,7 +21,7 @@ const Deg360 = () => {
     >
       <div
         className="absolute inset-0 z-0 bg-cover bg-center opacity-8"
-        style={{ backgroundImage: 'url("/moto/vessel/bg.jpg")' }}
+        style={{ backgroundImage: 'url("/moto/vessel/bg.webp")' }}
       ></div>
       <div className="absolute inset-0 z-0 bg-[#D7E0E3]/50"></div>
 
@@ -44,7 +44,7 @@ const Deg360 = () => {
 
           <div className="flex items-center gap-4 py-2">
             <div className="flex items-center gap-2">
-              <img src="/moto/vessel/a1.png" alt="Electric" className="w-7 h-7 min-[3800px]:w-8 min-[3800px]:h-8 object-contain" />
+              <img src="/moto/vessel/a1.webp" alt="Electric" className="w-7 h-7 min-[3800px]:w-8 min-[3800px]:h-8 object-contain" />
               <Typography variant="h4" color="dark">Electric</Typography>
             </div>
             <div className="w-8 h-[1px] bg-gray-400 relative">
@@ -52,7 +52,7 @@ const Deg360 = () => {
               <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1.5 h-1.5 border-t border-r border-gray-400 rotate-45"></div>
             </div>
             <div className="flex items-center gap-2">
-              <img src="/moto/vessel/a2.png" alt="Manual" className="w-7 h-7 min-[3800px]:w-8 min-[3800px]:h-8 object-contain" />
+              <img src="/moto/vessel/a2.webp" alt="Manual" className="w-7 h-7 min-[3800px]:w-8 min-[3800px]:h-8 object-contain" />
               <Typography variant="h4" color="dark">Manual</Typography>
             </div>
           </div>

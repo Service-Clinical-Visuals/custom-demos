@@ -6,17 +6,17 @@ const expertiseData = [
   {
     title: "Industry expertise",
     desc: "We work to improve your industrial productivity, maintain a safe operating environment, and minimise the environmental footprint of your business.",
-    imgSrc: "/moove/home/card-1.png",
+    imgSrc: "/moove/home/card-1.webp",
   },
   {
     title: "Dedicated service",
     desc: "We work with leading manufacturers to assist in the research and formulation of state-of-the-art lubricants for the most demanding applications.",
-    imgSrc: "/moove/home/card-2.png",
+    imgSrc: "/moove/home/card-2.webp",
   },
   {
     title: "High performance products",
     desc: "Regardless of the application or industry, our brand portfolio of lubricants and complementary products is uniquely positioned to help you meet current and future challenges.",
-    imgSrc: "/moove/home/card-3.png",
+    imgSrc: "/moove/home/card-3.webp",
   },
 ];
 

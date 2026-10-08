@@ -33,7 +33,7 @@ export default function Footer() {
           {/* Column 1: Brand & Socials */}
           <div className="flex flex-col pr-0 xl:pr-8 col-span-2 md:col-span-1 xl:col-span-1" data-aos="fade-up">
             <img 
-              src="/moto/german-adler/footer logo.png" 
+              src="/moto/german-adler/footer logo.webp" 
               alt="German Adler Logo" 
               className="h-[75px] md:h-[95px] w-auto object-contain object-left mb-6" 
             />
@@ -42,8 +42,8 @@ export default function Footer() {
             </p>
             <h4 className="text-[#fcc415] font-semibold text-md md:text-[20px] leading-[1.8] mb-2 tracking-wide">Socials</h4>
             <div className="flex gap-4 items-center">
-              <img src="/moto/german-adler/footer6.png" className='w-8 h-8'></img>
-              <img src="/moto/german-adler/footer5.png" className='w-8 h-8'></img>
+              <img src="/moto/german-adler/footer6.webp" className='w-8 h-8'></img>
+              <img src="/moto/german-adler/footer5.webp" className='w-8 h-8'></img>
             </div>
           </div>
  
@@ -78,22 +78,22 @@ export default function Footer() {
             <div className="border border-white p-6 flex flex-col gap-6 text-[13px] text-white/90 font-normal">
               
               <div className="flex gap-4">
-                <img src="/moto/german-adler/footer1.png" className='w-6 h-6'></img>
+                <img src="/moto/german-adler/footer1.webp" className='w-6 h-6'></img>
                 <p className="text-[#ffffff] text-md md:text-[16px] leading-[1.8] ">GERMAN ADLER GmbH Kennedyallee 93<br/>60596 Frankfurt am Main Germany</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <img src="/moto/german-adler/footer2.png" className='w-5 h-5'></img>
+                <img src="/moto/german-adler/footer2.webp" className='w-5 h-5'></img>
                 <p className="text-[#ffffff] text-md md:text-[16px] leading-[1.8] ">+49 69 697 692 10</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <img src="/moto/german-adler/footer3.png" className='w-5 h-5' ></img>
+                <img src="/moto/german-adler/footer3.webp" className='w-5 h-5' ></img>
                 <p className="text-[#ffffff] text-md md:text-[16px] leading-[1.8] ">+49 69 697 692 15</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <img src="/moto/german-adler/footer4.png"  className='w-5 h-5'></img>
+                <img src="/moto/german-adler/footer4.webp"  className='w-5 h-5'></img>
                 <p className="text-[#ffffff] text-md md:text-[16px] leading-[1.8] ">info@German-Adler.com</p>
               </div>
 

@@ -29,7 +29,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="shrink-0 flex items-center">
             <Link href="/" className="text-2xl font-bold text-[#A43B7F]">
-              <img src={`/histologics/images/histologics.png`} alt="Histologics" width={100} height={100} className="w-17.5" />
+              <img src={`/histologics/images/histologics.webp`} alt="Histologics" width={100} height={100} className="w-17.5" />
             </Link>
           </div>
           <nav className="hidden lg:flex space-x-4 xl:space-x-8">

@@ -7,21 +7,21 @@ import DeltaScrollRevealText from "./DeltaScrollRevealText";
 const features = [
   {
     badge: "ISO 13485:2016",
-    hoverImg: "/delta/delta-comfort-1.png",
+    hoverImg: "/delta/delta-comfort-1.webp",
     title: "ISO Certified",
     description:
       "Our devices meet the rigorous ISO 13485:2016 standards for medical device quality. We maintain MDSAP certification to ensure global regulatory excellence.",
   },
   {
     badge: "Comfort",
-    hoverImg: "/delta/delta-comfort-2.png",
+    hoverImg: "/delta/delta-comfort-2.webp",
     title: "The Technology",
     description:
       "Automatically maintain constant warmth and moisture to prevent dry throat and congestion, without you touching a settings.",
   },
   {
     badge: "Proudly Canadian",
-    hoverImg: "/delta/delta-comfort-3.png",
+    hoverImg: "/delta/delta-comfort-3.webp",
     title: "The Origin",
     description:
       "Licensed by Health Canada. Assembled in Ontario. We combined hospital-grade precision with a direct-to-you model that respects your time, your wallet, and your health",

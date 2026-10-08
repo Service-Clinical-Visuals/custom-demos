@@ -6,12 +6,12 @@ export default function Software() {
     {
       title: "VectraplexECG",
       desc: "VectraplexECG software comes with our innovative CEB® technology.The Cardiac Electrical Biomarker, CEB®, is our smartest ECG technology! It can detect ECG changes suggestive of a heart attack. ",
-      img: "/vectracor/CEB.png",
+      img: "/vectracor/CEB.webp",
     },
     {
       title: "Office Medic",
       desc: "Office Medic software improves workflow by having one platform for ECG and Spirometry testing. Office Medic allows you to acquire, store and review diagnostic data using an off-the-shelf laptop, desktop or tablet.",
-      img: "/vectracor/Office-Medic-2.png",
+      img: "/vectracor/Office-Medic-2.webp",
     },
   ];
 

@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Column 1: Logo & Desc */}
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center gap-0">
-              <img src="/emerald/images/emerald-logo.png" alt="Logo" className="w-48 h-auto" />
+              <img src="/emerald/images/emerald-logo.webp" alt="Logo" className="w-48 h-auto" />
             </div>
             <p className="lg:text-[16px] text-[14px] text-[#333333] leading-relaxed ">
               Emerald is a leading manufacturer of high quality durable medical equipment. We specialize in providing Hospital beds, Wheelchairs, Mattresses and other medical equipment that is safe, reliable, and easy to use.

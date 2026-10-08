@@ -26,7 +26,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/">
               <img
-                src="/accu-scope/accuscope-logo.png"
+                src="/accu-scope/accuscope-logo.webp"
                 alt="ACCU-SCOPE"
                 className="h-[33px] w-auto"
               />

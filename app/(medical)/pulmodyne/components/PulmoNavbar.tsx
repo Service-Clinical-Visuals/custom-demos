@@ -52,7 +52,7 @@ export default function PulmoNavbar() {
 
             <div className="flex items-center gap-4">
               <img
-                src="/pulmo/pulmo-logo.png"
+                src="/pulmo/pulmo-logo.webp"
                 alt="logo"
                 className="h-auto w-36 md:w-44 lg:w-52"
               />

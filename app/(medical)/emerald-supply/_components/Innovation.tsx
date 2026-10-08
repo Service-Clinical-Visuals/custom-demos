@@ -48,7 +48,7 @@ const Innovation = () => {
       <div className="w-[95%] mx-auto bg-[#014D65] lg:rounded-[3rem] rounded-[2rem] p-4 md:p-16 lg:p-20 relative overflow-hidden">
         {/* Hexagonal Pattern Background */}
         <div className="absolute inset-0 opacity-10 pointer-events-none">
-          <div className="w-full h-full bg-[url('/emerald/images/bg-frame.jpg')] bg-center bg-cover opacity-40"></div>
+          <div className="w-full h-full bg-[url('/emerald/images/bg-frame.webp')] bg-center bg-cover opacity-40"></div>
         </div>
 
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

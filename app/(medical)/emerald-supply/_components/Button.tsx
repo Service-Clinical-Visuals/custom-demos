@@ -39,7 +39,7 @@ const Button: React.FC<ButtonProps> = ({
       {children}
       {hasArrow && (
         <img 
-          src={isGreenArrow ? "/emerald/images/corner-up-right-green.png" : "/emerald/images/corner-up-right.png"} 
+          src={isGreenArrow ? "/emerald/images/corner-up-right-green.webp" : "/emerald/images/corner-up-right.webp"} 
           alt="arrow" 
           className={`ml-2 w-4 h-4 object-contain transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-0.5 ${!isGreenArrow ? "brightness-0 invert" : ""}`}
         />

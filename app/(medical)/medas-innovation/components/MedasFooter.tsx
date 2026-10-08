@@ -16,7 +16,7 @@ export default function MedasFooter() {
           className="bg-gray-100 px-6 md:px-10 lg:px-36 py-12 flex flex-col justify-center"
         >
 
-            <img src="/medas-innovation/assets/medas-logo.png" alt="logo" className="w-32 mb-6" />
+            <img src="/medas-innovation/assets/medas-logo.webp" alt="logo" className="w-32 mb-6" />
 
           {/* Description */}
           <p className="mt-4 text-gray-600 text-base max-w-sm">

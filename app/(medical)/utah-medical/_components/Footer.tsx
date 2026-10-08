@@ -12,7 +12,7 @@ export default function Footer() {
         <div data-aos="fade-up" >
           <div className="flex items-center gap-2 mb-3 border">
                       <img
-            src="/utah-medical/assets/utah-logo.png"
+            src="/utah-medical/assets/utah-logo.webp"
             alt="Logo"
             className="w-56 lg:w-52 xl:w-64 h-auto"
           />

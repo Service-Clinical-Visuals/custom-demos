@@ -26,7 +26,7 @@ export default function ExperienceSection() {
                         >
                             <h4 className="text-gray-900 font-bold text-[16px] mb-4 tracking-tight">Our Partner Laboratory</h4>
                             <div className="h-16 flex items-center justify-center">
-                                <img src={`/gyn-health/home/medica.png`} alt="Medica" className="w-40 h-auto object-contain" />
+                                <img src={`/gyn-health/home/medica.webp`} alt="Medica" className="w-40 h-auto object-contain" />
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ export default function ExperienceSection() {
                         >
                             <h4 className="text-gray-900 font-bold text-[16px] mb-4 tracking-tight">Certifications</h4>
                             <div className="h-16 flex items-center justify-center">
-                                <img src={`/gyn-health/home/fmh.png`} alt="FMH" className="w-20 h-auto object-contain" />
+                                <img src={`/gyn-health/home/fmh.webp`} alt="FMH" className="w-20 h-auto object-contain" />
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export default function ExperienceSection() {
                 </div>
 
                 <div className="relative z-10 w-full rounded-xl overflow-hidden " data-aos="fade-left">
-                    <img src={`/gyn-health/home/build.png`} alt="Experience" className="w-full h-full object-cover" />
+                    <img src={`/gyn-health/home/build.webp`} alt="Experience" className="w-full h-full object-cover" />
                 </div>
 
             </div>

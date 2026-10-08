@@ -41,7 +41,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-[90px]">
           {/* Logo */}
           <Link href="/german-adler" className="flex items-center">
-            <img src="/moto/german-adler/icon.png" alt="German Adler Logo" className="h-[60px] md:h-[65px] object-contain drop-shadow-sm" />
+            <img src="/moto/german-adler/icon.webp" alt="German Adler Logo" className="h-[60px] md:h-[65px] object-contain drop-shadow-sm" />
           </Link>
 
           {/* Desktop Navigation */}

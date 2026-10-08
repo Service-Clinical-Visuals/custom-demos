@@ -41,7 +41,7 @@ export default function Header() {
                         {/* Logo Look */}
                         <Link href="/mci" className="shrink-0">
                             <div className="flex items-center gap-1 font-black text-3xl">
-                                <img src="/mci/images/mci-logo.png" alt="MCI Logo" className="w-25" />
+                                <img src="/mci/images/mci-logo.webp" alt="MCI Logo" className="w-25" />
                             </div>
                         </Link>
                         {/* Desktop Menu */}

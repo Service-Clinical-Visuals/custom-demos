@@ -7,19 +7,19 @@ import Image from "next/image";
 const expertiseCards = [
   {
     title: "Medical Imaging Systems",
-    img: "/stern-med/stern-exp-1.png",
+    img: "/stern-med/stern-exp-1.webp",
     description:
       "SternMed provides advanced medical imaging solutions including MRI, CT, X-ray, and ultrasound systems designed to meet global healthcare needs with reliable hardware and software technologies."
   },
   {
     title: "OR Solutions",
-    img: "/stern-med/stern-exp-2.png",
+    img: "/stern-med/stern-exp-2.webp",
     description:
       "SternMed products in operation room category including Anesthesia Machine, OR Surgery Table, Electrosurgical Unit and Surgical Light are designed to...",
   },
   {
     title: "Patient Care",
-    img: "/stern-med/stern-exp-3.png",
+    img: "/stern-med/stern-exp-3.webp",
     description:
       "SternMed provides patient care devices like patient monitors, infusion and syringe pumps and medical ventilators, to support clinicians in giving...",
   },
@@ -33,7 +33,7 @@ export default function SternExpertCard() {
       {/* <div className="absolute inset-0 bg-gradient-to-r from-[#1560a8] to-[#1f6fb8]" /> */}
       <div
         className="absolute inset-0 bg-cover bg-bottom-right bg-no-repeat"
-        style={{ backgroundImage: "url('/stern-med/stern-bg.jpg')" }}
+        style={{ backgroundImage: "url('/stern-med/stern-bg.webp')" }}
       />
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-[rgba(30,111,182,0.75)]" />

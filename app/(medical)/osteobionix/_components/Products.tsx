@@ -6,22 +6,22 @@ export default function Products() {
   const products = [
     {
       title: "Orthopaedic & Trauma Surgery",
-      src: "/osteobionix/product1.png",
+      src: "/osteobionix/product1.webp",
       description: "Orthopedic and trauma surgery encompass a wide range of complex procedures, where standard off-the-shelf implants may not always provide the best clinical outcomes.",
     },
     {
       title: "Cranio-Maxillofacial Implants",
-      src: "/osteobionix/product2.png",
+      src: "/osteobionix/product2.webp",
       description: "At osteobionix, we leverage advanced digital planning, patient-specific design and cutting-edge manufacturing technologies to deliver highly precise CMF solutions. Cranio-maxillofacial (CMF) surgery demands exceptional accuracy...",
     },
     {
       title: "Custom Thoracic Implants",
-      src: "/osteobionix/product3.png",
+      src: "/osteobionix/product3.webp",
       description: "Chest wall reconstruction is a complex surgical challenge and, despite the variety of existing solutions, none has proven to be universally optimal. Traditional implants often come with limitations that compromise their effectiveness.",
     },
     {
       title: "Custom Spine Surgery Implants",
-      src: "/osteobionix/product4.png",
+      src: "/osteobionix/product4.webp",
       description: "Standard off-the-shelf spinal implants effectively address most conditions that spine surgeons encounter in their daily practice. However, some cases present unique challenges that require a patient-specific approach.",
     }
   ];

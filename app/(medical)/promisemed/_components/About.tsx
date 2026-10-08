@@ -10,7 +10,7 @@ export default function About() {
           data-aos="fade-up"
           className="relative w-full overflow-hidden rounded-2xl">
           <img
-            src="/promisemed/about.png"
+            src="/promisemed/about.webp"
             alt="factory"
             className="w-full h-full"
           />
@@ -45,7 +45,7 @@ export default function About() {
             <div className="flex items-start gap-4">
               <div className="w-15 h-15 flex items-center justify-center rounded-full bg-[#2353A3] overflow-hidden shrink-0">
                 <img
-                  src="/promisemed/icon1.png"
+                  src="/promisemed/icon1.webp"
                   alt="icon"
                   width={40}
                   height={40}
@@ -67,7 +67,7 @@ export default function About() {
             <div className="flex items-start gap-4">
               <div className="w-15 h-15 flex items-center justify-center rounded-full bg-[#2353A3] overflow-hidden shrink-0">
                 <img
-                  src="/promisemed/icon2.png"
+                  src="/promisemed/icon2.webp"
                   alt="icon"
                   width={40}
                   height={40}

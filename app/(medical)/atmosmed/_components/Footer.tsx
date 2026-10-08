@@ -25,7 +25,7 @@ export default function Footer() {
             
             {/* Logo */}
             <div className="text-[#16679b] font-bold text-lg mb-4">
-              <img src={"/atmosmed/assets/atmos_logo 1.png"} alt="logo" width={100} height={100} />
+              <img src={"/atmosmed/assets/atmos_logo 1.webp"} alt="logo" width={100} height={100} />
             </div>
 
             {/* Email Input */}

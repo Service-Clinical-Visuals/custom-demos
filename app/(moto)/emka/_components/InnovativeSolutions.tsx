@@ -45,7 +45,7 @@ export default function InnovativeSolutions() {
                 </div>
 
                 <div className="w-full md:w-2/5 lg:w-[45%] flex justify-end items-end">
-                  <img src="/moto/emka/section31.png" alt="Private Label" className="w-full max-w-[200px] lg:max-w-[240px] h-auto object-contain transform translate-y-4 translate-x-2 lg:translate-x-6" />
+                  <img src="/moto/emka/section31.webp" alt="Private Label" className="w-full max-w-[200px] lg:max-w-[240px] h-auto object-contain transform translate-y-4 translate-x-2 lg:translate-x-6" />
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function InnovativeSolutions() {
                 </div>
 
                 <div className="w-full md:w-2/5 lg:w-[45%] flex justify-end items-end">
-                  <img src="/moto/emka/section32.png" alt="The Green Pact" className="w-full max-w-[200px] lg:max-w-[240px] h-auto object-contain transform translate-y-2 translate-x-2" />
+                  <img src="/moto/emka/section32.webp" alt="The Green Pact" className="w-full max-w-[200px] lg:max-w-[240px] h-auto object-contain transform translate-y-2 translate-x-2" />
                 </div>
               </div>
             </div>

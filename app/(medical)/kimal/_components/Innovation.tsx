@@ -7,7 +7,7 @@ export default function Innovation() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="w-full aspect-[4/3] bg-[#ffffff15] border border-white/10 rounded-3xl overflow-hidden relative backdrop-blur-sm order-2 lg:order-1 shadow-xl" data-aos="fade-right">
-            <img src="/kimal/images/innovative.jpg" alt="innovative" className="w-full h-full object-cover" />
+            <img src="/kimal/images/innovative.webp" alt="innovative" className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-col order-1 lg:order-2 text-justify" data-aos="fade-left">
             <h2 className="text-xl lg:text-3xl leading-[1.2] font-bold mb-6 text-white! tracking-tight">Innovative, High Quality Products</h2>

@@ -16,7 +16,7 @@ export default function AboutSection() {
                     className="relative aspect-4/3 rounded-2xl overflow-hidden flex flex-col items-center justify-center"
                     data-aos="fade-right"
                 >
-                    <img src={`/gyn-health/home/about.png`} alt="About" />
+                    <img src={`/gyn-health/home/about.webp`} alt="About" />
                 </div>
 
                 <div

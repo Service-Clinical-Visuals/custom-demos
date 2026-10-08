@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="grid gap-8 content-start">
              <div className="grid">
                 <div className="flex items-center">
-                  <img src="/xion/images/white-logo.png" alt="XION Medical" />
+                  <img src="/xion/images/white-logo.webp" alt="XION Medical" />
                 </div>
               </div>
               

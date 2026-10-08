@@ -75,7 +75,7 @@ export default function DeviceOverview() {
                         {/* Perfect Circle Frame with Lumed accuracy device image */}
                         <div className="w-full max-w-sm sm:max-w-sm xl:max-w-md aspect-[4/5] rounded-full z-30 overflow-hidden relative ">
                             <img
-                                src="/medical/lumed-srl/accuracy.png"
+                                src="/medical/lumed-srl/accuracy.webp"
                                 alt="LUMED Cardiopulmonary Diagnostics Accuracy"
                                 className="w-full h-full object-cover aspect-[4/5]"
                             />

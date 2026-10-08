@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Arcomed",
   description: "Arcomed Medical Devices Inc.",
   icons: {
-    icon: "/arcomed/logo.png",
+    icon: "/arcomed/logo.webp",
   },
 };
 

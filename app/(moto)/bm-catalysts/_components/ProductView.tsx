@@ -6,7 +6,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function ProductView() {
   return (
-    <section className="py-16 lg:py-20 bg-[url('/bm-catalysts/images/product-view-bg.png')] bg-cover bg-center relative overflow-hidden flex justify-center w-full">
+    <section className="py-16 lg:py-20 bg-[url('/bm-catalysts/images/product-view-bg.webp')] bg-cover bg-center relative overflow-hidden flex justify-center w-full">
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10 flex flex-col items-center">
         

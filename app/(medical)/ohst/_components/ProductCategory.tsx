@@ -4,11 +4,11 @@ import { Button } from "./ui/Button";
 
 const portfolioItems = [
   {
-    image: "/medical/ohst/portfolio1.png",
+    image: "/medical/ohst/portfolio1.webp",
     label: "Implants",
   },
   {
-    image: "/medical/ohst/portfolio2.png",
+    image: "/medical/ohst/portfolio2.webp",
     label: "Instruments",
   },
 ];

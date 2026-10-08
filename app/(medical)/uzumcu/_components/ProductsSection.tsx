@@ -10,32 +10,32 @@ export default function ProductsSection() {
     const products = [
         {
             title: "Operating Tables And Accessories",
-            image: "/uzumcu/images/home/product-1.jpg",
+            image: "/uzumcu/images/home/product-1.webp",
             description: "Operating table accessories designed for flexibility, precision, and enhanced patient safety.",
             tag: "Show More",
         },
         {
             title: "Medical Lights",
-            image: "/uzumcu/images/home/product-2.jpg",
+            image: "/uzumcu/images/home/product-2.webp",
             description: "Our medical lights provide sharp, shadow-free illumination for precise and efficient surgical performance.",
             tag: "Show More",
         },
         {
             title: "Suction Units",
-            image: "/uzumcu/images/home/product-3.jpg",
+            image: "/uzumcu/images/home/product-3.webp",
             description: "Our surgical suction units provide powerful, reliable vacuum performance for safe and efficient fluid removal in surgical settings.",
             tag: "Show More",
         },
         {
             title: "Operating Tables And Accessories",
-            image: "/uzumcu/images/home/product-4.jpg",
+            image: "/uzumcu/images/home/product-4.webp",
             description: "Operating table accessories designed for flexibility, precision, and enhanced patient safety.",
             tag: "Show More",
         },
     ];
 
     return (
-        <section className="py-10 bg-[url('/uzumcu/images/home/product-bg.png')] bg-cover bg-center bg-no-repeat relative overflow-hidden">
+        <section className="py-10 bg-[url('/uzumcu/images/home/product-bg.webp')] bg-cover bg-center bg-no-repeat relative overflow-hidden">
             {/* Background Pattern Mask */}
             <div className="absolute inset-0 opacity-10 pointer-events-none">
                 <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">

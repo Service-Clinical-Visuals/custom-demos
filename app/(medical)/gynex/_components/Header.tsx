@@ -68,7 +68,7 @@ export default function Header() {
                     <div className="container mx-auto px-4 md:px-12 h-[70px] md:h-[80px] flex items-center justify-between">
                         {/* Logo */}
                         <Link href="/gynex" className="flex items-center gap-2 group shrink-0">
-                            <img src="/gynex/images/gynex-logo.png" alt="Gynex Logo" className="w-50" />
+                            <img src="/gynex/images/gynex-logo.webp" alt="Gynex Logo" className="w-50" />
                         </Link>
 
                         {/* Desktop Menu */}

@@ -11,11 +11,11 @@ export const Footer = () => {
             <div className="site-container relative overflow-hidden ">
                 <div className="bg-[#08949E] text-white pt-24 pb-6 relative overflow-hidden border border-0.5 border-gray-200/20">
 
-                    <img src={`/hey-patient/images/home/f-bg.png`} className="absolute -top-0.5 left-0 w-full h-30 object-cover z-1" alt="" />
+                    <img src={`/hey-patient/images/home/f-bg.webp`} className="absolute -top-0.5 left-0 w-full h-30 object-cover z-1" alt="" />
 
                     {/* Background Texture Only */}
                     <div className="absolute inset-0 z-0">
-                        <div className="absolute inset-0 opacity-10 bg-[url('/hey-patient/images/home/bg-overlay.jpg')] bg-cover bg-repeat mix-blend-overlay"></div>
+                        <div className="absolute inset-0 opacity-10 bg-[url('/hey-patient/images/home/bg-overlay.webp')] bg-cover bg-repeat mix-blend-overlay"></div>
                     </div>
 
                     <div className="container mx-auto px-4 sm:px-10 lg:px-16 relative z-10">
@@ -26,7 +26,7 @@ export const Footer = () => {
                                 <div className="mb-8">
                                     <Link href="/">
                                         <img
-                                            src={`/hey-patient/images/home/logo.png`}
+                                            src={`/hey-patient/images/home/logo.webp`}
                                             alt="heyPatient"
                                             className="h-10 md:h-12 object-contain -translate-y-17"
                                         />

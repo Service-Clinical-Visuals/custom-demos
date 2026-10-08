@@ -32,7 +32,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="w-32 md:w-36 lg:w-40">
           <Image
-            src="/orlvision/logo.png"
+            src="/orlvision/logo.webp"
             alt="logo"
             width={130}
             height={40}

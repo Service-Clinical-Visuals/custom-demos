@@ -14,32 +14,32 @@ export default function Services() {
         {
             title: "Research & Development",
             description: "Cutting-edge innovation to transform ideas into reality.",
-            image: "images/home/service-1.png",
+            image: "images/home/service-1.webp",
         },
         {
             title: "Therapeutic Support Surface",
             description: "Custom solutions for patient comfort and care.",
-            image: "images/home/service-2.png",
+            image: "images/home/service-2.webp",
         },
         {
             title: "Custom Engineering Solutions",
             description: "Tailored engineering for unique medical challenges.",
-            image: "images/home/service-3.png",
+            image: "images/home/service-3.webp",
         },
         {
             title: "Regulatory & Quality Assurance",
             description: "Full regulatory support and quality management systems that ensure compliance with U.S. standards and industry regulations while maintaining product excellence.",
-            image: "images/home/service-4.jpg",
+            image: "images/home/service-4.webp",
         },
         {
             title: "U.S.-Based Manufacturing",
             description: "State-of-the-art manufacturing operations in California, delivering consistent quality, faster turnaround times, and strict production control.",
-            image: "images/home/service-5.jpg",
+            image: "images/home/service-5.webp",
         },
         {
             title: "Medical Electronics Integration",
             description: "Design and integration of advanced electronic systems that enhance therapeutic performance, reliability, and safety across medical environments.",
-            image: "images/home/service-6.jpg",
+            image: "images/home/service-6.webp",
         },
     ];
 

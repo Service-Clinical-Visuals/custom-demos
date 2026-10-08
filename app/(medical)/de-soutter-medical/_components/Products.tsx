@@ -16,22 +16,22 @@ const categories = [
 const products = [
   {
     name: "MBQ-700 series",
-    img: "/de-soutter-medical/p1.png",
+    img: "/de-soutter-medical/p1.webp",
     category: "Large Bone",
   },
   {
     name: "MBQ-707 series",
-    img: "/de-soutter-medical/p2.png",
+    img: "/de-soutter-medical/p2.webp",
     category: "Large Bone",
   },
   {
     name: "MBQ-807 series",
-    img: "/de-soutter-medical/p3.png",
+    img: "/de-soutter-medical/p3.webp",
     category: "Large Bone",
   },
   {
     name: "MPX-600 series",
-    img: "/de-soutter-medical/p4.png",
+    img: "/de-soutter-medical/p4.webp",
     category: "Large Bone",
   },
 ];

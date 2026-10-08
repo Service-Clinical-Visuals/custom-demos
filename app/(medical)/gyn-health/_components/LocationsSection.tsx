@@ -11,7 +11,7 @@ export default function LocationsSection() {
     const locations = [
         {
             name: "Gynhealth Seefeld",
-            img: "location-1.png",
+            img: "location-1.webp",
             address1: "Höschgasse 50 | Seefeldstrasse",
             address2: "152 8008 Zürich",
             phone: "043 818 37 87",
@@ -19,7 +19,7 @@ export default function LocationsSection() {
         },
         {
             name: "Gynhealth Enge",
-            img: "location-2.png",
+            img: "location-2.webp",
             address1: "Tessinerplatz 12 | Seestrasse 37",
             address2: "8002 Zürich",
             phone: "043 818 37 87",
@@ -27,7 +27,7 @@ export default function LocationsSection() {
         },
         {
             name: "Gynhealth Dietikon",
-            img: "location-3.png",
+            img: "location-3.webp",
             address1: "Poststrasse 1 8953 Dietikon",
             address2: "",
             phone: "044 744 40 60",
@@ -35,7 +35,7 @@ export default function LocationsSection() {
         },
         {
             name: "Gynhealth Winterthur",
-            img: "location-4.png",
+            img: "location-4.webp",
             address1: "Merkurstrasse 25",
             address2: "8400 Winterthur",
             phone: "052 202 65 11",
@@ -43,7 +43,7 @@ export default function LocationsSection() {
         },
         {
             name: "Gynhealth Olten",
-            img: "location-5.png",
+            img: "location-5.webp",
             address1: "Frohburgstrasse 20 4600 Olten",
             address2: "",
             phone: "062 212 39 09",
@@ -54,7 +54,7 @@ export default function LocationsSection() {
     return (
         <section
             className="relative overflow-hidden py-24 pb-32 bg-cover bg-center"
-            style={{ backgroundImage: "url('/gyn-health/home/bg.jpg')" }}
+            style={{ backgroundImage: "url('/gyn-health/home/bg.webp')" }}
         >
             <div className="absolute inset-0 bg-[#C0E0CD]/70 pointer-events-none"></div>
             {/* Hexagon Pattern */}

@@ -63,7 +63,7 @@ export default function JlmEngine() {
               <div className="flex gap-3 items-start">
                <span>
                 <img
-                  src="/jlm/jlm-wheel.png"
+                  src="/jlm/jlm-wheel.webp"
                   alt="wheel-icon"
                   className="h-auto w-8 shrink-0"
                 />
@@ -78,7 +78,7 @@ export default function JlmEngine() {
               <div className="flex gap-3 items-start">
                 <span>
                   <img
-                    src="/jlm/jlm-wheel.png"
+                    src="/jlm/jlm-wheel.webp"
                     alt="bolt-icon"
                     className="h-auto w-10 shrink-0"
                   />

@@ -18,7 +18,7 @@ export default function Performance() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/moto/german-adler/performancebg.png" 
+            src="/moto/german-adler/performancebg.webp" 
             alt="Performance Background" 
             className="w-full h-full object-cover" 
           />
@@ -51,7 +51,7 @@ export default function Performance() {
                     {points.map((text, idx) => (
                       <li key={idx} className="flex items-start gap-3">
                         <img 
-                      src="/moto/german-adler/customer_setting.png" 
+                      src="/moto/german-adler/customer_setting.webp" 
                       alt="bullet icon" 
                       className="w-[25px] h-[25px] object-contain" 
                     />

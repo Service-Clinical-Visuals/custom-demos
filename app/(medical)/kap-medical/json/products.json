@@ -2,7 +2,7 @@
   {
     "id": "isense-clrt-system",
     "name": "ISENSE CLRT System",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Full Body Auto Immersion with patented active sensing technology that automatically adjusts pressure in real time to enhance patient comfort and clinical outcomes.",
     "features": [
       "5-Zone Auto Pressure Adjustment",
@@ -28,7 +28,7 @@
   {
     "id": "k-0-elite-control-unit",
     "name": "K-0 Elite Control Unit",
-    "image": "/images/product-2.png",
+    "image": "/images/product-2.webp",
     "shortDescription": "Advanced microprocessor-controlled unit offering multiple therapy modes for optimal patient care.",
     "features": [
       "Microprocessor Control",
@@ -46,7 +46,7 @@
   {
     "id": "k-11-foam-mattress-replacement",
     "name": "K-11 FOAM MATTRESS REPLACEMENT",
-    "image": "/images/product-3.png",
+    "image": "/images/product-3.webp",
     "shortDescription": "High-quality foam mattress replacement with multi-zone support.",
     "features": [
       "Multi-Zone Foam Core",
@@ -64,7 +64,7 @@
   {
     "id": "smartturn",
     "name": "SMARTURN",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Intelligent turning system with integrated patient monitoring.",
     "features": [
       "Intelligent Turning Logic",
@@ -82,7 +82,7 @@
   {
     "id": "intellimatt",
     "name": "INTELLIMATT",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Intelligent surface with predictive analytics for pressure ulcer prevention.",
     "features": [
       "Predictive Algorithm",
@@ -100,7 +100,7 @@
   {
     "id": "zmatt",
     "name": "ZMATT",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Zero-pressure mattress system designed for maximum immersion.",
     "features": [
       "True Zero Pressure Zones",
@@ -118,7 +118,7 @@
   {
     "id": "dx-z-turn",
     "name": "DX & Z-TURN",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Dual-mode turning and decompression system.",
     "features": [
       "Dual-Mode Operation",
@@ -136,7 +136,7 @@
   {
     "id": "smartmatt",
     "name": "SMARTMATT",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Smart pressure redistribution mattress with integrated sensors for real-time monitoring.",
     "features": [
       "Real-time Pressure Mapping",
@@ -154,7 +154,7 @@
   {
     "id": "iturn-clrt-system",
     "name": "ITURN CLRT System",
-    "image": "/images/product-1.png",
+    "image": "/images/product-1.webp",
     "shortDescription": "Advanced turning system for critical care patients requiring frequent repositioning to prevent pressure ulcers.",
     "features": [
       "Programable Turning Cycles",

@@ -24,7 +24,7 @@ export default function SergNavbar() {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="/sergtech/serg-logo.png"
+            src="/sergtech/serg-logo.webp"
             alt="SergTech Logo"
             className="h-[50px] sm:h-[58px] w-auto p-2"
           />

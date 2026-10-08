@@ -4,12 +4,12 @@ import { ArrowRight } from "lucide-react";
 export default function ClinicalResearch() {
 
   const logos = [
-    "/vectracor/research/research1.png",
-    "/vectracor/research/research2.png",
-    "/vectracor/research/research3.png",
-    "/vectracor/research/research4.png",
-    "/vectracor/research/research5.png",
-    "/vectracor/research/research6.png",
+    "/vectracor/research/research1.webp",
+    "/vectracor/research/research2.webp",
+    "/vectracor/research/research3.webp",
+    "/vectracor/research/research4.webp",
+    "/vectracor/research/research5.webp",
+    "/vectracor/research/research6.webp",
   ];
 
   return (

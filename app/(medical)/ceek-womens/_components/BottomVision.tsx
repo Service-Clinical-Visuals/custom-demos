@@ -75,7 +75,7 @@ export default function BottomVision() {
               <div key={i} className="flex items-center gap-3">
                 <div className=" p-2 rounded-full flex items-center justify-center">
                   <Image
-                    src="/ceek/flower.png" // your image path
+                    src="/ceek/flower.webp" // your image path
                     alt="flower"
                     width={16}
                     height={16}

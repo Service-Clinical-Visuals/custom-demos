@@ -56,7 +56,7 @@ const Support = () => {
             data-aos="fade-up"
             className="lg:ml-10 relative h-85 md:h-110 rounded-3xl overflow-hidden shadow-lg">
             <img
-              src="/jaeger/support.png"
+              src="/jaeger/support.webp"
               alt="Service Engineer"
               className="w-full h-full object-cover"
             />

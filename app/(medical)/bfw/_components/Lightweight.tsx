@@ -26,7 +26,7 @@ const Lightweight = () => {
         <div className="absolute inset-y-0 left-0 w-full min-[1281px]:w-[60%] bg-[var(--color-primary)] min-[1281px]:rounded-r-2xl min-[3800px]:rounded-r-[3rem] shadow-[0_4px_12px_rgba(0,0,0,0.15)] overflow-hidden">
           <div
             className="absolute inset-0"
-            style={{ backgroundImage: 'url("/medical/bfw/bg.png")', backgroundSize: "cover", backgroundPosition: "center" }}
+            style={{ backgroundImage: 'url("/medical/bfw/bg.webp")', backgroundSize: "cover", backgroundPosition: "center" }}
           />
           <div className="absolute inset-0 bg-[var(--color-primary)]/90" />
         </div>

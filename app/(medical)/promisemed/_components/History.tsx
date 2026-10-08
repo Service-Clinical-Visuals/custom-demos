@@ -10,7 +10,7 @@ const timeline = [
       "2013.07 Obtained CE certificate and ISO 13485",
       "2013.07 Launched pen needles and entered diabetes care field",
     ],
-    img: "/promisemed/h1.png",
+    img: "/promisemed/h1.webp",
   },
   {
     year: "2014",
@@ -19,7 +19,7 @@ const timeline = [
       "2014.03 Launched safety lancets",
       "2014.08 Obtained China manufacturing license",
     ],
-    img: "/promisemed/h2.png",
+    img: "/promisemed/h2.webp",
   },
   {
     year: "2015",
@@ -28,7 +28,7 @@ const timeline = [
       "2015.09 Recognized as a national high-tech enterprise",
       "2015.11 Launched safety pen needles",
     ],
-    img: "/promisemed/h3.png",
+    img: "/promisemed/h3.webp",
   },
   {
     year: "2018",
@@ -38,14 +38,14 @@ const timeline = [
       "2018.10 Recognized as a state enterprise research institute",
       "2018.12 Launched the 2nd generation safety",
     ],
-    img: "/promisemed/h4.png",
+    img: "/promisemed/h4.webp",
   },
 ];
 
 export default function History() {
   return (
     <section className="promisemed-root w-full bg-linear-to-t from-[#009B43] to-[#2353A3] text-white relative overflow-hidden">
-      <div className="absolute inset-0 opacity-20 bg-cover bg-[url('/promisemed/grid.jpg')]"></div>
+      <div className="absolute inset-0 opacity-20 bg-cover bg-[url('/promisemed/grid.webp')]"></div>
 
       <div className="custom-container mx-auto px-6 relative z-10">
         {/* GRID */}

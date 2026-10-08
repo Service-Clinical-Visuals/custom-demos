@@ -8,14 +8,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const icons: Record<string, string> = {
-  bed: "/medstrom/images/bed.png",
-  maintenance: "/medstrom/images/clipboard.png",
-  decontamination: "/medstrom/images/security.png",
-  advisors: "/medstrom/images/doctor-consultaion.png",
-  tracking: "/medstrom/images/search.png",
-  upholstery: "/medstrom/images/upholstery.png",
-  audit: "/medstrom/images/legal.png",
-  rental: "/medstrom/images/rental-service.png",
+  bed: "/medstrom/images/bed.webp",
+  maintenance: "/medstrom/images/clipboard.webp",
+  decontamination: "/medstrom/images/security.webp",
+  advisors: "/medstrom/images/doctor-consultaion.webp",
+  tracking: "/medstrom/images/search.webp",
+  upholstery: "/medstrom/images/upholstery.webp",
+  audit: "/medstrom/images/legal.webp",
+  rental: "/medstrom/images/rental-service.webp",
 };
 
 const servicesCards = [

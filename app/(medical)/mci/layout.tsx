@@ -11,7 +11,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/mci/images/fav.png",
+    icon: "/mci/images/fav.webp",
   },
   title: "MCI - Medical Concept Innovation inc.",
   description: "Innovative Solutions, Life-Changing Results Through Advanced Medical Technology. Precision Medical Solutions.",

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function OrthoSolutions() {
   const products = [
-    { name: "Nails", img: "/austofix/img.png" },
-    { name: "Plates", img: "/austofix/img (1).png" },
-    { name: "Screws", img: "/austofix/img (2).png" },
+    { name: "Nails", img: "/austofix/img.webp" },
+    { name: "Plates", img: "/austofix/img (1).webp" },
+    { name: "Screws", img: "/austofix/img (2).webp" },
   ];
 
   return (
@@ -18,7 +18,7 @@ export default function OrthoSolutions() {
           className="flex justify-center items-center gap-2 text-[#6CA033] text-sm mb-3">
           <span className="w-3 h-3  rounded-full">
             <Image
-              src="/austofix/screw-1.png"
+              src="/austofix/screw-1.webp"
               alt="idea"
               width={12}
               height={12}

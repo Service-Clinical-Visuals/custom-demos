@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Medicoplast",
   description: "High quality, innovative medical products MADE IN GERMANY",
   icons: {
-    icon: "/medicoplast/assets/medico-favicon.png",
+    icon: "/medicoplast/assets/medico-favicon.webp",
   },
 };
 

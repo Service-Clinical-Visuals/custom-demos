@@ -47,7 +47,7 @@ export default function Testing() {
             <div className="flex-1 flex flex-col gap-6">
               <div className="flex-1 relative min-h-[200px]">
                 <img
-                  src="/jaeger/product-1.png"
+                  src="/jaeger/product-1.webp"
                   alt="Product 1"
                   className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-md"
                 />
@@ -55,7 +55,7 @@ export default function Testing() {
 
               <div className="flex-1 relative min-h-[200px]">
                 <img
-                  src="/jaeger/product-2.png"
+                  src="/jaeger/product-2.webp"
                   alt="Product 2"
                   className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-md"
                 />

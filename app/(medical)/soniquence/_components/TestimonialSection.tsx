@@ -10,22 +10,22 @@ const testimonials = [
     {
         quote: "The Soniquence system has been a welcome addition to our surgical armamentarium. The efficiency and ease of use make it a great system for my cosmetic facial surgery. The novel electrode quick attach system and increased power with the bipolar turbo function are much appreciated. We use this system daily for surgical incisions, coagulation, lesion removal, and more.",
         author: "Dr. Joseph Niamtu III, DMD",
-        image: "/home/testi-1.png"
+        image: "/home/testi-1.webp"
     },
     {
         quote: "Soniquence is all about high-quality surgical RF- I get to perform every common surgical procedure I want, in my office, with minimal tissue damage and bleeding. Soniquence works like an artist's brush in the hands of a surgeon. I get to thin and feather my flaps easily, to the exact dimensions I wish.",
         author: "James Chelnis, MD",
-        image: "/home/testi-2.png"
+        image: "/home/testi-2.webp"
     },
     {
         quote: "The Soniquence Radiofrequency unit represents the best available technology in a surgical cutting device. I've used many different radiofrequency devices, but the Soniquence unit delivers consistent functionality, clean cutting, and excellent hemostasis of surgical incisions, particularly with the TURBO mode. I highly recommend the Soniquence device for any veterinarian that is considering purchasing a well-designed unit capable of powering a host of different attachments that assist the surgeon in providing excellent outcomes in any surgical procedure.",
         author: "Jeff Mayo, DVM, DABVP",
-        image: "/home/testi-3.png"
+        image: "/home/testi-3.webp"
     },
     {
         quote: "The Soniquence SmoothWave i200 has been an invaluable addition to my cosmetic surgery practice. I have been using radiofrequency devices for facial cosmetic surgery for over 10 years, and I am ecstatic with the precision and control provided by the i200. It is an all-in-one device that provides the capability for precise and clean incisions with the power of a traditional bipolar cautery.",
         author: "Ryan M. Diepenbrock, DDS, FAACS",
-        image: "/home/testi-4.png"
+        image: "/home/testi-4.webp"
     }
 ];
 
@@ -98,9 +98,9 @@ export default function TestimonialSection() {
                                     <div className="absolute -bottom-6 left-4 md:bottom-10 md:left-[-40px] bg-white rounded-2xl p-4 shadow-xl z-20 flex flex-col gap-2 scale-90 sm:scale-100 origin-bottom-left">
                                         <div className="flex items-center gap-4">
                                             <div className="flex -space-x-2">
-                                                <div className="w-8 h-8 rounded-full overflow-hidden bg-blue-200 border-2 border-white"><img src={`/soniquence/home/ts-1.png`} alt="" /> </div>
-                                                <div className="w-8 h-8 rounded-full overflow-hidden bg-purple-200 border-2 border-white"><img src={`/soniquence/home/ts-2.png`} alt="" /> </div>
-                                                <div className="w-8 h-8 rounded-full overflow-hidden bg-pink-200 border-2 border-white"><img src={`/soniquence/home/ts-3.png`} alt="" /> </div>
+                                                <div className="w-8 h-8 rounded-full overflow-hidden bg-blue-200 border-2 border-white"><img src={`/soniquence/home/ts-1.webp`} alt="" /> </div>
+                                                <div className="w-8 h-8 rounded-full overflow-hidden bg-purple-200 border-2 border-white"><img src={`/soniquence/home/ts-2.webp`} alt="" /> </div>
+                                                <div className="w-8 h-8 rounded-full overflow-hidden bg-pink-200 border-2 border-white"><img src={`/soniquence/home/ts-3.webp`} alt="" /> </div>
                                             </div>
                                             <div className="flex text-yellow-500">
                                                 <svg className="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>

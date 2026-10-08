@@ -21,7 +21,7 @@ export default function Footer() {
               <Link href="/tunning-element" className="mb-6">
                 <div className="relative w-40 xl:w-50">
                    <img 
-                      src="/medical/tunning-element/logo.png" 
+                      src="/medical/tunning-element/logo.webp" 
                       alt="Tuning Element" 
                       className="w-full h-auto object-contain object-left"
                    />
@@ -32,16 +32,16 @@ export default function Footer() {
               </p>
               <div className="flex items-center space-x-3">
                 <Link href="#" className="w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-secondary ">
-                 <img src="/medical/tunning-element/f1.png" alt="facebook" className='w-5 h-5' />
+                 <img src="/medical/tunning-element/f1.webp" alt="facebook" className='w-5 h-5' />
                 </Link>
                 <Link href="#" className="w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-secondary ">
-                 <img src="/medical/tunning-element/f2.png" alt="facebook" className='w-5 h-5' />
+                 <img src="/medical/tunning-element/f2.webp" alt="facebook" className='w-5 h-5' />
                 </Link>
                 <Link href="#" className="w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-secondary ">
-                 <img src="/medical/tunning-element/f3.png" alt="facebook" className='w-5 h-5' />
+                 <img src="/medical/tunning-element/f3.webp" alt="facebook" className='w-5 h-5' />
                 </Link>
                 <Link href="#" className="w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-secondary ">
-                 <img src="/medical/tunning-element/f4.png" alt="insta" className='w-5 h-5' />
+                 <img src="/medical/tunning-element/f4.webp" alt="insta" className='w-5 h-5' />
                 </Link>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function Footer() {
             <div className="xl:px-8">
               <div className="flex items-center space-x-3 mb-8">
              
-                  <img src="/medical/tunning-element/i1.png" alt="facebook" className='w-12 h-12' />
+                  <img src="/medical/tunning-element/i1.webp" alt="facebook" className='w-12 h-12' />
                 <h3 className="feature-title font-heading font-semibold text-[#121f38] relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-8 after:h-[3px] after:bg-[#c0865d]">Products</h3>
               </div>
               <ul className="space-y-4">
@@ -69,7 +69,7 @@ export default function Footer() {
             {/* Column 3: Tuning Element */}
             <div className="xl:px-8">
               <div className="flex items-center space-x-3 mb-8">
-                <img src="/medical/tunning-element/i2.png" alt="facebook" className='w-12 h-12' />
+                <img src="/medical/tunning-element/i2.webp" alt="facebook" className='w-12 h-12' />
                  <h3 className="feature-title font-heading font-semibold text-[#121f38] relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-8 after:h-[3px] after:bg-[#c0865d]">Tuning Element</h3>
               </div>
               <ul className="space-y-4">
@@ -88,7 +88,7 @@ export default function Footer() {
             {/* Column 4: Other Links */}
             <div className="xl:px-8">
               <div className="flex items-center space-x-3 mb-8">
-                <img src="/medical/tunning-element/i3.png" alt="facebook" className='w-12 h-12' />
+                <img src="/medical/tunning-element/i3.webp" alt="facebook" className='w-12 h-12' />
                  <h3 className="feature-title font-heading font-semibold text-[#121f38] relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-8 after:h-[3px] after:bg-[#c0865d]">Other Links</h3>
               </div>
               <ul className="space-y-4">
@@ -106,7 +106,7 @@ export default function Footer() {
             {/* Column 5: Stay Connected */}
             <div className="xl:pl-8">
               <div className="flex items-center space-x-3 mb-8">
-               <img src="/medical/tunning-element/i4.png" alt="facebook" className='w-12 h-12' />
+               <img src="/medical/tunning-element/i4.webp" alt="facebook" className='w-12 h-12' />
                 <h3 className="feature-title font-heading font-semibold text-[#121f38] relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-8 after:h-[3px] after:bg-[#c0865d]">Stay Connected</h3>
               </div>
               <p className="section-text text-[#546476] manrope mb-6 leading-relaxed">

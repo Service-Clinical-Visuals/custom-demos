@@ -4,31 +4,31 @@ import { useState, useRef } from "react";
 
 const products = [
   {
-    img : "/utah-medical/assets/utah-finess-plus.jpg",
+    img : "/utah-medical/assets/utah-finess-plus.webp",
     title: "Finesse®+ Electrosurgical Generators",
     desc: "Finesse®+ Electrosurgical Generators are the only systems with integrated smoke evacuation. Their unique electronic design improves results for office-based procedures of gynecologists and other medical specialties.",
   },
   {
-    img : "/utah-medical/assets/utah-supra.jpg", 
+    img : "/utah-medical/assets/utah-supra.webp", 
     title: "Suprapubic Catheterization",
     desc: "The Supra-Foley® is now available direct from Utah Medical Products. Achieve suprapubic bladder catheterization in a single step, with confidence provided by confirmation of bladder access...",
   },
   {
-    img : "/utah-medical/assets/utah-finess.png",
+    img : "/utah-medical/assets/utah-finess.webp",
     title: "Cervical Balloon Ripening",
     desc: "The new CVX-Ripe® cervical ripening catheter provides simultaneous gentle pressure at the internal and external os, and within the cervical canal to improve the favorability of the cervix during induction of labor."  }, 
   {
-    img: "/utah-medical/assets/utah-nutri.png",
+    img: "/utah-medical/assets/utah-nutri.webp",
     title: "Nutri-Cath® with ENFitTM",
     desc: "An ENFitTM Family of Enteral Only feeding catheters, extension sets, and syringes. The trusted safety and reliability of Nutri-Cath® catheters with new ENFitTM enteral only connections.",                         
   },
     {
-    img: "/utah-medical/assets/utah-uterine.png",
+    img: "/utah-medical/assets/utah-uterine.webp",
     title: "Uterine Balloon Tamponade",
     desc : "A systematic, stepwise approach to managing postpartum hemorrhage (PPH) includes use of the BT-Cath® balloon tamponade catheter."
   },
   {
-    img: "/utah-medical/assets/utah-illumination.png",
+    img: "/utah-medical/assets/utah-illumination.webp",
     title : "Illumination of the Cervix",
     desc : "The OptiSpec® ultra-bright LED light provides a pure white light spectrum in a small, clip-on disposable package for excellent non-colposcopic illumination of the cervix. "
   }

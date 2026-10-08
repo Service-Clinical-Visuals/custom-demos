@@ -101,7 +101,7 @@ export default function ScalableSolutions() {
                     <div className="lg:col-span-6 flex items-start" data-aos="fade-right" data-aos-delay="200">
                         <div className="w-full max-w-[791px] aspect-[4/3] sm:aspect-[791/358] lg:h-[358px] overflow-hidden rounded-xl md:rounded-none shadow-md border border-gray-100 bg-white">
                             <img
-                                src="/medical/lumed-srl/scalable.png"
+                                src="/medical/lumed-srl/scalable.webp"
                                 alt="LUMED Holter Analysis Procedure"
                                 className="w-full h-full object-cover  hover:scale-105 transition-transform duration-700 ease-out"
                             />

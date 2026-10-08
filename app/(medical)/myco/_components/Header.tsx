@@ -45,7 +45,7 @@ export default function Header() {
               <div className="flex-shrink-0 flex items-center">
                 <Link href="#">
                   <img
-                    src="/medical/myco-medical/logo.png"
+                    src="/medical/myco-medical/logo.webp"
                     alt="Myco Medical"
                     className="h-full w-auto object-contain"
                   />
@@ -93,7 +93,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#">
             <img
-              src="/medical/myco-medical/logo.png"
+              src="/medical/myco-medical/logo.webp"
               alt="Myco Medical"
               className="h-full w-auto object-contain"
             />

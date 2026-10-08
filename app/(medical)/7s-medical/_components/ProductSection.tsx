@@ -69,7 +69,7 @@ export default function ProductSection() {
           >
             {/* Header Icon + Title */}
             <div className="flex items-center gap-3.5 mb-4">
-              <img src="/7s-medical/innovation.png" alt="Innovation" className="w-10 h-10" />
+              <img src="/7s-medical/innovation.webp" alt="Innovation" className="w-10 h-10" />
               <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
                 Innovation
               </h3>
@@ -89,7 +89,7 @@ export default function ProductSection() {
           >
             {/* Header Icon + Title */}
             <div className="flex items-center gap-3.5 mb-4">
-              <img src="/7s-medical/anodization.png" alt="Type II Anodization" className="w-8 h-8" />
+              <img src="/7s-medical/anodization.webp" alt="Type II Anodization" className="w-8 h-8" />
               <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
                 Type II Anodization
               </h3>
@@ -109,7 +109,7 @@ export default function ProductSection() {
           >
             {/* Header Icon + Title */}
             <div className="flex items-center gap-3.5 mb-4">
-              <img src="/7s-medical/osteoporotic-bone.png" alt="Osteoporotic Bone" className="w-8 h-8" />
+              <img src="/7s-medical/osteoporotic-bone.webp" alt="Osteoporotic Bone" className="w-8 h-8" />
               <h3 className="text-[17px] font-bold text-gray-900 tracking-tight">
                 Osteoporotic Bone
               </h3>

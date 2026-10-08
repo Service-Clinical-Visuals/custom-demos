@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "emka",
   description: "Endorsed by leading automotive manufacturers worldwide. Explore our high-performance engine oils and lubricants.",
   icons: {
-    icon: "/moto/veedol-moto/logo 1.png",
+    icon: "/moto/veedol-moto/logo 1.webp",
   },
 };
 

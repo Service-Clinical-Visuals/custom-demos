@@ -39,7 +39,7 @@ export default function MedacureFooter() {
         <div data-aos="fade-up" className="col-span-2 lg:col-span-1">
             <div>
                 <img 
-                src="/medacure/assets/medacure-footer.png"
+                src="/medacure/assets/medacure-footer.webp"
                 alt="medacure-logo"
                 className="w-42 h-auto object-contain mb-4"
                 />

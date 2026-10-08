@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "DM Orthotics - Designing Innovative Orthotic Solutions",
   description: "DMO Orthotics are designers and manufacturers of dynamic movement orthoses (DMO) that manage the physical effects of neurological and neuromuscular conditions.",
   icons: {
-    icon: "/dm-orthotics/logo.png",
+    icon: "/dm-orthotics/logo.webp",
   },
 };
 

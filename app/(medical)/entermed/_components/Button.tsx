@@ -96,7 +96,7 @@ const Button: React.FC<ButtonProps> = ({
       <div className={`flex items-center gap-4 lg:gap-5 bg-transparent border border-primary rounded-full hover:bg-red-50 transition-colors group shadow-sm w-fit ${getPadding()} ${className}`}>
         <span className={`font-semibold tracking-wide text-gray-800 ${getTextSize()}`}>{children}</span>
         <div className={`${getCircleSize()} rounded-full bg-primary flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-sm`}>
-          <img className={getArrowSize()} src="/medical/entermed/buttonarrow.png" alt="button-arrow" />
+          <img className={getArrowSize()} src="/medical/entermed/buttonarrow.webp" alt="button-arrow" />
         </div>
       </div>
     );
@@ -113,7 +113,7 @@ const Button: React.FC<ButtonProps> = ({
       <div className={`flex items-center gap-4 lg:gap-5 bg-transparent border border-white rounded-full hover:bg-white/10 transition-colors group w-fit ${getPadding()} ${className}`}>
         <span className={`font-semibold tracking-wide text-white ${getTextSize()}`}>{children}</span>
         <div className={`${getCircleSize()} rounded-full bg-white flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-sm`}>
-          <img className={getArrowSize()} src="/medical/entermed/buttonarrow1.png" alt="button-arrow" />
+          <img className={getArrowSize()} src="/medical/entermed/buttonarrow1.webp" alt="button-arrow" />
         </div>
       </div>
     );
@@ -130,7 +130,7 @@ const Button: React.FC<ButtonProps> = ({
       <div className={`flex items-center gap-4 lg:gap-5 bg-white/10 backdrop-blur-sm border border-white/50 rounded-full hover:bg-white/20 transition-all group shadow-lg w-fit ${getPadding()} ${className}`}>
         <span className={`font-semibold tracking-wide text-white ${getTextSize()}`}>{children}</span>
         <div className={`${getCircleSize()} rounded-full bg-primary flex items-center justify-center group-hover:scale-105 group-hover:bg-primary-hover transition-all duration-300 shadow-sm`}>
-          <img className={getArrowSize()} src="/medical/entermed/buttonarrow.png" alt="button-arrow" />
+          <img className={getArrowSize()} src="/medical/entermed/buttonarrow.webp" alt="button-arrow" />
         </div>
       </div>
     );
@@ -176,11 +176,11 @@ const Button: React.FC<ButtonProps> = ({
             className={getArrowSize()}
             style={{
               backgroundColor: arrowColor || '#ffffff',
-              WebkitMaskImage: `url('/medical/entermed/buttonarrow.png')`,
+              WebkitMaskImage: `url('/medical/entermed/buttonarrow.webp')`,
               WebkitMaskSize: 'contain',
               WebkitMaskRepeat: 'no-repeat',
               WebkitMaskPosition: 'center',
-              maskImage: `url('/medical/entermed/buttonarrow.png')`,
+              maskImage: `url('/medical/entermed/buttonarrow.webp')`,
               maskSize: 'contain',
               maskRepeat: 'no-repeat',
               maskPosition: 'center',

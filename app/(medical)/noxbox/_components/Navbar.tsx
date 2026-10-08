@@ -77,7 +77,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex flex-col leading-none cursor-pointer">
             <img
-              src={`/noxbox/assets/logo.png`}
+              src={`/noxbox/assets/logo.webp`}
               alt="Noxbox Logo"
               width={100}
               height={100}

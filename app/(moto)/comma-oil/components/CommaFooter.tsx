@@ -63,7 +63,7 @@ export default function CommaFooter() {
 
             <img
               className="max-w-[280px]"
-              src="/comma/comma_logo2.png"
+              src="/comma/comma_logo2.webp"
             />
             </div>
 
@@ -158,7 +158,7 @@ export default function CommaFooter() {
               </a>
             ))} */}
             <img 
-              src="/comma/socialmedia.png"
+              src="/comma/socialmedia.webp"
             />
           </div>
         </div>

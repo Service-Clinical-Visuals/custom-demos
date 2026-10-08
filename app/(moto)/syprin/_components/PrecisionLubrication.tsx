@@ -37,7 +37,7 @@ export default function PrecisionLubrication() {
               <div className="w-full bg-[#0D0D0D] border border-[#666666] rounded-[8px] p-4 sm:p-5 min-[3800px]:p-8 flex items-center gap-4 sm:gap-6 min-h-[110px] min-[3800px]:min-h-[160px]">
                 <div className="w-[70px] h-[70px] sm:w-[85px] sm:h-[85px] min-[3800px]:w-[120px] min-[3800px]:h-[120px] bg-[#A12624] rounded-full flex items-center justify-center flex-shrink-0 p-4">
                   <img
-                    src="/moto/syprin/tick.png"
+                    src="/moto/syprin/tick.webp"
                     alt="Engine flow"
                     className="w-8 h-8 sm:w-10 sm:h-10 min-[3800px]:w-14 min-[3800px]:h-14 object-contain"
                   />
@@ -56,7 +56,7 @@ export default function PrecisionLubrication() {
               <div className="w-full bg-[#0D0D0D] border border-[#666666] rounded-[8px] p-4 sm:p-5 min-[3800px]:p-8 flex items-center gap-4 sm:gap-6 min-h-[110px] min-[3800px]:min-h-[160px]">
                 <div className="w-[70px] h-[70px] sm:w-[85px] sm:h-[85px] min-[3800px]:w-[120px] min-[3800px]:h-[120px] bg-[#A12624] rounded-full flex items-center justify-center flex-shrink-0 p-4">
                   <img
-                    src="/moto/syprin/tap.png"
+                    src="/moto/syprin/tap.webp"
                     alt="Precise application"
                     className="w-8 h-8 sm:w-10 sm:h-10 min-[3800px]:w-14 min-[3800px]:h-14 object-contain"
                   />

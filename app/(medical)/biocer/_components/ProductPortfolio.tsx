@@ -10,15 +10,15 @@ export default function ProductPortfolio() {
     const portfolioData = [
         {
             title: "Haemostasis",
-            bgImage: "/home/service-2.jpg",
+            bgImage: "/home/service-2.webp",
         },
         {
             title: "Surgical Meshes",
-            bgImage: "/home/service-1.jpg",
+            bgImage: "/home/service-1.webp",
         },
         {
             title: "Coating",
-            bgImage: "/home/service-3.jpg",
+            bgImage: "/home/service-3.webp",
         }
     ];
 

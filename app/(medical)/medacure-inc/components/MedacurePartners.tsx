@@ -5,14 +5,14 @@ import "aos/dist/aos.css";
 import LogoCard from "./MedacureLogoCard";
 
 const logos = [
-  "/medacure/assets/freespirit.png",
-  "/medacure/assets/hamilton.png",
-  "/medacure/assets/america-spirit.png",
-  "/medacure/assets/proex.png",
-  "/medacure/assets/airstream.png",
-  "/medacure/assets/alter-light.png",
-  "/medacure/assets/prime-ex.png",
-  "/medacure/assets/oasis.png",
+  "/medacure/assets/freespirit.webp",
+  "/medacure/assets/hamilton.webp",
+  "/medacure/assets/america-spirit.webp",
+  "/medacure/assets/proex.webp",
+  "/medacure/assets/airstream.webp",
+  "/medacure/assets/alter-light.webp",
+  "/medacure/assets/prime-ex.webp",
+  "/medacure/assets/oasis.webp",
 ];
 
 export default function MedacurePartners() {

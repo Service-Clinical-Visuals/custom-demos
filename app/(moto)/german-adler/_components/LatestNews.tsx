@@ -7,13 +7,13 @@ export default function LatestNews() {
       artNo: "Art.-No. M008",
       title: "GERMAN ADLER MOTOR OIL SYNT SAE 0W-8",
       desc: "Fully synthetic high-performance motor oil delivering excellent lubrication, engine protection, smooth cold starts, and improved fuel efficiency.",
-      image: "/moto/german-adler/news1.png"
+      image: "/moto/german-adler/news1.webp"
     },
     {
       artNo: "Art.-No. M166",
       title: "GERMAN ADLER SYNT SAE 0W-30 S",
       desc: "Advanced formulation delivering excellent wear protection, smooth performance at low temperatures, improved efficiency, and reduced emissions.",
-      image: "/moto/german-adler/news2.png"
+      image: "/moto/german-adler/news2.webp"
     }
   ];
 

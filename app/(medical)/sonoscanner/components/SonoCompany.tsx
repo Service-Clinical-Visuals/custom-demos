@@ -91,7 +91,7 @@ export default function SonoCompany() {
                 data-aos="zoom-in"
               >
                 
-                <img src="/sono-scanner/sono-company-1.png" alt="logo" className="w-full" />
+                <img src="/sono-scanner/sono-company-1.webp" alt="logo" className="w-full" />
               </div>
 
               {/* BOTTOM LEFT */}
@@ -100,7 +100,7 @@ export default function SonoCompany() {
                 data-aos="fade-right"
                 data-aos-delay="150"
               >
-                                <img src="/sono-scanner/sono-company-2.png" alt="logo" className="w-full" />
+                                <img src="/sono-scanner/sono-company-2.webp" alt="logo" className="w-full" />
 
               </div>
 
@@ -110,7 +110,7 @@ export default function SonoCompany() {
                 data-aos="fade-left"
                 data-aos-delay="250"
               >
-                                <img src="/sono-scanner/sono-company-3.png" alt="logo" className="w-full" />
+                                <img src="/sono-scanner/sono-company-3.webp" alt="logo" className="w-full" />
 
               </div>
             </div>

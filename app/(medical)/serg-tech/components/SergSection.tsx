@@ -34,7 +34,7 @@ export default function SergSection() {
     <section className="relative overflow-hidden bg-[#1A237E] py-24 px-6">
       {/* BACKGROUND DESIGN */}
       <div className="absolute inset-0 overflow-hidden">
-        <img src="/sergtech/serg-section-bg.png" alt="Background 1" className="absolute inset-0 w-full h-full object-cover opacity-30" />
+        <img src="/sergtech/serg-section-bg.webp" alt="Background 1" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
 
       {/* CONTENT */}

@@ -1,9 +1,9 @@
 // components/Products.tsx
 const products = [
-  { name: "Universal SmartECG", img: "/vectracor/ECG.png" },
-  { name: "Orbit Spirometer", img: "/vectracor/Spirometer.png" },
-  { name: "VectraplexECG", img: "/vectracor/Office-Medic.png" },
-  { name: "Office Medic", img: "/vectracor/Consumables.png" },
+  { name: "Universal SmartECG", img: "/vectracor/ECG.webp" },
+  { name: "Orbit Spirometer", img: "/vectracor/Spirometer.webp" },
+  { name: "VectraplexECG", img: "/vectracor/Office-Medic.webp" },
+  { name: "Office Medic", img: "/vectracor/Consumables.webp" },
 ];
 
 export default function Products() {

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Micrel Medical Devices | Freedom without Clinical Compromise",
   description: "Micrel Medical Devices provides ambulatory infusion pumps, administration sets, accessories, and patient infusion management solutions.",
   icons: {
-    icon: "/micrel/header_logo%201.png",
+    icon: "/micrel/header_logo%201.webp",
   },
 };
 

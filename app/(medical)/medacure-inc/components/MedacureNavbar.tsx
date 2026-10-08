@@ -33,7 +33,7 @@ export default function MedacureNavbar() {
       <div className="custom-container mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo */}
         <div className="">
-          <img src="/medacure/assets/medacure-logo2.png" alt="Medacure Logo"  className="w-[100px] 2xl:w-[200px] h-auto" />
+          <img src="/medacure/assets/medacure-logo2.webp" alt="Medacure Logo"  className="w-[100px] 2xl:w-[200px] h-auto" />
         </div>
 
         {/* Nav Links */}

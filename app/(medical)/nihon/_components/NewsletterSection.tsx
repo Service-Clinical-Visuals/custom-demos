@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const NewsletterSection = () => {
   return (
-    <section className="py-16 lg:py-20 bg-[url('/nihon/images/subscribe-bg.png')] bg-center bg-cover relative overflow-hidden text-white">
+    <section className="py-16 lg:py-20 bg-[url('/nihon/images/subscribe-bg.webp')] bg-center bg-cover relative overflow-hidden text-white">
 
       <div className="container mx-auto px-4 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">

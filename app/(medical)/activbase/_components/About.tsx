@@ -22,7 +22,7 @@ export default function About() {
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Content - Image Placeholder */}
         <div data-aos="fade-right" className="w-full relative lg:h-[600px] aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden flex items-center justify-center border border-gray-200">
-          <img src="/activbase/home/about.png" alt="Personalised Protocol" className="w-full h-full object-cover" />
+          <img src="/activbase/home/about.webp" alt="Personalised Protocol" className="w-full h-full object-cover" />
         </div>
 
         {/* Right Content */}

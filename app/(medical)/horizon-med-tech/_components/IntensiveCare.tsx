@@ -7,13 +7,13 @@ const products = [
   {
     title: "Horizon Brammi",
     description: "Advanced Thermoregulatory device. Includes full servo-control modes with configurable automatic cooling and rewarming. Non-servo warming / cooling modes. Compact design.",
-    image: "/horizon/images/horizon-brammi.png",
+    image: "/horizon/images/horizon-brammi.webp",
     href: "#",
   },
   {
     title: "Picterus Jaundice Pro",
     description: "Instant jaundice screening for newborn babies with a mobile phone and calibration card. Validated in all skin types, for use by health care staff and also by parents.",
-    image: "/horizon/images/picterus-jaundice-pro.png",
+    image: "/horizon/images/picterus-jaundice-pro.webp",
     href: "#",
   }
 ];
@@ -22,7 +22,7 @@ export default function IntensiveCare() {
   return (
     <section className="w-full py-24 bg-[#064163] relative overflow-hidden horizon-root">
       <div
-        className="absolute inset-0 opacity-[0.28] pointer-events-none bg-[url('/horizon/images/about-bg.png')] bg-cover bg-center"
+        className="absolute inset-0 opacity-[0.28] pointer-events-none bg-[url('/horizon/images/about-bg.webp')] bg-cover bg-center"
       />
       <div className="custom-container px-4 md:px-6 relative z-10">
         {/* Header Part */}

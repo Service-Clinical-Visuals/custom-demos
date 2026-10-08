@@ -6,7 +6,7 @@ export default function HelpSection() {
   const [reason, setReason] = useState("");
 
   return (
-    <section className="w-full relative bg-[url('/moove/home/bg.jpg')] bg-cover bg-no-repeat bg-center text-white py-16">.
+    <section className="w-full relative bg-[url('/moove/home/bg.webp')] bg-cover bg-no-repeat bg-center text-white py-16">.
       <div className="absolute inset-0 z-0 bg-[var(--moove-dark-blue)]/80" />
       <div className="container relative z-1 mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

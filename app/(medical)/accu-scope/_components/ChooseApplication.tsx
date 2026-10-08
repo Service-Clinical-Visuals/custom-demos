@@ -5,33 +5,33 @@ import { useState } from "react";
 const applications = [
   {
     title: "Clinical",
-    image: "/accu-scope/application/Clinical.png",
-    imagehover: "/accu-scope/application/ClinicalHover.png",
+    image: "/accu-scope/application/Clinical.webp",
+    imagehover: "/accu-scope/application/ClinicalHover.webp",
   },
   {
     title: "Education",
-    image: "/accu-scope/application/Education.png",
-    imagehover: "/accu-scope/application/EducationHover.png",
+    image: "/accu-scope/application/Education.webp",
+    imagehover: "/accu-scope/application/EducationHover.webp",
   },
   {
     title: "Research",
-    image: "/accu-scope/application/Research.png",
-    imagehover: "/accu-scope/application/ResearchHover.png",
+    image: "/accu-scope/application/Research.webp",
+    imagehover: "/accu-scope/application/ResearchHover.webp",
   },
   {
     title: "Veterinary",
-    image: "/accu-scope/application/Veterinary.png",
-    imagehover: "/accu-scope/application/VeterinaryHover.png",
+    image: "/accu-scope/application/Veterinary.webp",
+    imagehover: "/accu-scope/application/VeterinaryHover.webp",
   },
   {
     title: "Industrial",
-    image: "/accu-scope/application/Industrial.png",
-    imagehover: "/accu-scope/application/IndustrialHover.png",
+    image: "/accu-scope/application/Industrial.webp",
+    imagehover: "/accu-scope/application/IndustrialHover.webp",
   },
   {
     title: "OEM",
-    image: "/accu-scope/application/OEM.png",
-    imagehover: "/accu-scope/application/OEMHover.png",
+    image: "/accu-scope/application/OEM.webp",
+    imagehover: "/accu-scope/application/OEMHover.webp",
   },
 ];
 

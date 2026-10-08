@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="">
             <div className="flex items-center gap-2 mb-6">
-                 <img src="/strena/images/strena-logo.png" alt="strena-logo" className="h-12" />
+                 <img src="/strena/images/strena-logo.webp" alt="strena-logo" className="h-12" />
             </div>
             <p className="text-[15px] lg:text-[16px] leading-relaxed mb-8">
               Strena Medical, with 35+ years of experience, delivers medical devices 

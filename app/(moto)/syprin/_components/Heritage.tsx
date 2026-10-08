@@ -28,7 +28,7 @@ export default function Heritage() {
             {/* Background Product Wheel: Touches top and bottom on desktop layouts */}
             <div className="absolute left-0 top-0 bottom-0 xl:-top-24 min-[2500px]:-top-32 min-[3800px]:-top-44 xl:-bottom-24 min-[2500px]:-bottom-32 min-[3800px]:-bottom-44 w-[85%] sm:w-[80%] xl:w-[85%] max-w-[580px] min-[2500px]:max-w-[820px] min-[3800px]:max-w-[1100px] overflow-hidden flex items-center justify-start pointer-events-none z-0">
               <img
-                src="/moto/syprin/about1.png"
+                src="/moto/syprin/about1.webp"
                 alt="Original Syprin Product Wheel"
                 className="w-full h-full object-cover object-left-top"
               />
@@ -37,7 +37,7 @@ export default function Heritage() {
             {/* Foreground Rounded Black Card with White Border */}
             <div className="relative z-10 ml-auto w-[82%] sm:w-[78%] lg:w-[82%] max-w-[580px] min-[2500px]:max-w-[780px] min-[3800px]:max-w-[1000px] aspect-[677/636] bg-[#0D0D0D] border border-white rounded-[20px] min-[3800px]:rounded-[36px] p-6 sm:p-10 lg:p-12 min-[3800px]:p-20 flex items-center justify-center shadow-2xl">
               <img
-                src="/moto/syprin/about2.png"
+                src="/moto/syprin/about2.webp"
                 alt="Original Syprin"
                 className="w-full max-w-[440px] min-[2500px]:max-w-[620px] min-[3800px]:max-w-[820px] h-auto max-h-[80%] object-contain"
               />

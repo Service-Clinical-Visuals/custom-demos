@@ -7,25 +7,25 @@ const teamMembers = [
     id: 1,
     name: "Nathan Roth",
     role: "Director Of Business Development",
-    image: "/pulmo/pulmo-teams-1.png",
+    image: "/pulmo/pulmo-teams-1.webp",
   },
   {
     id: 2,
     name: "Katie Sievers",
     role: "Director Of Business Development",
-    image: "/pulmo/pulmo-teams-2.png",
+    image: "/pulmo/pulmo-teams-2.webp",
   },
   {
     id: 3,
     name: "Mike Quinn",
     role: "Territory Manager",
-    image: "/pulmo/pulmo-teams-3.png",
+    image: "/pulmo/pulmo-teams-3.webp",
   },
   {
     id: 4,
     name: "Logan Skelly",
     role: "Vice President Of Sales",
-    image: "/pulmo/pulmo-teams-4.png",
+    image: "/pulmo/pulmo-teams-4.webp",
   },
 ];
 

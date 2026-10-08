@@ -9,17 +9,17 @@ import { ArrowRight, Circle, CircleCheck } from "lucide-react";
 const cards = [
   {
     title: "Imaging & Diagnostics",
-    img: "/stern-med/stern-1.jpg",
+    img: "/stern-med/stern-1.webp",
     items: ["MRI", "Ultrasound", "Mammography systems", "CT", "X-ray systems"],
   },
   {
     title: "Operating Room Solutions",
-    img: "/stern-med/stern-2.png",
+    img: "/stern-med/stern-2.webp",
     items: ["Anesthesia devices", "Surgical lights", "Surgical tables", "ESU"],
   },
   {
     title: "ICU Devices",
-    img: "/stern-med/stern-3.jpg",
+    img: "/stern-med/stern-3.webp",
     items: ["Patient monitors", "Syringe pumps", "Infusion pumps", "ICU ventilators"],
   },
 ];

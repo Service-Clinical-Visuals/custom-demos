@@ -6,21 +6,21 @@ const cardsData = [
     id: 1,
     title: "Acute Care",
     description: "With growing and aging populations, the demand for acute care is rising year-round. Increasing patient complexity and risks, such as pressure ulcers and falls, require timely and effective care solutions.",
-    image: "/medstrom/images/home/client-1.png",
+    image: "/medstrom/images/home/client-1.webp",
     fallbackColor: "bg-[#B47556]"
   },
   {
     id: 2,
     title: "ITU & Critical Care",
     description: "Prolonged immobility can lead to further complications and disability, especially in critically ill ICU patients. Early mobilisation is proven to improve recovery and patient outcomes.",
-    image: "/medstrom/images/home/client-2.png",
+    image: "/medstrom/images/home/client-2.webp",
     fallbackColor: "bg-[#28536B]"
   },
   {
     id: 3,
     title: "Specialist Care",
     description: "The number of complex patients in general wards is increasing. Specialist beds and surfaces improve patient care while enhancing caregiver efficiency and reducing manual handling risks.",
-    image: "/medstrom/images/home/client-3.png",
+    image: "/medstrom/images/home/client-3.webp",
     fallbackColor: "bg-[#6A7F93]"
   }
 ];

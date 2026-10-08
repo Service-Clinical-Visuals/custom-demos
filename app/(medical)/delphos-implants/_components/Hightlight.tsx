@@ -44,7 +44,7 @@ export default function Highlight() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start gap-2 text-[17px] text-[#666666]">
                 <img
-                  src="/delphos-implants/images/send.png"
+                  src="/delphos-implants/images/send.webp"
                   alt="send"
                   width={16}
                   height={16}
@@ -56,7 +56,7 @@ export default function Highlight() {
 
               <li className="flex items-start gap-2 text-[17px] text-[#666666]">
                 <img
-                  src="/delphos-implants/images/send.png"
+                  src="/delphos-implants/images/send.webp"
                   alt="send"
                   width={16}
                   height={16}
@@ -67,7 +67,7 @@ export default function Highlight() {
 
               <li className="flex items-start gap-2 text-[17px] text-[#666666]">
                 <img
-                  src="/delphos-implants/images/send.png"
+                  src="/delphos-implants/images/send.webp"
                   alt="send"
                   width={16}
                   height={16}
@@ -79,7 +79,7 @@ export default function Highlight() {
 
               <li className="flex items-start gap-2 text-[17px] text-[#666666]">
                 <img
-                  src="/delphos-implants/images/send.png"
+                  src="/delphos-implants/images/send.webp"
                   alt="send"
                   width={16}
                   height={16}

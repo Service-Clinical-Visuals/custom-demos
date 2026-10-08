@@ -7,17 +7,17 @@ const cards = [
   {
     title: "ENT",
     desc: "In close cooperation with our customers, we design equipment to meet their needs. Optimally matched to the benefits in your everyday practice. We are the partner for ear, nose and throat physicians.",
-    img: "/orlvision/app1.png",
+    img: "/orlvision/app1.webp",
   },
   {
     title: "HEARING AND ACOUSTICS",
     desc: "Our expertise in hearing aid acoustics enables us to create solutions that support effective consultations. We are a trusted partner for hearing care professionals.",
-    img: "/orlvision/app2.png",
+    img: "/orlvision/app2.webp",
   },
   {
     title: "FEES / SWALLOWING DIAGNOSIS",
     desc: "Only with the right technique and a coordinated system can a good diagnosis be made, which can be the basis for targeted therapy and successful recovery. This is what looks like to us.",
-    img: "/orlvision/app3.png",
+    img: "/orlvision/app3.webp",
   },
 ];
 

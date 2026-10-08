@@ -6,13 +6,13 @@ import Button from "./Button";
 
 const features = [
     {
-        icon: "optomic/new-product.png",
+        icon: "optomic/new-product.webp",
         title: "Innovation & Production",
         description:
             "Driven by a strong R&D foundation, we develop advanced solutions in collaboration with experts. Our fully integrated production process—from design to final assembly—ensures consistent quality and precision at every stage.",
     },
     {
-        icon: "optomic/badge.png",
+        icon: "optomic/badge.webp",
         title: "Quality & Sustainability",
         description:
             "We adhere to strict European standards with certified quality and environmental systems. Our modern facilities and controlled processes ensure safe, reliable, and eco-friendly medical equipment.",
@@ -28,7 +28,7 @@ export default function About() {
                     <div className="">
                         <div className="rounded-[40px] overflow-hidden bg-[#E8EEF4] aspect-square lg:aspect-[4/3] flex items-center justify-center shadow-2xl relative group">
                             <img
-                                src="/optomic/about.jpg"
+                                src="/optomic/about.webp"
                                 alt="Optomic Specialists at work"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             />

@@ -5,22 +5,22 @@ const features = [
   {
     title: "Personalised Protocol",
     description: "ActivBase follows personalised physiotherapy protocols designed for each individual, even for similar conditions, ensuring accurate diagnosis and better recovery outcomes.",
-    icon: "/activbase/home/icon-1.png",
+    icon: "/activbase/home/icon-1.webp",
   },
   {
     title: "Expert Team",
     description: "A multidisciplinary team of physiotherapists, doctors, surgeons, psychologists, fitness experts, and scientists working together for comprehensive rehabilitation care",
-    icon: "/activbase/home/icon-2.png",
+    icon: "/activbase/home/icon-2.webp",
   },
   {
     title: "Complete and Accelerated Rehabilitation",
     description: "Structured rehabilitation programs that support faster recovery, safe return to daily activities, and confident return to sports without fear of re-injury.",
-    icon: "/activbase/home/icon-3.png",
+    icon: "/activbase/home/icon-3.webp",
   },
   {
     title: "Advanced and Modern approach",
     description: "Technology, facility and system will always be adaptive to scientific breakthroughs in the industry.",
-    icon: "/activbase/home/icon-4.png",
+    icon: "/activbase/home/icon-4.webp",
   },
 ];
 

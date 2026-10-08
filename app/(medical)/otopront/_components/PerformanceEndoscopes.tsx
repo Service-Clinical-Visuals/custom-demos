@@ -31,7 +31,7 @@ export default function PerformanceEndoscopes() {
           <div className="w-full mt-12 lg:mt-0" data-aos="fade-left">
             <div className="relative w-full rounded-[24px] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] ">
               {/* Space for the endoscopes image */}
-              <img src="/otopront/images/endoscopes.png" alt="Flexible Endoscopes" className="w-full h-full object-contain" />
+              <img src="/otopront/images/endoscopes.webp" alt="Flexible Endoscopes" className="w-full h-full object-contain" />
             </div>
           </div>
           

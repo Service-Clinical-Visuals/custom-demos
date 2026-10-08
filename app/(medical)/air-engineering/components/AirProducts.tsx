@@ -5,27 +5,27 @@
 const products = [
   {
     title: "Pneumatic Valves",
-    image: "/ae/ae-product-1.png",
+    image: "/ae/ae-product-1.webp",
   },
   {
     title: "Pneumatic Cylinders",
-    image: "/ae/ae-product-2.png",
+    image: "/ae/ae-product-2.webp",
   },
   {
     title: "Air Preparation",
-    image: "/ae/ae-product-3.png",
+    image: "/ae/ae-product-3.webp",
   },
   {
     title: "Air Compressors",
-    image: "/ae/ae-product-4.png",
+    image: "/ae/ae-product-4.webp",
   },
   {
     title: "Nitrogen Generators",
-    image: "/ae/ae-product-5.png",
+    image: "/ae/ae-product-5.webp",
   },
   {
     title: "Air Receivers",
-    image: "/ae/ae-product-6.png",
+    image: "/ae/ae-product-6.webp",
   },
 ];
 

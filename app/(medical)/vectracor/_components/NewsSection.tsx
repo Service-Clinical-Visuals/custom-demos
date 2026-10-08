@@ -5,7 +5,7 @@ export default function Subscribe() {
 
       {/* Background Image */}
       <img
-        src="/vectracor/Contact-us.jpg"
+        src="/vectracor/Contact-us.webp"
         alt="city"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />

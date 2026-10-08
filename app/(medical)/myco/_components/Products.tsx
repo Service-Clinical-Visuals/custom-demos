@@ -4,17 +4,17 @@ import Container from "./Container";
 const products = [
   {
     name: "RELI® Push Button Safety Blood Collection Set",
-    image: "/medical/myco-medical/products/product1.png",
+    image: "/medical/myco-medical/products/product1.webp",
     href: "#",
   },
   {
     name: "RELI® Safety Blood Collection Set with EZ-Flash® Technology",
-    image: "/medical/myco-medical/products/product2.png",
+    image: "/medical/myco-medical/products/product2.webp",
     href: "#",
   },
   {
     name: "RELI® Blood Transfer Devices, Male and Female",
-    image: "/medical/myco-medical/products/product3.png",
+    image: "/medical/myco-medical/products/product3.webp",
     href: "#",
   },
 ];

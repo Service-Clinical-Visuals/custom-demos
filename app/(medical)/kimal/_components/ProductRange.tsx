@@ -2,10 +2,10 @@ import { ArrowRight } from "lucide-react";
 
 export default function ProductRange() {
   const products = [
-    { name: "Pack+ Surgical", active: true, image: "/kimal/images/pack-1.jpg" },
-    { name: "Pack+ Laparoscopic", active: false, image: "/kimal/images/pack-2.jpg" },
-    { name: "Pack+ Cardiac", active: false, image: "/kimal/images/pack-3.jpg" },
-    { name: "Pack+ Pacing", active: false, image: "/kimal/images/pack-4.jpg" },
+    { name: "Pack+ Surgical", active: true, image: "/kimal/images/pack-1.webp" },
+    { name: "Pack+ Laparoscopic", active: false, image: "/kimal/images/pack-2.webp" },
+    { name: "Pack+ Cardiac", active: false, image: "/kimal/images/pack-3.webp" },
+    { name: "Pack+ Pacing", active: false, image: "/kimal/images/pack-4.webp" },
   ];
 
   return (

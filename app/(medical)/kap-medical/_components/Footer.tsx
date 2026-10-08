@@ -25,7 +25,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     <div className="col-span-1 md:col-span-1">
                         <div className='mb-8'>
-                            <Link href="/"><img src={`/kap-medical/images/logo.png`} alt="logo" className='h-12' /></Link>
+                            <Link href="/"><img src={`/kap-medical/images/logo.webp`} alt="logo" className='h-12' /></Link>
                         </div>
                         <p className="text-md! text-gray-700! leading-relaxed! mb-8">
                             KAP Medical is a designer and manufacturer of state-

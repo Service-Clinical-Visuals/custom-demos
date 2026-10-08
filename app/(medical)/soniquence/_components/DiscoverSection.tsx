@@ -11,7 +11,7 @@ export default function DiscoverSection() {
                     >
                         {/* Note: Update with actual Next.js Image component when image is available */}
                         <div className="text-gray-400 flex flex-col items-center">
-                            <img src={`/soniquence/home/discover.png`} alt="Discover Section Image" />
+                            <img src={`/soniquence/home/discover.webp`} alt="Discover Section Image" />
                         </div>
                     </div>
 

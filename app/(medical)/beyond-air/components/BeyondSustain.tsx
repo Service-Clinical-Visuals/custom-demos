@@ -23,7 +23,7 @@ export default function BeyondSustain() {
       <div className="absolute inset-0 -z-10">
         <div className="w-full h-full bg-gradient-to-r from-[#0ea5e9] to-[#0284c7]" />
         {/* Add your bg image here */}
-        <img src="/beyond-air/assets/beyond-bg.png" className="absolute inset-0 w-full h-full object-cover opacity-30" />
+        <img src="/beyond-air/assets/beyond-bg.webp" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       </div>
       <div className="w-full custom-container mx-auto">
 

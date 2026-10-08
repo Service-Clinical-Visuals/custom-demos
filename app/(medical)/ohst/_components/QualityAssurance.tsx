@@ -13,7 +13,7 @@ interface ServiceItem {
 
 const services: ServiceItem[] = [
   {
-    image: "/medical/ohst/services/services1.png",
+    image: "/medical/ohst/services/services1.webp",
     title: (
       <>
         Precision Investment Casting for
@@ -24,7 +24,7 @@ const services: ServiceItem[] = [
     description: "We produce high-quality implant components using investment...",
   },
   {
-    image: "/medical/ohst/services/services2.png",
+    image: "/medical/ohst/services/services2.webp",
     title: (
       <>
         Contract Manufacturing for Implants
@@ -35,7 +35,7 @@ const services: ServiceItem[] = [
     description: "Precision, quality, and innovation define our contract manufacturing for...",
   },
   {
-    image: "/medical/ohst/services/services3.png",
+    image: "/medical/ohst/services/services3.webp",
     title: (
       <>
         Clean Room Packaging &amp; Sterilisation
@@ -46,12 +46,12 @@ const services: ServiceItem[] = [
     description: "Beyond manufacturing your medical devices, we provide validated...",
   },
   {
-    image: "/medical/ohst/services/services4.png",
+    image: "/medical/ohst/services/services4.webp",
     title: <>Design and Development</>,
     description: "For more than three decades, we have been developing implants...",
   },
   {
-    image: "/medical/ohst/services/services5.png",
+    image: "/medical/ohst/services/services5.webp",
     title: (
       <>
         Surface Treatment &amp; Coating

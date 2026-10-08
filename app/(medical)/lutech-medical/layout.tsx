@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Lutech Medical",
   description: "Colposcopes | Lutech Medical",
   icons: {
-    icon: "/lutech-medical/assets/lutech-favicon.jpg",
+    icon: "/lutech-medical/assets/lutech-favicon.webp",
   },
 };
 

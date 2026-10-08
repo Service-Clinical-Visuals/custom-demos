@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Column 1: Logo & Description */}
           <div className="sm:col-span-2 lg:col-span-4 flex flex-col items-start pr-4" data-aos="fade-up">
             <img
-              src="/moto/vessel/footer-logo.png"
+              src="/moto/vessel/footer-logo.webp"
               alt="VESSEL"
               className="h-10 lg:h-15 w-auto object-contain object-left brightness-0 invert mb-6"
             />

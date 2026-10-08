@@ -26,7 +26,7 @@ export default function Header() {
                     <Link href="/" className="flex items-center gap-2" aria-label="Home">
                         {/* A space for future user image upload */}
                         <div className="flex items-center relative w-[100px] md:w-[120px] h-[36px] md:h-[40px]">
-                            <img src={`/vyne/logo.png`} alt="Logo" className="w-full h-full object-contain object-left" />
+                            <img src={`/vyne/logo.webp`} alt="Logo" className="w-full h-full object-contain object-left" />
                         </div>
                     </Link>
                 </div>

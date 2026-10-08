@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Austofix delivers advanced medical and clean room solutions with high precision and quality.",
   icons: {
-    icon: "/austofix/austofix.png",
+    icon: "/austofix/austofix.webp",
   },
 };
 export default function Layout({ children }: { children: React.ReactNode }) {

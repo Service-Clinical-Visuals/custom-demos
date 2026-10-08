@@ -93,7 +93,7 @@ export default function AirAbout() {
           <div data-aos="fade-right" className="relative">
             <div className="relative w-full h-full overflow-hidden">
               <img
-                src="/ae/ae-about-2.png"
+                src="/ae/ae-about-2.webp"
                 alt="Industrial Machine"
                 className="w-full h-full object-contain"
               />

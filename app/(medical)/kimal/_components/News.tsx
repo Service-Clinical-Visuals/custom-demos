@@ -27,7 +27,7 @@ export default function News() {
   return (
     <section className="pt-16 lg:pt-20 pb-16 lg:pb-28 bg-white relative overflow-hidden">
       {/* Absolute Header Background Strip */}
-      <div className="absolute top-0 left-0 w-full h-[400px] lg:h-[450px] bg-[#407EC9] bg-[url('/kimal/images/bg.jpg')] bg-cover bg-center z-0"></div>
+      <div className="absolute top-0 left-0 w-full h-[400px] lg:h-[450px] bg-[#407EC9] bg-[url('/kimal/images/bg.webp')] bg-cover bg-center z-0"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-6xl mx-auto mb-12 lg:mb-16 text-white" data-aos="fade-up">

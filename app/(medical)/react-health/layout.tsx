@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "React Health",
   description: "React Health delivers innovative and accessible sleep and respiratory care solutions designed to help people breathe easier, sleep better, and live healthier.",
   icons: {
-    icon: "/react-health/logo.jpg"
+    icon: "/react-health/logo.webp"
   }
 };
 

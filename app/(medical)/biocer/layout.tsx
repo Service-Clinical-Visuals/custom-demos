@@ -9,9 +9,9 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   icons: {
-    icon: `/biocer/favicon.png`,
-    shortcut: `/biocer/favicon.png`,
-    apple: `/biocer/favicon.png`,
+    icon: `/biocer/favicon.webp`,
+    shortcut: `/biocer/favicon.webp`,
+    apple: `/biocer/favicon.webp`,
   },
   title: "BioCer",
   description: "BioCer",

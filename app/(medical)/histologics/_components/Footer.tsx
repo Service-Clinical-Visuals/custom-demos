@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="lg:col-span-1 flex flex-col justify-start" data-aos="fade-up" data-aos-delay="0">
                         <Link href="/" className="mb-8 inline-block">
                             <img
-                                src={`/histologics/images/histologics-logo.png`}
+                                src={`/histologics/images/histologics-logo.webp`}
                                 alt="Histologics"
                                 width={150}
                                 height={50}

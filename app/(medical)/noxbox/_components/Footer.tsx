@@ -16,7 +16,7 @@ export default function Footer() {
             data-aos="fade-up"
           >
             <img
-              src={`/noxbox/assets/logo.png`}
+              src={`/noxbox/assets/logo.webp`}
               alt="logo"
               width={100}
               height={100}

@@ -92,7 +92,7 @@ export default function AirNavbar() {
             <div className="flex items-center gap-5">
               <div className="relative h-[44px] w-[225px]">
                 <img
-                  src="/ae/ae-logo.png"
+                  src="/ae/ae-logo.webp"
                   alt="AEG Logo"
                   className="w-full h-full object-contain"
                 />

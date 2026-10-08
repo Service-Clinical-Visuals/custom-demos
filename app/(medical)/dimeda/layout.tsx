@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Dimeda delivers advanced medical and clean room solutions with high precision and quality.",
   icons: {
-    icon: "/dimeda/logo.png",
+    icon: "/dimeda/logo.webp",
   },
 };
 export default function Layout({ children }: { children: React.ReactNode }) {

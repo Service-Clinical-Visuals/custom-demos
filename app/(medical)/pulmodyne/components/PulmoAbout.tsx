@@ -41,7 +41,7 @@ export default function PulmoAbout() {
               {/* FUTURE IMAGE */}
               
               <Image
-                src="/pulmo/pulmo-about.png"
+                src="/pulmo/pulmo-about.webp"
                 alt="Pulmodyne Headquarters"
                 fill
                 className="object-cover"

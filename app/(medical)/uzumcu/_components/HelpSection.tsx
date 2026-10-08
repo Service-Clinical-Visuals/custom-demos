@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function HelpSection() {
     return (
-        <section className="py-16 bg-[url('/uzumcu/images/home/help-bg.png')] bg-cover bg-center relative overflow-hidden">
+        <section className="py-16 bg-[url('/uzumcu/images/home/help-bg.webp')] bg-cover bg-center relative overflow-hidden">
 
 
             <div className="container mx-auto px-4 relative z-10 flex flex-col items-center" data-aos="zoom-in">

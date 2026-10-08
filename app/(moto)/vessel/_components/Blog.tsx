@@ -6,13 +6,13 @@ import Typography from "./Typography";
 
 const posts = [
   {
-    image: "/moto/vessel/news1.png",
+    image: "/moto/vessel/news1.webp",
     title: "Thank you for visiting the VESSEL booth at the BATIMAT 2024 show",
     body: "The VESSEL Extractor was a great success at the recent Batimat show. Thank you all for your many visits to our booth, your enthusiasm, and your interest, which deeply moved us. They can even be found on TikTok. We are delighted to see our product attracting so much attention on different platforms.",
     href: "#",
   },
   {
-    image: "/moto/vessel/news2.png",
+    image: "/moto/vessel/news2.webp",
     title: "The VESSEL Group celebrates its 100th anniversary!",
     body: "At present, our goal is to turn to the challenges of tomorrow. Based on our experience and our high quality standards, we now wish to accelerate our presence on a global scale. Already present in Europe on the industrial sector, for many years.",
     href: "#",

@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center">
-              <img src="/activbase/logo.png" alt="Logo" className="w-[180px]" />
+              <img src="/activbase/logo.webp" alt="Logo" className="w-[180px]" />
             </Link>
           </div>
 

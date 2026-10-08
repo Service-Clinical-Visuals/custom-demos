@@ -11,12 +11,12 @@ import Typography from "./Typography";
 import Button from "./Button";
 
 const posts = [
-  { title: "Daymark Victory™: BFW’s Brightest Portable Headlight Ever", date: "09/20/2024", image: "/medical/bfw/n1.jpg", href: "#" },
-  { title: "The Importance Of Precise Illumination In Surgery", date: "12/15/2022", image: "/medical/bfw/n2.jpg", href: "#" },
-  { title: "The Environmental Benefits Of Sustainable LED Lighting", date: "10/07/2022", image: "/medical/bfw/n3.jpg", href: "#" },
-  { title: "Why Surgeons Are Ditching Xenon For LED Headlights", date: "08/01/2022", image: "/medical/bfw/n4.jpg", href: "#" },
-  { title: "5 Reasons Every Operating Room Needs A Surgical Headlight", date: "10/07/2021", image: "/medical/bfw/n5.jpg", href: "#" },
-  { title: "Your Complete Guide To Surgical Lighting", date: "08/11/2021", image: "/medical/bfw/n6.jpg", href: "#" },
+  { title: "Daymark Victory™: BFW’s Brightest Portable Headlight Ever", date: "09/20/2024", image: "/medical/bfw/n1.webp", href: "#" },
+  { title: "The Importance Of Precise Illumination In Surgery", date: "12/15/2022", image: "/medical/bfw/n2.webp", href: "#" },
+  { title: "The Environmental Benefits Of Sustainable LED Lighting", date: "10/07/2022", image: "/medical/bfw/n3.webp", href: "#" },
+  { title: "Why Surgeons Are Ditching Xenon For LED Headlights", date: "08/01/2022", image: "/medical/bfw/n4.webp", href: "#" },
+  { title: "5 Reasons Every Operating Room Needs A Surgical Headlight", date: "10/07/2021", image: "/medical/bfw/n5.webp", href: "#" },
+  { title: "Your Complete Guide To Surgical Lighting", date: "08/11/2021", image: "/medical/bfw/n6.webp", href: "#" },
 ];
 
 const News = () => {

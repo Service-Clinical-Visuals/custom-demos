@@ -1,10 +1,10 @@
 import React from "react";
 
 const stories = [
-  { name: "Binu David", image: "/activbase/home/stories-1.png" },
-  { name: "Anoop Krishnan", image: "/activbase/home/stories-2.png" },
-  { name: "Barathi", image: "/activbase/home/stories-3.png" },
-  { name: "Sreekuttan M S", image: "/activbase/home/stories-4.png" },
+  { name: "Binu David", image: "/activbase/home/stories-1.webp" },
+  { name: "Anoop Krishnan", image: "/activbase/home/stories-2.webp" },
+  { name: "Barathi", image: "/activbase/home/stories-3.webp" },
+  { name: "Sreekuttan M S", image: "/activbase/home/stories-4.webp" },
 ];
 
 export default function SuccessStories() {

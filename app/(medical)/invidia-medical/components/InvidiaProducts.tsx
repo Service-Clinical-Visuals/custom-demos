@@ -7,19 +7,19 @@ import Image from "next/image";
 const products = [
   {
     title: "Surgical Instruments",
-    img: "/invidia/invidia-pro-1.png",
+    img: "/invidia/invidia-pro-1.webp",
   },
   {
     title: "Endoscopy",
-    img: "/invidia/invidia-pro-2.png",
+    img: "/invidia/invidia-pro-2.webp",
   },
   {
     title: "Surgical Simulators",
-    img: "/invidia/invidia-pro-3.png",
+    img: "/invidia/invidia-pro-3.webp",
   },
   {
     title: "InViridis 4K ICG/NIR System",
-    img: "/invidia/invidia-pro-4.png",
+    img: "/invidia/invidia-pro-4.webp",
   },
 ];
 

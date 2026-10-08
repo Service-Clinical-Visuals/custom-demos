@@ -38,7 +38,7 @@ export default function Header() {
             <header className={`fixed top-0 left-0 w-full flex items-center justify-between px-6 lg:px-12 transition-all duration-300 z-[100] ${isScrolled ? 'py-4 bg-white/95 backdrop-blur-sm shadow-md' : 'py-5 bg-white'}`}>
                 {/* Logo */}
                 <div className="flex items-center gap-3">
-                    <img src={`/biocer/logo.png`} width={150} alt="BioCer Logo" className="h-auto transition-all duration-300" />
+                    <img src={`/biocer/logo.webp`} width={150} alt="BioCer Logo" className="h-auto transition-all duration-300" />
                 </div>
 
                 {/* Navigation - Desktop */}
@@ -58,8 +58,8 @@ export default function Header() {
                 <div className="hidden lg:flex items-center gap-6">
                     {/* Language mock */}
                     <div className="flex items-center gap-3">
-                        <img src={`/biocer/home/flag-1.png`} className="w-7 h-7 rounded-full object-cover shadow-sm border border-gray-100 cursor-pointer" title="German" alt="German" />
-                        <img src={`/biocer/home/flag-2.png`} className="w-7 h-7 rounded-full object-cover border border-gray-200 cursor-pointer shadow-sm" title="English" alt="English" />
+                        <img src={`/biocer/home/flag-1.webp`} className="w-7 h-7 rounded-full object-cover shadow-sm border border-gray-100 cursor-pointer" title="German" alt="German" />
+                        <img src={`/biocer/home/flag-2.webp`} className="w-7 h-7 rounded-full object-cover border border-gray-200 cursor-pointer shadow-sm" title="English" alt="English" />
                     </div>
                     <button className="bg-primary hover:bg-primary-hover text-white px-8 py-2.5 text-sm rounded-full font-medium transition-colors">
                         Contact Us
@@ -101,8 +101,8 @@ export default function Header() {
 
                         <div className="mt-auto pt-10 border-t border-gray-100">
                             <div className="flex items-center gap-4 mb-8">
-                                <img src={`/biocer/home/flag-1.png`} className="w-8 h-8 rounded-full object-cover shadow-sm border border-gray-100 cursor-pointer" alt="German" />
-                                <img src={`/biocer/home/flag-2.png`} className="w-8 h-8 rounded-full object-cover border border-gray-200 cursor-pointer shadow-sm" alt="English" />
+                                <img src={`/biocer/home/flag-1.webp`} className="w-8 h-8 rounded-full object-cover shadow-sm border border-gray-100 cursor-pointer" alt="German" />
+                                <img src={`/biocer/home/flag-2.webp`} className="w-8 h-8 rounded-full object-cover border border-gray-200 cursor-pointer shadow-sm" alt="English" />
                             </div>
                             <button className="w-full bg-primary hover:bg-primary-hover text-white py-3 rounded-full font-medium transition-colors">
                                 Contact Us

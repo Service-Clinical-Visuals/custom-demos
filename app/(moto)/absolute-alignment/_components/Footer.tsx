@@ -11,7 +11,7 @@ export default function Footer() {
             {/* Column 1: Logo & Text */}
             <div className="flex flex-col gap-6 items-center md:items-start text-center md:text-left" data-aos="fade-up" data-aos-delay="0">
               <div className="flex items-center gap-3 overflow-hidden">
-                <img src="/absolute-alignment/logo.png" className="w-[180px] md:w-[200px]" alt="Absolute Alignment" />
+                <img src="/absolute-alignment/logo.webp" className="w-[180px] md:w-[200px]" alt="Absolute Alignment" />
               </div>
               <p className="text-gray-500 text-[16px] leading-relaxed">
                 This is a trade demonstration site only, we do not offer wheel alignment services at this address. Please click HERE to find your local Absolute Alignment Approved centre.

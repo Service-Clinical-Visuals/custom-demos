@@ -7,11 +7,11 @@ import "swiper/css";
 const partners = [
   {
     name: "Infinity",
-    logo: "/emerald/images/partner-1.png"
+    logo: "/emerald/images/partner-1.webp"
   },
   {
     name: "OASIS",
-    logo: "/emerald/images/partner-2.png"
+    logo: "/emerald/images/partner-2.webp"
   },
   {
     name: "Royalton",

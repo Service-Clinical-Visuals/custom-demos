@@ -25,25 +25,25 @@
         {
             "title": "Soft-Biopsy®",
             "subtitle": "Single-use Kylon® pad for gentle ectocervical friction biopsy; snap-off head to fixative.",
-            "image": "/images/products/softbiopsy.png",
+            "image": "/images/products/softbiopsy.webp",
             "bgColor": "bg-gray-400"
         },
         {
             "title": "Soft-ECC®",
             "subtitle": "Blunted, tapered Kylon® tip for endocervical curettage; rotate and drop into fixative.",
-            "image": "/images/products/soft-ecc.png",
+            "image": "/images/products/soft-ecc.webp",
             "bgColor": "bg-[#A43B7F]"
         },
         {
             "title": "Soft-ECC-S®",
             "subtitle": "Smaller, tapered Kylon® ECC device for narrow/stenotic canals.",
-            "image": "/images/products/soft-ecc-s.png",
+            "image": "/images/products/soft-ecc-s.webp",
             "bgColor": "bg-gray-400"
         },
         {
             "title": "Spirabrush®",
             "subtitle": "Spiral bristle brush for ectocervical trans-epithelial biopsy; snaps off for transport.",
-            "image": "/images/products/spirabrush.png",
+            "image": "/images/products/spirabrush.webp",
             "bgColor": "bg-gray-400"
         }
     ],
@@ -51,13 +51,13 @@
         {
             "title": "Looking for the same Kylon devices in",
             "subtitle": "Animal Care",
-            "logo": "/images/home/histologics-1.png",
+            "logo": "/images/home/histologics-1.webp",
             "link": "/advanced"
         },
         {
             "title": "Looking for the same Kylon devices for",
             "subtitle": "Wound Care",
-            "logo": "/images/home/histologics-2.png",
+            "logo": "/images/home/histologics-2.webp",
             "link": "/care"
         }
     ],
@@ -98,28 +98,28 @@
             "title": "Compassionate Colposcopy®",
             "author": "Dr. Sarah",
             "date": "22 January 2022",
-            "image": "/images/home/blog-1.jpg",
+            "image": "/images/home/blog-1.webp",
             "description": "Histologics LLC is proud to have developed Soft-ECC® endocervical curette, and the SoftBiopsy® exocervical gynecological biopsy device. Both devices employ a multipatented hooked fabric (Kylon®) that simultaneously biopsies with frictional raking/de-bonding of epithelium from stroma, and traps and stores the tissue for transport to the lab."
         },
         {
             "title": "Webinar: A Review of Kylon®",
             "author": "Admin",
             "date": "22 January 2022",
-            "image": "/images/home/blog-2.png",
+            "image": "/images/home/blog-2.webp",
             "description": "Discover how Histologics' innovative Kylon® technology is transforming (women’s health/wound care). In this webinar, our CEO (Dr. Neal Lonky OB/GYN, MD) discusses its benefits, applications, and how it supports a more compassionate approach to patient care."
         },
         {
             "title": "How Kylon® Removes Diagnostic Biopsy Specimens with SoftBiopsy®, Soft-ECC®",
             "author": "Clinical Team",
             "date": "22 January 2022",
-            "image": "/images/home/blog-3.png",
+            "image": "/images/home/blog-3.webp",
             "description": "How Kylon® Removes Diagnostic Biopsy Specimens with SoftBiopsy®, Soft-ECC® - Video"
         },
         {
             "title": "Research Supports Compassionate New Biopsy",
             "author": "Dr. Smith",
             "date": "22 January 2022",
-            "image": "/images/home/blog-4.jpg",
+            "image": "/images/home/blog-4.webp",
             "description": "(3) Mogolia; Gynecologic Research Foundation, USA 2020  - A study conducted in concert with this not for profit organization and the National Cancer Institute evaluated a rapid, high volume system to screen, biopsy, triage and when indicated, treat women at risk of harboring high grade cervical cancer precursors. "
         }
     ],

@@ -9,17 +9,17 @@ import DeltaScrollRevealText from "./DeltaScrollRevealText";
 gsap.registerPlugin(ScrollTrigger);
 
 const LEFT_IMAGES = [
-  { src: "/delta/delta-mask-cleanup.png", alt: "Mask Closeup" },
-  { src: "/delta/delta-front-mask.png", alt: "Front Mask" },
-  { src: "/delta/delta-side-mask.png", alt: "Side Mask" },
-  { src: "/delta/delta-mask-angle.png", alt: "Mask Angle" },
+  { src: "/delta/delta-mask-cleanup.webp", alt: "Mask Closeup" },
+  { src: "/delta/delta-front-mask.webp", alt: "Front Mask" },
+  { src: "/delta/delta-side-mask.webp", alt: "Side Mask" },
+  { src: "/delta/delta-mask-angle.webp", alt: "Mask Angle" },
 ];
 
 const RIGHT_IMAGES = [
-  { src: "/delta/delta-side-mask.png", alt: "Side Mask" },
-  { src: "/delta/delta-mask-angle.png", alt: "Mask Angle" },
-  { src: "/delta/delta-mask-cleanup.png", alt: "Mask Closeup" },
-  { src: "/delta/delta-front-mask.png", alt: "Front Mask" },
+  { src: "/delta/delta-side-mask.webp", alt: "Side Mask" },
+  { src: "/delta/delta-mask-angle.webp", alt: "Mask Angle" },
+  { src: "/delta/delta-mask-cleanup.webp", alt: "Mask Closeup" },
+  { src: "/delta/delta-front-mask.webp", alt: "Front Mask" },
 ];
 
 export default function DeltaShowcase() {
@@ -208,7 +208,7 @@ export default function DeltaShowcase() {
         style={{ bottom: "-10%", height: "16vh" }}
       >
         <img
-          src="/delta/mid.png"
+          src="/delta/mid.webp"
           alt="Product detail"
           className="w-full h-full object-cover object-top"
         />

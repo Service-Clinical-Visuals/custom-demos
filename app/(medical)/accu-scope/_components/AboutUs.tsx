@@ -18,7 +18,7 @@ export default function AboutSection() {
           "
           >
             <img
-              src="/accu-scope/AboutGroup.png"
+              src="/accu-scope/AboutGroup.webp"
               alt=""
               className="w-full h-full object-cover"
             />

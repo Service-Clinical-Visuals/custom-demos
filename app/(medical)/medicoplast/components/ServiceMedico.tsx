@@ -4,24 +4,24 @@ const services = [
   {
     title: "Sterilization",
     desc: "Medicoplast – your reliable Partner for Ethylenoxide (EO) Sterilization. Sterilization by material-friendly ETO processing",
-    image: "/medicoplast/assets/medico-ster.png",
+    image: "/medicoplast/assets/medico-ster.webp",
   },
   {
     title: "Packaging Service",
     desc: "Medicoplast uses different validated packaging formats and packaging methods. Consequently we can process customers' requests regarding special packaging for our products, as well as third party products.",
-    image: "/medicoplast/assets/medico-package.png",
+    image: "/medicoplast/assets/medico-package.webp",
   },
   {
     title: "Development",
     desc: "At Medicoplast, continuous improvement and advanced development drive product quality and innovation. With 40 years in medical product development, we adeptly manage complex requests.",
-    image: "/medicoplast/assets/medico-develop.png",
+    image: "/medicoplast/assets/medico-develop.webp",
   },
 ];
 
 export default function ServiceMedico() {
 
   return (
-    <section className="w-full bg-[#faf8f5] py-28 bg-[url('/medicoplast/assets/medico-bg.png')] bg-cover bg-center relative overflow-hidden">
+    <section className="w-full bg-[#faf8f5] py-28 bg-[url('/medicoplast/assets/medico-bg.webp')] bg-cover bg-center relative overflow-hidden">
       
       <div className="max-w-380 mx-auto px-4 sm:px-6 text-center">
         

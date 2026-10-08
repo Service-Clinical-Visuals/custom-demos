@@ -38,7 +38,7 @@ export default function About() {
           <div className="relative" data-aos="fade-left">
             <div className="w-full bg-white rounded-3xl overflow-hidden shadow-[0_3px_8px_0px_#0000003D] p-4">
                 <img 
-                  src="/strena/images/abt.png" 
+                  src="/strena/images/abt.webp" 
                   className="w-full h-auto object-contain" 
                   alt="Strena Medical Innovation" 
                 />

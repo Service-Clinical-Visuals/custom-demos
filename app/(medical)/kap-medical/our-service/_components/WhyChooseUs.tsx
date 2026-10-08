@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="lg:w-1/2 relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl">
                         <img
-                            src={`/kap-medical/images/service/why-choose.jpg`}
+                            src={`/kap-medical/images/service/why-choose.webp`}
                             alt="Healthcare Professional with Patient"
                             className="object-cover w-full h-full"
                         />

@@ -19,7 +19,7 @@ export function AboutUsSection() {
             data-aos="fade-right"
             className="relative w-full h-[350px] sm:h-[450px] md:h-[500px] lg:h-[750px] bg-gray-100 rounded-md overflow-hidden flex items-center justify-center border border-gray-200"
           >
-            <img src={`/pmf-medical/home/about.jpg`} alt="About Us" className="w-full h-full object-cover" />
+            <img src={`/pmf-medical/home/about.webp`} alt="About Us" className="w-full h-full object-cover" />
           </div>
 
           {/* Right Column - Content */}

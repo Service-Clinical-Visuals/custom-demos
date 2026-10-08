@@ -5,19 +5,19 @@ import Typography from "./Typography";
 const newsList = [
     {
         id: "miami-expo",
-        imgSrc: "/medical/lumed-srl/new2.png",
+        imgSrc: "/medical/lumed-srl/new2.webp",
         title: "World Health Expo 2026 Miami",
         desc: "Dal 17 al 19 giugno 2026, al Miami Beach Convention Center di Miami, torna WHX...",
     },
     {
         id: "exposanita",
-        imgSrc: "/medical/lumed-srl/nes3.png",
+        imgSrc: "/medical/lumed-srl/nes3.webp",
         title: "EXPOSANITA' 2026",
         desc: "Dal 22 al 24 aprile 2026, a BolognaFiere, torna Exposanità 2026, l'appuntamento di riferimento per...",
     },
     {
         id: "bofap-filter",
-        imgSrc: "/medical/lumed-srl/news1.png",
+        imgSrc: "/medical/lumed-srl/news1.webp",
         title: "BOFAP: Innovative Spirometry Filter",
         desc: "BOFAP combines the paper mouthpiece and the VB filter into a single, lightweight device...",
     },

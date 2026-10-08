@@ -10,37 +10,37 @@ const products = [
     title: "SINUS-XL",
     description:
       "The sinus-XL is a self-expanding big lumen stent for the treatment of the central venous and arterial segments.",
-    image: "/optimed/optimed-product-1.png",
+    image: "/optimed/optimed-product-1.webp",
   },
   {
     title: "Douro*",
     description:
       "The Douro stone baskets are used in the ureter. The material Nitinol ensures a good opening of the basket.",
-    image: "/optimed/optimed-product-2.png",
+    image: "/optimed/optimed-product-2.webp",
   },
   {
     title: "X-Filter™*",
     description:
       "Die flexible Spitze wird am Stein vorbeigeführt und weiter in das Nierenbecken vorgeschoben.",
-    image: "/optimed/optimed-product-3.png",
+    image: "/optimed/optimed-product-3.webp",
   },
   {
     title: "Cemento-MP*",
     description:
       "The sinus-XL is a self-expanding big lumen stent for the treatment of the central venous and arterial segments.",
-    image: "/optimed/optimed-product-4.png",
+    image: "/optimed/optimed-product-4.webp",
   },
   {
     title: "CO₂-Angioset",
     description:
       "The CO₂-Angioset is a sterile disposable product for arterial and venous vascular imaging.",
-    image: "/optimed/optimed-product-5.png",
+    image: "/optimed/optimed-product-5.webp",
   },
   {
     title: "Sinus-XL",
     description:
       "The sinus-XL is a self-expanding big lumen stent for the treatment of the central venous and arterial segments.",
-    image: "/optimed/optimed-product-6.png",
+    image: "/optimed/optimed-product-6.webp",
   },
 ];
 

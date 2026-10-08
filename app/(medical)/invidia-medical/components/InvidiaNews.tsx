@@ -7,19 +7,19 @@ import Image from "next/image";
 const events = [
   {
     title: "MEDICA: 11–14 November 2024 in Düsseldorf",
-    img: "/invidia/invidia-news-1.jpg",
+    img: "/invidia/invidia-news-1.webp",
   },
   {
     title: "SESAM: 19–21 June 2024 in Prague",
-    img: "/invidia/invidia-news-2.jpg",
+    img: "/invidia/invidia-news-2.webp",
   },
   {
     title: "MEDICA: 17–20 November 2025 in Düsseldorf",
-    img: "/invidia/invidia-news-3.png",
+    img: "/invidia/invidia-news-3.webp",
   },
   {
     title: "SESAM: 25–27 June 2025 in Valencia",
-    img: "/invidia/invidia-news-4.png",
+    img: "/invidia/invidia-news-4.webp",
   },
 ];
 

@@ -31,7 +31,7 @@ export default function ProductHero() {
                     </div>
                     <div className="lg:w-1/2 relative h-[300px] md:h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
                         <img
-                            src={`/kap-medical/images/our-prducts.jpg`}
+                            src={`/kap-medical/images/our-prducts.webp`}
                             alt="Our Products"
                             className="object-cover w-full h-full"
                         />

@@ -24,7 +24,7 @@ export default function Features() {
           {/* Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg h-full">
             <img
-              src="/arcomed/feature.jpg"
+              src="/arcomed/feature.webp"
               alt="Medical Pump Stack"
               className="w-full h-full object-cover"
             />

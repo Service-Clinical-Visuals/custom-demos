@@ -24,7 +24,7 @@ export default function MedasNavbar() {
     >
       <div className="flex items-center justify-between custom-container py-4 px-4">
         {/* Logo */}
-        <img src="/medas-innovation/assets/medas-logo.png" alt="logo" className="w-30 h-12" />
+        <img src="/medas-innovation/assets/medas-logo.webp" alt="logo" className="w-30 h-12" />
 
         {/* Nav Links — desktop only */}
         <div className="hidden lg:flex gap-8 text-gray-700">

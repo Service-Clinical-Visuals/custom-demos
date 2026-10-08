@@ -7,7 +7,7 @@ export default function DeltaNavbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="/delta/delta-logo.png"
+            src="/delta/delta-logo.webp"
             alt="DeltaSleep Logo"
             className="w-[180px] h-auto object-contain"
           />

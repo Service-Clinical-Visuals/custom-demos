@@ -3,22 +3,22 @@
 
 const products = [
   {
-    img: "/promisemed/p1.png",
+    img: "/promisemed/p1.webp",
     title: "VeriEndo® Polypectomy Snares",
     desc: "Used to resect polyps (recommended size of 10-1 9mm) with an endoscope",
   },
   {
-    img: "/promisemed/p2.png",
+    img: "/promisemed/p2.webp",
     title: "VeriEndo® Single-use Flexible Bronchoscope",
     desc: "Promisemed VeriEndo® Single-use Flexible Bronchoscope eliminates the risk of...",
   },
   {
-    img: "/promisemed/p3.png",
+    img: "/promisemed/p3.webp",
     title: "VeriEndo® Single-use Flexible Ureteroscope",
     desc: "Promisemed VeriEndo® Single-use Flexible Ureteroscope eliminates the risk of cross...",
   },
   {
-    img: "/promisemed/p4.png",
+    img: "/promisemed/p4.webp",
     title: "VeriEndo® Single-use Flexible Choledochoscope",
     desc: "Used to resect polyps (recommended size of 10-1 9mm) with an endoscope",
   },
