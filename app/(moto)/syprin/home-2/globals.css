@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+/*
+  Styles for /syprin/home-2. All font sizes for this page live in this file; components only
+  use the classes / elements below. Each breakpoint swaps the --fs-* variables.
+
+  This page is nested inside the /syprin layout (whose globals.css also loads here), and this
+  stylesheet can stay loaded after client-side navigation to other /syprin pages, so every
+  variable and rule is scoped to the .syprin-h2-root wrapper instead of :root / bare elements.
+*/
+.syprin-h2-root {
+  --background: #121212;
+  --foreground: #CACACA;
+  --color-primary: #353535;
+  --color-accent: #A12624;
+  --color-accent-hover: #861e1c;
+  --color-header: #262626;
+  --font-heading: var(--font-montserrat, "Montserrat"), "Montserrat", Arial, sans-serif;
+  --font-body: var(--font-inter, "Inter"), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Desktop PC, Large Desktop, Extra Large PC / 2K (1280px - 2499px) */
+  --fs-h1: 1.625rem; /* hero headline */
+  --fs-h2: 1.5rem; /* section titles */
+  --fs-h3: 1.25rem; /* card titles */
+  --fs-p: 0.9375rem; /* paragraphs */
+  --fs-navbar: 0.9375rem;
+  --fs-button: 0.9375rem;
+  --fs-small: 0.875rem; /* labels, inputs */
+  --fs-tag: 0.875rem;
+  --fs-tab: 0.875rem;
+  --fs-card-text: 0.8125rem;
+  --fs-footer-heading: 1.125rem;
+  --fs-footer-body: 0.9375rem;
+}
+
+@theme inline {
+  /* Desktop layout starts at 1025px so iPad Pro portrait (1024px) keeps the tablet layout.
+     Components use desk: instead of lg: (the root stylesheet also emits lg: at 1024px). */
+  --breakpoint-desk: 64.0625rem;
+  --color-primary: #353535;
+  --color-accent: #A12624;
+  --color-accent-hover: #861e1c;
+  --color-header: #262626;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+.syprin-h2-root {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.syprin-h2-root .custom-container {
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) - multiplier ~0.8 */
+@media (max-width: 480px) {
+  .syprin-h2-root {
+    --fs-h1: 1.3rem;
+    --fs-h2: 1.2rem;
+    --fs-h3: 1rem;
+    --fs-p: 0.75rem;
+    --fs-navbar: 0.75rem;
+    --fs-button: 0.75rem;
+    --fs-small: 0.7rem;
+    --fs-tag: 0.7rem;
+    --fs-tab: 0.7rem;
+    --fs-card-text: 0.65rem;
+    --fs-footer-heading: 0.9rem;
+    --fs-footer-body: 0.75rem;
+  }
+  .syprin-h2-root .custom-container { max-width: 90%; }
+}
+
+/* Mobile Landscape Screen (481px - 767px) - multiplier ~0.87 */
+@media (min-width: 481px) and (max-width: 767px) {
+  .syprin-h2-root {
+    --fs-h1: 1.4138rem;
+    --fs-h2: 1.305rem;
+    --fs-h3: 1.0875rem;
+    --fs-p: 0.8156rem;
+    --fs-navbar: 0.8156rem;
+    --fs-button: 0.8156rem;
+    --fs-small: 0.7612rem;
+    --fs-tag: 0.7612rem;
+    --fs-tab: 0.7612rem;
+    --fs-card-text: 0.7068rem;
+    --fs-footer-heading: 0.9788rem;
+    --fs-footer-body: 0.8156rem;
+  }
+  .syprin-h2-root .custom-container { max-width: 92%; }
+}
+
+/* Tablet / Tab Screen incl. iPad Pro portrait (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .syprin-h2-root {
+    --fs-h1: 1.625rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.25rem;
+    --fs-p: 0.9375rem;
+    --fs-navbar: 0.9375rem;
+    --fs-button: 0.9375rem;
+    --fs-small: 0.875rem;
+    --fs-tag: 0.875rem;
+    --fs-tab: 0.875rem;
+    --fs-card-text: 0.8125rem;
+    --fs-footer-heading: 1.125rem;
+    --fs-footer-body: 0.9375rem;
+  }
+  .syprin-h2-root .custom-container { max-width: 90%; }
+}
+
+/* Laptop Screen (1025px - 1279px) - multiplier ~0.95 */
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .syprin-h2-root {
+    --fs-h1: 1.5437rem;
+    --fs-h2: 1.425rem;
+    --fs-h3: 1.1875rem;
+    --fs-p: 0.8906rem;
+    --fs-navbar: 0.8906rem;
+    --fs-button: 0.8906rem;
+    --fs-small: 0.8312rem;
+    --fs-tag: 0.8312rem;
+    --fs-tab: 0.8312rem;
+    --fs-card-text: 0.7718rem;
+    --fs-footer-heading: 1.0687rem;
+    --fs-footer-body: 0.8906rem;
+  }
+  .syprin-h2-root .custom-container { max-width: 90%; }
+}
+
+/* Desktop PC (1280px - 1535px), Large Desktop (1536px - 1919px), 2K (1920px - 2499px): base sizes */
+@media (min-width: 1280px) and (max-width: 2499px) {
+  .syprin-h2-root .custom-container { max-width: 90%; }
+}
+
+/* Ultra-wide Screen (2500px - 3799px) - multiplier ~1.5 */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .syprin-h2-root {
+    --fs-h1: 2.4375rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.875rem;
+    --fs-p: 1.4062rem;
+    --fs-navbar: 1.4062rem;
+    --fs-button: 1.4062rem;
+    --fs-small: 1.3125rem;
+    --fs-tag: 1.3125rem;
+    --fs-tab: 1.3125rem;
+    --fs-card-text: 1.2188rem;
+    --fs-footer-heading: 1.6875rem;
+    --fs-footer-body: 1.4062rem;
+  }
+  .syprin-h2-root .custom-container { max-width: 85%; }
+}
+
+/* 4K Ultra-wide Screen (3800px and above) - multiplier ~2 */
+@media (min-width: 3800px) {
+  .syprin-h2-root {
+    --fs-h1: 3.25rem;
+    --fs-h2: 3rem;
+    --fs-h3: 2.5rem;
+    --fs-p: 1.875rem;
+    --fs-navbar: 1.875rem;
+    --fs-button: 1.875rem;
+    --fs-small: 1.75rem;
+    --fs-tag: 1.75rem;
+    --fs-tab: 1.75rem;
+    --fs-card-text: 1.625rem;
+    --fs-footer-heading: 2.25rem;
+    --fs-footer-body: 1.875rem;
+  }
+  .syprin-h2-root .custom-container { max-width: 85%; }
+}
+
+/* Typography: Montserrat for headings + buttons, Inter for paragraphs */
+.syprin-h2-root h1 { font-size: var(--fs-h1); font-weight: 700; font-family: var(--font-heading); line-height: 1.35; }
+.syprin-h2-root h2 { font-size: var(--fs-h2); font-weight: 700; font-family: var(--font-heading); line-height: 1.35; }
+.syprin-h2-root h3 { font-size: var(--fs-h3); font-weight: 600; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-h2-root p, .syprin-h2-root li { font-size: var(--fs-p); font-weight: 400; font-family: var(--font-body); line-height: 1.6; }
+
+.syprin-h2-root .navbar { font-size: var(--fs-navbar); font-family: var(--font-body); }
+.syprin-h2-root .button { font-size: var(--fs-button); font-weight: 600; font-family: var(--font-heading) !important; } /* !important: the /syprin stylesheet forces Inter on .button */
+.syprin-h2-root .tag-label { font-size: var(--fs-tag); font-weight: 600; font-family: var(--font-heading); }
+.syprin-h2-root .tab-label { font-size: var(--fs-tab); font-weight: 500; font-family: var(--font-body); }
+.syprin-h2-root .card-text { font-size: var(--fs-card-text); font-family: var(--font-body); line-height: 1.65; }
+.syprin-h2-root .text-small { font-size: var(--fs-small); font-family: var(--font-body); }
+.syprin-h2-root .footer-heading { font-size: var(--fs-footer-heading); font-weight: 700; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-h2-root .footer-body { font-size: var(--fs-footer-body); font-weight: 400; font-family: var(--font-body); line-height: 1.6; }
+
+/* The /syprin stylesheet sizes every <span>; let unclassed spans inherit here */
+.syprin-h2-root span:not([class]) { font-size: inherit; }
+
+/* Horizontal product carousel: hide the native scrollbar */
+.syprin-h2-root .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.syprin-h2-root .no-scrollbar::-webkit-scrollbar { display: none; }

@@ -1,0 +1,329 @@
+@import "tailwindcss";
+
+/*
+  All font sizes for this route live in this file. Components only use the
+  classes / elements below and never set font-size themselves.
+  Each breakpoint swaps the --fs-* variables; the rules at the bottom read them.
+*/
+.syprin-pd-root {
+  --background: #121212;
+  --foreground: #CACACA;
+  --color-primary: #353535;
+  --color-primary-hover: #404040;
+  --color-accent: #A12624;
+  --color-accent-hover: #861e1c;
+  --color-cart: #E02B2B;
+  --color-cart-hover: #c42020;
+  --color-checkout: #1FA04F;
+  --color-checkout-hover: #198a43;
+  --color-header: #262626;
+  --font-heading: var(--font-montserrat, "Montserrat"), "Montserrat", Arial, sans-serif;
+  --font-body: var(--font-inter, "Inter"), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Desktop PC, Large Desktop, Extra Large PC / 2K (1280px - 2499px) */
+  --fs-h1: 1.625rem; /* product title */
+  --fs-h2: 1.375rem; /* section titles */
+  --fs-h3: 1.0625rem; /* card titles */
+  --fs-p: 0.9375rem; /* paragraphs / description */
+  --fs-navbar: 0.9375rem;
+  --fs-button: 0.875rem;
+  --fs-small: 0.875rem; /* breadcrumb, labels, inputs */
+  --fs-subtitle: 0.9375rem; /* product subtitle */
+  --fs-tag: 0.875rem; /* category tag */
+  --fs-rating: 0.875rem; /* rating number */
+  --fs-reviews: 0.6875rem; /* review count */
+  --fs-price: 1.5rem; /* current + old price */
+  --fs-pill: 0.8125rem; /* Sale / Save badges */
+  --fs-feature: 0.875rem; /* feature list */
+  --fs-qty: 0.875rem; /* quantity stepper */
+  --fs-footer-heading: 1.125rem;
+  --fs-footer-body: 0.9375rem;
+  --fs-card-meta: 0.75rem;
+  --fs-card-price: 0.9375rem;
+  --fs-eyebrow: 0.875rem;
+  --fs-score: 1.625rem;
+  --fs-review-meta: 0.75rem;
+  --fs-review-name: 1rem;
+  --fs-metric-title: 0.875rem;
+  --fs-metric-value: 0.75rem;
+}
+
+@theme inline {
+  /* Desktop layout starts at 1025px so iPad Pro portrait (1024px) keeps the tablet layout.
+     Components use desk: instead of lg: (the root stylesheet also emits lg: at 1024px). */
+  --breakpoint-desk: 64.0625rem;
+  --color-primary: #353535;
+  --color-primary-hover: #404040;
+  --color-accent: #A12624;
+  --color-accent-hover: #861e1c;
+  --color-cart: #E02B2B;
+  --color-cart-hover: #c42020;
+  --color-checkout: #1FA04F;
+  --color-checkout-hover: #198a43;
+  --color-header: #262626;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.syprin-pd-root {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.syprin-pd-root .custom-container {
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) - multiplier ~0.8 */
+@media (max-width: 480px) {
+  .syprin-pd-root {
+    --fs-h1: 1.3rem;
+    --fs-h2: 1.1rem;
+    --fs-h3: 0.85rem;
+    --fs-p: 0.75rem;
+    --fs-navbar: 0.75rem;
+    --fs-button: 0.7rem;
+    --fs-small: 0.7rem;
+    --fs-subtitle: 0.75rem;
+    --fs-tag: 0.7rem;
+    --fs-rating: 0.7rem;
+    --fs-reviews: 0.55rem;
+    --fs-price: 1.2rem;
+    --fs-pill: 0.65rem;
+    --fs-feature: 0.7rem;
+    --fs-qty: 0.7rem;
+    --fs-footer-heading: 0.9rem;
+    --fs-footer-body: 0.75rem;
+    --fs-card-meta: 0.6rem;
+    --fs-card-price: 0.75rem;
+    --fs-eyebrow: 0.7rem;
+    --fs-score: 1.3rem;
+    --fs-review-meta: 0.6rem;
+    --fs-review-name: 0.8rem;
+    --fs-metric-title: 0.7rem;
+    --fs-metric-value: 0.6rem;
+  }
+  .syprin-pd-root .custom-container { max-width: 90%; }
+}
+
+/* Mobile Landscape Screen (481px - 767px) - multiplier ~0.87 */
+@media (min-width: 481px) and (max-width: 767px) {
+  .syprin-pd-root {
+    --fs-h1: 1.4138rem;
+    --fs-h2: 1.1962rem;
+    --fs-h3: 0.9244rem;
+    --fs-p: 0.8156rem;
+    --fs-navbar: 0.8156rem;
+    --fs-button: 0.7612rem;
+    --fs-small: 0.7612rem;
+    --fs-subtitle: 0.8156rem;
+    --fs-tag: 0.7612rem;
+    --fs-rating: 0.7612rem;
+    --fs-reviews: 0.5981rem;
+    --fs-price: 1.305rem;
+    --fs-pill: 0.7069rem;
+    --fs-feature: 0.7612rem;
+    --fs-qty: 0.7612rem;
+    --fs-footer-heading: 0.9788rem;
+    --fs-footer-body: 0.8156rem;
+    --fs-card-meta: 0.6525rem;
+    --fs-card-price: 0.8156rem;
+    --fs-eyebrow: 0.7612rem;
+    --fs-score: 1.4137rem;
+    --fs-review-meta: 0.6525rem;
+    --fs-review-name: 0.87rem;
+    --fs-metric-title: 0.7612rem;
+    --fs-metric-value: 0.6525rem;
+  }
+  .syprin-pd-root .custom-container { max-width: 92%; }
+}
+
+/* Tablet / Tab Screen incl. iPad Pro portrait (768px - 1024px) - multiplier ~1.0 (raised from 0.92 for readability) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .syprin-pd-root {
+    --fs-h1: 1.625rem;
+    --fs-h2: 1.375rem;
+    --fs-h3: 1.0625rem;
+    --fs-p: 0.9375rem;
+    --fs-navbar: 0.9375rem;
+    --fs-button: 0.875rem;
+    --fs-small: 0.875rem;
+    --fs-subtitle: 0.9375rem;
+    --fs-tag: 0.875rem;
+    --fs-rating: 0.875rem;
+    --fs-reviews: 0.6875rem;
+    --fs-price: 1.5rem;
+    --fs-pill: 0.8125rem;
+    --fs-feature: 0.875rem;
+    --fs-qty: 0.875rem;
+    --fs-footer-heading: 1.125rem;
+    --fs-footer-body: 0.9375rem;
+    --fs-card-meta: 0.75rem;
+    --fs-card-price: 0.9375rem;
+    --fs-eyebrow: 0.875rem;
+    --fs-score: 1.625rem;
+    --fs-review-meta: 0.75rem;
+    --fs-review-name: 1rem;
+    --fs-metric-title: 0.875rem;
+    --fs-metric-value: 0.75rem;
+  }
+  .syprin-pd-root .custom-container { max-width: 90%; }
+}
+
+/* iPad Pro portrait (exactly 1024px): same tablet layout as iPad Mini, scaled up ~15%.
+   Fonts (--fs-*) and Tailwind spacing are rem-based, so raising the root size scales
+   text, padding, gaps and icons together. Scoped to this page via :has(). */
+@media (min-width: 1024px) and (max-width: 1024px) {
+  html:has(.syprin-pd-root) { font-size: 115%; }
+}
+
+/* Laptop Screen (1025px - 1279px) - multiplier ~0.95 */
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .syprin-pd-root {
+    --fs-h1: 1.5437rem;
+    --fs-h2: 1.3063rem;
+    --fs-h3: 1.0094rem;
+    --fs-p: 0.8906rem;
+    --fs-navbar: 0.8906rem;
+    --fs-button: 0.8312rem;
+    --fs-small: 0.8312rem;
+    --fs-subtitle: 0.8906rem;
+    --fs-tag: 0.8312rem;
+    --fs-rating: 0.8312rem;
+    --fs-reviews: 0.6531rem;
+    --fs-price: 1.425rem;
+    --fs-pill: 0.7719rem;
+    --fs-feature: 0.8312rem;
+    --fs-qty: 0.8312rem;
+    --fs-footer-heading: 1.0687rem;
+    --fs-footer-body: 0.8906rem;
+    --fs-card-meta: 0.7125rem;
+    --fs-card-price: 0.8906rem;
+    --fs-eyebrow: 0.8312rem;
+    --fs-score: 1.5437rem;
+    --fs-review-meta: 0.7125rem;
+    --fs-review-name: 0.95rem;
+    --fs-metric-title: 0.8312rem;
+    --fs-metric-value: 0.7125rem;
+  }
+  .syprin-pd-root .custom-container { max-width: 90%; }
+}
+
+/* Desktop PC (1280px - 1535px), Large Desktop (1536px - 1919px), 2K (1920px - 2499px): base sizes */
+@media (min-width: 1280px) and (max-width: 2499px) {
+  .syprin-pd-root .custom-container { max-width: 90%; }
+}
+
+/* Ultra-wide Screen (2500px - 3799px) - multiplier ~1.5 */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .syprin-pd-root {
+    --fs-h1: 2.4375rem;
+    --fs-h2: 2.0625rem;
+    --fs-h3: 1.5938rem;
+    --fs-p: 1.4062rem;
+    --fs-navbar: 1.4062rem;
+    --fs-button: 1.3125rem;
+    --fs-small: 1.3125rem;
+    --fs-subtitle: 1.4062rem;
+    --fs-tag: 1.3125rem;
+    --fs-rating: 1.3125rem;
+    --fs-reviews: 1.0312rem;
+    --fs-price: 2.25rem;
+    --fs-pill: 1.2188rem;
+    --fs-feature: 1.3125rem;
+    --fs-qty: 1.3125rem;
+    --fs-footer-heading: 1.6875rem;
+    --fs-footer-body: 1.4062rem;
+    --fs-card-meta: 1.125rem;
+    --fs-card-price: 1.4062rem;
+    --fs-eyebrow: 1.3125rem;
+    --fs-score: 2.4374rem;
+    --fs-review-meta: 1.125rem;
+    --fs-review-name: 1.4999rem;
+    --fs-metric-title: 1.3125rem;
+    --fs-metric-value: 1.125rem;
+  }
+  .syprin-pd-root .custom-container { max-width: 85%; }
+}
+
+/* 4K Ultra-wide Screen (3800px and above) - multiplier ~2 */
+@media (min-width: 3800px) {
+  .syprin-pd-root {
+    --fs-h1: 3.25rem;
+    --fs-h2: 2.75rem;
+    --fs-h3: 2.125rem;
+    --fs-p: 1.875rem;
+    --fs-navbar: 1.875rem;
+    --fs-button: 1.75rem;
+    --fs-small: 1.75rem;
+    --fs-subtitle: 1.875rem;
+    --fs-tag: 1.75rem;
+    --fs-rating: 1.75rem;
+    --fs-reviews: 1.375rem;
+    --fs-price: 3rem;
+    --fs-pill: 1.625rem;
+    --fs-feature: 1.75rem;
+    --fs-qty: 1.75rem;
+    --fs-footer-heading: 2.25rem;
+    --fs-footer-body: 1.875rem;
+    --fs-card-meta: 1.5rem;
+    --fs-card-price: 1.875rem;
+    --fs-eyebrow: 1.75rem;
+    --fs-score: 3.25rem;
+    --fs-review-meta: 1.5rem;
+    --fs-review-name: 2rem;
+    --fs-metric-title: 1.75rem;
+    --fs-metric-value: 1.5rem;
+  }
+  .syprin-pd-root .custom-container { max-width: 85%; }
+}
+
+/* Typography: Montserrat for headings + buttons, Inter for paragraphs */
+.syprin-pd-root h1 { font-size: var(--fs-h1); font-weight: 700; font-family: var(--font-heading); line-height: 1.3; }
+.syprin-pd-root h2 { font-size: var(--fs-h2); font-weight: 700; font-family: var(--font-heading); line-height: 1.35; }
+.syprin-pd-root h3 { font-size: var(--fs-h3); font-weight: 600; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-pd-root p, .syprin-pd-root li { font-size: var(--fs-p); font-weight: 400; font-family: var(--font-body); line-height: 1.6; }
+
+.syprin-pd-root .navbar { font-size: var(--fs-navbar); font-family: var(--font-body); }
+.syprin-pd-root .button { font-size: var(--fs-button); font-weight: 700; font-family: var(--font-heading); letter-spacing: 0.02em; }
+.syprin-pd-root .text-small { font-size: var(--fs-small); font-family: var(--font-body); }
+.syprin-pd-root .pd-subtitle { font-size: var(--fs-subtitle); font-family: var(--font-body); line-height: 1.5; }
+.syprin-pd-root .pd-tag { font-size: var(--fs-tag); font-weight: 600; font-family: var(--font-heading); }
+.syprin-pd-root .pd-rating { font-size: var(--fs-rating); font-weight: 700; font-family: var(--font-heading); }
+.syprin-pd-root .pd-reviews { font-size: var(--fs-reviews); font-family: var(--font-body); }
+.syprin-pd-root .pd-price { font-size: var(--fs-price); font-weight: 500; font-family: var(--font-body); line-height: 1.2; }
+.syprin-pd-root .pd-pill { font-size: var(--fs-pill); font-weight: 600; font-family: var(--font-heading); }
+.syprin-pd-root .pd-feature { font-size: var(--fs-feature); font-family: var(--font-body); line-height: 1.5; }
+.syprin-pd-root .pd-qty { font-size: var(--fs-qty); font-weight: 600; font-family: var(--font-heading); }
+.syprin-pd-root .pd-metric-title { font-size: var(--fs-metric-title); font-weight: 600; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-pd-root .pd-metric-value { font-size: var(--fs-metric-value); font-weight: 500; font-family: var(--font-body); }
+.syprin-pd-root .pd-eyebrow { font-size: var(--fs-eyebrow); font-weight: 700; font-family: var(--font-heading); }
+.syprin-pd-root .pd-score { font-size: var(--fs-score); font-weight: 700; font-family: var(--font-heading); line-height: 1.1; }
+.syprin-pd-root .pd-review-meta { font-size: var(--fs-review-meta); font-family: var(--font-body); }
+.syprin-pd-root .pd-review-name { font-size: var(--fs-review-name); font-weight: 500; font-family: var(--font-heading); }
+.syprin-pd-root .pd-card-meta { font-size: var(--fs-card-meta); font-weight: 500; font-family: var(--font-heading); letter-spacing: 0.04em; text-transform: uppercase; }
+.syprin-pd-root .pd-card-price { font-size: var(--fs-card-price); font-weight: 600; font-family: var(--font-body); }
+.syprin-pd-root .footer-heading { font-size: var(--fs-footer-heading); font-weight: 700; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-pd-root .footer-body { font-size: var(--fs-footer-body); font-weight: 400; font-family: var(--font-body); line-height: 1.6; }
+
+/* Gallery image swap */
+@keyframes pd-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/*
+  This page is nested inside the /syprin layout, whose globals.css also loads here.
+  It forces Inter on .button with !important and sizes every <span>; undo both for this page.
+*/
+.syprin-pd-root .button { font-family: var(--font-heading) !important; }
+.syprin-pd-root span:not([class]) { font-size: inherit; }

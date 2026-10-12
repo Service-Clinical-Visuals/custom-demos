@@ -1,0 +1,230 @@
+@import "tailwindcss";
+
+/*
+  All font sizes for this route live in this file. Components only use the
+  classes / elements below and never set font-size themselves.
+  Each breakpoint swaps the --fs-* variables; the rules at the bottom read them.
+*/
+.syprin-ap-root {
+  --background: #141414;
+  --foreground: #CACACA;
+  --color-primary: #353535;
+  --color-primary-hover: #404040;
+  --color-accent: #A12624;
+  --color-accent-hover: #861e1c;
+  --color-header: #262626;
+  --font-heading: var(--font-montserrat, "Montserrat"), "Montserrat", Arial, sans-serif;
+  --font-body: var(--font-inter, "Inter"), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Desktop PC, Large Desktop, Extra Large PC / 2K (1280px - 2499px) */
+  --fs-h1: 2.5rem;          /* 40px - page title */
+  --fs-h2: 1.75rem;         /* 28px - section titles */
+  --fs-h3: 1.0625rem;       /* 17px - card title */
+  --fs-p: 0.9375rem;        /* 15px - page description */
+  --fs-navbar: 0.9375rem;   /* 15px */
+  --fs-button: 0.8125rem;   /* 13px */
+  --fs-filter: 1rem;        /* 16px - filter / sort labels */
+  --fs-small: 0.875rem;     /* 14px - breadcrumb, results, inputs, options */
+  --fs-card-desc: 0.875rem; /* 14px */
+  --fs-card-meta: 0.75rem;  /* 12px - category label */
+  --fs-price: 0.9375rem;    /* 15px */
+  --fs-footer-heading: 1.125rem;
+  --fs-footer-body: 0.9375rem;
+}
+
+@theme inline {
+  /* Desktop layout starts at 1025px so iPad Pro portrait (1024px) keeps the tablet layout.
+     Components use desk: instead of lg: (the root stylesheet also emits lg: at 1024px). */
+  --breakpoint-desk: 64.0625rem;
+  --color-primary: #353535;
+  --color-primary-hover: #404040;
+  --color-accent: #A12624;
+  --color-accent-hover: #861e1c;
+  --color-header: #262626;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.syprin-ap-root {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.syprin-ap-root .custom-container {
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) - multiplier ~0.75 */
+@media (max-width: 480px) {
+  .syprin-ap-root {
+    --fs-h1: 1.75rem;
+    --fs-h2: 1.25rem;
+    --fs-h3: 0.9375rem;
+    --fs-p: 0.8125rem;
+    --fs-navbar: 0.875rem;
+    --fs-button: 0.75rem;
+    --fs-filter: 0.875rem;
+    --fs-small: 0.75rem;
+    --fs-card-desc: 0.75rem;
+    --fs-card-meta: 0.625rem;
+    --fs-price: 0.8125rem;
+    --fs-footer-heading: 0.9375rem;
+    --fs-footer-body: 0.8125rem;
+  }
+  .syprin-ap-root .custom-container { max-width: 90%; }
+}
+
+/* Mobile Landscape Screen (481px - 767px) - multiplier ~0.85 */
+@media (min-width: 481px) and (max-width: 767px) {
+  .syprin-ap-root {
+    --fs-h1: 2rem;
+    --fs-h2: 1.4rem;
+    --fs-h3: 0.9375rem;
+    --fs-p: 0.85rem;
+    --fs-navbar: 0.875rem;
+    --fs-button: 0.75rem;
+    --fs-filter: 0.875rem;
+    --fs-small: 0.8rem;
+    --fs-card-desc: 0.8rem;
+    --fs-card-meta: 0.6875rem;
+    --fs-price: 0.875rem;
+    --fs-footer-heading: 1rem;
+    --fs-footer-body: 0.8125rem;
+  }
+  .syprin-ap-root .custom-container { max-width: 92%; }
+}
+
+/* Tablet / Tab Screen incl. iPad Pro portrait (768px - 1024px) - multiplier ~0.9 */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .syprin-ap-root {
+    --fs-h1: 2.25rem;
+    --fs-h2: 1.575rem;
+    --fs-h3: 1rem;
+    --fs-p: 0.875rem;
+    --fs-navbar: 0.875rem;
+    --fs-button: 0.75rem;
+    --fs-filter: 0.9375rem;
+    --fs-small: 0.8125rem;
+    --fs-card-desc: 0.8125rem;
+    --fs-card-meta: 0.6875rem;
+    --fs-price: 0.875rem;
+    --fs-footer-heading: 1rem;
+    --fs-footer-body: 0.875rem;
+  }
+  .syprin-ap-root .custom-container { max-width: 90%; }
+}
+
+/* Laptop Screen (1025px - 1279px) - multiplier ~0.95 */
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .syprin-ap-root {
+    --fs-h1: 2.375rem;
+    --fs-h2: 1.6625rem;
+    --fs-h3: 1rem;
+    --fs-p: 0.875rem;
+    --fs-navbar: 0.875rem;
+    --fs-button: 0.75rem;
+    --fs-filter: 0.9375rem;
+    --fs-small: 0.8125rem;
+    --fs-card-desc: 0.8125rem;
+    --fs-card-meta: 0.6875rem;
+    --fs-price: 0.875rem;
+    --fs-footer-heading: 1.0625rem;
+    --fs-footer-body: 0.875rem;
+  }
+  .syprin-ap-root .custom-container { max-width: 90%; }
+}
+
+/* Desktop PC (1280px - 1535px), Large Desktop (1536px - 1919px), 2K (1920px - 2499px): base sizes */
+@media (min-width: 1280px) and (max-width: 2499px) {
+  .syprin-ap-root .custom-container { max-width: 90%; }
+}
+
+/* Ultra-wide Screen (2500px - 3799px) - multiplier ~1.5 */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .syprin-ap-root {
+    --fs-h1: 3.75rem;
+    --fs-h2: 2.625rem;
+    --fs-h3: 1.6rem;
+    --fs-p: 1.4rem;
+    --fs-navbar: 1.4rem;
+    --fs-button: 1.2rem;
+    --fs-filter: 1.5rem;
+    --fs-small: 1.3rem;
+    --fs-card-desc: 1.3rem;
+    --fs-card-meta: 1.125rem;
+    --fs-price: 1.4rem;
+    --fs-footer-heading: 1.6875rem;
+    --fs-footer-body: 1.4rem;
+  }
+  .syprin-ap-root .custom-container { max-width: 85%; }
+}
+
+/* 4K Ultra-wide Screen (3800px and above) - multiplier ~2 */
+@media (min-width: 3800px) {
+  .syprin-ap-root {
+    --fs-h1: 5rem;
+    --fs-h2: 3.5rem;
+    --fs-h3: 2.125rem;
+    --fs-p: 1.875rem;
+    --fs-navbar: 1.875rem;
+    --fs-button: 1.625rem;
+    --fs-filter: 2rem;
+    --fs-small: 1.75rem;
+    --fs-card-desc: 1.75rem;
+    --fs-card-meta: 1.5rem;
+    --fs-price: 1.875rem;
+    --fs-footer-heading: 2.25rem;
+    --fs-footer-body: 1.875rem;
+  }
+  .syprin-ap-root .custom-container { max-width: 85%; }
+}
+
+/* Typography: Montserrat for headings + buttons, Inter for paragraphs */
+.syprin-ap-root h1 { font-size: var(--fs-h1); font-weight: 700; font-family: var(--font-heading); line-height: 1.25; }
+.syprin-ap-root h2 { font-size: var(--fs-h2); font-weight: 700; font-family: var(--font-heading); line-height: 1.35; }
+.syprin-ap-root h3 { font-size: var(--fs-h3); font-weight: 600; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-ap-root p, .syprin-ap-root li { font-size: var(--fs-p); font-weight: 400; font-family: var(--font-body); line-height: 1.6; }
+
+.syprin-ap-root .navbar { font-size: var(--fs-navbar); font-family: var(--font-body); }
+.syprin-ap-root .button { font-size: var(--fs-button); font-weight: 600; font-family: var(--font-heading); }
+.syprin-ap-root .filter-label { font-size: var(--fs-filter); font-weight: 700; font-family: var(--font-heading); }
+.syprin-ap-root .text-small { font-size: var(--fs-small); font-family: var(--font-body); }
+.syprin-ap-root .card-desc { font-size: var(--fs-card-desc); font-family: var(--font-body); line-height: 1.5; }
+.syprin-ap-root .card-meta { font-size: var(--fs-card-meta); font-weight: 500; font-family: var(--font-heading); letter-spacing: 0.04em; text-transform: uppercase; }
+.syprin-ap-root .footer-heading { font-size: var(--fs-footer-heading); font-weight: 700; font-family: var(--font-heading); line-height: 1.4; }
+.syprin-ap-root .footer-body { font-size: var(--fs-footer-body); font-weight: 400; font-family: var(--font-body); line-height: 1.6; }
+.syprin-ap-root .card-price { font-size: var(--fs-price); font-weight: 600; font-family: var(--font-body); }
+
+/*
+  This page is nested inside the /syprin layout, whose globals.css also loads here.
+  It forces Inter on .button with !important and sizes every <span>; undo both for this page.
+*/
+.syprin-ap-root .button { font-family: var(--font-heading) !important; }
+.syprin-ap-root span:not([class]) { font-size: inherit; }
+
+/* Price filter: two overlapping range inputs; only the thumbs take pointer events */
+.syprin-ap-root .price-range { -webkit-appearance: none; appearance: none; background: transparent; pointer-events: none; margin: 0; height: 100%; }
+.syprin-ap-root .price-range:focus { outline: none; }
+.syprin-ap-root .price-range::-webkit-slider-runnable-track { background: transparent; height: 100%; }
+.syprin-ap-root .price-range::-moz-range-track { background: transparent; }
+.syprin-ap-root .price-range::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; pointer-events: auto; cursor: pointer;
+  width: 14px; height: 14px; margin-top: 3px; border-radius: 9999px; background: #ffffff; border: 3px solid var(--color-accent);
+}
+.syprin-ap-root .price-range::-moz-range-thumb {
+  pointer-events: auto; cursor: pointer; width: 14px; height: 14px; border-radius: 9999px; background: #ffffff; border: 3px solid var(--color-accent);
+}
+.syprin-ap-root .price-range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px rgba(161, 38, 36, 0.4); }
+@media (min-width: 2500px) {
+  .syprin-ap-root .price-range::-webkit-slider-thumb { width: 24px; height: 24px; margin-top: 4px; border-width: 5px; }
+  .syprin-ap-root .price-range::-moz-range-thumb { width: 24px; height: 24px; border-width: 5px; }
+}

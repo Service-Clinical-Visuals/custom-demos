@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import SectionBadge from "./SectionBadge";
 import { ArrowRight } from "lucide-react";
 
@@ -159,13 +160,16 @@ export default function ProductCategories() {
               data-aos-delay={index * 50}
             >
               {/* Product Image: aspect-[350/305] */}
-              <div className="w-full aspect-[350/305] rounded-[10px] min-[3800px]:rounded-[16px] overflow-hidden mb-4 bg-[#0a1220] flex items-center justify-center">
+              <Link
+                href="/syprin/products"
+                className="block w-full aspect-[350/305] rounded-[10px] min-[3800px]:rounded-[16px] overflow-hidden mb-4 bg-[#0a1220]"
+              >
                 <img
                   src={product.image}
                   alt={product.title}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                 />
-              </div>
+              </Link>
 
               {/* Card Footer: Title + Arrow Action */}
               <div className="flex items-center justify-between gap-3 min-h-[60px] min-[3800px]:min-h-[90px]">
@@ -173,13 +177,13 @@ export default function ProductCategories() {
                   {product.title}
                 </h3>
 
-                <button
-                  type="button"
+                <Link
+                  href="/syprin/products"
                   aria-label={`View ${product.title}`}
                   className="w-[40px] h-[40px] min-[3800px]:w-[65px] min-[3800px]:h-[65px] rounded-full bg-[#A12624] hover:bg-[#861e1c] text-white flex items-center justify-center flex-shrink-0 transition-all duration-200 group-hover:scale-110 shadow-md cursor-pointer"
                 >
                   <ArrowRight className="w-4 h-4 min-[3800px]:w-7 min-[3800px]:h-7" strokeWidth={2.5} />
-                </button>
+                </Link>
               </div>
             </div>
           ))}

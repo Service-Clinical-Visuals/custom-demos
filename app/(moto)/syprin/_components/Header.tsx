@@ -3,10 +3,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Search, ShoppingCart, Heart, ChevronDown, Menu, X } from "lucide-react";
+import { useSitePathname } from "@/app/_hooks/useSitePathname";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = useSitePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,7 +20,8 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { label: "Home", href: "/syprin", active: true },
+    { label: "Home", href: "/syprin", active: pathname === "/" },
+    { label: "Home-2", href: "/syprin/home-2", active: pathname.startsWith("/home-2") },
     { label: "Dealer Section", href: "#", hasDropdown: true },
     { label: "Shop", href: "#" },
     { label: "About Us", href: "#" },
