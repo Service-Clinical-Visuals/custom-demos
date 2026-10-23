@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Heritage() {
   return (
     <section id="heritage" className="py-14 md:py-20 desk:py-24 min-[2500px]:py-36 min-[3800px]:py-48 overflow-hidden">
-      <div className="custom-container grid grid-cols-1 desk:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] items-center gap-10 md:gap-14 desk:gap-16 xl:gap-24 min-[2500px]:gap-36">
+      <div className="custom-container grid grid-cols-1 xl:grid-cols-2  items-center gap-10 xl:gap-8 min-[2500px]:gap-12">
         {/* Text */}
-        <div className="min-w-0 desk:max-w-[640px] min-[2500px]:max-w-[1000px] min-[3800px]:max-w-[1350px]">
+        <div className="min-w-0 desk:max-w-[640px] xl:max-w-none">
           <div className="flex items-center gap-2.5 min-[2500px]:gap-4">
             <span className="w-5 min-[2500px]:w-8 h-[3px] min-[2500px]:h-[5px] rounded-full bg-accent" />
             <span className="tag-label text-[#F6F6F6]">Original Syprin</span>
@@ -36,12 +36,14 @@ export default function Heritage() {
         </div>
 
         {/* Logo card (card + red backdrop are both in the image) */}
-        <div className="flex justify-center desk:justify-end">
+        <div className="grid justify-items-center desk:justify-items-end">
           <img
             src="/moto/syprin/abt.webp"
             alt="ORIGINAL SYPRIN logo"
             loading="lazy"
-            className="w-full max-w-[420px] sm:max-w-[480px] desk:max-w-[460px] xl:max-w-[520px] min-[2500px]:max-w-[820px] min-[3800px]:max-w-[1100px] h-auto object-contain"
+            width={827}
+            height={687}
+            className="w-full  aspect-[827/687] h-auto object-contain"
           />
         </div>
       </div>
