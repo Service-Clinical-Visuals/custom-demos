@@ -27,7 +27,7 @@ export default function ProductCategories() {
     {
       id: 2,
       title: "ORIGINAL SYPRIN Bicycle Chain Oil",
-      image: "/moto/syprin/p2.webp",
+      image: "/moto/syprin/p2.webp?v=2",
       category: "Oil",
     },
     {

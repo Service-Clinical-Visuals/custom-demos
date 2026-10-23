@@ -3,7 +3,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
-const img = (n: number) => `/moto/syprin/p${n}.webp`;
+// Bump the version when an image is replaced, so browsers skip their cached copy
+const updated = [2];
+const img = (n: number) => `/moto/syprin/p${n}.webp${updated.includes(n) ? "?v=2" : ""}`;
 
 const tabs = [
   { key: "oil", label: "Oil", images: [3, 2, 1] },

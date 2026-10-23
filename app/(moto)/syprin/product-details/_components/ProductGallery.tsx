@@ -3,7 +3,11 @@
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
 
-const images = [1, 2, 3, 4, 5, 6, 7].map((n) => `/moto/syprin-productdetail/${n}.webp`);
+// Bump the version when a gallery image is replaced, so browsers skip their cached copy
+const updated = [3, 4, 5, 6, 7];
+const images = [1, 2, 3, 4, 5, 6, 7].map(
+  (n) => `/moto/syprin-productdetail/${n}.webp${updated.includes(n) ? "?v=2" : ""}`
+);
 
 export default function ProductGallery() {
   const [active, setActive] = useState(0);
