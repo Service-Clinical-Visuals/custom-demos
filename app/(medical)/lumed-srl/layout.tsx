@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import AOSInit from "./_components/AOSInit";
+import LenisProvider from "./_components/LenisProvider";
 import { VideoProvider } from "../../_context/VideoContext";
 
 const geist = Geist({
@@ -33,12 +34,14 @@ export default function Layout({
   return (
     <html lang="en" className={`${geist.variable} ${spaceGrotesk.variable} font-sans`} suppressHydrationWarning>
       <body className="min-h-screen bg-white font-sans antialiased text-[#333333]">
-        <VideoProvider>
-          <AOSInit />
-          <div className="overflow-x-hidden relative w-full">
-            {children}
-          </div>
-        </VideoProvider>
+        <LenisProvider>
+          <VideoProvider>
+            <AOSInit />
+            <div className="overflow-x-hidden relative w-full">
+              {children}
+            </div>
+          </VideoProvider>
+        </LenisProvider>
       </body>
     </html>
   );

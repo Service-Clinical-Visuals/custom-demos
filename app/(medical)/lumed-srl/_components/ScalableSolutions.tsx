@@ -83,12 +83,15 @@ export default function ScalableSolutions() {
                     {/* Right Side: Video Player (col-span 6) */}
                     <div className="lg:col-span-6" data-aos="fade-left" data-aos-delay="100">
                         <div className="w-full aspect-video bg-gray-50 overflow-hidden shadow-lg relative min-h-[300px] md:min-h-[400px]">
-                            <DynamicVideoPlayer
+                            <img
+                                src="/medical/lumed-srl/t1.jpg"
+                                alt="EUROHOLTER Analysis"
+                                className="w-full h-full object-cover"
+                            />
+                            {/* <DynamicVideoPlayer
                                 type="short-1"
                                 className="w-full h-full aspect-video object-cover"
-                            />
-
-
+                            /> */}
                         </div>
                     </div>
 
@@ -101,7 +104,7 @@ export default function ScalableSolutions() {
                     <div className="lg:col-span-6 flex items-start" data-aos="fade-right" data-aos-delay="200">
                         <div className="w-full max-w-[791px] aspect-[4/3] sm:aspect-[791/358] lg:h-[358px] overflow-hidden rounded-xl md:rounded-none shadow-md border border-gray-100 bg-white">
                             <img
-                                src="/medical/lumed-srl/scalable.webp"
+                                src="/medical/lumed-srl/t2.jpg"
                                 alt="LUMED Holter Analysis Procedure"
                                 className="w-full h-full object-cover  hover:scale-105 transition-transform duration-700 ease-out"
                             />

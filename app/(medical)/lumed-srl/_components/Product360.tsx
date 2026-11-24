@@ -24,11 +24,15 @@ export default function Product360() {
                     {/* Left Column: 360-degree Checkerboard Placeholder (col-span 6) */}
                     <div className="lg:col-span-6" data-aos="fade-right">
                         <div
-                            className="w-full aspect-video rounded-xl overflow-hidden shadow-md  relative min-h-[220px] flex items-center justify-center select-none"
+                            className="w-full aspect-video rounded-xl overflow-hidden shadow-md relative min-h-[220px] flex items-center justify-center select-none bg-gray-50"
                         >
-                            <DynamicVideoPlayer
-                                type="360" />
-
+                            <img
+                                src="/medical/lumed-srl/BF1.png"
+                                alt="BF1 Product"
+                                className="w-full h-full object-cover"
+                            />
+                            {/* <DynamicVideoPlayer
+                                type="360" /> */}
                         </div>
                     </div>
 
@@ -44,19 +48,19 @@ export default function Product360() {
                                 02 / Product
                             </Typography>
                             <Typography variant="h2" color="dark" className="leading-tight tracking-tight font-bold">
-                                3/12-channel holter ECG systems
+                                BOFAP, cardboard viral-bacterial filters
                             </Typography>
                         </div>
 
                         <div className="space-y-4">
                             <Typography variant="body" color="muted" className="leading-relaxed font-normal">
-                                EUROHOLTER complete solution for recording and analyzing Holter exams. Lightweight and compact recorders combined with EUROHOLTER SW3/12 software for reporting and EUORHOLTER HOOKUP software for programming and downloading the recorders. It is one of the main devices for cardiopulmonary diagnostics.
+                                LUMED has invented, patented, and manufactures a device that eliminates the use of plastic in spirometry. The cardboard mouthpiece does not protect patients and operators from viral and bacterial contamination. Traditional bacterial and viral filters (BV filters) do offer this protection, but they are made from plastic.
                             </Typography>
                             <Typography variant="body" color="muted" className="leading-relaxed font-normal">
-                                The EUROHOLTER SW3/12 software has all the recording analysis and validation functions, from Compact to atrial fibrillation and pacemaker analysis. A package of additional advanced algorithms is also available. A package of additional advanced algorithms is also available. The commands are given via mouse or keyboard, so that reporting is extremely rapid.
+                                Our device, named BOFAP, is a bacterial and viral filter for spirometry that is both disposable and recyclable with paper, including its individual packaging. The carbon footprint accounts for about half of a product&apos;s or activity&apos;s overall ecological impact, representing its contribution to pollution.
                             </Typography>
                             <Typography variant="body" color="muted" className="leading-relaxed font-normal">
-                                A package of additional advanced algorithms is also available. The commands are given via mouse or keyboard, so that reporting is extremely rapid. Verification of the positioning of Holter electrodes. EUROHOLTER recorders use standard disposable ECG electrodes.
+                                By using just five BOFAPs, I can reduce the equivalent of 1 kilogram of CO2 released into the atmosphere.
                             </Typography>
                         </div>
                     </div>
