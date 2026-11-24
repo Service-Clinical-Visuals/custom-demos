@@ -6,7 +6,6 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 const geist = Geist({
   variable: "--font-geist",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"], // choose weights you need
 });
 
 export const metadata: Metadata = {
