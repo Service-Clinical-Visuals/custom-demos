@@ -35,7 +35,7 @@ const products: Product[] = [
         tags: ["Disposable and consumables", "Spirometers and accessories"],
         title: "BOFAP, cardboard viral-bacterial filters",
         description: "BV filter in recyclable cardboard, plastic-free, protects against viruses and bacteria. Hygienic, sustainable, and high-performance.",
-        image: "/medical/lumed-srl/products/p1.png",
+        image: "/medical/lumed-srl/products/p1.webp",
         breadcrumbCategory: "Spirometers and accessories",
         brochureUrl: "/medical/lumed-srl/products/p1.pdf",
         detailedDescription: [
@@ -49,10 +49,10 @@ const products: Product[] = [
             "Elimination of plastic use"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p1.png",
-            "/medical/lumed-srl/products/p2.jpg",
-            "/medical/lumed-srl/products/p3.png",
-            "/medical/lumed-srl/products/p4.png"
+            "/medical/lumed-srl/products/p1.webp",
+            "/medical/lumed-srl/products/p2.webp",
+            "/medical/lumed-srl/products/p3.webp",
+            "/medical/lumed-srl/products/p4.webp"
         ]
     },
     {
@@ -61,7 +61,7 @@ const products: Product[] = [
         tags: ["Disposable and consumables", "Spirometers and accessories"],
         title: "Plastic Viral Bacterial Filters",
         description: "Disposable spirometry filters with >99.99% efficiency. Low resistance and maximum protection for patients and instruments.",
-        image: "/medical/lumed-srl/products/p2.jpg",
+        image: "/medical/lumed-srl/products/p2.webp",
         breadcrumbCategory: "Spirometers and accessories",
         brochureUrl: "/medical/lumed-srl/products/p2.pdf",
         detailedDescription: [
@@ -75,10 +75,10 @@ const products: Product[] = [
             "Individually sealed packaging for hygiene"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p2.jpg",
-            "/medical/lumed-srl/products/p1.png",
-            "/medical/lumed-srl/products/p3.png",
-            "/medical/lumed-srl/products/p4.png"
+            "/medical/lumed-srl/products/p2.webp",
+            "/medical/lumed-srl/products/p1.webp",
+            "/medical/lumed-srl/products/p3.webp",
+            "/medical/lumed-srl/products/p4.webp"
         ]
     },
     {
@@ -87,7 +87,7 @@ const products: Product[] = [
         tags: ["Disposable and consumables", "Spirometers and accessories"],
         title: "Cardboard Mouthpieces",
         description: "12-lead ECG with adjustable display, advanced connectivity, precise diagnostics, paperless, ideal for clinics and hospital departments.",
-        image: "/medical/lumed-srl/products/p3.png",
+        image: "/medical/lumed-srl/products/p3.webp",
         breadcrumbCategory: "Spirometers and accessories",
         detailedDescription: [
             "Precision-engineered cardboard mouthpieces designed for single-patient spirometry testing.",
@@ -100,10 +100,10 @@ const products: Product[] = [
             "High structural rigidity during deep inhalations/exhalations"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p3.png",
-            "/medical/lumed-srl/products/p1.png",
-            "/medical/lumed-srl/products/p2.jpg",
-            "/medical/lumed-srl/products/p4.png"
+            "/medical/lumed-srl/products/p3.webp",
+            "/medical/lumed-srl/products/p1.webp",
+            "/medical/lumed-srl/products/p2.webp",
+            "/medical/lumed-srl/products/p4.webp"
         ]
     },
     {
@@ -112,7 +112,7 @@ const products: Product[] = [
         tags: ["Disposable and consumables", "Spirometers and accessories"],
         title: "Nose Clips",
         description: "Disposable spirometry nose clips, improve test reliability by preventing air leaks, comfortable, safe, and hypoallergenic.",
-        image: "/medical/lumed-srl/products/p4.png",
+        image: "/medical/lumed-srl/products/p4.webp",
         breadcrumbCategory: "Spirometers and accessories",
         detailedDescription: [
             "Ergonomic disposable nose clips formulated with soft, hypoallergenic padding to prevent air leakage during spirometry exams.",
@@ -125,10 +125,10 @@ const products: Product[] = [
             "Disposable single-use format to prevent cross-infection"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p4.png",
-            "/medical/lumed-srl/products/p1.png",
-            "/medical/lumed-srl/products/p2.jpg",
-            "/medical/lumed-srl/products/p3.png"
+            "/medical/lumed-srl/products/p4.webp",
+            "/medical/lumed-srl/products/p1.webp",
+            "/medical/lumed-srl/products/p2.webp",
+            "/medical/lumed-srl/products/p3.webp"
         ]
     },
 
@@ -139,7 +139,7 @@ const products: Product[] = [
         tags: ["Medical Equipment", "ECG"],
         title: "3-channel electrocardiograph",
         description: "3-lead ECG with 7” display, USB memory, advanced diagnostics, compact and portable, with advanced connectivity.",
-        image: "/medical/lumed-srl/products/p5.png",
+        image: "/medical/lumed-srl/products/p5.webp",
         breadcrumbCategory: "ECG Equipment",
         detailedDescription: [
             "EUROECG 301 is a professional 3-lead electrocardiograph that strikes the ideal balance between budget, portability, and reliable diagnostics.",
@@ -152,10 +152,10 @@ const products: Product[] = [
             "Lightweight and portable with high-capacity battery"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p5.png",
-            "/medical/lumed-srl/products/p6.png",
-            "/medical/lumed-srl/products/p7.png",
-            "/medical/lumed-srl/products/p8.png"
+            "/medical/lumed-srl/products/p5.webp",
+            "/medical/lumed-srl/products/p6.webp",
+            "/medical/lumed-srl/products/p7.webp",
+            "/medical/lumed-srl/products/p8.webp"
         ]
     },
     {
@@ -164,7 +164,7 @@ const products: Product[] = [
         tags: ["Medical Equipment", "ECG"],
         title: "6-channel electrocardiograph",
         description: "6-lead ECG with 7” display, advanced connectivity, USB memory, flexible reports, ideal for specialists.",
-        image: "/medical/lumed-srl/products/p6.png",
+        image: "/medical/lumed-srl/products/p6.webp",
         breadcrumbCategory: "ECG Equipment",
         detailedDescription: [
             "EUROECG 601 professional 6-lead ECG machine is the best compromise between high diagnostic performance and compact size.",
@@ -177,10 +177,10 @@ const products: Product[] = [
             "Extensive internal storage for patient records"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p6.png",
-            "/medical/lumed-srl/products/p5.png",
-            "/medical/lumed-srl/products/p7.png",
-            "/medical/lumed-srl/products/p8.png"
+            "/medical/lumed-srl/products/p6.webp",
+            "/medical/lumed-srl/products/p5.webp",
+            "/medical/lumed-srl/products/p7.webp",
+            "/medical/lumed-srl/products/p8.webp"
         ]
     },
     {
@@ -189,7 +189,7 @@ const products: Product[] = [
         tags: ["Medical Equipment", "ECG"],
         title: "Cardboard Mouthpieces",
         description: "12-lead ECG with adjustable display, advanced connectivity, precise diagnostics, paperless, ideal for clinics and hospital departments.",
-        image: "/medical/lumed-srl/products/p7.png",
+        image: "/medical/lumed-srl/products/p7.webp",
         breadcrumbCategory: "Medical Equipment",
         detailedDescription: [
             "EUROECG 1201A is designed for the demanding requirements of hospital cardiology wards and diagnostic practices.",
@@ -202,10 +202,10 @@ const products: Product[] = [
             "High-resolution high-contrast tiltable display"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p7.png",
-            "/medical/lumed-srl/products/p5.png",
-            "/medical/lumed-srl/products/p6.png",
-            "/medical/lumed-srl/products/p8.png"
+            "/medical/lumed-srl/products/p7.webp",
+            "/medical/lumed-srl/products/p5.webp",
+            "/medical/lumed-srl/products/p6.webp",
+            "/medical/lumed-srl/products/p8.webp"
         ]
     },
     {
@@ -214,7 +214,7 @@ const products: Product[] = [
         tags: ["Medical Equipment", "ECG"],
         title: "ECG Simulator",
         description: "ECG simulator with 32 waveforms, safe verification of cardiopulmonary devices, easy to use, long battery life.",
-        image: "/medical/lumed-srl/products/p8.png",
+        image: "/medical/lumed-srl/products/p8.webp",
         breadcrumbCategory: "Diagnostic Equipment",
         detailedDescription: [
             "Phantom 320 simulator reproduces 32 distinct physiological and pathological ECG waveforms for testing and calibration.",
@@ -227,10 +227,10 @@ const products: Product[] = [
             "Standard snap/banana pin jacks for universal cables"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p8.png",
-            "/medical/lumed-srl/products/p5.png",
-            "/medical/lumed-srl/products/p6.png",
-            "/medical/lumed-srl/products/p7.png"
+            "/medical/lumed-srl/products/p8.webp",
+            "/medical/lumed-srl/products/p5.webp",
+            "/medical/lumed-srl/products/p6.webp",
+            "/medical/lumed-srl/products/p7.webp"
         ]
     },
 
@@ -241,7 +241,7 @@ const products: Product[] = [
         tags: ["Accessories", "ECG"],
         title: "ECG simulator",
         description: "ECG simulator with 32 waveforms, safe verification of cardiopulmonary devices, easy to use, long battery life.",
-        image: "/medical/lumed-srl/products/p9.png",
+        image: "/medical/lumed-srl/products/p9.webp",
         breadcrumbCategory: "ECG Accessories",
         detailedDescription: [
             "Essential calibration and signal verification simulator with dedicated lead outputs.",
@@ -254,10 +254,10 @@ const products: Product[] = [
             "Long standby and operational battery life"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p9.png",
-            "/medical/lumed-srl/products/p10.png",
-            "/medical/lumed-srl/products/p11.png",
-            "/medical/lumed-srl/products/p12.png"
+            "/medical/lumed-srl/products/p9.webp",
+            "/medical/lumed-srl/products/p10.webp",
+            "/medical/lumed-srl/products/p11.webp",
+            "/medical/lumed-srl/products/p12.webp"
         ]
     },
     {
@@ -266,7 +266,7 @@ const products: Product[] = [
         tags: ["Accessories", "ECG"],
         title: "6-channel electrocardiograph",
         description: "6-lead ECG with 7” display, advanced connectivity, USB memory, flexible reports, ideal for specialists.",
-        image: "/medical/lumed-srl/products/p10.png",
+        image: "/medical/lumed-srl/products/p10.webp",
         breadcrumbCategory: "ECG Accessories",
         detailedDescription: [
             "Versatile accessory modules and patient cabling designed for multi-channel ECG monitoring.",
@@ -279,10 +279,10 @@ const products: Product[] = [
             "High impedance shielding to minimize motion artifacts"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p10.png",
-            "/medical/lumed-srl/products/p9.png",
-            "/medical/lumed-srl/products/p11.png",
-            "/medical/lumed-srl/products/p12.png"
+            "/medical/lumed-srl/products/p10.webp",
+            "/medical/lumed-srl/products/p9.webp",
+            "/medical/lumed-srl/products/p11.webp",
+            "/medical/lumed-srl/products/p12.webp"
         ]
     },
     {
@@ -291,7 +291,7 @@ const products: Product[] = [
         tags: ["Accessories", "ECG"],
         title: "Cardboard Mouthpieces",
         description: "12-lead ECG with adjustable display, advanced connectivity, precise diagnostics, paperless, ideal for clinics and hospital departments.",
-        image: "/medical/lumed-srl/products/p11.png",
+        image: "/medical/lumed-srl/products/p11.webp",
         breadcrumbCategory: "Spirometry Accessories",
         detailedDescription: [
             "Eco-friendly disposable spirometer mouthpieces compatible with leading clinical sensor heads.",
@@ -304,10 +304,10 @@ const products: Product[] = [
             "100% recyclable after clinical use"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p11.png",
-            "/medical/lumed-srl/products/p9.png",
-            "/medical/lumed-srl/products/p10.png",
-            "/medical/lumed-srl/products/p12.png"
+            "/medical/lumed-srl/products/p11.webp",
+            "/medical/lumed-srl/products/p9.webp",
+            "/medical/lumed-srl/products/p10.webp",
+            "/medical/lumed-srl/products/p12.webp"
         ]
     },
     {
@@ -316,7 +316,7 @@ const products: Product[] = [
         tags: ["Accessories", "ECG"],
         title: "ECG Simulator",
         description: "ECG simulator with 32 waveforms, safe verification of cardiopulmonary devices, easy to use, long battery life.",
-        image: "/medical/lumed-srl/products/p12.png",
+        image: "/medical/lumed-srl/products/p12.webp",
         breadcrumbCategory: "Accessories",
         detailedDescription: [
             "Professional cardiac testing simulator for verification, technician training, and functional safety checks.",
@@ -329,10 +329,10 @@ const products: Product[] = [
             "Zero maintenance solid-state architecture"
         ],
         gallery: [
-            "/medical/lumed-srl/products/p12.png",
-            "/medical/lumed-srl/products/p9.png",
-            "/medical/lumed-srl/products/p10.png",
-            "/medical/lumed-srl/products/p11.png"
+            "/medical/lumed-srl/products/p12.webp",
+            "/medical/lumed-srl/products/p9.webp",
+            "/medical/lumed-srl/products/p10.webp",
+            "/medical/lumed-srl/products/p11.webp"
         ]
     }
 ];

@@ -27,7 +27,7 @@ export default function Product360() {
                             className="w-full aspect-video rounded-xl overflow-hidden shadow-md relative min-h-[220px] flex items-center justify-center select-none bg-gray-50"
                         >
                             <img
-                                src="/medical/lumed-srl/BF1.png"
+                                src="/medical/lumed-srl/BF1.webp"
                                 alt="BF1 Product"
                                 className="w-full h-full object-cover"
                             />
